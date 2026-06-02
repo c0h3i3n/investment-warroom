@@ -7,7 +7,7 @@ const IndicatorsService = (() => {
 
   // ── Check if library is loaded ──
   function isReady() {
-    return typeof window.technicalindicators !== 'undefined';
+    return typeof window.rsi !== 'undefined';
   }
 
   // ── Extract close prices from OHLCV data ──
@@ -32,7 +32,7 @@ const IndicatorsService = (() => {
     if (!isReady() || closes.length < period + 1) return null;
     try {
       const input = { values: closes, period };
-      const result = window.technicalindicators.rsi(input);
+      const result = window.rsi(input);
       return result[result.length - 1]; // latest value
     } catch (e) {
       console.error('RSI calc error:', e);
@@ -52,7 +52,7 @@ const IndicatorsService = (() => {
         SimpleMAOscillator: false,
         SimpleMASignal: false,
       };
-      const result = window.technicalindicators.macd(input);
+      const result = window.macd(input);
       const latest = result[result.length - 1];
       return {
         macd: latest.MACD,
@@ -77,7 +77,7 @@ const IndicatorsService = (() => {
         period: 9,
         signalPeriod: 3,
       };
-      const result = window.technicalindicators.stochastic(input);
+      const result = window.stochastic(input);
       const latest = result[result.length - 1];
       return {
         k: latest.k,
