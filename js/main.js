@@ -273,6 +273,9 @@ const App = (() => {
   };
 })();
 
+// ── Expose to window for onclick handlers ──
+window.App = App;
+
 // ── Auto-start when DOM is ready ──
 document.addEventListener('DOMContentLoaded', () => {
   App.init();
