@@ -249,16 +249,7 @@ const App = (() => {
     updateMarketStatus();
     startPriceFlicker();
 
-    // Initial data fetch
-    await fetchAllData(true);
-
-    // Start periodic refresh
-    startAutoRefresh();
-
-    // Clock tick
-    setInterval(updateClock, 1000);
-
-    // Bind indicator load button
+    // Bind indicator load button (must be before data fetch to avoid blocking)
     var indBtn = document.getElementById('ind-load-btn');
     if (indBtn) {
       indBtn.addEventListener('click', function() {
@@ -270,6 +261,17 @@ const App = (() => {
         });
       });
     }
+
+    // Initial data fetch
+    await fetchAllData(true);
+
+    // Start periodic refresh
+    startAutoRefresh();
+
+    // Clock tick
+    setInterval(updateClock, 1000);
+
+
 
     console.log('J.A.R.V.I.S WARROOM v3.1 · SYSTEM ONLINE');
   }
