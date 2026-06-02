@@ -425,7 +425,8 @@ body {
 .n-tag.us    { color:var(--arc);  border-color:var(--arc);  box-shadow:0 0 8px var(--arc-glow); }
 .n-tag.macro { color:#cc88ff; border-color:#cc88ff; box-shadow:0 0 8px rgba(200,100,255,.3); }
 
-.n-headline { font-size:12px; color:var(--text); line-height:1.5; margin-bottom:4px; font-weight:300; }
+.n-headline { font-size:12px; color:var(--text); line-height:1.5; margin-bottom:4px; font-weight:300; text-decoration:none; display:block; }
+.n-headline[href]:hover { color:var(--arc); text-decoration:underline; }
 .n-meta { font-family:'Orbitron',sans-serif; font-size:8px; letter-spacing:1px; color:var(--text-dim); display:flex; gap:12px; align-items:center; }
 .n-impact { display:flex; align-items:center; gap:4px; }
 .n-dot { width:5px; height:5px; border-radius:50%; }

@@ -50,6 +50,7 @@ const NewsService = (() => {
           source: source || feedConfig.name,
           time,
           impact: detectImpact(item.title || ''),
+          link: item.link || '',
         };
       });
     } catch (e) {

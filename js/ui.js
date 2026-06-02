@@ -268,11 +268,15 @@ const UI = (() => {
     const left = newsItems.slice(0, half);
     const right = newsItems.slice(half);
 
-    const renderCol = (items) => items.map(n => `
+    const renderCol = (items) => items.map(n => {
+      const headlineHtml = n.link
+        ? `<a class="n-headline" href="${n.link}" target="_blank" rel="noopener">${n.headline}</a>`
+        : `<span class="n-headline">${n.headline}</span>`;
+      return `
       <div class="news-item">
         <div class="n-tag ${n.region === 'TW' ? 'tw' : n.region === 'US' ? 'us' : 'macro'}">${n.region}</div>
         <div>
-          <div class="n-headline">${n.headline}</div>
+          ${headlineHtml}
           <div class="n-meta">
             <span>${n.source}</span><span>${n.time}</span>
             <div class="n-impact">
@@ -281,8 +285,8 @@ const UI = (() => {
             </div>
           </div>
         </div>
-      </div>
-    `).join('');
+      </div>`;
+    }).join('');
 
     container.innerHTML = `<div>${renderCol(left)}</div><div>${renderCol(right)}</div>`;
   }
