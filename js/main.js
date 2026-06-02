@@ -109,10 +109,7 @@ const App = (() => {
       // 3. Portfolio stats
       updatePortfolio();
 
-      // 4. Technical indicators - show load button
-      if (watchlist.length > 0) {
-        UI.showIndicatorPrompt(watchlist[0].symbol);
-      }
+      // 4. Technical indicators - load on demand via HTML button
 
       // 5. News
       updateNews(forceRefresh);
