@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════
-// J.A.R.V.I.S · DATA LAYER v3.1
-// Multi-source: Yahoo Finance + TWSE MIS
+// J.A.R.V.I.S · DATA LAYER v3.2
+// Multi-source: Yahoo Finance v8 + TWSE MIS
 // Multiple CORS proxy fallback
 // ═══════════════════════════════════════
 
@@ -38,16 +38,13 @@ const DataService = (() => {
   // PARSE PROXY RESPONSE (handles allorigins wrapper)
   // ═══════════════════════════════════════
   function parseProxyResponse(text) {
-    // Try direct JSON first
     try {
       const json = JSON.parse(text);
-      // allorigins wraps in { contents: "<json string>", status: {...} }
       if (json.contents) {
         try { return JSON.parse(json.contents); } catch { return json.contents; }
       }
       return json;
     } catch {}
-    // Return as text if not JSON
     return text;
   }
 
@@ -107,35 +104,52 @@ const DataService = (() => {
   }
 
   // ═══════════════════════════════════════
-  // FETCH QUOTES — Yahoo Finance via proxy
+  // FETCH SINGLE QUOTE via v8 chart API
+  // ═══════════════════════════════════════
+  async function fetchOneChartQuote(symbol) {
+    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?range=1d&interval=1d`;
+    try {
+      const json = await fetchWithProxy(url, 8000);
+      const meta = json?.chart?.result?.[0]?.meta;
+      if (!meta) return null;
+
+      const price = meta.regularMarketPrice;
+      const prevClose = meta.previousClose || meta.chartPreviousClose;
+
+      return {
+        symbol: meta.symbol,
+        name: meta.shortName || meta.longName || meta.symbol,
+        price: price,
+        change: (price != null && prevClose != null) ? price - prevClose : null,
+        changePct: (prevClose && price != null) ? ((price - prevClose) / prevClose * 100) : null,
+        prevClose: prevClose,
+        currency: meta.currency,
+      };
+    } catch (e) {
+      console.warn(`fetchOneChartQuote ${symbol} failed:`, e.message);
+      return null;
+    }
+  }
+
+  // ═══════════════════════════════════════
+  // FETCH QUOTES — parallel v8 chart calls
   // ═══════════════════════════════════════
   async function fetchQuotes(symbols) {
     const key = `quotes:${symbols.join(',')}`;
     const cached = getCached(key);
     if (cached) return cached;
 
-    const url = CONFIG.YAHOO_QUOTE + symbols.join(',');
     try {
-      const json = await fetchWithProxy(url);
-      const result = json?.quoteResponse?.result;
-      if (!result || result.length === 0) throw new Error('Empty quote response');
-
-      const mapped = result.map(r => ({
-        symbol: r.symbol,
-        name: r.shortName || r.longName || r.symbol,
-        price: r.regularMarketPrice,
-        change: r.regularMarketChange,
-        changePct: r.regularMarketChangePercent,
-        prevClose: r.regularMarketPreviousClose,
-        currency: r.currency,
-      }));
-
-      setCache(key, mapped);
-      return mapped;
+      const results = await Promise.all(symbols.map(s => fetchOneChartQuote(s)));
+      const valid = results.filter(r => r != null);
+      if (valid.length > 0) {
+        setCache(key, valid);
+        return valid;
+      }
     } catch (e) {
       console.warn('fetchQuotes failed:', e.message);
-      return null;
     }
+    return null;
   }
 
   // ═══════════════════════════════════════
@@ -185,7 +199,7 @@ const DataService = (() => {
   }
 
   // ═══════════════════════════════════════
-  // FETCH INDEXES — MIS for TW, Yahoo for US
+  // FETCH INDEXES — MIS for TW, Yahoo v8 for US
   // ═══════════════════════════════════════
   async function fetchIndexes() {
     const key = 'indexes:all';
@@ -221,7 +235,7 @@ const DataService = (() => {
       }
     }
 
-    // ── US indexes via Yahoo ──
+    // ── US indexes via Yahoo v8 chart ──
     const usIdxConfigs = CONFIG.INDEXES.filter(i => !i.misKey);
     if (usIdxConfigs.length > 0) {
       const usSymbols = usIdxConfigs.map(i => i.symbol);
@@ -267,7 +281,7 @@ const DataService = (() => {
     const cached = getCached(key);
     if (cached) return cached;
 
-    const url = `${CONFIG.YAHOO_CHART}${symbol}?range=${range}&interval=${interval}`;
+    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?range=${range}&interval=${interval}`;
     try {
       const json = await fetchWithProxy(url, 15000);
       const result = json?.chart?.result?.[0];
@@ -322,7 +336,7 @@ const DataService = (() => {
       twData = await fetchMISQuotes(twSymbols);
     }
 
-    // Try Yahoo for all (US must use Yahoo, and serves as TW fallback)
+    // Try Yahoo v8 for all
     const yahooData = await fetchQuotes(allSymbols);
 
     // Merge: prefer MIS for TW, Yahoo for US
@@ -358,17 +372,6 @@ const DataService = (() => {
     });
 
     return result.length > 0 ? result : null;
-  }
-
-  // ═══════════════════════════════════════
-  // FALLBACK HELPERS
-  // ═══════════════════════════════════════
-  function getFallbackQuotes(symbols) {
-    return symbols.map(s => {
-      const fb = FALLBACK_QUOTES[s];
-      if (fb) return { symbol: s, ...fb };
-      return { symbol: s, name: s, price: null, change: null, changePct: null };
-    });
   }
 
   // ═══════════════════════════════════════
