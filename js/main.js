@@ -103,6 +103,11 @@ const App = (() => {
           });
           UI.renderWatchlist(watchData);
           UI.renderTicker(watchData);
+
+          // Fetch sparklines for watchlist (non-blocking)
+          DataService.fetchSparklines(wSymbols).then(sparkData => {
+            UI.renderWatchlist(watchData, sparkData);
+          });
         }
       }
 

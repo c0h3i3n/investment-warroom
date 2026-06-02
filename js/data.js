@@ -383,6 +383,21 @@ const DataService = (() => {
   }
 
   // ═══════════════════════════════════════
+  // FETCH SPARKLINES — batch historical for watchlist
+  // ═══════════════════════════════════════
+  async function fetchSparklines(symbols) {
+    const sparkMap = {};
+    const results = await Promise.all(
+      symbols.map(async (s) => {
+        const data = await fetchHistorical(s, '3mo', '1d');
+        return { symbol: s, closes: data ? data.map(d => d.close).filter(v => v != null) : null };
+      })
+    );
+    results.forEach(r => { sparkMap[r.symbol] = r.closes; });
+    return sparkMap;
+  }
+
+  // ═══════════════════════════════════════
   // PUBLIC API
   // ═══════════════════════════════════════
   return {
@@ -391,6 +406,7 @@ const DataService = (() => {
     fetchHistorical,
     fetchIndexes,
     fetchAllQuotes,
+    fetchSparklines,
     clearCache,
   };
 })();

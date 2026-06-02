@@ -149,9 +149,25 @@ const UI = (() => {
   }
 
   // ═══════════════════════════════════════
+  // SPARKLINE HELPER — normalize real data to SVG points
+  // ═══════════════════════════════════════
+  function normalizeSparkline(closes, w, h) {
+    if (!closes || closes.length < 2) return null;
+    const min = Math.min(...closes);
+    const max = Math.max(...closes);
+    const range = max - min || 1;
+    const step = w / (closes.length - 1);
+    return closes.map((v, i) => {
+      const x = (i * step).toFixed(1);
+      const y = (h - ((v - min) / range) * (h - 4) - 2).toFixed(1);
+      return x + ',' + y;
+    }).join(' ');
+  }
+
+  // ═══════════════════════════════════════
   // WATCHLIST
   // ═══════════════════════════════════════
-  function renderWatchlist(watchData) {
+  function renderWatchlist(watchData, sparkData) {
     const container = document.getElementById('watchlist');
     if (!container) return;
 
@@ -160,13 +176,14 @@ const UI = (() => {
       const arrow = chgArrow(w.changePct || 0);
       const sym = w.symbol.replace('.TW', '');
       const color = cls === 'up' ? '#ff7744' : '#cc1133';
-      const pts = generateSparkPoints(22, 55, cls === 'up');
+      const realCloses = sparkData ? sparkData[w.symbol] : null;
+      const pts = realCloses ? normalizeSparkline(realCloses, 55, 22) : generateSparkPoints(22, 55, cls === 'up').line;
 
       return `
       <div class="watch-item">
         <span class="w-ticker">${sym}</span><span class="w-name">${w.name}</span>
         <svg class="w-spark" viewBox="0 0 55 22" preserveAspectRatio="none">
-          <polyline fill="none" stroke="${color}" stroke-width="1.5" points="${pts.line}"/>
+          <polyline fill="none" stroke="${color}" stroke-width="1.5" points="${pts}"/>
         </svg>
         <span class="w-price">${w.price ? fmtCurrency(w.price, w.region) : '--'}</span>
         <span class="w-chg ${cls}">${arrow} ${Math.abs(w.changePct || 0).toFixed(2)}%</span>
