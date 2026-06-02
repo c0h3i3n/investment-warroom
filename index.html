@@ -126,11 +126,12 @@
           <div class="ind-cell" style="grid-column:1/-1;text-align:center;padding:20px">
             <div style="color:var(--gold);font-size:13px;margin-bottom:8px">📊 技術指標 · 0050</div>
             <button id="ind-load-btn" 
-              onclick="var b=this;b.textContent='⟳ LOADING...';b.disabled=true;if(window.App)window.App.updateIndicators('0050.TW').finally(function(){b.textContent='⬡ LOAD INDICATORS';b.disabled=false});" 
+              onclick="var b=this,d=document.getElementById('ind-debug');d.textContent='';b.textContent='⟳ LOADING...';b.disabled=true;d.textContent='App:'+(typeof App)+' rsi:'+(typeof rsi)+' Indic:'+(typeof IndicatorsService);if(window.App){window.App.updateIndicators('0050.TW').then(function(){d.textContent='OK';}).catch(function(e){d.textContent='ERR:'+e;}).finally(function(){b.textContent='⬡ LOAD INDICATORS';b.disabled=false});}else{d.textContent='App not found';b.textContent='⬡ LOAD INDICATORS';b.disabled=false;}" 
               style="position:relative;z-index:999;background:rgba(255,119,68,0.12);border:1px solid var(--arc);color:var(--arc);padding:6px 20px;font-family:inherit;font-size:12px;cursor:pointer;letter-spacing:1px">
               ⬡ LOAD INDICATORS
             </button>
             <div style="color:var(--dim);font-size:10px;margin-top:6px">RSI / KD / MACD / 均線 / 成交量</div>
+          <div id="ind-debug" style="color:var(--gold);font-size:9px;margin-top:4px;font-family:monospace"></div>
           </div>
         </div>
         <svg class="chart-svg" viewBox="0 0 340 90" id="ind-chart"></svg>
