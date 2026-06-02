@@ -19,8 +19,8 @@ const CONFIG = {
 
   // ── RSS Feeds ──
   RSS_FEEDS: [
-    { name: '鉅亨網', url: 'https://news.cnyes.com/express/rss', region: 'TW' },
-    { name: 'MoneyDJ', url: 'https://www.moneydj.com/rss/shownews.aspx?type=1', region: 'TW' },
+    { name: '鉅亨',   url: 'https://news.cnyes.com/rss/v1/news/category/headline', region: 'TW' },
+    { name: '台股',   url: 'https://news.cnyes.com/rss/v1/news/category/tw_stock', region: 'TW' },
   ],
 
   // ── Market Hours (Taipei time, minutes from midnight) ──

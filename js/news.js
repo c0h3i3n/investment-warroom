@@ -1,9 +1,11 @@
 // ═══════════════════════════════════════
 // J.A.R.V.I.S · NEWS INTELLIGENCE FEED
-// RSS feed fetching via CORS proxy
+// RSS via rss2json.com (no CORS issues)
 // ═══════════════════════════════════════
 
 const NewsService = (() => {
+
+  const RSS2JSON = 'https://api.rss2json.com/v1/api.json?rss_url=';
 
   // ── Fallback news when feeds are unavailable ──
   const FALLBACK_NEWS = [
@@ -15,88 +17,67 @@ const NewsService = (() => {
     { region:'INTL',headline:'日圓急貶至 158，日銀緊急召開會議；亞股匯市波動加劇，新台幣走貶 0.3%', source:'FT',       time:'07:30', impact:'neg' },
   ];
 
-  // ── Parse RSS XML ──
-  function parseRSS(xmlText, sourceName, region) {
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(xmlText, 'application/xml');
-    const items = doc.querySelectorAll('item');
-    const news = [];
-
-    items.forEach((item, i) => {
-      if (i >= 5) return; // max 5 per source
-      const title = item.querySelector('title')?.textContent || '';
-      const pubDate = item.querySelector('pubDate')?.textContent || '';
-      const time = pubDate ? formatRssDate(pubDate) : '--:--';
-
-      // Determine impact based on keywords
-      let impact = 'neu';
-      const tl = title.toLowerCase();
-      if (/漲|飆|突破|創高|上調|樂觀|surge|rally|record|upgrade/i.test(tl)) impact = 'pos';
-      if (/跌|崩|暴跌|下修|警|risk|crash|downgrade|plunge/i.test(tl)) impact = 'neg';
-
-      news.push({
-        region,
-        headline: truncate(title, 80),
-        source: sourceName,
-        time,
-        impact,
-      });
-    });
-
-    return news;
-  }
-
-  function formatRssDate(dateStr) {
-    try {
-      const d = new Date(dateStr);
-      return d.toLocaleTimeString('zh-TW', { hour: '2-digit', minute: '2-digit', hour12: false });
-    } catch { return '--:--'; }
-  }
-
   function truncate(str, len) {
     return str.length > len ? str.slice(0, len) + '…' : str;
   }
 
-  // ── Fetch a single RSS feed ──
+  function detectImpact(title) {
+    const tl = title.toLowerCase();
+    if (/漲|飆|突破|創高|上調|樂觀|surge|rally|record|upgrade/i.test(tl)) return 'pos';
+    if (/跌|崩|暴跌|下修|警|risk|crash|downgrade|plunge/i.test(tl)) return 'neg';
+    return 'neu';
+  }
+
+  // ── Fetch a single RSS feed via rss2json ──
   async function fetchFeed(feedConfig) {
     try {
-      const proxyUrl = CONFIG.CORS_PROXIES[0] + encodeURIComponent(feedConfig.url);
-      const resp = await fetch(proxyUrl, { signal: AbortSignal.timeout(10000) });
+      const url = RSS2JSON + encodeURIComponent(feedConfig.url);
+      const resp = await fetch(url, { signal: AbortSignal.timeout(12000) });
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-      const xmlText = await resp.text();
-      return parseRSS(xmlText, feedConfig.name, feedConfig.region);
+      const data = await resp.json();
+      if (data.status !== 'ok' || !data.items) throw new Error('rss2json failed');
+
+      return data.items.slice(0, 5).map(item => {
+        const pubDate = item.pubDate ? new Date(item.pubDate) : null;
+        const time = pubDate
+          ? pubDate.toLocaleTimeString('zh-TW', { hour:'2-digit', minute:'2-digit', hour12:false })
+          : '--:--';
+        const source = (item.author || feedConfig.name || '').replace(/\(.*\)/, '').trim().slice(0, 12);
+
+        return {
+          region: feedConfig.region,
+          headline: truncate(item.title || '', 80),
+          source: source || feedConfig.name,
+          time,
+          impact: detectImpact(item.title || ''),
+        };
+      });
     } catch (e) {
-      console.warn(`RSS feed ${feedConfig.name} failed:`, e.message);
+      console.warn(`RSS ${feedConfig.name}:`, e.message);
       return [];
     }
   }
 
   // ── Fetch all feeds and merge ──
   async function fetchAllFeeds() {
-    const allNews = [];
-    for (const feed of CONFIG.RSS_FEEDS) {
-      const items = await fetchFeed(feed);
-      allNews.push(...items);
-    }
+    const results = await Promise.all(CONFIG.RSS_FEEDS.map(f => fetchFeed(f)));
+    const allNews = results.flat();
 
     if (allNews.length === 0) {
-      console.info('No RSS feeds available, using fallback news');
+      console.info('No RSS feeds, using fallback');
       return [...FALLBACK_NEWS];
     }
 
-    // Sort by recency (by time string, simple sort)
-    // Deduplicate similar headlines
-    return dedupeNews(allNews).slice(0, 10);
-  }
-
-  function dedupeNews(news) {
+    // Deduplicate
     const seen = new Set();
-    return news.filter(n => {
-      const key = n.headline.slice(0, 30);
-      if (seen.has(key)) return false;
-      seen.add(key);
+    const deduped = allNews.filter(n => {
+      const k = n.headline.slice(0, 30);
+      if (seen.has(k)) return false;
+      seen.add(k);
       return true;
     });
+
+    return deduped.slice(0, 10);
   }
 
   // ── Get news (cached or fresh) ──
@@ -112,9 +93,5 @@ const NewsService = (() => {
     return cachedNews;
   }
 
-  // ── Public API ──
-  return {
-    getNews,
-    FALLBACK_NEWS,
-  };
+  return { getNews, FALLBACK_NEWS };
 })();
