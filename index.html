@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>J.A.R.V.I.S · 投資戰情室</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;500&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ═══ BACKGROUND EFFECTS ═══ -->
+<div class="bg-layer"></div>
+<div class="arc-ring arc-ring-1"></div>
+<div class="arc-ring arc-ring-2"></div>
+<div class="arc-ring arc-ring-3"></div>
+<div class="scan-sweep"></div>
+<div class="scanlines"></div>
+
+<!-- ═══ REFRESH BUTTON ═══ -->
+<button class="refresh-btn" id="refresh-btn" onclick="App.refresh()" title="Refresh Data">⟳</button>
+<span class="last-updated" id="last-updated">UPDATED --:--:--</span>
+
+<div class="hud">
+
+  <!-- ═══ HEADER ═══ -->
+  <header class="hud-header">
+    <div class="reactor">
+      <div class="reactor-core">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+          <circle cx="24" cy="24" r="22" stroke="rgba(255,61,26,0.2)" stroke-width="1"/>
+          <circle cx="24" cy="24" r="16" stroke="rgba(255,61,26,0.4)" stroke-width="1"/>
+          <circle cx="24" cy="24" r="8"  stroke="rgba(255,80,34,0.8)" stroke-width="1.5"/>
+          <circle cx="24" cy="24" r="4"  fill="rgba(255,80,34,0.95)"/>
+          <line x1="24" y1="2"  x2="24" y2="8"  stroke="rgba(255,61,26,0.6)" stroke-width="1"/>
+          <line x1="24" y1="40" x2="24" y2="46" stroke="rgba(255,61,26,0.6)" stroke-width="1"/>
+          <line x1="2"  y1="24" x2="8"  y2="24" stroke="rgba(255,61,26,0.6)" stroke-width="1"/>
+          <line x1="40" y1="24" x2="46" y2="24" stroke="rgba(255,61,26,0.6)" stroke-width="1"/>
+          <line x1="6.3" y1="6.3" x2="10.6" y2="10.6" stroke="rgba(255,61,26,0.3)" stroke-width="1"/>
+          <line x1="37.4" y1="37.4" x2="41.7" y2="41.7" stroke="rgba(255,61,26,0.3)" stroke-width="1"/>
+          <line x1="41.7" y1="6.3" x2="37.4" y2="10.6" stroke="rgba(255,61,26,0.3)" stroke-width="1"/>
+          <line x1="10.6" y1="37.4" x2="6.3" y2="41.7" stroke="rgba(255,61,26,0.3)" stroke-width="1"/>
+        </svg>
+      </div>
+      <div class="reactor-text">
+        <h1>WARROOM</h1>
+        <div class="sub">INVESTMENT INTELLIGENCE SYSTEM · v3.0</div>
+      </div>
+    </div>
+
+    <div class="hud-center">
+      <div class="hud-time" id="clock">--:--:--</div>
+      <div class="hud-date" id="dateStr">---- -- --</div>
+    </div>
+
+    <div class="status-panel">
+      <div class="status-item">
+        <div class="status-orb live" id="twOrb"></div>
+        <div class="status-label" id="twLabel">TW OPEN</div>
+      </div>
+      <div class="status-item">
+        <div class="status-orb pre" id="usOrb"></div>
+        <div class="status-label" id="usLabel">US PRE-MKT</div>
+      </div>
+      <div class="status-item">
+        <div class="status-orb" style="background:var(--arc);box-shadow:0 0 8px var(--arc)"></div>
+        <div class="status-label">SYS ONLINE</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══ TICKER ═══ -->
+  <div class="ticker-bar">
+    <div class="ticker-label">⬡ LIVE</div>
+    <div class="ticker-scroll">
+      <div class="ticker-inner" id="ticker-inner">
+        <span class="t-item"><span class="t-sym">LOADING</span><span class="t-price">...</span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ INDEX CARDS ═══ -->
+  <div class="index-row" id="index-cards">
+    <div class="idx-card"><div class="loading-indicator">INITIALIZING...</div></div>
+  </div>
+
+  <!-- ═══ MAIN GRID ═══ -->
+  <div class="main-grid">
+
+    <!-- Portfolio -->
+    <div class="hud-panel" style="animation-delay:.3s">
+      <div class="bracket bracket-tl"></div><div class="bracket bracket-tr"></div>
+      <div class="bracket bracket-bl"></div><div class="bracket bracket-br"></div>
+      <div class="sec-label" style="margin-bottom:14px">
+        <div class="sec-label-dot"></div>
+        <div class="sec-label-text">PORTFOLIO TRACKER · 投資組合</div>
+        <div class="sec-label-line"></div>
+      </div>
+      <div class="port-stats">
+        <div class="port-stat"><div class="ps-label">TOTAL VALUE</div><div class="ps-value arc" id="port-total-val">NT$--</div></div>
+        <div class="port-stat"><div class="ps-label">TOTAL P&amp;L</div><div class="ps-value up" id="port-total-pnl">--</div></div>
+        <div class="port-stat"><div class="ps-label">RETURN RATE</div><div class="ps-value gold" id="port-return-rate">--</div></div>
+      </div>
+      <table class="port-table">
+        <thead><tr><th>TICKER</th><th>NAME</th><th>COST</th><th>PRICE</th><th>P&amp;L %</th><th></th></tr></thead>
+        <tbody id="port-tbody">
+          <tr><td colspan="6"><div class="loading-indicator">LOADING HOLDINGS...</div></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Right column -->
+    <div class="right-col">
+
+      <!-- Technical Indicators -->
+      <div class="hud-panel" style="animation-delay:.4s">
+        <div class="bracket bracket-tl"></div><div class="bracket bracket-tr"></div>
+        <div class="bracket bracket-bl"></div><div class="bracket bracket-br"></div>
+        <div class="sec-label" style="margin-bottom:12px">
+          <div class="sec-label-dot"></div>
+          <div class="sec-label-text" id="ind-label">TECHNICAL · 技術指標</div>
+          <div class="sec-label-line"></div>
+        </div>
+        <div class="ind-grid" id="ind-grid">
+          <div class="ind-cell"><div class="loading-indicator">CALCULATING...</div></div>
+        </div>
+        <svg class="chart-svg" viewBox="0 0 340 90" id="ind-chart"></svg>
+      </div>
+
+      <!-- Watchlist -->
+      <div class="hud-panel" style="animation-delay:.5s">
+        <div class="bracket bracket-tl"></div><div class="bracket bracket-tr"></div>
+        <div class="bracket bracket-bl"></div><div class="bracket bracket-br"></div>
+        <div class="sec-label" style="margin-bottom:10px">
+          <div class="sec-label-dot"></div>
+          <div class="sec-label-text">WATCHLIST · 自選股</div>
+          <div class="sec-label-line"></div>
+        </div>
+        <div id="watchlist">
+          <div class="loading-indicator">LOADING WATCHLIST...</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ═══ NEWS ═══ -->
+  <div class="hud-panel" style="animation-delay:.6s">
+    <div class="bracket bracket-tl"></div><div class="bracket bracket-tr"></div>
+    <div class="bracket bracket-bl"></div><div class="bracket bracket-br"></div>
+    <div class="sec-label" style="margin-bottom:14px">
+      <div class="sec-label-dot"></div>
+      <div class="sec-label-text">INTELLIGENCE FEED · 市場情報</div>
+      <div class="sec-label-line"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 32px" id="news-feed">
+      <div><div class="loading-indicator">FETCHING INTELLIGENCE...</div></div>
+    </div>
+  </div>
+
+  <footer>
+    <span>J.A.R.V.I.S · WARROOM INVESTMENT INTELLIGENCE · v3.0</span>
+    <span id="fdate"></span>
+    <span>DATA FROM YAHOO FINANCE &amp; RSS · 資料僅供參考</span>
+  </footer>
+
+</div>
+
+<!-- ═══ SCRIPTS ═══ -->
+<script src="https://cdn.jsdelivr.net/npm/technicalindicators@3.1.0/dist/technicalindicators.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/data.js"></script>
+<script src="js/portfolio.js"></script>
+<script src="js/indicators.js"></script>
+<script src="js/news.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
