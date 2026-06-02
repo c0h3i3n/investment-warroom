@@ -422,6 +422,25 @@ const UI = (() => {
   }
 
   // ═══════════════════════════════════════
+  // INDICATOR LOAD PROMPT
+  // ═══════════════════════════════════════
+  function showIndicatorPrompt(symbol) {
+    const grid = document.getElementById('ind-grid');
+    if (!grid) return;
+    const symName = symbol.replace('.TW', '');
+    grid.innerHTML = `
+      <div class="ind-cell" style="grid-column:1/-1;text-align:center;padding:20px">
+        <div style="color:var(--gold);font-size:13px;margin-bottom:8px">📊 技術指標 · ${symName}</div>
+        <button onclick="App.updateIndicators('${symbol}')" 
+          style="background:rgba(255,119,68,0.12);border:1px solid var(--arc);color:var(--arc);
+          padding:6px 20px;font-family:inherit;font-size:12px;cursor:pointer;letter-spacing:1px">
+          ⬡ LOAD INDICATORS
+        </button>
+        <div style="color:var(--dim);font-size:10px;margin-top:6px">透過 Yahoo Finance 計算 RSI / KD / MACD / 均線</div>
+      </div>`;
+  }
+
+  // ═══════════════════════════════════════
   // Public API
   // ═══════════════════════════════════════
   return {
@@ -438,6 +457,7 @@ const UI = (() => {
     showModal,
     closeModal,
     showAddHoldingModal,
+    showIndicatorPrompt,
 
     // Utilities
     showToast,

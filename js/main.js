@@ -109,9 +109,9 @@ const App = (() => {
       // 3. Portfolio stats
       updatePortfolio();
 
-      // 4. Technical indicators for first watchlist item
+      // 4. Technical indicators - show load button
       if (watchlist.length > 0) {
-        updateIndicators(watchlist[0].symbol);
+        UI.showIndicatorPrompt(watchlist[0].symbol);
       }
 
       // 5. News
