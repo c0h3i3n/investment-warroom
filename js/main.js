@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════
-// J.A.R.V.I.S · MAIN APPLICATION v3.1
+// J.A.R.V.I.S · MAIN APPLICATION v3.2
 // Orchestrates all modules
 // ═══════════════════════════════════════
 
@@ -261,7 +261,7 @@ const App = (() => {
 
 
 
-    console.log('J.A.R.V.I.S WARROOM v3.1 · SYSTEM ONLINE');
+    console.log('J.A.R.V.I.S WARROOM v3.2 · SYSTEM ONLINE');
   }
 
   // ═══════════════════════════════════════
