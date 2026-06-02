@@ -35,15 +35,33 @@ const DataService = (() => {
   };
 
   // ═══════════════════════════════════════
+  // PARSE PROXY RESPONSE (handles allorigins wrapper)
+  // ═══════════════════════════════════════
+  function parseProxyResponse(text) {
+    // Try direct JSON first
+    try {
+      const json = JSON.parse(text);
+      // allorigins wraps in { contents: "<json string>", status: {...} }
+      if (json.contents) {
+        try { return JSON.parse(json.contents); } catch { return json.contents; }
+      }
+      return json;
+    } catch {}
+    // Return as text if not JSON
+    return text;
+  }
+
+  // ═══════════════════════════════════════
   // CORE FETCH — tries each proxy in sequence
   // ═══════════════════════════════════════
-  async function fetchWithProxy(url, timeoutMs = 12000) {
-    // Try direct first (unlikely cross-origin, but fast if it does)
+  async function fetchWithProxy(url, timeoutMs = 8000) {
+    // Try direct first with short timeout
     try {
-      const resp = await fetch(url, { signal: AbortSignal.timeout(6000) });
+      const resp = await fetch(url, { signal: AbortSignal.timeout(4000) });
       if (resp.ok) {
         const text = await resp.text();
-        try { return JSON.parse(text); } catch { return text; }
+        const parsed = parseProxyResponse(text);
+        if (parsed) return parsed;
       }
     } catch (e) { /* CORS blocked — expected */ }
 
@@ -59,11 +77,13 @@ const DataService = (() => {
         if (!resp.ok) {
           const text = await resp.text().catch(() => '');
           if (text.includes('Server-side requests are not allowed')) continue;
+          if (text.includes('Rate limit exceeded')) continue;
           throw new Error(`Proxy ${idx} returned ${resp.status}`);
         }
         const text = await resp.text();
         activeProxyIndex = idx;
-        try { return JSON.parse(text); } catch { return text; }
+        const parsed = parseProxyResponse(text);
+        if (parsed) return parsed;
       } catch (e) {
         if (attempt === CONFIG.CORS_PROXIES.length - 1) {
           console.warn('All proxies failed:', e.message);
@@ -96,25 +116,25 @@ const DataService = (() => {
 
     const url = CONFIG.YAHOO_QUOTE + symbols.join(',');
     try {
-      const json = await fetchWithProxy(url, 12000);
+      const json = await fetchWithProxy(url);
       const result = json?.quoteResponse?.result;
       if (!result || result.length === 0) throw new Error('Empty quote response');
 
       const mapped = result.map(r => ({
         symbol: r.symbol,
-        name: r.shortName || r.symbol,
+        name: r.shortName || r.longName || r.symbol,
         price: r.regularMarketPrice,
         change: r.regularMarketChange,
         changePct: r.regularMarketChangePercent,
         prevClose: r.regularMarketPreviousClose,
-        currency: r.currency || (r.symbol?.endsWith('.TW') ? 'TWD' : 'USD'),
+        currency: r.currency,
       }));
 
       setCache(key, mapped);
       return mapped;
     } catch (e) {
-      console.warn('fetchQuotes Yahoo failed:', e.message);
-      return getFallbackQuotes(symbols);
+      console.warn('fetchQuotes failed:', e.message);
+      return null;
     }
   }
 
@@ -141,9 +161,6 @@ const DataService = (() => {
           const code = r.c;
           const symbol = code + '.TW';
           const prevClose = parseFloat(r.y) || null;
-          // z is current price for indexes, but for stocks it can be "-"
-          // When z is a number, it's the last traded price
-          // When z is "-", use prevClose as fallback
           const zVal = parseFloat(r.z);
           const price = !isNaN(zVal) ? zVal : prevClose;
           const change = (price != null && prevClose != null) ? price - prevClose : null;
@@ -190,7 +207,6 @@ const DataService = (() => {
           twIdxConfigs.forEach(idx => {
             const r = msgArray.find(m => m.c === idx.misKey.replace(/.*_/, '').replace('.tw', ''));
             if (r) {
-              // For indexes: z = current value, y = prev close
               const price = parseFloat(r.z) || null;
               const prevClose = parseFloat(r.y) || null;
               const change = (price != null && prevClose != null) ? price - prevClose : null;
@@ -317,7 +333,6 @@ const DataService = (() => {
     if (yahooData) {
       yahooData.forEach(q => {
         if (twMap[q.symbol]) {
-          // Use MIS data for TW stocks (more real-time when available)
           result.push(twMap[q.symbol]);
         } else {
           result.push(q);

@@ -5,8 +5,8 @@
 const CONFIG = {
   // ── CORS Proxies (tried in order) ──
   CORS_PROXIES: [
+    'https://api.allorigins.win/get?url=',
     'https://corsproxy.io/?',
-    'https://api.allorigins.win/raw?url=',
     'https://cors-anywhere.herokuapp.com/',
   ],
 
