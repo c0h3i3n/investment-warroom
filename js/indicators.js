@@ -1,113 +1,131 @@
 // ═══════════════════════════════════════
 // J.A.R.V.I.S · TECHNICAL INDICATORS
-// Using technicalindicators.js (CDN) v3
+// Self-contained (no CDN dependency)
 // ═══════════════════════════════════════
 
 const IndicatorsService = (() => {
 
-  // ── Check if library is loaded ──
-  function isReady() {
-    return typeof window.rsi !== 'undefined';
-  }
+  // ── Extract arrays from OHLCV data ──
+  function getCloses(data) { return data.map(d => d.close).filter(v => v != null); }
+  function getHighs(data)  { return data.map(d => d.high).filter(v => v != null); }
+  function getLows(data)   { return data.map(d => d.low).filter(v => v != null); }
+  function getVolumes(data){ return data.map(d => d.volume).filter(v => v != null); }
 
-  // ── Extract close prices from OHLCV data ──
-  function getCloses(data) {
-    return data.map(d => d.close).filter(v => v != null);
-  }
-
-  function getHighs(data) {
-    return data.map(d => d.high).filter(v => v != null);
-  }
-
-  function getLows(data) {
-    return data.map(d => d.low).filter(v => v != null);
-  }
-
-  function getVolumes(data) {
-    return data.map(d => d.volume).filter(v => v != null);
-  }
-
-  // ── RSI (14) ──
+  // ═══════════════════════════════════════
+  // RSI (Relative Strength Index)
+  // ═══════════════════════════════════════
   function calcRSI(closes, period = 14) {
-    if (!isReady() || closes.length < period + 1) return null;
-    try {
-      const input = { values: closes, period };
-      const result = window.rsi(input);
-      return result[result.length - 1];
-    } catch (e) {
-      console.error('RSI calc error:', e);
-      return null;
+    if (closes.length < period + 1) return null;
+    const gains = [], losses = [];
+    for (let i = 1; i < closes.length; i++) {
+      const diff = closes[i] - closes[i - 1];
+      gains.push(diff > 0 ? diff : 0);
+      losses.push(diff < 0 ? -diff : 0);
     }
+    let avgGain = gains.slice(0, period).reduce((a, b) => a + b, 0) / period;
+    let avgLoss = losses.slice(0, period).reduce((a, b) => a + b, 0) / period;
+    if (avgLoss === 0) return 100;
+    let rsi = 100 - (100 / (1 + avgGain / avgLoss));
+    for (let i = period; i < gains.length; i++) {
+      avgGain = (avgGain * (period - 1) + gains[i]) / period;
+      avgLoss = (avgLoss * (period - 1) + losses[i]) / period;
+      if (avgLoss === 0) { rsi = 100; continue; }
+      rsi = 100 - (100 / (1 + avgGain / avgLoss));
+    }
+    return rsi;
   }
 
-  // ── MACD (12, 26, 9) ──
+  // ═══════════════════════════════════════
+  // EMA (Exponential Moving Average)
+  // ═══════════════════════════════════════
+  function calcEMA(data, period) {
+    if (data.length < period) return null;
+    const k = 2 / (period + 1);
+    let ema = data.slice(0, period).reduce((a, b) => a + b, 0) / period;
+    for (let i = period; i < data.length; i++) {
+      ema = data[i] * k + ema * (1 - k);
+    }
+    return ema;
+  }
+
+  // ═══════════════════════════════════════
+  // MACD
+  // ═══════════════════════════════════════
   function calcMACD(closes) {
-    if (!isReady() || closes.length < 35) return null;
-    try {
-      const input = {
-        values: closes,
-        fastPeriod: 12,
-        slowPeriod: 26,
-        signalPeriod: 9,
-        SimpleMAOscillator: false,
-        SimpleMASignal: false,
-      };
-      const result = window.macd(input);
-      const latest = result[result.length - 1];
-      return {
-        macd: latest.MACD,
-        signal: latest.signal,
-        histogram: latest.histogram,
-        cross: latest.histogram > 0 ? 'bullish' : 'bearish',
-      };
-    } catch (e) {
-      console.error('MACD calc error:', e);
-      return null;
-    }
+    if (closes.length < 35) return null;
+    const ema12 = calcEMASeries(closes, 12);
+    const ema26 = calcEMASeries(closes, 26);
+    const macdLine = ema12.map((v, i) => v - ema26[i]);
+    const signal = calcEMASeries(macdLine, 9);
+    const lastMacd = macdLine[macdLine.length - 1];
+    const lastSignal = signal[signal.length - 1];
+    const histogram = lastMacd - lastSignal;
+    return {
+      macd: lastMacd,
+      signal: lastSignal,
+      histogram: histogram,
+      cross: histogram > 0 ? 'bullish' : 'bearish',
+    };
   }
 
-  // ── Stochastic (KD) 9,3,3 ──
-  function calcStochastic(highs, lows, closes) {
-    if (!isReady() || closes.length < 15) return null;
-    try {
-      const input = {
-        high: highs,
-        low: lows,
-        close: closes,
-        period: 9,
-        signalPeriod: 3,
-      };
-      const result = window.stochastic(input);
-      const latest = result[result.length - 1];
-      return {
-        k: latest.k,
-        d: latest.d,
-      };
-    } catch (e) {
-      console.error('Stochastic calc error:', e);
-      return null;
+  function calcEMASeries(data, period) {
+    const k = 2 / (period + 1);
+    const result = [];
+    let ema = data.slice(0, period).reduce((a, b) => a + b, 0) / period;
+    result.push(ema);
+    for (let i = period; i < data.length; i++) {
+      ema = data[i] * k + ema * (1 - k);
+      result.push(ema);
     }
+    return result;
   }
 
-  // ── Simple Moving Average ──
+  // ═══════════════════════════════════════
+  // Stochastic (KD)
+  // ═══════════════════════════════════════
+  function calcStochastic(highs, lows, closes, period = 9, kPeriod = 3) {
+    if (closes.length < period) return null;
+    const kValues = [];
+    for (let i = period - 1; i < closes.length; i++) {
+      const sliceHigh = highs.slice(i - period + 1, i + 1);
+      const sliceLow = lows.slice(i - period + 1, i + 1);
+      const maxH = Math.max(...sliceHigh);
+      const minL = Math.min(...sliceLow);
+      const range = maxH - minL;
+      kValues.push(range === 0 ? 50 : ((closes[i] - minL) / range) * 100);
+    }
+    const dValues = [];
+    for (let i = kPeriod - 1; i < kValues.length; i++) {
+      dValues.push(kValues.slice(i - kPeriod + 1, i + 1).reduce((a, b) => a + b, 0) / kPeriod);
+    }
+    return {
+      k: kValues[kValues.length - 1],
+      d: dValues[dValues.length - 1],
+    };
+  }
+
+  // ═══════════════════════════════════════
+  // SMA (Simple Moving Average)
+  // ═══════════════════════════════════════
   function calcSMA(closes, period) {
     if (closes.length < period) return null;
-    const slice = closes.slice(-period);
-    return slice.reduce((a, b) => a + b, 0) / period;
+    return closes.slice(-period).reduce((a, b) => a + b, 0) / period;
   }
 
-  // ── Average Volume (20-day) ──
+  // ═══════════════════════════════════════
+  // Average Volume
+  // ═══════════════════════════════════════
   function calcAvgVolume(volumes, period = 20) {
     if (volumes.length < period) return null;
-    const slice = volumes.slice(-period);
-    return Math.round(slice.reduce((a, b) => a + b, 0) / period);
+    return Math.round(volumes.slice(-period).reduce((a, b) => a + b, 0) / period);
   }
 
-  // ── Interpret indicators ──
+  // ═══════════════════════════════════════
+  // Interpret indicators
+  // ═══════════════════════════════════════
   function interpret(rsi, macd, stoch, ma20, ma60, currentPrice, avgVol, latestVol) {
     const results = [];
 
-    // RSI
     if (rsi !== null) {
       let signal, color;
       if (rsi > 70) { signal = 'OVERBOUGHT ⚠'; color = 'warn'; }
@@ -117,7 +135,6 @@ const IndicatorsService = (() => {
       results.push({ name: 'RSI · 14', value: rsi.toFixed(1), signal, color });
     }
 
-    // KD
     if (stoch) {
       let signal, color;
       if (stoch.k > 80) { signal = 'OVERBOUGHT ⚠'; color = 'warn'; }
@@ -127,42 +144,24 @@ const IndicatorsService = (() => {
       results.push({ name: 'KD · K值', value: stoch.k.toFixed(1), signal, color });
     }
 
-    // MACD
     if (macd) {
       let signal, color;
-      if (macd.cross === 'bullish' && macd.histogram > 0) {
-        signal = 'CROSS ↑'; color = 'up';
-      } else if (macd.cross === 'bearish') {
-        signal = 'CROSS ↓'; color = 'dn';
-      } else {
-        signal = 'FLAT —'; color = 'warn';
-      }
+      if (macd.cross === 'bullish' && macd.histogram > 0) { signal = 'CROSS ↑'; color = 'up'; }
+      else if (macd.cross === 'bearish') { signal = 'CROSS ↓'; color = 'dn'; }
+      else { signal = 'FLAT —'; color = 'warn'; }
       results.push({ name: 'MACD', value: macd.macd.toFixed(2), signal, color });
     }
 
-    // MA20
     if (ma20 !== null && currentPrice) {
       const above = currentPrice > ma20;
-      results.push({
-        name: 'MA · 20',
-        value: ma20.toFixed(1),
-        signal: above ? 'ABOVE ✓' : 'BELOW ✗',
-        color: above ? 'up' : 'dn',
-      });
+      results.push({ name: 'MA · 20', value: ma20.toFixed(1), signal: above ? 'ABOVE ✓' : 'BELOW ✗', color: above ? 'up' : 'dn' });
     }
 
-    // MA60
     if (ma60 !== null && currentPrice) {
       const above = currentPrice > ma60;
-      results.push({
-        name: 'MA · 60',
-        value: ma60.toFixed(1),
-        signal: above ? 'ABOVE ✓' : 'BELOW ✗',
-        color: above ? 'up' : 'dn',
-      });
+      results.push({ name: 'MA · 60', value: ma60.toFixed(1), signal: above ? 'ABOVE ✓' : 'BELOW ✗', color: above ? 'up' : 'dn' });
     }
 
-    // Volume
     if (avgVol !== null && latestVol !== null) {
       const ratio = latestVol / avgVol;
       let signal, color;
@@ -182,15 +181,17 @@ const IndicatorsService = (() => {
     return String(vol);
   }
 
-  // ── Calculate all indicators for a symbol ──
+  // ═══════════════════════════════════════
+  // Calculate all indicators
+  // ═══════════════════════════════════════
   async function calculateFor(symbol, currentPrice) {
-    console.log(`[Indicators] Fetching historical data for ${symbol}...`);
+    console.log('[Indicators] Fetching historical data for', symbol);
     const data = await DataService.fetchHistorical(symbol, '6mo', '1d');
     if (!data || data.length < 60) {
-      console.warn(`[Indicators] Not enough historical data for ${symbol} (${data ? data.length : 0} points)`);
+      console.warn('[Indicators] Not enough data:', data ? data.length : 0);
       return null;
     }
-    console.log(`[Indicators] Got ${data.length} data points for ${symbol}`);
+    console.log('[Indicators] Got', data.length, 'points, calculating...');
 
     const closes = getCloses(data);
     const highs = getHighs(data);
@@ -212,10 +213,8 @@ const IndicatorsService = (() => {
     };
   }
 
-  // ── Public API ──
-  return {
-    isReady,
-    calculateFor,
-    calcSMA,
-  };
+  // ═══════════════════════════════════════
+  // Public API
+  // ═══════════════════════════════════════
+  return { calculateFor, calcSMA };
 })();

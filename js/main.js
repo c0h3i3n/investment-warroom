@@ -157,11 +157,6 @@ const App = (() => {
   // INDICATORS
   // ═══════════════════════════════════════
   async function updateIndicators(symbol) {
-    if (!IndicatorsService.isReady()) {
-      console.warn('technicalindicators.js not loaded yet');
-      return;
-    }
-
     const quote = await DataService.fetchQuote(symbol);
     const currentPrice = quote?.price;
 
