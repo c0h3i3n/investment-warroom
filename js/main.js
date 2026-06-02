@@ -258,6 +258,19 @@ const App = (() => {
     // Clock tick
     setInterval(updateClock, 1000);
 
+    // Bind indicator load button
+    var indBtn = document.getElementById('ind-load-btn');
+    if (indBtn) {
+      indBtn.addEventListener('click', function() {
+        indBtn.textContent = '⟳ LOADING...';
+        indBtn.disabled = true;
+        updateIndicators('0050.TW').finally(function() {
+          indBtn.textContent = '⬡ LOAD INDICATORS';
+          indBtn.disabled = false;
+        });
+      });
+    }
+
     console.log('J.A.R.V.I.S WARROOM v3.1 · SYSTEM ONLINE');
   }
 
