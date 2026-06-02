@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════
-// J.A.R.V.I.S · MAIN APPLICATION
+// J.A.R.V.I.S · MAIN APPLICATION v3.1
 // Orchestrates all modules
 // ═══════════════════════════════════════
 
@@ -8,6 +8,7 @@ const App = (() => {
   // ── State ──
   let watchlistQuotes = [];
   let indexData = [];
+  let usingFallback = false;
 
   // ═══════════════════════════════════════
   // CLOCK & STATUS
@@ -28,7 +29,6 @@ const App = (() => {
 
   function updateMarketStatus() {
     const now = new Date();
-    // Taipei time in minutes
     const h = parseInt(new Intl.DateTimeFormat('en-US', {
       timeZone: 'Asia/Taipei', hour: 'numeric', hour12: false,
     }).format(now));
@@ -39,7 +39,6 @@ const App = (() => {
     const usOrb = document.getElementById('usOrb');
     const usLabel = document.getElementById('usLabel');
 
-    // TW market: 09:00 - 13:30 (540 - 810)
     if (t >= CONFIG.TW_OPEN && t <= CONFIG.TW_CLOSE) {
       if (twOrb) twOrb.className = 'status-orb live';
       if (twLabel) twLabel.textContent = 'TW OPEN';
@@ -48,12 +47,9 @@ const App = (() => {
       if (twLabel) twLabel.textContent = 'TW CLOSED';
     }
 
-    // US market: 21:30 - 04:00 next day (1290 - 1680, wrap around)
-    const usOpen = CONFIG.US_OPEN; // 1290
-    const usClose = CONFIG.US_CLOSE + 24 * 60; // 1680 (wraps to next day)
-    const tWrap = t < usOpen ? t + 24 * 60 : t; // wrap for comparison
-
-    // Pre-market: 16:00 - 21:30 (960 - 1290)
+    const usOpen = CONFIG.US_OPEN;
+    const usClose = CONFIG.US_CLOSE + 24 * 60;
+    const tWrap = t < usOpen ? t + 24 * 60 : t;
     const isPreMarket = (t >= CONFIG.US_PRE && t < CONFIG.US_OPEN);
     const isMarketOpen = (tWrap >= usOpen && tWrap <= usClose);
 
@@ -75,31 +71,33 @@ const App = (() => {
   // DATA FETCHING
   // ═══════════════════════════════════════
   async function fetchAllData(forceRefresh = false) {
-    if (forceRefresh) DataService.clearCache(); {
+    if (forceRefresh) DataService.clearCache();
     UI.setRefreshing(true);
+    usingFallback = false;
 
     try {
-      // 1. Fetch indexes
+      // 1. Fetch indexes (MIS for TW, Yahoo for US, fallback built-in)
       const indexes = await DataService.fetchIndexes();
       if (indexes) {
         indexData = indexes;
         UI.renderIndexCards(indexes);
       }
 
-      // 2. Fetch watchlist quotes
+      // 2. Fetch watchlist quotes (hybrid: MIS for TW, Yahoo for US)
       const watchlist = loadWatchlist();
       const wSymbols = watchlist.map(w => w.symbol);
       if (wSymbols.length > 0) {
-        const quotes = await DataService.fetchQuotes(wSymbols);
+        const quotes = await DataService.fetchAllQuotes(wSymbols);
         if (quotes) {
           watchlistQuotes = quotes;
-          // Merge with watchlist config
           const watchData = watchlist.map(w => {
             const q = quotes.find(q => q.symbol === w.symbol);
             return {
               ...w,
               price: q?.price,
+              change: q?.change,
               changePct: q?.changePct,
+              currency: q?.currency,
               region: w.region || (w.symbol.endsWith('.TW') ? 'TW' : 'US'),
             };
           });
@@ -121,7 +119,7 @@ const App = (() => {
 
     } catch (e) {
       console.error('Data fetch error:', e);
-      UI.showToast('資料擷取失敗，部分數據可能無法更新', 'error');
+      UI.showToast('資料擷取異常，顯示備用數據', 'warn');
     }
 
     UI.setRefreshing(false);
@@ -130,27 +128,32 @@ const App = (() => {
   // ═══════════════════════════════════════
   // PORTFOLIO
   // ═══════════════════════════════════════
-  function updatePortfolio() {
+  async function updatePortfolio() {
     const holdings = PortfolioService.getHoldings();
-    const allSymbols = [...new Set(holdings.map(h => h.symbol))];
-
-    if (allSymbols.length === 0) {
+    if (!holdings.length) {
+      // Show empty portfolio state
       UI.renderPortfolio({ holdings: [], totalValue: 0, totalCost: 0, totalPnl: 0, returnPct: 0 });
       return;
     }
 
-    // Try to get live prices
-    DataService.fetchQuotes(allSymbols).then(quotes => {
+    try {
+      // Build quotes map from existing watchlist data and any additional symbols
+      const allSymbols = [...new Set([
+        ...holdings.map(h => h.symbol),
+        ...watchlistQuotes.map(q => q.symbol),
+      ])];
+
+      const quotes = await DataService.fetchAllQuotes(allSymbols);
       const quotesMap = {};
       if (quotes) quotes.forEach(q => { quotesMap[q.symbol] = q; });
 
       const stats = PortfolioService.calculateStats(holdings, quotesMap);
       UI.renderPortfolio(stats);
-    }).catch(() => {
-      // Fallback: use cost prices
+    } catch (e) {
+      console.warn('Portfolio update failed:', e);
       const stats = PortfolioService.calculateStats(holdings, {});
       UI.renderPortfolio(stats);
-    });
+    }
   }
 
   // ═══════════════════════════════════════
@@ -162,11 +165,9 @@ const App = (() => {
       return;
     }
 
-    // Get current price for display
     const quote = await DataService.fetchQuote(symbol);
     const currentPrice = quote?.price;
 
-    // Calculate indicators
     const result = await IndicatorsService.calculateFor(symbol, currentPrice);
     if (result) {
       UI.renderIndicators(result);
@@ -234,7 +235,7 @@ const App = (() => {
   }
 
   // ═══════════════════════════════════════
-  // INTERVAL REFRESH
+  // AUTO REFRESH
   // ═══════════════════════════════════════
   function startAutoRefresh() {
     setInterval(() => fetchAllData(false), CONFIG.REFRESH_QUOTES);
@@ -258,7 +259,7 @@ const App = (() => {
     // Clock tick
     setInterval(updateClock, 1000);
 
-    console.log('J.A.R.V.I.S WARROOM · SYSTEM ONLINE');
+    console.log('J.A.R.V.I.S WARROOM v3.1 · SYSTEM ONLINE');
   }
 
   // ═══════════════════════════════════════

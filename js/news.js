@@ -60,7 +60,7 @@ const NewsService = (() => {
   // ── Fetch a single RSS feed ──
   async function fetchFeed(feedConfig) {
     try {
-      const proxyUrl = CONFIG.CORS_PROXY + encodeURIComponent(feedConfig.url);
+      const proxyUrl = CONFIG.CORS_PROXIES[0] + encodeURIComponent(feedConfig.url);
       const resp = await fetch(proxyUrl, { signal: AbortSignal.timeout(10000) });
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       const xmlText = await resp.text();

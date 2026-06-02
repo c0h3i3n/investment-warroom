@@ -169,8 +169,10 @@
 
 <!-- ═══ SCRIPTS ═══ -->
 <script src="https://cdn.jsdelivr.net/npm/technicalindicators@3.1.0/dist/technicalindicators.min.js"></script>
+<script>document.querySelector(".hud-time").textContent="JS OK"; console.log("Script loader: starting...");</script>
 <script src="js/config.js"></script>
 <script src="js/data.js"></script>
+<script>console.log("data.js loaded, CONFIG proxies:", CONFIG?.CORS_PROXIES?.length);</script>
 <script src="js/portfolio.js"></script>
 <script src="js/indicators.js"></script>
 <script src="js/news.js"></script>
