@@ -191,9 +191,13 @@ const IndicatorsService = (() => {
   async function calculateFor(symbol, currentPrice) {
     console.log('[Indicators] Fetching historical data for', symbol);
     const data = await DataService.fetchHistorical(symbol, '6mo', '1d');
-    if (!data || data.length < 60) {
-      console.warn('[Indicators] Not enough data:', data ? data.length : 0);
-      return null;
+    if (!data) {
+      console.warn('[Indicators] fetchHistorical returned null');
+      return { error: 'API 逾時或代理失敗' };
+    }
+    if (data.length < 60) {
+      console.warn('[Indicators] Not enough data:', data.length);
+      return { error: `歷史資料不足 (${data.length}筆，需60筆)` };
     }
     console.log('[Indicators] Got', data.length, 'points, calculating...');
 

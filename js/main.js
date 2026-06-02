@@ -166,10 +166,11 @@ const App = (() => {
     const currentPrice = quote?.price;
 
     const result = await IndicatorsService.calculateFor(symbol, currentPrice);
-    if (result) {
+    if (result && !result.error) {
       UI.renderIndicators(result);
     } else {
-      document.getElementById("ind-grid").innerHTML = '<div class="ind-cell" style="text-align:center;color:var(--warn);padding:24px">⚠ 無法載入技術指標<br><small>確認網路連線後重整頁面</small></div>';
+      const msg = result?.error || '未知錯誤';
+      document.getElementById("ind-grid").innerHTML = '<div class="ind-cell" style="grid-column:1/-1;text-align:center;color:var(--warn);padding:24px">⚠ 無法載入技術指標<br><small>' + msg + '</small><br><button onclick="App.updateIndicators(\'0050.TW\')" style="margin-top:8px;background:rgba(255,119,68,0.12);border:1px solid var(--arc);color:var(--arc);padding:4px 16px;font-family:inherit;font-size:11px;cursor:pointer">🔄 重試</button></div>';
     }
   }
 
