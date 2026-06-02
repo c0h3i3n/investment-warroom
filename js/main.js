@@ -171,6 +171,8 @@ const App = (() => {
     const result = await IndicatorsService.calculateFor(symbol, currentPrice);
     if (result) {
       UI.renderIndicators(result);
+    } else {
+      document.getElementById("ind-grid").innerHTML = '<div class="ind-cell" style="text-align:center;color:var(--warn);padding:24px">⚠ 無法載入技術指標<br><small>確認網路連線後重整頁面</small></div>';
     }
   }
 

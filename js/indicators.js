@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════
 // J.A.R.V.I.S · TECHNICAL INDICATORS
-// Using technicalindicators.js (CDN)
+// Using technicalindicators.js (CDN) v3
 // ═══════════════════════════════════════
 
 const IndicatorsService = (() => {
@@ -33,7 +33,7 @@ const IndicatorsService = (() => {
     try {
       const input = { values: closes, period };
       const result = window.rsi(input);
-      return result[result.length - 1]; // latest value
+      return result[result.length - 1];
     } catch (e) {
       console.error('RSI calc error:', e);
       return null;
@@ -107,7 +107,7 @@ const IndicatorsService = (() => {
   function interpret(rsi, macd, stoch, ma20, ma60, currentPrice, avgVol, latestVol) {
     const results = [];
 
-    // RSI interpretation
+    // RSI
     if (rsi !== null) {
       let signal, color;
       if (rsi > 70) { signal = 'OVERBOUGHT ⚠'; color = 'warn'; }
@@ -117,7 +117,7 @@ const IndicatorsService = (() => {
       results.push({ name: 'RSI · 14', value: rsi.toFixed(1), signal, color });
     }
 
-    // KD interpretation
+    // KD
     if (stoch) {
       let signal, color;
       if (stoch.k > 80) { signal = 'OVERBOUGHT ⚠'; color = 'warn'; }
@@ -127,7 +127,7 @@ const IndicatorsService = (() => {
       results.push({ name: 'KD · K值', value: stoch.k.toFixed(1), signal, color });
     }
 
-    // MACD interpretation
+    // MACD
     if (macd) {
       let signal, color;
       if (macd.cross === 'bullish' && macd.histogram > 0) {
@@ -184,11 +184,13 @@ const IndicatorsService = (() => {
 
   // ── Calculate all indicators for a symbol ──
   async function calculateFor(symbol, currentPrice) {
+    console.log(`[Indicators] Fetching historical data for ${symbol}...`);
     const data = await DataService.fetchHistorical(symbol, '6mo', '1d');
     if (!data || data.length < 60) {
-      console.warn(`Not enough historical data for ${symbol}`);
+      console.warn(`[Indicators] Not enough historical data for ${symbol} (${data ? data.length : 0} points)`);
       return null;
     }
+    console.log(`[Indicators] Got ${data.length} data points for ${symbol}`);
 
     const closes = getCloses(data);
     const highs = getHighs(data);
@@ -206,7 +208,7 @@ const IndicatorsService = (() => {
     return {
       symbol,
       indicators: interpret(rsi, macd, stoch, ma20, ma60, currentPrice, avgVol, latestVol),
-      chartData: data.slice(-60), // last 60 days for mini chart
+      chartData: data.slice(-60),
     };
   }
 
