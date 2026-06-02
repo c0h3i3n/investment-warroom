@@ -249,19 +249,6 @@ const App = (() => {
     updateMarketStatus();
     startPriceFlicker();
 
-    // Bind indicator load button (must be before data fetch to avoid blocking)
-    var indBtn = document.getElementById('ind-load-btn');
-    if (indBtn) {
-      indBtn.addEventListener('click', function() {
-        indBtn.textContent = '⟳ LOADING...';
-        indBtn.disabled = true;
-        updateIndicators('0050.TW').finally(function() {
-          indBtn.textContent = '⬡ LOAD INDICATORS';
-          indBtn.disabled = false;
-        });
-      });
-    }
-
     // Initial data fetch
     await fetchAllData(true);
 
