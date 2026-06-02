@@ -32,7 +32,7 @@ const IndicatorsService = (() => {
       if (avgLoss === 0) { rsi = 100; continue; }
       rsi = 100 - (100 / (1 + avgGain / avgLoss));
     }
-    return rsi;
+    return isNaN(rsi) ? null : rsi;
   }
 
   // ═══════════════════════════════════════
@@ -55,11 +55,15 @@ const IndicatorsService = (() => {
     if (closes.length < 35) return null;
     const ema12 = calcEMASeries(closes, 12);
     const ema26 = calcEMASeries(closes, 26);
-    const macdLine = ema12.map((v, i) => v - ema26[i]);
+    // Align: ema12 has 14 more elements than ema26 — slice to match
+    const offset = ema12.length - ema26.length;
+    const macdLine = ema12.slice(offset).map((v, i) => v - ema26[i]);
+    if (macdLine.length < 9) return null;
     const signal = calcEMASeries(macdLine, 9);
     const lastMacd = macdLine[macdLine.length - 1];
     const lastSignal = signal[signal.length - 1];
     const histogram = lastMacd - lastSignal;
+    if (isNaN(lastMacd) || isNaN(lastSignal)) return null;
     return {
       macd: lastMacd,
       signal: lastSignal,
@@ -98,10 +102,10 @@ const IndicatorsService = (() => {
     for (let i = kPeriod - 1; i < kValues.length; i++) {
       dValues.push(kValues.slice(i - kPeriod + 1, i + 1).reduce((a, b) => a + b, 0) / kPeriod);
     }
-    return {
-      k: kValues[kValues.length - 1],
-      d: dValues[dValues.length - 1],
-    };
+    const k = kValues[kValues.length - 1];
+    const d = dValues[dValues.length - 1];
+    if (isNaN(k) || isNaN(d)) return null;
+    return { k, d };
   }
 
   // ═══════════════════════════════════════
