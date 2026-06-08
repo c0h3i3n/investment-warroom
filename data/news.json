@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-06-08T22:40:52+08:00",
+  "data": [
+    {
+      "region": "TW",
+      "headline": "英特爾翻身了？Google傳下逾300萬顆AI晶片大單 股價應聲飆漲",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6489736"
+    },
+    {
+      "region": "TW",
+      "headline": "〈美股早盤〉晶片股強勢反彈 主要指數開高收復部分失土",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6489596"
+    },
+    {
+      "region": "TW",
+      "headline": "搭上AI基建熱潮！康寧拿下亞馬遜大單 盤前股價大漲逾9%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6489699"
+    },
+    {
+      "region": "TW",
+      "headline": "日本投資者5月大舉拋售海外股票 規模創5年來新高",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6489301"
+    },
+    {
+      "region": "TW",
+      "headline": "伊朗宣布停止對以軍事行動 但警告黎巴嫩局勢恐再升級",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6489639"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：南亞科(2408-TW)EPS預估上修至47.71元，預估目標價為360元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6489743"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台塑四寶業績〉台塑、南亞看好Q2業績優於上季 Q3旺季更佳 油價下檔有撐",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6489648"
+    },
+    {
+      "region": "TW",
+      "headline": "凌華5月營收創單月次高 接單健康需求延續成長",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6489643"
+    },
+    {
+      "region": "TW",
+      "headline": "鈺祥5月營收創新高 推進液體濾網業務",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6489641"
+    }
+  ]
+}
