@@ -446,16 +446,16 @@ footer {
 /* ═══ Price Flash Animation ═══ */
 @keyframes priceFlashUp {
   0%   { background:transparent; }
-  30%  { background:rgba(0,200,100,0.15); }
+  20%  { background:rgba(0,200,100,0.06); }
   100% { background:transparent; }
 }
 @keyframes priceFlashDn {
   0%   { background:transparent; }
-  30%  { background:rgba(255,50,50,0.15); }
+  20%  { background:rgba(255,50,50,0.06); }
   100% { background:transparent; }
 }
-.price-flash-up { animation: priceFlashUp 1.2s ease-out; }
-.price-flash-dn { animation: priceFlashDn 1.2s ease-out; }
+.price-flash-up { animation: priceFlashUp 2s ease-out; }
+.price-flash-dn { animation: priceFlashDn 2s ease-out; }
 
 /* Smooth transition for price changes */
 .idx-price, .w-price, .ps-value {

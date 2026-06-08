@@ -133,14 +133,19 @@ const App = (() => {
   // ═══════════════════════════════════════
   async function loadStaticFallback() {
     try {
-      const [idxResp, qResp] = await Promise.all([
-        fetch('data/indexes.json', { signal: AbortSignal.timeout(5000) }),
-        fetch('data/quotes.json', { signal: AbortSignal.timeout(5000) }),
+      const [idxResp, qResp, nResp] = await Promise.all([
+        fetch('data/indexes.json', { signal: AbortSignal.timeout(3000) }),
+        fetch('data/quotes.json', { signal: AbortSignal.timeout(3000) }),
+        fetch('data/news.json', { signal: AbortSignal.timeout(3000) }).catch(() => null),
       ]);
       if (!idxResp.ok && !qResp.ok) return false;
       
       const indexes = idxResp.ok ? (await idxResp.json()).data : null;
       const quotes = qResp.ok ? (await qResp.json()).data : null;
+      let news = null;
+      if (nResp && nResp.ok) {
+        try { news = (await nResp.json()).data; } catch(e) {}
+      }
       
       if (indexes && indexes.length > 0) {
         indexData = indexes;
@@ -156,7 +161,15 @@ const App = (() => {
         UI.renderWatchlist(watchData);
         UI.renderTicker(watchData);
         updatePortfolio(quotes);
-        document.getElementById('last-updated').textContent = 'STATIC FALLBACK';
+      }
+      if (news && news.length > 0) {
+        UI.renderNews(news);
+      }
+      
+      const ts = indexes?.timestamp || quotes?.timestamp;
+      if (ts) {
+        document.getElementById('last-updated').textContent = 
+          'CACHED ' + new Date(ts).toLocaleTimeString('zh-TW', { hour:'2-digit', minute:'2-digit', hour12:false });
       }
       return true;
     } catch(e) { return false; }
@@ -285,13 +298,17 @@ const App = (() => {
     updateMarketStatus();
     startPriceFlicker();
 
-    // Try live fetch with timeout
-    const liveTimeout = new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 12000));
-    try {
-      await Promise.race([fetchAllData(true), liveTimeout]);
-    } catch(e) {
-      console.warn('Live fetch timed out, using static fallback');
-      await loadStaticFallback();
+    // ⚡ Load static data instantly (no waiting)
+    const staticOk = await loadStaticFallback();
+    
+    // Then try live data in background (non-blocking)
+    if (staticOk) {
+      // Already showing data — just refresh in background
+      setTimeout(() => fetchAllData(false), 500);
+    } else {
+      // No static data, must wait for live
+      const liveTimeout = new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 15000));
+      try { await Promise.race([fetchAllData(true), liveTimeout]); } catch(e) {}
     }
 
     // Start periodic refresh
