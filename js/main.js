@@ -127,6 +127,41 @@ const App = (() => {
     UI.setRefreshing(false);
   }
 
+
+  // ═══════════════════════════════════════
+  // STATIC FALLBACK — loads data/*.json if live APIs fail
+  // ═══════════════════════════════════════
+  async function loadStaticFallback() {
+    try {
+      const [idxResp, qResp] = await Promise.all([
+        fetch('data/indexes.json', { signal: AbortSignal.timeout(5000) }),
+        fetch('data/quotes.json', { signal: AbortSignal.timeout(5000) }),
+      ]);
+      if (!idxResp.ok && !qResp.ok) return false;
+      
+      const indexes = idxResp.ok ? (await idxResp.json()).data : null;
+      const quotes = qResp.ok ? (await qResp.json()).data : null;
+      
+      if (indexes && indexes.length > 0) {
+        indexData = indexes;
+        UI.renderIndexCards(indexes);
+      }
+      if (quotes && quotes.length > 0) {
+        const watchlist = loadWatchlist();
+        const watchData = watchlist.map(w => {
+          const q = quotes.find(q => q.symbol === w.symbol);
+          return { ...w, price: q?.price, change: q?.change, changePct: q?.changePct, currency: w.symbol.endsWith('.TW') ? 'TWD' : 'USD', region: w.region || (w.symbol.endsWith('.TW') ? 'TW' : 'US') };
+        });
+        watchlistQuotes = watchData;
+        UI.renderWatchlist(watchData);
+        UI.renderTicker(watchData);
+        updatePortfolio(quotes);
+        document.getElementById('last-updated').textContent = 'STATIC FALLBACK';
+      }
+      return true;
+    } catch(e) { return false; }
+  }
+
   // ═══════════════════════════════════════
   // PORTFOLIO
   // ═══════════════════════════════════════
@@ -250,8 +285,14 @@ const App = (() => {
     updateMarketStatus();
     startPriceFlicker();
 
-    // Initial data fetch
-    await fetchAllData(true);
+    // Try live fetch with timeout
+    const liveTimeout = new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 12000));
+    try {
+      await Promise.race([fetchAllData(true), liveTimeout]);
+    } catch(e) {
+      console.warn('Live fetch timed out, using static fallback');
+      await loadStaticFallback();
+    }
 
     // Start periodic refresh
     startAutoRefresh();
