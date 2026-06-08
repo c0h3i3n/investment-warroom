@@ -10,6 +10,22 @@ const UI = (() => {
   function chgArrow(val) { return val >= 0 ? '▲' : '▼'; }
   function pctStr(val) { return (val >= 0 ? '+' : '') + val.toFixed(2) + '%'; }
 
+  // ── Price Flash Animation ──
+  const _prevPrices = {};
+
+  function flashPrice(el, symbol, newPrice) {
+    if (!el || newPrice == null) return;
+    const old = _prevPrices[symbol];
+    _prevPrices[symbol] = newPrice;
+    if (old != null && old !== newPrice) {
+      el.classList.remove('price-flash-up', 'price-flash-dn');
+      void el.offsetWidth; // reflow
+      el.classList.add(newPrice > old ? 'price-flash-up' : 'price-flash-dn');
+    }
+  }
+
+
+
   // ── Regional formatting ──
   function fmtPrice(price, region) {
     if (price == null) return '--';
@@ -41,7 +57,7 @@ const UI = (() => {
       <div class="idx-card">
         <div class="idx-region">${idx.region} · ${idx.region === 'TW' ? '台灣' : '美國'}</div>
         <div class="idx-name">${idx.name}</div>
-        <div class="idx-price ${cls}">${idx.currency}${fmtPrice(price, idx.region)}</div>
+        <div class="idx-price ${cls}" data-id="${idx.id}">${idx.currency}${fmtPrice(price, idx.region)}</div>
         <div class="idx-change">
           <span class="idx-pct ${cls}">${chgArrow(changePct)} ${Math.abs(changePct || 0).toFixed(2)}%</span>
           <div class="progress-track"><div class="progress-fill ${cls}" style="width:${Math.min(100, Math.abs(changePct || 0) * 15)}%"></div></div>
@@ -56,6 +72,13 @@ const UI = (() => {
           <circle cx="100" cy="${points.lastY}" r="2" fill="${color}" filter="drop-shadow(0 0 3px ${color})"/>
         </svg>
       </div>`;
+    // Flash prices after render
+    setTimeout(() => {
+      indexes.forEach(idx => {
+        const el = document.querySelector(`.idx-card .idx-price[data-id="${idx.id}"]`);
+        flashPrice(el, 'idx_'+idx.id, idx.price);
+      });
+    }, 50);
     }).join('');
   }
 

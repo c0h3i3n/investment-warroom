@@ -443,6 +443,69 @@ footer {
 }
 
 /* ═══ RESPONSIVE ═══ */
+/* ═══ Price Flash Animation ═══ */
+@keyframes priceFlashUp {
+  0%   { background:transparent; }
+  30%  { background:rgba(0,200,100,0.15); }
+  100% { background:transparent; }
+}
+@keyframes priceFlashDn {
+  0%   { background:transparent; }
+  30%  { background:rgba(255,50,50,0.15); }
+  100% { background:transparent; }
+}
+.price-flash-up { animation: priceFlashUp 1.2s ease-out; }
+.price-flash-dn { animation: priceFlashDn 1.2s ease-out; }
+
+/* Smooth transition for price changes */
+.idx-price, .w-price, .ps-value {
+  transition: color 0.4s ease;
+}
+
+/* ═══ Latency Badge ═══ */
+.latency-badge {
+  display:inline-flex; align-items:center; gap:4px;
+  font-family:'Exo 2',sans-serif; font-size:9px; color:var(--dim);
+  padding:3px 8px; border:1px solid rgba(255,255,255,0.06);
+  border-radius:3px; letter-spacing:0.5px;
+}
+.latency-badge .dot { width:5px; height:5px; border-radius:50%; display:inline-block; }
+.latency-badge .dot.live  { background:var(--pos); box-shadow:0 0 6px var(--pos-glow); }
+.latency-badge .dot.delay { background:var(--warn); box-shadow:0 0 6px rgba(255,180,0,.3); }
+
+/* ═══ Mobile Improvements ═══ */
+@media(max-width:768px){
+  .hud-header { flex-wrap:wrap; gap:12px; }
+  .reactor-text h1 { font-size:18px; }
+  .status-panel { gap:10px; }
+  .index-row { grid-template-columns:1fr 1fr; gap:8px; }
+  .idx-card { padding:14px 12px; }
+  .idx-name { font-size:10px; }
+  .idx-price { font-size:16px; }
+  .main-grid { grid-template-columns:1fr; gap:12px; }
+  .hud-panel { padding:14px; }
+  .port-table { font-size:9px; }
+  .port-table th, .port-table td { padding:6px 4px; }
+  .ind-grid { grid-template-columns:repeat(2,1fr); gap:6px; }
+  .ind-cell { padding:10px 8px; }
+  .news-feed { grid-template-columns:1fr !important; }
+  #news-feed { grid-template-columns:1fr !important; }
+  .ticker-bar { font-size:9px; }
+  .t-item { padding:0 8px; gap:3px; font-size:9px; }
+  .sec-label-text { font-size:10px; }
+  /* Hide arc rings on mobile for perf */
+  .arc-ring { display:none; }
+}
+
+@media(max-width:480px){
+  .index-row { grid-template-columns:1fr; }
+  .hud-center { display:none; }
+  .status-panel { width:100%; justify-content:space-around; }
+  .reactor-text h1 { font-size:15px; }
+  .reactor-text .sub { font-size:8px; }
+  .hud { padding:10px; }
+}
+
 @media(max-width:1100px){
   .index-row { grid-template-columns:repeat(3,1fr); }
   .main-grid { grid-template-columns:1fr; }
@@ -609,7 +672,7 @@ footer {
 }
 .ticker-inner {
   display:inline-flex; gap:32px;
-  animation: tickerScroll 40s linear infinite;
+  animation: tickerScroll 25s linear infinite;
 }
 @keyframes tickerScroll {
   0%   { transform:translateX(0); }
