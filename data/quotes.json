@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-06-08T22:34:32+08:00",
+  "data": [
+    {
+      "symbol": "0050.TW",
+      "name": "",
+      "price": 100.95,
+      "change": -3.2,
+      "changePct": -3.07
+    },
+    {
+      "symbol": "00679B.TW",
+      "name": "",
+      "price": 26.45,
+      "change": -0.1,
+      "changePct": -0.38
+    },
+    {
+      "symbol": "00878.TW",
+      "name": "",
+      "price": 31.11,
+      "change": -1.21,
+      "changePct": -3.74
+    },
+    {
+      "symbol": "00929.TW",
+      "name": "",
+      "price": 28.08,
+      "change": -1.86,
+      "changePct": -6.21
+    },
+    {
+      "symbol": "00933B.TW",
+      "name": "",
+      "price": 15.95,
+      "change": -0.06,
+      "changePct": -0.37
+    },
+    {
+      "symbol": "00937B.TW",
+      "name": "",
+      "price": 14.85,
+      "change": -0.06,
+      "changePct": -0.4
+    },
+    {
+      "symbol": "2330.TW",
+      "name": "",
+      "price": 2295.0,
+      "change": -70.0,
+      "changePct": -2.96
+    },
+    {
+      "symbol": "NVDA",
+      "price": 207.88,
+      "change": 2.78,
+      "changePct": 1.36,
+      "name": "NVIDIA Corporation"
+    },
+    {
+      "symbol": "TSLA",
+      "price": 402.965,
+      "change": 11.96,
+      "changePct": 3.06,
+      "name": "Tesla, Inc."
+    }
+  ]
+}
