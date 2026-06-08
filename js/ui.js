@@ -207,10 +207,19 @@ const UI = (() => {
         <svg class="w-spark" viewBox="0 0 55 22" preserveAspectRatio="none">
           <polyline fill="none" stroke="${color}" stroke-width="1.5" points="${pts}"/>
         </svg>
-        <span class="w-price">${w.price ? fmtCurrency(w.price, w.region) : '--'}</span>
+        <span class="w-price" data-sym="${w.symbol}">${w.price ? fmtCurrency(w.price, w.region) : '--'}</span>
         <span class="w-chg ${cls}">${arrow} ${Math.abs(w.changePct || 0).toFixed(2)}%</span>
       </div>`;
     }).join('');
+    // Flash prices after render
+    setTimeout(() => {
+      watchData.forEach((w, i) => {
+        setTimeout(() => {
+          const el = container.querySelector(`.w-price[data-sym="${w.symbol}"]`);
+          flashPrice(el, w.symbol, w.price);
+        }, i * 30);
+      });
+    }, 80);
   }
 
   // ═══════════════════════════════════════
