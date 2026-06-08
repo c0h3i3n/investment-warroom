@@ -13,7 +13,6 @@ const UI = (() => {
   // ── Regional formatting ──
   function fmtPrice(price, region) {
     if (price == null) return '--';
-    if (region === 'TW') return Math.round(price).toLocaleString();
     return Number(price).toFixed(2);
   }
 

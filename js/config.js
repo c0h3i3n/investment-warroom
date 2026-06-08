@@ -21,6 +21,7 @@ const CONFIG = {
   RSS_FEEDS: [
     { name: '鉅亨',   url: 'https://news.cnyes.com/rss/v1/news/category/headline', region: 'TW' },
     { name: '台股',   url: 'https://news.cnyes.com/rss/v1/news/category/tw_stock', region: 'TW' },
+    { name: '美股',   url: 'https://news.cnyes.com/rss/v1/news/category/us_stock', region: 'US' },
   ],
 
   // ── Market Hours (Taipei time, minutes from midnight) ──

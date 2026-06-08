@@ -11,6 +11,11 @@ const DataService = (() => {
   const CACHE_TTL = 45000;
   let activeProxyIndex = 0;
 
+  // ── OTC ETF symbols need .TWO suffix on Yahoo Finance ──
+  const OTC_YAHOO_MAP = { '00679B.TW':'00679B.TWO', '00933B.TW':'00933B.TWO', '00937B.TW':'00937B.TWO' };
+  const OTC_YAHOO_REV = {}; for (const [k,v] of Object.entries(OTC_YAHOO_MAP)) OTC_YAHOO_REV[v]=k;
+  const OTC_CODES = new Set(['00679B','00687B','00712','00713','00751B','00864B','00933B','00937B','00942B','00945B','00948B','00950B','00951B','00952B','00953B','00956B','00957B','00958B','00959B','00960B','00961B','00962B','00963B','00964B','00965B']);
+
   // ═══════════════════════════════════════
   // FALLBACK DATA
   // ═══════════════════════════════════════
@@ -155,47 +160,71 @@ const DataService = (() => {
   // ═══════════════════════════════════════
   // FETCH TWSE MIS QUOTES — Taiwan stocks
   // ═══════════════════════════════════════
+  function getMISKey(symbol) {
+    const code = symbol.replace(/\.TW$/i, '');
+    const ex = OTC_CODES.has(code) ? 'otc' : 'tse';
+    return `${ex}_${code}.tw`;
+  }
+
   async function fetchMISQuotes(twSymbols) {
-    const parts = twSymbols.map(s => {
-      const code = s.replace(/\.TW$/i, '');
-      const ex = (code.length === 4 && code.startsWith('00')) ? 'tse' : 'tse';
-      return `${ex}_${code}.tw`;
-    });
-
-    const misUrl = `${CONFIG.MIS_BASE}?ex_ch=${parts.join('|')}&json=1&delay=0`;
-
+    // Try batch first, fall back to individual with stagger
+    const parts = twSymbols.map(s => getMISKey(s));
     try {
-      const json = await fetchWithProxy(misUrl, 10000);
-      const msgArray = json?.msgArray;
-      if (!msgArray || msgArray.length === 0) throw new Error('Empty MIS response');
+      const url = `${CONFIG.MIS_BASE}?ex_ch=${parts.join('|')}&json=1&delay=0&_=${Date.now()}`;
+      const resp = await fetch(url, { signal: AbortSignal.timeout(8000) });
+      if (resp.ok) {
+        const json = await resp.json();
+        const arr = json?.msgArray;
+        if (arr && arr.length > 0 && arr.some(r => r.z && r.z !== '-')) {
+          return parseMIS(arr);
+        }
+      }
+    } catch(e) {}
 
-      const mapped = msgArray
-        .filter(r => r.c && r.c !== '')
-        .map(r => {
-          const code = r.c;
-          const symbol = code + '.TW';
-          const prevClose = parseFloat(r.y) || null;
-          const zVal = parseFloat(r.z);
-          const price = !isNaN(zVal) ? zVal : prevClose;
-          const change = (price != null && prevClose != null) ? price - prevClose : null;
-          const changePct = (prevClose && change != null) ? (change / prevClose) * 100 : null;
+    // Fallback: proxy batch
+    try {
+      const proxyUrl = `${CONFIG.MIS_BASE}?ex_ch=${parts.join('|')}&json=1&delay=0&_=${Date.now()}`;
+      const json = await fetchWithProxy(proxyUrl, 10000);
+      if (json?.msgArray) return parseMIS(json.msgArray);
+    } catch(e) {}
 
-          return {
-            symbol: symbol,
-            name: r.n || r.nf || code,
-            price: price,
-            change: change,
-            changePct: changePct,
-            prevClose: prevClose,
-            currency: 'TWD',
-          };
-        });
-
-      return mapped.length > 0 ? mapped : null;
-    } catch (e) {
-      console.warn('fetchMISQuotes failed:', e.message);
-      return null;
+    // Individual queries with stagger
+    const results = [];
+    const delay = ms => new Promise(r => setTimeout(r, ms));
+    for (let i = 0; i < twSymbols.length; i++) {
+      if (i > 0) await delay(300);
+      try {
+        const key = getMISKey(twSymbols[i]);
+        const url = `${CONFIG.MIS_BASE}?ex_ch=${key}&json=1&delay=0&_=${Date.now()}`;
+        let json = null;
+        try {
+          const resp = await fetch(url, { signal: AbortSignal.timeout(6000) });
+          if (resp.ok) json = await resp.json();
+        } catch(e) {}
+        if (!json) json = await fetchWithProxy(url, 8000);
+        if (json?.msgArray) results.push(...parseMIS(json.msgArray));
+      } catch(e) {}
     }
+    return results.length > 0 ? results : null;
+  }
+
+  function parseMIS(msgArray) {
+    return msgArray.filter(r => r.c && r.c !== '').map(r => {
+      const symbol = r.c + '.TW';
+      const prevClose = parseFloat(r.y) || null;
+      let price = null;
+      if (r.z && r.z !== '-') price = parseFloat(r.z);
+      else {
+        const bids = (r.b||'').split('_').filter(v=>v&&v!=='').map(Number);
+        const asks = (r.a||'').split('_').filter(v=>v&&v!=='').map(Number);
+        if (bids.length&&asks.length) price = (bids[0]+asks[0])/2;
+        else if (bids.length) price = bids[0];
+      }
+      if (price==null||isNaN(price)) return null;
+      const change = (price!=null&&prevClose!=null) ? price-prevClose : null;
+      const changePct = (prevClose&&change!=null) ? (change/prevClose)*100 : null;
+      return { symbol, price, change, changePct, prevClose, currency:'TWD', name: r.n||r.nf||r.c };
+    }).filter(r=>r!=null);
   }
 
   // ═══════════════════════════════════════
