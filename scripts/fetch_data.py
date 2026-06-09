@@ -130,7 +130,7 @@ for id_, sym, name, region, curr in idx_config:
         'price': d.get('price'), 'change': d.get('change', 0), 'changePct': d.get('changePct', 0)})
 
 # Quotes
-W = ['0050.TW','00679B.TW','00878.TW','00929.TW','00933B.TW','00937B.TW','009800.TW','2330.TW','NVDA','TSLA']
+W = ['0050.TW','2330.TW','00679B.TW','00878.TW','00929.TW','00933B.TW','00937B.TW','009800.TW','NVDA','TSLA']
 yq = yahoo_quotes(W)
 quotes = []
 for sym in W:
