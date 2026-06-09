@@ -13,12 +13,24 @@ const PortfolioService = (() => {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (raw) {
         const data = JSON.parse(raw);
-        if (Array.isArray(data) && data.length > 0) return data;
+        if (Array.isArray(data) && data.length > 0) {
+          // Auto-migrate: add new defaults
+          const savedSymbols = new Set(data.map(h => h.symbol));
+          const defaults = CONFIG.DEFAULT_HOLDINGS;
+          let changed = false;
+          defaults.forEach(d => {
+            if (!savedSymbols.has(d.symbol)) {
+              data.push({...d});
+              changed = true;
+            }
+          });
+          if (changed) saveHoldings(data);
+          return data;
+        }
       }
     } catch (e) {
       console.error('Failed to load portfolio:', e);
     }
-    // Use defaults
     const defaults = JSON.parse(JSON.stringify(CONFIG.DEFAULT_HOLDINGS));
     saveHoldings(defaults);
     return defaults;

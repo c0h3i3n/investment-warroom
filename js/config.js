@@ -62,6 +62,7 @@ const CONFIG = {
     { symbol: '00929.TW',  name: '復華台灣科技優息',    shares: 0, cost: 0, region: 'TW' },
     { symbol: '00933B.TW', name: '國泰10Y+金融債',      shares: 0, cost: 0, region: 'TW' },
     { symbol: '00937B.TW', name: '群益ESG投等債20+',    shares: 0, cost: 0, region: 'TW' },
+    { symbol: '009800.TW', name: '中信NASDAQ',          shares: 0, cost: 0, region: 'TW' },
     { symbol: '2330.TW',   name: '台積電',              shares: 0, cost: 0, region: 'TW' },
   ],
 
