@@ -239,11 +239,15 @@ const App = (() => {
   // WATCHLIST MANAGEMENT
   // ═══════════════════════════════════════
   const WATCHLIST_KEY = 'warroom_watchlist';
+  const WATCHLIST_VERSION = 3; // bump to force reorder
 
   function loadWatchlist() {
     try {
+      const verKey = WATCHLIST_KEY + '_ver';
+      const savedVer = parseInt(localStorage.getItem(verKey)) || 0;
       const raw = localStorage.getItem(WATCHLIST_KEY);
-      if (raw) {
+      
+      if (raw && savedVer >= WATCHLIST_VERSION) {
         const data = JSON.parse(raw);
         if (Array.isArray(data) && data.length > 0) {
           // Auto-migrate: add any new defaults not in saved list
@@ -256,13 +260,15 @@ const App = (() => {
               changed = true;
             }
           });
-          if (changed) saveWatchlist(data);
+          if (changed) { saveWatchlist(data); localStorage.setItem(verKey, WATCHLIST_VERSION); }
           return data;
         }
       }
     } catch (e) { /* use defaults */ }
+    // Fresh load from defaults
     const defaults = JSON.parse(JSON.stringify(CONFIG.DEFAULT_WATCHLIST));
     saveWatchlist(defaults);
+    localStorage.setItem(WATCHLIST_KEY + '_ver', WATCHLIST_VERSION);
     return defaults;
   }
 

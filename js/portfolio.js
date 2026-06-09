@@ -6,15 +6,18 @@
 const PortfolioService = (() => {
 
   const STORAGE_KEY = 'warroom_portfolio';
+  const PORTFOLIO_VERSION = 3;
 
   // ── Load holdings from localStorage ──
   function loadHoldings() {
     try {
+      const verKey = STORAGE_KEY + '_ver';
+      const savedVer = parseInt(localStorage.getItem(verKey)) || 0;
       const raw = localStorage.getItem(STORAGE_KEY);
-      if (raw) {
+      
+      if (raw && savedVer >= PORTFOLIO_VERSION) {
         const data = JSON.parse(raw);
         if (Array.isArray(data) && data.length > 0) {
-          // Auto-migrate: add new defaults
           const savedSymbols = new Set(data.map(h => h.symbol));
           const defaults = CONFIG.DEFAULT_HOLDINGS;
           let changed = false;
@@ -24,7 +27,7 @@ const PortfolioService = (() => {
               changed = true;
             }
           });
-          if (changed) saveHoldings(data);
+          if (changed) { saveHoldings(data); localStorage.setItem(verKey, PORTFOLIO_VERSION); }
           return data;
         }
       }
@@ -33,6 +36,7 @@ const PortfolioService = (() => {
     }
     const defaults = JSON.parse(JSON.stringify(CONFIG.DEFAULT_HOLDINGS));
     saveHoldings(defaults);
+    localStorage.setItem(STORAGE_KEY + '_ver', PORTFOLIO_VERSION);
     return defaults;
   }
 
