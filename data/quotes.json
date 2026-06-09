@@ -1,68 +1,68 @@
 {
-  "timestamp": "2026-06-08T22:34:32+08:00",
+  "timestamp": "2026-06-09T09:33:55.305204+08:00",
   "data": [
     {
       "symbol": "0050.TW",
       "name": "",
-      "price": 100.95,
-      "change": -3.2,
-      "changePct": -3.07
+      "price": 102.12,
+      "change": 1.17,
+      "changePct": 1.16
     },
     {
       "symbol": "00679B.TW",
       "name": "",
-      "price": 26.45,
-      "change": -0.1,
-      "changePct": -0.38
+      "price": 26.36,
+      "change": -0.09,
+      "changePct": -0.34
     },
     {
       "symbol": "00878.TW",
       "name": "",
-      "price": 31.11,
-      "change": -1.21,
-      "changePct": -3.74
+      "price": 31.61,
+      "change": 0.5,
+      "changePct": 1.61
     },
     {
       "symbol": "00929.TW",
       "name": "",
-      "price": 28.08,
-      "change": -1.86,
-      "changePct": -6.21
+      "price": 28.51,
+      "change": 0.43,
+      "changePct": 1.53
     },
     {
       "symbol": "00933B.TW",
       "name": "",
-      "price": 15.95,
-      "change": -0.06,
-      "changePct": -0.37
+      "price": 15.93,
+      "change": -0.02,
+      "changePct": -0.13
     },
     {
       "symbol": "00937B.TW",
       "name": "",
-      "price": 14.85,
-      "change": -0.06,
-      "changePct": -0.4
+      "price": 14.82,
+      "change": -0.03,
+      "changePct": -0.2
     },
     {
       "symbol": "2330.TW",
       "name": "",
-      "price": 2295.0,
-      "change": -70.0,
-      "changePct": -2.96
+      "price": 2302.5,
+      "change": 7.5,
+      "changePct": 0.33
     },
     {
       "symbol": "NVDA",
-      "price": 207.88,
-      "change": 2.78,
-      "changePct": 1.36,
-      "name": "NVIDIA Corporation"
+      "name": "",
+      "price": 208.64,
+      "change": 3.54,
+      "changePct": 1.73
     },
     {
       "symbol": "TSLA",
-      "price": 402.965,
-      "change": 11.96,
-      "changePct": 3.06,
-      "name": "Tesla, Inc."
+      "name": "",
+      "price": 408.95,
+      "change": 17.95,
+      "changePct": 4.59
     }
   ]
 }
