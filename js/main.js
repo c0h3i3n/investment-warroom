@@ -7,6 +7,7 @@ const App = (() => {
 
   // ── State ──
   let watchlistQuotes = [];
+  window._watchlistQuotes = watchlistQuotes;
   let indexData = [];
   let usingFallback = false;
 
@@ -90,6 +91,7 @@ const App = (() => {
         const quotes = await DataService.fetchAllQuotes(wSymbols);
         if (quotes) {
           watchlistQuotes = quotes;
+          window._watchlistQuotes = quotes;
           const watchData = watchlist.map(w => {
             const q = quotes.find(q => q.symbol === w.symbol);
             return {
@@ -102,13 +104,13 @@ const App = (() => {
             };
           });
           UI.renderWatchlist(watchData);
-          UI.renderFeatured(watchData);
+          UI.renderFeatured();
           UI.renderTicker(watchData);
 
           // Fetch sparklines for watchlist (non-blocking)
           DataService.fetchSparklines(wSymbols).then(sparkData => {
             UI.renderWatchlist(watchData, sparkData);
-            UI.renderFeatured(watchData);
+            UI.renderFeatured();
           });
         }
       }
@@ -161,7 +163,7 @@ const App = (() => {
         });
         watchlistQuotes = watchData;
         UI.renderWatchlist(watchData);
-        UI.renderFeatured(watchData);
+        UI.renderFeatured();
         UI.renderTicker(watchData);
         updatePortfolio(quotes);
       }

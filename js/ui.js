@@ -226,10 +226,11 @@ const UI = (() => {
   // ═══════════════════════════════════════
   // FEATURED · 重點關注
   // ═══════════════════════════════════════
-  function renderFeatured(quotes) {
+  function renderFeatured() {
     const container = document.getElementById('featured-row');
     if (!container) return;
     const featured = ['0050.TW', '2330.TW'];
+    const quotes = window._watchlistQuotes || [];
     const data = featured.map(sym => quotes.find(q => q.symbol === sym)).filter(Boolean);
     if (!data.length) return;
 
@@ -241,15 +242,14 @@ const UI = (() => {
       <div class="featured-card">
         <div class="featured-sym">${sym}</div>
         <div class="featured-name">${q.name || ''}</div>
-        <div class="featured-price ${cls}" data-sym="${q.symbol}">${q.price ? Number(q.price).toFixed(2) : '--'}</div>
+        <div class="featured-price ${cls}" data-sym="${q.symbol}">${q.price != null ? Number(q.price).toFixed(2) : '--'}</div>
         <div class="featured-chg ${cls}">${arrow} ${Math.abs(q.change || 0).toFixed(2)} (${Math.abs(q.changePct || 0).toFixed(2)}%)</div>
       </div>`;
     }).join('');
 
-    // Flash prices
     setTimeout(() => {
       data.forEach(q => {
-        const el = container.querySelector(`.featured-price[data-sym="${q.symbol}"]`);
+        const el = container.querySelector('.featured-price[data-sym="' + q.symbol + '"]');
         flashPrice(el, 'feat_'+q.symbol, q.price);
       });
     }, 50);
