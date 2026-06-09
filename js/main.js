@@ -102,11 +102,13 @@ const App = (() => {
             };
           });
           UI.renderWatchlist(watchData);
+          UI.renderFeatured(watchData);
           UI.renderTicker(watchData);
 
           // Fetch sparklines for watchlist (non-blocking)
           DataService.fetchSparklines(wSymbols).then(sparkData => {
             UI.renderWatchlist(watchData, sparkData);
+            UI.renderFeatured(watchData);
           });
         }
       }
@@ -159,6 +161,7 @@ const App = (() => {
         });
         watchlistQuotes = watchData;
         UI.renderWatchlist(watchData);
+        UI.renderFeatured(watchData);
         UI.renderTicker(watchData);
         updatePortfolio(quotes);
       }
