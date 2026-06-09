@@ -1,69 +1,45 @@
 {
-  "timestamp": "2026-06-09T10:47:09.276651+08:00",
+  "timestamp": "2026-06-09T14:36:03.566071+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "花旗下修金價短線目標至4000美元 高油價與升息風險夾擊",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6489881"
-    },
-    {
-      "region": "TW",
-      "headline": "黃仁勳婉拒赴美參院作證 AI、中國與晶片出口議題受矚",
+      "headline": "AI投資擴張趨勢未變 法人：台股中長期成長仍具韌性",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6489847"
+      "link": "https://news.cnyes.com/news/id/6490555"
     },
     {
       "region": "TW",
-      "headline": "AI三雄瘋漲反成緊箍咒！主動基金陷「越漲越賣」死循環 ETF成大贏家",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6488912"
-    },
-    {
-      "region": "TW",
-      "headline": "2030年DRAM月產能衝擊百萬片晶圓！為何SK海力士寧冒產能過剩風險也要翻倍？",
+      "headline": "〈技嘉股東會〉AI伺服器訂單能見度非常清楚 董座看好今年營收增幅超越去年",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6487334"
+      "link": "https://news.cnyes.com/news/id/6490796"
     },
     {
       "region": "TW",
-      "headline": "永豐金前5月賺逾200億元EPS 1.4元 永豐銀獲利連6年創高",
-      "source": "台股",
+      "headline": "營收速報  - 國票金(2889)5月營收15.89億元年增率高達147.94％",
+      "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6489791"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6490831"
     },
     {
       "region": "TW",
-      "headline": "迎戰金融「三高」！國泰全球多元收益傘型基金 主被動雙箭齊攻債市機會",
+      "headline": "營收速報  - 中工(2515)5月營收22.71億元年增率高達57.1％",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6490829"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 隆大(5519)5月營收1.73億元年增率高達88.65％",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6489716"
-    },
-    {
-      "region": "TW",
-      "headline": "輝達RTX Spark背後的豪賭：AI PC是下一波革命還是曇花一現？",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6489642"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：南亞科(2408-TW)EPS預估上修至47.71元，預估目標價為360元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6489743"
+      "link": "https://news.cnyes.com/news/id/6490833"
     }
   ]
 }
