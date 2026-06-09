@@ -147,4 +147,33 @@ for sym in W:
 os.makedirs(DIR, exist_ok=True)
 json.dump({'timestamp': ts, 'data': indexes}, open(os.path.join(DIR, 'indexes.json'), 'w'), ensure_ascii=False, indent=2)
 json.dump({'timestamp': ts, 'data': quotes}, open(os.path.join(DIR, 'quotes.json'), 'w'), ensure_ascii=False, indent=2)
+
+# News
+RSS_FEEDS = [
+    ('鉅亨','https://news.cnyes.com/rss/v1/news/category/headline','TW'),
+    ('台股','https://news.cnyes.com/rss/v1/news/category/tw_stock','TW'),
+    ('美股','https://news.cnyes.com/rss/v1/news/category/us_stock','US'),
+]
+news_items = []
+for name, rss_url, region in RSS_FEEDS:
+    try:
+        rss2json = f'https://api.rss2json.com/v1/api.json?rss_url={urllib.request.quote(rss_url)}'
+        data = get(rss2json, timeout=12)
+        if data and data.get('status') == 'ok':
+            for item in data.get('items', [])[:4]:
+                title = item.get('title','')
+                tl = title.lower()
+                pos = ['漲','飆','突破','創高','上調','樂觀','surge','rally','record','upgrade']
+                neg = ['跌','崩','暴跌','下修','警','risk','crash','downgrade','plunge']
+                impact = 'pos' if any(w in tl for w in pos) else ('neg' if any(w in tl for w in neg) else 'neu')
+                headline = title[:80]+'…' if len(title)>80 else title
+                news_items.append({'region':region,'headline':headline,'source':name,'time':'--:--','impact':impact,'link':item.get('link','')})
+    except Exception as e:
+        print(f'  ⚠ News {name}: {e}', file=sys.stderr)
+
+seen = set()
+news_deduped = [n for n in news_items if not (n['headline'][:30] in seen or seen.add(n['headline'][:30]))]
+json.dump({'timestamp': ts, 'data': news_deduped[:12]}, open(os.path.join(DIR, 'news.json'), 'w'), ensure_ascii=False, indent=2)
+print(f'  ✓ News: {len(news_deduped[:12])} articles', file=sys.stderr)
+
 print(f'✅ {datetime.now(TZ).strftime("%H:%M:%S")}  Idx:{sum(1 for i in indexes if i.get("price"))}/{len(indexes)}  Q:{sum(1 for q in quotes if q.get("price"))}/{len(quotes)}')
