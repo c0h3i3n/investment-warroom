@@ -245,7 +245,20 @@ const App = (() => {
       const raw = localStorage.getItem(WATCHLIST_KEY);
       if (raw) {
         const data = JSON.parse(raw);
-        if (Array.isArray(data) && data.length > 0) return data;
+        if (Array.isArray(data) && data.length > 0) {
+          // Auto-migrate: add any new defaults not in saved list
+          const savedSymbols = new Set(data.map(w => w.symbol));
+          const defaults = CONFIG.DEFAULT_WATCHLIST;
+          let changed = false;
+          defaults.forEach(d => {
+            if (!savedSymbols.has(d.symbol)) {
+              data.push({...d});
+              changed = true;
+            }
+          });
+          if (changed) saveWatchlist(data);
+          return data;
+        }
       }
     } catch (e) { /* use defaults */ }
     const defaults = JSON.parse(JSON.stringify(CONFIG.DEFAULT_WATCHLIST));
