@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-09T21:24:44.392747+08:00",
+  "timestamp": "2026-06-10T00:18:11.025404+08:00",
   "data": [
     {
       "region": "TW",
@@ -32,6 +32,22 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6491710"
+    },
+    {
+      "region": "TW",
+      "headline": "就愛0050！5月定期定額突破109萬戶 逢大跌再吸277億元寫歷史次高",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6491676"
+    },
+    {
+      "region": "TW",
+      "headline": "AI、半導體驅動！上市櫃Q1海外投資季增3627億元 創歷年同期新高",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6491661"
     }
   ]
 }
