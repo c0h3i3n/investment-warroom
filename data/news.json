@@ -1,10 +1,58 @@
 {
-  "timestamp": "2026-06-10T02:31:22.197090+08:00",
+  "timestamp": "2026-06-10T04:35:42.978007+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "槓桿開太大？佳必琪爆近1.5億元巨額違約交割 群聯也被通報",
+      "headline": "通膨疑慮降溫？國際油價重挫帶動美債走高",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6491876"
+    },
+    {
+      "region": "TW",
+      "headline": "中東局勢又變天、晶片股重挫！美股盤中齊跳水 那指一度挫逾4%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6491891"
+    },
+    {
+      "region": "TW",
+      "headline": "川普稱伊朗擊落美軍阿帕契直升機 揚言採取回應行動",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6491878"
+    },
+    {
+      "region": "TW",
+      "headline": "川普家族大賺5億美元 這檔加密貨幣概念股卻暴跌93%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6491815"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：台化(1326-TW)EPS預估上修至2.03元，預估目標價為58元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6491776"
+    },
+    {
+      "region": "TW",
+      "headline": "日月光投控5月營收630億元 創43個月來新高",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6491751"
+    },
+    {
+      "region": "TW",
+      "headline": "槓桿開太大？佳必琪爆近1.5億元巨額違約交割 群聯也被通報",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6491698"
@@ -12,42 +60,10 @@
     {
       "region": "TW",
       "headline": "迎戰少子化！10大APEC經濟體共商定調3對策 葉俊顯促打造「以人為本」AI生態系",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6491685"
-    },
-    {
-      "region": "TW",
-      "headline": "AI商機太誘人！三星傳興建先進封裝廠 搶攻HBM商機",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6491686"
-    },
-    {
-      "region": "TW",
-      "headline": "美國將阿里巴巴、比亞迪列入「涉軍」清單 中國外交部回應！",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6491710"
-    },
-    {
-      "region": "TW",
-      "headline": "就愛0050！5月定期定額突破109萬戶 逢大跌再吸277億元寫歷史次高",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6491676"
-    },
-    {
-      "region": "TW",
-      "headline": "AI、半導體驅動！上市櫃Q1海外投資季增3627億元 創歷年同期新高",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6491661"
     }
   ]
 }
