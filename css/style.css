@@ -515,6 +515,8 @@ footer {
   .port-table { font-size:9px; }
   .port-table th, .port-table td { padding:6px 4px; }
   .ind-grid { grid-template-columns:repeat(2,1fr); gap:6px; }
+  .right-col { display:flex; flex-direction:column; }
+  .featured-panel { order:-1; }
   .ind-cell { padding:10px 8px; }
   .news-feed { grid-template-columns:1fr !important; }
   #news-feed { grid-template-columns:1fr !important; }
