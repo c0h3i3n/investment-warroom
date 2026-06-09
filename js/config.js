@@ -48,6 +48,7 @@ const CONFIG = {
     { symbol: '00929.TW',  name: '復華台灣科技優息',    region: 'TW' },
     { symbol: '00933B.TW', name: '國泰10Y+金融債',      region: 'TW' },
     { symbol: '00937B.TW', name: '群益ESG投等債20+',    region: 'TW' },
+    { symbol: '009800.TW', name: '中信NASDAQ',          region: 'TW' },
     { symbol: '2330.TW',   name: '台積電',              region: 'TW' },
     { symbol: 'NVDA',      name: '輝達',                region: 'US' },
     { symbol: 'TSLA',      name: '特斯拉',              region: 'US' },
