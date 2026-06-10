@@ -1,37 +1,45 @@
 {
-  "timestamp": "2026-06-11T05:08:00.260937+08:00",
+  "timestamp": "2026-06-11T06:57:38.929912+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "加拿大央行利率連五凍 警告政策陷兩難",
+      "headline": "美超微暴跌超27% 領跌標普500指數",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6494505"
+      "link": "https://news.cnyes.com/news/id/6494793"
     },
     {
       "region": "TW",
-      "headline": "符合預期反成利多？美5月CPI飆至4.2% 市場聚焦華許18日首秀鷹鴿走向",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6494504"
-    },
-    {
-      "region": "TW",
-      "headline": "華爾街解讀CPI：未見失控訊號 Fed下周態度成關鍵",
+      "headline": "川普30次預告和平協議將達成 市場為何仍深信不疑？",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6494480"
+      "link": "https://news.cnyes.com/news/id/6494784"
     },
     {
       "region": "TW",
-      "headline": "〈美股早盤〉通膨利多不敵中東風險 主要指數開低",
+      "headline": "〈財報〉甲骨文獲利超預期 擬再籌200億美元擴建AI 盤後重挫7%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6494136"
+      "link": "https://news.cnyes.com/news/id/6494803"
+    },
+    {
+      "region": "TW",
+      "headline": "SpaceX上市馬斯克資本布局全解析！前華爾街分析師喊記住「這兩個」關鍵時間點",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6492626"
+    },
+    {
+      "region": "TW",
+      "headline": "樺漢擬以每股23.5歐元公開收購Kontron 進行全球業務整合",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6494556"
     },
     {
       "region": "TW",
@@ -48,14 +56,6 @@
       "time": "--:--",
       "impact": "neg",
       "link": "https://news.cnyes.com/news/id/6494506"
-    },
-    {
-      "region": "TW",
-      "headline": "董事學會白皮書示警「大交棒時代」來臨 蔡鴻青：下個15年走向生態圈競爭",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6494465"
     }
   ]
 }
