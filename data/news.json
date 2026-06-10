@@ -1,69 +1,53 @@
 {
-  "timestamp": "2026-06-10T12:01:30.003967+08:00",
+  "timestamp": "2026-06-10T16:18:02.002489+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI擁擠度創新高 高盛、巴克萊示警：修正恐比市場預期更劇烈",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6491967"
-    },
-    {
-      "region": "TW",
-      "headline": "美光重挫是買點？分析師看好AI需求支撐記憶體市場",
+      "headline": "自行車廠巨大5月營收53.57億元年增近6% 擺脫連13個月來衰退",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6491941"
+      "link": "https://news.cnyes.com/news/id/6493437"
     },
     {
       "region": "TW",
-      "headline": "風光不再！比特幣八個月蒸發1.2兆美元 川普行情歸零 資金大舉轉進AI與SpaceX",
+      "headline": "應材斥資5億美元 擴增新加坡產能翻倍",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6490549"
+      "link": "https://news.cnyes.com/news/id/6493299"
     },
     {
       "region": "TW",
-      "headline": "〈能源盤後〉油價下跌約3% 美能源部稱荷姆茲海峽石油運輸顯著回溫  ",
+      "headline": "鉅亨速報 - Factset 最新調查：聯電(2303-TW)EPS預估上修至4.56元，預估目標價為84元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6491823"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6493457"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：台化(1326-TW)EPS預估上修至2.03元，預估目標價為58元",
-      "source": "台股",
+      "headline": "美國經濟只是表面強韌？華爾街策略師：股市內部已釋放衰退訊號",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6491776"
+      "link": "https://news.cnyes.com/news/id/6492004"
     },
     {
       "region": "TW",
-      "headline": "日月光投控5月營收630億元 創43個月來新高",
+      "headline": "大同電力設備延後出貨 5月營收35億元年月雙衰退",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6491751"
+      "link": "https://news.cnyes.com/news/id/6493291"
     },
     {
       "region": "TW",
-      "headline": "槓桿開太大？佳必琪爆近1.5億元巨額違約交割 群聯也被通報",
+      "headline": "營收速報  - 至上(8112)5月營收539.21億元年增率高達253.18％",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6491698"
-    },
-    {
-      "region": "TW",
-      "headline": "迎戰少子化！10大APEC經濟體共商定調3對策 葉俊顯促打造「以人為本」AI生態系",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6491685"
+      "link": "https://news.cnyes.com/news/id/6493314"
     }
   ]
 }
