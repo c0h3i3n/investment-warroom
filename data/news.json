@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-06-10T07:45:15.518122+08:00",
+  "timestamp": "2026-06-10T12:01:30.003967+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "通膨疑慮降溫？國際油價重挫帶動美債走高",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6491876"
-    },
-    {
-      "region": "TW",
-      "headline": "中東局勢又變天、晶片股重挫！美股盤中齊跳水 那指一度挫逾4%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6491891"
-    },
-    {
-      "region": "TW",
-      "headline": "川普稱伊朗擊落美軍阿帕契直升機 揚言採取回應行動",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6491878"
-    },
-    {
-      "region": "TW",
-      "headline": "川普家族大賺5億美元 這檔加密貨幣概念股卻暴跌93%",
+      "headline": "AI擁擠度創新高 高盛、巴克萊示警：修正恐比市場預期更劇烈",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6491815"
+      "link": "https://news.cnyes.com/news/id/6491967"
+    },
+    {
+      "region": "TW",
+      "headline": "美光重挫是買點？分析師看好AI需求支撐記憶體市場",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6491941"
+    },
+    {
+      "region": "TW",
+      "headline": "風光不再！比特幣八個月蒸發1.2兆美元 川普行情歸零 資金大舉轉進AI與SpaceX",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6490549"
+    },
+    {
+      "region": "TW",
+      "headline": "〈能源盤後〉油價下跌約3% 美能源部稱荷姆茲海峽石油運輸顯著回溫  ",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6491823"
     },
     {
       "region": "TW",
