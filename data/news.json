@@ -1,53 +1,61 @@
 {
-  "timestamp": "2026-06-10T19:53:35.873218+08:00",
+  "timestamp": "2026-06-10T23:42:48.729189+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "自行車廠巨大5月營收53.57億元年增近6% 擺脫連13個月來衰退",
+      "headline": "加拿大央行利率連五凍 警告政策陷兩難",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6493437"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6494505"
     },
     {
       "region": "TW",
-      "headline": "應材斥資5億美元 擴增新加坡產能翻倍",
+      "headline": "符合預期反成利多？美5月CPI飆至4.2% 市場聚焦華許18日首秀鷹鴿走向",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6493299"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6494504"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：聯電(2303-TW)EPS預估上修至4.56元，預估目標價為84元",
+      "headline": "華爾街解讀CPI：未見失控訊號 Fed下周態度成關鍵",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6493457"
+      "link": "https://news.cnyes.com/news/id/6494480"
     },
     {
       "region": "TW",
-      "headline": "美國經濟只是表面強韌？華爾街策略師：股市內部已釋放衰退訊號",
+      "headline": "〈美股早盤〉通膨利多不敵中東風險 主要指數開低",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6492004"
+      "link": "https://news.cnyes.com/news/id/6494136"
     },
     {
       "region": "TW",
-      "headline": "大同電力設備延後出貨 5月營收35億元年月雙衰退",
+      "headline": "鉅亨速報 - Factset 最新調查：矽力-KY(6415-TW)EPS預估上修至10.27元，預估目標價為625元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6493291"
+      "link": "https://news.cnyes.com/news/id/6494507"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 至上(8112)5月營收539.21億元年增率高達253.18％",
+      "headline": "鉅亨速報 - Factset 最新調查：弘塑(3131-TW)EPS預估下修至67.96元，預估目標價為4000元",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6493314"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6494506"
+    },
+    {
+      "region": "TW",
+      "headline": "董事學會白皮書示警「大交棒時代」來臨 蔡鴻青：下個15年走向生態圈競爭",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6494465"
     }
   ]
 }
