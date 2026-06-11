@@ -1,69 +1,61 @@
 {
-  "timestamp": "2026-06-11T17:45:57.352291+08:00",
+  "timestamp": "2026-06-11T22:02:28.918351+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "30年未見！瑞銀分析師：半導體設備商能見度看到2028年 營收上看2500億美元",
+      "headline": "比特幣「煉金術」？貝萊德推出BITA收益型ETF 重塑數位資產現金流規則",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6495363"
+      "link": "https://news.cnyes.com/news/id/6496310"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 能率網通(8071)大漲7.05%，報24.3元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6495549"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 長園科(8038)急拉3.17%報42.3元，成交465張",
+      "headline": "〈美股早盤〉科技股回神支撐 主要指數開高",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6495548"
+      "link": "https://news.cnyes.com/news/id/6496260"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 安鈦克(6276)急跌-3.49%報24.9元，成交32張",
+      "headline": "瑞銀預計聯準會將於2027年3月啟動寬鬆周期",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6495547"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6496269"
     },
     {
       "region": "TW",
-      "headline": "立凱-KY拿下特斯拉長單 擬斥資3億元建廠、明年出貨",
-      "source": "台股",
+      "headline": "10家期貨商迎利多！金管會放寬代理證券範圍 新增主被動ETF、ETN等",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6495499"
+      "link": "https://news.cnyes.com/news/id/6496349"
     },
     {
       "region": "TW",
-      "headline": "AI帶動功率元件從配角變主角 德微：訂單看到明年底",
+      "headline": "郭明錤：台積電CoPoS封裝2028下半年量產 輝達Feynman晶片將率先採用",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6495463"
+      "link": "https://news.cnyes.com/news/id/6496337"
     },
     {
       "region": "TW",
-      "headline": "國喬看好苯乙烯價格強勁回彈 Q3買氣帶動有望帶動營運回溫",
+      "headline": "聯穎4月自結損益年增189% EPS0.24元賺贏Q1",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6495473"
+      "link": "https://news.cnyes.com/news/id/6496301"
     },
     {
       "region": "TW",
-      "headline": "台積電被告侵權！美國議員要求依法保護專利",
+      "headline": "台韓觀光交流會議墾丁登場 力拚雙方互訪達400萬人次目標",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6495385"
+      "link": "https://news.cnyes.com/news/id/6496298"
     }
   ]
 }
