@@ -1,61 +1,69 @@
 {
-  "timestamp": "2026-06-11T08:24:41.558881+08:00",
+  "timestamp": "2026-06-11T13:10:27.779738+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美超微暴跌超27% 領跌標普500指數",
+      "headline": "30年未見！瑞銀分析師：半導體設備商能見度看到2028年 營收上看2500億美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6495363"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 能率網通(8071)大漲7.05%，報24.3元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6495549"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 長園科(8038)急拉3.17%報42.3元，成交465張",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6495548"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 安鈦克(6276)急跌-3.49%報24.9元，成交32張",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6494793"
+      "link": "https://news.cnyes.com/news/id/6495547"
     },
     {
       "region": "TW",
-      "headline": "川普30次預告和平協議將達成 市場為何仍深信不疑？",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6494784"
-    },
-    {
-      "region": "TW",
-      "headline": "〈財報〉甲骨文獲利超預期 擬再籌200億美元擴建AI 盤後重挫7%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6494803"
-    },
-    {
-      "region": "TW",
-      "headline": "SpaceX上市馬斯克資本布局全解析！前華爾街分析師喊記住「這兩個」關鍵時間點",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6492626"
-    },
-    {
-      "region": "TW",
-      "headline": "樺漢擬以每股23.5歐元公開收購Kontron 進行全球業務整合",
+      "headline": "立凱-KY拿下特斯拉長單 擬斥資3億元建廠、明年出貨",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6494556"
+      "link": "https://news.cnyes.com/news/id/6495499"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：矽力-KY(6415-TW)EPS預估上修至10.27元，預估目標價為625元",
+      "headline": "AI帶動功率元件從配角變主角 德微：訂單看到明年底",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6494507"
+      "link": "https://news.cnyes.com/news/id/6495463"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：弘塑(3131-TW)EPS預估下修至67.96元，預估目標價為4000元",
+      "headline": "國喬看好苯乙烯價格強勁回彈 Q3買氣帶動有望帶動營運回溫",
       "source": "台股",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6494506"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6495473"
+    },
+    {
+      "region": "TW",
+      "headline": "台積電被告侵權！美國議員要求依法保護專利",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6495385"
     }
   ]
 }
