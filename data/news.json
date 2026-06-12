@@ -1,61 +1,53 @@
 {
-  "timestamp": "2026-06-12T20:34:41.789457+08:00",
+  "timestamp": "2026-06-12T23:57:19.726078+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "泓德能源衝刺三大事業 深化AI電力交易技術",
+      "headline": "歐洲汽車巨頭聯手呼籲「歐洲製造」規則 力抗中國競爭與成本壓力",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6497650"
+      "link": "https://news.cnyes.com/news/id/6498021"
     },
     {
       "region": "TW",
-      "headline": "盤後速報 - 豐泰(9910)次交易(15)日除息4.1元，參考價87.8元",
+      "headline": "交通部斥資572億元擘劃未來5年商港發展 目標2031港群貨櫃量1550萬TEU",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6497758"
+      "link": "https://news.cnyes.com/news/id/6498081"
     },
     {
       "region": "TW",
-      "headline": "盤後速報 - 鉅邁(8435)次交易(15)日除息3.2元，參考價53.6元",
+      "headline": "伊媒進一步公布美國、伊朗諒解備忘錄新細節",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6497757"
+      "link": "https://news.cnyes.com/news/id/6498086"
     },
     {
       "region": "TW",
-      "headline": "盤後速報 - 矽創(8016)次交易(15)日除息11.5元，參考價278.0元",
+      "headline": "〈中信金股東會〉通過配息2.5元創高！總座：證券持續尋求併購機會",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6497756"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6498058"
     },
     {
       "region": "TW",
-      "headline": "商億-KY：越南家具業憂心301調查 旗下柬埔寨廠迎接單契機",
+      "headline": "〈國泰金股東會〉蔡宏圖：高度關注AI驅動下的台股發展 李長庚示警「四貸同堂」",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6498053"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台玻股東會〉林伯豐：今年再投入逾20億元擴充產線 滿足客戶高階玻纖布需求",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6497659"
-    },
-    {
-      "region": "TW",
-      "headline": "〈證交所股東會〉通過現金股利3.2元、股票1.5元 璞玉指數ETF最快今年底發行",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6497439"
-    },
-    {
-      "region": "TW",
-      "headline": "安圖斯參加SuperAI Singapore 2026 展示Altos BrainSphere™AI運算平台",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6497573"
+      "link": "https://news.cnyes.com/news/id/6498024"
     }
   ]
 }
