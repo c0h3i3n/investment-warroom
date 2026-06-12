@@ -1,53 +1,61 @@
 {
-  "timestamp": "2026-06-12T13:04:57.375760+08:00",
+  "timestamp": "2026-06-12T17:13:51.008805+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "SpaceX的IPO在即 全球資金將現大挪移 台灣這些個股受惠大",
+      "headline": "泓德能源衝刺三大事業 深化AI電力交易技術",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6497125"
+      "link": "https://news.cnyes.com/news/id/6497650"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 力成(6239)大漲7.06%，報356.5元",
+      "headline": "盤後速報 - 豐泰(9910)次交易(15)日除息4.1元，參考價87.8元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6497134"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6497758"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉毅嘉光通訊產品下半年放量 盤中放量攻漲停",
+      "headline": "盤後速報 - 鉅邁(8435)次交易(15)日除息3.2元，參考價53.6元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6497118"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6497757"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 霖宏(5464)大漲7.01%，報74.8元",
+      "headline": "盤後速報 - 矽創(8016)次交易(15)日除息11.5元，參考價278.0元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6497128"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6497756"
     },
     {
       "region": "TW",
-      "headline": "攸泰攜手AeroVironment 布局無人系統跨平台整合",
+      "headline": "商億-KY：越南家具業憂心301調查 旗下柬埔寨廠迎接單契機",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6497053"
+      "link": "https://news.cnyes.com/news/id/6497659"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉華新今年營收獲利可望優於去年 價量齊揚漲逾半根停板",
+      "headline": "〈證交所股東會〉通過現金股利3.2元、股票1.5元 璞玉指數ETF最快今年底發行",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6497033"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6497439"
+    },
+    {
+      "region": "TW",
+      "headline": "安圖斯參加SuperAI Singapore 2026 展示Altos BrainSphere™AI運算平台",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6497573"
     }
   ]
 }
