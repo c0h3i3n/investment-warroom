@@ -1,69 +1,53 @@
 {
-  "timestamp": "2026-06-12T08:03:58.699913+08:00",
+  "timestamp": "2026-06-12T13:04:57.375760+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "SpaceX上市將掀估值重洗牌 這些股票可能淪最大輸家",
+      "headline": "SpaceX的IPO在即 全球資金將現大挪移 台灣這些個股受惠大",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6496501"
+      "link": "https://news.cnyes.com/news/id/6497125"
     },
     {
       "region": "TW",
-      "headline": "史上最大IPO誕生！SpaceX募資750億美元 市值直逼1.8兆美元",
+      "headline": "盤中速報 - 力成(6239)大漲7.06%，報356.5元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6496498"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6497134"
     },
     {
       "region": "TW",
-      "headline": "國家隊輸球股市就崩跌？揭開世界盃非理性魔咒 歷史統計美股平均跌2.6% ",
+      "headline": "〈焦點股〉毅嘉光通訊產品下半年放量 盤中放量攻漲停",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6491963"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6497118"
     },
     {
       "region": "TW",
-      "headline": "看空翻多！美銀罕見連升兩級喊買英特爾 目標價看135美元",
+      "headline": "盤中速報 - 霖宏(5464)大漲7.01%，報74.8元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6496500"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6497128"
     },
     {
       "region": "TW",
-      "headline": "AI太火！上櫃公司前5月累計營收首破1.5兆元大關 半導體業年增50%",
+      "headline": "攸泰攜手AeroVironment 布局無人系統跨平台整合",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6496392"
+      "link": "https://news.cnyes.com/news/id/6497053"
     },
     {
       "region": "TW",
-      "headline": "10家期貨商迎利多！金管會放寬代理證券範圍 新增主被動ETF、ETN等",
+      "headline": "〈焦點股〉華新今年營收獲利可望優於去年 價量齊揚漲逾半根停板",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6496349"
-    },
-    {
-      "region": "TW",
-      "headline": "郭明錤：台積電CoPoS封裝2028下半年量產 輝達Feynman晶片將率先採用",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6496337"
-    },
-    {
-      "region": "TW",
-      "headline": "聯穎4月自結損益年增189% EPS0.24元賺贏Q1",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6496301"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6497033"
     }
   ]
 }

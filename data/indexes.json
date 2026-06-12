@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-06-12T08:03:58.699913+08:00",
+  "timestamp": "2026-06-12T13:04:57.375760+08:00",
   "data": [
     {
       "id": "tai",
       "name": "加權指數 TAIEX",
       "region": "TW",
       "currency": "NT$",
-      "price": 43149.46,
-      "change": -76.08,
-      "changePct": -0.18
+      "price": 44181.65,
+      "change": 1032.19,
+      "changePct": 2.39
     },
     {
       "id": "otc",
       "name": "OTC 櫃買指數",
       "region": "TW",
       "currency": "NT$",
-      "price": 269.45,
-      "change": 1.73,
-      "changePct": 0.65
+      "price": 420.96,
+      "change": 13.87,
+      "changePct": 3.41
     },
     {
       "id": "spx",
