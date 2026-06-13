@@ -1,6 +1,14 @@
 {
-  "timestamp": "2026-06-13T18:35:36.598630+08:00",
+  "timestamp": "2026-06-13T20:16:05.739602+08:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "中東戰火推升避險需求 美元多頭押注衝上16個月新高",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6498277"
+    },
     {
       "region": "TW",
       "headline": "美銀：若美伊達成和平協議 這些資產有望成最大受惠者",
@@ -24,14 +32,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6498462"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 數位代幣大漲8.75%，報2.42美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6498457"
     },
     {
       "region": "TW",
