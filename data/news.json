@@ -1,61 +1,61 @@
 {
-  "timestamp": "2026-06-13T12:05:31.617801+08:00",
+  "timestamp": "2026-06-13T15:57:09.383116+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "營收速報 - 2026年6月13日台股大型公司5月營收一覽（新增5家）",
+      "headline": "美銀：若美伊達成和平協議 這些資產有望成最大受惠者",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6498334"
+      "link": "https://news.cnyes.com/news/id/6498279"
     },
     {
       "region": "TW",
-      "headline": "Adobe大跌6% 財務長跳槽AI晶片商Marvell",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6498307"
-    },
-    {
-      "region": "TW",
-      "headline": "美國司法部點頭！派拉蒙收購WBD合併案通關 1100億美元媒體巨獸誕生在即",
+      "headline": "AI晶片股回檔該逃嗎？分析師點名輝達、博通與Cerebras",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6498315"
+      "link": "https://news.cnyes.com/news/id/6498425"
     },
     {
       "region": "TW",
-      "headline": "SpaceX上市助攻！馬斯克正式成為全球史上首位「兆美元富豪」身價超越台灣GDP",
+      "headline": "瘋搶太空夯股！富邦人壽獲配SpaceX普通股5萬股 斥資新台幣2.1億元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6498266"
+      "link": "https://news.cnyes.com/news/id/6498462"
     },
     {
       "region": "TW",
-      "headline": "營收速報 - 2026年6月13日台股中小型公司5月營收一覽（新增6家）",
+      "headline": "盤中速報 - 數位代幣大漲8.75%，報2.42美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6498457"
+    },
+    {
+      "region": "TW",
+      "headline": "公股4金2銀前5月猛賺735億成長飆4成 華南金年增73%奪冠 兆豐金單月最賺續稱霸",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6498383"
+    },
+    {
+      "region": "TW",
+      "headline": "台股牛市發威！13家金控前5月狂賺3674億元 這5家獲利翻倍",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6498335"
+      "link": "https://news.cnyes.com/news/id/6498283"
     },
     {
       "region": "TW",
-      "headline": "追高欣興遭割韭菜？竹北雙分點同步翻車 台股爆3檔7034萬違約交割",
+      "headline": "〈房產〉北市捷運宅「中山逸居公辦都市更新案」 由信義旗下子公司奪標",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6498136"
-    },
-    {
-      "region": "TW",
-      "headline": "偉訓集團組織架構重整 清算兩家子公司",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6498137"
+      "link": "https://news.cnyes.com/news/id/6498372"
     }
   ]
 }
