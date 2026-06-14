@@ -1,69 +1,53 @@
 {
-  "timestamp": "2026-06-14T10:01:41.453087+08:00",
+  "timestamp": "2026-06-14T14:57:57.289059+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 恩金幣大跌8.48%，報0.032美元",
+      "headline": "「木頭姐」大砸4.43億美元重押SpaceX！拋AMD、減持特斯拉",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6498575"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6498578"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Notcoin大漲8.24%，報0美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6498573"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - UTK大漲16.23%，報0.008美元",
+      "headline": "「華爾街神算子」Tom Lee喊快買！「這一」加密貨幣有望上漲14870%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6498572"
+      "link": "https://news.cnyes.com/news/id/6498424"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 數位代幣大漲12.48%，報2.55美元",
+      "headline": "南科釋630個職缺 部分職缺起薪4萬元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6498571"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6498674"
     },
     {
       "region": "TW",
-      "headline": "瘋搶太空夯股！富邦人壽獲配SpaceX普通股5萬股 斥資新台幣2.1億元",
+      "headline": "真有風！台灣10年「解鎖」500座離岸風力機 總裝置容量達4.8GW排全球第5",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6498673"
+    },
+    {
+      "region": "TW",
+      "headline": "中華立鼎下半年訂單能見度佳 全年毛利率有望維持60%以上",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6498462"
+      "link": "https://news.cnyes.com/news/id/6498669"
     },
     {
       "region": "TW",
-      "headline": "公股4金2銀前5月猛賺735億成長飆4成 華南金年增73%奪冠 兆豐金單月最賺續稱霸",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6498383"
-    },
-    {
-      "region": "TW",
-      "headline": "台股牛市發威！13家金控前5月狂賺3674億元 這5家獲利翻倍",
+      "headline": "〈台股風向球〉大洗盤後測出支撐 短線風險消化大半 4萬4紮硬寨固守",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6498283"
-    },
-    {
-      "region": "TW",
-      "headline": "〈房產〉北市捷運宅「中山逸居公辦都市更新案」 由信義旗下子公司奪標",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6498372"
+      "link": "https://news.cnyes.com/news/id/6498574"
     }
   ]
 }
