@@ -1,26 +1,42 @@
 {
-  "timestamp": "2026-06-14T18:30:17.476761+08:00",
+  "timestamp": "2026-06-14T20:29:23.250751+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "「木頭姐」大砸4.43億美元重押SpaceX！拋AMD、減持特斯拉",
+      "headline": "Meta內部爆發「AI叛亂」！員工當眾怒罵主管、祖克柏罕見認錯",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6498578"
+      "link": "https://news.cnyes.com/news/id/6498682"
     },
     {
       "region": "TW",
-      "headline": "「華爾街神算子」Tom Lee喊快買！「這一」加密貨幣有望上漲14870%",
+      "headline": "諾基亞成SpaceX太空AI算力的隱形贏家？馬斯克擬2027部署1GW太空算力",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6498424"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6498718"
+    },
+    {
+      "region": "TW",
+      "headline": "Anthropic IPO添變數？遭美國政府限制AI模型出口  Fable 5、Mythos 5海外停用",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6498681"
+    },
+    {
+      "region": "TW",
+      "headline": "日本將開始研究在格陵蘭採礦 分散稀土來源",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6498717"
     },
     {
       "region": "TW",
       "headline": "南科釋630個職缺 部分職缺起薪4萬元",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6498674"
@@ -28,7 +44,7 @@
     {
       "region": "TW",
       "headline": "真有風！台灣10年「解鎖」500座離岸風力機 總裝置容量達4.8GW排全球第5",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6498673"
