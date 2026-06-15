@@ -1,61 +1,61 @@
 {
-  "timestamp": "2026-06-15T07:54:18.799371+08:00",
+  "timestamp": "2026-06-15T12:46:31.439935+08:00",
   "data": [
     {
       "symbol": "0050.TW",
       "name": "",
-      "price": 101.95,
-      "change": 2.1,
-      "changePct": 2.1
+      "price": 105.12,
+      "change": 3.17,
+      "changePct": 3.11
     },
     {
       "symbol": "2330.TW",
       "name": "",
-      "price": 2310.0,
-      "change": 60.0,
-      "changePct": 2.67
+      "price": 2367.5,
+      "change": 57.5,
+      "changePct": 2.49
     },
     {
       "symbol": "00679B.TW",
       "name": "",
-      "price": 26.76,
-      "change": 0.2,
-      "changePct": 0.75
+      "price": 26.81,
+      "change": 0.05,
+      "changePct": 0.19
     },
     {
       "symbol": "00878.TW",
       "name": "",
-      "price": 32.05,
-      "change": 0.45,
-      "changePct": 1.42
+      "price": 32.59,
+      "change": 0.54,
+      "changePct": 1.68
     },
     {
       "symbol": "00929.TW",
       "name": "",
-      "price": 29.51,
+      "price": 30.52,
       "change": 1.01,
-      "changePct": 3.54
+      "changePct": 3.42
     },
     {
       "symbol": "00933B.TW",
       "name": "",
-      "price": 16.11,
-      "change": 0.1,
-      "changePct": 0.62
+      "price": 16.16,
+      "change": 0.05,
+      "changePct": 0.31
     },
     {
       "symbol": "00937B.TW",
       "name": "",
-      "price": 15.0,
-      "change": 0.11,
-      "changePct": 0.74
+      "price": 15.04,
+      "change": 0.04,
+      "changePct": 0.27
     },
     {
       "symbol": "009800.TW",
       "name": "",
-      "price": 12.98,
-      "change": 0.31,
-      "changePct": 2.45
+      "price": 13.23,
+      "change": 0.25,
+      "changePct": 1.93
     },
     {
       "symbol": "NVDA",
