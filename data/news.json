@@ -1,45 +1,69 @@
 {
-  "timestamp": "2026-06-16T00:20:39.975748+08:00",
+  "timestamp": "2026-06-16T04:02:53.575961+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "華豫寧轉型投控並更名維夫拉克控股 電子事業部分割爲100%控有子公司",
+      "headline": "美晶片股全面漲勢回歸 背後有兩大地緣政治推手",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6500092"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6500355"
     },
     {
       "region": "TW",
-      "headline": "英國首相施凱爾：將全面禁止16歲以下兒童使用社群媒體",
+      "headline": "美國油庫快空了？戰略石油儲備降至43年來最低水位",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6500037"
+      "link": "https://news.cnyes.com/news/id/6500365"
     },
     {
       "region": "TW",
-      "headline": "匯鑽科CPO處理接單加速且自主生產水冷散熱組件 泰國新增產能12月開出",
+      "headline": "美債殖利率飆到多少美股會崩？高盛畫「10年期5%」紅線",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6500063"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6499123"
     },
     {
       "region": "TW",
-      "headline": "安成生泡泡龍新藥全球二/三期樞紐試驗完成主要療效評估 Q4解盲",
+      "headline": "油價大跌救了Fed？瑞銀：華許終於能喘口氣",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6500052"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6500302"
     },
     {
       "region": "TW",
-      "headline": "再生醫療雙法上路驅動兆元商機 TRMBA預計7月4日成立",
+      "headline": "台灣蟬聯全球第6大淨債權國 對外資產破3兆美元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6499987"
+      "link": "https://news.cnyes.com/news/id/6500296"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：信邦(3023-TW)EPS預估下修至14.7元，預估目標價為365元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6500282"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：來億-KY(6890-TW)EPS預估上修至10.95元，預估目標價為196.5元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6500281"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：東元(1504-TW)EPS預估上修至2.94元，預估目標價為80元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6500280"
     }
   ]
 }
