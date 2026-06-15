@@ -1,69 +1,45 @@
 {
-  "timestamp": "2026-06-15T12:46:31.439935+08:00",
+  "timestamp": "2026-06-15T18:56:30.866895+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 岳豐(6220)大漲7.23%，報37.1元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6499528"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 聯上發(2537)急拉3.91%報11.9元，成交6,646張",
+      "headline": "華豫寧轉型投控並更名維夫拉克控股 電子事業部分割爲100%控有子公司",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6499527"
+      "link": "https://news.cnyes.com/news/id/6500092"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 倉佑(1568)大漲7.19%，報42.5元",
+      "headline": "英國首相施凱爾：將全面禁止16歲以下兒童使用社群媒體",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6499525"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6500037"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 宏璟(2527)大漲7.53%，報39.25元",
+      "headline": "匯鑽科CPO處理接單加速且自主生產水冷散熱組件 泰國新增產能12月開出",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6499524"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6500063"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 集中市場加權指數上漲1164.93點至45333.97點，漲幅2.64%",
-      "source": "台股",
+      "headline": "安成生泡泡龍新藥全球二/三期樞紐試驗完成主要療效評估 Q4解盲",
+      "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6499494"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6500052"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 櫃買市場加權指數上漲10點至429.72點，漲幅2.38%",
+      "headline": "再生醫療雙法上路驅動兆元商機 TRMBA預計7月4日成立",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6499493"
-    },
-    {
-      "region": "TW",
-      "headline": "追指數已褪流行？主動式台股ETF規模爆發狂飆5倍 成台股新引擎",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6499455"
-    },
-    {
-      "region": "TW",
-      "headline": "〈焦點股〉健策下半年營運正向 漲逾半根停板",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6499458"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6499987"
     }
   ]
 }
