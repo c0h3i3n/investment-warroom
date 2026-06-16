@@ -1,53 +1,69 @@
 {
-  "timestamp": "2026-06-16T23:35:05.096416+08:00",
+  "timestamp": "2026-06-17T03:23:54.703425+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "華許首秀陷「兩難」！聯博示警過往降息劇本失效 短期非投等債具6大優勢",
+      "headline": "盤中速報 - NEAR大跌8.13%，報2.295美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6501576"
+      "link": "https://news.cnyes.com/news/id/6501993"
     },
     {
       "region": "TW",
-      "headline": "美股短交易周迎三大震撼彈！SpaceX選擇權掛牌 華許Fed首秀、三巫日接力登場 ",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6500446"
-    },
-    {
-      "region": "TW",
-      "headline": "博盛半導體今年看旺 AI營收占比突破1成",
+      "headline": "盤中速報 - Take-Two互動軟體(TTWO-US)大漲5.01%，報227.07美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6501583"
+      "link": "https://news.cnyes.com/news/id/6501987"
     },
     {
       "region": "TW",
-      "headline": "〈金管會端午記者會〉彭金隆：高雄專區試辦延長1年 家辦顧問擬落地全台",
+      "headline": "Google推出Android 17！AI重磅功能預計今夏陸續登場",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6501413"
+      "link": "https://news.cnyes.com/news/id/6501978"
     },
     {
       "region": "TW",
-      "headline": "台新銀、新光銀雙獲金管會表揚 力挺中小企業與新南向成果受肯定",
-      "source": "台股",
+      "headline": "盤中速報 - 思佳訊半導體(SWKS-US)大跌5.05%，報72.41美元",
+      "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6501634"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6501984"
     },
     {
       "region": "TW",
-      "headline": "藍新科技力推Passkey無密碼支付 首波攜手MyCard阻詐",
+      "headline": "台糖80週年獲利雙亮眼 配息1.3元 攜手林百貨設計紀念品讓股東「呷甜」",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6501582"
+      "link": "https://news.cnyes.com/news/id/6501894"
+    },
+    {
+      "region": "TW",
+      "headline": "交長開箱桃機三航廈預計2027完工 屆時提供旅客年服務容量4500萬人次",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6501826"
+    },
+    {
+      "region": "TW",
+      "headline": "國發「百億投資平台」偕AI新十大建設吸睛！領軍500餘家共引資破千億",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6501804"
+    },
+    {
+      "region": "TW",
+      "headline": "〈618電商大檔〉品牌GMV年增27% 蝦皮：AI技術驅動成長",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6501796"
     }
   ]
 }
