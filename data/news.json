@@ -1,69 +1,53 @@
 {
-  "timestamp": "2026-06-16T13:38:09.505907+08:00",
+  "timestamp": "2026-06-16T18:32:21.796846+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "營收速報 - 2026年6月16日台股大型公司5月營收一覽（新增5家）",
+      "headline": "華許首秀陷「兩難」！聯博示警過往降息劇本失效 短期非投等債具6大優勢",
       "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6500460"
-    },
-    {
-      "region": "TW",
-      "headline": "3奈米下良率救星？美商應材推新型沉積與蝕刻設備 助力3D晶圓製程突破",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6500433"
-    },
-    {
-      "region": "TW",
-      "headline": "現金滿手還借錢？輝達不缺錢 為何發債200億美元？",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6500409"
-    },
-    {
-      "region": "TW",
-      "headline": "SpaceX上市後飆漲20% 馬斯克預言2031年營收破1兆美元 分析師這樣看",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6500397"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：臻鼎-KY(4958-TW)EPS預估上修至13.85元，預估目標價為520元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6500486"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：台光電(2383-TW)EPS預估上修至88.94元，預估目標價為5700元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6500485"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：視陽(6782-TW)EPS預估下修至17.04元，預估目標價為246元",
-      "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6500484"
+      "link": "https://news.cnyes.com/news/id/6501576"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：旭隼(6409-TW)目標價調降至900元，幅度約8.91%",
+      "headline": "美股短交易周迎三大震撼彈！SpaceX選擇權掛牌 華許Fed首秀、三巫日接力登場 ",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6500446"
+    },
+    {
+      "region": "TW",
+      "headline": "博盛半導體今年看旺 AI營收占比突破1成",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6501583"
+    },
+    {
+      "region": "TW",
+      "headline": "〈金管會端午記者會〉彭金隆：高雄專區試辦延長1年 家辦顧問擬落地全台",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6501413"
+    },
+    {
+      "region": "TW",
+      "headline": "台新銀、新光銀雙獲金管會表揚 力挺中小企業與新南向成果受肯定",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6500483"
+      "link": "https://news.cnyes.com/news/id/6501634"
+    },
+    {
+      "region": "TW",
+      "headline": "藍新科技力推Passkey無密碼支付 首波攜手MyCard阻詐",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6501582"
     }
   ]
 }
