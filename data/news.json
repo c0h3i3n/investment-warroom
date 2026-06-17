@@ -1,53 +1,69 @@
 {
-  "timestamp": "2026-06-17T21:01:06.968823+08:00",
+  "timestamp": "2026-06-18T00:44:16.660221+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "國巨*5月自結純益32.75億元 年增逾1倍EPS1.6元",
+      "headline": "馬斯克Terafab計畫有多大？艾司摩爾點出關鍵挑戰",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6503329"
+      "link": "https://news.cnyes.com/news/id/6503777"
     },
     {
       "region": "TW",
-      "headline": "日銀升息一碼也擋不住！日元套利狂潮未歇 市場警戒重演2024踩踏潮",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6503092"
-    },
-    {
-      "region": "TW",
-      "headline": "〈旺矽股東會〉董座：產能永遠都不夠 正與客戶討論預付款",
+      "headline": "鉅亨速報 - Factset 最新調查：聯合健康保險UNH-US的目標價調升至420元，幅度約3.7%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6503272"
+      "link": "https://news.cnyes.com/news/id/6503786"
     },
     {
       "region": "TW",
-      "headline": "能率亞洲1-5月營收超越去年 投資布局進入收成期",
+      "headline": "央行避險再升級！增持黃金之外 更多國家啟動分散金庫據點 ",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6503279"
+      "link": "https://news.cnyes.com/news/id/6502054"
     },
     {
       "region": "TW",
-      "headline": "〈興富發展望〉由王嶠奇出任董事長 預估今年業績表現優於去年",
+      "headline": "避險基金巨星宣告：AI瓶頸交易正在退燒",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6502055"
+    },
+    {
+      "region": "TW",
+      "headline": "高技訂單能見度高  7.2元股息敲定7/22除息交易",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6503179"
+      "link": "https://news.cnyes.com/news/id/6503716"
     },
     {
       "region": "TW",
-      "headline": "〈永豐金法說〉二大金控想結親？朱士廷直面傳聞八字回應 曝目前壽險沒在談",
+      "headline": "鴻海與Bull合作正式進入執行階段 在歐洲生產Vera Rubin",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6503022"
+      "link": "https://news.cnyes.com/news/id/6503692"
+    },
+    {
+      "region": "TW",
+      "headline": "東台股東會改選注入航太新血、私募案過關 搶攻AI伺服器、半導體",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6503683"
+    },
+    {
+      "region": "TW",
+      "headline": "全國電力報告明揭曉！誰是吃電怪獸？AI半導體佔工業用電4成 專家提6大配套",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6502463"
     }
   ]
 }
