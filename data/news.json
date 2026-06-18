@@ -1,69 +1,37 @@
 {
-  "timestamp": "2026-06-18T08:23:55.968040+08:00",
+  "timestamp": "2026-06-18T13:18:40.723282+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈貴金屬盤後〉Fed暗示今年內將升息 金價大跌逾2%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6503332"
-    },
-    {
-      "region": "TW",
-      "headline": "美伊協議僅保障荷姆茲海峽60天免通行費 川普：不可能把所有事都寫進文件",
+      "headline": "安力-K Y 持續布局深化布局AI邊緣運算及新興應用",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6503889"
+      "link": "https://news.cnyes.com/news/id/6504427"
     },
     {
       "region": "TW",
-      "headline": "美伊和平協議全文曝光 川普稱避免「全球經濟大蕭條」",
+      "headline": "工商協進會：台灣有望躋身前20大兆元經濟體 籲朝野能確保預算通過　",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6503870"
+      "link": "https://news.cnyes.com/news/id/6504443"
     },
     {
       "region": "TW",
-      "headline": "〈能源盤後〉利空交鋒 油價反彈近1% 川普揚言恢復轟炸 IEA示警供應過剩",
+      "headline": "〈焦點股〉一詮散熱元件營收占比下半年力拚50% 早盤放量攻漲停",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6503768"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6504415"
     },
     {
       "region": "TW",
-      "headline": "高技訂單能見度高  7.2元股息敲定7/22除息交易",
-      "source": "台股",
+      "headline": "〈焦點股〉漢達癌症新藥最快7月美國上市 亮燈漲停站回80元關卡",
+      "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6503716"
-    },
-    {
-      "region": "TW",
-      "headline": "鴻海與Bull合作正式進入執行階段 在歐洲生產Vera Rubin",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6503692"
-    },
-    {
-      "region": "TW",
-      "headline": "東台股東會改選注入航太新血、私募案過關 搶攻AI伺服器、半導體",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6503683"
-    },
-    {
-      "region": "TW",
-      "headline": "全國電力報告明揭曉！誰是吃電怪獸？AI半導體佔工業用電4成 專家提6大配套",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6502463"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6504406"
     }
   ]
 }
