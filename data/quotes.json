@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-06-18T13:18:40.723282+08:00",
+  "timestamp": "2026-06-18T17:55:09.635727+08:00",
   "data": [
     {
       "symbol": "0050.TW",
       "name": "",
-      "price": 107.22,
-      "change": 1.22,
-      "changePct": 1.15
+      "price": 107.3,
+      "change": 1.3,
+      "changePct": 1.23
     },
     {
       "symbol": "2330.TW",
       "name": "",
-      "price": 2397.5,
-      "change": 12.5,
-      "changePct": 0.52
+      "price": 2410.0,
+      "change": 25.0,
+      "changePct": 1.05
     },
     {
       "symbol": "00679B.TW",
       "name": "",
-      "price": 27.02,
-      "change": 0.21,
-      "changePct": 0.78
+      "price": 27.04,
+      "change": 0.23,
+      "changePct": 0.86
     },
     {
       "symbol": "00878.TW",
@@ -32,9 +32,9 @@
     {
       "symbol": "00929.TW",
       "name": "",
-      "price": 31.09,
-      "change": 0.52,
-      "changePct": 1.7
+      "price": 31.1,
+      "change": 0.53,
+      "changePct": 1.73
     },
     {
       "symbol": "00933B.TW",
