@@ -1,45 +1,69 @@
 {
-  "timestamp": "2026-06-18T20:57:23.890357+08:00",
+  "timestamp": "2026-06-19T00:39:43.136726+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "杏昌斥資8.91億至9.35億元 收購安星製藥76%股權",
+      "headline": "英特爾盤中狂飆11%！川普證實蘋果將在美國合作造晶片",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505074"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6505403"
     },
     {
       "region": "TW",
-      "headline": "〈鉅亨買基金展望〉Fed不降息反釋新訊號 鉅亨買基金：別只看降息 AI獲利能力才是關鍵",
+      "headline": "鉅亨速報 - Factset 最新調查：SpaceX(SPCX-US)EPS預估上修至-0.89元，預估目標價為227.00元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505001"
+      "link": "https://news.cnyes.com/news/id/6505428"
     },
     {
       "region": "TW",
-      "headline": "鈦昇董事會添新面孔 推動跨世代經營 強化TGV、CPO布局",
+      "headline": "美伊停火難阻全球央行鷹派轉向 升息風險仍未解除",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6504571"
+      "link": "https://news.cnyes.com/news/id/6505372"
     },
     {
       "region": "TW",
-      "headline": "〈華南金股東會〉獲利創史高！股利共1.45元現金配發率71% 董座：明年股利可以期待",
+      "headline": "挑戰輝達霸主地位！亞馬遜傳洽談對外銷售AI晶片",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505005"
+      "link": "https://news.cnyes.com/news/id/6505396"
     },
     {
       "region": "TW",
-      "headline": "〈央行理監事會〉楊金龍釋出「偏鷹」立場 曝有2位理事主張升息",
+      "headline": "迎戰量子破密危機！金管會發布金融業遷移指引 2035年前底層全面替換",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505008"
+      "link": "https://news.cnyes.com/news/id/6505321"
+    },
+    {
+      "region": "TW",
+      "headline": "中信銀2026《家族永續洞悉》：不動產「借名登記」成大挑戰 理財智庫提解方",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6505318"
+    },
+    {
+      "region": "TW",
+      "headline": "〈期交所股東會〉通過配發股利3.8元 今年未過半總交易量已逾2.6億口  估全年有望破紀錄",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6505251"
+    },
+    {
+      "region": "TW",
+      "headline": "逾60行員涉收地政士回扣！金管會：已接獲13銀行重大偶發通報 全面督導徹查",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6505249"
     }
   ]
 }
