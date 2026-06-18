@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-06-19T05:29:49.935575+08:00",
+  "timestamp": "2026-06-19T07:21:35.693464+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "英特爾盤中狂飆11%！川普證實蘋果將在美國合作造晶片",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6505403"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：SpaceX(SPCX-US)EPS預估上修至-0.89元，預估目標價為227.00元",
+      "headline": "〈能源盤後〉美伊停戰臨時協議生效 油價失守80美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505428"
+      "link": "https://news.cnyes.com/news/id/6505515"
     },
     {
       "region": "TW",
-      "headline": "美伊停火難阻全球央行鷹派轉向 升息風險仍未解除",
+      "headline": "SpaceX連跌兩日 市值遭亞馬遜反超",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505372"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6505493"
     },
     {
       "region": "TW",
-      "headline": "挑戰輝達霸主地位！亞馬遜傳洽談對外銷售AI晶片",
+      "headline": "大逆轉？傳騰訊傳參與135億元回購計畫 Manus擬重返中國資本懷抱",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505396"
+      "link": "https://news.cnyes.com/news/id/6505402"
+    },
+    {
+      "region": "TW",
+      "headline": "〈貴金屬盤後〉Fed新官上任展露鷹爪 金價走軟",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6505487"
     },
     {
       "region": "TW",
