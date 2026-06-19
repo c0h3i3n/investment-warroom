@@ -1,37 +1,45 @@
 {
-  "timestamp": "2026-06-19T19:54:43.697807+08:00",
+  "timestamp": "2026-06-19T23:26:24.447265+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "外匯速報 - 美元/韓元(USDKRW) 大跌0.77%，報1527元",
+      "headline": "《CNN》揭川普結束伊朗戰爭「真正想得到的東西」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6505629"
+    },
+    {
+      "region": "TW",
+      "headline": "美伊談判轉機？以色列與真主黨同意停火",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6505821"
+    },
+    {
+      "region": "TW",
+      "headline": "高盛大幅下調2026黃金目標價！警告Fed若升息恐引金價回落至4440美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6505680"
+      "link": "https://news.cnyes.com/news/id/6505662"
     },
     {
       "region": "TW",
-      "headline": "美軍解除海上封鎖 伊朗：60天內過荷姆茲海峽免費",
+      "headline": "亞馬遜擬出售AI晶片 有機會挑戰輝達霸主地位嗎？",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505628"
+      "link": "https://news.cnyes.com/news/id/6505496"
     },
     {
       "region": "TW",
-      "headline": "外匯速報 - 美元/馬來西亞令吉(USDMYR) 大漲0.51%，報4.136元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6505674"
-    },
-    {
-      "region": "TW",
-      "headline": "美軍宣布結束封鎖 多艘油輪駛出荷姆茲海峽",
-      "source": "鉅亨",
+      "headline": "愛爾達：2026FIFA世足賽轉播開紅盤 首周收視較上屆同期增40%",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505623"
+      "link": "https://news.cnyes.com/news/id/6505764"
     },
     {
       "region": "TW",
@@ -56,14 +64,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6505642"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：川湖(2059-TW)目標價調升至6687.5元，幅度約5.31%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505641"
     }
   ]
 }
