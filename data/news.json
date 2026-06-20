@@ -1,6 +1,14 @@
 {
-  "timestamp": "2026-06-21T05:48:10.084648+08:00",
+  "timestamp": "2026-06-21T07:11:56.586026+08:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "美軍駁斥伊朗封鎖荷姆茲海峽！革命衛隊警告船隻恐成「攻擊目標」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6506191"
+    },
     {
       "region": "TW",
       "headline": "南韓豪賭「下一個記憶體」！砸7500億韓元搶攻功率半導體   三星、SK全面布局",
@@ -24,14 +32,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6506022"
-    },
-    {
-      "region": "TW",
-      "headline": "AI榮景讓聯準會陷兩難！「Fed傳聲筒」：華許面臨「1996還是1999」的歷史抉擇",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506020"
     },
     {
       "region": "TW",
