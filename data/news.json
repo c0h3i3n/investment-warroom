@@ -1,30 +1,6 @@
 {
-  "timestamp": "2026-06-21T02:59:45.770076+08:00",
+  "timestamp": "2026-06-21T04:22:56.592674+08:00",
   "data": [
-    {
-      "region": "TW",
-      "headline": "盤中速報 - SAND大漲15.14%，報0.0587美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6506159"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - SuperRare大漲19.2%，報0.015美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6506153"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 愛麗絲大漲38.14%，報0.14美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6506138"
-    },
     {
       "region": "TW",
       "headline": "南韓豪賭「下一個記憶體」！砸7500億韓元搶攻功率半導體   三星、SK全面布局",
@@ -32,6 +8,30 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6506041"
+    },
+    {
+      "region": "TW",
+      "headline": "Google連失兩AI大將！AlphaFold之父奔向Anthropic、Transformer共同作者投靠OpenAI",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6506049"
+    },
+    {
+      "region": "TW",
+      "headline": "AI數據中心泡沫破裂？SemiAnalysis駁斥「半數產能取消」傳聞：市場恐慌被誇大了",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6506022"
+    },
+    {
+      "region": "TW",
+      "headline": "AI榮景讓聯準會陷兩難！「Fed傳聲筒」：華許面臨「1996還是1999」的歷史抉擇",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6506020"
     },
     {
       "region": "TW",
