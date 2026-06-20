@@ -1,69 +1,53 @@
 {
-  "timestamp": "2026-06-20T09:35:48.496190+08:00",
+  "timestamp": "2026-06-20T14:03:37.465897+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "《CNN》揭川普結束伊朗戰爭「真正想得到的東西」",
+      "headline": "〈觀察〉台股大外溢時代！從百萬散戶的資金狂歡 看主動式ETF的幸福苦惱",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505629"
+      "link": "https://news.cnyes.com/news/id/6500375"
     },
     {
       "region": "TW",
-      "headline": "美伊談判轉機？以色列與真主黨同意停火",
+      "headline": "閎康加速矽光子晶圓與晶片光電檢測布局 首套設備8月到位",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505821"
+      "link": "https://news.cnyes.com/news/id/6506030"
     },
     {
       "region": "TW",
-      "headline": "高盛大幅下調2026黃金目標價！警告Fed若升息恐引金價回落至4440美元",
+      "headline": "川普連發文強硬警告伊朗「已經完蛋了」！美伊會談傳取消又重啟、雙方代表赴瑞士磋商",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6505662"
+      "link": "https://news.cnyes.com/news/id/6506042"
     },
     {
       "region": "TW",
-      "headline": "亞馬遜擬出售AI晶片 有機會挑戰輝達霸主地位嗎？",
+      "headline": "川普新專機首次亮相 奢華程度前所未見",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505496"
+      "link": "https://news.cnyes.com/news/id/6505980"
     },
     {
       "region": "TW",
-      "headline": "愛爾達：2026FIFA世足賽轉播開紅盤 首周收視較上屆同期增40%",
+      "headline": "鉅亨速報 - Factset 最新調查：矽力-KY(6415-TW)EPS預估上修至10.27元，預估目標價為600元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505764"
+      "link": "https://news.cnyes.com/news/id/6506002"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：南亞科(2408-TW)EPS預估上修至50.95元，預估目標價為370元",
+      "headline": "鉅亨速報 - Factset 最新調查：聯詠(3034-TW)EPS預估上修至30.07元，預估目標價為470元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505644"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：中鋼(2002-TW)EPS預估上修至0.12元，預估目標價為22元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505643"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：中砂(1560-TW)EPS預估上修至13.49元，預估目標價為760元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505642"
+      "link": "https://news.cnyes.com/news/id/6506001"
     }
   ]
 }
