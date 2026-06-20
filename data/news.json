@@ -1,10 +1,42 @@
 {
-  "timestamp": "2026-06-20T17:42:52.463837+08:00",
+  "timestamp": "2026-06-20T19:45:06.885600+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈觀察〉台股大外溢時代！從百萬散戶的資金狂歡 看主動式ETF的幸福苦惱",
+      "headline": "AI數據中心泡沫破裂？SemiAnalysis駁斥「半數產能取消」傳聞：市場恐慌被誇大了",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6506022"
+    },
+    {
+      "region": "TW",
+      "headline": "AI榮景讓聯準會陷兩難！「Fed傳聲筒」：華許面臨「1996還是1999」的歷史抉擇",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6506020"
+    },
+    {
+      "region": "TW",
+      "headline": "Fed 7月升息風險升！華許鷹派發言使交易員湧入美債期貨、交易量飆升創紀錄",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6505622"
+    },
+    {
+      "region": "TW",
+      "headline": "日本宣布調漲簽證費！7月起大漲5倍、申請制度也將改革",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6506046"
+    },
+    {
+      "region": "TW",
+      "headline": "〈觀察〉台股大外溢時代！從百萬散戶的資金狂歡 看主動式ETF的幸福苦惱",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6500375"
@@ -12,26 +44,10 @@
     {
       "region": "TW",
       "headline": "閎康加速矽光子晶圓與晶片光電檢測布局 首套設備8月到位",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6506030"
-    },
-    {
-      "region": "TW",
-      "headline": "川普連發文強硬警告伊朗「已經完蛋了」！美伊會談傳取消又重啟、雙方代表赴瑞士磋商",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6506042"
-    },
-    {
-      "region": "TW",
-      "headline": "川普新專機首次亮相 奢華程度前所未見",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505980"
     },
     {
       "region": "TW",
