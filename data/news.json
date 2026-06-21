@@ -1,6 +1,22 @@
 {
-  "timestamp": "2026-06-22T04:12:47.525554+08:00",
+  "timestamp": "2026-06-22T05:44:21.106401+08:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "〈走進中國〉比重超過八成！香港國產電動車市場「一車難求」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6506144"
+    },
+    {
+      "region": "TW",
+      "headline": "美伊核談判瑞士登場 華府先為破局先打預防針？范斯：談判不會解決所有分歧",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6502578"
+    },
     {
       "region": "TW",
       "headline": "川普警告將再度「打擊」伊朗！范斯瑞士出席會談陷僵局",
@@ -16,22 +32,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6502128"
-    },
-    {
-      "region": "TW",
-      "headline": "本週操盤筆記：美光財報、美5月PCE、美Q1 GDP終值",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505979"
-    },
-    {
-      "region": "TW",
-      "headline": "高盛警告AI資本支出逼近信貸飽和！專家：「附帶損害」多大才是重點",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6506293"
     },
     {
       "region": "TW",
