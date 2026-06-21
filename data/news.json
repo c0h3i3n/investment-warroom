@@ -1,34 +1,42 @@
 {
-  "timestamp": "2026-06-21T18:22:08.614531+08:00",
+  "timestamp": "2026-06-21T20:25:16.011012+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "輝達AI霸權鬆動？小摩：ASIC將於2027年超車GPU、博通成最大贏家",
+      "headline": "台積電CoWoS遇天花板？玻璃基板接棒、英特爾搶先量產",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506040"
+      "link": "https://news.cnyes.com/news/id/6506287"
     },
     {
       "region": "TW",
-      "headline": "川普警告美國恐收荷姆茲通行費！美伊談判代表抵達瑞士、以色列成最大變數",
+      "headline": "摩根大通喊買鎧俠！上調目標價93.8%、AI推論需求引爆NAND快閃記憶體新行情",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6506289"
+    },
+    {
+      "region": "TW",
+      "headline": "記憶體成「AI最緊瓶頸」！德銀警告：恐加劇整體通膨、破壞力蔓延至宏觀經濟",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6506308"
+      "link": "https://news.cnyes.com/news/id/6506315"
     },
     {
       "region": "TW",
-      "headline": "谷歌大將出走潮揭AI產業真相：最稀缺的是「人腦」而非晶片",
+      "headline": "馬斯克正式領取特斯拉薪酬包！行權獲1160億美元、股票持股逼近20%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506243"
+      "link": "https://news.cnyes.com/news/id/6506292"
     },
     {
       "region": "TW",
       "headline": "〈台股風向球〉創歷史高後高檔無壓？美伊和談突生變恐亂多頭急行軍陣腳",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6506182"
