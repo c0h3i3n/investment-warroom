@@ -1,69 +1,61 @@
 {
-  "timestamp": "2026-06-21T09:41:18.131395+08:00",
+  "timestamp": "2026-06-21T14:32:13.821378+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美軍駁斥伊朗封鎖荷姆茲海峽！革命衛隊警告船隻恐成「攻擊目標」",
+      "headline": "輝達AI霸權鬆動？小摩：ASIC將於2027年超車GPU、博通成最大贏家",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6506040"
+    },
+    {
+      "region": "TW",
+      "headline": "川普警告美國恐收荷姆茲通行費！美伊談判代表抵達瑞士、以色列成最大變數",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6506191"
+      "link": "https://news.cnyes.com/news/id/6506308"
     },
     {
       "region": "TW",
-      "headline": "南韓豪賭「下一個記憶體」！砸7500億韓元搶攻功率半導體   三星、SK全面布局",
+      "headline": "谷歌大將出走潮揭AI產業真相：最稀缺的是「人腦」而非晶片",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506041"
+      "link": "https://news.cnyes.com/news/id/6506243"
     },
     {
       "region": "TW",
-      "headline": "Google連失兩AI大將！AlphaFold之父奔向Anthropic、Transformer共同作者投靠OpenAI",
+      "headline": "〈台股風向球〉創歷史高後高檔無壓？美伊和談突生變恐亂多頭急行軍陣腳",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506049"
+      "link": "https://news.cnyes.com/news/id/6506182"
     },
     {
       "region": "TW",
-      "headline": "AI數據中心泡沫破裂？SemiAnalysis駁斥「半數產能取消」傳聞：市場恐慌被誇大了",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506022"
-    },
-    {
-      "region": "TW",
-      "headline": "〈觀察〉台股大外溢時代！從百萬散戶的資金狂歡 看主動式ETF的幸福苦惱",
+      "headline": "波若威：CPO產品H2量產出貨 光被動元件三大產品應用拚發光",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6500375"
+      "link": "https://news.cnyes.com/news/id/6506253"
     },
     {
       "region": "TW",
-      "headline": "閎康加速矽光子晶圓與晶片光電檢測布局 首套設備8月到位",
+      "headline": "韋僑醫療RFID應用已占營收比重達36% 開發日本利基市場將加速成長",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506030"
+      "link": "https://news.cnyes.com/news/id/6506230"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：矽力-KY(6415-TW)EPS預估上修至10.27元，預估目標價為600元",
+      "headline": "台積電7月法說成風向球！外資示警台股3大整理訊號「主動」選股價值浮現",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506002"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：聯詠(3034-TW)EPS預估上修至30.07元，預估目標價為470元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506001"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6506085"
     }
   ]
 }
