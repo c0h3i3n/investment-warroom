@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-06-21T22:54:54.014014+08:00",
+  "timestamp": "2026-06-22T00:46:48.278764+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "台積電CoWoS遇天花板？玻璃基板接棒、英特爾搶先量產",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506287"
-    },
-    {
-      "region": "TW",
-      "headline": "摩根大通喊買鎧俠！上調目標價93.8%、AI推論需求引爆NAND快閃記憶體新行情",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6506289"
-    },
-    {
-      "region": "TW",
-      "headline": "記憶體成「AI最緊瓶頸」！德銀警告：恐加劇整體通膨、破壞力蔓延至宏觀經濟",
+      "headline": "川普警告將再度「打擊」伊朗！范斯瑞士出席會談陷僵局",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6506315"
+      "link": "https://news.cnyes.com/news/id/6506447"
     },
     {
       "region": "TW",
-      "headline": "馬斯克正式領取特斯拉薪酬包！行權獲1160億美元、股票持股逼近20%",
+      "headline": "川普：若與伊朗未達協議 美將成荷姆茲「守護者」 並收取中東地區20%石油收益",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506292"
+      "link": "https://news.cnyes.com/news/id/6502128"
+    },
+    {
+      "region": "TW",
+      "headline": "本週操盤筆記：美光財報、美5月PCE、美Q1 GDP終值",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6505979"
+    },
+    {
+      "region": "TW",
+      "headline": "高盛警告AI資本支出逼近信貸飽和！專家：「附帶損害」多大才是重點",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6506293"
     },
     {
       "region": "TW",
