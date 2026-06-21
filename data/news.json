@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-06-22T05:44:21.106401+08:00",
+  "timestamp": "2026-06-22T06:51:31.514213+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈走進中國〉比重超過八成！香港國產電動車市場「一車難求」",
+      "headline": "搶進次世代製程！Marvell總裁：已就導入A14製程與台積電洽談",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506144"
+      "link": "https://news.cnyes.com/news/id/6500844"
     },
     {
       "region": "TW",
-      "headline": "美伊核談判瑞士登場 華府先為破局先打預防針？范斯：談判不會解決所有分歧",
+      "headline": "SpaceX漲勢稍歇別大意 8.9兆美元被動買盤正排隊進場",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6506244"
+    },
+    {
+      "region": "TW",
+      "headline": "5到10年拚十倍回報！英特爾陳立武：推進先進封裝 佈局三大材料領域",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6502578"
+      "link": "https://news.cnyes.com/news/id/6498546"
     },
     {
       "region": "TW",
-      "headline": "川普警告將再度「打擊」伊朗！范斯瑞士出席會談陷僵局",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6506447"
-    },
-    {
-      "region": "TW",
-      "headline": "川普：若與伊朗未達協議 美將成荷姆茲「守護者」 並收取中東地區20%石油收益",
+      "headline": "美伊瑞士談判暫停！伊朗談判代表：以色列不在黎巴嫩停火就不續談",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6502128"
+      "link": "https://news.cnyes.com/news/id/6506476"
     },
     {
       "region": "TW",
@@ -48,22 +48,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6506253"
-    },
-    {
-      "region": "TW",
-      "headline": "韋僑醫療RFID應用已占營收比重達36% 開發日本利基市場將加速成長",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506230"
-    },
-    {
-      "region": "TW",
-      "headline": "台積電7月法說成風向球！外資示警台股3大整理訊號「主動」選股價值浮現",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6506085"
     }
   ]
 }
