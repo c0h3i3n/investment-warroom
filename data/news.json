@@ -1,53 +1,45 @@
 {
-  "timestamp": "2026-06-22T08:14:53.041706+08:00",
+  "timestamp": "2026-06-22T13:35:03.157110+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "搶進次世代製程！Marvell總裁：已就導入A14製程與台積電洽談",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6500844"
-    },
-    {
-      "region": "TW",
-      "headline": "SpaceX漲勢稍歇別大意 8.9兆美元被動買盤正排隊進場",
+      "headline": "〈焦點股〉光寶科AI伺服器電源需求勁揚 盤中放量攻上漲停",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6506244"
+      "link": "https://news.cnyes.com/news/id/6504180"
     },
     {
       "region": "TW",
-      "headline": "5到10年拚十倍回報！英特爾陳立武：推進先進封裝 佈局三大材料領域",
+      "headline": "美媒：為滿足AI模型出口管制規定 Anthropic可能採用蘋果Digital ID功能",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6498546"
+      "link": "https://news.cnyes.com/news/id/6506877"
     },
     {
       "region": "TW",
-      "headline": "美伊瑞士談判暫停！伊朗談判代表：以色列不在黎巴嫩停火就不續談",
+      "headline": "保瑞推進全球銷售業務 買下專科用藥藥證、同步推罕病新劑型產品",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506476"
+      "link": "https://news.cnyes.com/news/id/6507070"
     },
     {
       "region": "TW",
-      "headline": "〈台股風向球〉創歷史高後高檔無壓？美伊和談突生變恐亂多頭急行軍陣腳",
-      "source": "台股",
+      "headline": "鈊象董座：今年營運樂觀穩健成長 美國市場營收可望雙位數高成長",
+      "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506182"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6507033"
     },
     {
       "region": "TW",
-      "headline": "波若威：CPO產品H2量產出貨 光被動元件三大產品應用拚發光",
+      "headline": "〈焦點股〉邁科CSP散熱模組開始出貨 站回800元關卡",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506253"
+      "link": "https://news.cnyes.com/news/id/6507028"
     }
   ]
 }
