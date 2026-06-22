@@ -1,45 +1,37 @@
 {
-  "timestamp": "2026-06-22T13:35:03.157110+08:00",
+  "timestamp": "2026-06-22T19:22:19.327818+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈焦點股〉光寶科AI伺服器電源需求勁揚 盤中放量攻上漲停",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6504180"
-    },
-    {
-      "region": "TW",
-      "headline": "美媒：為滿足AI模型出口管制規定 Anthropic可能採用蘋果Digital ID功能",
+      "headline": "滙豐Q3投資展望：AI浪潮引領全球 成長型科技股仍是主旋律",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6506877"
+      "link": "https://news.cnyes.com/news/id/6507534"
     },
     {
       "region": "TW",
-      "headline": "保瑞推進全球銷售業務 買下專科用藥藥證、同步推罕病新劑型產品",
+      "headline": "〈台幣〉股匯兩樣情！連3貶收31.631元 探近半月新低",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6507070"
+      "link": "https://news.cnyes.com/news/id/6507582"
     },
     {
       "region": "TW",
-      "headline": "鈊象董座：今年營運樂觀穩健成長 美國市場營收可望雙位數高成長",
+      "headline": "華新科衝新高價 5月自結純益年增近2倍 EPS 0.88元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6507033"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6507535"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉邁科CSP散熱模組開始出貨 站回800元關卡",
-      "source": "台股",
+      "headline": "光麗收購嘉蒂保100%股權10家藥局納入版圖 擴大健康服務",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6507028"
+      "link": "https://news.cnyes.com/news/id/6507536"
     }
   ]
 }
