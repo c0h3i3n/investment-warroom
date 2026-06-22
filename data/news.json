@@ -1,37 +1,69 @@
 {
-  "timestamp": "2026-06-23T00:11:18.490289+08:00",
+  "timestamp": "2026-06-23T03:48:43.461272+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "滙豐Q3投資展望：AI浪潮引領全球 成長型科技股仍是主旋律",
+      "headline": "鉅亨速報 - Factset 最新調查：希捷科技STX-US的目標價調升至983元，幅度約3.31%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6507534"
+      "link": "https://news.cnyes.com/news/id/6507821"
     },
     {
       "region": "TW",
-      "headline": "〈台幣〉股匯兩樣情！連3貶收31.631元 探近半月新低",
+      "headline": "Lucid再裁員18%並取消營運長職位 全力推動成本重整",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6507582"
+      "link": "https://news.cnyes.com/news/id/6507737"
     },
     {
       "region": "TW",
-      "headline": "華新科衝新高價 5月自結純益年增近2倍 EPS 0.88元",
+      "headline": "SpaceX盤中股價一度重挫10% 上市蜜月行情降溫",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6507535"
+      "link": "https://news.cnyes.com/news/id/6507786"
     },
     {
       "region": "TW",
-      "headline": "光麗收購嘉蒂保100%股權10家藥局納入版圖 擴大健康服務",
+      "headline": "馬雲帶隊！阿里巴巴、螞蟻核心高層下田插秧",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6507536"
+      "link": "https://news.cnyes.com/news/id/6507757"
+    },
+    {
+      "region": "TW",
+      "headline": "《巴黎協定》第6條趨勢邁向落地實踐 碳交所攜台日星專家共商碳權合作藍圖",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6507651"
+    },
+    {
+      "region": "TW",
+      "headline": "台日半導體股齊發威 這幾檔主題型ETF狂飆再創掛牌新高",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6507653"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：頎邦(6147-TW)目標價調升至217.5元，幅度約3.57%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6507766"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：環球晶(6488-TW)EPS預估上修至21.12元，預估目標價為733.5元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6507687"
     }
   ]
 }
