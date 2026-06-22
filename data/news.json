@@ -1,6 +1,30 @@
 {
-  "timestamp": "2026-06-23T03:48:43.461272+08:00",
+  "timestamp": "2026-06-23T06:05:50.333790+08:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "華許效應來了？Citadel看好長債 大摩警告短債波動升溫",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6507848"
+    },
+    {
+      "region": "TW",
+      "headline": "Alphabet盤中重挫領跌 科技股承壓反映AI投資焦慮",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6507843"
+    },
+    {
+      "region": "TW",
+      "headline": "不只做晶片！輝達瞄準人形機器人2000億美元商機",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6507798"
+    },
     {
       "region": "TW",
       "headline": "鉅亨速報 - Factset 最新調查：希捷科技STX-US的目標價調升至983元，幅度約3.31%",
@@ -8,30 +32,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6507821"
-    },
-    {
-      "region": "TW",
-      "headline": "Lucid再裁員18%並取消營運長職位 全力推動成本重整",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6507737"
-    },
-    {
-      "region": "TW",
-      "headline": "SpaceX盤中股價一度重挫10% 上市蜜月行情降溫",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6507786"
-    },
-    {
-      "region": "TW",
-      "headline": "馬雲帶隊！阿里巴巴、螞蟻核心高層下田插秧",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6507757"
     },
     {
       "region": "TW",
