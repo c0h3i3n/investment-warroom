@@ -1,61 +1,69 @@
 {
-  "timestamp": "2026-06-23T18:03:52.830569+08:00",
+  "timestamp": "2026-06-23T20:47:18.696305+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈台股盤後〉4萬8過關拉回跌640點中止連6紅 尾盤摜最低點收47100點",
+      "headline": "2026年「超級聖嬰」現象來襲 科學家警告恐創史上最強紀錄",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6508459"
+      "link": "https://news.cnyes.com/news/id/6509075"
     },
     {
       "region": "TW",
-      "headline": "第四屆鏈博會於北京開幕 AI與綠色能源成亮點",
+      "headline": "盤中速報 - INJ大跌8.32%，報4.55美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6509308"
+    },
+    {
+      "region": "TW",
+      "headline": "外匯速報 - 澳元/日元(AUDJPY) 大跌1.06%，報111.93元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6509305"
+    },
+    {
+      "region": "TW",
+      "headline": "滑不停不是意外？歐盟擬升級調查Meta 指臉書、IG刻意設計讓兒童成癮",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6508445"
+      "link": "https://news.cnyes.com/news/id/6509244"
     },
     {
       "region": "TW",
-      "headline": "食品保存期限標示太混亂 加州7月起只認這兩種",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6508135"
-    },
-    {
-      "region": "TW",
-      "headline": "罕見重提房產財富效應！中共黨刊近日連續呼籲：加快修復居民資產負債表、穩樓市防負向螺旋",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6508134"
-    },
-    {
-      "region": "TW",
-      "headline": "〈南山人壽股東會〉尹崇堯首談父親辭世 揭潤泰集團進入專業經理人治理時代",
+      "headline": "鉅亨速報 - Factset 最新調查：陽明(2609-TW)目標價調升至68元，幅度約9.68%",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6505389"
+      "link": "https://news.cnyes.com/news/id/6509291"
     },
     {
       "region": "TW",
-      "headline": "維熹下半年低軌衛星線出貨升溫 明年AI營收翻倍",
+      "headline": "研揚發表嵌入式系統新品 支援Super Mode聚焦高效AI邊緣運算",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6508437"
+      "link": "https://news.cnyes.com/news/id/6509247"
     },
     {
       "region": "TW",
-      "headline": "高力強攻AI 散熱與新能源 投資32.5億元高市橋科新廠今動土",
+      "headline": "台股市值躍全球第4助攻！吸引高資產落腳 證交所：建構台灣為「亞太資產管理平台」",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6508436"
+      "link": "https://news.cnyes.com/news/id/6509230"
+    },
+    {
+      "region": "TW",
+      "headline": "勞動市場穩定 台灣5月失業率3.27% 失業人數減少4000人",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6509236"
     }
   ]
 }
