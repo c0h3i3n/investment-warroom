@@ -1,37 +1,45 @@
 {
-  "timestamp": "2026-06-25T00:02:36.340734+08:00",
+  "timestamp": "2026-06-25T02:08:55.600686+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "黃金一度跌破4000美元關卡 三年牛市面臨終結考驗",
+      "headline": "打破19歲訂立50年計畫！孫正義高喊沒有時間退休 誓造全球最強AI機器人帝國 ",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6511060"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6510012"
     },
     {
       "region": "TW",
-      "headline": "外匯速報 - 美元/泰銖(USDTHB) 大漲0.81%，報33.47元",
+      "headline": "歐盟執照卡關！幣安誓言不退出歐洲市場",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6510952"
+    },
+    {
+      "region": "TW",
+      "headline": "美元霸權回來了？貝森特稱伊朗石油將改用美元計價",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6511047"
+    },
+    {
+      "region": "TW",
+      "headline": "貝森特喊今年GDP成長率上看3% 看好美國經濟重拾動能",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6510997"
+    },
+    {
+      "region": "TW",
+      "headline": "中信私銀：AI供應鏈市值暴漲 提前催化高資產家族傳承急迫性",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6511071"
-    },
-    {
-      "region": "TW",
-      "headline": "美光Sandisk一夜暴跌13% 全球晶片股市值蒸發數千億美元 半導體敘事變了嗎？",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6509947"
-    },
-    {
-      "region": "TW",
-      "headline": "外匯速報 - 歐元/美元(EURUSD) 大跌0.48%，報1.1328元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6511059"
+      "link": "https://news.cnyes.com/news/id/6511011"
     },
     {
       "region": "TW",
@@ -56,14 +64,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6510989"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：萬海(2615-TW)目標價調升至88元，幅度約3.53%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6511000"
     }
   ]
 }
