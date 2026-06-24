@@ -1,53 +1,69 @@
 {
-  "timestamp": "2026-06-24T19:20:02.109958+08:00",
+  "timestamp": "2026-06-24T21:36:30.099247+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "軟銀孫正義力挺AI：「AI泡沫論」根本是一種「侮辱」！",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6510188"
-    },
-    {
-      "region": "TW",
-      "headline": "受惠AI高速傳輸強大需求推金居獲利攀升 自結1-5月每股賺3.52元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6510493"
-    },
-    {
-      "region": "TW",
-      "headline": "鴻海與夏普簽署MOU布局策略新興產業 加速日本及全球市場發展",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6510220"
-    },
-    {
-      "region": "TW",
-      "headline": "韓股如坐雲霄飛車！Kospi熔斷暴跌後上演V型反彈 三星重登市值王",
+      "headline": "黃金一度跌破4000美元關卡 三年牛市面臨終結考驗",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6510487"
+      "link": "https://news.cnyes.com/news/id/6511060"
     },
     {
       "region": "TW",
-      "headline": "仲恩小腦萎縮症新藥日本送件 最快2027年上半年取得暫時性藥證",
-      "source": "台股",
+      "headline": "外匯速報 - 美元/泰銖(USDTHB) 大漲0.81%，報33.47元",
+      "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6510577"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6511071"
     },
     {
       "region": "TW",
-      "headline": "橘子裁員15%砍掉非核心專案與虧損單位 全力重押AI算力",
+      "headline": "美光Sandisk一夜暴跌13% 全球晶片股市值蒸發數千億美元 半導體敘事變了嗎？",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6509947"
+    },
+    {
+      "region": "TW",
+      "headline": "外匯速報 - 歐元/美元(EURUSD) 大跌0.48%，報1.1328元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6511059"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：長榮(2603-TW)EPS預估上修至24.3元，預估目標價為235元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6510686"
+      "link": "https://news.cnyes.com/news/id/6511002"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：創意(3443-TW)EPS預估下修至47.64元，預估目標價為5397.5元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6511001"
+    },
+    {
+      "region": "TW",
+      "headline": "2026台北國際食品展登場 共1800家廠商參展創疫後最大規模",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6510989"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：萬海(2615-TW)目標價調升至88元，幅度約3.53%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6511000"
     }
   ]
 }
