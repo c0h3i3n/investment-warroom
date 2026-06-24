@@ -1,45 +1,53 @@
 {
-  "timestamp": "2026-06-24T16:14:48.356171+08:00",
+  "timestamp": "2026-06-24T19:20:02.109958+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "台灣生技業首例！生物產業協會秘書長林治華出任ICBA主席",
+      "headline": "軟銀孫正義力挺AI：「AI泡沫論」根本是一種「侮辱」！",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6507069"
+      "link": "https://news.cnyes.com/news/id/6510188"
     },
     {
       "region": "TW",
-      "headline": "〈台股盤後〉半導體股重摔 暴跌1057點失守5日線勉強守住4萬6",
+      "headline": "受惠AI高速傳輸強大需求推金居獲利攀升 自結1-5月每股賺3.52元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6510493"
+    },
+    {
+      "region": "TW",
+      "headline": "鴻海與夏普簽署MOU布局策略新興產業 加速日本及全球市場發展",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6510220"
+    },
+    {
+      "region": "TW",
+      "headline": "韓股如坐雲霄飛車！Kospi熔斷暴跌後上演V型反彈 三星重登市值王",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6510160"
+      "link": "https://news.cnyes.com/news/id/6510487"
     },
     {
       "region": "TW",
-      "headline": "依舊看多半導體！美銀大幅上調美光、英特爾等多家公司目標價",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6509852"
-    },
-    {
-      "region": "TW",
-      "headline": "台波簽署MOU攜手AI供應鏈！電電公會科技園區落腳波蘭 鴻海也將進駐",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6510112"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：欣興(3037-TW)EPS預估上修至15.17元，預估目標價為1000元",
+      "headline": "仲恩小腦萎縮症新藥日本送件 最快2027年上半年取得暫時性藥證",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6510190"
+      "link": "https://news.cnyes.com/news/id/6510577"
+    },
+    {
+      "region": "TW",
+      "headline": "橘子裁員15%砍掉非核心專案與虧損單位 全力重押AI算力",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6510686"
     }
   ]
 }
