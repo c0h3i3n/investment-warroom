@@ -1,45 +1,69 @@
 {
-  "timestamp": "2026-06-25T20:02:48.764905+08:00",
+  "timestamp": "2026-06-25T23:15:26.583406+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "巨頭插旗台灣！貝萊德首檔ETF傘型基金獲准募集 一次掌握股債動能",
+      "headline": "盤中速報 - Onto Innovation Inc.(ONTO-US)大漲5.18%，報338.92美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6511602"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6512589"
     },
     {
       "region": "TW",
-      "headline": "〈房產〉央行打炒房管制不動如山 不動產聯盟總會提七大建言籲政策回歸精準管理",
+      "headline": "盤中速報 - 費城半導體大漲2.01%，報13728.19點",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6512349"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6512586"
     },
     {
       "region": "TW",
-      "headline": "瞄準柬埔寨經濟動能 中租旗下仲利皇家完成1.8億美元聯貸簽約",
+      "headline": "盤中速報 - 道瓊指數大漲1.5%，報52624.51點",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6512347"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6512585"
     },
     {
       "region": "TW",
-      "headline": "世紀風電換股100%併購世紀樺欣 並更名為「世紀能源設備」攻AI電力商機",
+      "headline": "盤中速報 - 費城半導體大漲1.68%，報13684.89點",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6512348"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6512584"
     },
     {
       "region": "TW",
-      "headline": "輝達800V電源架構Q3起備貨 Rubin Ultra世代擴大採用",
+      "headline": "會賺錢卻不敢花？保誠調查：逾6成女性三明治族財務自主 僅5成敢犒賞自己",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6512370"
+      "link": "https://news.cnyes.com/news/id/6512507"
+    },
+    {
+      "region": "TW",
+      "headline": "駕駛人注意了! 6/30起交通新制上路 無照重考需先至駕訓班上課、汽車筆試改全選擇題",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6512458"
+    },
+    {
+      "region": "TW",
+      "headline": "金管會：檢查局進駐國泰投信金檢 兼職問題應回歸公司治理",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6512454"
+    },
+    {
+      "region": "TW",
+      "headline": "AI狂潮助攻！全體券商前5月狂賺1175億元 超越去年全年",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6512425"
     }
   ]
 }
