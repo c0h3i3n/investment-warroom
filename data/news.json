@@ -1,69 +1,37 @@
 {
-  "timestamp": "2026-06-25T09:27:20.693508+08:00",
+  "timestamp": "2026-06-25T13:46:27.778936+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "SpaceX、特斯拉重挫 身家蒸發逾3400億美元 馬斯克跌落「兆萬富翁」寶座",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6511230"
-    },
-    {
-      "region": "TW",
-      "headline": "裴洛西加碼英特爾與Uber 長天期買權曝光",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6511213"
-    },
-    {
-      "region": "TW",
-      "headline": "〈財報〉美光Q3營收暴增超4倍 財測優預期 盤後大漲13%",
+      "headline": "海空都熱！捷迅樂看美線海運一路旺至年底 空運將再漲價",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6510957"
+      "link": "https://news.cnyes.com/news/id/6511718"
     },
     {
       "region": "TW",
-      "headline": "〈美股盤後〉標普那指三連黑 美光財報報喜 盤後飆逾10%",
+      "headline": "〈台灣醫療展開展〉AI手術盤點與抗癌新藥亮相！10項台灣專利搶高齡與數位醫療商機",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6511089"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6511711"
     },
     {
       "region": "TW",
-      "headline": "中信私銀：AI供應鏈市值暴漲 提前催化高資產家族傳承急迫性",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6511011"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：長榮(2603-TW)EPS預估上修至24.3元，預估目標價為235元",
-      "source": "台股",
+      "headline": "興櫃明添新兵悍將 碩通去年賺近2個股本 已打入散熱模組大廠供應鏈",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6511002"
+      "link": "https://news.cnyes.com/news/id/6511712"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：創意(3443-TW)EPS預估下修至47.64元，預估目標價為5397.5元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6511001"
-    },
-    {
-      "region": "TW",
-      "headline": "2026台北國際食品展登場 共1800家廠商參展創疫後最大規模",
-      "source": "台股",
+      "headline": "〈台灣醫療展開展〉貿協：AI加速導入醫療有望領台灣邁向下個科技世代",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6510989"
+      "link": "https://news.cnyes.com/news/id/6511681"
     }
   ]
 }
