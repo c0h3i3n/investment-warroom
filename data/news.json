@@ -1,37 +1,61 @@
 {
-  "timestamp": "2026-06-25T13:46:27.778936+08:00",
+  "timestamp": "2026-06-25T17:27:31.937512+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "海空都熱！捷迅樂看美線海運一路旺至年底 空運將再漲價",
+      "headline": "〈陸港盤後〉滬指一度轉跌 三大指數走高",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6511156"
+    },
+    {
+      "region": "TW",
+      "headline": "觀光國家隊前進澳紐三城 吸引300位澳紐旅遊業者參與",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6511945"
+    },
+    {
+      "region": "TW",
+      "headline": "研調：2026年GenAI智慧型手機將占全球出貨量45% Gemini逐步為核心架構",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6511947"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - CELO大漲8.07%，報0.066美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6511718"
+      "link": "https://news.cnyes.com/news/id/6512000"
     },
     {
       "region": "TW",
-      "headline": "〈台灣醫療展開展〉AI手術盤點與抗癌新藥亮相！10項台灣專利搶高齡與數位醫療商機",
-      "source": "鉅亨",
+      "headline": "鉅亨速報 - Factset 最新調查：視陽(6782-TW)EPS預估下修至17.04元，預估目標價為243.5元",
+      "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6511711"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6511956"
     },
     {
       "region": "TW",
-      "headline": "興櫃明添新兵悍將 碩通去年賺近2個股本 已打入散熱模組大廠供應鏈",
-      "source": "鉅亨",
+      "headline": "鉅亨速報 - Factset 最新調查：中鋼(2002-TW)EPS預估上修至0.14元，預估目標價為22元",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6511712"
+      "link": "https://news.cnyes.com/news/id/6511955"
     },
     {
       "region": "TW",
-      "headline": "〈台灣醫療展開展〉貿協：AI加速導入醫療有望領台灣邁向下個科技世代",
-      "source": "鉅亨",
+      "headline": "鉅亨速報 - Factset 最新調查：景碩(3189-TW)EPS預估上修至9.56元，預估目標價為643元",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6511681"
+      "link": "https://news.cnyes.com/news/id/6511954"
     }
   ]
 }
