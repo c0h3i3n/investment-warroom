@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-26T19:23:55.533883+08:00",
+  "timestamp": "2026-06-26T21:30:02.661202+08:00",
   "data": [
     {
       "id": "tai",
@@ -24,9 +24,9 @@
       "name": "S&P 500",
       "region": "US",
       "currency": "$",
-      "price": 7357.49,
-      "change": -0.73,
-      "changePct": -0.01
+      "price": 7312.74,
+      "change": -44.75,
+      "changePct": -0.6
     },
     {
       "id": "ndx",
