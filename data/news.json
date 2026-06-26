@@ -1,45 +1,61 @@
 {
-  "timestamp": "2026-06-26T21:30:02.661202+08:00",
+  "timestamp": "2026-06-26T23:56:11.513613+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AOI設備廠和亞智慧上櫃案再闖一關 今通過OTC董監聯席會審議",
+      "headline": "〈台塑法說〉Q3有望持續獲利 乙丙烯價格大跌客戶買盤偏保守觀望",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6514287"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6514364"
     },
     {
       "region": "TW",
-      "headline": "產險業上半年獲利靚！和泰產險更勝去年同期 可望超標達成",
+      "headline": "美國5月商品貿易逆差擴大至一年新高 恐拖累第二季GDP",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6514030"
+      "link": "https://news.cnyes.com/news/id/6514410"
     },
     {
       "region": "TW",
-      "headline": "荷姆茲海峽航運露復甦曙光 脆弱信心與地緣博弈仍籠罩航道",
+      "headline": "SpaceX發債後債券重挫 投資人帳損擴大逾3億美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6514157"
+      "link": "https://news.cnyes.com/news/id/6514405"
     },
     {
       "region": "TW",
-      "headline": "〈台電股東會〉邀AI教父黃仁勳參觀核四、並投資電廠？曾文生當場給答案了",
+      "headline": "比特幣市值蒸發1.3兆美元！分析師：真正底部恐還沒到",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6514290"
+      "link": "https://news.cnyes.com/news/id/6514404"
     },
     {
       "region": "TW",
-      "headline": "2026部落觀光嘉年華登場 蕭美琴：讓國內外旅客透過部落觀光認識台灣",
+      "headline": "新制勞動、國保海外委託代操 瑞銀、高盛、道富及德意志共獲16億美元部位",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6514254"
+      "link": "https://news.cnyes.com/news/id/6514359"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：長榮航(2618-TW)目標價調升至42元，幅度約7.69%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6514367"
+    },
+    {
+      "region": "TW",
+      "headline": "黃清苑接任夏普會長 辭任鴻海獨董職務",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6514360"
     }
   ]
 }
