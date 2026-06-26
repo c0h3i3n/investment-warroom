@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-06-27T05:24:55.820789+08:00",
+  "timestamp": "2026-06-27T06:46:12.290079+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 奧多比系統(ADBE-US)大漲5.1%，報203.28美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6514603"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 思科系統(CSCO-US)大跌5.04%，報112.97美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6514602"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 卡特彼勒(CAT-US)大跌5.02%，報1004美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6514589"
-    },
-    {
-      "region": "TW",
-      "headline": "OpenAI再挖蘋果大將！Vision Pro硬體主管跳槽 AI裝置戰升溫",
+      "headline": "比特幣將悄然消失！泡沫預言家Grantham再度開砲 稱黃金才是真正保值",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6514587"
+      "link": "https://news.cnyes.com/news/id/6514636"
+    },
+    {
+      "region": "TW",
+      "headline": "Mac漲價不是重點 蘋果真正考驗在iPhone",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6514501"
+    },
+    {
+      "region": "TW",
+      "headline": "油價跌幅收斂！伊朗聲稱挫敗美軍空襲 警告任何新挑釁都將遭嚴厲回應",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6514625"
+    },
+    {
+      "region": "TW",
+      "headline": "〈能源盤後〉荷姆茲海峽恢復通航 原油挫逾3% 周線迭近10% 創近月最大跌幅",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6514641"
     },
     {
       "region": "TW",
