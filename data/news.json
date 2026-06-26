@@ -1,37 +1,45 @@
 {
-  "timestamp": "2026-06-26T06:55:59.669520+08:00",
+  "timestamp": "2026-06-26T08:15:07.101878+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI搶走記憶體！繼蘋果後 微軟宣布Xbox又得全面漲價 最高貴150美元",
+      "headline": "Fed古爾斯比：服務通膨露曙光 但核心通膨仍過高且方向惡化",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6512719"
+    },
+    {
+      "region": "TW",
+      "headline": "蔡宏圖親自出馬懇談 郭明鑑請辭金控董事及國泰世華董事長",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6512729"
+    },
+    {
+      "region": "TW",
+      "headline": "為何蘋果iPhone、Apple Watch、AirPods全數凍漲？",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6512647"
+      "link": "https://news.cnyes.com/news/id/6512666"
     },
     {
       "region": "TW",
-      "headline": "美方劃紅線！盧比歐稱荷姆茲通行費不可接受 美伊分歧仍深",
+      "headline": "蘋果漲價凸顯通膨難降 降息恐再等等",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6512633"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6512693"
     },
     {
       "region": "TW",
-      "headline": "為特斯拉、Waymo自駕車鋪路！美媒：運輸部擬取消Robotaxi配備剎車踏板規定",
-      "source": "鉅亨",
+      "headline": "超預期！台積電2026中國技術論壇登場 估全球半導體今年破兆美元 N2與CoWoS產能狂飆",
+      "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6512567"
-    },
-    {
-      "region": "TW",
-      "headline": "蘋果晶片大轉彎！傳跳過M6高階版 全力衝刺AI導向M7系列",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6512632"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6512579"
     },
     {
       "region": "TW",
@@ -48,22 +56,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6512458"
-    },
-    {
-      "region": "TW",
-      "headline": "金管會：檢查局進駐國泰投信金檢 兼職問題應回歸公司治理",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6512454"
-    },
-    {
-      "region": "TW",
-      "headline": "AI狂潮助攻！全體券商前5月狂賺1175億元 超越去年全年",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6512425"
     }
   ]
 }
