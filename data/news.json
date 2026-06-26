@@ -1,61 +1,61 @@
 {
-  "timestamp": "2026-06-26T12:44:06.738757+08:00",
+  "timestamp": "2026-06-26T16:22:12.365491+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "Fed古爾斯比：服務通膨露曙光 但核心通膨仍過高且方向惡化",
+      "headline": "〈台電股東會〉中止連3年虧損！去年轉盈756億 估今年虧損收歛至280億元內",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6512719"
+      "link": "https://news.cnyes.com/news/id/6513586"
     },
     {
       "region": "TW",
-      "headline": "蔡宏圖親自出馬懇談 郭明鑑請辭金控董事及國泰世華董事長",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6512729"
-    },
-    {
-      "region": "TW",
-      "headline": "為何蘋果iPhone、Apple Watch、AirPods全數凍漲？",
+      "headline": "香港房價連漲12個月 創7年最長連漲紀錄 租金同步刷新紀錄",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6512666"
+      "link": "https://news.cnyes.com/news/id/6513391"
     },
     {
       "region": "TW",
-      "headline": "蘋果漲價凸顯通膨難降 降息恐再等等",
+      "headline": "〈北基股東會〉通過配息0.3元 未來多元布局能源、土建強化營運成長動能",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6512693"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6513596"
     },
     {
       "region": "TW",
-      "headline": "超預期！台積電2026中國技術論壇登場 估全球半導體今年破兆美元 N2與CoWoS產能狂飆",
+      "headline": "〈房產〉房貸償還期越拉越長 新北及新竹市10年間增長88期",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6513655"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：東陽(1319-TW)EPS預估下修至6.54元，預估目標價為105元",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6512579"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6513747"
     },
     {
       "region": "TW",
-      "headline": "會賺錢卻不敢花？保誠調查：逾6成女性三明治族財務自主 僅5成敢犒賞自己",
+      "headline": "鉅亨速報 - Factset 最新調查：藥華藥(6446-TW)EPS預估上修至25.72元，預估目標價為1041.5元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6512507"
+      "link": "https://news.cnyes.com/news/id/6513746"
     },
     {
       "region": "TW",
-      "headline": "駕駛人注意了! 6/30起交通新制上路 無照重考需先至駕訓班上課、汽車筆試改全選擇題",
+      "headline": "鉅亨速報 - Factset 最新調查：元大金(2885-TW)目標價調升至55.95元，幅度約11.9%",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6512458"
+      "link": "https://news.cnyes.com/news/id/6513744"
     }
   ]
 }
