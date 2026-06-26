@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-26T23:56:11.513613+08:00",
+  "timestamp": "2026-06-27T01:55:54.786221+08:00",
   "data": [
     {
       "symbol": "0050.TW",
@@ -67,9 +67,9 @@
     {
       "symbol": "TSLA",
       "name": "",
-      "price": 385.48,
-      "change": 10.36,
-      "changePct": 2.76
+      "price": 384.495,
+      "change": 9.38,
+      "changePct": 2.5
     }
   ]
 }
