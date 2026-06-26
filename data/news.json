@@ -1,37 +1,45 @@
 {
-  "timestamp": "2026-06-27T03:57:38.952486+08:00",
+  "timestamp": "2026-06-27T05:24:55.820789+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈台塑法說〉Q3有望持續獲利 乙丙烯價格大跌客戶買盤偏保守觀望",
+      "headline": "盤中速報 - 奧多比系統(ADBE-US)大漲5.1%，報203.28美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6514603"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 思科系統(CSCO-US)大跌5.04%，報112.97美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6514602"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 卡特彼勒(CAT-US)大跌5.02%，報1004美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6514589"
+    },
+    {
+      "region": "TW",
+      "headline": "OpenAI再挖蘋果大將！Vision Pro硬體主管跳槽 AI裝置戰升溫",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6514587"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台塑法說〉Q3有望持續獲利 乙丙烯價格大跌客戶買盤偏保守觀望",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
       "link": "https://news.cnyes.com/news/id/6514364"
-    },
-    {
-      "region": "TW",
-      "headline": "美國5月商品貿易逆差擴大至一年新高 恐拖累第二季GDP",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6514410"
-    },
-    {
-      "region": "TW",
-      "headline": "SpaceX發債後債券重挫 投資人帳損擴大逾3億美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6514405"
-    },
-    {
-      "region": "TW",
-      "headline": "比特幣市值蒸發1.3兆美元！分析師：真正底部恐還沒到",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6514404"
     },
     {
       "region": "TW",
