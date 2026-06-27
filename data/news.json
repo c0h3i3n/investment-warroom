@@ -1,6 +1,14 @@
 {
-  "timestamp": "2026-06-27T20:56:19.752749+08:00",
+  "timestamp": "2026-06-27T22:47:36.216572+08:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "黃金多頭情緒急轉直下！銀行集體下修金價預測",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6514761"
+    },
     {
       "region": "TW",
       "headline": "「馬斯克總有些花招可以扭轉局面」！SpaceX熱潮降溫  散戶信念不減、仍瘋狂加碼",
@@ -24,14 +32,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6514647"
-    },
-    {
-      "region": "TW",
-      "headline": "馬斯克出聲認同蘋果庫克警告：記憶體短缺「前所未見」",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6514758"
     },
     {
       "region": "TW",
