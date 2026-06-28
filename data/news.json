@@ -1,34 +1,42 @@
 {
-  "timestamp": "2026-06-28T17:41:54.101276+08:00",
+  "timestamp": "2026-06-28T19:25:53.835469+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "華許能否複製葛林斯潘時代榮光？《金融時報》警告：需避免「這一錯誤」",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6515010"
-    },
-    {
-      "region": "TW",
-      "headline": "看好AI卻嫌貴 散戶矛盾心態曝光：伺機抄底這類科技股",
+      "headline": "受制於人！谷歌拒全額供應Gemini算力 Meta內部AI專案卡關 被迫砸6000億美元蓋資料中心",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6514502"
+      "link": "https://news.cnyes.com/news/id/6515025"
     },
     {
       "region": "TW",
-      "headline": "南韓伊朗遭淘汰！世界盃小組賽結束 32強淘汰賽明開踢 德法恐提前相遇",
+      "headline": "《紐約客》巴黎45度破紀錄高溫！法國數十人喪命  熱浪引爆冷氣存廢政治論戰",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6515022"
+      "link": "https://news.cnyes.com/news/id/6515033"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過7.56億美元，BETA(BETA)24小時漲幅達64%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6515071"
+    },
+    {
+      "region": "TW",
+      "headline": "中國晶片設計傳突破！荷蘭半導體專家潑冷水：艾司摩爾EUV曝光機仍是「最難跨越的門檻」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6515004"
     },
     {
       "region": "TW",
       "headline": "〈台股風向球〉熱門「便當股」漲風失靈 周跌1894點「熱水煮青蛙」？",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6514972"
