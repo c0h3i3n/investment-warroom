@@ -1,21 +1,13 @@
 {
-  "timestamp": "2026-06-29T02:50:38.811191+08:00",
+  "timestamp": "2026-06-29T04:15:50.150329+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 權力代幣大漲23.91%，報0.0539美元",
+      "headline": "〈走進中國〉四年暴增60倍 洋「無忌」扎堆武當山",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6515155"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - UTK大漲16.23%，報0.008美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6515154"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6514846"
     },
     {
       "region": "TW",
@@ -27,11 +19,19 @@
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - AAVE大跌8.12%，報88.8美元",
+      "headline": "本週操盤筆記：美國6月非農就業、Fed主席華許全球舞台首秀、亞洲半導體行情",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6515132"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6514663"
+    },
+    {
+      "region": "TW",
+      "headline": "AI競賽變政治競賽！OpenAI超強GPT-5.6發布背後的「審查風暴」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6515063"
     },
     {
       "region": "TW",
