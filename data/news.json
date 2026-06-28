@@ -1,69 +1,61 @@
 {
-  "timestamp": "2026-06-28T09:54:46.031529+08:00",
+  "timestamp": "2026-06-28T14:21:51.452654+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "黃金多頭情緒急轉直下！銀行集體下修金價預測",
+      "headline": "華許能否複製葛林斯潘時代榮光？《金融時報》警告：需避免「這一錯誤」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6514761"
+      "link": "https://news.cnyes.com/news/id/6515010"
     },
     {
       "region": "TW",
-      "headline": "「馬斯克總有些花招可以扭轉局面」！SpaceX熱潮降溫  散戶信念不減、仍瘋狂加碼",
+      "headline": "看好AI卻嫌貴 散戶矛盾心態曝光：伺機抄底這類科技股",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6514760"
+      "link": "https://news.cnyes.com/news/id/6514502"
     },
     {
       "region": "TW",
-      "headline": "Fed獨立性再受衝擊！亞特蘭大聯邦儲備銀行行長遴選陷入僵局、白宮尋機介入",
+      "headline": "南韓伊朗遭淘汰！世界盃小組賽結束 32強淘汰賽明開踢 德法恐提前相遇",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6514765"
+      "link": "https://news.cnyes.com/news/id/6515022"
     },
     {
       "region": "TW",
-      "headline": "美精品百貨完成破產重整！Saks Global更名Exemplar Luxury Group、負債大減75%",
+      "headline": "〈台股風向球〉熱門「便當股」漲風失靈 周跌1894點「熱水煮青蛙」？",
       "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6514647"
-    },
-    {
-      "region": "TW",
-      "headline": "神山AI供應鏈再升級！經部赴德插旗 蔡司、德芯科技點頭「加碼」台灣",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6514252"
-    },
-    {
-      "region": "TW",
-      "headline": "外資瘋狂大賣空、外銷訂單連16紅、日月光股東會 本周大事回顧",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6514585"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉搭記憶體題材意外竄出的飆馬股 美而快周漲近6成",
-      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6514729"
+      "link": "https://news.cnyes.com/news/id/6514972"
     },
     {
       "region": "TW",
-      "headline": "00929換股22進22出！刪除台積電、納入鴻海 電信三雄全數入列",
+      "headline": "群創搶進台積電CoPoS供應鏈！玻璃基板、Chip-Last技術布局曝光　AI封裝迎新時代",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6514696"
+      "link": "https://news.cnyes.com/news/id/6515003"
+    },
+    {
+      "region": "TW",
+      "headline": "外資提款中小型股 櫃買指數單周重挫逾8% 法人曝回檔真相",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6514982"
+    },
+    {
+      "region": "TW",
+      "headline": "台股單周市值蒸發6.1兆元 法人：融資處歷史高檔雖待調節 但AI長線多頭未變",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6513393"
     }
   ]
 }
