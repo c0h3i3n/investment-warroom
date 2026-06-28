@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-29T00:13:42.821339+08:00",
+  "timestamp": "2026-06-29T01:37:13.087116+08:00",
   "data": [
     {
       "id": "tai",
@@ -34,7 +34,7 @@
       "region": "US",
       "currency": "$",
       "price": 25297.617,
-      "change": -60.99,
+      "change": -60.98,
       "changePct": -0.24
     },
     {
@@ -43,7 +43,7 @@
       "region": "US",
       "currency": "$",
       "price": 13203.569,
-      "change": -737.3,
+      "change": -737.33,
       "changePct": -5.29
     }
   ]
