@@ -1,4 +1,69 @@
 {
-  "timestamp": "2026-07-01T05:14:37.555114+08:00",
-  "data": []
+  "timestamp": "2026-07-01T06:43:13.441761+08:00",
+  "data": [
+    {
+      "region": "TW",
+      "headline": "晶片股Q2狂飆 美光、AMD、英特爾市值暴增2兆美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6518215"
+    },
+    {
+      "region": "TW",
+      "headline": "大單來了！韓媒：SK海力士啟動史上最大擴產行動  擬砸4000億韓元買HBM4測試設備",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6518135"
+    },
+    {
+      "region": "TW",
+      "headline": "〈能源盤後〉美伊停火削弱風險溢價 Brent寫六年最大季跌 大摩料2027年供給過剩",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6518158"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：美光科技MU-US的目標價調升至1600元，幅度約3.56%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6518238"
+    },
+    {
+      "region": "TW",
+      "headline": "滙豐投信首發AI人型機器人多重資產基金 融合股神、AI教父投資核心",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6518052"
+    },
+    {
+      "region": "TW",
+      "headline": "泰山重大人事異動 由蔡國樑接任總經理7/1生效",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6518064"
+    },
+    {
+      "region": "TW",
+      "headline": "上市非主管職均薪144.7萬元年增近7% 15類產業突破百萬",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6518045"
+    },
+    {
+      "region": "TW",
+      "headline": "上市非主管均薪前十強清一色半導體 聯發科446萬元奪冠、台積電第三",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6518004"
+    }
+  ]
 }
