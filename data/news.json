@@ -1,61 +1,61 @@
 {
-  "timestamp": "2026-07-01T16:32:18.417812+08:00",
+  "timestamp": "2026-07-01T19:44:22.888917+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "航空國際燃油附加費7/7起調降 民航局：長程降621元、短程降239元",
+      "headline": "三洋電瞄準節能家電汰換潮力抗景氣逆風 泰山廠開發緊跟官版檢討進度",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6518811"
+      "link": "https://news.cnyes.com/news/id/6519170"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 電器電纜類股表現疲軟，跌幅2.04%，總成交額19.07億",
+      "headline": "PMI連9月擴張  連賢明：指數雖微降 但高科技業仍處快速擴張軌道",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6518826"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6519298"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 文化創意產業指數類股表現強勁，漲幅2.57%，總成交額37.33億",
+      "headline": "日元保衛戰再起？美債殖利率助攻 美元兌日元升抵40年新高",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6518825"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6519314"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 達人網(7839)急跌-4.49%報45.75元，成交55張",
+      "headline": "台網聯手電信三雄啟動MID Plus 導入Open Gateway API攜手打詐",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6518824"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6519302"
     },
     {
       "region": "TW",
-      "headline": "立委質疑國泰投信利關人風暴 彭金隆：金管會只有監理官、沒有老長官",
+      "headline": "〈台幣〉股匯不同調！隨亞幣走弱收31.874元 創近3月新低",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6518756"
+      "link": "https://news.cnyes.com/news/id/6519294"
     },
     {
       "region": "TW",
-      "headline": "長照3.0輔具「全租賃制」上路！每3年補助6萬 首批17件智慧輔具名單曝光",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6518790"
-    },
-    {
-      "region": "TW",
-      "headline": "〈焦點股〉AI材料轉型利多、投信法人力捧  南亞漲停再寫歷史新高價",
+      "headline": "研調：蘋果全面漲價衝擊消費端需求 2026年全球筆電出貨估衰退13.6%",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6518751"
+      "link": "https://news.cnyes.com/news/id/6519315"
+    },
+    {
+      "region": "TW",
+      "headline": "〈中經院發布PMI〉PMI連9月擴張  連賢明：指數微降 但高科技業仍處快速擴張軌道",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6519298"
     }
   ]
 }
