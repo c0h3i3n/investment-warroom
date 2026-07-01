@@ -1,61 +1,69 @@
 {
-  "timestamp": "2026-07-02T00:31:38.607708+08:00",
+  "timestamp": "2026-07-02T02:31:45.579183+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "三洋電瞄準節能家電汰換潮力抗景氣逆風 泰山廠開發緊跟官版檢討進度",
+      "headline": "不只做AI！Meta傳進軍雲端市場 正面對決AWS",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519170"
+      "link": "https://news.cnyes.com/news/id/6519527"
     },
     {
       "region": "TW",
-      "headline": "PMI連9月擴張  連賢明：指數雖微降 但高科技業仍處快速擴張軌道",
+      "headline": "航運巨頭又出手！達飛海運豪砸14億美元收購聯邦快遞第三方物流業務",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519298"
+      "link": "https://news.cnyes.com/news/id/6519423"
     },
     {
       "region": "TW",
-      "headline": "日元保衛戰再起？美債殖利率助攻 美元兌日元升抵40年新高",
+      "headline": "《大賣空》貝瑞拋出「永不過時」的關鍵提問 看穿網路泡沫的投資框架如今AI也適用",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519314"
+      "link": "https://news.cnyes.com/news/id/6518260"
     },
     {
       "region": "TW",
-      "headline": "台網聯手電信三雄啟動MID Plus 導入Open Gateway API攜手打詐",
+      "headline": "比亞迪又出手！第二座歐洲工廠近期拍板",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519302"
+      "link": "https://news.cnyes.com/news/id/6519324"
     },
     {
       "region": "TW",
-      "headline": "〈台幣〉股匯不同調！隨亞幣走弱收31.874元 創近3月新低",
+      "headline": "國壽喊2040年底全面撤煤 國泰世華銀2035綠色融資目標2000億元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519294"
+      "link": "https://news.cnyes.com/news/id/6519349"
     },
     {
       "region": "TW",
-      "headline": "研調：蘋果全面漲價衝擊消費端需求 2026年全球筆電出貨估衰退13.6%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6519315"
-    },
-    {
-      "region": "TW",
-      "headline": "〈中經院發布PMI〉PMI連9月擴張  連賢明：指數微降 但高科技業仍處快速擴張軌道",
+      "headline": "1300噸問題油品曝光！泰山9款、福壽3款油品上榜15項退貨清單看這裡",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519298"
+      "link": "https://news.cnyes.com/news/id/6519371"
+    },
+    {
+      "region": "TW",
+      "headline": "亞資中心規模大增10兆提前達標！卓揆曝將赴高雄出席週年活動 親揭4年及6年目標",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6519350"
+    },
+    {
+      "region": "TW",
+      "headline": "Uber今起推北投機車體驗載客 交通部：支持北市依法開罰",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6519348"
     }
   ]
 }
