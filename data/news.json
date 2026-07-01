@@ -1,37 +1,45 @@
 {
-  "timestamp": "2026-07-02T06:05:53.459936+08:00",
+  "timestamp": "2026-07-02T07:43:45.444688+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "不只做AI！Meta傳進軍雲端市場 正面對決AWS",
+      "headline": "日產美國大改革！新執行長拒打價格戰 誓言擺脫「租車品牌」形象",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519527"
+      "link": "https://news.cnyes.com/news/id/6519584"
     },
     {
       "region": "TW",
-      "headline": "航運巨頭又出手！達飛海運豪砸14億美元收購聯邦快遞第三方物流業務",
+      "headline": "〈美股盤後〉Meta飆近9% 那指7月開局走低 道瓊寫新高後收近平盤　",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519423"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6519217"
     },
     {
       "region": "TW",
-      "headline": "《大賣空》貝瑞拋出「永不過時」的關鍵提問 看穿網路泡沫的投資框架如今AI也適用",
+      "headline": "〈貴金屬盤後〉美ADP就業疲軟、華許暗示通膨風險趨緩 金價反彈 ",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6518260"
+      "link": "https://news.cnyes.com/news/id/6519028"
     },
     {
       "region": "TW",
-      "headline": "比亞迪又出手！第二座歐洲工廠近期拍板",
+      "headline": "蘋果2027硬體大年 傳打造全新MacBook Pro與iPad Pro",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519324"
+      "link": "https://news.cnyes.com/news/id/6519580"
+    },
+    {
+      "region": "TW",
+      "headline": "川普再提台灣！台積電亞利桑那廠將擴建一倍 美晶片市占拚50% ",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6519578"
     },
     {
       "region": "TW",
@@ -56,14 +64,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6519350"
-    },
-    {
-      "region": "TW",
-      "headline": "Uber今起推北投機車體驗載客 交通部：支持北市依法開罰",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519348"
     }
   ]
 }
