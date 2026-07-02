@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-07-03T03:56:11.680823+08:00",
+  "timestamp": "2026-07-03T05:15:50.478083+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "Fed戴莉：政策仍略具限制性 AI與通膨增添決策變數",
+      "headline": "盤中速報 - 道瓊指數大漲1%，報52830.65點",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6520967"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6521071"
     },
     {
       "region": "TW",
-      "headline": "福特也扛不住！電動車買氣急凍 第二季銷量下滑逾一成",
+      "headline": "盤中速報 - 美敦力公司(MDT-US)大漲5.03%，報83.18美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6520930"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6521064"
     },
     {
       "region": "TW",
-      "headline": "〈富邦財經論壇〉羅瑋分析下半年全球政經三大主軸 5成機率經濟軟著陸",
+      "headline": "盤中速報 - 奧賴利汽車(ORLY-US)大跌5.03%，報88.03美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6520943"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6521063"
     },
     {
       "region": "TW",
-      "headline": "非農爆冷反成股市利多？華爾街：Fed升息壓力減輕 但通膨仍是最大變數",
+      "headline": "盤中速報 - Workday公司(WDAY-US)大漲5.07%，報136.88美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6520853"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6521060"
     },
     {
       "region": "TW",
@@ -56,6 +56,14 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6520949"
+    },
+    {
+      "region": "TW",
+      "headline": "〈富邦財經論壇〉羅瑋分析下半年全球政經三大主軸 5成機率經濟軟著陸",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6520943"
     }
   ]
 }
