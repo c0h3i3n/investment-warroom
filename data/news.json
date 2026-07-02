@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-07-03T05:15:50.478083+08:00",
+  "timestamp": "2026-07-03T06:37:22.974719+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 道瓊指數大漲1%，報52830.65點",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6521071"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 美敦力公司(MDT-US)大漲5.03%，報83.18美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6521064"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 奧賴利汽車(ORLY-US)大跌5.03%，報88.03美元",
+      "headline": "美超微澄清非晶片走私案調查對象 公開信安撫客戶股價仍續跌",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6521063"
+      "link": "https://news.cnyes.com/news/id/6521081"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Workday公司(WDAY-US)大漲5.07%，報136.88美元",
+      "headline": "〈美股盤後〉特斯拉跌逾7% 晶片股拖累那指收黑 道瓊飆近600點再創新高",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6521060"
+      "link": "https://news.cnyes.com/news/id/6520867"
+    },
+    {
+      "region": "TW",
+      "headline": "利多出盡？特斯Q2交車暴增25%遠超預期 股價反寫近一年最大跌幅",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6521070"
+    },
+    {
+      "region": "TW",
+      "headline": "〈能源盤後〉原油止跌小漲！美伊談判降溫供應疑慮 市場聚焦OPEC+增產",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6521065"
     },
     {
       "region": "TW",
