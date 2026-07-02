@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-02T19:56:34.998026+08:00",
+  "timestamp": "2026-07-02T22:20:37.592161+08:00",
   "data": [
     {
       "region": "TW",
@@ -35,11 +35,35 @@
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 馥鴻(5345)6月營收463萬元年增率高達1067％",
+      "headline": "鉅亨速報 - Factset 最新調查：臻鼎-KY(4958-TW)EPS預估上修至14.92元，預估目標價為636.5元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6520709"
+      "link": "https://news.cnyes.com/news/id/6520951"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：豐泰(9910-TW)EPS預估下修至4.86元，預估目標價為80.2元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6520950"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：群聯(8299-TW)EPS預估上修至340.55元，預估目標價為3000元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6520949"
+    },
+    {
+      "region": "TW",
+      "headline": "〈富邦財經論壇〉羅瑋分析下半年全球政經三大主軸 5成機率經濟軟著陸",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6520943"
     }
   ]
 }
