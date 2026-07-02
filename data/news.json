@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-07-02T22:20:37.592161+08:00",
+  "timestamp": "2026-07-03T00:19:34.615745+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "柏承南通新廠效益逐漸發揮中 Q2虧損收歛中 1-5月每股虧1元",
+      "headline": "Fed戴莉：政策仍略具限制性 AI與通膨增添決策變數",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6520599"
+      "link": "https://news.cnyes.com/news/id/6520967"
     },
     {
       "region": "TW",
-      "headline": "黃男州：玉山內部「不鼓勵」兼職 正在籌備整合壽險利關人系統",
+      "headline": "福特也扛不住！電動車買氣急凍 第二季銷量下滑逾一成",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6520510"
+      "link": "https://news.cnyes.com/news/id/6520930"
     },
     {
       "region": "TW",
-      "headline": "鴻華替三菱開發首款電動車ASX VR-e 在澳洲墨爾本上路測試",
+      "headline": "〈富邦財經論壇〉羅瑋分析下半年全球政經三大主軸 5成機率經濟軟著陸",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6520528"
+      "link": "https://news.cnyes.com/news/id/6520943"
     },
     {
       "region": "TW",
-      "headline": "電電公會海外園區火力全開 龔明鑫：波蘭年底前動土 並鎖定墨、美、印佈局",
+      "headline": "非農爆冷反成股市利多？華爾街：Fed升息壓力減輕 但通膨仍是最大變數",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6520511"
+      "link": "https://news.cnyes.com/news/id/6520853"
     },
     {
       "region": "TW",
@@ -56,14 +56,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6520949"
-    },
-    {
-      "region": "TW",
-      "headline": "〈富邦財經論壇〉羅瑋分析下半年全球政經三大主軸 5成機率經濟軟著陸",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6520943"
     }
   ]
 }
