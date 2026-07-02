@@ -1,69 +1,37 @@
 {
-  "timestamp": "2026-07-02T09:51:30.486534+08:00",
+  "timestamp": "2026-07-02T14:02:46.018507+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "日產美國大改革！新執行長拒打價格戰 誓言擺脫「租車品牌」形象",
-      "source": "鉅亨",
+      "headline": "【ETF觀察】0050該升級了？00991A主動布局「未來版台灣50」，為何成為市場新焦點？",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519584"
+      "link": "https://news.cnyes.com/news/id/6520374"
     },
     {
       "region": "TW",
-      "headline": "〈美股盤後〉Meta飆近9% 那指7月開局走低 道瓊寫新高後收近平盤　",
-      "source": "鉅亨",
+      "headline": "微星入列首批通過EPEAT 2.0驗證夥伴 旗艦 AI 商務筆電獲銀牌認證",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6520368"
+    },
+    {
+      "region": "TW",
+      "headline": "〈焦點股〉台塑集團、塑化族群逆勢上揚 台塑、台化連袂點燈漲停",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6519217"
+      "link": "https://news.cnyes.com/news/id/6520344"
     },
     {
       "region": "TW",
-      "headline": "〈貴金屬盤後〉美ADP就業疲軟、華許暗示通膨風險趨緩 金價反彈 ",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519028"
-    },
-    {
-      "region": "TW",
-      "headline": "蘋果2027硬體大年 傳打造全新MacBook Pro與iPad Pro",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519580"
-    },
-    {
-      "region": "TW",
-      "headline": "川普再提台灣！台積電亞利桑那廠將擴建一倍 美晶片市占拚50% ",
+      "headline": "政院拍板！明年軍公教調薪5.88%至11.56% 委任1職等起薪破3.8萬元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519578"
-    },
-    {
-      "region": "TW",
-      "headline": "國壽喊2040年底全面撤煤 國泰世華銀2035綠色融資目標2000億元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519349"
-    },
-    {
-      "region": "TW",
-      "headline": "1300噸問題油品曝光！泰山9款、福壽3款油品上榜15項退貨清單看這裡",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519371"
-    },
-    {
-      "region": "TW",
-      "headline": "亞資中心規模大增10兆提前達標！卓揆曝將赴高雄出席週年活動 親揭4年及6年目標",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6519350"
+      "link": "https://news.cnyes.com/news/id/6520340"
     }
   ]
 }

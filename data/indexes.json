@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-07-02T09:51:30.486534+08:00",
+  "timestamp": "2026-07-02T14:02:46.018507+08:00",
   "data": [
     {
       "id": "tai",
       "name": "加權指數 TAIEX",
       "region": "TW",
       "currency": "NT$",
-      "price": 46499.43,
-      "change": -519.56,
-      "changePct": -1.11
+      "price": 46744.16,
+      "change": -274.83,
+      "changePct": -0.58
     },
     {
       "id": "otc",
