@@ -1,45 +1,53 @@
 {
-  "timestamp": "2026-07-03T20:19:56.431381+08:00",
+  "timestamp": "2026-07-03T22:44:14.428317+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "億光6月營收18.3億元月年雙增 擴增東南亞產能加速海外布局",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522042"
-    },
-    {
-      "region": "TW",
-      "headline": "信邦自結5月純益年增25% EPS 1.03元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522023"
-    },
-    {
-      "region": "TW",
-      "headline": "華碩ROG成軍20周年特展 電競溢價優勢力抗產業漲價逆風",
+      "headline": "盤中速報 - Celestia大漲8.3%，報0.4美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6522019"
+      "link": "https://news.cnyes.com/news/id/6522272"
     },
     {
       "region": "TW",
-      "headline": "外資賣超777億元本周提款逾1400億元 土洋法人聯手砍記憶體股",
+      "headline": "中國乘用車5月歐洲市場銷售首超日本",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6521967"
+      "link": "https://news.cnyes.com/news/id/6521930"
     },
     {
       "region": "TW",
-      "headline": "精測受惠AI、HPC需求強勁 6月營收年增40.2% 連6月創新高",
+      "headline": "中國信託ATM全新進駐金門7-ELEVEN 鋪機量突破8000台居全台之冠",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6522252"
+    },
+    {
+      "region": "TW",
+      "headline": "北富銀小富翁帳戶衝破32.7萬戶 資產規模逼近1500億元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6522139"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 聯茂(6213)6月營收42.14億元年增率高達47.94％",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6521931"
+      "link": "https://news.cnyes.com/news/id/6522146"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 鈺創(5351)6月營收19.03億元年增率高達657.48％",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6522145"
     }
   ]
 }
