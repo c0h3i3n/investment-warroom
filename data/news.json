@@ -1,69 +1,45 @@
 {
-  "timestamp": "2026-07-03T11:33:26.972255+08:00",
+  "timestamp": "2026-07-03T14:50:36.118417+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美超微澄清非晶片走私案調查對象 公開信安撫客戶股價仍續跌",
+      "headline": "營收速報  - 力特(3051)6月營收1.83億元年增率高達42.47％",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6521771"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 百容(2483)6月營收1.98億元年增率高達34.28％",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6521770"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股盤後〉海運、塑化及紡織神救援急拉900點收漲36點 單周大漲2208點",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6521758"
+    },
+    {
+      "region": "TW",
+      "headline": "外匯速報 - 美元/馬來西亞令吉(USDMYR) 大跌0.29%，報4.065元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6521081"
+      "link": "https://news.cnyes.com/news/id/6521765"
     },
     {
       "region": "TW",
-      "headline": "〈美股盤後〉特斯拉跌逾7% 晶片股拖累那指收黑 道瓊飆近600點再創新高",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6520867"
-    },
-    {
-      "region": "TW",
-      "headline": "利多出盡？特斯Q2交車暴增25%遠超預期 股價反寫近一年最大跌幅",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6521070"
-    },
-    {
-      "region": "TW",
-      "headline": "〈能源盤後〉原油止跌小漲！美伊談判降溫供應疑慮 市場聚焦OPEC+增產",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6521065"
-    },
-    {
-      "region": "TW",
-      "headline": "10檔台股科技ETF配息香 00927年化配息率飆破18%奪冠",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6521532"
-    },
-    {
-      "region": "TW",
-      "headline": "〈房產〉打房後房價還在飆  台中市近一年各類住宅產品漲幅都居六都之冠",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6521389"
-    },
-    {
-      "region": "TW",
-      "headline": "緯創新竹、美國廠區導入輝達NVDIA Omniverse DSX 推動AI智慧工廠",
+      "headline": "台股下半年告別無腦賺 法人：未來投資更看重策略",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6521345"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股開盤〉4萬6再攻防 電子權值股全倒跌近900點 無人機、塑化逆勢上攻",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6521254"
+      "link": "https://news.cnyes.com/news/id/6521752"
     }
   ]
 }
