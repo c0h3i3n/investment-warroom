@@ -1,10 +1,42 @@
 {
-  "timestamp": "2026-07-04T15:17:05.160514+08:00",
+  "timestamp": "2026-07-04T17:36:48.294644+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "300大廠搶人4萬人搶卡位！104職缺123萬年增4.2% 這2種人「缺很大」創10年新高",
+      "headline": "盤中速報 - Bonk大漲10.48%，報0美元",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6522489"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - UTK大漲16.23%，報0.008美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6522488"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - ARPA大漲34.76%，報0.01105美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6522487"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - TLM大漲46.8%，報0.00266美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6522486"
+    },
+    {
+      "region": "TW",
+      "headline": "300大廠搶人4萬人搶卡位！104職缺123萬年增4.2% 這2種人「缺很大」創10年新高",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6522436"
@@ -12,26 +44,10 @@
     {
       "region": "TW",
       "headline": "AI送藥到府！國發會領軍智慧醫療 逾100家藥局合作AI藥品「一條龍」服務",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6522074"
-    },
-    {
-      "region": "TW",
-      "headline": "Fed成金價關鍵！小摩：黃金短線承壓、2027年仍有望衝5000美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522418"
-    },
-    {
-      "region": "TW",
-      "headline": "CPU短缺加劇！英特爾、AMD交期拉長 股價飆升迎結構性成長",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6522415"
     },
     {
       "region": "TW",
