@@ -1,37 +1,45 @@
 {
-  "timestamp": "2026-07-04T12:12:23.741686+08:00",
+  "timestamp": "2026-07-04T15:17:05.160514+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "虛擬資產專法過關、勞動基金5月大賺5869億元、中國記憶體廠示警 本周大事回顧",
+      "headline": "300大廠搶人4萬人搶卡位！104職缺123萬年增4.2% 這2種人「缺很大」創10年新高",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6522281"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6522436"
     },
     {
       "region": "TW",
-      "headline": "〈熱門股〉晶技Q2營收改寫史上第三強 股價周漲29%創新高",
+      "headline": "AI送藥到府！國發會領軍智慧醫療 逾100家藥局合作AI藥品「一條龍」服務",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6522356"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6522074"
     },
     {
       "region": "TW",
-      "headline": "〈熱門股〉智邦AI加速卡與交換器展望能見度直達後年 周漲14%攻上2800元新高",
+      "headline": "Fed成金價關鍵！小摩：黃金短線承壓、2027年仍有望衝5000美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6522309"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6522418"
     },
     {
       "region": "TW",
-      "headline": "〈熱門股〉晶碩Q2營收21億元創單季高 周漲逾1成股價創15個月新高",
+      "headline": "CPU短缺加劇！英特爾、AMD交期拉長 股價飆升迎結構性成長",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6522280"
+      "link": "https://news.cnyes.com/news/id/6522415"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：台化(1326-TW)EPS預估上修至2.06元，預估目標價為60元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6522407"
     }
   ]
 }
