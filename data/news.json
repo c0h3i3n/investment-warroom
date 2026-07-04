@@ -1,37 +1,45 @@
 {
-  "timestamp": "2026-07-05T00:43:40.716036+08:00",
+  "timestamp": "2026-07-05T01:47:34.626447+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "iPhone 18將升級9GB RAM不夠？郭明錤：「無法使用」iOS 27兩大AI功能",
+      "headline": "盤中速報 - ARPA大跌8.69%，報0.0103美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522474"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6522551"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - Bonk大漲10.84%，報0美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6522550"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - ether.fi大漲14.4%，報0.41美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6522549"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - OGN大漲26.25%，報0.0198美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6522548"
     },
     {
       "region": "TW",
       "headline": "以工作生活平衡留人才 信義房屋為業務加碼多元休假7月起生效",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6522519"
-    },
-    {
-      "region": "TW",
-      "headline": "摩根大通示警AI灰犀牛！2027年算力支出恐「斷崖式放緩」",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6522473"
-    },
-    {
-      "region": "TW",
-      "headline": "蘋果股價單週飆漲12%！摺疊iPhone備貨上修至千萬台引爆市場",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6522475"
     },
     {
       "region": "TW",
