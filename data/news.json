@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-05T13:44:28.222847+08:00",
+  "timestamp": "2026-07-05T16:32:15.827006+08:00",
   "data": [
     {
       "region": "TW",
@@ -35,35 +35,27 @@
     },
     {
       "region": "TW",
+      "headline": "台股2026企業盈餘成長估達58% 法人：汰弱留強優選能見度佳成長股",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6522633"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉外資連3買力捧轉機題材 台化周漲25.46%股價創近3年新高",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6522621"
+    },
+    {
+      "region": "TW",
       "headline": "黃金及高價股交易成本大降！期交所4新制明上路 最小升降單位由5元變1元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6522449"
-    },
-    {
-      "region": "TW",
-      "headline": "大立光6月營收37.12億元創1年來新低 月減19%年減10%估7月回升",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522593"
-    },
-    {
-      "region": "TW",
-      "headline": "觸控面板雙雄加速跨界布局 TPK-KY深耕先進封裝 GIS-KY光通訊拚明年量產",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522313"
-    },
-    {
-      "region": "TW",
-      "headline": "以工作生活平衡留人才 信義房屋為業務加碼多元休假7月起生效",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522519"
     }
   ]
 }
