@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-07-06T13:59:51.146197+08:00",
+  "timestamp": "2026-07-06T18:57:18.795027+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "聯想美規筆電首搭長江儲存SSD 中國晶片打進主流PC",
+      "headline": "外資賣超255億元連三賣 調節記憶體 反手敲進面板雙虎20萬張",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522799"
+      "link": "https://news.cnyes.com/news/id/6524160"
     },
     {
       "region": "TW",
-      "headline": "〈台幣〉外資賣股匯出壓力未止 早盤重貶逾1.4角破32元大關 創4月以來新低",
+      "headline": "三星財報前瞻：Q2利潤預計暴增18倍 寫「一年頂 40 年」神話",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6523457"
+      "link": "https://news.cnyes.com/news/id/6523814"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉慧洋-KY 6月獲利年增爆30倍 漲逾半根停板歡呼",
+      "headline": "債市回溫配息步步高！凱基00981T年化殖利率逼近8% 7/16除息",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6524162"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - DEXE大漲11.98%，報27.017美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6523436"
+      "link": "https://news.cnyes.com/news/id/6524191"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉Switch 2漲價效益 鴻準6月營收飆增71.9% 股價跳空大漲",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6523428"
-    },
-    {
-      "region": "TW",
-      "headline": "〈焦點股〉輝達Kyber機櫃被PCB卡住？載板、PCB族群重挫",
+      "headline": "營收速報  - 日電貿(3090)6月營收16.81億元年增率高達32.37％",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6523503"
+      "link": "https://news.cnyes.com/news/id/6524226"
     },
     {
       "region": "TW",
-      "headline": "CoWoS產能助攻台廠動能！野村估台股EPS年增上看56% 2027年AI續走多頭",
+      "headline": "耕興Q2營收創三年新高 下半年美國轉單再擴大",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6523505"
+      "link": "https://news.cnyes.com/news/id/6524220"
     },
     {
       "region": "TW",
-      "headline": "燦坤搶攻AI穿戴熱潮 推出首款自有品牌智觀Cfairy AI智慧眼鏡",
+      "headline": "京鼎營收創下三紀錄 上半年達118.55億元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6523472"
+      "link": "https://news.cnyes.com/news/id/6524192"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉AI股重傷 高股息ETF「三本柱」逆勢吸金點亮盤面",
+      "headline": "材料-KY 6月營收站上10億元大關創今年新高",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6523467"
+      "link": "https://news.cnyes.com/news/id/6524185"
     }
   ]
 }
