@@ -1,61 +1,69 @@
 {
-  "timestamp": "2026-07-06T09:24:38.806502+08:00",
+  "timestamp": "2026-07-06T13:59:51.146197+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "OPEC+主要產油國 連續五個月宣布增產",
+      "headline": "聯想美規筆電首搭長江儲存SSD 中國晶片打進主流PC",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522805"
+      "link": "https://news.cnyes.com/news/id/6522799"
     },
     {
       "region": "TW",
-      "headline": "Q3出貨量頂多100萬支！郭明錤：iPhone折疊機擬重演iPhone X「同場發佈、較晚開賣」劇本",
+      "headline": "〈台幣〉外資賣股匯出壓力未止 早盤重貶逾1.4角破32元大關 創4月以來新低",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522751"
+      "link": "https://news.cnyes.com/news/id/6523457"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 鴻海(2317)6月營收8,217.63億元年增率高達52.11％",
+      "headline": "〈焦點股〉慧洋-KY 6月獲利年增爆30倍 漲逾半根停板歡呼",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522833"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6523436"
     },
     {
       "region": "TW",
-      "headline": "華爾街日報：中國製造升級擠壓德國「隱形冠軍」 德對中資本財貿易罕見轉為逆差",
+      "headline": "〈焦點股〉Switch 2漲價效益 鴻準6月營收飆增71.9% 股價跳空大漲",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6521375"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6523428"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 藥華藥(6446)6月營收23.33億元年增率高達94.88％",
+      "headline": "〈焦點股〉輝達Kyber機櫃被PCB卡住？載板、PCB族群重挫",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522834"
+      "link": "https://news.cnyes.com/news/id/6523503"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：和碩(4938-TW)目標價調升至83元，幅度約3.11%",
+      "headline": "CoWoS產能助攻台廠動能！野村估台股EPS年增上看56% 2027年AI續走多頭",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522809"
+      "link": "https://news.cnyes.com/news/id/6523505"
     },
     {
       "region": "TW",
-      "headline": "〈台股風向球〉外資賣壓下守穩4萬6 重量級法說、6月營收助攻4萬8",
+      "headline": "燦坤搶攻AI穿戴熱潮 推出首款自有品牌智觀Cfairy AI智慧眼鏡",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522683"
+      "link": "https://news.cnyes.com/news/id/6523472"
+    },
+    {
+      "region": "TW",
+      "headline": "〈焦點股〉AI股重傷 高股息ETF「三本柱」逆勢吸金點亮盤面",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6523467"
     }
   ]
 }
