@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-07-07T03:19:42.595915+08:00",
+  "timestamp": "2026-07-07T05:11:29.237676+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - AAVE大漲8.21%，報96.7美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6524435"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：CoreWeave, Inc. Class A(CRWV-US)EPS預估下修至-3.76元，預估目標價為140.00元",
+      "headline": "比特幣差點跌破6萬美元！川普喊話後大逆轉",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6524433"
+      "link": "https://news.cnyes.com/news/id/6524441"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：Mettler-Toledo國際MTD-US的目標價調升至1340元，幅度約3.08%",
+      "headline": "川習會可望9月底登場？川普透露習近平訪美時間",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524432"
+      "link": "https://news.cnyes.com/news/id/6524444"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：瑞穗金融集團MFG-US的目標價調升至11元，幅度約5.19%",
+      "headline": "AI晶片股迎報復性反彈？財經名嘴Jim Cramer喊話重新進場",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524431"
+      "link": "https://news.cnyes.com/news/id/6524418"
+    },
+    {
+      "region": "TW",
+      "headline": "Fed利率路徑要不要先講？華勒：前瞻指引應保留彈性",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6524405"
     },
     {
       "region": "TW",
