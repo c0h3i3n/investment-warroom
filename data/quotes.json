@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-07T01:28:58.275443+08:00",
+  "timestamp": "2026-07-07T03:19:42.595915+08:00",
   "data": [
     {
       "symbol": "0050.TW",
@@ -60,16 +60,16 @@
     {
       "symbol": "NVDA",
       "name": "",
-      "price": 196.0699,
-      "change": 1.24,
-      "changePct": 0.64
+      "price": 196.87,
+      "change": 2.04,
+      "changePct": 1.05
     },
     {
       "symbol": "TSLA",
       "name": "",
-      "price": 416.88,
-      "change": 23.43,
-      "changePct": 5.96
+      "price": 417.63,
+      "change": 24.18,
+      "changePct": 6.14
     }
   ]
 }
