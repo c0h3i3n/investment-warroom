@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-07-06T22:31:58.785267+08:00",
+  "timestamp": "2026-07-07T01:28:58.275443+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "大摩：美股料將輪動 AI投資重心由晶片轉向雲端巨頭",
+      "headline": "盤中速報 - AAVE大漲8.21%，報96.7美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524224"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6524435"
     },
     {
       "region": "TW",
-      "headline": "新加坡擴大調查輝達AI晶片流向案 中國商人遭追加洗錢與詐欺罪名",
+      "headline": "鉅亨速報 - Factset 最新調查：CoreWeave, Inc. Class A(CRWV-US)EPS預估下修至-3.76元，預估目標價為140.00元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524288"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6524433"
     },
     {
       "region": "TW",
-      "headline": "DeepSeek 生態補強 開源AI程式助手Deep Code上線",
+      "headline": "鉅亨速報 - Factset 最新調查：Mettler-Toledo國際MTD-US的目標價調升至1340元，幅度約3.08%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6523857"
+      "link": "https://news.cnyes.com/news/id/6524432"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：Liberty Media Corp. (New Liberty Formula One) Series C(FWONK…",
+      "headline": "鉅亨速報 - Factset 最新調查：瑞穗金融集團MFG-US的目標價調升至11元，幅度約5.19%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524313"
+      "link": "https://news.cnyes.com/news/id/6524431"
     },
     {
       "region": "TW",
