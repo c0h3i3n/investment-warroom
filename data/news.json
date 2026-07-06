@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-07-06T18:57:18.795027+08:00",
+  "timestamp": "2026-07-06T22:31:58.785267+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "外資賣超255億元連三賣 調節記憶體 反手敲進面板雙虎20萬張",
+      "headline": "大摩：美股料將輪動 AI投資重心由晶片轉向雲端巨頭",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524160"
+      "link": "https://news.cnyes.com/news/id/6524224"
     },
     {
       "region": "TW",
-      "headline": "三星財報前瞻：Q2利潤預計暴增18倍 寫「一年頂 40 年」神話",
+      "headline": "新加坡擴大調查輝達AI晶片流向案 中國商人遭追加洗錢與詐欺罪名",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6523814"
+      "link": "https://news.cnyes.com/news/id/6524288"
     },
     {
       "region": "TW",
-      "headline": "債市回溫配息步步高！凱基00981T年化殖利率逼近8% 7/16除息",
+      "headline": "DeepSeek 生態補強 開源AI程式助手Deep Code上線",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524162"
+      "link": "https://news.cnyes.com/news/id/6523857"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - DEXE大漲11.98%，報27.017美元",
+      "headline": "鉅亨速報 - Factset 最新調查：Liberty Media Corp. (New Liberty Formula One) Series C(FWONK…",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6524191"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6524313"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 日電貿(3090)6月營收16.81億元年增率高達32.37％",
+      "headline": "鉅亨速報 - Factset 最新調查：藥華藥(6446-TW)EPS預估上修至27.08元，預估目標價為1266元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524226"
+      "link": "https://news.cnyes.com/news/id/6524292"
     },
     {
       "region": "TW",
-      "headline": "耕興Q2營收創三年新高 下半年美國轉單再擴大",
+      "headline": "鉅亨速報 - Factset 最新調查：國巨(2327-TW)EPS預估上修至18.89元，預估目標價為1240元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524220"
+      "link": "https://news.cnyes.com/news/id/6524291"
     },
     {
       "region": "TW",
-      "headline": "京鼎營收創下三紀錄 上半年達118.55億元",
+      "headline": "鉅亨速報 - Factset 最新調查：晶碩(6491-TW)目標價調升至390元，幅度約3.72%",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524192"
+      "link": "https://news.cnyes.com/news/id/6524290"
     },
     {
       "region": "TW",
-      "headline": "材料-KY 6月營收站上10億元大關創今年新高",
+      "headline": "集邦：電視面板7月需求青黃不接 全尺寸估跌1-3美元",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524185"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6524279"
     }
   ]
 }
