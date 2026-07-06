@@ -1,37 +1,53 @@
 {
-  "timestamp": "2026-07-06T07:35:16.293416+08:00",
+  "timestamp": "2026-07-06T09:24:38.806502+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈走進中國〉硬碟一天三個價 經銷商喊「非剛需別買」一年內看不到漲價盡頭",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6522600"
-    },
-    {
-      "region": "TW",
-      "headline": "摩根士丹利揭AI「十大投資真相」！重塑企業、產業與全球經濟",
+      "headline": "OPEC+主要產油國 連續五個月宣布增產",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522624"
+      "link": "https://news.cnyes.com/news/id/6522805"
     },
     {
       "region": "TW",
-      "headline": "本週操盤筆記：美國聯準會會議紀要、中國通膨、紐西蘭利率決議",
+      "headline": "Q3出貨量頂多100萬支！郭明錤：iPhone折疊機擬重演iPhone X「同場發佈、較晚開賣」劇本",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522589"
+      "link": "https://news.cnyes.com/news/id/6522751"
     },
     {
       "region": "TW",
-      "headline": "記憶體仍迎牛市！瑞銀大幅上修DRAM價格預測、供需失衡恐延續至2028年",
+      "headline": "營收速報  - 鴻海(2317)6月營收8,217.63億元年增率高達52.11％",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522529"
+      "link": "https://news.cnyes.com/news/id/6522833"
+    },
+    {
+      "region": "TW",
+      "headline": "華爾街日報：中國製造升級擠壓德國「隱形冠軍」 德對中資本財貿易罕見轉為逆差",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6521375"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 藥華藥(6446)6月營收23.33億元年增率高達94.88％",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6522834"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：和碩(4938-TW)目標價調升至83元，幅度約3.11%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6522809"
     },
     {
       "region": "TW",
@@ -40,30 +56,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6522683"
-    },
-    {
-      "region": "TW",
-      "headline": "鴻海6月營收8218億元與Q2及上半年齊創同期最佳 Q3旺季營運續升溫",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522691"
-    },
-    {
-      "region": "TW",
-      "headline": "超標4倍！毒油案擴大到「第二層」石崇良撂重話：含毒油20%加工品7/6前全下架 ",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522642"
-    },
-    {
-      "region": "TW",
-      "headline": "台股2026企業盈餘成長估達58% 法人：汰弱留強優選能見度佳成長股",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6522633"
     }
   ]
 }
