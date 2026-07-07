@@ -1,61 +1,69 @@
 {
-  "timestamp": "2026-07-07T11:41:00.799088+08:00",
+  "timestamp": "2026-07-07T15:04:00.633879+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "永悅健康23日於創新板掛牌 暫定承銷價60元",
+      "headline": "盤中速報 - 中茂(5205)急拉3.41%報22.6元，成交9張",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524832"
+      "link": "https://news.cnyes.com/news/id/6525293"
     },
     {
       "region": "TW",
-      "headline": "記憶體晶片漲價潮蔓延至消費端 中國1TB固態硬碟漲至4,700元",
+      "headline": "盤中速報 - 秋雨(9929)急跌-3.18%報11.2元，成交20張",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6524548"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6525292"
     },
     {
       "region": "TW",
-      "headline": "AI開始設計保養品與餅乾 歐萊雅、Oreo母公司都在搶用",
+      "headline": "盤中速報 - 銘旺科(2429)股價殺至跌停，跌停價44.15元，成交1,466張",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524485"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6525291"
     },
     {
       "region": "TW",
-      "headline": "最便宜的台股正二ETF來了 群益00685L恢復交易首日爆大量",
+      "headline": "盤中速報 - 天鉞電(5251)大跌7.35%，報30.25元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524808"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6525288"
     },
     {
       "region": "TW",
-      "headline": "SK海力士ADR定價倒數！頂級AI基金搶籌 有望催生跨市場套利 瑞銀估長期「吸金」150億",
+      "headline": "賴清德：以半導體與AI產業鏈為基礎 讓台灣從製造轉化為科技籌資中心",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524550"
+      "link": "https://news.cnyes.com/news/id/6525252"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-8.98點至430.82點，跌幅2.04%",
+      "headline": "台股盤中急殺逾千點 千金股6檔跌停淪重災區 穎崴跌停國巨掉榜",
       "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6524902"
+      "link": "https://news.cnyes.com/news/id/6525251"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 淳紳(4529)6月營收250萬元年增率高達462.7％",
+      "headline": "鴻海小金雞將現身！劉揚偉：旗下IC設計子公司預計今年創新板上市",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524853"
+      "link": "https://news.cnyes.com/news/id/6525249"
+    },
+    {
+      "region": "TW",
+      "headline": "中華電信獲卓越投資獎 簡志誠揭CVC挺新創的三個關鍵角色",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6525223"
     }
   ]
 }
