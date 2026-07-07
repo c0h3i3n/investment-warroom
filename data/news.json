@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-07-07T21:06:01.159631+08:00",
+  "timestamp": "2026-07-07T23:52:30.630544+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "勞動基金大手筆！5大投信獲委託代操550億元 鎖定台股ESG題材",
+      "headline": "新思大轉彎！停做部分晶圓廠軟體 全力押AI設計",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6520862"
+      "link": "https://news.cnyes.com/news/id/6526074"
     },
     {
       "region": "TW",
-      "headline": "DeepSeek投入自研AI晶片 力拚降低對輝達、華為依賴",
+      "headline": "AI狂熱拉警報！科技股波動創網路泡沫後新高",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6526004"
+    },
+    {
+      "region": "TW",
+      "headline": "SpaceX上市助攻！華爾街大型銀行第二季獲利可期",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6525978"
+      "link": "https://news.cnyes.com/news/id/6525979"
     },
     {
       "region": "TW",
-      "headline": "英特爾調漲CPU售價 童子賢：需求熱絡導致缺貨 漲價不必過度擔憂",
+      "headline": "〈美股早盤〉AI估值疑慮升溫、DeepSeek傳自研晶片 主要指數漲跌互現",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6525980"
+      "link": "https://news.cnyes.com/news/id/6525977"
     },
     {
       "region": "TW",
-      "headline": "中國人行增持黃金 創2023年以來最大單月增持",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6525879"
-    },
-    {
-      "region": "TW",
-      "headline": "八貫6月營收年增40.14％ 與Q2、H1營收均創同期新高",
+      "headline": "威剛擬斥6億元內公開收購琉園 提升品牌形象",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6526001"
+      "link": "https://news.cnyes.com/news/id/6526135"
     },
     {
       "region": "TW",
-      "headline": "工商協進會辦講座 吳東亮讚PCB廠臻鼎為台灣之光",
+      "headline": "安森美出售菲律賓封測廠 超豐電子接手助其降成本",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6525984"
+      "link": "https://news.cnyes.com/news/id/6526032"
     },
     {
       "region": "TW",
-      "headline": "〈國票金法說〉金雞母國票證賺翻了！長遠規劃100%收購股權 攻財管拚轉型",
+      "headline": "南山人壽「熱傷害微型保險」7月台南先試辦 住院定額理賠1萬元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6525973"
+      "link": "https://news.cnyes.com/news/id/6526060"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 星雲(8047)6月營收9,575萬元年增率高達175.92％",
+      "headline": "台韓創投公會簽署合作備忘錄 共推跨境基金與出場合作",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6525997"
+      "link": "https://news.cnyes.com/news/id/6526058"
     }
   ]
 }
