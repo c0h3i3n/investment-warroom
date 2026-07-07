@@ -1,69 +1,53 @@
 {
-  "timestamp": "2026-07-07T15:04:00.633879+08:00",
+  "timestamp": "2026-07-07T18:32:45.803822+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 中茂(5205)急拉3.41%報22.6元，成交9張",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6525293"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 秋雨(9929)急跌-3.18%報11.2元，成交20張",
+      "headline": "〈港股盤後〉半導體股重挫 恒指收跌0.75% 科技龍頭股表現兩極",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6525292"
+      "link": "https://news.cnyes.com/news/id/6525538"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 銘旺科(2429)股價殺至跌停，跌停價44.15元，成交1,466張",
+      "headline": "〈台幣〉重挫1.18角至32.143元 續創4月以來新低價",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6525291"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6525524"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 天鉞電(5251)大跌7.35%，報30.25元",
+      "headline": "雅特力Q2營收9.6億元倍增創單季新高 上半年營收與去年全年相當",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6525288"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6525490"
     },
     {
       "region": "TW",
-      "headline": "賴清德：以半導體與AI產業鏈為基礎 讓台灣從製造轉化為科技籌資中心",
+      "headline": "〈陸股盤後〉「川習會」可望9月底登場 市場未領情 三大指數走低",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6524546"
+    },
+    {
+      "region": "TW",
+      "headline": "致伸6月營收62.9億元月年雙增 AIOT、聲學雙動能走強",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6525252"
+      "link": "https://news.cnyes.com/news/id/6525544"
     },
     {
       "region": "TW",
-      "headline": "台股盤中急殺逾千點 千金股6檔跌停淪重災區 穎崴跌停國巨掉榜",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6525251"
-    },
-    {
-      "region": "TW",
-      "headline": "鴻海小金雞將現身！劉揚偉：旗下IC設計子公司預計今年創新板上市",
+      "headline": "佳冬廠效益佳 三大未來上半年營收1.42億元創歷年同期新高",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6525249"
-    },
-    {
-      "region": "TW",
-      "headline": "中華電信獲卓越投資獎 簡志誠揭CVC挺新創的三個關鍵角色",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6525223"
+      "link": "https://news.cnyes.com/news/id/6525540"
     }
   ]
 }
