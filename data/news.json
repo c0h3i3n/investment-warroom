@@ -1,6 +1,14 @@
 {
-  "timestamp": "2026-07-08T04:15:09.221220+08:00",
+  "timestamp": "2026-07-08T05:54:13.648990+08:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "Meta加入AI圖片大戰 Muse Image 免費開放 瞄準創作者與廣告商",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6526188"
+    },
     {
       "region": "TW",
       "headline": "Fed三把手：能源價格回落有助通膨降溫 政策仍處適當位置",
@@ -11,27 +19,19 @@
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 數據狗(DDOG-US)大漲5.01%，報268.16美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6526178"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 埃森哲(ACN-US)大漲5%，報143.81美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6526175"
-    },
-    {
-      "region": "TW",
       "headline": "紐約Fed：美國6月短中期通膨預期升溫 長期持穩",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6526170"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：SpaceX(SPCX-US)EPS預估上修至-0.32元，預估目標價為225.00元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6526166"
     },
     {
       "region": "TW",
