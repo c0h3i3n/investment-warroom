@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-07-08T02:02:30.144923+08:00",
+  "timestamp": "2026-07-08T04:15:09.221220+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "新思大轉彎！停做部分晶圓廠軟體 全力押AI設計",
+      "headline": "Fed三把手：能源價格回落有助通膨降溫 政策仍處適當位置",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6526074"
+      "link": "https://news.cnyes.com/news/id/6526117"
     },
     {
       "region": "TW",
-      "headline": "AI狂熱拉警報！科技股波動創網路泡沫後新高",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6526004"
-    },
-    {
-      "region": "TW",
-      "headline": "SpaceX上市助攻！華爾街大型銀行第二季獲利可期",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6525979"
-    },
-    {
-      "region": "TW",
-      "headline": "〈美股早盤〉AI估值疑慮升溫、DeepSeek傳自研晶片 主要指數漲跌互現",
+      "headline": "盤中速報 - 數據狗(DDOG-US)大漲5.01%，報268.16美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6525977"
+      "link": "https://news.cnyes.com/news/id/6526178"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 埃森哲(ACN-US)大漲5%，報143.81美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6526175"
+    },
+    {
+      "region": "TW",
+      "headline": "紐約Fed：美國6月短中期通膨預期升溫 長期持穩",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6526170"
     },
     {
       "region": "TW",
