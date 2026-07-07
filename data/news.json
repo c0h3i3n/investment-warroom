@@ -1,69 +1,61 @@
 {
-  "timestamp": "2026-07-07T07:45:59.662211+08:00",
+  "timestamp": "2026-07-07T11:41:00.799088+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "輝達一句「路線圖未變」救不了AI股？亞洲供應鏈全面承壓",
+      "headline": "永悅健康23日於創新板掛牌 暫定承銷價60元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524488"
+      "link": "https://news.cnyes.com/news/id/6524832"
     },
     {
       "region": "TW",
-      "headline": "馬斯克二把手捐3.2億美元SpaceX持股 力挺「川普帳戶」計畫",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524475"
-    },
-    {
-      "region": "TW",
-      "headline": "美光反彈WDC漲超7% 晶片股重拾樂觀情緒",
+      "headline": "記憶體晶片漲價潮蔓延至消費端 中國1TB固態硬碟漲至4,700元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6524468"
+      "link": "https://news.cnyes.com/news/id/6524548"
     },
     {
       "region": "TW",
-      "headline": "大摩：鎧俠BiCS-10量產 AI儲存升級跨出關鍵一步",
+      "headline": "AI開始設計保養品與餅乾 歐萊雅、Oreo母公司都在搶用",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524464"
+      "link": "https://news.cnyes.com/news/id/6524485"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：藥華藥(6446-TW)EPS預估上修至27.08元，預估目標價為1266元",
+      "headline": "最便宜的台股正二ETF來了 群益00685L恢復交易首日爆大量",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6524808"
+    },
+    {
+      "region": "TW",
+      "headline": "SK海力士ADR定價倒數！頂級AI基金搶籌 有望催生跨市場套利 瑞銀估長期「吸金」150億",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524292"
+      "link": "https://news.cnyes.com/news/id/6524550"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：國巨(2327-TW)EPS預估上修至18.89元，預估目標價為1240元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524291"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：晶碩(6491-TW)目標價調升至390元，幅度約3.72%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6524290"
-    },
-    {
-      "region": "TW",
-      "headline": "集邦：電視面板7月需求青黃不接 全尺寸估跌1-3美元",
+      "headline": "盤中速報 - 櫃買市場加權指數下跌-8.98點至430.82點，跌幅2.04%",
       "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6524279"
+      "link": "https://news.cnyes.com/news/id/6524902"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 淳紳(4529)6月營收250萬元年增率高達462.7％",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6524853"
     }
   ]
 }
