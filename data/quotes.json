@@ -1,75 +1,75 @@
 {
-  "timestamp": "2026-07-08T23:35:22.336367+08:00",
+  "timestamp": "2026-07-09T01:10:43.511536+08:00",
   "data": [
     {
       "symbol": "0050.TW",
       "name": "",
-      "price": 106.05,
-      "change": -0.15,
-      "changePct": -0.14
+      "price": null,
+      "change": 0,
+      "changePct": 0
     },
     {
       "symbol": "2330.TW",
       "name": "",
-      "price": 2465.0,
-      "change": 25.0,
-      "changePct": 1.02
+      "price": null,
+      "change": 0,
+      "changePct": 0
     },
     {
       "symbol": "00679B.TW",
       "name": "",
-      "price": 26.77,
-      "change": -0.26,
-      "changePct": -0.96
+      "price": null,
+      "change": 0,
+      "changePct": 0
     },
     {
       "symbol": "00878.TW",
       "name": "",
-      "price": 33.2,
-      "change": 0.23,
-      "changePct": 0.7
+      "price": null,
+      "change": 0,
+      "changePct": 0
     },
     {
       "symbol": "00929.TW",
       "name": "",
-      "price": 29.97,
-      "change": -0.47,
-      "changePct": -1.54
+      "price": null,
+      "change": 0,
+      "changePct": 0
     },
     {
       "symbol": "00933B.TW",
       "name": "",
-      "price": 16.12,
-      "change": -0.15,
-      "changePct": -0.92
+      "price": null,
+      "change": 0,
+      "changePct": 0
     },
     {
       "symbol": "00937B.TW",
       "name": "",
-      "price": 14.9,
-      "change": -0.17,
-      "changePct": -1.13
+      "price": null,
+      "change": 0,
+      "changePct": 0
     },
     {
       "symbol": "009800.TW",
       "name": "",
-      "price": 13.0,
-      "change": -0.09,
-      "changePct": -0.69
+      "price": null,
+      "change": 0,
+      "changePct": 0
     },
     {
       "symbol": "NVDA",
       "name": "",
-      "price": 197.435,
-      "change": 0.51,
-      "changePct": 0.26
+      "price": null,
+      "change": 0,
+      "changePct": 0
     },
     {
       "symbol": "TSLA",
       "name": "",
-      "price": 392.5,
-      "change": -10.4,
-      "changePct": -2.58
+      "price": null,
+      "change": 0,
+      "changePct": 0
     }
   ]
 }
