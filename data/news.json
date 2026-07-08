@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-08T21:06:49.464611+08:00",
+  "timestamp": "2026-07-08T23:35:22.336367+08:00",
   "data": [
     {
       "region": "TW",
@@ -35,35 +35,27 @@
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 群聯(8299)6月營收248.53億元年增率高達301％",
+      "headline": "國發會、櫃買中心與創投公會攜手「陪跑」12家新創Demo Show大秀實力",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6527768"
+      "link": "https://news.cnyes.com/news/id/6527925"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 廣穎(4973)6月營收8.62億元年增率高達197.3％",
+      "headline": "商總與日本商總簽MOU 許舒博：未來擴大與全球商總簽約、帶服務業打國家隊",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6527767"
+      "link": "https://news.cnyes.com/news/id/6527805"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 南港(2101)6月營收34.14億元年增率高達328.25％",
+      "headline": "台股震盪資金轉進ETF避颱 高息題材吸睛 公股大買這10檔搶卡位",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6527766"
-    },
-    {
-      "region": "TW",
-      "headline": "3金控上半年獲利大爆發！永豐、玉山創歷史新高 國票年增飆323%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6527706"
+      "link": "https://news.cnyes.com/news/id/6527806"
     }
   ]
 }
