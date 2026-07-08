@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-07-08T14:30:12.204771+08:00",
+  "timestamp": "2026-07-08T17:14:17.095469+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "董座喊話不用太在意「秒填息」 緯創除息秀閃填息3成 早盤翻黑跌逾3成",
+      "headline": "快蘋果1個月！谷歌Pixel 11系列8月12日發表 全球首發採台積電2奈米製程自研晶片Tensor G6",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6527005"
+    },
+    {
+      "region": "TW",
+      "headline": "全球供應鏈金融達2.65兆美元！CRIF揭跨境金融「三層防護網」重塑信任 解4大痛點",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6526944"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股盤後〉上沖下洗800點 台積電神龍擺尾收漲255點但未攻克月線",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6526985"
+    },
+    {
+      "region": "TW",
+      "headline": "SpaceX閃電納入那斯達克100指數 股價卻跌至上市以來新低",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6526798"
+      "link": "https://news.cnyes.com/news/id/6526942"
     },
     {
       "region": "TW",
-      "headline": "AI代理時代來臨 輝達Rosa CPU細節曝光 2029年接棒Vera搶攻AI資料中心",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6526675"
-    },
-    {
-      "region": "TW",
-      "headline": "商業用電首超住宅！EIA：AI熱潮將推動美國今、明兩年用電量續創新高",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6526579"
-    },
-    {
-      "region": "TW",
-      "headline": "目標價上看800美元！華爾街唱旺SpaceX「如同當年的鐵路與網路」 ",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6526280"
-    },
-    {
-      "region": "TW",
-      "headline": "需求真的強 百容第二季營收創同期新高半導體應用占比達50.4%",
+      "headline": "營收速報  - 億而得(6423)6月營收467萬元年增率高達171.65％",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6526915"
+      "link": "https://news.cnyes.com/news/id/6527144"
     },
     {
       "region": "TW",
-      "headline": "2026台灣國際水周展10/14登場 水科技驅動AI產業轉型",
+      "headline": "營收速報  - 精誠(6214)6月營收67.40億元年增率高達76.9％",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6526898"
+      "link": "https://news.cnyes.com/news/id/6527143"
     },
     {
       "region": "TW",
-      "headline": "東研信超完成首個VR200檢測 AI訂單排到年底",
+      "headline": "營收速報  - 盛群(6202)6月營收3.52億元年增率高達30.93％",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6526905"
+      "link": "https://news.cnyes.com/news/id/6527142"
     },
     {
       "region": "TW",
-      "headline": "〈財委會質詢〉台股延長交易喊卡！彭金隆證實「暫不實施、無時間表」",
+      "headline": "營收速報  - 鉅陞(5529)6月營收7,746萬元年增率高達2135.47％",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6526861"
+      "link": "https://news.cnyes.com/news/id/6527140"
     }
   ]
 }
