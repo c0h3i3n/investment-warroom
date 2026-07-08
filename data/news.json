@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-07-08T17:14:17.095469+08:00",
+  "timestamp": "2026-07-08T19:19:10.256487+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "快蘋果1個月！谷歌Pixel 11系列8月12日發表 全球首發採台積電2奈米製程自研晶片Tensor G6",
+      "headline": "囤房稅2.0發威！逾318萬自住戶降稅至1% 逾千人擁10戶以上「剉咧等」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6527005"
+      "link": "https://news.cnyes.com/news/id/6520836"
     },
     {
       "region": "TW",
-      "headline": "全球供應鏈金融達2.65兆美元！CRIF揭跨境金融「三層防護網」重塑信任 解4大痛點",
+      "headline": "營收速報  - 幃翔(6185)6月營收6,528萬元年增率高達58.75％",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6526944"
+      "link": "https://news.cnyes.com/news/id/6527693"
     },
     {
       "region": "TW",
-      "headline": "〈台股盤後〉上沖下洗800點 台積電神龍擺尾收漲255點但未攻克月線",
+      "headline": "營收速報  - 振發(5426)6月營收1.61億元年增率高達44.52％",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6527692"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 磐亞(4707)6月營收1.51億元年增率高達30.81％",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6527691"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 群聯(8299)6月營收248.53億元年增率高達301％",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6527768"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 廣穎(4973)6月營收8.62億元年增率高達197.3％",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6527767"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 南港(2101)6月營收34.14億元年增率高達328.25％",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6527766"
+    },
+    {
+      "region": "TW",
+      "headline": "3金控上半年獲利大爆發！永豐、玉山創歷史新高 國票年增飆323%",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6526985"
-    },
-    {
-      "region": "TW",
-      "headline": "SpaceX閃電納入那斯達克100指數 股價卻跌至上市以來新低",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6526942"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報  - 億而得(6423)6月營收467萬元年增率高達171.65％",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6527144"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報  - 精誠(6214)6月營收67.40億元年增率高達76.9％",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6527143"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報  - 盛群(6202)6月營收3.52億元年增率高達30.93％",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6527142"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報  - 鉅陞(5529)6月營收7,746萬元年增率高達2135.47％",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6527140"
+      "link": "https://news.cnyes.com/news/id/6527706"
     }
   ]
 }
