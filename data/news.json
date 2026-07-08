@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-07-08T11:47:12.886683+08:00",
+  "timestamp": "2026-07-08T14:30:12.204771+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI市場最新排名：Grok用戶持續流失 ChatGPT穩居龍頭 Meta AI超車搶第四",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6526264"
-    },
-    {
-      "region": "TW",
-      "headline": "三星頂規企業級SSD啟動量產 將供貨輝達Vera Rubin",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6526296"
-    },
-    {
-      "region": "TW",
-      "headline": "報復商船遇襲 美軍對伊朗發動新一輪打擊",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6526301"
-    },
-    {
-      "region": "TW",
-      "headline": "美日韓晶片股近期大跌 要怪中國記憶體廠商打入「果鏈」？市場過度反應還是恐懼？",
+      "headline": "董座喊話不用太在意「秒填息」 緯創除息秀閃填息3成 早盤翻黑跌逾3成",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6525484"
+      "link": "https://news.cnyes.com/news/id/6526798"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 保瑞(6472)6月營收22.98億元年增率高達39.22％",
+      "headline": "AI代理時代來臨 輝達Rosa CPU細節曝光 2029年接棒Vera搶攻AI資料中心",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6526675"
+    },
+    {
+      "region": "TW",
+      "headline": "商業用電首超住宅！EIA：AI熱潮將推動美國今、明兩年用電量續創新高",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6526579"
+    },
+    {
+      "region": "TW",
+      "headline": "目標價上看800美元！華爾街唱旺SpaceX「如同當年的鐵路與網路」 ",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6526280"
+    },
+    {
+      "region": "TW",
+      "headline": "需求真的強 百容第二季營收創同期新高半導體應用占比達50.4%",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6526340"
+      "link": "https://news.cnyes.com/news/id/6526915"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：矽力-KY(6415-TW)EPS預估上修至10.33元，預估目標價為600元",
+      "headline": "2026台灣國際水周展10/14登場 水科技驅動AI產業轉型",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6526330"
+      "link": "https://news.cnyes.com/news/id/6526898"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：穩懋(3105-TW)EPS預估下修至6.79元，預估目標價為562.5元",
+      "headline": "東研信超完成首個VR200檢測 AI訂單排到年底",
       "source": "台股",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6526329"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6526905"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：聯詠(3034-TW)EPS預估下修至29.68元，預估目標價為475元",
+      "headline": "〈財委會質詢〉台股延長交易喊卡！彭金隆證實「暫不實施、無時間表」",
       "source": "台股",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6526328"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6526861"
     }
   ]
 }
