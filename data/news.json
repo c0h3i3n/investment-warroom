@@ -1,37 +1,69 @@
 {
-  "timestamp": "2026-07-09T19:19:22.929395+08:00",
+  "timestamp": "2026-07-09T22:05:19.978816+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "營收速報  - 金居(8358)6月營收9.62億元年增率高達43.37％",
+      "headline": "盤中速報 - 艾司摩爾(ASML-US)大漲5%，報1857.14美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6528991"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6530045"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 力積電(6770)6月營收64.74億元年增率高達68.75％",
+      "headline": "盤中速報 - 超捷國際(MCHP-US)大漲5.01%，報89.77美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6528990"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6530044"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 龍德造船(6753)6月營收5.14億元年增率高達33.41％",
+      "headline": "盤中速報 - 甲骨文(ORCL-US)大漲5.03%，報147.56美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6528989"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6530032"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 華電網(6163)6月營收4.73億元年增率高達61.38％",
+      "headline": "挑戰阿里巴巴紀錄！SK海力士赴美IPO傳定價149美元 募資上看265億美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6528988"
+      "link": "https://news.cnyes.com/news/id/6529925"
+    },
+    {
+      "region": "TW",
+      "headline": "證交所推三大交易變革 金管會：9月起券商系統優化列資安例行查核",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6529813"
+    },
+    {
+      "region": "TW",
+      "headline": "環球晶拿下美光10年大單 並取得5億美元策略資金",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6529902"
+    },
+    {
+      "region": "TW",
+      "headline": "台股7/10因颱風休市一天 聯詠、中信金等23檔個股除權息順延",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6529878"
+    },
+    {
+      "region": "TW",
+      "headline": "AI輔導團交成績單！從螺帽廠到早餐店逾9千家導入 拚2028年產值500億",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6529803"
     }
   ]
 }
