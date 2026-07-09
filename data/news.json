@@ -1,69 +1,37 @@
 {
-  "timestamp": "2026-07-09T12:16:12.864512+08:00",
+  "timestamp": "2026-07-09T16:05:35.066315+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈台股開盤〉南亞科漲停加溫法說行情 漲逾200點攻克月線重上4萬6",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6528270"
-    },
-    {
-      "region": "TW",
-      "headline": "美中AI人才競爭升溫！專家：陸工程教育優勢削弱美企競爭力 蘋果最難工作交給中國工程師",
+      "headline": "營收速報  - 金居(8358)6月營收9.62億元年增率高達43.37％",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6528217"
+      "link": "https://news.cnyes.com/news/id/6528991"
     },
     {
       "region": "TW",
-      "headline": "美軍中央司令部：超過20艘美軍艦艇正在中東水域巡邏",
+      "headline": "營收速報  - 力積電(6770)6月營收64.74億元年增率高達68.75％",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6528196"
+      "link": "https://news.cnyes.com/news/id/6528990"
     },
     {
       "region": "TW",
-      "headline": "Meta擴大AI布局 加拿大首座資料中心選定亞伯達省",
+      "headline": "營收速報  - 龍德造船(6753)6月營收5.14億元年增率高達33.41％",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6528131"
+      "link": "https://news.cnyes.com/news/id/6528989"
     },
     {
       "region": "TW",
-      "headline": "4萬點後台股還能追嗎？野村投信解析三大AI供應鏈，主動ETF掌握輪動契機",
-      "source": "台股",
+      "headline": "營收速報  - 華電網(6163)6月營收4.73億元年增率高達61.38％",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6527065"
-    },
-    {
-      "region": "TW",
-      "headline": "衝刺國家算力！首宗數建促參案年底落槌 AI算力中心BOO案3家企業領跑",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6517244"
-    },
-    {
-      "region": "TW",
-      "headline": "技嘉旗下技鋼拓展GIGAPOD AI與HPC基礎架構平台 加速企業AI工廠部署",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6528423"
-    },
-    {
-      "region": "TW",
-      "headline": "料件短缺拖累可成6月營收 隨AI產品出貨看好7月起營收逐月改善",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6528363"
+      "link": "https://news.cnyes.com/news/id/6528988"
     }
   ]
 }
