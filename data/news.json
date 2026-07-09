@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-07-09T08:13:38.994075+08:00",
+  "timestamp": "2026-07-09T12:16:12.864512+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "Q1暴賺囤54兆韓元現金！SK海力士今年買債逾132億美元 成韓債市最大機構買家之一",
+      "headline": "〈台股開盤〉南亞科漲停加溫法說行情 漲逾200點攻克月線重上4萬6",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6528270"
+    },
+    {
+      "region": "TW",
+      "headline": "美中AI人才競爭升溫！專家：陸工程教育優勢削弱美企競爭力 蘋果最難工作交給中國工程師",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6527329"
+      "link": "https://news.cnyes.com/news/id/6528217"
     },
     {
       "region": "TW",
-      "headline": "美軍再空襲伊朗 美股期貨走低 川普稱「不確定還想談協議」",
+      "headline": "美軍中央司令部：超過20艘美軍艦艇正在中東水域巡邏",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6528130"
+      "link": "https://news.cnyes.com/news/id/6528196"
     },
     {
       "region": "TW",
-      "headline": "AI交易怎麼了？獲利了結潮來襲 科技股近七成深陷熊市 ",
+      "headline": "Meta擴大AI布局 加拿大首座資料中心選定亞伯達省",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6528125"
+      "link": "https://news.cnyes.com/news/id/6528131"
     },
     {
       "region": "TW",
-      "headline": "烏軍猛攻能源設施 俄羅斯禁止柴油出口 7月改進口燃料",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6528139"
-    },
-    {
-      "region": "TW",
-      "headline": "國發會、櫃買中心與創投公會攜手「陪跑」12家新創Demo Show大秀實力",
+      "headline": "4萬點後台股還能追嗎？野村投信解析三大AI供應鏈，主動ETF掌握輪動契機",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6527925"
+      "link": "https://news.cnyes.com/news/id/6527065"
     },
     {
       "region": "TW",
-      "headline": "精確對華為、長安汽車放量出貨 6月營收衝出新高紀錄",
+      "headline": "衝刺國家算力！首宗數建促參案年底落槌 AI算力中心BOO案3家企業領跑",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6527920"
+      "link": "https://news.cnyes.com/news/id/6517244"
     },
     {
       "region": "TW",
-      "headline": "商總與日本商總簽MOU 許舒博：未來擴大與全球商總簽約、帶服務業打國家隊",
+      "headline": "技嘉旗下技鋼拓展GIGAPOD AI與HPC基礎架構平台 加速企業AI工廠部署",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6527805"
+      "link": "https://news.cnyes.com/news/id/6528423"
     },
     {
       "region": "TW",
-      "headline": "台股震盪資金轉進ETF避颱 高息題材吸睛 公股大買這10檔搶卡位",
+      "headline": "料件短缺拖累可成6月營收 隨AI產品出貨看好7月起營收逐月改善",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6527806"
+      "link": "https://news.cnyes.com/news/id/6528363"
     }
   ]
 }
