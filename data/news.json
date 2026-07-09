@@ -1,37 +1,61 @@
 {
-  "timestamp": "2026-07-10T02:29:22.957150+08:00",
+  "timestamp": "2026-07-10T04:25:18.086555+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 艾司摩爾(ASML-US)大漲5%，報1857.14美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6530045"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 超捷國際(MCHP-US)大漲5.01%，報89.77美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6530044"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 甲骨文(ORCL-US)大漲5.03%，報147.56美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6530032"
-    },
-    {
-      "region": "TW",
-      "headline": "挑戰阿里巴巴紀錄！SK海力士赴美IPO傳定價149美元 募資上看265億美元",
+      "headline": "不想投資馬斯克？華爾街推新ETF 可避開特斯拉、SpaceX",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6529925"
+      "link": "https://news.cnyes.com/news/id/6530096"
+    },
+    {
+      "region": "TW",
+      "headline": "長債重定價才剛開始！PGIM估30年期美債殖利率上看5.5%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6530093"
+    },
+    {
+      "region": "TW",
+      "headline": "人力荒成美晶片復興絆腳石 台積電、英特爾受衝擊",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6526302"
+    },
+    {
+      "region": "TW",
+      "headline": "阿里巴巴Q2財報前瞻：AI雲業務飆45% 電商業務成最大考驗",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6530059"
+    },
+    {
+      "region": "TW",
+      "headline": "第四波科技牛市推動台股新高 永豐00410A精選AI潛力股",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6530065"
+    },
+    {
+      "region": "TW",
+      "headline": "徐秀蘭：德州廠啟動第二期規劃 勢必增加美國資本支出",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6530050"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：國泰金(2882-TW)EPS預估上修至8.35元，預估目標價為108元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6530048"
     },
     {
       "region": "TW",
@@ -40,30 +64,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6529813"
-    },
-    {
-      "region": "TW",
-      "headline": "環球晶拿下美光10年大單 並取得5億美元策略資金",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6529902"
-    },
-    {
-      "region": "TW",
-      "headline": "台股7/10因颱風休市一天 聯詠、中信金等23檔個股除權息順延",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6529878"
-    },
-    {
-      "region": "TW",
-      "headline": "AI輔導團交成績單！從螺帽廠到早餐店逾9千家導入 拚2028年產值500億",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6529803"
     }
   ]
 }
