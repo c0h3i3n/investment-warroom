@@ -1,6 +1,22 @@
 {
-  "timestamp": "2026-07-11T03:52:45.789293+08:00",
+  "timestamp": "2026-07-11T05:08:03.771719+08:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "晶片股漲太兇了？大摩警告AI支出恐開始踩煞車",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6531001"
+    },
+    {
+      "region": "TW",
+      "headline": "美國投資人搶瘋了！SK海力士美股首秀開盤暴漲17%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6531048"
+    },
     {
       "region": "TW",
       "headline": "川普拒絕簽字也擋不住？住房法案周六照樣生效",
@@ -16,22 +32,6 @@
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6530934"
-    },
-    {
-      "region": "TW",
-      "headline": "散戶不玩標普500了？美股「追熱門就跑」成新常態",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530976"
-    },
-    {
-      "region": "TW",
-      "headline": "華爾街等不及了！SK海力士才要登陸美股 選擇權最快兩天後就來了",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530983"
     },
     {
       "region": "TW",
