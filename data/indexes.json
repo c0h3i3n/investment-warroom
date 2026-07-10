@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-11T02:02:20.125306+08:00",
+  "timestamp": "2026-07-11T03:52:45.789293+08:00",
   "data": [
     {
       "id": "tai",
@@ -15,36 +15,36 @@
       "name": "OTC 櫃買指數",
       "region": "TW",
       "currency": "NT$",
-      "price": 424.99,
-      "change": 3.6,
-      "changePct": 0.85
+      "price": 269.45,
+      "change": 1.73,
+      "changePct": 0.65
     },
     {
       "id": "spx",
       "name": "S&P 500",
       "region": "US",
       "currency": "$",
-      "price": 7567.08,
-      "change": 23.44,
-      "changePct": 0.31
+      "price": 7578.42,
+      "change": 34.78,
+      "changePct": 0.46
     },
     {
       "id": "ndx",
       "name": "NASDAQ",
       "region": "US",
       "currency": "$",
-      "price": 26273.75,
-      "change": 66.86,
-      "changePct": 0.26
+      "price": 26297.44,
+      "change": 90.55,
+      "changePct": 0.35
     },
     {
       "id": "sox",
       "name": "費城半導體 SOX",
       "region": "US",
       "currency": "$",
-      "price": 13015.675,
-      "change": 55.67,
-      "changePct": 0.43
+      "price": 12985.653,
+      "change": 25.65,
+      "changePct": 0.2
     }
   ]
 }
