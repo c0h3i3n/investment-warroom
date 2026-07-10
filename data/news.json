@@ -1,69 +1,61 @@
 {
-  "timestamp": "2026-07-10T13:09:05.035671+08:00",
+  "timestamp": "2026-07-10T16:42:11.210922+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "馬斯克罕見認輸？稱Anthropic當前AI領先者",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530296"
-    },
-    {
-      "region": "TW",
-      "headline": "美暫不依232條款對飛機課關稅 川普要求180天完成談判",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530293"
-    },
-    {
-      "region": "TW",
-      "headline": "金正恩下令擴大核武戰力 北韓加速核武與海軍現代化",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530306"
-    },
-    {
-      "region": "TW",
-      "headline": "Meta AI雙利多齊發！首款付費AI模型上線、Iris量產在即 股價強漲4.7%",
+      "headline": "〈港股盤後〉醫藥股走高 恒指漲0.6% 科技股受AI解禁與半導體跳水拖累轉跌",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6530281"
+      "link": "https://news.cnyes.com/news/id/6530725"
     },
     {
       "region": "TW",
-      "headline": "第四波科技牛市推動台股新高 永豐00410A精選AI潛力股",
-      "source": "台股",
+      "headline": "〈陸股盤後〉創業板指領跌 滬指周線挫低1.2% 本周二度失守4000點大關",
+      "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530065"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6530576"
     },
     {
       "region": "TW",
-      "headline": "徐秀蘭：德州廠啟動第二期規劃 勢必增加美國資本支出",
-      "source": "台股",
+      "headline": "川普國際機場、川普大橋來了！",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530050"
+      "link": "https://news.cnyes.com/news/id/6530705"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：國泰金(2882-TW)EPS預估上修至8.35元，預估目標價為108元",
-      "source": "台股",
+      "headline": "營收速報  - 台泥(1101)6月營收133.83億元年增率高達32.4％",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530048"
+      "link": "https://news.cnyes.com/news/id/6530715"
     },
     {
       "region": "TW",
-      "headline": "證交所推三大交易變革 金管會：9月起券商系統優化列資安例行查核",
+      "headline": "營收速報  - 晶心科(6533)6月營收3.72億元年增率高達247.04％",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6529813"
+      "link": "https://news.cnyes.com/news/id/6530716"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 南茂(8150)6月營收25.38億元年增率高達37.23％",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6530687"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 新代(7750)6月營收26.50億元年增率高達151.4％",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6530686"
     }
   ]
 }
