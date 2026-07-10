@@ -1,61 +1,45 @@
 {
-  "timestamp": "2026-07-10T19:35:00.030383+08:00",
+  "timestamp": "2026-07-10T21:45:04.662483+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈港股盤後〉醫藥股走高 恒指漲0.6% 科技股受AI解禁與半導體跳水拖累轉跌",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6530725"
-    },
-    {
-      "region": "TW",
-      "headline": "〈陸股盤後〉創業板指領跌 滬指周線挫低1.2% 本周二度失守4000點大關",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6530576"
-    },
-    {
-      "region": "TW",
-      "headline": "川普國際機場、川普大橋來了！",
+      "headline": "中國實施氦氣臨時出口禁令 即刻執行",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530705"
+      "link": "https://news.cnyes.com/news/id/6530867"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 台泥(1101)6月營收133.83億元年增率高達32.4％",
+      "headline": "營收速報  - 德宏(5475)6月營收1.74億元年增率高達160.08％",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530715"
+      "link": "https://news.cnyes.com/news/id/6530884"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 晶心科(6533)6月營收3.72億元年增率高達247.04％",
+      "headline": "〈電信三雄財報〉遠傳三大動能齊發力 6月EPS 0.38元創新高 上半年EPS 2.14元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6530861"
+    },
+    {
+      "region": "TW",
+      "headline": "裕慶-KY打造多元業務開展中 Q2營收11.03億元改寫同期次高",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6530689"
+    },
+    {
+      "region": "TW",
+      "headline": "宏碁AI應用持續擴大 Q2營收852億元近13年同期新高",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530716"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報  - 南茂(8150)6月營收25.38億元年增率高達37.23％",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530687"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報  - 新代(7750)6月營收26.50億元年增率高達151.4％",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530686"
+      "link": "https://news.cnyes.com/news/id/6530865"
     }
   ]
 }
