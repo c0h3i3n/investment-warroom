@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-07-12T06:52:46.231704+08:00",
+  "timestamp": "2026-07-12T07:57:52.924752+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - UNI大漲8.45%，報3.83美元",
+      "headline": "AI眼中的世界盃8強：14個模型集體押阿根廷 英格蘭卻遭遇「爆冷」警報",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6531329"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6527330"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Worldcoin大漲8.38%，報0.42美元",
+      "headline": "PC市場恐迎逆風 記憶體危機衝擊擴大",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6531326"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6531100"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - DEXE大漲8.99%，報38.031美元",
+      "headline": "2024年套利崩盤陰影未散！高盛揭「利差交易」為何再成投資人追逐標的",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6531324"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6531261"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Threshold大漲46.04%，報0美元",
+      "headline": "《富比士》YouTube迎AI大考驗：Sora倒下後  平台如何平衡創作者、版權與AI內容？",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6531323"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6531278"
     },
     {
       "region": "TW",
