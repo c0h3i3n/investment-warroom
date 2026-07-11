@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-07-11T18:03:36.403998+08:00",
+  "timestamp": "2026-07-11T19:19:25.662783+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI不是唯一贏家！WD-40用「基本功」打敗市場預期 ",
+      "headline": "《經濟學人》民調：多數美國人認為川普利用職權謀利",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6531132"
+      "link": "https://news.cnyes.com/news/id/6531224"
     },
     {
       "region": "TW",
-      "headline": "美伊同意繼續談判！川普警告美國和伊朗「停火已結束」",
+      "headline": "美股平靜是假象？瑞銀：市場脆弱度逼近滿檔  財報季恐引爆VIX飆升",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6531255"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6531214"
     },
     {
       "region": "TW",
-      "headline": "伊朗對美「談判籌碼」正逐漸削弱？荷姆茲海峽影響力正在改變",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6531229"
-    },
-    {
-      "region": "TW",
-      "headline": "AI需求未降溫！大摩揭供應鏈真相：台積電CoWoS、HBM需求持續爆滿",
+      "headline": "美放寬對阿聯先進AI晶片出口管制！川普：我們不賣晶片的話 中國就賣了",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6531206"
+      "link": "https://news.cnyes.com/news/id/6531252"
+    },
+    {
+      "region": "TW",
+      "headline": "美對伊朗下通牒！公開保證荷姆茲海峽完全開放 否則有「相應後果」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6531125"
     },
     {
       "region": "TW",
