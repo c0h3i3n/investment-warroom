@@ -1,10 +1,42 @@
 {
-  "timestamp": "2026-07-11T16:29:31.743741+08:00",
+  "timestamp": "2026-07-11T18:03:36.403998+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "台股近一月大怒神！20檔主動式ETF僅3檔賺錢 這檔「強棒」逆勢打敗大盤",
+      "headline": "AI不是唯一贏家！WD-40用「基本功」打敗市場預期 ",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6531132"
+    },
+    {
+      "region": "TW",
+      "headline": "美伊同意繼續談判！川普警告美國和伊朗「停火已結束」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6531255"
+    },
+    {
+      "region": "TW",
+      "headline": "伊朗對美「談判籌碼」正逐漸削弱？荷姆茲海峽影響力正在改變",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6531229"
+    },
+    {
+      "region": "TW",
+      "headline": "AI需求未降溫！大摩揭供應鏈真相：台積電CoWoS、HBM需求持續爆滿",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6531206"
+    },
+    {
+      "region": "TW",
+      "headline": "台股近一月大怒神！20檔主動式ETF僅3檔賺錢 這檔「強棒」逆勢打敗大盤",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6531194"
@@ -12,23 +44,15 @@
     {
       "region": "TW",
       "headline": "〈熱門股〉慧洋-KY周漲1成 法人調升目標價上看9字頭",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6531044"
     },
     {
       "region": "TW",
-      "headline": "Meta飆近6%今年股價轉正 市場看好出租算力、低價AI策略",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6531098"
-    },
-    {
-      "region": "TW",
       "headline": "〈熱門股〉岱稜優勢業績延續助攻 股價爆量走強有利填息",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6530754"
