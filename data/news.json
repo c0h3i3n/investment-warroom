@@ -1,6 +1,22 @@
 {
-  "timestamp": "2026-07-12T04:52:48.606121+08:00",
+  "timestamp": "2026-07-12T05:52:57.867451+08:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "盤中速報 - UNI大漲8.45%，報3.83美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6531329"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - Worldcoin大漲8.38%，報0.42美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6531326"
+    },
     {
       "region": "TW",
       "headline": "盤中速報 - DEXE大漲8.99%，報38.031美元",
@@ -16,22 +32,6 @@
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6531323"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - UTK大漲16.23%，報0.008美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6531322"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - Arbitrum大漲8.48%，報0.1美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6531321"
     },
     {
       "region": "TW",
