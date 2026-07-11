@@ -1,69 +1,45 @@
 {
-  "timestamp": "2026-07-11T09:09:35.037181+08:00",
+  "timestamp": "2026-07-11T12:29:11.707155+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈美股盤後〉SK海力士首秀飆近13% AI股回神 標普那指收紅",
+      "headline": "台股近一月大怒神！20檔主動式ETF僅3檔賺錢 這檔「強棒」逆勢打敗大盤",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6531194"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉慧洋-KY周漲1成 法人調升目標價上看9字頭",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6530560"
+      "link": "https://news.cnyes.com/news/id/6531044"
     },
     {
       "region": "TW",
-      "headline": "晶片股漲太兇了？大摩警告AI支出恐開始踩煞車",
+      "headline": "Meta飆近6%今年股價轉正 市場看好出租算力、低價AI策略",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6531001"
+      "link": "https://news.cnyes.com/news/id/6531098"
     },
     {
       "region": "TW",
-      "headline": "美國投資人搶瘋了！SK海力士美股首秀開盤暴漲17%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6531048"
-    },
-    {
-      "region": "TW",
-      "headline": "川普拒絕簽字也擋不住？住房法案周六照樣生效",
+      "headline": "〈熱門股〉岱稜優勢業績延續助攻 股價爆量走強有利填息",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530961"
+      "link": "https://news.cnyes.com/news/id/6530754"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：國巨(2327-TW)EPS預估上修至19.59元，預估目標價為1275元",
+      "headline": "台泥6月營收年增3成 上半年重返成長",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530904"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：長榮(2603-TW)EPS預估上修至24.44元，預估目標價為234元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530903"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：啟碁(6285-TW)EPS預估上修至12.43元，預估目標價為292元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530902"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：智邦(2345-TW)EPS預估上修至82.63元，預估目標價為3500元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530901"
+      "link": "https://news.cnyes.com/news/id/6530959"
     }
   ]
 }
