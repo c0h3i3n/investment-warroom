@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-13T05:54:22.800574+08:00",
+  "timestamp": "2026-07-13T06:53:08.158329+08:00",
   "data": [
     {
       "id": "tai",
@@ -15,9 +15,9 @@
       "name": "OTC 櫃買指數",
       "region": "TW",
       "currency": "NT$",
-      "price": 424.99,
-      "change": 3.6,
-      "changePct": 0.85
+      "price": 269.45,
+      "change": 1.73,
+      "changePct": 0.65
     },
     {
       "id": "spx",
