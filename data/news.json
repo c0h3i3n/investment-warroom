@@ -1,6 +1,30 @@
 {
-  "timestamp": "2026-07-12T19:34:11.569650+08:00",
+  "timestamp": "2026-07-12T20:38:58.497119+08:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "大摩看好輝達！重申「增持」評級、點名四大成長引擎  看好仍有36.5%上行空間",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6531424"
+    },
+    {
+      "region": "TW",
+      "headline": "能效是A100十倍！SK海力士發表憶阻器「存算一體」SoC晶片 專家：邊緣AI功耗革命來了",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6531258"
+    },
+    {
+      "region": "TW",
+      "headline": "川普T1手機實測曝！採Snapdragon 7 Gen 3晶片  跑分、GPU遠落後Google Pixel 10a",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6531454"
+    },
     {
       "region": "TW",
       "headline": "馬斯克再槓奧特曼！蘋果提告OpenAI、GPT-5.6與Grok 4.5同步登場成焦點",
@@ -11,27 +35,11 @@
     },
     {
       "region": "TW",
-      "headline": "馬斯克揭SpaceX太空殖民計畫！5年載人登火星、10年建立月球基地",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6531462"
-    },
-    {
-      "region": "TW",
       "headline": "汎瑋6月、Q2及H1營收創同期新高 受惠電子材料營運動能增長",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6531464"
-    },
-    {
-      "region": "TW",
-      "headline": "三星2奈米策略大轉彎？不再與台積電拚首發、1.4奈米延至2029年",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6531406"
     },
     {
       "region": "TW",
