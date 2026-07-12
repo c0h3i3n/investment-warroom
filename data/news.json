@@ -1,69 +1,61 @@
 {
-  "timestamp": "2026-07-12T11:44:40.200732+08:00",
+  "timestamp": "2026-07-12T14:21:27.611656+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI眼中的世界盃8強：14個模型集體押阿根廷 英格蘭卻遭遇「爆冷」警報",
+      "headline": "全球市場邁入「動盪之夏」！分析警告：警惕聯準會變局、日元危機與財報季",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6527330"
+      "link": "https://news.cnyes.com/news/id/6531407"
     },
     {
       "region": "TW",
-      "headline": "PC市場恐迎逆風 記憶體危機衝擊擴大",
+      "headline": "HBM迎重大突破？日韓同步提出「直立式DRAM」新架構",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6531100"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6531320"
     },
     {
       "region": "TW",
-      "headline": "2024年套利崩盤陰影未散！高盛揭「利差交易」為何再成投資人追逐標的",
+      "headline": "〈台股風向球〉周跌1426點三攻月線失利 多頭整軍待台積電法說神救援",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6531261"
+      "link": "https://news.cnyes.com/news/id/6531319"
     },
     {
       "region": "TW",
-      "headline": "《富比士》YouTube迎AI大考驗：Sora倒下後  平台如何平衡創作者、版權與AI內容？",
+      "headline": "所有人滿倉做多成「危險訊號」！美銀：日本市場將是預告全球大跌的「金絲雀」",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6531278"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6531293"
     },
     {
       "region": "TW",
-      "headline": "台股近一月大怒神！20檔主動式ETF僅3檔賺錢 這檔「強棒」逆勢打敗大盤",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6531194"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉慧洋-KY周漲1成 法人調升目標價上看9字頭",
+      "headline": "台玻6月營收年月雙增 玻纖布漲聲不斷 法人估年底營收占比可望超越5成",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6531044"
+      "link": "https://news.cnyes.com/news/id/6531387"
     },
     {
       "region": "TW",
-      "headline": "〈熱門股〉岱稜優勢業績延續助攻 股價爆量走強有利填息",
+      "headline": "旭源海內外營運正向成長推Q2營收登頂 擬辦現增籌資近1億元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530754"
+      "link": "https://news.cnyes.com/news/id/6531374"
     },
     {
       "region": "TW",
-      "headline": "台泥6月營收年增3成 上半年重返成長",
+      "headline": "〈熱門股〉和成轉型卡位切入軍工材料 外資由賣轉買周漲2.58％",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6530959"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6531368"
     }
   ]
 }
