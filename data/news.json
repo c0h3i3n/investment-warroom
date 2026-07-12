@@ -1,37 +1,45 @@
 {
-  "timestamp": "2026-07-12T18:14:58.920187+08:00",
+  "timestamp": "2026-07-12T19:34:11.569650+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "全球市場邁入「動盪之夏」！分析警告：警惕聯準會變局、日元危機與財報季",
+      "headline": "馬斯克再槓奧特曼！蘋果提告OpenAI、GPT-5.6與Grok 4.5同步登場成焦點",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6531407"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6531461"
     },
     {
       "region": "TW",
-      "headline": "HBM迎重大突破？日韓同步提出「直立式DRAM」新架構",
+      "headline": "馬斯克揭SpaceX太空殖民計畫！5年載人登火星、10年建立月球基地",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6531320"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6531462"
+    },
+    {
+      "region": "TW",
+      "headline": "汎瑋6月、Q2及H1營收創同期新高 受惠電子材料營運動能增長",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6531464"
+    },
+    {
+      "region": "TW",
+      "headline": "三星2奈米策略大轉彎？不再與台積電拚首發、1.4奈米延至2029年",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6531406"
     },
     {
       "region": "TW",
       "headline": "〈台股風向球〉周跌1426點三攻月線失利 多頭整軍待台積電法說神救援",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neg",
       "link": "https://news.cnyes.com/news/id/6531319"
-    },
-    {
-      "region": "TW",
-      "headline": "所有人滿倉做多成「危險訊號」！美銀：日本市場將是預告全球大跌的「金絲雀」",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6531293"
     },
     {
       "region": "TW",
@@ -48,14 +56,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6531374"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉和成轉型卡位切入軍工材料 外資由賣轉買周漲2.58％",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6531368"
     }
   ]
 }
