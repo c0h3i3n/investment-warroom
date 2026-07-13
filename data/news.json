@@ -1,53 +1,61 @@
 {
-  "timestamp": "2026-07-13T18:32:08.480562+08:00",
+  "timestamp": "2026-07-13T21:05:54.455034+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "營收速報  - 星宇航空(2646)6月營收52.87億元年增率高達40.81％",
+      "headline": "高盛看好印度股市回溫 稱外資回流將成下半年主要推動力",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6532430"
+      "link": "https://news.cnyes.com/news/id/6532902"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 台積電(2330)6月營收4,426.80億元年增率高達67.87％",
+      "headline": "記憶體大廠產能競賽引發周期性擔憂 美光股價應聲下跌",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6532962"
+    },
+    {
+      "region": "TW",
+      "headline": "竣邦Q2營收創單季新高 下半年接單能見度明朗",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6532427"
+      "link": "https://news.cnyes.com/news/id/6533007"
     },
     {
       "region": "TW",
-      "headline": "〈台股盤後〉韓股鎔斷帶衰 大漲逾900點縮至小漲25點 到手的月線又飛了",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6532372"
-    },
-    {
-      "region": "TW",
-      "headline": "法興建議做多台股、做空韓股：因獲利持續性比高成長更「值錢」",
+      "headline": "鉅亨速報 - Factset 最新調查：Stellantis N.V(STLA-US)EPS預估上修至0.8元，預估目標價為8.12元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6532307"
+      "link": "https://news.cnyes.com/news/id/6533044"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 盟立(2464)6月營收8.13億元年增率高達43.05％",
+      "headline": "〈台幣〉午後豬羊變色！央行阻貶 驚險翻升收32.17元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6532429"
+      "link": "https://news.cnyes.com/news/id/6532958"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 威盛(2388)6月營收12.48億元年增率高達34.01％",
+      "headline": "鉅亨速報 - Factset 最新調查：台塑化(6505-TW)EPS預估上修至5.26元，預估目標價為64元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6532428"
+      "link": "https://news.cnyes.com/news/id/6533010"
+    },
+    {
+      "region": "TW",
+      "headline": "鴻海擬出清Galaxy Digital持股 實現投資利益",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6532966"
     }
   ]
 }
