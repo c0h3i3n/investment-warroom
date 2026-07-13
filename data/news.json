@@ -1,69 +1,53 @@
 {
-  "timestamp": "2026-07-13T11:46:29.152111+08:00",
+  "timestamp": "2026-07-13T14:56:15.953020+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "SK海力士ETF怎麼選？槓桿產品將登場  分析師建議長期投資改買「這些基金」",
+      "headline": "營收速報  - 星宇航空(2646)6月營收52.87億元年增率高達40.81％",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6531418"
+      "link": "https://news.cnyes.com/news/id/6532430"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - DODO大漲46.95%，報0.02美元",
+      "headline": "營收速報  - 台積電(2330)6月營收4,426.80億元年增率高達67.87％",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6532427"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股盤後〉韓股鎔斷帶衰 大漲逾900點縮至小漲25點 到手的月線又飛了",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6531565"
+      "link": "https://news.cnyes.com/news/id/6532372"
     },
     {
       "region": "TW",
-      "headline": "荷姆茲海峽關閉？美伊各說各話 全球航運陷混亂",
+      "headline": "法興建議做多台股、做空韓股：因獲利持續性比高成長更「值錢」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6531551"
+      "link": "https://news.cnyes.com/news/id/6532307"
     },
     {
       "region": "TW",
-      "headline": "〈走進中國〉大學生畢業五年後 哪些專業類月收入增幅更大？",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6531189"
-    },
-    {
-      "region": "TW",
-      "headline": "信立受產業出貨淡季影響 6月營收月減12.08%、年減10%",
+      "headline": "營收速報  - 盟立(2464)6月營收8.13億元年增率高達43.05％",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6531470"
+      "link": "https://news.cnyes.com/news/id/6532429"
     },
     {
       "region": "TW",
-      "headline": "汎瑋6月、Q2及H1營收創同期新高 受惠電子材料營運動能增長",
+      "headline": "營收速報  - 威盛(2388)6月營收12.48億元年增率高達34.01％",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6531464"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股風向球〉周跌1426點三攻月線失利 多頭整軍待台積電法說神救援",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6531319"
-    },
-    {
-      "region": "TW",
-      "headline": "台玻6月營收年月雙增 玻纖布漲聲不斷 法人估年底營收占比可望超越5成",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6531387"
+      "link": "https://news.cnyes.com/news/id/6532428"
     }
   ]
 }
