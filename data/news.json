@@ -1,37 +1,53 @@
 {
-  "timestamp": "2026-07-14T02:00:55.704276+08:00",
+  "timestamp": "2026-07-14T03:49:31.698843+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "高盛看好印度股市回溫 稱外資回流將成下半年主要推動力",
+      "headline": "Shein傳最快8月香港上市 募資規模上看30億美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6532902"
+      "link": "https://news.cnyes.com/news/id/6533070"
     },
     {
       "region": "TW",
-      "headline": "記憶體大廠產能競賽引發周期性擔憂 美光股價應聲下跌",
+      "headline": "川普真收荷姆茲海峽保護費會怎樣？專家示警：大宗商品到股債市都將廣受衝擊",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6532962"
+      "link": "https://news.cnyes.com/news/id/6533135"
+    },
+    {
+      "region": "TW",
+      "headline": "AI把手機記憶體搶光了！全球智慧手機Q2出貨暴跌11% 創13年同期最慘",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6533069"
+    },
+    {
+      "region": "TW",
+      "headline": "Fed真的要升息了？華勒：本周CPI再爆一次就得考慮",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6533165"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：儒鴻(1476-TW)EPS預估上修至25.22元，預估目標價為445元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6533107"
     },
     {
       "region": "TW",
       "headline": "竣邦Q2營收創單季新高 下半年接單能見度明朗",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6533007"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：Stellantis N.V(STLA-US)EPS預估上修至0.8元，預估目標價為8.12元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6533044"
     },
     {
       "region": "TW",
@@ -48,14 +64,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6533010"
-    },
-    {
-      "region": "TW",
-      "headline": "鴻海擬出清Galaxy Digital持股 實現投資利益",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6532966"
     }
   ]
 }
