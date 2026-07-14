@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-07-15T00:45:39.874660+08:00",
+  "timestamp": "2026-07-15T02:06:18.739219+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈美股早盤〉CPI降溫助攻主要指數開高 油價大漲成攔路虎",
+      "headline": "外送業超級併購來了？Uber傳最快本周吞下Delivery Hero",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6534882"
+    },
+    {
+      "region": "TW",
+      "headline": "後院失火！川普擬對荷姆茲海峽敲竹槓之際 美戰略儲油崩至40年新低 ",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6533244"
+    },
+    {
+      "region": "TW",
+      "headline": "油價回吐漲幅！川普不要20%荷姆茲過路費 改向波斯灣國家爭取巨額投資",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6534692"
+      "link": "https://news.cnyes.com/news/id/6534898"
     },
     {
       "region": "TW",
-      "headline": "Fed本月到底升不升息？華許拒絕劇透 只說高通膨「零容忍」",
+      "headline": "川普想對荷姆茲貨物收20%費用！德國航運巨擘怒批：完全不合理",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6534768"
-    },
-    {
-      "region": "TW",
-      "headline": "〈財報〉交易、投銀業務全面報喜！摩根大通Q2獲利創紀錄 股票交易收入暴增逾八成",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6534699"
-    },
-    {
-      "region": "TW",
-      "headline": "〈財報〉花旗轉型戰略初顯成效 Q2營收創十年新高",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6534734"
+      "link": "https://news.cnyes.com/news/id/6534706"
     },
     {
       "region": "TW",
