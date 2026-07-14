@@ -1,37 +1,69 @@
 {
-  "timestamp": "2026-07-14T19:54:52.899701+08:00",
+  "timestamp": "2026-07-14T21:50:06.114891+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "從飛行員到漢翔掌舵者 胡開宏大力攬才：加入新護國神山沒那麼難 最重要是「它」",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6532796"
-    },
-    {
-      "region": "TW",
-      "headline": "〈焦點股〉盤中暴跌逾1600點 油價急漲力挺台塑四寶股價上揚",
+      "headline": "〈美股早盤〉CPI降溫助攻主要指數開高 油價大漲成攔路虎",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6534202"
+      "link": "https://news.cnyes.com/news/id/6534692"
     },
     {
       "region": "TW",
-      "headline": "竣邦-KY織染二廠動土 聚焦高附加價值機能布料",
+      "headline": "Fed本月到底升不升息？華許拒絕劇透 只說高通膨「零容忍」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6534193"
+      "link": "https://news.cnyes.com/news/id/6534768"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉美伊衝突油價急漲！日本商社長線看好 00955成資金避風港",
+      "headline": "〈財報〉交易、投銀業務全面報喜！摩根大通Q2獲利創紀錄 股票交易收入暴增逾八成",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6534180"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6534699"
+    },
+    {
+      "region": "TW",
+      "headline": "〈財報〉花旗轉型戰略初顯成效 Q2營收創十年新高",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6534734"
+    },
+    {
+      "region": "TW",
+      "headline": "賴清德：台灣65歲以上人口已超過20% 政府將協助年輕家庭減輕負擔",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6534718"
+    },
+    {
+      "region": "TW",
+      "headline": "公股4金2銀H1大賺885億年增27.7%創新高！兆豐金續稱冠、華南金創史高",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6534721"
+    },
+    {
+      "region": "TW",
+      "headline": "永達保經打造「滿貫VIP主題包廂」 跨界結盟共創保險與運動經濟雙贏",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6534717"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台幣〉量縮微貶收32.172元 觀望美CPI數據",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6534702"
     }
   ]
 }
