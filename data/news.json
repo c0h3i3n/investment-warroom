@@ -1,69 +1,37 @@
 {
-  "timestamp": "2026-07-14T11:34:25.960006+08:00",
+  "timestamp": "2026-07-14T13:56:57.050986+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI賽道轉彎！企業不再迷信昂貴大模型 九成Token將由開源產生",
+      "headline": "從飛行員到漢翔掌舵者 胡開宏大力攬才：加入新護國神山沒那麼難 最重要是「它」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6532440"
+      "link": "https://news.cnyes.com/news/id/6532796"
     },
     {
       "region": "TW",
-      "headline": "OpenAI遭蘋果控告竊商業機密 馬斯克諷奧特曼「把詐騙提升到新境界」",
+      "headline": "〈焦點股〉盤中暴跌逾1600點 油價急漲力挺台塑四寶股價上揚",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6534202"
+    },
+    {
+      "region": "TW",
+      "headline": "竣邦-KY織染二廠動土 聚焦高附加價值機能布料",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6533213"
+      "link": "https://news.cnyes.com/news/id/6534193"
     },
     {
       "region": "TW",
-      "headline": "AI投資熱度不減 槓桿ETF資產規模衝上2000億美元",
+      "headline": "〈焦點股〉美伊衝突油價急漲！日本商社長線看好 00955成資金避風港",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6533190"
-    },
-    {
-      "region": "TW",
-      "headline": "川普下令美軍連三晚空襲伊朗 14日恢復伊朗海上封鎖",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6533205"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：儒鴻(1476-TW)EPS預估上修至25.22元，預估目標價為445元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6533107"
-    },
-    {
-      "region": "TW",
-      "headline": "竣邦Q2營收創單季新高 下半年接單能見度明朗",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6533007"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台幣〉午後豬羊變色！央行阻貶 驚險翻升收32.17元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6532958"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：台塑化(6505-TW)EPS預估上修至5.26元，預估目標價為64元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6533010"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6534180"
     }
   ]
 }
