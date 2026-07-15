@@ -1,69 +1,61 @@
 {
-  "timestamp": "2026-07-15T09:01:07.357136+08:00",
+  "timestamp": "2026-07-15T12:17:01.853030+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美銀：AI算力需求未降溫 AMD仍是半導體首選 目標價上調至620美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6534966"
-    },
-    {
-      "region": "TW",
-      "headline": "輝達Rubin晶片「小幅延遲」會拖累股價嗎？分析師這樣看",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6534960"
-    },
-    {
-      "region": "TW",
-      "headline": "真人般的AI夥伴！OpenAI首款硬體裝置傳為智慧音箱",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6534959"
-    },
-    {
-      "region": "TW",
-      "headline": "Lucid駁斥破產、下市傳聞 股價一度暴跌逾40%",
+      "headline": "DeepMind CEO示警：AGI只剩幾年！籲美國建立尖端AI審查機制",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6534945"
+      "link": "https://news.cnyes.com/news/id/6535024"
     },
     {
       "region": "TW",
-      "headline": "賴清德：台灣65歲以上人口已超過20% 政府將協助年輕家庭減輕負擔",
-      "source": "台股",
+      "headline": "GPT-5.6新模型上線加重流量負擔？ChatGPT今早出現重大故障",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6534718"
+      "link": "https://news.cnyes.com/news/id/6535325"
     },
     {
       "region": "TW",
-      "headline": "公股4金2銀H1大賺885億年增27.7%創新高！兆豐金續稱冠、華南金創史高",
-      "source": "台股",
+      "headline": "聯手3縣市減碳近2千噸！國發會撒幣助攻淨零 單一計畫最高補助500萬",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6534721"
+      "link": "https://news.cnyes.com/news/id/6535373"
     },
     {
       "region": "TW",
-      "headline": "永達保經打造「滿貫VIP主題包廂」 跨界結盟共創保險與運動經濟雙贏",
-      "source": "台股",
+      "headline": "誤判企業支出 客戶預算轉向AI硬體！IBM財報爆雷股價崩25% 創史上最大單日跌幅",
+      "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6534717"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6535036"
     },
     {
       "region": "TW",
-      "headline": "〈台幣〉量縮微貶收32.172元 觀望美CPI數據",
+      "headline": "盤中速報 - 櫃買市場加權指數上漲8.64點至416.05點，漲幅2.12%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6535391"
+    },
+    {
+      "region": "TW",
+      "headline": "9/1納入玉山金！三商壽信用評等連跳3級 中華信評看好強健集團資源支持",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6534702"
+      "link": "https://news.cnyes.com/news/id/6535334"
+    },
+    {
+      "region": "TW",
+      "headline": "聯發國際喜迎茶飲旺季營收將逐月增 將開出馬國知名肉骨茶品牌",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6535342"
     }
   ]
 }
