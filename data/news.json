@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-07-16T01:39:24.055379+08:00",
+  "timestamp": "2026-07-16T02:46:15.068080+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 思科系統(CSCO-US)大跌5%，報111.23美元",
+      "headline": "Fed升息可以再等等？褐皮書透露一大好消息：全美物價漲幅未加速",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6536174"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6536214"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 科林研發(LRCX-US)大跌5%，報328.79美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6536173"
-    },
-    {
-      "region": "TW",
-      "headline": "馬斯克Terafab成潛在需求來源 艾司摩爾2027年EUV產能近售罄",
+      "headline": "鉅亨速報 - Factset 最新調查：高盛集團(GS-US)EPS預估上修至62.22元，預估目標價為1,100.00元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6535993"
+      "link": "https://news.cnyes.com/news/id/6536224"
     },
     {
       "region": "TW",
-      "headline": "外匯速報 - 歐元/英鎊(EURGBP) 大跌0.5%，報0.8484元",
+      "headline": "川普這次選對人了？巴菲特力挺華許掌Fed",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6536169"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6536145"
+    },
+    {
+      "region": "TW",
+      "headline": "川普喊降息也沒用？華許重申Fed獨立性：不受政治干預",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6536186"
     },
     {
       "region": "TW",
