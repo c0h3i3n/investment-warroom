@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-07-16T05:16:12.659309+08:00",
+  "timestamp": "2026-07-16T06:30:24.598323+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "Fed升息可以再等等？褐皮書透露一大好消息：全美物價漲幅未加速",
+      "headline": "〈美股盤後〉通膨降溫標普連二紅 費半跌逾2% 美光、SK海力士ADR崩超8%",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6536214"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6536235"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：高盛集團(GS-US)EPS預估上修至62.22元，預估目標價為1,100.00元",
+      "headline": "大行觀點一次看！AMD、摩根大通、SpaceX目標價齊升 微軟遭花旗降目標",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6536224"
+      "link": "https://news.cnyes.com/news/id/6536157"
     },
     {
       "region": "TW",
-      "headline": "川普這次選對人了？巴菲特力挺華許掌Fed",
+      "headline": "稱「村裡的傻子都能賺」 巴菲特：我只是進入了對的市場",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6536145"
+      "link": "https://news.cnyes.com/news/id/6536216"
     },
     {
       "region": "TW",
-      "headline": "川普喊降息也沒用？華許重申Fed獨立性：不受政治干預",
+      "headline": "加拿大央行利率連六凍！經濟展望改善、刪除「連續升息」警告",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6536186"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6536117"
     },
     {
       "region": "TW",
