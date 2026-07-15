@@ -1,53 +1,69 @@
 {
-  "timestamp": "2026-07-15T22:28:56.218403+08:00",
+  "timestamp": "2026-07-16T00:05:57.717988+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：科磊KLAC-US的目標價調升至242.5元，幅度約6.59%",
+      "headline": "盤中速報 - 思科系統(CSCO-US)大跌5%，報111.23美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6536174"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 科林研發(LRCX-US)大跌5%，報328.79美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6536173"
+    },
+    {
+      "region": "TW",
+      "headline": "馬斯克Terafab成潛在需求來源 艾司摩爾2027年EUV產能近售罄",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6536083"
+      "link": "https://news.cnyes.com/news/id/6535993"
+    },
+    {
+      "region": "TW",
+      "headline": "外匯速報 - 歐元/英鎊(EURGBP) 大跌0.5%，報0.8484元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6536169"
+    },
+    {
+      "region": "TW",
+      "headline": "處置股新增華新科等3檔被關至7/29 聯電明起出關今飆漲停",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6536078"
+    },
+    {
+      "region": "TW",
+      "headline": "舊制勞工也能自提6％到退休金專戶領「分紅」囉！17日正式上路",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6536076"
+    },
+    {
+      "region": "TW",
+      "headline": "聯寶進軍無線充電B2C市場 自有品牌INCORE首款新品上架嘖嘖",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6536077"
     },
     {
       "region": "TW",
       "headline": "鴻海2.9億元取得Churchill Capital Corp XI股權 推進人形機器人投資",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6536069"
-    },
-    {
-      "region": "TW",
-      "headline": "等了兩年終於過關！蘋果AI獲中國放行 阿里通義千問助陣",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6535948"
-    },
-    {
-      "region": "TW",
-      "headline": "創新板第二檔千金股誕生！沛爾生醫飆漲停 市值672億元創新高",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6536058"
-    },
-    {
-      "region": "TW",
-      "headline": "公股銀挺半導體通路龍頭！合庫銀統籌至上120億聯貸 超募1.95倍",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6535484"
-    },
-    {
-      "region": "TW",
-      "headline": "稅款遞延入帳！五大行6月狂刷6088億元創歷史新高 玉山銀首登頂奪刷卡王",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6535702"
     }
   ]
 }
