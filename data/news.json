@@ -1,61 +1,69 @@
 {
-  "timestamp": "2026-07-15T12:17:01.853030+08:00",
+  "timestamp": "2026-07-15T14:36:06.557714+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "DeepMind CEO示警：AGI只剩幾年！籲美國建立尖端AI審查機制",
+      "headline": "最快明年IPO？傳DeepSeek再啟融資 估值一個月內飆37%至710億美元 梁文鋒成AI新首富",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6535024"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6535401"
     },
     {
       "region": "TW",
-      "headline": "GPT-5.6新模型上線加重流量負擔？ChatGPT今早出現重大故障",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6535325"
-    },
-    {
-      "region": "TW",
-      "headline": "聯手3縣市減碳近2千噸！國發會撒幣助攻淨零 單一計畫最高補助500萬",
+      "headline": "ASML二度上修財測！AI晶片需求強 點亮全年營收毛利前景",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6535373"
+      "link": "https://news.cnyes.com/news/id/6535575"
     },
     {
       "region": "TW",
-      "headline": "誤判企業支出 客戶預算轉向AI硬體！IBM財報爆雷股價崩25% 創史上最大單日跌幅",
+      "headline": "美封鎖前夕荷姆茲航運短暫回升 流量集中伊朗端、催高中東現貨油價",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6535036"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6535432"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 櫃買市場加權指數上漲8.64點至416.05點，漲幅2.12%",
+      "headline": "記憶體新產能「十年內」無望！美銀潑冷水：南韓2030產能翻倍難",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6535315"
+    },
+    {
+      "region": "TW",
+      "headline": "〈焦點股〉亞洲生技大會登場加持 生技股王藥華藥漲停率類股勁揚",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6535391"
+      "link": "https://news.cnyes.com/news/id/6535543"
     },
     {
       "region": "TW",
-      "headline": "9/1納入玉山金！三商壽信用評等連跳3級 中華信評看好強健集團資源支持",
+      "headline": "〈台塑集團調薪〉台塑企業啟動「有感升級」大規模加薪 新進員工起薪創近10年最高調幅",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6535334"
+      "link": "https://news.cnyes.com/news/id/6535512"
     },
     {
       "region": "TW",
-      "headline": "聯發國際喜迎茶飲旺季營收將逐月增 將開出馬國知名肉骨茶品牌",
+      "headline": "臺企銀上半年淨賺74.12億元年增逾15% 智慧金融連3年獲ABF大獎加持",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6535342"
+      "link": "https://news.cnyes.com/news/id/6535487"
+    },
+    {
+      "region": "TW",
+      "headline": "〈房產〉人口紅利支撐板橋、新莊和中和居新北交易熱區 交易占比均逾10%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6535477"
     }
   ]
 }
