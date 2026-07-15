@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-16T06:30:24.598323+08:00",
+  "timestamp": "2026-07-16T07:41:16.677012+08:00",
   "data": [
     {
       "symbol": "0050.TW",
@@ -40,8 +40,8 @@
       "symbol": "00933B.TW",
       "name": "",
       "price": 16.0,
-      "change": 0.0,
-      "changePct": 0.0
+      "change": 0,
+      "changePct": 0
     },
     {
       "symbol": "00937B.TW",
