@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-07-15T07:35:17.208952+08:00",
+  "timestamp": "2026-07-15T09:01:07.357136+08:00",
   "data": [
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：波士頓地產(BXP-US)EPS預估下修至1.96元，預估目標價為68.00元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6534949"
-    },
-    {
-      "region": "TW",
-      "headline": "Fed要大改造了！華許喊「體制改革」 5大工作小組全面動刀",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6534925"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 英特爾(INTC-US)大漲5%，報108.28美元",
+      "headline": "美銀：AI算力需求未降溫 AMD仍是半導體首選 目標價上調至620美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6534935"
+      "link": "https://news.cnyes.com/news/id/6534966"
     },
     {
       "region": "TW",
-      "headline": "270億參數塞進iPhone！蘋果洽談AI新創 54GB大模型縮至不到4GB",
+      "headline": "輝達Rubin晶片「小幅延遲」會拖累股價嗎？分析師這樣看",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6534926"
+      "link": "https://news.cnyes.com/news/id/6534960"
+    },
+    {
+      "region": "TW",
+      "headline": "真人般的AI夥伴！OpenAI首款硬體裝置傳為智慧音箱",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6534959"
+    },
+    {
+      "region": "TW",
+      "headline": "Lucid駁斥破產、下市傳聞 股價一度暴跌逾40%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6534945"
     },
     {
       "region": "TW",
