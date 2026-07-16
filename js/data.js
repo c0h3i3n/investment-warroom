@@ -8,7 +8,7 @@ const DataService = (() => {
 
   // ── Internal cache ──
   const cache = new Map();
-  const CACHE_TTL = 45000;
+  const CACHE_TTL = 15000;
   let activeProxyIndex = 0;
 
   // ── OTC ETF symbols need .TWO suffix on Yahoo Finance ──
@@ -17,27 +17,46 @@ const DataService = (() => {
   const OTC_CODES = new Set(['00679B','00687B','00712','00713','00751B','00864B','00933B','00937B','00942B','00945B','00948B','00950B','00951B','00952B','00953B','00956B','00957B','00958B','00959B','00960B','00961B','00962B','00963B','00964B','00965B']);
 
   // ═══════════════════════════════════════
-  // FALLBACK DATA
+  // FRESHNESS & REQUEST HELPERS
   // ═══════════════════════════════════════
-  const FALLBACK_INDEXES = {
-    '^TWII':  { price: 45337.91, change: 604.97, changePct: 1.35 },
-    '^TWOII': { price: 446.02,   change: 7.81,   changePct: 1.78 },
-    '^GSPC':  { price: 6723.05,  change: 42.15,  changePct: 0.63 },
-    '^IXIC':  { price: 22680.40, change: 138.31, changePct: 0.61 },
-    '^SOX':   { price: 6285.29,  change: 89.14,  changePct: 1.44 },
-  };
+  function addCacheBuster(url) {
+    const separator = url.includes('?') ? '&' : '?';
+    return `${url}${separator}_wr=${Date.now()}_${Math.random().toString(36).slice(2)}`;
+  }
 
-  const FALLBACK_QUOTES = {
-    '0050.TW':   { price: 105.50,  change: 0.10,   changePct: 0.09,  name: '元大台灣50',          currency: 'TWD' },
-    '00679B.TW': { price: 27.24,   change: -0.08,  changePct: -0.29, name: '元大美債20年',        currency: 'TWD' },
-    '00878.TW':  { price: 23.82,   change: 0.24,   changePct: 1.02,  name: '國泰永續高股息',      currency: 'TWD' },
-    '00929.TW':  { price: 19.66,   change: 0.14,   changePct: 0.72,  name: '復華台灣科技優息',    currency: 'TWD' },
-    '00933B.TW': { price: 15.33,   change: 0.05,   changePct: 0.33,  name: '國泰10Y+金融債',      currency: 'TWD' },
-    '00937B.TW': { price: 17.45,   change: 0.03,   changePct: 0.17,  name: '群益ESG投等債20+',    currency: 'TWD' },
-    '2330.TW':   { price: 2355.00, change: 0.00,   changePct: 0.00,  name: '台積電',              currency: 'TWD' },
-    'NVDA':      { price: 224.36,  change: 3.51,   changePct: 1.59,  name: '輝達',                currency: 'USD' },
-    'TSLA':      { price: 370.89,  change: 8.26,   changePct: 2.28,  name: '特斯拉',              currency: 'USD' },
-  };
+  function isMarketOpen(region, now = new Date()) {
+    const timeZone = region === 'TW' ? 'Asia/Taipei' : 'America/New_York';
+    const parts = Object.fromEntries(new Intl.DateTimeFormat('en-US', {
+      timeZone, weekday: 'short', hour: '2-digit', minute: '2-digit', hour12: false,
+    }).formatToParts(now).map(p => [p.type, p.value]));
+    if (parts.weekday === 'Sat' || parts.weekday === 'Sun') return false;
+    const minutes = Number(parts.hour) * 60 + Number(parts.minute);
+    return region === 'TW'
+      ? minutes >= 540 && minutes <= 810
+      : minutes >= 570 && minutes <= 960;
+  }
+
+  function isFreshTimestamp(timestamp, region) {
+    const sourceMs = typeof timestamp === 'string' ? Date.parse(timestamp) : Number(timestamp);
+    if (!Number.isFinite(sourceMs) || sourceMs <= 0) return false;
+    const age = Date.now() - sourceMs;
+    if (age < -5 * 60 * 1000) return false;
+    const maxAge = isMarketOpen(region) ? 20 * 60 * 1000 : 7 * 24 * 60 * 60 * 1000;
+    return age <= maxAge;
+  }
+
+  function isFreshRecord(record, region = record?.region || (/\.TW$/i.test(record?.symbol || '') ? 'TW' : 'US')) {
+    return Number.isFinite(Number(record?.price)) && Number(record.price) > 0
+      && isFreshTimestamp(record?.asOf, region);
+  }
+
+  function parseMisTimestamp(row) {
+    const epoch = Number(row.tlong);
+    if (Number.isFinite(epoch) && epoch > 0) return epoch;
+    if (!/^\d{8}$/.test(row.d || '') || !/^\d{2}:\d{2}:\d{2}$/.test(row.t || '')) return null;
+    const d = row.d;
+    return Date.parse(`${d.slice(0, 4)}-${d.slice(4, 6)}-${d.slice(6, 8)}T${row.t}+08:00`);
+  }
 
   // ═══════════════════════════════════════
   // PARSE PROXY RESPONSE (handles allorigins wrapper)
@@ -57,9 +76,10 @@ const DataService = (() => {
   // CORE FETCH — tries each proxy in sequence
   // ═══════════════════════════════════════
   async function fetchWithProxy(url, timeoutMs = 8000) {
+    const freshUrl = addCacheBuster(url);
     // Try direct first with short timeout
     try {
-      const resp = await fetch(url, { signal: AbortSignal.timeout(4000) });
+      const resp = await fetch(freshUrl, { cache: 'no-store', signal: AbortSignal.timeout(4000) });
       if (resp.ok) {
         const text = await resp.text();
         const parsed = parseProxyResponse(text);
@@ -72,10 +92,10 @@ const DataService = (() => {
     for (let attempt = 0; attempt < CONFIG.CORS_PROXIES.length; attempt++) {
       const idx = (startIdx + attempt) % CONFIG.CORS_PROXIES.length;
       const proxy = CONFIG.CORS_PROXIES[idx];
-      const proxyUrl = proxy + encodeURIComponent(url);
+      const proxyUrl = addCacheBuster(proxy + encodeURIComponent(freshUrl));
 
       try {
-        const resp = await fetch(proxyUrl, { signal: AbortSignal.timeout(timeoutMs) });
+        const resp = await fetch(proxyUrl, { cache: 'no-store', signal: AbortSignal.timeout(timeoutMs) });
         if (!resp.ok) {
           const text = await resp.text().catch(() => '');
           if (text.includes('Server-side requests are not allowed')) continue;
@@ -120,15 +140,24 @@ const DataService = (() => {
 
       const price = meta.regularMarketPrice;
       const prevClose = meta.previousClose || meta.chartPreviousClose;
+      const sourceTime = Number(meta.regularMarketTime) * 1000;
+      const originalSymbol = OTC_YAHOO_REV[meta.symbol] || symbol;
+      const region = /\.TW$/i.test(originalSymbol) ? 'TW' : 'US';
+      if (!isFreshRecord({ price, asOf: sourceTime }, region)) {
+        console.warn(`Rejected stale/invalid Yahoo quote: ${originalSymbol}`);
+        return null;
+      }
 
       return {
-        symbol: meta.symbol,
+        symbol: originalSymbol,
         name: meta.shortName || meta.longName || meta.symbol,
         price: price,
         change: (price != null && prevClose != null) ? price - prevClose : null,
         changePct: (prevClose && price != null) ? ((price - prevClose) / prevClose * 100) : null,
         prevClose: prevClose,
         currency: meta.currency,
+        source: 'Yahoo Finance',
+        asOf: sourceTime,
       };
     } catch (e) {
       console.warn(`fetchOneChartQuote ${symbol} failed:`, e.message);
@@ -145,7 +174,7 @@ const DataService = (() => {
     if (cached) return cached;
 
     try {
-      const results = await Promise.all(symbols.map(s => fetchOneChartQuote(s)));
+      const results = await Promise.all(symbols.map(s => fetchOneChartQuote(OTC_YAHOO_MAP[s] || s)));
       const valid = results.filter(r => r != null);
       if (valid.length > 0) {
         setCache(key, valid);
@@ -171,7 +200,7 @@ const DataService = (() => {
     const parts = twSymbols.map(s => getMISKey(s));
     try {
       const url = `${CONFIG.MIS_BASE}?ex_ch=${parts.join('|')}&json=1&delay=0&_=${Date.now()}`;
-      const resp = await fetch(url, { signal: AbortSignal.timeout(8000) });
+      const resp = await fetch(url, { cache: 'no-store', signal: AbortSignal.timeout(8000) });
       if (resp.ok) {
         const json = await resp.json();
         const arr = json?.msgArray;
@@ -198,7 +227,7 @@ const DataService = (() => {
         const url = `${CONFIG.MIS_BASE}?ex_ch=${key}&json=1&delay=0&_=${Date.now()}`;
         let json = null;
         try {
-          const resp = await fetch(url, { signal: AbortSignal.timeout(6000) });
+          const resp = await fetch(url, { cache: 'no-store', signal: AbortSignal.timeout(6000) });
           if (resp.ok) json = await resp.json();
         } catch(e) {}
         if (!json) json = await fetchWithProxy(url, 8000);
@@ -213,17 +242,23 @@ const DataService = (() => {
       const symbol = r.c + '.TW';
       const prevClose = parseFloat(r.y) || null;
       let price = null;
-      if (r.z && r.z !== '-') price = parseFloat(r.z);
-      else {
-        const bids = (r.b||'').split('_').filter(v=>v&&v!=='').map(Number);
-        const asks = (r.a||'').split('_').filter(v=>v&&v!=='').map(Number);
-        if (bids.length&&asks.length) price = (bids[0]+asks[0])/2;
-        else if (bids.length) price = bids[0];
+      let priceType = 'trade';
+      if (r.z && r.z !== '-') {
+        price = parseFloat(r.z);
+      } else {
+        const bids = (r.b || '').split('_').filter(Boolean).map(Number);
+        const asks = (r.a || '').split('_').filter(Boolean).map(Number);
+        if (bids.length && asks.length) {
+          price = (bids[0] + asks[0]) / 2;
+          priceType = 'indicative';
+        }
       }
       if (price==null||isNaN(price)) return null;
       const change = (price!=null&&prevClose!=null) ? price-prevClose : null;
       const changePct = (prevClose&&change!=null) ? (change/prevClose)*100 : null;
-      return { symbol, price, change, changePct, prevClose, currency:'TWD', name: r.n||r.nf||r.c };
+      const sourceTime = parseMisTimestamp(r);
+      if (!isFreshRecord({ price, asOf: sourceTime }, 'TW')) return null;
+      return { symbol, price, change, changePct, prevClose, currency:'TWD', name: r.n||r.nf||r.c, source:'TWSE MIS', asOf:sourceTime, priceType };
     }).filter(r=>r!=null);
   }
 
@@ -254,8 +289,11 @@ const DataService = (() => {
               const prevClose = parseFloat(r.y) || null;
               const change = (price != null && prevClose != null) ? price - prevClose : null;
               const changePct = (prevClose && change != null) ? (change / prevClose) * 100 : null;
+              const sourceTime = parseMisTimestamp(r);
 
-              results.push({ ...idx, price, change, changePct });
+              if (isFreshRecord({ price, asOf: sourceTime }, 'TW')) {
+                results.push({ ...idx, price, change, changePct, source:'TWSE MIS', asOf:sourceTime });
+              }
             }
           });
         }
@@ -281,21 +319,10 @@ const DataService = (() => {
       }
     }
 
-    // ── Fill gaps with fallback ──
+    // Keep gaps visible; never disguise hard-coded values as current market data.
     CONFIG.INDEXES.forEach(idx => {
       const existing = results.find(r => r.id === idx.id);
-      if (!existing || existing.price == null) {
-        const fb = FALLBACK_INDEXES[idx.symbol];
-        if (fb) {
-          const entry = { ...idx, ...fb };
-          if (existing) {
-            const exIdx = results.findIndex(r => r.id === idx.id);
-            results[exIdx] = { ...entry, ...existing };
-          } else {
-            results.push(entry);
-          }
-        }
-      }
+      if (!existing || existing.price == null) results.push({ ...idx, unavailable:true });
     });
 
     setCache(key, results);
@@ -392,14 +419,6 @@ const DataService = (() => {
       });
     }
 
-    // Fill any remaining gaps with fallback
-    allSymbols.forEach(s => {
-      if (!result.find(r => r.symbol === s)) {
-        const fb = FALLBACK_QUOTES[s];
-        if (fb) result.push({ symbol: s, ...fb });
-      }
-    });
-
     return result.length > 0 ? result : null;
   }
 
@@ -437,5 +456,6 @@ const DataService = (() => {
     fetchAllQuotes,
     fetchSparklines,
     clearCache,
+    isFreshRecord,
   };
 })();

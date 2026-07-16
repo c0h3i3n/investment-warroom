@@ -48,6 +48,7 @@ const UI = (() => {
     container.innerHTML = indexes.map((idx, i) => {
       const price = idx.price;
       const changePct = idx.changePct;
+      const hasData = Number.isFinite(Number(price)) && Number.isFinite(Number(changePct));
       const cls = changePct >= 0 ? 'up' : 'dn';
       const points = generateSparkPoints(30, 100, changePct >= 0);
       const color = cls === 'up' ? '#ff7744' : '#cc1133';
@@ -57,9 +58,9 @@ const UI = (() => {
       <div class="idx-card">
         <div class="idx-region">${idx.region} · ${idx.region === 'TW' ? '台灣' : '美國'}</div>
         <div class="idx-name">${idx.name}</div>
-        <div class="idx-price ${cls}" data-id="${idx.id}">${idx.currency}${fmtPrice(price, idx.region)}</div>
+        <div class="idx-price ${hasData ? cls : ''}" data-id="${idx.id}" title="${idx.priceType === 'indicative' ? '≈ 代表 TWSE 買一／賣一中間報價，非最後成交價' : ''}">${hasData ? (idx.priceType === 'indicative' ? '≈' : '') + idx.currency + fmtPrice(price, idx.region) : '--'}</div>
         <div class="idx-change">
-          <span class="idx-pct ${cls}">${chgArrow(changePct)} ${Math.abs(changePct || 0).toFixed(2)}%</span>
+          <span class="idx-pct ${hasData ? cls : ''}">${hasData ? chgArrow(changePct) + ' ' + Math.abs(changePct).toFixed(2) + '%' : '⚠ DATA UNAVAILABLE'}</span>
           <div class="progress-track"><div class="progress-fill ${cls}" style="width:${Math.min(100, Math.abs(changePct || 0) * 15)}%"></div></div>
         </div>
         <svg class="mini-spark" viewBox="0 0 100 30" preserveAspectRatio="none">
@@ -107,10 +108,11 @@ const UI = (() => {
 
     // Duplicate for seamless scroll
     const items = [...quotes, ...quotes].map(q => {
-      const cls = (q.changePct || 0) >= 0 ? 't-up' : 't-dn';
+      const hasData = Number.isFinite(Number(q.price)) && Number.isFinite(Number(q.changePct));
+      const cls = hasData && q.changePct >= 0 ? 't-up' : 't-dn';
       const arrow = (q.changePct || 0) >= 0 ? '▲' : '▼';
       const sym = q.symbol.replace('.TW', '');
-      return `<span class="t-item"><span class="t-sym">${sym}</span><span class="t-price">${q.price ? fmtCurrency(q.price, q.symbol.endsWith('.TW') ? 'TW' : 'US') : '--'}</span><span class="${cls}">${arrow} ${Math.abs(q.changePct || 0).toFixed(2)}%</span></span>`;
+      return `<span class="t-item"><span class="t-sym">${sym}</span><span class="t-price" title="${q.priceType === 'indicative' ? '買一／賣一中間報價' : ''}">${hasData ? (q.priceType === 'indicative' ? '≈' : '') + fmtCurrency(q.price, q.symbol.endsWith('.TW') ? 'TW' : 'US') : '--'}</span><span class="${cls}">${hasData ? arrow + ' ' + Math.abs(q.changePct).toFixed(2) + '%' : 'UNAVAILABLE'}</span></span>`;
     }).join('');
 
     container.innerHTML = items;
@@ -125,32 +127,34 @@ const UI = (() => {
     const totalPnl = document.getElementById('port-total-pnl');
     const returnRate = document.getElementById('port-return-rate');
 
-    if (totalVal) totalVal.textContent = `NT$${Math.round(stats.totalValue).toLocaleString()}`;
+    const complete = !stats.unavailableCount;
+    if (totalVal) totalVal.textContent = complete ? `NT$${Math.round(stats.totalValue).toLocaleString()}` : '--';
     if (totalPnl) {
-      totalPnl.textContent = (stats.totalPnl >= 0 ? '+' : '') + `NT$${Math.round(stats.totalPnl).toLocaleString()}`;
+      totalPnl.textContent = complete ? (stats.totalPnl >= 0 ? '+' : '') + `NT$${Math.round(stats.totalPnl).toLocaleString()}` : '--';
       totalPnl.className = 'ps-value ' + chgClass(stats.totalPnl);
     }
     if (returnRate) {
-      returnRate.textContent = pctStr(stats.returnPct);
+      returnRate.textContent = complete ? pctStr(stats.returnPct) : '--';
       returnRate.className = 'ps-value ' + chgClass(stats.returnPct);
     }
 
     if (!tbody) return;
 
     tbody.innerHTML = stats.holdings.map(h => {
+      const hasPrice = !h.unavailable && Number.isFinite(Number(h.price));
       const cls = chgClass(h.pnlPct);
-      const barW = Math.min(100, Math.abs(h.pnlPct) * 2.5);
+      const barW = hasPrice ? Math.min(100, Math.abs(h.pnlPct || 0) * 2.5) : 0;
       const arrow = chgArrow(h.pnlPct);
       return `
       <tr>
         <td><span class="pt-ticker">${h.symbol.replace('.TW', '')}</span></td>
         <td>${h.name}</td>
         <td>${fmtCurrency(h.cost, h.region)}</td>
-        <td style="color:${cls === 'up' ? 'var(--pos)' : 'var(--neg)'}">${fmtCurrency(h.price, h.region)}</td>
+        <td style="color:${hasPrice ? (cls === 'up' ? 'var(--pos)' : 'var(--neg)') : 'var(--warn)'}" title="${h.priceType === 'indicative' ? '買一／賣一中間報價' : ''}">${hasPrice ? (h.priceType === 'indicative' ? '≈' : '') + fmtCurrency(h.price, h.region) : '⚠ --'}</td>
         <td>
           <div class="pnl-wrap">
             <div class="pnl-bar"><div class="pnl-fill ${cls}" style="width:${barW}%"></div></div>
-            <span style="color:${cls === 'up' ? 'var(--pos)' : 'var(--neg)'};font-family:'Orbitron',sans-serif;font-size:10px">${arrow} ${Math.abs(h.pnlPct).toFixed(2)}%</span>
+            <span style="color:${hasPrice ? (cls === 'up' ? 'var(--pos)' : 'var(--neg)') : 'var(--warn)'};font-family:'Orbitron',sans-serif;font-size:10px">${hasPrice ? arrow + ' ' + Math.abs(h.pnlPct || 0).toFixed(2) + '%' : 'UNAVAILABLE'}</span>
           </div>
         </td>
         <td class="delete-col">
@@ -194,6 +198,7 @@ const UI = (() => {
     if (!container) return;
 
     container.innerHTML = watchData.map(w => {
+      const hasData = Number.isFinite(Number(w.price)) && Number.isFinite(Number(w.changePct));
       const cls = (w.changePct || 0) >= 0 ? 'up' : 'dn';
       const arrow = chgArrow(w.changePct || 0);
       const sym = w.symbol.replace('.TW', '');
@@ -207,8 +212,8 @@ const UI = (() => {
         <svg class="w-spark" viewBox="0 0 55 22" preserveAspectRatio="none">
           <polyline fill="none" stroke="${color}" stroke-width="1.5" points="${pts}"/>
         </svg>
-        <span class="w-price" data-sym="${w.symbol}">${w.price ? fmtCurrency(w.price, w.region) : '--'}</span>
-        <span class="w-chg ${cls}">${arrow} ${Math.abs(w.changePct || 0).toFixed(2)}%</span>
+        <span class="w-price" data-sym="${w.symbol}" title="${w.priceType === 'indicative' ? '≈ 代表買一／賣一中間報價，非最後成交價' : ''}">${hasData ? (w.priceType === 'indicative' ? '≈' : '') + fmtCurrency(w.price, w.region) : '--'}</span>
+        <span class="w-chg ${hasData ? cls : ''}">${hasData ? arrow + ' ' + Math.abs(w.changePct).toFixed(2) + '%' : 'UNAVAILABLE'}</span>
       </div>`;
     }).join('');
     // Flash prices after render
@@ -242,7 +247,7 @@ const UI = (() => {
       <div class="featured-card">
         <div class="featured-sym">${sym}</div>
         <div class="featured-name">${q.name || ''}</div>
-        <div class="featured-price ${cls}" data-sym="${q.symbol}">${q.price != null ? Number(q.price).toFixed(2) : '--'}</div>
+        <div class="featured-price ${cls}" data-sym="${q.symbol}" title="${q.priceType === 'indicative' ? '≈ 代表買一／賣一中間報價，非最後成交價' : ''}">${q.price != null ? (q.priceType === 'indicative' ? '≈' : '') + Number(q.price).toFixed(2) : '--'}</div>
         <div class="featured-chg ${cls}">${arrow} ${Math.abs(q.change || 0).toFixed(2)} (${Math.abs(q.changePct || 0).toFixed(2)}%)</div>
       </div>`;
     }).join('');
@@ -501,9 +506,35 @@ const UI = (() => {
       if (isRefreshing) btn.classList.add('spinning');
       else btn.classList.remove('spinning');
     }
-    if (lbl && !isRefreshing) {
-      const now = new Date();
-      lbl.textContent = 'UPDATED ' + now.toLocaleTimeString('zh-TW', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
+    if (lbl && isRefreshing && /--:--|^UPDATED/.test(lbl.textContent)) {
+      lbl.textContent = 'REFRESHING...';
+    }
+  }
+
+  function setDataStatus({ fresh, total, oldestAsOf, twAsOf, usAsOf, mode = 'live', indicative = 0 }) {
+    const lbl = document.getElementById('last-updated');
+    const sysOrb = document.getElementById('sysOrb');
+    const sysLabel = document.getElementById('sysLabel');
+    const asOf = Number(oldestAsOf);
+    const formatTime = value => Number.isFinite(Number(value))
+      ? new Intl.DateTimeFormat('zh-TW', { timeZone:'Asia/Taipei', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', second:'2-digit', hour12:false }).format(new Date(Number(value)))
+      : null;
+    const regionalText = [
+      formatTime(twAsOf) ? `TW ${formatTime(twAsOf)}` : null,
+      formatTime(usAsOf) ? `US ${formatTime(usAsOf)}` : null,
+    ].filter(Boolean).join(' · ') || formatTime(asOf) || '--:--:--';
+    const complete = fresh === total && total > 0;
+
+    if (lbl) {
+      const prefix = mode === 'cache' ? 'CACHED' : 'DATA';
+      lbl.textContent = fresh > 0 ? `${prefix} ${regionalText} · ${fresh}/${total}${indicative ? ` · ≈${indicative}` : ''}` : 'DATA UNAVAILABLE';
+      lbl.title = '這是行情來源時間，不是頁面重新整理時間';
+    }
+    if (sysOrb) sysOrb.className = `status-orb ${complete && mode === 'live' ? 'live' : fresh > 0 ? 'pre' : 'off'}`;
+    if (sysLabel) {
+      sysLabel.textContent = mode === 'cache' && fresh > 0
+        ? 'DATA CACHED'
+        : complete && !indicative ? 'DATA LIVE' : complete ? 'DATA QUOTED' : fresh > 0 ? 'DATA PARTIAL' : 'DATA OFFLINE';
     }
   }
 
@@ -551,6 +582,7 @@ const UI = (() => {
     setLoading,
     showError,
     setRefreshing,
+    setDataStatus,
 
     // Helpers
     chgClass,

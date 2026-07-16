@@ -100,16 +100,22 @@ const PortfolioService = (() => {
   function calculateStats(holdings, quotesMap) {
     let totalValue = 0;
     let totalCost = 0;
+    let unavailableCount = 0;
     const enriched = holdings.map(h => {
       const quote = quotesMap[h.symbol];
-      const price = quote?.price || h.cost; // fallback to cost if no live data
-      const value = price * h.shares;
+      const hasPrice = Number.isFinite(Number(quote?.price)) && Number(quote.price) > 0;
+      const price = hasPrice ? Number(quote.price) : null;
+      const value = hasPrice ? price * h.shares : null;
       const costBasis = h.cost * h.shares;
-      const pnl = value - costBasis;
-      const pnlPct = costBasis > 0 ? ((pnl / costBasis) * 100) : 0;
+      const pnl = hasPrice ? value - costBasis : null;
+      const pnlPct = hasPrice && costBasis > 0 ? ((pnl / costBasis) * 100) : null;
 
-      totalValue += value;
-      totalCost += costBasis;
+      if (hasPrice) {
+        totalValue += value;
+        totalCost += costBasis;
+      } else {
+        unavailableCount += 1;
+      }
 
       return {
         ...h,
@@ -118,6 +124,8 @@ const PortfolioService = (() => {
         pnl,
         pnlPct,
         currency: quote?.currency || (h.region === 'TW' ? 'TWD' : 'USD'),
+        priceType: quote?.priceType,
+        unavailable: !hasPrice,
       };
     });
 
@@ -130,6 +138,7 @@ const PortfolioService = (() => {
       totalCost,
       totalPnl,
       returnPct,
+      unavailableCount,
       currency: 'MIX', // mixed currencies
     };
   }

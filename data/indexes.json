@@ -1,50 +1,71 @@
 {
-  "timestamp": "2026-07-16T09:09:22.846419+08:00",
+  "timestamp": "2026-07-16T03:04:23.791846+00:00",
+  "generatedAt": "2026-07-16T03:04:23.791846+00:00",
   "data": [
     {
       "id": "tai",
+      "symbol": "^TWII",
       "name": "加權指數 TAIEX",
       "region": "TW",
       "currency": "NT$",
-      "price": 45264.62,
-      "change": -366.97,
-      "changePct": -0.8
+      "price": 45601.79,
+      "change": -29.8,
+      "changePct": -0.07,
+      "asOf": "2026-07-16T03:04:35+00:00",
+      "source": "TWSE MIS",
+      "priceType": "trade"
     },
     {
       "id": "otc",
+      "symbol": "^TWOII",
       "name": "OTC 櫃買指數",
       "region": "TW",
       "currency": "NT$",
-      "price": 409.25,
-      "change": -7.16,
-      "changePct": -1.72
+      "price": 412.03,
+      "change": -4.38,
+      "changePct": -1.05,
+      "asOf": "2026-07-16T03:04:40+00:00",
+      "source": "TWSE MIS",
+      "priceType": "trade"
     },
     {
       "id": "spx",
+      "symbol": "^GSPC",
       "name": "S&P 500",
       "region": "US",
       "currency": "$",
       "price": 7572.4,
       "change": 28.81,
-      "changePct": 0.38
+      "changePct": 0.38,
+      "asOf": "2026-07-15T21:18:46+00:00",
+      "source": "Yahoo Finance",
+      "priceType": "trade"
     },
     {
       "id": "ndx",
+      "symbol": "^IXIC",
       "name": "NASDAQ",
       "region": "US",
       "currency": "$",
       "price": 26269.227,
       "change": 162.22,
-      "changePct": 0.62
+      "changePct": 0.62,
+      "asOf": "2026-07-15T21:15:59+00:00",
+      "source": "Yahoo Finance",
+      "priceType": "trade"
     },
     {
       "id": "sox",
+      "symbol": "^SOX",
       "name": "費城半導體 SOX",
       "region": "US",
       "currency": "$",
       "price": 12398.894,
       "change": -263.04,
-      "changePct": -2.08
+      "changePct": -2.08,
+      "asOf": "2026-07-15T21:15:59+00:00",
+      "source": "Yahoo Finance",
+      "priceType": "trade"
     }
   ]
 }

@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch_data.py'
+      - '.github/workflows/auto-refresh.yml'
+
+concurrency:
+  group: auto-refresh-static-data
+  cancel-in-progress: true
 
 permissions:
   contents: write

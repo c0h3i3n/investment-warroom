@@ -1,75 +1,106 @@
 {
-  "timestamp": "2026-07-16T09:09:22.846419+08:00",
+  "timestamp": "2026-07-16T03:04:23.791846+00:00",
+  "generatedAt": "2026-07-16T03:04:23.791846+00:00",
   "data": [
     {
       "symbol": "0050.TW",
       "name": "",
-      "price": 105.25,
-      "change": -1.05,
-      "changePct": -0.99
+      "price": 106.075,
+      "change": -0.22,
+      "changePct": -0.21,
+      "asOf": "2026-07-16T03:04:39+00:00",
+      "source": "TWSE MIS",
+      "priceType": "indicative"
     },
     {
       "symbol": "2330.TW",
       "name": "",
-      "price": 2442.5,
-      "change": 2.5,
-      "changePct": 0.1
+      "price": 2445.0,
+      "change": 5.0,
+      "changePct": 0.2,
+      "asOf": "2026-07-16T03:04:35+00:00",
+      "source": "TWSE MIS",
+      "priceType": "trade"
     },
     {
       "symbol": "00679B.TW",
       "name": "",
       "price": 26.83,
       "change": 0.08,
-      "changePct": 0.3
+      "changePct": 0.3,
+      "asOf": "2026-07-16T03:04:33+00:00",
+      "source": "TWSE MIS",
+      "priceType": "trade"
     },
     {
       "symbol": "00878.TW",
       "name": "",
-      "price": 32.75,
-      "change": -0.46,
-      "changePct": -1.39
+      "price": 32.99,
+      "change": -0.22,
+      "changePct": -0.66,
+      "asOf": "2026-07-16T03:04:39+00:00",
+      "source": "TWSE MIS",
+      "priceType": "indicative"
     },
     {
       "symbol": "00929.TW",
       "name": "",
-      "price": 29.81,
-      "change": -0.31,
-      "changePct": -1.03
+      "price": 30.05,
+      "change": -0.07,
+      "changePct": -0.23,
+      "asOf": "2026-07-16T03:04:34+00:00",
+      "source": "TWSE MIS",
+      "priceType": "trade"
     },
     {
       "symbol": "00933B.TW",
       "name": "",
-      "price": 16.01,
-      "change": 0.08,
-      "changePct": 0.5
+      "price": 16.015,
+      "change": 0.09,
+      "changePct": 0.53,
+      "asOf": "2026-07-16T03:04:32+00:00",
+      "source": "TWSE MIS",
+      "priceType": "indicative"
     },
     {
       "symbol": "00937B.TW",
       "name": "",
-      "price": 14.79,
-      "change": 0.06,
-      "changePct": 0.41
+      "price": 14.78,
+      "change": 0.05,
+      "changePct": 0.34,
+      "asOf": "2026-07-16T03:04:34+00:00",
+      "source": "TWSE MIS",
+      "priceType": "trade"
     },
     {
       "symbol": "009800.TW",
       "name": "",
-      "price": 13.16,
-      "change": -0.15,
-      "changePct": -1.13
+      "price": 13.205,
+      "change": -0.11,
+      "changePct": -0.79,
+      "asOf": "2026-07-16T03:04:38+00:00",
+      "source": "TWSE MIS",
+      "priceType": "indicative"
     },
     {
       "symbol": "NVDA",
       "name": "",
       "price": 212.5,
       "change": 0.7,
-      "changePct": 0.33
+      "changePct": 0.33,
+      "asOf": "2026-07-15T20:00:00+00:00",
+      "source": "Yahoo Finance",
+      "priceType": "trade"
     },
     {
       "symbol": "TSLA",
       "name": "",
       "price": 394.46,
       "change": -1.72,
-      "changePct": -0.43
+      "changePct": -0.43,
+      "asOf": "2026-07-15T20:00:00+00:00",
+      "source": "Yahoo Finance",
+      "priceType": "trade"
     }
   ]
 }

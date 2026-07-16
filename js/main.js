@@ -10,6 +10,7 @@ const App = (() => {
   window._watchlistQuotes = watchlistQuotes;
   let indexData = [];
   let usingFallback = false;
+  let refreshInFlight = false;
 
   // ═══════════════════════════════════════
   // CLOCK & STATUS
@@ -30,17 +31,21 @@ const App = (() => {
 
   function updateMarketStatus() {
     const now = new Date();
-    const h = parseInt(new Intl.DateTimeFormat('en-US', {
-      timeZone: 'Asia/Taipei', hour: 'numeric', hour12: false,
-    }).format(now));
-    const t = h * 60 + now.getMinutes();
+    const zoned = timeZone => Object.fromEntries(new Intl.DateTimeFormat('en-US', {
+      timeZone, weekday:'short', hour:'2-digit', minute:'2-digit', hour12:false,
+    }).formatToParts(now).map(part => [part.type, part.value]));
+    const twTime = zoned('Asia/Taipei');
+    const usTime = zoned('America/New_York');
+    const isWeekday = parts => !['Sat', 'Sun'].includes(parts.weekday);
+    const twMinutes = Number(twTime.hour) * 60 + Number(twTime.minute);
+    const usMinutes = Number(usTime.hour) * 60 + Number(usTime.minute);
 
     const twOrb = document.getElementById('twOrb');
     const twLabel = document.getElementById('twLabel');
     const usOrb = document.getElementById('usOrb');
     const usLabel = document.getElementById('usLabel');
 
-    if (t >= CONFIG.TW_OPEN && t <= CONFIG.TW_CLOSE) {
+    if (isWeekday(twTime) && twMinutes >= 540 && twMinutes <= 810) {
       if (twOrb) twOrb.className = 'status-orb live';
       if (twLabel) twLabel.textContent = 'TW OPEN';
     } else {
@@ -48,11 +53,8 @@ const App = (() => {
       if (twLabel) twLabel.textContent = 'TW CLOSED';
     }
 
-    const usOpen = CONFIG.US_OPEN;
-    const usClose = CONFIG.US_CLOSE + 24 * 60;
-    const tWrap = t < usOpen ? t + 24 * 60 : t;
-    const isPreMarket = (t >= CONFIG.US_PRE && t < CONFIG.US_OPEN);
-    const isMarketOpen = (tWrap >= usOpen && tWrap <= usClose);
+    const isPreMarket = isWeekday(usTime) && usMinutes >= 240 && usMinutes < 570;
+    const isMarketOpen = isWeekday(usTime) && usMinutes >= 570 && usMinutes <= 960;
 
     if (usOrb && usLabel) {
       if (isMarketOpen) {
@@ -68,45 +70,68 @@ const App = (() => {
     }
   }
 
+  function sourceTimesByRegion(items) {
+    const result = { TW: [], US: [] };
+    items.forEach(item => {
+      const region = item.region || (/\.TW$/i.test(item.symbol || '') ? 'TW' : 'US');
+      const time = typeof item.asOf === 'string' ? Date.parse(item.asOf) : Number(item.asOf);
+      if (Number.isFinite(time) && result[region]) result[region].push(time);
+    });
+    return {
+      twAsOf: result.TW.length ? Math.min(...result.TW) : null,
+      usAsOf: result.US.length ? Math.min(...result.US) : null,
+    };
+  }
+
   // ═══════════════════════════════════════
   // DATA FETCHING
   // ═══════════════════════════════════════
   async function fetchAllData(forceRefresh = false) {
+    if (refreshInFlight) return false;
+    refreshInFlight = true;
     if (forceRefresh) DataService.clearCache();
     UI.setRefreshing(true);
     usingFallback = false;
+    const freshness = [];
+    let expectedQuotes = CONFIG.INDEXES.length;
 
     try {
-      // 1. Fetch indexes (MIS for TW, Yahoo for US, fallback built-in)
+      // 1. Fetch indexes (stale values are rejected by DataService)
       const indexes = await DataService.fetchIndexes();
       if (indexes) {
         indexData = indexes;
         UI.renderIndexCards(indexes);
+        freshness.push(...indexes.filter(x => DataService.isFreshRecord(x, x.region)));
       }
 
       // 2. Fetch watchlist quotes (hybrid: MIS for TW, Yahoo for US)
       const watchlist = loadWatchlist();
       const wSymbols = watchlist.map(w => w.symbol);
+      expectedQuotes += wSymbols.length;
       if (wSymbols.length > 0) {
-        const quotes = await DataService.fetchAllQuotes(wSymbols);
-        if (quotes) {
-          watchlistQuotes = quotes;
-          window._watchlistQuotes = quotes;
-          const watchData = watchlist.map(w => {
-            const q = quotes.find(q => q.symbol === w.symbol);
-            return {
-              ...w,
-              price: q?.price,
-              change: q?.change,
-              changePct: q?.changePct,
-              currency: q?.currency,
-              region: w.region || (w.symbol.endsWith('.TW') ? 'TW' : 'US'),
-            };
-          });
-          UI.renderWatchlist(watchData);
-          UI.renderFeatured();
-          UI.renderTicker(watchData);
+        const quotes = await DataService.fetchAllQuotes(wSymbols) || [];
+        freshness.push(...quotes.filter(x => DataService.isFreshRecord(x)));
+        const watchData = watchlist.map(w => {
+          const q = quotes.find(q => q.symbol === w.symbol);
+          return {
+            ...w,
+            price: q?.price,
+            change: q?.change,
+            changePct: q?.changePct,
+            currency: q?.currency,
+            asOf: q?.asOf,
+            source: q?.source,
+            priceType: q?.priceType,
+            region: w.region || (w.symbol.endsWith('.TW') ? 'TW' : 'US'),
+          };
+        });
+        watchlistQuotes = watchData;
+        window._watchlistQuotes = watchData;
+        UI.renderWatchlist(watchData);
+        UI.renderFeatured();
+        UI.renderTicker(watchData);
 
+        if (quotes.length > 0) {
           // Fetch sparklines for watchlist (non-blocking)
           DataService.fetchSparklines(wSymbols).then(sparkData => {
             UI.renderWatchlist(watchData, sparkData);
@@ -116,7 +141,7 @@ const App = (() => {
       }
 
       // 3. Portfolio stats
-      updatePortfolio();
+      await updatePortfolio();
 
       // 4. Technical indicators - load on demand via HTML button
 
@@ -129,6 +154,18 @@ const App = (() => {
     }
 
     UI.setRefreshing(false);
+    const sourceTimes = freshness.map(x => typeof x.asOf === 'string' ? Date.parse(x.asOf) : Number(x.asOf)).filter(Number.isFinite);
+    const regionalTimes = sourceTimesByRegion(freshness);
+    UI.setDataStatus({
+      fresh: freshness.length,
+      total: expectedQuotes,
+      oldestAsOf: sourceTimes.length ? Math.min(...sourceTimes) : null,
+      ...regionalTimes,
+      mode: 'live',
+      indicative: freshness.filter(x => x.priceType === 'indicative').length,
+    });
+    refreshInFlight = false;
+    return freshness.length > 0;
   }
 
 
@@ -137,53 +174,70 @@ const App = (() => {
   // ═══════════════════════════════════════
   async function loadStaticFallback() {
     try {
+      const requestId = `${Date.now()}_${Math.random().toString(36).slice(2)}`;
       const [idxResp, qResp, nResp] = await Promise.all([
-        fetch('data/indexes.json', { signal: AbortSignal.timeout(3000) }),
-        fetch('data/quotes.json', { signal: AbortSignal.timeout(3000) }),
-        fetch('data/news.json', { signal: AbortSignal.timeout(3000) }).catch(() => null),
+        fetch(`data/indexes.json?_wr=${requestId}`, { cache:'no-store', signal: AbortSignal.timeout(3000) }).catch(() => null),
+        fetch(`data/quotes.json?_wr=${requestId}`, { cache:'no-store', signal: AbortSignal.timeout(3000) }).catch(() => null),
+        fetch(`data/news.json?_wr=${requestId}`, { cache:'no-store', signal: AbortSignal.timeout(3000) }).catch(() => null),
       ]);
-      if (!idxResp.ok && !qResp.ok) return false;
-      
-      const indexes = idxResp.ok ? (await idxResp.json()).data : null;
-      const quotes = qResp.ok ? (await qResp.json()).data : null;
+      if ((!idxResp || !idxResp.ok) && (!qResp || !qResp.ok)) return false;
+
+      const idxEnvelope = idxResp?.ok ? await idxResp.json() : null;
+      const qEnvelope = qResp?.ok ? await qResp.json() : null;
+      const rawIndexes = Array.isArray(idxEnvelope?.data) ? idxEnvelope.data : [];
+      const rawQuotes = Array.isArray(qEnvelope?.data) ? qEnvelope.data : [];
+      const indexes = CONFIG.INDEXES.map(cfg => {
+        const item = rawIndexes.find(x => x.id === cfg.id);
+        return item && DataService.isFreshRecord(item, cfg.region)
+          ? { ...cfg, ...item }
+          : { ...cfg, unavailable:true };
+      });
+      const quotes = rawQuotes.filter(q => DataService.isFreshRecord(q));
       let news = null;
       if (nResp && nResp.ok) {
         try { news = (await nResp.json()).data; } catch(e) {}
       }
       
-      if (indexes && indexes.length > 0) {
+      if (indexes.length > 0) {
         indexData = indexes;
         UI.renderIndexCards(indexes);
       }
-      if (quotes && quotes.length > 0) {
+      {
         const watchlist = loadWatchlist();
         const watchData = watchlist.map(w => {
           const q = quotes.find(q => q.symbol === w.symbol);
-          return { ...w, price: q?.price, change: q?.change, changePct: q?.changePct, currency: w.symbol.endsWith('.TW') ? 'TWD' : 'USD', region: w.region || (w.symbol.endsWith('.TW') ? 'TW' : 'US') };
+          return { ...w, price: q?.price, change: q?.change, changePct: q?.changePct, asOf:q?.asOf, source:q?.source, priceType:q?.priceType, currency: w.symbol.endsWith('.TW') ? 'TWD' : 'USD', region: w.region || (w.symbol.endsWith('.TW') ? 'TW' : 'US') };
         });
         watchlistQuotes = watchData;
+        window._watchlistQuotes = watchData;
         UI.renderWatchlist(watchData);
         UI.renderFeatured();
         UI.renderTicker(watchData);
-        updatePortfolio(quotes);
+        await updatePortfolio(quotes);
       }
       if (news && news.length > 0) {
         UI.renderNews(news);
       }
       
-      const ts = indexes?.timestamp || quotes?.timestamp;
-      if (ts) {
-        document.getElementById('last-updated').textContent = 
-          'CACHED ' + new Date(ts).toLocaleTimeString('zh-TW', { hour:'2-digit', minute:'2-digit', hour12:false });
-      }
-      return true;
+      const freshItems = [...indexes.filter(x => DataService.isFreshRecord(x, x.region)), ...quotes];
+      const sourceTimes = freshItems.map(x => typeof x.asOf === 'string' ? Date.parse(x.asOf) : Number(x.asOf)).filter(Number.isFinite);
+      const regionalTimes = sourceTimesByRegion(freshItems);
+      UI.setDataStatus({
+        fresh: freshItems.length,
+        total: CONFIG.INDEXES.length + loadWatchlist().length,
+        oldestAsOf: sourceTimes.length ? Math.min(...sourceTimes) : null,
+        ...regionalTimes,
+        mode: 'cache',
+        indicative: freshItems.filter(x => x.priceType === 'indicative').length,
+      });
+      return freshItems.length > 0;
     } catch(e) { return false; }
   }
 
   // ═══════════════════════════════════════
   // PORTFOLIO
   // ═══════════════════════════════════════
-  async function updatePortfolio() {
+  async function updatePortfolio(preloadedQuotes = null) {
     const holdings = PortfolioService.getHoldings();
     if (!holdings.length) {
       // Show empty portfolio state
@@ -198,7 +252,9 @@ const App = (() => {
         ...watchlistQuotes.map(q => q.symbol),
       ])];
 
-      const quotes = await DataService.fetchAllQuotes(allSymbols);
+      const quotes = Array.isArray(preloadedQuotes)
+        ? preloadedQuotes
+        : await DataService.fetchAllQuotes(allSymbols);
       const quotesMap = {};
       if (quotes) quotes.forEach(q => { quotesMap[q.symbol] = q; });
 
