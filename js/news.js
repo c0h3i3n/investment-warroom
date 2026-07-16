@@ -7,16 +7,6 @@ const NewsService = (() => {
 
   const RSS2JSON = 'https://api.rss2json.com/v1/api.json?rss_url=';
 
-  // ── Fallback news when feeds are unavailable ──
-  const FALLBACK_NEWS = [
-    { region:'US',  headline:'Fed 6月會議紀要：通膨降溫跡象明顯，市場預期年內降息兩次概率升至72%', source:'Reuters',  time:'09:12', impact:'pos' },
-    { region:'TW',  headline:'台積電法說：CoWoS 封裝產能明年再翻倍，AI 伺服器需求持續強勁，上調全年展望', source:'經濟日報', time:'08:45', impact:'pos' },
-    { region:'INTL',headline:'美國 5月 CPI 年增 3.3%，低於預期 3.5%，美元指數走弱，黃金攀升至 $2,380', source:'Bloomberg',time:'08:30', impact:'neu' },
-    { region:'TW',  headline:'外資今日買超 82 億，聚焦半導體族群，聯電、日月光同步走強；融資餘額創近月新低', source:'MoneyDJ',  time:'09:20', impact:'pos' },
-    { region:'US',  headline:'NVDA 宣布新一代 Blackwell Ultra GPU 提前量產，預計 Q3 出貨；AI 算力競賽再升溫', source:'CNBC',     time:'07:58', impact:'pos' },
-    { region:'INTL',headline:'日圓急貶至 158，日銀緊急召開會議；亞股匯市波動加劇，新台幣走貶 0.3%', source:'FT',       time:'07:30', impact:'neg' },
-  ];
-
   function truncate(str, len) {
     return str.length > len ? str.slice(0, len) + '…' : str;
   }
@@ -65,8 +55,8 @@ const NewsService = (() => {
     const allNews = results.flat();
 
     if (allNews.length === 0) {
-      console.info('No RSS feeds, using fallback');
-      return [...FALLBACK_NEWS];
+      console.info('No current RSS feeds available');
+      return [];
     }
 
     // Deduplicate
@@ -84,15 +74,20 @@ const NewsService = (() => {
   // ── Get news (cached or fresh) ──
   let cachedNews = null;
   let lastFetch = 0;
+  let requestEpoch = 0;
 
   async function getNews(forceRefresh = false) {
     if (!forceRefresh && cachedNews && (Date.now() - lastFetch) < CONFIG.REFRESH_NEWS) {
       return cachedNews;
     }
-    cachedNews = await fetchAllFeeds();
-    lastFetch = Date.now();
-    return cachedNews;
+    const requestId = ++requestEpoch;
+    const news = await fetchAllFeeds();
+    if (requestId === requestEpoch) {
+      cachedNews = news;
+      lastFetch = Date.now();
+    }
+    return news;
   }
 
-  return { getNews, FALLBACK_NEWS };
+  return { getNews };
 })();

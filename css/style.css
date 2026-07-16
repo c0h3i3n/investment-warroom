@@ -283,6 +283,7 @@ body {
 .idx-region { font-family:'Orbitron',sans-serif; font-size:7px; letter-spacing:3px; color:var(--text-dim); margin-bottom:4px; }
 .idx-name   { font-size:11px; color:var(--text-mid); margin-bottom:6px; font-weight:300; }
 .idx-price  { font-family:'Orbitron',sans-serif; font-size:22px; font-weight:600; letter-spacing:1px; line-height:1; margin-bottom:6px; }
+.idx-unit { font-size:.42em; letter-spacing:1px; opacity:.72; vertical-align:middle; }
 .idx-price.up { color:var(--pos); text-shadow:0 0 15px var(--pos-glow); }
 .idx-price.dn { color:var(--neg); text-shadow:0 0 15px var(--neg-glow); }
 
@@ -296,6 +297,13 @@ body {
 .progress-fill.up { background:linear-gradient(90deg,rgba(255,119,68,0.4),var(--pos)); box-shadow:0 0 6px var(--pos); }
 .progress-fill.dn { background:linear-gradient(90deg,rgba(204,17,51,0.4),var(--neg)); box-shadow:0 0 6px var(--neg); }
 
+.idx-spark-wrap { position:relative; min-height:34px; margin-top:4px; }
+.idx-spark-meta {
+  position:absolute; top:-2px; right:0; z-index:1;
+  font-family:'Orbitron',sans-serif; font-size:6px; letter-spacing:1px;
+  color:rgba(255,180,120,.55); pointer-events:none;
+}
+.idx-spark-meta.unavailable { color:rgba(255,255,255,.28); }
 .mini-spark { width:100%; height:30px; margin-top:4px; }
 
 /* ═══ MAIN GRID ═══ */

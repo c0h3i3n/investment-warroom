@@ -9,8 +9,20 @@ const DataService = (() => {
   // ── Internal cache ──
   const cache = new Map();
   const latestRecords = new Map();
+  const indexSeriesCache = new Map();
+  const indexSeriesInFlight = new Map();
   const CACHE_TTL = 15000;
+  const INDEX_SERIES_OPEN_TTL = 60000;
+  const INDEX_SERIES_CLOSED_TTL = 15 * 60 * 1000;
+  const INDEX_SERIES_CLOSE_GRACE = 10;
+  const MARKET_DATA_CLOSED_MAX_AGE = 4 * 24 * 60 * 60 * 1000;
+  const MARKET_SESSIONS = {
+    TW: { timeZone: 'Asia/Taipei', open: 540, close: 810 },
+    US: { timeZone: 'America/New_York', open: 570, close: 960 },
+  };
   let activeProxyIndex = 0;
+  let cacheEpoch = 0;
+  let indexSeriesEpoch = 0;
 
   // ── OTC ETF symbols need .TWO suffix on Yahoo Finance ──
   const OTC_YAHOO_MAP = { '00679B.TW':'00679B.TWO', '00933B.TW':'00933B.TWO', '00937B.TW':'00937B.TWO' };
@@ -25,25 +37,77 @@ const DataService = (() => {
     return `${url}${separator}_wr=${Date.now()}_${Math.random().toString(36).slice(2)}`;
   }
 
-  function isMarketOpen(region, now = new Date()) {
-    const timeZone = region === 'TW' ? 'Asia/Taipei' : 'America/New_York';
+  function getMarketTimeParts(region, timestamp = Date.now()) {
+    const session = MARKET_SESSIONS[region] || MARKET_SESSIONS.US;
     const parts = Object.fromEntries(new Intl.DateTimeFormat('en-US', {
-      timeZone, weekday: 'short', hour: '2-digit', minute: '2-digit', hour12: false,
-    }).formatToParts(now).map(p => [p.type, p.value]));
-    if (parts.weekday === 'Sat' || parts.weekday === 'Sun') return false;
-    const minutes = Number(parts.hour) * 60 + Number(parts.minute);
-    return region === 'TW'
-      ? minutes >= 540 && minutes <= 810
-      : minutes >= 570 && minutes <= 960;
+      timeZone: session.timeZone,
+      year: 'numeric', month: '2-digit', day: '2-digit',
+      weekday: 'short', hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
+    }).formatToParts(new Date(timestamp)).map(p => [p.type, p.value]));
+    const hour = Number(parts.hour) === 24 ? 0 : Number(parts.hour);
+    return {
+      ...parts,
+      minutes: hour * 60 + Number(parts.minute),
+      dayNumber: Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day)),
+    };
   }
 
-  function isFreshTimestamp(timestamp, region) {
+  function isWeekday(parts) {
+    return parts.weekday !== 'Sat' && parts.weekday !== 'Sun';
+  }
+
+  function isMarketOpen(region, now = new Date()) {
+    const session = MARKET_SESSIONS[region] || MARKET_SESSIONS.US;
+    const parts = getMarketTimeParts(region, now);
+    return isWeekday(parts) && parts.minutes >= session.open && parts.minutes < session.close;
+  }
+
+  function isInClosingGrace(region, now = new Date()) {
+    const session = MARKET_SESSIONS[region] || MARKET_SESSIONS.US;
+    const parts = getMarketTimeParts(region, now);
+    return isWeekday(parts)
+      && parts.minutes >= session.close
+      && parts.minutes < session.close + INDEX_SERIES_CLOSE_GRACE;
+  }
+
+  function isFreshTimestamp(timestamp, region, nowMs = Date.now()) {
     const sourceMs = typeof timestamp === 'string' ? Date.parse(timestamp) : Number(timestamp);
     if (!Number.isFinite(sourceMs) || sourceMs <= 0) return false;
-    const age = Date.now() - sourceMs;
+    const age = nowMs - sourceMs;
     if (age < -5 * 60 * 1000) return false;
-    const maxAge = isMarketOpen(region) ? 20 * 60 * 1000 : 7 * 24 * 60 * 60 * 1000;
-    return age <= maxAge;
+    if (isMarketOpen(region, new Date(nowMs))) return age <= 20 * 60 * 1000;
+    if (age > MARKET_DATA_CLOSED_MAX_AGE) return false;
+
+    // Outside trading hours, only the latest plausible trading session is
+    // accepted. This prevents a proxy or scheduled snapshot from making a
+    // days-old quote look current merely by refreshing its envelope timestamp.
+    const session = MARKET_SESSIONS[region] || MARKET_SESSIONS.US;
+    const sourceParts = getMarketTimeParts(region, sourceMs);
+    const nowParts = getMarketTimeParts(region, nowMs);
+    if (!isWeekday(sourceParts) || sourceParts.minutes < session.close - 60) return false;
+    if (isWeekday(nowParts) && nowParts.minutes >= session.close
+      && sourceParts.dayNumber !== nowParts.dayNumber) return false;
+    return countWeekdaysCrossed(sourceMs, nowMs, region) <= 1;
+  }
+
+  function countWeekdaysCrossed(sourceMs, nowMs, region) {
+    const source = getMarketTimeParts(region, sourceMs);
+    const now = getMarketTimeParts(region, nowMs);
+    if (!Number.isFinite(source.dayNumber) || !Number.isFinite(now.dayNumber)
+      || source.dayNumber > now.dayNumber) return Infinity;
+
+    let weekdays = 0;
+    for (let day = source.dayNumber + 24 * 60 * 60 * 1000;
+      day <= now.dayNumber;
+      day += 24 * 60 * 60 * 1000) {
+      const weekday = new Date(day).getUTCDay();
+      if (weekday >= 1 && weekday <= 5) weekdays += 1;
+    }
+    return weekdays;
+  }
+
+  function isFreshIndexSeriesTimestamp(timestamp, region, nowMs = Date.now()) {
+    return isFreshTimestamp(timestamp, region, nowMs);
   }
 
   function isFreshRecord(record, region = record?.region || (/\.TW$/i.test(record?.symbol || '') ? 'TW' : 'US')) {
@@ -97,17 +161,19 @@ const DataService = (() => {
   // ═══════════════════════════════════════
   // CORE FETCH — tries each proxy in sequence
   // ═══════════════════════════════════════
-  async function fetchWithProxy(url, timeoutMs = 8000) {
+  async function fetchWithProxy(url, timeoutMs = 8000, options = {}) {
     const freshUrl = addCacheBuster(url);
     // Try direct first with short timeout
-    try {
-      const resp = await fetch(freshUrl, { cache: 'no-store', signal: AbortSignal.timeout(4000) });
-      if (resp.ok) {
-        const text = await resp.text();
-        const parsed = parseProxyResponse(text);
-        if (parsed) return parsed;
-      }
-    } catch (e) { /* CORS blocked — expected */ }
+    if (options.direct !== false) {
+      try {
+        const resp = await fetch(freshUrl, { cache: 'no-store', signal: AbortSignal.timeout(4000) });
+        if (resp.ok) {
+          const text = await resp.text();
+          const parsed = parseProxyResponse(text);
+          if (parsed) return parsed;
+        }
+      } catch (e) { /* CORS blocked — expected */ }
+    }
 
     // Try each proxy
     const startIdx = activeProxyIndex;
@@ -196,12 +262,13 @@ const DataService = (() => {
     const key = `quotes:${symbols.join(',')}`;
     const cached = getCached(key);
     if (cached) return cached;
+    const requestEpoch = cacheEpoch;
 
     try {
       const results = await Promise.all(symbols.map(s => fetchOneChartQuote(OTC_YAHOO_MAP[s] || s)));
       const valid = results.filter(r => r != null);
       if (valid.length > 0) {
-        setCache(key, valid);
+        if (requestEpoch === cacheEpoch) setCache(key, valid);
         return valid;
       }
     } catch (e) {
@@ -294,6 +361,7 @@ const DataService = (() => {
     const key = 'indexes:all';
     const cached = getCached(key);
     if (cached) return cached;
+    const requestEpoch = cacheEpoch;
 
     const results = [];
 
@@ -350,7 +418,7 @@ const DataService = (() => {
       if (!existing || existing.price == null) results.push({ ...idx, unavailable:true });
     });
 
-    setCache(key, results);
+    if (requestEpoch === cacheEpoch) setCache(key, results);
     return results;
   }
 
@@ -361,8 +429,10 @@ const DataService = (() => {
     const key = `hist:${symbol}:${range}:${interval}`;
     const cached = getCached(key);
     if (cached) return cached;
+    const requestEpoch = cacheEpoch;
 
-    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${symbol}?range=${range}&interval=${interval}`;
+    const encodedSymbol = encodeURIComponent(symbol);
+    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodedSymbol}?range=${range}&interval=${interval}`;
     try {
       const json = await fetchWithProxy(url, 15000);
       const result = json?.chart?.result?.[0];
@@ -381,12 +451,150 @@ const DataService = (() => {
         volume: quote.volume[i],
       })).filter(d => d.close != null);
 
-      setCache(key, data);
+      if (requestEpoch === cacheEpoch) setCache(key, data);
       return data;
     } catch (e) {
       console.warn('fetchHistorical failed:', e.message);
       return null;
     }
+  }
+
+  // ═══════════════════════
+  // FETCH REAL INDEX SERIES
+  // TW: official MIS 1-minute chart
+  // US: Yahoo 1-day/5-minute, then 5-day/hourly fallback
+  // ═══════════════════════
+  function normalizeSeriesPoints(points) {
+    const byTime = new Map();
+    (points || []).forEach(point => {
+      let time = Number(point?.time);
+      const close = Number(point?.close);
+      if (Number.isFinite(time) && time > 0 && time < 1e12) time *= 1000;
+      if (Number.isFinite(time) && time > 0 && Number.isFinite(close) && close > 0) {
+        byTime.set(time, close);
+      }
+    });
+    return [...byTime.entries()]
+      .sort((a, b) => a[0] - b[0])
+      .map(([time, close]) => ({ time, close }));
+  }
+
+  function makeIndexSeries(points, region, source, period, interval) {
+    const normalized = normalizeSeriesPoints(points);
+    if (normalized.length < 2) return null;
+    const asOf = normalized[normalized.length - 1].time;
+    if (!isFreshIndexSeriesTimestamp(asOf, region)) return null;
+    return {
+      closes: normalized.map(point => point.close),
+      asOf,
+      source,
+      period,
+      interval,
+    };
+  }
+
+  function parseMISIndexKey(misKey) {
+    const separator = String(misKey || '').indexOf('_');
+    if (separator <= 0) return null;
+    const ex = misKey.slice(0, separator);
+    const ch = misKey.slice(separator + 1);
+    if (!['tse', 'otc'].includes(ex) || !/^[A-Za-z0-9]+\.tw$/i.test(ch)) return null;
+    return { ex, ch };
+  }
+
+  async function fetchTWIndexSeries(index) {
+    const chartKey = parseMISIndexKey(index?.misKey);
+    if (!chartKey) return null;
+    const url = `https://mis.twse.com.tw/stock/api/getChartOhlcStatis.jsp?ex=${encodeURIComponent(chartKey.ex)}&ch=${encodeURIComponent(chartKey.ch)}&fqy=1&delay=0`;
+    // The official MIS endpoint does not expose CORS headers, so skip the
+    // guaranteed-to-fail browser-direct attempt and use the configured proxies.
+    const json = await fetchWithProxy(url, 10000, { direct: false });
+    if (!Array.isArray(json?.ohlcArray)) return null;
+    const points = json.ohlcArray.map(row => ({ time: row?.t, close: row?.c }));
+    const source = chartKey.ex === 'otc' ? 'TPEx MIS' : 'TWSE MIS';
+    return makeIndexSeries(points, 'TW', source, '1D', '1m');
+  }
+
+  async function fetchUSIndexSeries(index) {
+    const intraday = await fetchHistorical(index.symbol, '1d', '5m');
+    let series = makeIndexSeries(intraday, 'US', 'Yahoo Finance', '1D', '5m');
+    if (series) return series;
+
+    const hourly = await fetchHistorical(index.symbol, '5d', '60m');
+    series = makeIndexSeries(hourly, 'US', 'Yahoo Finance', '5D', '1h');
+    return series;
+  }
+
+  function getIndexSeriesCache(index) {
+    const entry = indexSeriesCache.get(index.id);
+    if (!entry) return null;
+    const nowMs = Date.now();
+    const now = new Date(nowMs);
+    const ttl = isMarketOpen(index.region, now) || isInClosingGrace(index.region, now)
+      ? INDEX_SERIES_OPEN_TTL
+      : INDEX_SERIES_CLOSED_TTL;
+    const validData = Array.isArray(entry.data?.closes)
+      && entry.data.closes.length >= 2
+      && entry.data.closes.every(close => Number.isFinite(Number(close)) && Number(close) > 0)
+      && isFreshIndexSeriesTimestamp(entry.data.asOf, index.region, nowMs);
+    if (!validData) {
+      indexSeriesCache.delete(index.id);
+      return null;
+    }
+    return {
+      data: entry.data,
+      validForRequest: (nowMs - entry.ts) < ttl,
+    };
+  }
+
+  function fetchOneIndexSeries(index) {
+    const cached = getIndexSeriesCache(index);
+    if (cached?.validForRequest) return Promise.resolve(cached.data);
+    const pending = indexSeriesInFlight.get(index.id);
+    if (pending) return pending;
+
+    const requestEpoch = indexSeriesEpoch;
+    const request = (async () => {
+      try {
+        const series = index.region === 'TW'
+          ? await fetchTWIndexSeries(index)
+          : await fetchUSIndexSeries(index);
+        if (series) {
+          if (requestEpoch === indexSeriesEpoch) {
+            indexSeriesCache.set(index.id, { ts: Date.now(), data: series });
+          }
+          return series;
+        }
+      } catch (error) {
+        console.warn(`Index series ${index.id} failed:`, error.message);
+      }
+      // A refresh failure may reuse a previously fetched series only while its
+      // source timestamp still passes the same market-aware freshness check.
+      if (cached?.data) {
+        return cached.data;
+      }
+      return null;
+    })();
+
+    indexSeriesInFlight.set(index.id, request);
+    request.finally(() => {
+      if (indexSeriesInFlight.get(index.id) === request) indexSeriesInFlight.delete(index.id);
+    });
+    return request;
+  }
+
+  async function fetchIndexSeries(indexes = CONFIG.INDEXES) {
+    const configs = Array.isArray(indexes)
+      ? indexes.filter(index => index?.id && index?.symbol && ['TW', 'US'].includes(index?.region))
+      : [];
+    const settled = await Promise.allSettled(configs.map(fetchOneIndexSeries));
+    const result = {};
+    settled.forEach((outcome, index) => {
+      if (outcome.status === 'fulfilled' && outcome.value) {
+        result[configs[index].id] = outcome.value;
+      }
+    });
+    return result;
   }
 
   // ═══════════════════════════════════════
@@ -452,6 +660,10 @@ const DataService = (() => {
   // ═══════════════════════════════════════
   function clearCache() {
     cache.clear();
+    cacheEpoch += 1;
+    indexSeriesCache.clear();
+    indexSeriesInFlight.clear();
+    indexSeriesEpoch += 1;
     activeProxyIndex = 0;
   }
 
@@ -480,6 +692,7 @@ const DataService = (() => {
     fetchIndexes,
     fetchAllQuotes,
     fetchSparklines,
+    fetchIndexSeries,
     clearCache,
     isFreshRecord,
     rememberRecords,

@@ -9,7 +9,6 @@ const IndicatorsService = (() => {
   function getCloses(data) { return data.map(d => d.close).filter(v => v != null); }
   function getHighs(data)  { return data.map(d => d.high).filter(v => v != null); }
   function getLows(data)   { return data.map(d => d.low).filter(v => v != null); }
-  function getVolumes(data){ return data.map(d => d.volume).filter(v => v != null); }
 
   // ═══════════════════════════════════════
   // RSI (Relative Strength Index)
@@ -117,17 +116,118 @@ const IndicatorsService = (() => {
   }
 
   // ═══════════════════════════════════════
-  // Average Volume
+  // Volume pace (compare an intraday candle with the expected volume so far)
   // ═══════════════════════════════════════
-  function calcAvgVolume(volumes, period = 20) {
-    if (volumes.length < period) return null;
-    return Math.round(volumes.slice(-period).reduce((a, b) => a + b, 0) / period);
+  const MARKET_SESSIONS = {
+    TW: { timeZone: 'Asia/Taipei', open: 9 * 60, close: 13 * 60 + 30 },
+    US: { timeZone: 'America/New_York', open: 9 * 60 + 30, close: 16 * 60 },
+  };
+  const VOLUME_WARMUP_MINUTES = 30;
+
+  function zonedTimeParts(timestamp, timeZone) {
+    const parts = new Intl.DateTimeFormat('en-US', {
+      timeZone,
+      year: 'numeric', month: '2-digit', day: '2-digit',
+      weekday: 'short', hour: '2-digit', minute: '2-digit',
+      hourCycle: 'h23',
+    }).formatToParts(new Date(timestamp));
+    const values = Object.fromEntries(parts.map(part => [part.type, part.value]));
+    const hour = Number(values.hour) === 24 ? 0 : Number(values.hour);
+    return {
+      dateKey: `${values.year}-${values.month}-${values.day}`,
+      weekday: values.weekday,
+      minutes: hour * 60 + Number(values.minute),
+    };
+  }
+
+  function classifyVolumeRatio(ratio, allowDryUp = true, reference = 'PACE') {
+    if (ratio >= 1.5) return { label: 'SURGE ↑↑', color: 'up' };
+    if (ratio >= 1.1) return { label: `ABOVE ${reference} ↑`, color: 'up' };
+    if (ratio >= 0.8) return { label: `ON ${reference} —`, color: 'arc' };
+    if (ratio >= 0.5 || !allowDryUp) return { label: `BELOW ${reference} ↓`, color: 'warn' };
+    return { label: 'DRY UP ↓↓', color: 'warn' };
+  }
+
+  function analyzeVolume(data, symbol, nowMs = Date.now()) {
+    if (!Array.isArray(data)) return null;
+
+    // Preserve candle timestamps: filtering a standalone volume array can make
+    // a previous day's volume look like today's when the latest value is null.
+    const rows = data.map(row => ({
+      time: row?.time == null ? NaN : (typeof row.time === 'string' ? Date.parse(row.time) : Number(row.time)),
+      volume: row?.volume == null || row.volume === '' ? NaN : Number(row.volume),
+    })).filter(row => Number.isFinite(row.time) && Number.isFinite(row.volume) && row.volume >= 0)
+      .sort((a, b) => a.time - b.time);
+
+    // The latest row is the comparison day, so its (possibly partial) volume
+    // must never be included in the 20 completed-session baseline.
+    if (rows.length < 21) return null;
+    const latest = rows[rows.length - 1];
+    const baseline = rows.slice(0, -1).slice(-20);
+    const avgVolume = baseline.reduce((sum, row) => sum + row.volume, 0) / baseline.length;
+    if (!Number.isFinite(avgVolume) || avgVolume <= 0) return null;
+
+    const market = /\.TW$/i.test(symbol || '') || /^\^TW/i.test(symbol || '') ? 'TW' : 'US';
+    const session = MARKET_SESSIONS[market];
+    const parsedNow = nowMs instanceof Date ? nowMs.getTime() : Number(nowMs);
+    const effectiveNow = Number.isFinite(parsedNow) ? parsedNow : Date.now();
+    const now = zonedTimeParts(effectiveNow, session.timeZone);
+    const candle = zonedTimeParts(latest.time, session.timeZone);
+    const weekday = !['Sat', 'Sun'].includes(now.weekday);
+    const latestIsToday = candle.dateKey === now.dateKey;
+    const marketOpen = weekday && now.minutes >= session.open && now.minutes < session.close;
+    const intraday = marketOpen && latestIsToday;
+
+    let mode;
+    let progress = 1;
+    let ratio = latest.volume / avgVolume;
+    let name;
+    let signal;
+    let color;
+
+    if (intraday) {
+      const elapsedMinutes = now.minutes - session.open;
+      progress = Math.min(1, Math.max(0, elapsedMinutes / (session.close - session.open)));
+      name = `VOL · ${Math.round(progress * 100)}% DAY`;
+
+      if (elapsedMinutes < VOLUME_WARMUP_MINUTES) {
+        mode = 'building';
+        ratio = null;
+        signal = 'BUILDING DATA';
+        color = 'arc';
+      } else {
+        mode = 'pace';
+        ratio = latest.volume / (avgVolume * progress);
+        const classification = classifyVolumeRatio(ratio, progress >= 0.5);
+        signal = `PACE ${Math.round(ratio * 100)}% · ${classification.label}`;
+        color = classification.color;
+      }
+    } else {
+      const closedToday = weekday && latestIsToday && now.minutes >= session.close;
+      mode = closedToday ? 'close' : 'last';
+      name = closedToday ? 'VOL · CLOSE' : 'VOL · LAST';
+      const classification = classifyVolumeRatio(ratio, true, 'AVG');
+      signal = `20D ${Math.round(ratio * 100)}% · ${classification.label}`;
+      color = classification.color;
+    }
+
+    return {
+      name,
+      value: formatVolume(latest.volume),
+      signal,
+      color,
+      mode,
+      progress,
+      ratio,
+      latestVolume: latest.volume,
+      avgVolume,
+    };
   }
 
   // ═══════════════════════════════════════
   // Interpret indicators
   // ═══════════════════════════════════════
-  function interpret(rsi, macd, stoch, ma20, ma60, currentPrice, avgVol, latestVol) {
+  function interpret(rsi, macd, stoch, ma20, ma60, currentPrice, volumeIndicator) {
     const results = [];
 
     if (rsi !== null) {
@@ -166,15 +266,7 @@ const IndicatorsService = (() => {
       results.push({ name: 'MA · 60', value: ma60.toFixed(1), signal: above ? 'ABOVE ✓' : 'BELOW ✗', color: above ? 'up' : 'dn' });
     }
 
-    if (avgVol !== null && latestVol !== null) {
-      const ratio = latestVol / avgVol;
-      let signal, color;
-      if (ratio > 1.5) { signal = 'SURGE ↑↑'; color = 'vol'; }
-      else if (ratio > 1.0) { signal = 'ABOVE AVG ↑'; color = 'up'; }
-      else if (ratio > 0.5) { signal = 'BELOW AVG ↓'; color = 'dn'; }
-      else { signal = 'DRY UP ↓↓'; color = 'warn'; }
-      results.push({ name: 'VOL', value: formatVolume(latestVol), signal, color });
-    }
+    if (volumeIndicator) results.push(volumeIndicator);
 
     return results;
   }
@@ -204,19 +296,16 @@ const IndicatorsService = (() => {
     const closes = getCloses(data);
     const highs = getHighs(data);
     const lows = getLows(data);
-    const volumes = getVolumes(data);
-
     const rsi = calcRSI(closes);
     const macd = calcMACD(closes);
     const stoch = calcStochastic(highs, lows, closes);
     const ma20 = calcSMA(closes, 20);
     const ma60 = calcSMA(closes, 60);
-    const avgVol = calcAvgVolume(volumes);
-    const latestVol = volumes[volumes.length - 1];
+    const volumeIndicator = analyzeVolume(data, symbol);
 
     return {
       symbol,
-      indicators: interpret(rsi, macd, stoch, ma20, ma60, currentPrice, avgVol, latestVol),
+      indicators: interpret(rsi, macd, stoch, ma20, ma60, currentPrice, volumeIndicator),
       chartData: data.slice(-60),
     };
   }
@@ -224,5 +313,5 @@ const IndicatorsService = (() => {
   // ═══════════════════════════════════════
   // Public API
   // ═══════════════════════════════════════
-  return { calculateFor, calcSMA };
+  return { calculateFor, calcSMA, analyzeVolume };
 })();

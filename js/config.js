@@ -33,11 +33,11 @@ const CONFIG = {
 
   // ── Major Indexes ──
   INDEXES: [
-    { id: 'tai', symbol: '^TWII',   misKey: 'tse_t00.tw', name: '加權指數 TAIEX',    region: 'TW', currency: 'NT$' },
-    { id: 'otc', symbol: '^TWOII',  misKey: 'otc_o00.tw', name: 'OTC 櫃買指數',      region: 'TW', currency: 'NT$' },
-    { id: 'spx', symbol: '^GSPC',   misKey: null,         name: 'S&P 500',           region: 'US', currency: '$'   },
-    { id: 'ndx', symbol: '^IXIC',   misKey: null,         name: 'NASDAQ',            region: 'US', currency: '$'   },
-    { id: 'sox', symbol: '^SOX',    misKey: null,         name: '費城半導體 SOX',    region: 'US', currency: '$'   },
+    { id: 'tai', symbol: '^TWII',   misKey: 'tse_t00.tw', name: '加權指數 TAIEX',    region: 'TW', currency: 'NT$', unit: 'PTS' },
+    { id: 'otc', symbol: '^TWOII',  misKey: 'otc_o00.tw', name: 'OTC 櫃買指數',      region: 'TW', currency: 'NT$', unit: 'PTS' },
+    { id: 'spx', symbol: '^GSPC',   misKey: null,         name: 'S&P 500',           region: 'US', currency: '$',   unit: 'PTS' },
+    { id: 'ndx', symbol: '^IXIC',   misKey: null,         name: 'NASDAQ',            region: 'US', currency: '$',   unit: 'PTS' },
+    { id: 'sox', symbol: '^SOX',    misKey: null,         name: '費城半導體 SOX',    region: 'US', currency: '$',   unit: 'PTS' },
   ],
 
   // ── Default Watchlist ──

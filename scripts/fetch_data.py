@@ -26,6 +26,7 @@ OTC_CODES = {
     '00962B', '00963B', '00964B', '00965B',
 }
 PROXIES = ['https://api.allorigins.win/raw?url=', 'https://corsproxy.io/?']
+CLOSED_MARKET_MAX_AGE = timedelta(days=4)
 
 
 def cache_bust(url):
@@ -84,19 +85,50 @@ def market_open(region, now=None):
     if local.weekday() >= 5:
         return False
     minutes = local.hour * 60 + local.minute
-    return 540 <= minutes <= 810 if region == 'TW' else 570 <= minutes <= 960
+    return 540 <= minutes < 810 if region == 'TW' else 570 <= minutes < 960
 
 
-def fresh(as_of, region):
+def weekdays_crossed(source_time, now, region):
+    market_tz = TAIPEI if region == 'TW' else NEW_YORK
+    source_day = source_time.astimezone(market_tz).date()
+    now_day = now.astimezone(market_tz).date()
+    if source_day > now_day:
+        return float('inf')
+
+    weekdays = 0
+    day = source_day + timedelta(days=1)
+    while day <= now_day:
+        if day.weekday() < 5:
+            weekdays += 1
+        day += timedelta(days=1)
+    return weekdays
+
+
+def fresh(as_of, region, now=None):
     try:
         source_time = datetime.fromisoformat(as_of.replace('Z', '+00:00')).astimezone(timezone.utc)
     except (AttributeError, TypeError, ValueError):
         return False
-    age = datetime.now(timezone.utc) - source_time
+    now = (now or datetime.now(timezone.utc)).astimezone(timezone.utc)
+    age = now - source_time
     if age < -timedelta(minutes=5):
         return False
-    limit = timedelta(minutes=20) if market_open(region) else timedelta(days=7)
-    return age <= limit
+    if market_open(region, now):
+        return age <= timedelta(minutes=20)
+    if age > CLOSED_MARKET_MAX_AGE:
+        return False
+
+    market_tz = TAIPEI if region == 'TW' else NEW_YORK
+    source_local = source_time.astimezone(market_tz)
+    now_local = now.astimezone(market_tz)
+    close = 810 if region == 'TW' else 960
+    source_minutes = source_local.hour * 60 + source_local.minute
+    if source_local.weekday() >= 5 or source_minutes < close - 60:
+        return False
+    if now_local.weekday() < 5 and now_local.hour * 60 + now_local.minute >= close:
+        if source_local.date() != now_local.date():
+            return False
+    return weekdays_crossed(source_time, now, region) <= 1
 
 
 def region_for_symbol(symbol):

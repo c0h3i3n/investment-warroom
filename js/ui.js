@@ -9,6 +9,9 @@ const UI = (() => {
   function chgClass(val) { return val >= 0 ? 'up' : 'dn'; }
   function chgArrow(val) { return val >= 0 ? '▲' : '▼'; }
   function pctStr(val) { return (val >= 0 ? '+' : '') + val.toFixed(2) + '%'; }
+  function isFiniteValue(value) {
+    return value !== null && value !== undefined && value !== '' && Number.isFinite(Number(value));
+  }
 
   function portfolioMoney(value, currency, signed = false) {
     const amount = Math.abs(Number(value));
@@ -48,6 +51,13 @@ const UI = (() => {
     return prefix + fmtPrice(price, region);
   }
 
+  function fmtIndexLevel(price) {
+    return Number(price).toLocaleString('en-US', {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
+    });
+  }
+
   // ═══════════════════════════════════════
   // INDEX CARDS
   // ═══════════════════════════════════════
@@ -55,34 +65,30 @@ const UI = (() => {
     const container = document.getElementById('index-cards');
     if (!container) return;
 
-    container.innerHTML = indexes.map((idx, i) => {
+    container.innerHTML = indexes.map(idx => {
       const price = idx.price;
       const changePct = idx.changePct;
-      const hasData = Number.isFinite(Number(price)) && Number.isFinite(Number(changePct));
+      const hasData = isFiniteValue(price) && isFiniteValue(changePct);
       const cls = changePct >= 0 ? 'up' : 'dn';
-      const points = generateSparkPoints(30, 100, changePct >= 0);
-      const color = cls === 'up' ? '#ff7744' : '#cc1133';
-      const gradId = 'sg' + (i + 1);
 
       return `
       <div class="idx-card">
         <div class="idx-region">${idx.region} · ${idx.region === 'TW' ? '台灣' : '美國'}</div>
         <div class="idx-name">${idx.name}</div>
-        <div class="idx-price ${hasData ? cls : ''}" data-id="${idx.id}" title="${idx.priceType === 'indicative' ? '≈ 代表 TWSE 買一／賣一中間報價，非最後成交價' : ''}">${hasData ? (idx.priceType === 'indicative' ? '≈' : '') + idx.currency + fmtPrice(price, idx.region) : '--'}</div>
+        <div class="idx-price ${hasData ? cls : ''}" data-id="${idx.id}" title="指數點位，不是貨幣金額">${hasData ? (idx.priceType === 'indicative' ? '≈' : '') + fmtIndexLevel(price) + '<span class="idx-unit"> ' + (idx.unit || 'PTS') + '</span>' : '--'}</div>
         <div class="idx-change">
           <span class="idx-pct ${hasData ? cls : ''}">${hasData ? chgArrow(changePct) + ' ' + Math.abs(changePct).toFixed(2) + '%' : '⚠ DATA UNAVAILABLE'}</span>
           <div class="progress-track"><div class="progress-fill ${cls}" style="width:${Math.min(100, Math.abs(changePct || 0) * 15)}%"></div></div>
         </div>
-        <svg class="mini-spark" viewBox="0 0 100 30" preserveAspectRatio="none">
-          <defs><linearGradient id="${gradId}" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="${color}" stop-opacity=".35"/>
-            <stop offset="100%" stop-color="${color}" stop-opacity="0"/>
-          </linearGradient></defs>
-          <path fill="url(#${gradId})" d="M0,30 ${points.area} 100,30 Z"/>
-          <polyline fill="none" stroke="${color}" stroke-width="1.5" opacity=".9" points="${points.line}"/>
-          <circle cx="100" cy="${points.lastY}" r="2" fill="${color}" filter="drop-shadow(0 0 3px ${color})"/>
-        </svg>
+        <div class="idx-spark-wrap" data-index="${idx.id}" title="等待真實市場走勢資料">
+          <div class="idx-spark-meta">CHART PENDING</div>
+          <svg class="mini-spark" viewBox="0 0 100 30" preserveAspectRatio="none">
+            <line x1="0" y1="15" x2="100" y2="15" stroke="rgba(255,255,255,.12)" stroke-dasharray="3 4"/>
+          </svg>
+        </div>
       </div>`;
+    }).join('');
+
     // Flash prices after render
     setTimeout(() => {
       indexes.forEach(idx => {
@@ -90,23 +96,43 @@ const UI = (() => {
         flashPrice(el, 'idx_'+idx.id, idx.price);
       });
     }, 50);
-    }).join('');
   }
 
-  function generateSparkPoints(h, w, uptrend) {
-    let y = uptrend ? h * 0.7 : h * 0.3;
-    const ptsLine = [];
-    const ptsArea = [];
-    let lastY = y;
-    for (let x = 0; x <= w; x += Math.ceil(w / 10)) {
-      y += (uptrend ? -1 : 1) * (Math.random() * 3 + 0.5);
-      y = Math.max(2, Math.min(h - 2, y));
-      if (x === 0) ptsArea.push(`0,${h}`);
-      ptsLine.push(`${x},${y.toFixed(1)}`);
-      ptsArea.push(`${x},${y.toFixed(1)}`);
-      lastY = y;
-    }
-    return { line: ptsLine.join(' '), area: ptsArea.join(' '), lastY: lastY.toFixed(1) };
+  function renderIndexSparklines(seriesMap = {}) {
+    document.querySelectorAll('.idx-spark-wrap[data-index]').forEach(wrap => {
+      const id = wrap.dataset.index;
+      const series = seriesMap[id];
+      const geometry = normalizeSparkGeometry(series?.closes, 100, 30);
+      if (!geometry) {
+        wrap.title = '真實走勢資料暫時不可用';
+        wrap.innerHTML = `
+          <div class="idx-spark-meta unavailable">NO CHART</div>
+          <svg class="mini-spark" viewBox="0 0 100 30" preserveAspectRatio="none">
+            <line x1="0" y1="15" x2="100" y2="15" stroke="rgba(255,255,255,.12)" stroke-dasharray="3 4"/>
+          </svg>`;
+        return;
+      }
+
+      const rising = geometry.lastValue >= geometry.firstValue;
+      const color = rising ? '#ff7744' : '#cc1133';
+      const gradId = `idx-sg-${id}`;
+      const asOf = Number(series.asOf);
+      const asOfText = Number.isFinite(asOf)
+        ? new Intl.DateTimeFormat('zh-TW', { timeZone:'Asia/Taipei', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', hour12:false }).format(new Date(asOf))
+        : '--';
+      wrap.title = `${series.source || 'MARKET DATA'} · ${asOfText}`;
+      wrap.innerHTML = `
+        <div class="idx-spark-meta">${series.period} · ${series.interval}</div>
+        <svg class="mini-spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-label="真實市場走勢">
+          <defs><linearGradient id="${gradId}" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="${color}" stop-opacity=".35"/>
+            <stop offset="100%" stop-color="${color}" stop-opacity="0"/>
+          </linearGradient></defs>
+          <path fill="url(#${gradId})" d="M0,30 ${geometry.area} 100,30 Z"/>
+          <polyline fill="none" stroke="${color}" stroke-width="1.5" opacity=".9" points="${geometry.line}"/>
+          <circle cx="100" cy="${geometry.lastY}" r="2" fill="${color}" filter="drop-shadow(0 0 3px ${color})"/>
+        </svg>`;
+    });
   }
 
   // ═══════════════════════════════════════
@@ -118,7 +144,7 @@ const UI = (() => {
 
     // Duplicate for seamless scroll
     const items = [...quotes, ...quotes].map(q => {
-      const hasData = Number.isFinite(Number(q.price)) && Number.isFinite(Number(q.changePct));
+      const hasData = isFiniteValue(q.price) && isFiniteValue(q.changePct);
       const cls = hasData && q.changePct >= 0 ? 't-up' : 't-dn';
       const arrow = (q.changePct || 0) >= 0 ? '▲' : '▼';
       const sym = q.symbol.replace('.TW', '');
@@ -152,7 +178,7 @@ const UI = (() => {
     if (!tbody) return;
 
     tbody.innerHTML = stats.holdings.map(h => {
-      const hasPrice = !h.unavailable && Number.isFinite(Number(h.price));
+      const hasPrice = !h.unavailable && isFiniteValue(h.price);
       const cls = chgClass(h.pnlPct);
       const barW = hasPrice ? Math.min(100, Math.abs(h.pnlPct || 0) * 2.5) : 0;
       const arrow = chgArrow(h.pnlPct);
@@ -189,16 +215,35 @@ const UI = (() => {
   // SPARKLINE HELPER — normalize real data to SVG points
   // ═══════════════════════════════════════
   function normalizeSparkline(closes, w, h) {
-    if (!closes || closes.length < 2) return null;
-    const min = Math.min(...closes);
-    const max = Math.max(...closes);
-    const range = max - min || 1;
-    const step = w / (closes.length - 1);
-    return closes.map((v, i) => {
+    const values = (closes || []).map(Number).filter(Number.isFinite);
+    if (values.length < 2) return null;
+    const maxPoints = 120;
+    const sampled = values.length <= maxPoints
+      ? values
+      : Array.from({ length:maxPoints }, (_, i) => values[Math.round(i * (values.length - 1) / (maxPoints - 1))]);
+    const min = Math.min(...sampled);
+    const max = Math.max(...sampled);
+    const range = max - min;
+    const step = w / (sampled.length - 1);
+    return sampled.map((v, i) => {
       const x = (i * step).toFixed(1);
-      const y = (h - ((v - min) / range) * (h - 4) - 2).toFixed(1);
+      const y = (range === 0 ? h / 2 : h - ((v - min) / range) * (h - 4) - 2).toFixed(1);
       return x + ',' + y;
     }).join(' ');
+  }
+
+  function normalizeSparkGeometry(closes, w, h) {
+    const values = (closes || []).map(Number).filter(Number.isFinite);
+    const line = normalizeSparkline(values, w, h);
+    if (!line) return null;
+    const lastPoint = line.split(' ').pop();
+    return {
+      line,
+      area: `0,${h} ${line} ${w},${h}`,
+      lastY: lastPoint.split(',')[1],
+      firstValue: values[0],
+      lastValue: values[values.length - 1],
+    };
   }
 
   // ═══════════════════════════════════════
@@ -209,19 +254,21 @@ const UI = (() => {
     if (!container) return;
 
     container.innerHTML = watchData.map(w => {
-      const hasData = Number.isFinite(Number(w.price)) && Number.isFinite(Number(w.changePct));
+      const hasData = isFiniteValue(w.price) && isFiniteValue(w.changePct);
       const cls = (w.changePct || 0) >= 0 ? 'up' : 'dn';
       const arrow = chgArrow(w.changePct || 0);
       const sym = w.symbol.replace('.TW', '');
       const color = cls === 'up' ? '#ff7744' : '#cc1133';
       const realCloses = sparkData ? sparkData[w.symbol] : null;
-      const pts = realCloses ? normalizeSparkline(realCloses, 55, 22) : generateSparkPoints(22, 55, cls === 'up').line;
+      const pts = normalizeSparkline(realCloses, 55, 22);
 
       return `
       <div class="watch-item">
         <span class="w-ticker">${sym}</span><span class="w-name">${w.name}</span>
-        <svg class="w-spark" viewBox="0 0 55 22" preserveAspectRatio="none">
-          <polyline fill="none" stroke="${color}" stroke-width="1.5" points="${pts}"/>
+        <svg class="w-spark" viewBox="0 0 55 22" preserveAspectRatio="none" aria-label="${pts ? '真實近三月日線走勢' : '走勢資料暫時不可用'}">
+          ${pts
+            ? `<polyline fill="none" stroke="${color}" stroke-width="1.5" points="${pts}"/>`
+            : '<text x="27.5" y="13" text-anchor="middle" fill="rgba(255,255,255,.25)" font-size="5">N/A</text>'}
         </svg>
         <span class="w-price" data-sym="${w.symbol}" title="${w.priceType === 'indicative' ? '≈ 代表買一／賣一中間報價，非最後成交價' : ''}">${hasData ? (w.priceType === 'indicative' ? '≈' : '') + fmtCurrency(w.price, w.region) : '--'}</span>
         <span class="w-chg ${hasData ? cls : ''}">${hasData ? arrow + ' ' + Math.abs(w.changePct).toFixed(2) + '%' : 'UNAVAILABLE'}</span>
@@ -251,7 +298,7 @@ const UI = (() => {
     if (!data.length) return;
 
     container.innerHTML = data.map(q => {
-      const hasData = Number.isFinite(Number(q.price)) && Number.isFinite(Number(q.changePct));
+      const hasData = isFiniteValue(q.price) && isFiniteValue(q.changePct);
       const cls = (q.changePct || 0) >= 0 ? 'up' : 'dn';
       const arrow = (q.changePct || 0) >= 0 ? '▲' : '▼';
       const sym = q.symbol.replace('.TW', '');
@@ -345,25 +392,43 @@ const UI = (() => {
   function renderNews(newsItems) {
     const container = document.getElementById('news-feed');
     if (!container) return;
+    if (!Array.isArray(newsItems) || newsItems.length === 0) {
+      container.innerHTML = '<div class="loading-indicator" style="grid-column:1/-1">⚠ CURRENT NEWS UNAVAILABLE · 未顯示舊新聞</div>';
+      return;
+    }
+
+    const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({
+      '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;',
+    })[char]);
+    const safeHttpUrl = value => {
+      try {
+        const url = new URL(String(value || ''));
+        return ['http:', 'https:'].includes(url.protocol) ? escapeHtml(url.href) : '';
+      } catch(e) { return ''; }
+    };
 
     const half = Math.ceil(newsItems.length / 2);
     const left = newsItems.slice(0, half);
     const right = newsItems.slice(half);
 
     const renderCol = (items) => items.map(n => {
-      const headlineHtml = n.link
-        ? `<a class="n-headline" href="${n.link}" target="_blank" rel="noopener">${n.headline}</a>`
-        : `<span class="n-headline">${n.headline}</span>`;
+      const link = safeHttpUrl(n.link);
+      const headline = escapeHtml(n.headline);
+      const region = ['TW', 'US', 'INTL'].includes(n.region) ? n.region : 'INTL';
+      const impact = ['pos', 'neg', 'neu'].includes(n.impact) ? n.impact : 'neu';
+      const headlineHtml = link
+        ? `<a class="n-headline" href="${link}" target="_blank" rel="noopener">${headline}</a>`
+        : `<span class="n-headline">${headline}</span>`;
       return `
       <div class="news-item">
-        <div class="n-tag ${n.region === 'TW' ? 'tw' : n.region === 'US' ? 'us' : 'macro'}">${n.region}</div>
+        <div class="n-tag ${region === 'TW' ? 'tw' : region === 'US' ? 'us' : 'macro'}">${region}</div>
         <div>
           ${headlineHtml}
           <div class="n-meta">
-            <span>${n.source}</span><span>${n.time}</span>
+            <span>${escapeHtml(n.source)}</span><span>${escapeHtml(n.time)}</span>
             <div class="n-impact">
-              <div class="n-dot ${n.impact}"></div>
-              <span style="color:${n.impact === 'pos' ? 'var(--pos)' : n.impact === 'neg' ? 'var(--neg)' : 'var(--gold)'}">${n.impact.toUpperCase()}</span>
+              <div class="n-dot ${impact}"></div>
+              <span style="color:${impact === 'pos' ? 'var(--pos)' : impact === 'neg' ? 'var(--neg)' : 'var(--gold)'}">${impact.toUpperCase()}</span>
             </div>
           </div>
         </div>
@@ -528,8 +593,8 @@ const UI = (() => {
     const sysOrb = document.getElementById('sysOrb');
     const sysLabel = document.getElementById('sysLabel');
     const tickerMode = document.getElementById('ticker-mode-label');
-    const asOf = Number(oldestAsOf);
-    const formatTime = value => Number.isFinite(Number(value))
+    const asOf = isFiniteValue(oldestAsOf) ? Number(oldestAsOf) : null;
+    const formatTime = value => isFiniteValue(value)
       ? new Intl.DateTimeFormat('zh-TW', { timeZone:'Asia/Taipei', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', second:'2-digit', hour12:false }).format(new Date(Number(value)))
       : null;
     const regionalText = [
@@ -581,6 +646,7 @@ const UI = (() => {
   return {
     // Rendering
     renderIndexCards,
+    renderIndexSparklines,
     renderTicker,
     renderPortfolio,
     renderWatchlist,
