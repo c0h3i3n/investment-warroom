@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-07-16T07:10:20.640917+00:00",
-  "generatedAt": "2026-07-16T07:10:20.640917+00:00",
+  "timestamp": "2026-07-16T07:27:21.759386+00:00",
+  "generatedAt": "2026-07-16T07:27:21.759386+00:00",
   "data": [
     {
       "symbol": "0050.TW",
@@ -80,6 +80,16 @@
       "changePct": -0.68,
       "asOf": "2026-07-16T06:30:00+00:00",
       "source": "TWSE MIS",
+      "priceType": "trade"
+    },
+    {
+      "symbol": "SPCX",
+      "name": "",
+      "price": 135.27,
+      "change": -0.81,
+      "changePct": -0.6,
+      "asOf": "2026-07-15T20:00:00+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
