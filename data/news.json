@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-07-16T16:43:43.452366+00:00",
-  "generatedAt": "2026-07-16T16:43:43.452366+00:00",
+  "timestamp": "2026-07-16T17:55:18.859464+00:00",
+  "generatedAt": "2026-07-16T17:55:18.859464+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI汽車需求爆發！美光攜高通等大廠簽長約 搶攻車用記憶體",
+      "headline": "AI規模大到避不掉！阿波羅：新的60/40配置變成「AI vs.非AI」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537277"
+      "link": "https://news.cnyes.com/news/id/6536276"
     },
     {
       "region": "TW",
-      "headline": "散戶不再是韭菜！高盛：美股價格開始由他們決定",
+      "headline": "蘋果iPad mini大改版來了！OLED螢幕最快10月亮相 售價恐喊漲",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537210"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6537334"
     },
     {
       "region": "TW",
-      "headline": "記憶體股為何又跌了？亮麗的基本面下仍利空頻傳",
+      "headline": "美光怎麼了？股價月跌兩成 三大利空浮現",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6537186"
+      "link": "https://news.cnyes.com/news/id/6537335"
     },
     {
       "region": "TW",
-      "headline": "美股盤整走勢背後 晶片股與七巨頭演繹3.2兆美元不同行情",
+      "headline": "Jim Cramer：半導體淪為「情緒賭場」 SK 海力士上市拖累台積電",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537164"
+      "link": "https://news.cnyes.com/news/id/6537284"
     },
     {
       "region": "TW",
-      "headline": "AI超級週期助攻！渣打點名台灣成全球經濟最大贏家 估GDP衝上9.5％",
+      "headline": "鉅亨速報 - Factset 最新調查：台積電(2330-TW)目標價調升至3090元，幅度約3%",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537219"
+      "link": "https://news.cnyes.com/news/id/6537320"
     },
     {
       "region": "TW",
-      "headline": "加速鐵道產業國產化 鐵道局推產品檢測補助、每案最高可達300萬",
+      "headline": "AI浪潮助攻 多家機構看好台積電 目標價頻創新高",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537214"
+      "link": "https://news.cnyes.com/news/id/6537278"
     },
     {
       "region": "TW",
-      "headline": "正崴德州廠正式啟用 首座美國AI示範工廠",
+      "headline": "日電貿Q2純益創新高年增逾6倍 EPS3.16元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537195"
-    },
-    {
-      "region": "TW",
-      "headline": "力成攜手博通衝刺FOPLP 於新加坡建合資公司",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537200"
+      "link": "https://news.cnyes.com/news/id/6537265"
     }
   ]
 }
