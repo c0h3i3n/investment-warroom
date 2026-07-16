@@ -1,54 +1,70 @@
 {
-  "timestamp": "2026-07-16T13:00:49.979174+00:00",
-  "generatedAt": "2026-07-16T13:00:49.979174+00:00",
+  "timestamp": "2026-07-16T15:13:15.418461+00:00",
+  "generatedAt": "2026-07-16T15:13:15.418461+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "黃仁勳日本行戰略全解析：見救命恩人、簽約機器人三巨頭 聯手日本「物理AI國家隊」Noetra",
+      "headline": "AI汽車需求爆發！美光攜高通等大廠簽長約 搶攻車用記憶體",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6536955"
+      "link": "https://news.cnyes.com/news/id/6537277"
     },
     {
       "region": "TW",
-      "headline": "國泰金重大人事！劉上旗掌國泰投信總座、老將陳祖培回鍋國泰世華銀",
+      "headline": "散戶不再是韭菜！高盛：美股價格開始由他們決定",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537042"
+      "link": "https://news.cnyes.com/news/id/6537210"
     },
     {
       "region": "TW",
-      "headline": "〈消費趨勢〉高溫帶進龐大人流 環球購物樂觀估暑期業績增1成",
+      "headline": "記憶體股為何又跌了？亮麗的基本面下仍利空頻傳",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6537069"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6537186"
     },
     {
       "region": "TW",
-      "headline": "新青安3.0不當房價助燃劑！阮清華：三限＋信用管制 房市將「量縮價平」",
+      "headline": "美股盤整走勢背後 晶片股與七巨頭演繹3.2兆美元不同行情",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537068"
+      "link": "https://news.cnyes.com/news/id/6537164"
     },
     {
       "region": "TW",
-      "headline": "訊聯基因AI中心打開第二條營收成長曲線 Q1智慧研發營收翻倍",
+      "headline": "AI超級週期助攻！渣打點名台灣成全球經濟最大贏家 估GDP衝上9.5％",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6536829"
+      "link": "https://news.cnyes.com/news/id/6537219"
     },
     {
       "region": "TW",
-      "headline": "三大法人賣超431億元 齊買力積電近6萬張 外資大動作加碼台指期空單",
+      "headline": "加速鐵道產業國產化 鐵道局推產品檢測補助、每案最高可達300萬",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537076"
+      "link": "https://news.cnyes.com/news/id/6537214"
+    },
+    {
+      "region": "TW",
+      "headline": "正崴德州廠正式啟用 首座美國AI示範工廠",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6537195"
+    },
+    {
+      "region": "TW",
+      "headline": "力成攜手博通衝刺FOPLP 於新加坡建合資公司",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6537200"
     }
   ]
 }
