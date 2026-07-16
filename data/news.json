@@ -1,7 +1,31 @@
 {
-  "timestamp": "2026-07-16T19:16:54.370683+00:00",
-  "generatedAt": "2026-07-16T19:16:54.370683+00:00",
+  "timestamp": "2026-07-16T20:26:22.760405+00:00",
+  "generatedAt": "2026-07-16T20:26:22.760405+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "怕荷姆茲海峽再封鎖！雪佛龍布局伊拉克 擬打造原油新出口路線",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6537365"
+    },
+    {
+      "region": "TW",
+      "headline": "AI燒錢燒過頭？甲骨文豪砸2500億美元 信評快掉進垃圾級",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6537364"
+    },
+    {
+      "region": "TW",
+      "headline": "從明星股變空頭獵物！SpaceX失守IPO價 空軍狂賺87億美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6537333"
+    },
     {
       "region": "TW",
       "headline": "AI規模大到避不掉！阿波羅：新的60/40配置變成「AI vs.非AI」",
@@ -12,35 +36,19 @@
     },
     {
       "region": "TW",
-      "headline": "蘋果iPad mini大改版來了！OLED螢幕最快10月亮相 售價恐喊漲",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6537334"
-    },
-    {
-      "region": "TW",
-      "headline": "美光怎麼了？股價月跌兩成 三大利空浮現",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6537335"
-    },
-    {
-      "region": "TW",
-      "headline": "Jim Cramer：半導體淪為「情緒賭場」 SK 海力士上市拖累台積電",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537284"
-    },
-    {
-      "region": "TW",
       "headline": "鉅亨速報 - Factset 最新調查：台積電(2330-TW)目標價調升至3090元，幅度約3%",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6537320"
+    },
+    {
+      "region": "TW",
+      "headline": "Jim Cramer：半導體淪為「情緒賭場」 SK 海力士上市拖累台積電",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6537284"
     },
     {
       "region": "TW",
