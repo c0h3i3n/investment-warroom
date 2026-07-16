@@ -1,62 +1,54 @@
 {
-  "timestamp": "2026-07-16T09:28:08.101278+00:00",
-  "generatedAt": "2026-07-16T09:28:08.101278+00:00",
+  "timestamp": "2026-07-16T11:18:53.611665+00:00",
+  "generatedAt": "2026-07-16T11:18:53.611665+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "SK海力士ADR高溢價為何難持久？分析師揭關鍵",
+      "headline": "黃仁勳日本行戰略全解析：見救命恩人、簽約機器人三巨頭 聯手日本「物理AI國家隊」Noetra",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6536257"
+      "link": "https://news.cnyes.com/news/id/6536955"
     },
     {
       "region": "TW",
-      "headline": "〈亞洲生技大展〉卓榮泰：生技產業聚焦三大面向 拚2030年新增逾千億元民間投資",
+      "headline": "國泰金重大人事！劉上旗掌國泰投信總座、老將陳祖培回鍋國泰世華銀",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6536833"
+      "link": "https://news.cnyes.com/news/id/6537042"
     },
     {
       "region": "TW",
-      "headline": "ASML首遭中國技術挑戰！繞道LDP技術點亮國產EUV原型機！外媒：進展超許多西方專家預期",
+      "headline": "〈消費趨勢〉高溫帶進龐大人流 環球購物樂觀估暑期業績增1成",
       "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6536331"
-    },
-    {
-      "region": "TW",
-      "headline": "IEA警告：中國稀土出口管制恐衝擊西方6.5兆美元產業",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6536779"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台積電法說〉Q3美元營收季增12%再攀峰 上調全年營收年增至逾4成",
-      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6536825"
+      "link": "https://news.cnyes.com/news/id/6537069"
     },
     {
       "region": "TW",
-      "headline": "新青安3.0重點懶人包：5大條件更新 婚育補助最高可貸1500萬",
+      "headline": "新青安3.0不當房價助燃劑！阮清華：三限＋信用管制 房市將「量縮價平」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6537068"
+    },
+    {
+      "region": "TW",
+      "headline": "訊聯基因AI中心打開第二條營收成長曲線 Q1智慧研發營收翻倍",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6536818"
+      "link": "https://news.cnyes.com/news/id/6536829"
     },
     {
       "region": "TW",
-      "headline": "〈台積電法說〉上調資本支出衝破600億美元 達600-640億美元",
+      "headline": "三大法人賣超431億元 齊買力積電近6萬張 外資大動作加碼台指期空單",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6536791"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6537076"
     }
   ]
 }
