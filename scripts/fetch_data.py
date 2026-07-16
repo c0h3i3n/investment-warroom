@@ -323,7 +323,7 @@ for identifier, symbol, name, region, currency in index_config:
         'priceType': market.get('priceType'),
     })
 
-watch_symbols = ['0050.TW', '2330.TW', '00679B.TW', '00878.TW', '00929.TW', '00933B.TW', '00937B.TW', '009800.TW', 'NVDA', 'TSLA']
+watch_symbols = ['0050.TW', '2330.TW', '00679B.TW', '00878.TW', '00929.TW', '00933B.TW', '00937B.TW', '009800.TW', 'SPCX', 'NVDA', 'TSLA']
 yahoo_data = yahoo_quotes(watch_symbols)
 tw_data = mis_quotes([symbol for symbol in watch_symbols if symbol.endswith('.TW')])
 quotes = []
@@ -343,7 +343,7 @@ for symbol in watch_symbols:
 valid_indexes = sum(1 for item in indexes if item.get('price') and item.get('asOf'))
 valid_quotes = sum(1 for item in quotes if item.get('price') and item.get('asOf'))
 if valid_indexes < 3 or valid_quotes < 5:
-    print(f'❌ Refusing partial snapshot: indexes={valid_indexes}/5 quotes={valid_quotes}/10', file=sys.stderr)
+    print(f'❌ Refusing partial snapshot: indexes={valid_indexes}/{len(indexes)} quotes={valid_quotes}/{len(quotes)}', file=sys.stderr)
     print('   Missing indexes: ' + ', '.join(item['symbol'] for item in indexes if not item.get('price')), file=sys.stderr)
     print('   Missing quotes: ' + ', '.join(item['symbol'] for item in quotes if not item.get('price')), file=sys.stderr)
     sys.exit(1)
@@ -387,4 +387,4 @@ for item in news_items:
 if news:
     atomic_json('news.json', {'timestamp': generated_at, 'generatedAt': generated_at, 'data': news[:12]})
 
-print(f'✅ {datetime.now(TAIPEI).strftime("%H:%M:%S")}  Idx:{valid_indexes}/5  Q:{valid_quotes}/10  News:{len(news[:12])}')
+print(f'✅ {datetime.now(TAIPEI).strftime("%H:%M:%S")}  Idx:{valid_indexes}/{len(indexes)}  Q:{valid_quotes}/{len(quotes)}  News:{len(news[:12])}')
