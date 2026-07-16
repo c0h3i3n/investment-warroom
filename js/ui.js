@@ -10,6 +10,16 @@ const UI = (() => {
   function chgArrow(val) { return val >= 0 ? '▲' : '▼'; }
   function pctStr(val) { return (val >= 0 ? '+' : '') + val.toFixed(2) + '%'; }
 
+  function portfolioMoney(value, currency, signed = false) {
+    const amount = Math.abs(Number(value));
+    const prefix = currency === 'USD' ? '$' : 'NT$';
+    const formatted = currency === 'USD'
+      ? amount.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+      : Math.round(amount).toLocaleString();
+    const sign = signed ? (Number(value) >= 0 ? '+' : '-') : (Number(value) < 0 ? '-' : '');
+    return `${sign}${prefix}${formatted}`;
+  }
+
   // ── Price Flash Animation ──
   const _prevPrices = {};
 
@@ -127,14 +137,15 @@ const UI = (() => {
     const totalPnl = document.getElementById('port-total-pnl');
     const returnRate = document.getElementById('port-return-rate');
 
-    const complete = !stats.unavailableCount;
-    if (totalVal) totalVal.textContent = complete ? `NT$${Math.round(stats.totalValue).toLocaleString()}` : '--';
+    const complete = !stats.unavailableCount && !stats.mixedCurrency;
+    const approximation = stats.hasIndicative ? '≈' : '';
+    if (totalVal) totalVal.textContent = stats.mixedCurrency ? 'MIXED' : complete ? approximation + portfolioMoney(stats.totalValue, stats.currency) : '--';
     if (totalPnl) {
-      totalPnl.textContent = complete ? (stats.totalPnl >= 0 ? '+' : '') + `NT$${Math.round(stats.totalPnl).toLocaleString()}` : '--';
+      totalPnl.textContent = complete ? approximation + portfolioMoney(stats.totalPnl, stats.currency, true) : '--';
       totalPnl.className = 'ps-value ' + chgClass(stats.totalPnl);
     }
     if (returnRate) {
-      returnRate.textContent = complete ? pctStr(stats.returnPct) : '--';
+      returnRate.textContent = complete ? approximation + pctStr(stats.returnPct) : '--';
       returnRate.className = 'ps-value ' + chgClass(stats.returnPct);
     }
 
@@ -240,6 +251,7 @@ const UI = (() => {
     if (!data.length) return;
 
     container.innerHTML = data.map(q => {
+      const hasData = Number.isFinite(Number(q.price)) && Number.isFinite(Number(q.changePct));
       const cls = (q.changePct || 0) >= 0 ? 'up' : 'dn';
       const arrow = (q.changePct || 0) >= 0 ? '▲' : '▼';
       const sym = q.symbol.replace('.TW', '');
@@ -247,8 +259,8 @@ const UI = (() => {
       <div class="featured-card">
         <div class="featured-sym">${sym}</div>
         <div class="featured-name">${q.name || ''}</div>
-        <div class="featured-price ${cls}" data-sym="${q.symbol}" title="${q.priceType === 'indicative' ? '≈ 代表買一／賣一中間報價，非最後成交價' : ''}">${q.price != null ? (q.priceType === 'indicative' ? '≈' : '') + Number(q.price).toFixed(2) : '--'}</div>
-        <div class="featured-chg ${cls}">${arrow} ${Math.abs(q.change || 0).toFixed(2)} (${Math.abs(q.changePct || 0).toFixed(2)}%)</div>
+        <div class="featured-price ${hasData ? cls : ''}" data-sym="${q.symbol}" title="${q.priceType === 'indicative' ? '≈ 代表買一／賣一中間報價，非最後成交價' : ''}">${hasData ? (q.priceType === 'indicative' ? '≈' : '') + Number(q.price).toFixed(2) : '--'}</div>
+        <div class="featured-chg ${hasData ? cls : ''}">${hasData ? arrow + ' ' + Math.abs(q.change || 0).toFixed(2) + ' (' + Math.abs(q.changePct).toFixed(2) + '%)' : '⚠ UNAVAILABLE'}</div>
       </div>`;
     }).join('');
 
@@ -515,6 +527,7 @@ const UI = (() => {
     const lbl = document.getElementById('last-updated');
     const sysOrb = document.getElementById('sysOrb');
     const sysLabel = document.getElementById('sysLabel');
+    const tickerMode = document.getElementById('ticker-mode-label');
     const asOf = Number(oldestAsOf);
     const formatTime = value => Number.isFinite(Number(value))
       ? new Intl.DateTimeFormat('zh-TW', { timeZone:'Asia/Taipei', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', second:'2-digit', hour12:false }).format(new Date(Number(value)))
@@ -535,6 +548,11 @@ const UI = (() => {
       sysLabel.textContent = mode === 'cache' && fresh > 0
         ? 'DATA CACHED'
         : complete && !indicative ? 'DATA LIVE' : complete ? 'DATA QUOTED' : fresh > 0 ? 'DATA PARTIAL' : 'DATA OFFLINE';
+    }
+    if (tickerMode) {
+      tickerMode.textContent = mode === 'cache' && fresh > 0
+        ? '◈ CACHED'
+        : !fresh ? '⚠ OFFLINE' : fresh < total ? '⚠ PARTIAL' : indicative ? '≈ QUOTE' : '⬡ LIVE';
     }
   }
 

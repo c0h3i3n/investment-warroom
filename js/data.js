@@ -8,6 +8,7 @@ const DataService = (() => {
 
   // ── Internal cache ──
   const cache = new Map();
+  const latestRecords = new Map();
   const CACHE_TTL = 15000;
   let activeProxyIndex = 0;
 
@@ -56,6 +57,27 @@ const DataService = (() => {
     if (!/^\d{8}$/.test(row.d || '') || !/^\d{2}:\d{2}:\d{2}$/.test(row.t || '')) return null;
     const d = row.d;
     return Date.parse(`${d.slice(0, 4)}-${d.slice(4, 6)}-${d.slice(6, 8)}T${row.t}+08:00`);
+  }
+
+  function keepNewest(record, key = record?.symbol || record?.id) {
+    if (!record || !key) return record;
+    const previous = latestRecords.get(key);
+    const nextTime = typeof record.asOf === 'string' ? Date.parse(record.asOf) : Number(record.asOf);
+    const previousTime = typeof previous?.asOf === 'string' ? Date.parse(previous.asOf) : Number(previous?.asOf);
+    if (previous && Number.isFinite(previousTime) && Number.isFinite(nextTime)
+      && previousTime > nextTime && isFreshRecord(previous, previous.region)) {
+      return previous;
+    }
+    latestRecords.set(key, record);
+    return record;
+  }
+
+  function rememberRecords(records = []) {
+    records.forEach(record => {
+      if (isFreshRecord(record, record?.region)) {
+        keepNewest({ ...record, deliveryMode: 'cache' });
+      }
+    });
   }
 
   // ═══════════════════════════════════════
@@ -144,11 +166,11 @@ const DataService = (() => {
       const originalSymbol = OTC_YAHOO_REV[meta.symbol] || symbol;
       const region = /\.TW$/i.test(originalSymbol) ? 'TW' : 'US';
       if (!isFreshRecord({ price, asOf: sourceTime }, region)) {
-        console.warn(`Rejected stale/invalid Yahoo quote: ${originalSymbol}`);
+        console.info(`Rejected stale/invalid Yahoo quote: ${originalSymbol}`);
         return null;
       }
 
-      return {
+      return keepNewest({
         symbol: originalSymbol,
         name: meta.shortName || meta.longName || meta.symbol,
         price: price,
@@ -158,7 +180,9 @@ const DataService = (() => {
         currency: meta.currency,
         source: 'Yahoo Finance',
         asOf: sourceTime,
-      };
+        priceType: 'trade',
+        region,
+      }, originalSymbol);
     } catch (e) {
       console.warn(`fetchOneChartQuote ${symbol} failed:`, e.message);
       return null;
@@ -204,8 +228,9 @@ const DataService = (() => {
       if (resp.ok) {
         const json = await resp.json();
         const arr = json?.msgArray;
-        if (arr && arr.length > 0 && arr.some(r => r.z && r.z !== '-')) {
-          return parseMIS(arr);
+        if (arr && arr.length > 0) {
+          const parsed = parseMIS(arr);
+          if (parsed.length > 0) return parsed;
         }
       }
     } catch(e) {}
@@ -258,7 +283,7 @@ const DataService = (() => {
       const changePct = (prevClose&&change!=null) ? (change/prevClose)*100 : null;
       const sourceTime = parseMisTimestamp(r);
       if (!isFreshRecord({ price, asOf: sourceTime }, 'TW')) return null;
-      return { symbol, price, change, changePct, prevClose, currency:'TWD', name: r.n||r.nf||r.c, source:'TWSE MIS', asOf:sourceTime, priceType };
+      return keepNewest({ symbol, price, change, changePct, prevClose, currency:'TWD', name: r.n||r.nf||r.c, source:'TWSE MIS', asOf:sourceTime, priceType, region:'TW' }, symbol);
     }).filter(r=>r!=null);
   }
 
@@ -292,7 +317,7 @@ const DataService = (() => {
               const sourceTime = parseMisTimestamp(r);
 
               if (isFreshRecord({ price, asOf: sourceTime }, 'TW')) {
-                results.push({ ...idx, price, change, changePct, source:'TWSE MIS', asOf:sourceTime });
+                results.push(keepNewest({ ...idx, price, change, changePct, source:'TWSE MIS', asOf:sourceTime, priceType:'trade' }, idx.symbol));
               }
             }
           });
@@ -457,5 +482,6 @@ const DataService = (() => {
     fetchSparklines,
     clearCache,
     isFreshRecord,
+    rememberRecords,
   };
 })();

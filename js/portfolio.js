@@ -101,6 +101,8 @@ const PortfolioService = (() => {
     let totalValue = 0;
     let totalCost = 0;
     let unavailableCount = 0;
+    let hasIndicative = false;
+    const activeCurrencies = new Set();
     const enriched = holdings.map(h => {
       const quote = quotesMap[h.symbol];
       const hasPrice = Number.isFinite(Number(quote?.price)) && Number(quote.price) > 0;
@@ -113,7 +115,11 @@ const PortfolioService = (() => {
       if (hasPrice) {
         totalValue += value;
         totalCost += costBasis;
-      } else {
+        if (Number(h.shares) > 0) {
+          activeCurrencies.add(quote?.currency || (h.region === 'TW' ? 'TWD' : 'USD'));
+          if (quote?.priceType === 'indicative') hasIndicative = true;
+        }
+      } else if (Number(h.shares) > 0) {
         unavailableCount += 1;
       }
 
@@ -129,17 +135,21 @@ const PortfolioService = (() => {
       };
     });
 
-    const totalPnl = totalValue - totalCost;
-    const returnPct = totalCost > 0 ? ((totalPnl / totalCost) * 100) : 0;
+    const mixedCurrency = activeCurrencies.size > 1;
+    const totalCurrency = mixedCurrency ? 'MIX' : activeCurrencies.values().next().value || 'TWD';
+    const totalPnl = mixedCurrency ? null : totalValue - totalCost;
+    const returnPct = mixedCurrency ? null : totalCost > 0 ? ((totalPnl / totalCost) * 100) : 0;
 
     return {
       holdings: enriched,
-      totalValue,
-      totalCost,
+      totalValue: mixedCurrency ? null : totalValue,
+      totalCost: mixedCurrency ? null : totalCost,
       totalPnl,
       returnPct,
       unavailableCount,
-      currency: 'MIX', // mixed currencies
+      mixedCurrency,
+      hasIndicative,
+      currency: totalCurrency,
     };
   }
 

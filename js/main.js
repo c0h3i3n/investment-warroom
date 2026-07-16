@@ -11,6 +11,7 @@ const App = (() => {
   let indexData = [];
   let usingFallback = false;
   let refreshInFlight = false;
+  let refreshGeneration = 0;
 
   // ═══════════════════════════════════════
   // CLOCK & STATUS
@@ -83,12 +84,19 @@ const App = (() => {
     };
   }
 
+  function isFreshEnvelope(envelope, maxAgeMs = 60 * 60 * 1000) {
+    const timestamp = Date.parse(envelope?.generatedAt || envelope?.timestamp || '');
+    const age = Date.now() - timestamp;
+    return Number.isFinite(timestamp) && age >= -5 * 60 * 1000 && age <= maxAgeMs;
+  }
+
   // ═══════════════════════════════════════
   // DATA FETCHING
   // ═══════════════════════════════════════
   async function fetchAllData(forceRefresh = false) {
     if (refreshInFlight) return false;
     refreshInFlight = true;
+    const generation = ++refreshGeneration;
     if (forceRefresh) DataService.clearCache();
     UI.setRefreshing(true);
     usingFallback = false;
@@ -134,8 +142,10 @@ const App = (() => {
         if (quotes.length > 0) {
           // Fetch sparklines for watchlist (non-blocking)
           DataService.fetchSparklines(wSymbols).then(sparkData => {
-            UI.renderWatchlist(watchData, sparkData);
-            UI.renderFeatured();
+            if (generation === refreshGeneration) {
+              UI.renderWatchlist(watchData, sparkData);
+              UI.renderFeatured();
+            }
           });
         }
       }
@@ -161,7 +171,7 @@ const App = (() => {
       total: expectedQuotes,
       oldestAsOf: sourceTimes.length ? Math.min(...sourceTimes) : null,
       ...regionalTimes,
-      mode: 'live',
+      mode: freshness.some(x => x.deliveryMode === 'cache') ? 'cache' : 'live',
       indicative: freshness.filter(x => x.priceType === 'indicative').length,
     });
     refreshInFlight = false;
@@ -182,8 +192,10 @@ const App = (() => {
       ]);
       if ((!idxResp || !idxResp.ok) && (!qResp || !qResp.ok)) return false;
 
-      const idxEnvelope = idxResp?.ok ? await idxResp.json() : null;
-      const qEnvelope = qResp?.ok ? await qResp.json() : null;
+      const rawIdxEnvelope = idxResp?.ok ? await idxResp.json() : null;
+      const rawQEnvelope = qResp?.ok ? await qResp.json() : null;
+      const idxEnvelope = isFreshEnvelope(rawIdxEnvelope) ? rawIdxEnvelope : null;
+      const qEnvelope = isFreshEnvelope(rawQEnvelope) ? rawQEnvelope : null;
       const rawIndexes = Array.isArray(idxEnvelope?.data) ? idxEnvelope.data : [];
       const rawQuotes = Array.isArray(qEnvelope?.data) ? qEnvelope.data : [];
       const indexes = CONFIG.INDEXES.map(cfg => {
@@ -193,6 +205,10 @@ const App = (() => {
           : { ...cfg, unavailable:true };
       });
       const quotes = rawQuotes.filter(q => DataService.isFreshRecord(q));
+      DataService.rememberRecords([
+        ...indexes.filter(x => DataService.isFreshRecord(x, x.region)),
+        ...quotes,
+      ]);
       let news = null;
       if (nResp && nResp.ok) {
         try { news = (await nResp.json()).data; } catch(e) {}
@@ -376,7 +392,6 @@ const App = (() => {
   async function init() {
     updateClock();
     updateMarketStatus();
-    startPriceFlicker();
 
     // ⚡ Load static data instantly (no waiting)
     const staticOk = await loadStaticFallback();
