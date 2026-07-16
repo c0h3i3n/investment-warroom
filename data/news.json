@@ -1,46 +1,62 @@
 {
-  "timestamp": "2026-07-16T07:02:08.997370+00:00",
-  "generatedAt": "2026-07-16T07:02:08.997370+00:00",
+  "timestamp": "2026-07-16T07:10:20.640917+00:00",
+  "generatedAt": "2026-07-16T07:10:20.640917+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈焦點股〉工具機族群迎春燕 上銀、大銀微系統股價強勢翻紅",
+      "headline": "SK海力士ADR高溢價為何難持久？分析師揭關鍵",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6536672"
+      "link": "https://news.cnyes.com/news/id/6536257"
     },
     {
       "region": "TW",
-      "headline": "長鑫科技造富 8名高層身家過億 千億、百億級股東浮現",
+      "headline": "〈亞洲生技大展〉卓榮泰：生技產業聚焦三大面向 拚2030年新增逾千億元民間投資",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6536315"
+      "link": "https://news.cnyes.com/news/id/6536833"
     },
     {
       "region": "TW",
-      "headline": "台塑生醫攜手餐飲集團 搶攻廚餘回收鏈打造高值化再生能源",
+      "headline": "ASML首遭中國技術挑戰！繞道LDP技術點亮國產EUV原型機！外媒：進展超許多西方專家預期",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6536657"
+      "link": "https://news.cnyes.com/news/id/6536331"
     },
     {
       "region": "TW",
-      "headline": "009826全球股票ETF登場！一檔布局近40國、逾1,000檔股票，真能一次買下全世界？",
+      "headline": "IEA警告：中國稀土出口管制恐衝擊西方6.5兆美元產業",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6536661"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6536779"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉海昌生技無懼大盤走弱 今轉上櫃上演蜜月行情漲逾1成",
+      "headline": "〈台積電法說〉Q3美元營收季增12%再攀峰 上調全年營收年增至逾4成",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6536606"
+      "link": "https://news.cnyes.com/news/id/6536825"
+    },
+    {
+      "region": "TW",
+      "headline": "新青安3.0重點懶人包：5大條件更新 婚育補助最高可貸1500萬",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6536818"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台積電法說〉上調資本支出衝破600億美元 達600-640億美元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6536791"
     }
   ]
 }
