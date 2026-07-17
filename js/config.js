@@ -73,3 +73,14 @@ const CONFIG = {
   REFRESH_NEWS:       300000,
   REFRESH_INDICATORS: 300000,
 };
+
+// Safari versions without AbortSignal.timeout still need bounded requests.
+function requestTimeoutSignal(timeoutMs) {
+  if (typeof AbortSignal !== 'undefined' && typeof AbortSignal.timeout === 'function') {
+    return AbortSignal.timeout(timeoutMs);
+  }
+  if (typeof AbortController === 'undefined') return undefined;
+  const controller = new AbortController();
+  setTimeout(() => controller.abort(), timeoutMs);
+  return controller.signal;
+}

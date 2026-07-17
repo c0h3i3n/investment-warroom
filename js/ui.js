@@ -583,7 +583,7 @@ const UI = (() => {
       if (isRefreshing) btn.classList.add('spinning');
       else btn.classList.remove('spinning');
     }
-    if (lbl && isRefreshing && /--:--|^UPDATED/.test(lbl.textContent)) {
+    if (lbl && isRefreshing && /--:--|^UPDATED|^DATA UNAVAILABLE/.test(lbl.textContent)) {
       lbl.textContent = 'REFRESHING...';
     }
   }

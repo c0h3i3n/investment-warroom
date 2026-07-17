@@ -22,7 +22,7 @@ const NewsService = (() => {
   async function fetchFeed(feedConfig) {
     try {
       const url = RSS2JSON + encodeURIComponent(feedConfig.url);
-      const resp = await fetch(url, { signal: AbortSignal.timeout(12000) });
+      const resp = await fetch(url, { signal: requestTimeoutSignal(12000) });
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       const data = await resp.json();
       if (data.status !== 'ok' || !data.items) throw new Error('rss2json failed');

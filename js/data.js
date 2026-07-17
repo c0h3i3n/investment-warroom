@@ -166,7 +166,7 @@ const DataService = (() => {
     // Try direct first with short timeout
     if (options.direct !== false) {
       try {
-        const resp = await fetch(freshUrl, { cache: 'no-store', signal: AbortSignal.timeout(4000) });
+        const resp = await fetch(freshUrl, { cache: 'no-store', signal: requestTimeoutSignal(4000) });
         if (resp.ok) {
           const text = await resp.text();
           const parsed = parseProxyResponse(text);
@@ -183,7 +183,7 @@ const DataService = (() => {
       const proxyUrl = addCacheBuster(proxy + encodeURIComponent(freshUrl));
 
       try {
-        const resp = await fetch(proxyUrl, { cache: 'no-store', signal: AbortSignal.timeout(timeoutMs) });
+        const resp = await fetch(proxyUrl, { cache: 'no-store', signal: requestTimeoutSignal(timeoutMs) });
         if (!resp.ok) {
           const text = await resp.text().catch(() => '');
           if (text.includes('Server-side requests are not allowed')) continue;
@@ -291,7 +291,7 @@ const DataService = (() => {
     const parts = twSymbols.map(s => getMISKey(s));
     try {
       const url = `${CONFIG.MIS_BASE}?ex_ch=${parts.join('|')}&json=1&delay=0&_=${Date.now()}`;
-      const resp = await fetch(url, { cache: 'no-store', signal: AbortSignal.timeout(8000) });
+      const resp = await fetch(url, { cache: 'no-store', signal: requestTimeoutSignal(8000) });
       if (resp.ok) {
         const json = await resp.json();
         const arr = json?.msgArray;
@@ -305,9 +305,13 @@ const DataService = (() => {
     // Fallback: proxy batch
     try {
       const proxyUrl = `${CONFIG.MIS_BASE}?ex_ch=${parts.join('|')}&json=1&delay=0&_=${Date.now()}`;
-      const json = await fetchWithProxy(proxyUrl, 10000);
+      const json = await fetchWithProxy(proxyUrl, 6000, { direct: false });
       if (json?.msgArray) return parseMIS(json.msgArray);
     } catch(e) {}
+
+    // Large batch refreshes already have Yahoo running as a parallel fallback.
+    // Avoid turning a failed MIS batch into minutes of sequential requests.
+    if (twSymbols.length > 3) return null;
 
     // Individual queries with stagger
     const results = [];
@@ -319,10 +323,10 @@ const DataService = (() => {
         const url = `${CONFIG.MIS_BASE}?ex_ch=${key}&json=1&delay=0&_=${Date.now()}`;
         let json = null;
         try {
-          const resp = await fetch(url, { cache: 'no-store', signal: AbortSignal.timeout(6000) });
+          const resp = await fetch(url, { cache: 'no-store', signal: requestTimeoutSignal(6000) });
           if (resp.ok) json = await resp.json();
         } catch(e) {}
-        if (!json) json = await fetchWithProxy(url, 8000);
+        if (!json) json = await fetchWithProxy(url, 5000, { direct: false });
         if (json?.msgArray) results.push(...parseMIS(json.msgArray));
       } catch(e) {}
     }
@@ -364,15 +368,17 @@ const DataService = (() => {
     const requestEpoch = cacheEpoch;
 
     const results = [];
+    const tasks = [];
 
     // ── Taiwan indexes via MIS ──
     const twIdxConfigs = CONFIG.INDEXES.filter(i => i.misKey);
     if (twIdxConfigs.length > 0) {
+      tasks.push((async () => {
       const misKeys = twIdxConfigs.map(i => i.misKey).join('|');
       const misUrl = `${CONFIG.MIS_BASE}?ex_ch=${misKeys}&json=1&delay=0`;
 
       try {
-        const json = await fetchWithProxy(misUrl, 10000);
+        const json = await fetchWithProxy(misUrl, 6000);
         const msgArray = json?.msgArray;
         if (msgArray) {
           twIdxConfigs.forEach(idx => {
@@ -393,11 +399,13 @@ const DataService = (() => {
       } catch (e) {
         console.warn('TW index fetch failed:', e.message);
       }
+      })());
     }
 
     // ── US indexes via Yahoo v8 chart ──
     const usIdxConfigs = CONFIG.INDEXES.filter(i => !i.misKey);
     if (usIdxConfigs.length > 0) {
+      tasks.push((async () => {
       const usSymbols = usIdxConfigs.map(i => i.symbol);
       try {
         const quotes = await fetchQuotes(usSymbols);
@@ -410,16 +418,20 @@ const DataService = (() => {
       } catch (e) {
         console.warn('US index fetch failed:', e.message);
       }
+      })());
     }
 
+    await Promise.allSettled(tasks);
+
+    // Preserve configured card order regardless of which parallel request wins.
     // Keep gaps visible; never disguise hard-coded values as current market data.
-    CONFIG.INDEXES.forEach(idx => {
+    const orderedResults = CONFIG.INDEXES.map(idx => {
       const existing = results.find(r => r.id === idx.id);
-      if (!existing || existing.price == null) results.push({ ...idx, unavailable:true });
+      return existing?.price != null ? existing : { ...idx, unavailable:true };
     });
 
-    if (requestEpoch === cacheEpoch) setCache(key, results);
-    return results;
+    if (requestEpoch === cacheEpoch) setCache(key, orderedResults);
+    return orderedResults;
   }
 
   // ═══════════════════════════════════════
@@ -615,18 +627,12 @@ const DataService = (() => {
   // ═══════════════════════════════════════
   async function fetchAllQuotes(allSymbols) {
     const twSymbols = allSymbols.filter(s => /\.TW$/i.test(s));
-    const usSymbols = allSymbols.filter(s => !/\.TW$/i.test(s));
 
-    let twData = null;
-    let usData = null;
-
-    // Try MIS for Taiwan stocks first (fast, real-time)
-    if (twSymbols.length > 0) {
-      twData = await fetchMISQuotes(twSymbols);
-    }
-
-    // Try Yahoo v8 for all
-    const yahooData = await fetchQuotes(allSymbols);
+    // MIS and Yahoo are independent fallbacks; neither should delay the other.
+    const [twData, yahooData] = await Promise.all([
+      twSymbols.length > 0 ? fetchMISQuotes(twSymbols) : Promise.resolve(null),
+      allSymbols.length > 0 ? fetchQuotes(allSymbols) : Promise.resolve(null),
+    ]);
 
     // Merge: prefer MIS for TW, Yahoo for US
     const result = [];

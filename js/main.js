@@ -115,79 +115,21 @@ const App = (() => {
     if (forceRefresh) DataService.clearCache();
     UI.setRefreshing(true);
     usingFallback = false;
-    const freshness = [];
-    let expectedQuotes = CONFIG.INDEXES.length;
-
-    try {
-      try {
-        // 1. Fetch indexes (stale values are rejected by DataService)
-        const indexes = await DataService.fetchIndexes();
-        if (generation !== refreshGeneration) return false;
-        if (indexes) {
-          indexData = indexes;
-          UI.renderIndexCards(indexes);
-          freshness.push(...indexes.filter(x => DataService.isFreshRecord(x, x.region)));
-
-          // Index charts are best-effort and never block or affect quote freshness.
-          DataService.fetchIndexSeries(CONFIG.INDEXES).then(series => {
-            if (generation === refreshGeneration) UI.renderIndexSparklines(series);
-          });
-        }
-
-        // 2. Fetch watchlist quotes (hybrid: MIS for TW, Yahoo for US)
-        const watchlist = loadWatchlist();
-        const wSymbols = watchlist.map(w => w.symbol);
-        expectedQuotes += wSymbols.length;
-        if (wSymbols.length > 0) {
-          const quotes = await DataService.fetchAllQuotes(wSymbols) || [];
-          if (generation !== refreshGeneration) return false;
-          freshness.push(...quotes.filter(x => DataService.isFreshRecord(x)));
-          const watchData = watchlist.map(w => {
-            const q = quotes.find(q => q.symbol === w.symbol);
-            return {
-              ...w,
-              price: q?.price,
-              change: q?.change,
-              changePct: q?.changePct,
-              currency: q?.currency,
-              asOf: q?.asOf,
-              source: q?.source,
-              priceType: q?.priceType,
-              region: w.region || (w.symbol.endsWith('.TW') ? 'TW' : 'US'),
-            };
-          });
-          watchlistQuotes = watchData;
-          window._watchlistQuotes = watchData;
-          UI.renderWatchlist(watchData);
-          UI.renderFeatured();
-          UI.renderTicker(watchData);
-
-          if (quotes.length > 0) {
-            // Fetch sparklines for watchlist (non-blocking)
-            DataService.fetchSparklines(wSymbols).then(sparkData => {
-              if (generation === refreshGeneration) {
-                UI.renderWatchlist(watchData, sparkData);
-                UI.renderFeatured();
-              }
-            });
-          }
-        }
-
-        // 3. Portfolio stats
-        await updatePortfolio(null, generation);
-        if (generation !== refreshGeneration) return false;
-
-        // 4. Technical indicators - load on demand via HTML button
-
-        // 5. News
-        updateNews(forceRefresh, generation);
-      } catch (e) {
-        console.error('Data fetch error:', e);
-        UI.showToast('資料擷取異常，顯示備用數據', 'warn');
-      }
-
-      if (generation !== refreshGeneration) return false;
-      const sourceTimes = freshness.map(x => typeof x.asOf === 'string' ? Date.parse(x.asOf) : Number(x.asOf)).filter(Number.isFinite);
+    const watchlist = loadWatchlist();
+    const wSymbols = watchlist.map(w => w.symbol);
+    const holdingSymbols = PortfolioService.getHoldings().map(h => h.symbol);
+    const allQuoteSymbols = [...new Set([...wSymbols, ...holdingSymbols])];
+    const expectedQuotes = CONFIG.INDEXES.length + wSymbols.length;
+    let quotesForPortfolio = [];
+    let indexFreshness = indexData.filter(x => DataService.isFreshRecord(x, x.region));
+    let quoteFreshness = watchlistQuotes.filter(x => DataService.isFreshRecord(x));
+    const currentFreshness = () => [...indexFreshness, ...quoteFreshness];
+    const publishStatus = () => {
+      if (generation !== refreshGeneration) return;
+      const freshness = currentFreshness();
+      const sourceTimes = freshness
+        .map(x => typeof x.asOf === 'string' ? Date.parse(x.asOf) : Number(x.asOf))
+        .filter(Number.isFinite);
       const regionalTimes = sourceTimesByRegion(freshness);
       UI.setDataStatus({
         fresh: freshness.length,
@@ -197,8 +139,91 @@ const App = (() => {
         mode: freshness.some(x => x.deliveryMode === 'cache') ? 'cache' : 'live',
         indicative: freshness.filter(x => x.priceType === 'indicative').length,
       });
-      return freshness.length > 0;
+    };
+    const statusDeadline = setTimeout(() => {
+      if (generation === refreshGeneration) publishStatus();
+    }, 12000);
+
+    try {
+      try {
+        // Indexes and quotes are independent. Run both paths together so a slow
+        // proxy cannot block the rest of the dashboard from updating.
+        const indexTask = (async () => {
+          const indexes = await DataService.fetchIndexes();
+          if (generation !== refreshGeneration) return;
+          if (!indexes) return;
+          indexData = indexes;
+          UI.renderIndexCards(indexes);
+          indexFreshness = indexes.filter(x => DataService.isFreshRecord(x, x.region));
+          publishStatus();
+
+          // Index charts are best-effort and never block quote freshness.
+          DataService.fetchIndexSeries(CONFIG.INDEXES).then(series => {
+            if (generation === refreshGeneration) UI.renderIndexSparklines(series);
+          });
+        })();
+
+        const quoteTask = (async () => {
+          const quotes = allQuoteSymbols.length > 0
+            ? await DataService.fetchAllQuotes(allQuoteSymbols) || []
+            : [];
+          if (generation !== refreshGeneration) return;
+          quotesForPortfolio = quotes;
+          quoteFreshness = quotes.filter(q => wSymbols.includes(q.symbol) && DataService.isFreshRecord(q));
+          const watchData = watchlist.map(w => {
+            const q = quotes.find(item => item.symbol === w.symbol);
+            return {
+              ...w,
+              price: q?.price,
+              change: q?.change,
+              changePct: q?.changePct,
+              currency: q?.currency,
+              asOf: q?.asOf,
+              source: q?.source,
+              priceType: q?.priceType,
+              deliveryMode: q?.deliveryMode,
+              region: w.region || (w.symbol.endsWith('.TW') ? 'TW' : 'US'),
+            };
+          });
+          watchlistQuotes = watchData;
+          window._watchlistQuotes = watchData;
+          UI.renderWatchlist(watchData);
+          UI.renderFeatured();
+          UI.renderTicker(watchData);
+          publishStatus();
+
+          if (quotes.length > 0) {
+            DataService.fetchSparklines(wSymbols).then(sparkData => {
+              if (generation === refreshGeneration) {
+                UI.renderWatchlist(watchData, sparkData);
+                UI.renderFeatured();
+              }
+            });
+          }
+        })();
+
+        updateNews(forceRefresh, generation);
+        const outcomes = await Promise.allSettled([indexTask, quoteTask]);
+        outcomes.filter(outcome => outcome.status === 'rejected').forEach(outcome => {
+          console.error('Market data task failed:', outcome.reason);
+        });
+        if (generation !== refreshGeneration) return false;
+
+        // 3. Portfolio stats
+        await updatePortfolio(quotesForPortfolio, generation);
+        if (generation !== refreshGeneration) return false;
+
+        // 4. Technical indicators - load on demand via HTML button
+      } catch (e) {
+        console.error('Data fetch error:', e);
+        UI.showToast('資料擷取異常，顯示備用數據', 'warn');
+      }
+
+      if (generation !== refreshGeneration) return false;
+      publishStatus();
+      return currentFreshness().length > 0;
     } finally {
+      clearTimeout(statusDeadline);
       UI.setRefreshing(false);
       refreshInFlight = false;
       if (pendingForceRefresh) {
@@ -216,9 +241,9 @@ const App = (() => {
     try {
       const requestId = `${Date.now()}_${Math.random().toString(36).slice(2)}`;
       const [idxResp, qResp, nResp] = await Promise.all([
-        fetch(`data/indexes.json?_wr=${requestId}`, { cache:'no-store', signal: AbortSignal.timeout(3000) }).catch(() => null),
-        fetch(`data/quotes.json?_wr=${requestId}`, { cache:'no-store', signal: AbortSignal.timeout(3000) }).catch(() => null),
-        fetch(`data/news.json?_wr=${requestId}`, { cache:'no-store', signal: AbortSignal.timeout(3000) }).catch(() => null),
+        fetch(`data/indexes.json?_wr=${requestId}`, { cache:'no-store', signal: requestTimeoutSignal(3000) }).catch(() => null),
+        fetch(`data/quotes.json?_wr=${requestId}`, { cache:'no-store', signal: requestTimeoutSignal(3000) }).catch(() => null),
+        fetch(`data/news.json?_wr=${requestId}`, { cache:'no-store', signal: requestTimeoutSignal(3000) }).catch(() => null),
       ]);
       if ((!idxResp || !idxResp.ok) && (!qResp || !qResp.ok)) return false;
 
@@ -236,10 +261,12 @@ const App = (() => {
       const indexes = CONFIG.INDEXES.map(cfg => {
         const item = rawIndexes.find(x => x.id === cfg.id);
         return item && DataService.isFreshRecord(item, cfg.region)
-          ? { ...cfg, ...item }
+          ? { ...cfg, ...item, deliveryMode:'cache' }
           : { ...cfg, unavailable:true };
       });
-      const quotes = rawQuotes.filter(q => DataService.isFreshRecord(q));
+      const quotes = rawQuotes
+        .filter(q => DataService.isFreshRecord(q))
+        .map(q => ({ ...q, deliveryMode:'cache' }));
       if (expectedGeneration !== refreshGeneration || refreshInFlight) return false;
       DataService.rememberRecords([
         ...indexes.filter(x => DataService.isFreshRecord(x, x.region)),
@@ -255,7 +282,7 @@ const App = (() => {
         const watchlist = loadWatchlist();
         const watchData = watchlist.map(w => {
           const q = quotes.find(q => q.symbol === w.symbol);
-          return { ...w, price: q?.price, change: q?.change, changePct: q?.changePct, asOf:q?.asOf, source:q?.source, priceType:q?.priceType, currency: w.symbol.endsWith('.TW') ? 'TWD' : 'USD', region: w.region || (w.symbol.endsWith('.TW') ? 'TW' : 'US') };
+          return { ...w, price: q?.price, change: q?.change, changePct: q?.changePct, asOf:q?.asOf, source:q?.source, priceType:q?.priceType, deliveryMode:q?.deliveryMode, currency: w.symbol.endsWith('.TW') ? 'TWD' : 'USD', region: w.region || (w.symbol.endsWith('.TW') ? 'TW' : 'US') };
         });
         watchlistQuotes = watchData;
         window._watchlistQuotes = watchData;
@@ -267,12 +294,17 @@ const App = (() => {
       if (expectedGeneration !== refreshGeneration || refreshInFlight) return false;
       UI.renderNews(news || []);
       
-      const freshItems = [...indexes.filter(x => DataService.isFreshRecord(x, x.region)), ...quotes];
+      const watchlist = loadWatchlist();
+      const watchlistSymbols = new Set(watchlist.map(w => w.symbol));
+      const freshItems = [
+        ...indexes.filter(x => DataService.isFreshRecord(x, x.region)),
+        ...quotes.filter(q => watchlistSymbols.has(q.symbol)),
+      ];
       const sourceTimes = freshItems.map(x => typeof x.asOf === 'string' ? Date.parse(x.asOf) : Number(x.asOf)).filter(Number.isFinite);
       const regionalTimes = sourceTimesByRegion(freshItems);
       UI.setDataStatus({
         fresh: freshItems.length,
-        total: CONFIG.INDEXES.length + loadWatchlist().length,
+        total: CONFIG.INDEXES.length + watchlist.length,
         oldestAsOf: sourceTimes.length ? Math.min(...sourceTimes) : null,
         ...regionalTimes,
         mode: 'cache',
@@ -431,22 +463,43 @@ const App = (() => {
   // ═══════════════════════════════════════
   // INIT
   // ═══════════════════════════════════════
+  function renderStartupShell() {
+    const watchlist = loadWatchlist();
+    const watchData = watchlist.map(w => ({
+      ...w,
+      price: undefined,
+      change: undefined,
+      changePct: undefined,
+      region: w.region || (w.symbol.endsWith('.TW') ? 'TW' : 'US'),
+    }));
+
+    indexData = CONFIG.INDEXES.map(index => ({ ...index, unavailable: true }));
+    watchlistQuotes = watchData;
+    window._watchlistQuotes = watchData;
+    UI.renderIndexCards(indexData);
+    UI.renderIndexSparklines({});
+    UI.renderWatchlist(watchData);
+    UI.renderFeatured();
+    UI.renderTicker(watchData);
+    updatePortfolio([], refreshGeneration);
+    UI.renderNews([]);
+    UI.setDataStatus({ fresh: 0, total: CONFIG.INDEXES.length + watchlist.length });
+  }
+
   async function init() {
     updateClock();
     updateMarketStatus();
+    renderStartupShell();
 
-    // ⚡ Load static data instantly (no waiting)
-    const staticOk = await loadStaticFallback();
-    
-    // Then try live data in background (non-blocking)
-    if (staticOk) {
-      // Already showing data — just refresh in background
-      setTimeout(() => fetchAllData(false), 500);
-    } else {
-      // No static data, must wait for live
-      const liveTimeout = new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 15000));
-      try { await Promise.race([fetchAllData(true), liveTimeout]); } catch(e) {}
-    }
+    // Static snapshots are only accepted when both the envelope and individual
+    // market records are fresh. The shell above remains usable if they are not.
+    const startupGeneration = refreshGeneration;
+    const staticOk = await loadStaticFallback(startupGeneration);
+    setTimeout(() => {
+      if (refreshGeneration === startupGeneration && !refreshInFlight) {
+        fetchAllData(!staticOk);
+      }
+    }, staticOk ? 500 : 0);
 
     // Start periodic refresh
     startAutoRefresh();
