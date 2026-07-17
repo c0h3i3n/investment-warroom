@@ -1,54 +1,46 @@
 {
-  "timestamp": "2026-07-17T10:55:19.080379+00:00",
-  "generatedAt": "2026-07-17T10:55:19.080379+00:00",
+  "timestamp": "2026-07-17T12:11:51.538575+00:00",
+  "generatedAt": "2026-07-17T12:11:51.538575+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "DeepSeek估值破3500億元人民幣 啟動新一輪融資並傳衝刺科創板",
+      "headline": "貿協攜手北市府領10家台企赴日 拓展AI市場促逾875萬美元潛在商機",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6538452"
+      "link": "https://news.cnyes.com/news/id/6538962"
     },
     {
       "region": "TW",
-      "headline": "台虹優化銷售結構奏功 自結5月淨利6945萬元年增8倍 EPS 0.26元",
+      "headline": "俄烏互襲商船重創糧食出口 全球小麥價格應聲飆漲",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6538902"
+    },
+    {
+      "region": "TW",
+      "headline": "無人機出口破2億美元暴風成長百倍！經濟部盤點自主研發「實績」駁斥政治抹黑",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6538723"
+      "link": "https://news.cnyes.com/news/id/6538965"
     },
     {
       "region": "TW",
-      "headline": "中國發布《人工智能合作發展行動計畫》　八大行動回應聯合國倡議",
+      "headline": "瞄準數位支付與創新金融！聯邦美國金融創新ETF今掛牌上櫃 追蹤「彭博TPEx」指數",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6538622"
+      "link": "https://news.cnyes.com/news/id/6538956"
     },
     {
       "region": "TW",
-      "headline": "〈台幣〉台股創最大跌點 匯市爆史上天量 央行拚穩匯 貶值3.9分",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6538719"
-    },
-    {
-      "region": "TW",
-      "headline": "皇昌營造實施庫藏股執行今屆滿執行率71% 每股買回均價46.47元",
+      "headline": "一卡通總座估7月電支代收付迎強勁反彈 攜應援科技、Flexii打造支付新生態圈",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6538686"
-    },
-    {
-      "region": "TW",
-      "headline": "華碩與關渡醫院簽署合作備忘錄 攜手打造低碳醫療數位轉型",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6538650"
+      "link": "https://news.cnyes.com/news/id/6538951"
     }
   ]
 }
