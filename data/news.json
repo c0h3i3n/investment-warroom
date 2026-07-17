@@ -1,62 +1,54 @@
 {
-  "timestamp": "2026-07-17T04:27:01.818358+00:00",
-  "generatedAt": "2026-07-17T04:27:01.818358+00:00",
+  "timestamp": "2026-07-17T06:40:41.618571+00:00",
+  "generatedAt": "2026-07-17T06:40:41.618571+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 燦星旅(2719)大漲7.28%，報28元",
+      "headline": "輝達進軍AI新藍海市場 有望成股價新催化劑",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6537832"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6537424"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 集中市場加權指數下跌-1833.51點至43791.47點，跌幅4.02%",
+      "headline": "〈國泰世華新董座〉陳祖培揭「內控、風控、客戶信賴」三大要務 發豪語邁向業界第一",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6537831"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6538333"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 京元電子(2449)股價殺至跌停，跌停價286.5元，成交16,966張",
+      "headline": "源點看充電市場開打會員戰 會員規模超過電動車掛牌量",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6537830"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6538225"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 茂矽(2342)大跌7.34%，報43.55元",
+      "headline": "中國國產替代迎黃金機遇！高盛：長鑫存儲IPO恰逢其時 鎖定2026-2028記憶體超級週期",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6537829"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6538259"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-16.31點至390.7點，跌幅4.01%",
+      "headline": "盤中速報 - 櫃買市場加權指數下跌-28.06點至378.95點，跌幅6.89%",
       "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6537598"
+      "link": "https://news.cnyes.com/news/id/6538352"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-15.42點至391.59點，跌幅3.79%",
+      "headline": "盤中速報 - 集中市場加權指數下跌-2588.07點至43036.91點，跌幅5.67%",
       "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6537540"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 集中市場加權指數下跌-1451.08點至44173.9點，跌幅3.18%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6537538"
+      "link": "https://news.cnyes.com/news/id/6538343"
     }
   ]
 }
