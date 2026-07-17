@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-07-17T01:11:58.483265+00:00",
-  "generatedAt": "2026-07-17T01:11:58.483265+00:00",
+  "timestamp": "2026-07-17T04:27:01.818358+00:00",
+  "generatedAt": "2026-07-17T04:27:01.818358+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈財報〉Netflix財測令人失望 盤後重挫8% 將減少公布觀看數據",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537423"
-    },
-    {
-      "region": "TW",
-      "headline": "Alphabet急跌超4%  Google傳延後推出旗艦AI模型Gemini 3.5 Pro",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6537395"
-    },
-    {
-      "region": "TW",
-      "headline": "台積電財報創高股價仍跌！分析師：市場憂高資本支出壓縮現金流、短期毛利率",
+      "headline": "盤中速報 - 燦星旅(2719)大漲7.28%，報28元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6537398"
+      "link": "https://news.cnyes.com/news/id/6537832"
     },
     {
       "region": "TW",
-      "headline": "美國加徵25%關稅 巴西糖業與乙醇業憂出口重創",
+      "headline": "盤中速報 - 集中市場加權指數下跌-1833.51點至43791.47點，跌幅4.02%",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537416"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6537831"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：台積電(2330-TW)目標價調升至3090元，幅度約3%",
-      "source": "台股",
+      "headline": "盤中速報 - 京元電子(2449)股價殺至跌停，跌停價286.5元，成交16,966張",
+      "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537320"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6537830"
     },
     {
       "region": "TW",
-      "headline": "Jim Cramer：半導體淪為「情緒賭場」 SK 海力士上市拖累台積電",
-      "source": "台股",
+      "headline": "盤中速報 - 茂矽(2342)大跌7.34%，報43.55元",
+      "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537284"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6537829"
     },
     {
       "region": "TW",
-      "headline": "AI浪潮助攻 多家機構看好台積電 目標價頻創新高",
+      "headline": "盤中速報 - 櫃買市場加權指數下跌-16.31點至390.7點，跌幅4.01%",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537278"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6537598"
     },
     {
       "region": "TW",
-      "headline": "日電貿Q2純益創新高年增逾6倍 EPS3.16元",
+      "headline": "盤中速報 - 櫃買市場加權指數下跌-15.42點至391.59點，跌幅3.79%",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6537265"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6537540"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 集中市場加權指數下跌-1451.08點至44173.9點，跌幅3.18%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6537538"
     }
   ]
 }
