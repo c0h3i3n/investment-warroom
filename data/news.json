@@ -1,46 +1,70 @@
 {
-  "timestamp": "2026-07-17T15:41:08.216026+00:00",
-  "generatedAt": "2026-07-17T15:41:08.216026+00:00",
+  "timestamp": "2026-07-17T16:48:51.890849+00:00",
+  "generatedAt": "2026-07-17T16:48:51.890849+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "貿協攜手北市府領10家台企赴日 拓展AI市場促逾875萬美元潛在商機",
+      "headline": "華爾街又在押美股七雄！神秘指標透露財報季最大贏家",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6538962"
+      "link": "https://news.cnyes.com/news/id/6539004"
     },
     {
       "region": "TW",
-      "headline": "俄烏互襲商船重創糧食出口 全球小麥價格應聲飆漲",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6538902"
-    },
-    {
-      "region": "TW",
-      "headline": "無人機出口破2億美元暴風成長百倍！經濟部盤點自主研發「實績」駁斥政治抹黑",
+      "headline": "AI概念股光環降溫？SpaceX市值蒸發逾1兆美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6538965"
+      "link": "https://news.cnyes.com/news/id/6539059"
     },
     {
       "region": "TW",
-      "headline": "瞄準數位支付與創新金融！聯邦美國金融創新ETF今掛牌上櫃 追蹤「彭博TPEx」指數",
+      "headline": "美股市值王拉鋸戰！蘋果一度超車輝達 問鼎全球第一",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6538956"
+      "link": "https://news.cnyes.com/news/id/6539047"
     },
     {
       "region": "TW",
-      "headline": "一卡通總座估7月電支代收付迎強勁反彈 攜應援科技、Flexii打造支付新生態圈",
+      "headline": "AI股跌成一片！華爾街為何逆勢喊買蘋果？",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6539005"
+    },
+    {
+      "region": "TW",
+      "headline": "小三通「水客」亂象多 航港局攜手金門縣及港區單位精進旅運港區安全",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6538951"
+      "link": "https://news.cnyes.com/news/id/6539001"
+    },
+    {
+      "region": "TW",
+      "headline": "台股史詩級股災外資殺紅眼 金管會：密切關注股市波動",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6538968"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：研華(2395-TW)EPS預估上修至15.74元，預估目標價為530元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6538971"
+    },
+    {
+      "region": "TW",
+      "headline": "貿協攜手北市府領10家台企赴日 拓展AI市場促逾875萬美元潛在商機",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6538962"
     }
   ]
 }
