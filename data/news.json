@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-07-17T18:07:26.014892+00:00",
-  "generatedAt": "2026-07-17T18:07:26.014892+00:00",
+  "timestamp": "2026-07-17T19:33:17.688316+00:00",
+  "generatedAt": "2026-07-17T19:33:17.688316+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "華爾街又在押美股七雄！神秘指標透露財報季最大贏家",
+      "headline": "美股大漲民眾仍無感！六成美國人看壞經濟 川普支持度探底",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539004"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6538947"
     },
     {
       "region": "TW",
-      "headline": "AI概念股光環降溫？SpaceX市值蒸發逾1兆美元",
+      "headline": "鉅亨速報 - Factset 最新調查：摩根士丹利(MS-US)EPS預估上修至12.78元，預估目標價為240.50元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539059"
+      "link": "https://news.cnyes.com/news/id/6539113"
     },
     {
       "region": "TW",
-      "headline": "美股市值王拉鋸戰！蘋果一度超車輝達 問鼎全球第一",
+      "headline": "官司不用打了？蘋果傳與司法部密談 反壟斷案有望和解",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539047"
+      "link": "https://news.cnyes.com/news/id/6539104"
     },
     {
       "region": "TW",
-      "headline": "AI股跌成一片！華爾街為何逆勢喊買蘋果？",
+      "headline": "CPI才剛降溫又有壞消息！美國6月進口物價創近四年最大升幅",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6539005"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6539019"
     },
     {
       "region": "TW",
