@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-07-18T11:11:47.107632+00:00",
-  "generatedAt": "2026-07-18T11:11:47.107632+00:00",
+  "timestamp": "2026-07-18T12:06:25.873671+00:00",
+  "generatedAt": "2026-07-18T12:06:25.873671+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "蘋果又被起訴！「隱藏我的電子郵件」功能爆安全漏洞、數百萬iCloud+用戶受影響",
+      "headline": "iPhone 18 Pro爆12大升級！傳搭載台積電2奈米A20 Pro、砍「兩」顏色新增「這一色」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539272"
+      "link": "https://news.cnyes.com/news/id/6539255"
     },
     {
       "region": "TW",
-      "headline": "中國航空業者 7個月內訂購476架空中巴士飛機",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539268"
-    },
-    {
-      "region": "TW",
-      "headline": "費半入熊市！19檔科技7月遭血洗跌逾25% Sandisk、美光最慘 ",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6539186"
-    },
-    {
-      "region": "TW",
-      "headline": "蘋果調漲日本iPhone售價！AI推升記憶體成本、日元貶值成漲價主因",
+      "headline": "盤中速報 - DODO大漲10.92%，報0.02美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6539251"
+      "link": "https://news.cnyes.com/news/id/6539321"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過12.68億美元，NFPrompt Token(NFP)24小時漲幅達66.2%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6539319"
+    },
+    {
+      "region": "TW",
+      "headline": "美伊戰火又升級！伊朗攻擊科威特、巴林美軍基地",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6539306"
     },
     {
       "region": "TW",
