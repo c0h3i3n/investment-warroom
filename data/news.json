@@ -1,27 +1,43 @@
 {
-  "timestamp": "2026-07-19T10:55:11.616124+00:00",
-  "generatedAt": "2026-07-19T10:55:11.616124+00:00",
+  "timestamp": "2026-07-19T12:01:26.750511+00:00",
+  "generatedAt": "2026-07-19T12:01:26.750511+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美銀逆勢看多記憶體！估DRAM Q3均價飆21%  AI記憶體需求未降溫？",
+      "headline": "中國製造席捲發展中國家！從手機、汽車到TikTok  中國品牌如何改寫全球影響力？",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6539441"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6539459"
     },
     {
       "region": "TW",
-      "headline": "俄羅斯警告：日本、烏克蘭合作造無人機 等同幫助殺害俄羅斯公民",
+      "headline": "記憶體晶片暴漲 中國消費者觀望 非剛需者改買二手",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6539463"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6539482"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨買幣速報 - 比特幣(BTC)24小時成交量超過5.64億美元，NFPrompt Token(NFP)24小時漲幅達66.2%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6539483"
+    },
+    {
+      "region": "TW",
+      "headline": "長鑫存儲訂單排到2027！美銀點蘋果採用「三大限制」、戴爾惠普搶鎖產能",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6539442"
     },
     {
       "region": "TW",
       "headline": "工業富聯發布2026燈塔工廠白皮書 加速推進「AI Makes AI」策略",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6539462"
@@ -29,7 +45,7 @@
     {
       "region": "TW",
       "headline": "產險公會拍板不便險滯留海外理賠從寬認定 富邦產響應：4月後保單皆適用",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6539452"
