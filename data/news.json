@@ -1,7 +1,23 @@
 {
-  "timestamp": "2026-07-19T17:16:23.700961+00:00",
-  "generatedAt": "2026-07-19T17:16:23.700961+00:00",
+  "timestamp": "2026-07-19T18:27:53.992093+00:00",
+  "generatedAt": "2026-07-19T18:27:53.992093+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "巔峰對決！世足賽決賽開踢前夕 八大AI模型僅Grok、DeepSeek押注阿根廷2:1勝出",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6539503"
+    },
+    {
+      "region": "TW",
+      "headline": "科技股拋售潮接近尾聲了嗎？高盛分析：股市暴跌「非基本面惡化」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6539472"
+    },
     {
       "region": "TW",
       "headline": "本週操盤筆記：美股七雄財報、晶片股高估值、Fed利率風向",
@@ -17,22 +33,6 @@
       "time": "--:--",
       "impact": "neg",
       "link": "https://news.cnyes.com/news/id/6539440"
-    },
-    {
-      "region": "TW",
-      "headline": "資深財富管理人士：市場恐回檔40% 2冷門族群存機會",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539344"
-    },
-    {
-      "region": "TW",
-      "headline": "最好的夏天？傳美國要求分享三星、SK海力士AI晶片鉅額利潤",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539476"
     },
     {
       "region": "TW",
