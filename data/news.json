@@ -1,70 +1,54 @@
 {
-  "timestamp": "2026-07-19T04:35:58.652288+00:00",
-  "generatedAt": "2026-07-19T04:35:58.652288+00:00",
+  "timestamp": "2026-07-19T07:16:04.004241+00:00",
+  "generatedAt": "2026-07-19T07:16:04.004241+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "葉門胡塞組織與沙國爆發4年來最大衝突！巴基斯坦向伊朗劃「紅線」：打他就是打我",
+      "headline": "美銀逆勢看多記憶體！估DRAM Q3均價飆21%  AI記憶體需求未降溫？",
       "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539358"
-    },
-    {
-      "region": "TW",
-      "headline": "歐洲熱浪奪逾1萬人命！極端高溫刷新紀錄  冷氣荒揭露防暑基礎建設危機",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539297"
-    },
-    {
-      "region": "TW",
-      "headline": "俄羅斯莫斯科州遭烏克蘭無人機襲擊 數公里外可見濃煙",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539357"
-    },
-    {
-      "region": "TW",
-      "headline": "伊朗副外長：伊朗已停止履行伊美諒解備忘錄",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539356"
-    },
-    {
-      "region": "TW",
-      "headline": "老乾杯、Muji都在用！新加坡零工新創Flexii在台成長爆發 攜一卡通電支即時領薪",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6538966"
-    },
-    {
-      "region": "TW",
-      "headline": "大摩調升台積電目標價！AI擴產能否撐住毛利率？",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539250"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉台虹布局新半導體材料 外資周買超1.12萬張助漲25%",
-      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6539211"
+      "link": "https://news.cnyes.com/news/id/6539441"
     },
     {
       "region": "TW",
-      "headline": "〈熱門股〉聯強下半年擁AI與半導體展望亮眼 外資本周天天買力挺",
+      "headline": "俄羅斯警告：日本、烏克蘭合作造無人機 等同幫助殺害俄羅斯公民",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6539463"
+    },
+    {
+      "region": "TW",
+      "headline": "工業富聯發布2026燈塔工廠白皮書 加速推進「AI Makes AI」策略",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6539462"
+    },
+    {
+      "region": "TW",
+      "headline": "產險公會拍板不便險滯留海外理賠從寬認定 富邦產響應：4月後保單皆適用",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6539452"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股風向球〉史詩級大屠殺後台指期先行反彈 止跌回穩須守住4萬2拚收復季線",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6539381"
+    },
+    {
+      "region": "TW",
+      "headline": "台積電未來三年資本支出逾2千億美元 廠務工程第一波受惠",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539105"
+      "link": "https://news.cnyes.com/news/id/6538859"
     }
   ]
 }
