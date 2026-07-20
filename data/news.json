@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-07-20T04:55:39.884855+00:00",
-  "generatedAt": "2026-07-20T04:55:39.884855+00:00",
+  "timestamp": "2026-07-20T08:09:12.544809+00:00",
+  "generatedAt": "2026-07-20T08:09:12.544809+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "全民槓桿夢碎！三星SK海力士帶崩大盤 30多萬個帳戶被券商強制平倉 7月迄今規模逾78.5億台幣",
+      "headline": "盤中速報 - UTK大漲16.23%，報0.008美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6538581"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6540464"
     },
     {
       "region": "TW",
-      "headline": "國際海事組織疏散剛開始就腰斬！專家：荷姆茲海峽安全若失控 將引爆全球咽喉收費潮",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539360"
-    },
-    {
-      "region": "TW",
-      "headline": "〈走進中國〉中國出國留學人數 回落至十年前水準",
+      "headline": "黃仁勳揭AI新時代藍圖：從GPU到AI工廠  輝達如何重新定義未來運算？",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539374"
+      "link": "https://news.cnyes.com/news/id/6539519"
     },
     {
       "region": "TW",
-      "headline": "AI牛市結束了嗎？市場充滿疑慮 野村列四種潛在拐點：定價混亂 市場觀望氣氛濃",
+      "headline": "需求攀升挹注 千附實業6月營收年增2倍創新高 自結EPS達0.37元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539352"
+      "link": "https://news.cnyes.com/news/id/6540435"
     },
     {
       "region": "TW",
-      "headline": "工業富聯發布2026燈塔工廠白皮書 加速推進「AI Makes AI」策略",
+      "headline": "三星預計推出新款折疊螢幕手機和智慧眼鏡",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6540384"
+    },
+    {
+      "region": "TW",
+      "headline": "交通部預告「外送員交安管理規則」 外送員需定期交安訓練、會員7日內可解除契約",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539462"
+      "link": "https://news.cnyes.com/news/id/6540363"
     },
     {
       "region": "TW",
-      "headline": "產險公會拍板不便險滯留海外理賠從寬認定 富邦產響應：4月後保單皆適用",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6539452"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股風向球〉史詩級大屠殺後台指期先行反彈 止跌回穩須守住4萬2拚收復季線",
+      "headline": "英特爾前執行長示警能源斷鏈 經部掛保證：台灣半導體產業韌性全球頂尖",
       "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6539381"
+      "link": "https://news.cnyes.com/news/id/6540335"
     },
     {
       "region": "TW",
-      "headline": "台積電未來三年資本支出逾2千億美元 廠務工程第一波受惠",
+      "headline": "地緣及AI雙引擎 TPCA：泰越馬形塑東南亞高階PCB黃金生態系",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6538859"
+      "link": "https://news.cnyes.com/news/id/6540340"
     }
   ]
 }
