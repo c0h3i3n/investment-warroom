@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-07-20T20:40:58.138435+00:00",
-  "generatedAt": "2026-07-20T20:40:58.138435+00:00",
+  "timestamp": "2026-07-20T21:49:22.027908+00:00",
+  "generatedAt": "2026-07-20T21:49:22.027908+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "波音股價要漲還是跌？市場真正想看的不是訂單 而是航空展這件事",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6540802"
-    },
-    {
-      "region": "TW",
-      "headline": "尼坦雅胡訪美會被捕？川普一句話回應了",
+      "headline": "川普簽行政令 強化國防供應鏈 降低中國稀土依賴",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6540816"
+      "link": "https://news.cnyes.com/news/id/6540829"
     },
     {
       "region": "TW",
-      "headline": "AI淘金潮還沒停！貝萊德主導120億美元融資 挺Meta蓋資料中心",
+      "headline": "韓股成AI風向球？華爾街緊盯KOSPI預判美股走勢",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6540814"
+      "link": "https://news.cnyes.com/news/id/6540798"
     },
     {
       "region": "TW",
-      "headline": "Netflix重返債市籌資 市場開始擔心成長了？",
+      "headline": "〈美股盤後〉AI超級財報周將登場 美軍連9日空襲伊朗 三大指數收黑",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6540784"
+      "link": "https://news.cnyes.com/news/id/6540827"
+    },
+    {
+      "region": "TW",
+      "headline": "〈能源盤後〉荷姆茲海峽航運降至個位數 胡塞封鎖沙國 油價震盪收高逾1%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6540797"
     },
     {
       "region": "TW",
