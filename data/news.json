@@ -1,54 +1,70 @@
 {
-  "timestamp": "2026-07-20T13:19:09.269261+00:00",
-  "generatedAt": "2026-07-20T13:19:09.269261+00:00",
+  "timestamp": "2026-07-20T15:28:47.230349+00:00",
+  "generatedAt": "2026-07-20T15:28:47.230349+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - TLM大跌9.98%，報0.00195美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6540709"
-    },
-    {
-      "region": "TW",
-      "headline": "逸達前列腺癌新劑型新藥CAMCEVI 42mg 獲新加坡上市許可",
+      "headline": "AI股真的失寵了？高盛曝避險基金正加速撤出科技股",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6540698"
+      "link": "https://news.cnyes.com/news/id/6540770"
     },
     {
       "region": "TW",
-      "headline": "〈毒油食安風暴〉共7批次不合格！食安法祭10大重拳修正 將增訂中央指揮機制",
+      "headline": "股價應聲漲逾3.5%！傳谷歌研發全新「Frozen v2」晶片 大幅提升AI模型運行效能",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6540761"
+    },
+    {
+      "region": "TW",
+      "headline": "記憶體類股回檔是「假摔」？大摩：當前為「黃金坑」進場良機",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6540675"
+      "link": "https://news.cnyes.com/news/id/6540763"
     },
     {
       "region": "TW",
-      "headline": "波斯灣緊張局勢升溫 荷姆茲海峽航運陷入停滯",
+      "headline": "超微攜手微軟擴大AI合作 Helios直球對決輝達",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6540580"
+      "link": "https://news.cnyes.com/news/id/6540758"
     },
     {
       "region": "TW",
-      "headline": "威旭數據7月23日登錄興櫃 估年營收雙位數成長",
+      "headline": "「FUN!嗜100」圓滿閉幕共吸引萬名民眾觀展  解鎖百種嗜好、點燃療癒商機",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6540670"
+      "link": "https://news.cnyes.com/news/id/6540749"
     },
     {
       "region": "TW",
-      "headline": "小小股民浪潮 2成未成年人擁有證券戶並投資這五大標的",
+      "headline": "CCL廠不排除再漲價10-15%  PCB廠指目前「長短料」市況影響需求勿漠視",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6540724"
+    },
+    {
+      "region": "TW",
+      "headline": "科技股去槓桿引爆恐慌！台股震盪千點守穩42K 法人：籌碼清洗是「慢牛」契機",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6540623"
+      "link": "https://news.cnyes.com/news/id/6540721"
+    },
+    {
+      "region": "TW",
+      "headline": "立院考察高雄交通建設 交通部：高捷青線規劃須待市府先提可行性研究",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6540720"
     }
   ]
 }
