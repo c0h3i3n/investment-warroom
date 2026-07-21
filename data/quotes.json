@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-07-21T06:30:51.722228+00:00",
-  "generatedAt": "2026-07-21T06:30:51.722228+00:00",
+  "timestamp": "2026-07-21T09:16:15.543535+00:00",
+  "generatedAt": "2026-07-21T09:16:15.543535+00:00",
   "data": [
     {
       "symbol": "0050.TW",
@@ -8,7 +8,7 @@
       "price": 102.5,
       "change": 3.9,
       "changePct": 3.96,
-      "asOf": "2026-07-21T06:25:00+00:00",
+      "asOf": "2026-07-21T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -18,7 +18,7 @@
       "price": 2410.0,
       "change": 90.0,
       "changePct": 3.88,
-      "asOf": "2026-07-21T06:25:00+00:00",
+      "asOf": "2026-07-21T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -38,7 +38,7 @@
       "price": 32.05,
       "change": 0.69,
       "changePct": 2.2,
-      "asOf": "2026-07-21T06:25:00+00:00",
+      "asOf": "2026-07-21T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -48,7 +48,7 @@
       "price": 28.27,
       "change": 0.71,
       "changePct": 2.58,
-      "asOf": "2026-07-21T06:25:00+00:00",
+      "asOf": "2026-07-21T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -78,7 +78,7 @@
       "price": 12.97,
       "change": 0.08,
       "changePct": 0.62,
-      "asOf": "2026-07-21T06:25:00+00:00",
+      "asOf": "2026-07-21T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
