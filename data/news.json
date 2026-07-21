@@ -1,38 +1,46 @@
 {
-  "timestamp": "2026-07-21T22:13:12.312464+00:00",
-  "generatedAt": "2026-07-21T22:13:12.312464+00:00",
+  "timestamp": "2026-07-21T23:13:57.661375+00:00",
+  "generatedAt": "2026-07-21T23:13:57.661375+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美伊談判暫時沒戲！川普放話繼續打、油價突破90美元",
+      "headline": "輝達揭露持有9.3%股權後 Nebius狂飆逾18%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6541964"
+      "link": "https://news.cnyes.com/news/id/6541980"
     },
     {
       "region": "TW",
-      "headline": "〈財報前瞻〉特斯拉Q2自由現金流恐轉負 全年資本支出上看250億美元",
+      "headline": "〈能源盤後〉美伊衝突升級、胡塞武裝封鎖威脅 油價飆至五周新高",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6541767"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6541931"
     },
     {
       "region": "TW",
-      "headline": "9億股潛在賣壓來了！SpaceX首份財報8月4日登場",
+      "headline": "〈貴金屬盤後〉美伊停火露曙光 金價反彈逾1%重返4,000美元關卡",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6541892"
+      "link": "https://news.cnyes.com/news/id/6541932"
     },
     {
       "region": "TW",
-      "headline": "進軍AI伺服器CPU市場！輝達Vera正式出貨 直攻英特爾、超微地盤",
+      "headline": "美光大漲12%晶片股全面強彈 中國AI模型反成新催化劑？",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6541919"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6542004"
+    },
+    {
+      "region": "TW",
+      "headline": "台積電擬2027年初漲價5%至10%　蘋果iPhone 18系列新機售價恐跟漲",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6541913"
     },
     {
       "region": "TW",
@@ -57,14 +65,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6541785"
-    },
-    {
-      "region": "TW",
-      "headline": "TEEMA招商由墨西哥打頭陣 電電公會：墨國擁北美市場、美墨加協定優勢",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6541784"
     }
   ]
 }
