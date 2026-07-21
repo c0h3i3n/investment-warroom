@@ -1,54 +1,70 @@
 {
-  "timestamp": "2026-07-21T15:05:29.786644+00:00",
-  "generatedAt": "2026-07-21T15:05:29.786644+00:00",
+  "timestamp": "2026-07-21T16:42:06.495193+00:00",
+  "generatedAt": "2026-07-21T16:42:06.495193+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈台幣〉股匯不同調 再爆巨量重貶9.7分至32.345元",
+      "headline": "iPhone也能用租的！蘋果攜手Klarna推「Apple Upgrade」服務",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6541635"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6541928"
     },
     {
       "region": "TW",
-      "headline": "〈房產〉台北與新北一河之隔落差不小 房仲統計：北車與捷運三重站區租金差別大",
+      "headline": "中國平價AI來襲 為何反成輝達、美光等晶片股大利多？",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6541521"
+      "link": "https://news.cnyes.com/news/id/6541296"
     },
     {
       "region": "TW",
-      "headline": "技嘉旗下孫公司技宸前進資本市場 7/22舉行興櫃前法說會",
+      "headline": "英特爾晶圓代工終於開張？陳立武上任後迎來首個具名客戶",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6541559"
+      "link": "https://news.cnyes.com/news/id/6541845"
     },
     {
       "region": "TW",
-      "headline": "微軟股價陷修正僵局 美銀選擇財報前逆勢加碼",
+      "headline": "Fed真的要升息了？三分之二經濟學家認為機率很高",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6541417"
+      "link": "https://news.cnyes.com/news/id/6541821"
     },
     {
       "region": "TW",
-      "headline": "台新證併後重大資安缺失 遭罰360萬元創券商歷年新高、資本計提增1倍",
+      "headline": "期貨夜盤小心開盤砍倉！金管會：善用簡訊預警與收盤模擬試算",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6541835"
+    },
+    {
+      "region": "TW",
+      "headline": "TISA開戶數近20萬、資產規模187億元 金管會：積極與財部爭取租稅優惠",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6541552"
+      "link": "https://news.cnyes.com/news/id/6541823"
     },
     {
       "region": "TW",
-      "headline": "很多家庭急著分遺產 忘了另一位父母還活著",
+      "headline": "虛擬資產監理元年！彭金隆揭Web3.0藍圖：推動RWA與穩定幣 落實「三金」整合",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6541589"
+      "link": "https://news.cnyes.com/news/id/6541785"
+    },
+    {
+      "region": "TW",
+      "headline": "TEEMA招商由墨西哥打頭陣 電電公會：墨國擁北美市場、美墨加協定優勢",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6541784"
     }
   ]
 }
