@@ -1,27 +1,59 @@
 {
-  "timestamp": "2026-07-22T16:47:26.829895+00:00",
-  "generatedAt": "2026-07-22T16:47:26.829895+00:00",
+  "timestamp": "2026-07-22T18:08:30.590519+00:00",
+  "generatedAt": "2026-07-22T18:08:30.590519+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "世銀：中東衝突升級 恐導致全球經濟2026年增長降至1.3%",
+      "headline": "Kimi K3太強引來調查！白宮控月之暗面違規使用輝達GB300晶片",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6543049"
+      "link": "https://news.cnyes.com/news/id/6543243"
     },
     {
       "region": "TW",
-      "headline": "日元跌到央行坐不住了？市場押注日銀10月前再升息 機率破七成",
+      "headline": "挑戰Meta！三星攜手Google打造智慧眼鏡 秋季上市",
       "source": "鉅亨",
       "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6543190"
+    },
+    {
+      "region": "TW",
+      "headline": "蘋果還沒出手、三星先亮劍！三款AI摺疊新機全面迎戰",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6543175"
+    },
+    {
+      "region": "TW",
+      "headline": "蘋果全面翻新Mac產品線！OLED觸控MacBook Pro最快年底登場",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6543213"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：中租-KY(5871-TW)EPS預估下修至12.14元，預估目標價為130元",
+      "source": "台股",
+      "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6543109"
+      "link": "https://news.cnyes.com/news/id/6543202"
+    },
+    {
+      "region": "TW",
+      "headline": "台積電赴美代價浮現！晶片成本恐高出台灣50% 毛利率承壓",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6543120"
     },
     {
       "region": "TW",
       "headline": "國旅住宿價位高？ 觀光研訓院董座：溝通仍不足 要讓消費者覺得有價值",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6543118"
@@ -29,26 +61,10 @@
     {
       "region": "TW",
       "headline": "台股新增2檔處置股 中探針近6日跌幅27%明起被關至8/5",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neg",
       "link": "https://news.cnyes.com/news/id/6543110"
-    },
-    {
-      "region": "TW",
-      "headline": "台積電配息創新高、繼承股票先別high！國稅局爆「這天」成股利報稅分水嶺",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6543084"
-    },
-    {
-      "region": "TW",
-      "headline": "太空衛星、加密貨幣止跌了！海外ETF多頭點火 00910單日大漲近5%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6543087"
     }
   ]
 }
