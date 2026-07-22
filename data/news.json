@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-07-22T03:47:42.843155+00:00",
-  "generatedAt": "2026-07-22T03:47:42.843155+00:00",
+  "timestamp": "2026-07-22T06:31:12.387501+00:00",
+  "generatedAt": "2026-07-22T06:31:12.387501+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "輝達揭露持有9.3%股權後 Nebius狂飆逾18%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6541980"
-    },
-    {
-      "region": "TW",
-      "headline": "〈能源盤後〉美伊衝突升級、胡塞武裝封鎖威脅 油價飆至五周新高",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6541931"
-    },
-    {
-      "region": "TW",
-      "headline": "〈貴金屬盤後〉美伊停火露曙光 金價反彈逾1%重返4,000美元關卡",
+      "headline": "AI引爆「記憶體通膨」時代！AI吃掉全球記憶體產能、消費者慘買單",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6541932"
+      "link": "https://news.cnyes.com/news/id/6542427"
     },
     {
       "region": "TW",
-      "headline": "美光大漲12%晶片股全面強彈 中國AI模型反成新催化劑？",
+      "headline": "航運史荒誕一幕！亞洲要買沙國石油 得繞非洲",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6542004"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6542521"
     },
     {
       "region": "TW",
-      "headline": "台積電擬2027年初漲價5%至10%　蘋果iPhone 18系列新機售價恐跟漲",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6541913"
-    },
-    {
-      "region": "TW",
-      "headline": "期貨夜盤小心開盤砍倉！金管會：善用簡訊預警與收盤模擬試算",
-      "source": "台股",
+      "headline": "日本6月貿易逆差意外擴大 日元匯率跌破163大關",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6541835"
+      "link": "https://news.cnyes.com/news/id/6542669"
     },
     {
       "region": "TW",
-      "headline": "TISA開戶數近20萬、資產規模187億元 金管會：積極與財部爭取租稅優惠",
-      "source": "台股",
+      "headline": "本月第2檔雙掛牌！大摩於都柏林與台北今同步掛牌 櫃買：下一步劍指Re-open制度",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6541823"
+      "link": "https://news.cnyes.com/news/id/6542611"
     },
     {
       "region": "TW",
-      "headline": "虛擬資產監理元年！彭金隆揭Web3.0藍圖：推動RWA與穩定幣 落實「三金」整合",
+      "headline": "川普宣布課徵學名藥100%關稅 學名藥協會籲「國藥國造、國藥國用」刻不容緩",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6541785"
+      "link": "https://news.cnyes.com/news/id/6542660"
+    },
+    {
+      "region": "TW",
+      "headline": "國發經部攜手赴北海道 借鏡廣域治理與六級產業化",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6542602"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股盤後〉台積電翻黑拖累4萬5攻關 續漲592點成交量還是未過兆元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6542650"
     }
   ]
 }
