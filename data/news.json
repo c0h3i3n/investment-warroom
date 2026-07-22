@@ -1,62 +1,54 @@
 {
-  "timestamp": "2026-07-22T11:25:07.569478+00:00",
-  "generatedAt": "2026-07-22T11:25:07.569478+00:00",
+  "timestamp": "2026-07-22T12:59:13.062596+00:00",
+  "generatedAt": "2026-07-22T12:59:13.062596+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI引爆「記憶體通膨」時代！AI吃掉全球記憶體產能、消費者慘買單",
+      "headline": "世銀：中東衝突升級 恐導致全球經濟2026年增長降至1.3%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6542427"
+      "link": "https://news.cnyes.com/news/id/6543049"
     },
     {
       "region": "TW",
-      "headline": "航運史荒誕一幕！亞洲要買沙國石油 得繞非洲",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6542521"
-    },
-    {
-      "region": "TW",
-      "headline": "日本6月貿易逆差意外擴大 日元匯率跌破163大關",
+      "headline": "日元跌到央行坐不住了？市場押注日銀10月前再升息 機率破七成",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6542669"
+      "link": "https://news.cnyes.com/news/id/6543109"
     },
     {
       "region": "TW",
-      "headline": "本月第2檔雙掛牌！大摩於都柏林與台北今同步掛牌 櫃買：下一步劍指Re-open制度",
+      "headline": "國旅住宿價位高？ 觀光研訓院董座：溝通仍不足 要讓消費者覺得有價值",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6542611"
+      "link": "https://news.cnyes.com/news/id/6543118"
     },
     {
       "region": "TW",
-      "headline": "川普宣布課徵學名藥100%關稅 學名藥協會籲「國藥國造、國藥國用」刻不容緩",
+      "headline": "台股新增2檔處置股 中探針近6日跌幅27%明起被關至8/5",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6543110"
+    },
+    {
+      "region": "TW",
+      "headline": "台積電配息創新高、繼承股票先別high！國稅局爆「這天」成股利報稅分水嶺",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6542660"
+      "link": "https://news.cnyes.com/news/id/6543084"
     },
     {
       "region": "TW",
-      "headline": "國發經部攜手赴北海道 借鏡廣域治理與六級產業化",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6542602"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股盤後〉台積電翻黑拖累4萬5攻關 續漲592點成交量還是未過兆元",
+      "headline": "太空衛星、加密貨幣止跌了！海外ETF多頭點火 00910單日大漲近5%",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6542650"
+      "link": "https://news.cnyes.com/news/id/6543087"
     }
   ]
 }
