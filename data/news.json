@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-07-23T11:57:51.457532+00:00",
-  "generatedAt": "2026-07-23T11:57:51.457532+00:00",
+  "timestamp": "2026-07-23T14:24:30.120566+00:00",
+  "generatedAt": "2026-07-23T14:24:30.120566+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "中北部演習手機降速30分鐘 金管會：改用固網或Wi-Fi 金融交易不卡關",
+      "headline": "AI燒錢燒到市場怕了！特斯拉股價崩逾10%、Alphabet重挫近6%",
       "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544003"
-    },
-    {
-      "region": "TW",
-      "headline": "大鵬科與美國Allied World達成和解 業務與財務未受影響",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544066"
-    },
-    {
-      "region": "TW",
-      "headline": "【0723台股盤後】回測月線展現強防守！加權小漲 25 點收 44,850 點；AI 伺服器與散熱重啟攻勢",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6544070"
-    },
-    {
-      "region": "TW",
-      "headline": "泰宗反覆性泌尿道感染新藥臨床三期期中分析結果出爐 安全性無虞持續推進",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544060"
-    },
-    {
-      "region": "TW",
-      "headline": "信邦Q2純益繳雙增EPS3.76元 上半年每股賺7.36元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6543866"
-    },
-    {
-      "region": "TW",
-      "headline": "掌握AI時代新局，野村全台首檔主動式ETF連結基金7月20日開募，領航台股長線獲利動能",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6540489"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股盤後〉攻4萬5又失利 靠台積電尾盤神救援翻紅小漲25點收44850點",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6543819"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：景碩(3189-TW)EPS預估下修至10.57元，預估目標價為940元",
-      "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6543847"
+      "link": "https://news.cnyes.com/news/id/6544263"
+    },
+    {
+      "region": "TW",
+      "headline": "〈美股早盤〉AI支出與百美元油價施壓！主要指數開低 道指一度崩逾600點",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6544141"
+    },
+    {
+      "region": "TW",
+      "headline": "紅海油輪遇襲、荷姆茲海峽風險升高！布蘭特原油飆破100美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6544250"
+    },
+    {
+      "region": "TW",
+      "headline": "債市警報響了！中東戰火推升油價 美債殖利率創18個月新高",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6544232"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：中鋼(2002-TW)EPS預估上修至0.15元，預估目標價為22元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6544290"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：台塑(1301-TW)EPS預估上修至2.43元，預估目標價為67.5元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6544289"
+    },
+    {
+      "region": "TW",
+      "headline": "台商出海信心大調查：74%看好前景 金融電子業帶頭衝 半導體業反墊底",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6544181"
     }
   ]
 }
