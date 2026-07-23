@@ -1,70 +1,54 @@
 {
-  "timestamp": "2026-07-23T04:34:54.376058+00:00",
-  "generatedAt": "2026-07-23T04:34:54.376058+00:00",
+  "timestamp": "2026-07-23T07:19:50.184630+00:00",
+  "generatedAt": "2026-07-23T07:19:50.184630+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "川普警告伊朗：若攻擊荷姆茲海峽船隻 美將轟炸發電廠、橋梁",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6543313"
-    },
-    {
-      "region": "TW",
-      "headline": "〈財報〉Alphabet Q2優於預期仍挨賣 AI資本支出衝2050億美元嚇壞市場 盤後跌近4%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6543260"
-    },
-    {
-      "region": "TW",
-      "headline": "〈貴金屬盤後〉美元疲軟、逢低買盤撐腰 黃金勁揚 ",
+      "headline": "掌握AI時代新局，野村全台首檔主動式ETF連結基金7月20日開募，領航台股長線獲利動能",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6543317"
+      "link": "https://news.cnyes.com/news/id/6540489"
     },
     {
       "region": "TW",
-      "headline": "〈財報〉特斯拉Q2不如預期 自由現金流轉負 盤後跌4%",
+      "headline": "換日元先等等？日元遭美元買盤壓制 市場預期將貶到170",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6542998"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6543815"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：中租-KY(5871-TW)EPS預估下修至12.14元，預估目標價為130元",
-      "source": "台股",
+      "headline": "〈台股盤後〉攻4萬5又失利 靠台積電尾盤神救援翻紅小漲25點收44850點",
+      "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6543202"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6543819"
     },
     {
       "region": "TW",
-      "headline": "台積電赴美代價浮現！晶片成本恐高出台灣50% 毛利率承壓",
+      "headline": "〈焦點股〉輝達傳收購「暗光纖」 點火光通訊股 聯亞連2天漲停",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6543801"
+    },
+    {
+      "region": "TW",
+      "headline": "信邦Q2純益繳雙增EPS3.76元 上半年每股賺7.36元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6543120"
+      "link": "https://news.cnyes.com/news/id/6543866"
     },
     {
       "region": "TW",
-      "headline": "國旅住宿價位高？ 觀光研訓院董座：溝通仍不足 要讓消費者覺得有價值",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6543118"
-    },
-    {
-      "region": "TW",
-      "headline": "台股新增2檔處置股 中探針近6日跌幅27%明起被關至8/5",
+      "headline": "鉅亨速報 - Factset 最新調查：景碩(3189-TW)EPS預估下修至10.57元，預估目標價為940元",
       "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6543110"
+      "link": "https://news.cnyes.com/news/id/6543847"
     }
   ]
 }
