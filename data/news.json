@@ -1,62 +1,70 @@
 {
-  "timestamp": "2026-07-23T17:46:40.634415+00:00",
-  "generatedAt": "2026-07-23T17:46:40.634415+00:00",
+  "timestamp": "2026-07-23T19:22:06.407369+00:00",
+  "generatedAt": "2026-07-23T19:22:06.407369+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI燒錢燒到市場怕了！特斯拉股價崩逾10%、Alphabet重挫近6%",
+      "headline": "盤中速報 - 思佳訊半導體(SWKS-US)大跌5%，報60美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6544263"
+      "link": "https://news.cnyes.com/news/id/6544368"
     },
     {
       "region": "TW",
-      "headline": "〈美股早盤〉AI支出與百美元油價施壓！主要指數開低 道指一度崩逾600點",
+      "headline": "客戶支出多出50%！Google Cloud證明AI有人買單 算力與成本仍是考驗",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6544141"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6544307"
     },
     {
       "region": "TW",
-      "headline": "紅海油輪遇襲、荷姆茲海峽風險升高！布蘭特原油飆破100美元",
+      "headline": "盤中速報 - 美光科技(MU-US)大漲5.02%，報1007.69美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6544250"
+      "link": "https://news.cnyes.com/news/id/6544361"
     },
     {
       "region": "TW",
-      "headline": "債市警報響了！中東戰火推升油價 美債殖利率創18個月新高",
+      "headline": "美國10%基準關稅周五到期 葛里爾將公布接替方案",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6544232"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6544355"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：中鋼(2002-TW)EPS預估上修至0.15元，預估目標價為22元",
+      "headline": "在宅急症照護保單鎖定三大感染症 國壽、富壽、南山3家申請試辦中",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544290"
+      "link": "https://news.cnyes.com/news/id/6544334"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：台塑(1301-TW)EPS預估上修至2.43元，預估目標價為67.5元",
+      "headline": "央行：台灣人儲蓄多 6月散戶風向球4兆4237億元創次高",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544289"
+      "link": "https://news.cnyes.com/news/id/6544330"
     },
     {
       "region": "TW",
-      "headline": "台商出海信心大調查：74%看好前景 金融電子業帶頭衝 半導體業反墊底",
+      "headline": "賴清德：極端氣候影響國人甚鉅 提三核心戰略提升台灣永續發展",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544181"
+      "link": "https://news.cnyes.com/news/id/6544225"
+    },
+    {
+      "region": "TW",
+      "headline": "基金經理人盤中禁用手機擬鬆綁？金管會：尚未收到公會提案",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6544331"
     }
   ]
 }
