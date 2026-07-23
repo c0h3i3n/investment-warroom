@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-07-23T19:22:06.407369+00:00",
-  "generatedAt": "2026-07-23T19:22:06.407369+00:00",
+  "timestamp": "2026-07-23T20:36:38.264320+00:00",
+  "generatedAt": "2026-07-23T20:36:38.264320+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 思佳訊半導體(SWKS-US)大跌5%，報60美元",
+      "headline": "超微正式向輝達宣戰！Helios全面量產第三季末出貨 OpenAI年底大規模部署",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6544368"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6544385"
     },
     {
       "region": "TW",
@@ -17,14 +17,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6544307"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 美光科技(MU-US)大漲5.02%，報1007.69美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6544361"
     },
     {
       "region": "TW",
@@ -37,7 +29,7 @@
     {
       "region": "TW",
       "headline": "在宅急症照護保單鎖定三大感染症 國壽、富壽、南山3家申請試辦中",
-      "source": "台股",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6544334"
