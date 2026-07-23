@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-07-22T23:15:59.730652+00:00",
-  "generatedAt": "2026-07-22T23:15:59.730652+00:00",
+  "timestamp": "2026-07-23T01:02:17.959514+00:00",
+  "generatedAt": "2026-07-23T01:02:17.959514+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美光中國最強對手要上市！98億美元IPO恐抽乾晶片股",
+      "headline": "川普警告伊朗：若攻擊荷姆茲海峽船隻 美將轟炸發電廠、橋梁",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6543245"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6543313"
     },
     {
       "region": "TW",
-      "headline": "〈財報前瞻〉AI讓英特爾翻身了？第二季營收增速上看六年最快 蘋果訂單成焦點",
+      "headline": "〈財報〉Alphabet Q2優於預期仍挨賣 AI資本支出衝2050億美元嚇壞市場 盤後跌近4%",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6543080"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6543260"
     },
     {
       "region": "TW",
-      "headline": "汽車價格戰被盯上？上海召集特斯拉、比亞迪等15家車廠談合規",
+      "headline": "〈貴金屬盤後〉美元疲軟、逢低買盤撐腰 黃金勁揚 ",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6543119"
+      "link": "https://news.cnyes.com/news/id/6543317"
     },
     {
       "region": "TW",
-      "headline": "狂砸AI卻裁AI人才？亞馬遜縮編AGI部門 受影響人數未公布",
+      "headline": "〈財報〉特斯拉Q2不如預期 自由現金流轉負 盤後跌4%",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6543244"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6542998"
     },
     {
       "region": "TW",
