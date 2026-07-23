@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-07-23T09:59:17.666191+00:00",
-  "generatedAt": "2026-07-23T09:59:17.666191+00:00",
+  "timestamp": "2026-07-23T11:57:51.457532+00:00",
+  "generatedAt": "2026-07-23T11:57:51.457532+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "掌握AI時代新局，野村全台首檔主動式ETF連結基金7月20日開募，領航台股長線獲利動能",
+      "headline": "中北部演習手機降速30分鐘 金管會：改用固網或Wi-Fi 金融交易不卡關",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6540489"
+      "link": "https://news.cnyes.com/news/id/6544003"
     },
     {
       "region": "TW",
-      "headline": "換日元先等等？日元遭美元買盤壓制 市場預期將貶到170",
+      "headline": "大鵬科與美國Allied World達成和解 業務與財務未受影響",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6543815"
+      "link": "https://news.cnyes.com/news/id/6544066"
     },
     {
       "region": "TW",
-      "headline": "〈台股盤後〉攻4萬5又失利 靠台積電尾盤神救援翻紅小漲25點收44850點",
+      "headline": "【0723台股盤後】回測月線展現強防守！加權小漲 25 點收 44,850 點；AI 伺服器與散熱重啟攻勢",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6543819"
+      "link": "https://news.cnyes.com/news/id/6544070"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉輝達傳收購「暗光纖」 點火光通訊股 聯亞連2天漲停",
+      "headline": "泰宗反覆性泌尿道感染新藥臨床三期期中分析結果出爐 安全性無虞持續推進",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6543801"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6544060"
     },
     {
       "region": "TW",
@@ -41,6 +41,22 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6543866"
+    },
+    {
+      "region": "TW",
+      "headline": "掌握AI時代新局，野村全台首檔主動式ETF連結基金7月20日開募，領航台股長線獲利動能",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6540489"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股盤後〉攻4萬5又失利 靠台積電尾盤神救援翻紅小漲25點收44850點",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6543819"
     },
     {
       "region": "TW",
