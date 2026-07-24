@@ -1,35 +1,43 @@
 {
-  "timestamp": "2026-07-23T23:40:47.938227+00:00",
-  "generatedAt": "2026-07-23T23:40:47.938227+00:00",
+  "timestamp": "2026-07-24T01:11:13.579953+00:00",
+  "generatedAt": "2026-07-24T01:11:13.579953+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "超微正式向輝達宣戰！Helios全面量產第三季末出貨 OpenAI年底大規模部署",
+      "headline": "科技七雄重挫 恐創川普關稅風暴後最大單日跌幅",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544385"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6544358"
     },
     {
       "region": "TW",
-      "headline": "客戶支出多出50%！Google Cloud證明AI有人買單 算力與成本仍是考驗",
+      "headline": "AI支出再升級 為何輝達沒漲？市場資金輪動成關鍵",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544307"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6544357"
     },
     {
       "region": "TW",
-      "headline": "美國10%基準關稅周五到期 葛里爾將公布接替方案",
+      "headline": "川普祭新關稅周五生效！60個經濟體遭課10%到12.5% 台灣適用稅率出爐",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544355"
+      "link": "https://news.cnyes.com/news/id/6544433"
+    },
+    {
+      "region": "TW",
+      "headline": "美股七巨頭市值單日蒸發7970億美元 2025年4月以來最慘",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6544422"
     },
     {
       "region": "TW",
       "headline": "在宅急症照護保單鎖定三大感染症 國壽、富壽、南山3家申請試辦中",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6544334"
