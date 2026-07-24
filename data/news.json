@@ -1,7 +1,23 @@
 {
-  "timestamp": "2026-07-24T17:06:26.167820+00:00",
-  "generatedAt": "2026-07-24T17:06:26.167820+00:00",
+  "timestamp": "2026-07-24T18:45:39.263328+00:00",
+  "generatedAt": "2026-07-24T18:45:39.263328+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "SpaceX跌破發行價還沒完？上市一個月跌23%、跑輸九成大型IPO 8月解禁成考驗",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6544028"
+    },
+    {
+      "region": "TW",
+      "headline": "全球記憶體三大龍頭財報下周即將揭曉",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6545415"
+    },
     {
       "region": "TW",
       "headline": "〈美股早盤〉油價自高點回落 地緣政治仍緊張 主要指數漲跌不一",
@@ -20,16 +36,8 @@
     },
     {
       "region": "TW",
-      "headline": "SK海力士三地資產脫鉤 2.5%轉換紅線鎖死套利空間 美股溢價走向常態化",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545135"
-    },
-    {
-      "region": "TW",
       "headline": "北車商場今由新光三越進行交接　台鐵：明早6時準時開幕營運",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6545340"
