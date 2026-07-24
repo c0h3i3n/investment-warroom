@@ -1,70 +1,70 @@
 {
-  "timestamp": "2026-07-24T04:34:12.495745+00:00",
-  "generatedAt": "2026-07-24T04:34:12.495745+00:00",
+  "timestamp": "2026-07-24T07:18:59.515470+00:00",
+  "generatedAt": "2026-07-24T07:18:59.515470+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "科技七雄重挫 恐創川普關稅風暴後最大單日跌幅",
+      "headline": "6個月變1年！半導體擴產遇瓶頸 五大設備廠交期翻倍 三星、SK海力士擬提早下單因應",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6544970"
+    },
+    {
+      "region": "TW",
+      "headline": "首年就搶占四分之一市場？分析指蘋果將重塑2026年折疊機競爭格局",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6544912"
+    },
+    {
+      "region": "TW",
+      "headline": "韓股暴跌近6%又見熔斷 日股下挫1800點！關稅、油價與AI疑慮三重打擊",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6544358"
+      "link": "https://news.cnyes.com/news/id/6544889"
     },
     {
       "region": "TW",
-      "headline": "AI支出再升級 為何輝達沒漲？市場資金輪動成關鍵",
+      "headline": "韓SK集團「世紀離婚案」重審宣判 崔泰源需支付9440億韓元 創史上最高紀錄",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6544972"
+    },
+    {
+      "region": "TW",
+      "headline": "〈ETF成分股調整〉00891換股納中美晶、台勝科、大聯大 完整涵蓋AI供應鏈",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6544968"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股盤後〉4大不利因素創史上第9大跌點1195點失守季線 周線仍漲983點",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6544357"
+      "link": "https://news.cnyes.com/news/id/6544957"
     },
     {
       "region": "TW",
-      "headline": "川普祭新關稅周五生效！60個經濟體遭課10%到12.5% 台灣適用稅率出爐",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544433"
-    },
-    {
-      "region": "TW",
-      "headline": "美股七巨頭市值單日蒸發7970億美元 2025年4月以來最慘",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544422"
-    },
-    {
-      "region": "TW",
-      "headline": "在宅急症照護保單鎖定三大感染症 國壽、富壽、南山3家申請試辦中",
+      "headline": "〈房產〉廠辦工程需求旺 6月營建業營業氣候創1年半新高",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544334"
+      "link": "https://news.cnyes.com/news/id/6544867"
     },
     {
       "region": "TW",
-      "headline": "央行：台灣人儲蓄多 6月散戶風向球4兆4237億元創次高",
+      "headline": "微星推出全新第六代AMD EPYC™伺服器平台陣容 協助客戶打造彈性化資料中心",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544330"
-    },
-    {
-      "region": "TW",
-      "headline": "賴清德：極端氣候影響國人甚鉅 提三核心戰略提升台灣永續發展",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544225"
-    },
-    {
-      "region": "TW",
-      "headline": "基金經理人盤中禁用手機擬鬆綁？金管會：尚未收到公會提案",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544331"
+      "link": "https://news.cnyes.com/news/id/6544895"
     }
   ]
 }
