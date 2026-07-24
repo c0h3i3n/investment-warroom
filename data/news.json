@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-07-24T18:45:39.263328+00:00",
-  "generatedAt": "2026-07-24T18:45:39.263328+00:00",
+  "timestamp": "2026-07-24T20:21:39.598024+00:00",
+  "generatedAt": "2026-07-24T20:21:39.598024+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "SpaceX跌破發行價還沒完？上市一個月跌23%、跑輸九成大型IPO 8月解禁成考驗",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6544028"
-    },
-    {
-      "region": "TW",
-      "headline": "全球記憶體三大龍頭財報下周即將揭曉",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545415"
-    },
-    {
-      "region": "TW",
-      "headline": "〈美股早盤〉油價自高點回落 地緣政治仍緊張 主要指數漲跌不一",
+      "headline": "盤中速報 - AT&amp;amp;T(T-US)大漲5.01%，報24.11美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6545233"
+      "link": "https://news.cnyes.com/news/id/6545560"
     },
     {
       "region": "TW",
-      "headline": "藍思科技與英特爾簽署備忘錄 聯手研發TGV玻璃基板先進封裝技術",
+      "headline": "盤中速報 - 科磊(KLAC-US)大跌5.05%，報207.68美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545416"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6545550"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 威瑞森電信(VZ-US)大漲5.01%，報46.02美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6545548"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 科林研發(LRCX-US)大跌5.01%，報303.77美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6545547"
     },
     {
       "region": "TW",
