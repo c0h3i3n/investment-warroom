@@ -1,70 +1,38 @@
 {
-  "timestamp": "2026-07-24T09:56:09.727252+00:00",
-  "generatedAt": "2026-07-24T09:56:09.727252+00:00",
+  "timestamp": "2026-07-24T11:45:31.040947+00:00",
+  "generatedAt": "2026-07-24T11:45:31.040947+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "6個月變1年！半導體擴產遇瓶頸 五大設備廠交期翻倍 三星、SK海力士擬提早下單因應",
+      "headline": "〈高雄專區一周年〉提前達標！金融三業58家進駐 總資產規模近7300億元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544970"
+      "link": "https://news.cnyes.com/news/id/6545169"
     },
     {
       "region": "TW",
-      "headline": "首年就搶占四分之一市場？分析指蘋果將重塑2026年折疊機競爭格局",
+      "headline": "〈高雄專區一周年〉四年有變！卓揆拋四大宣示 金管會擬參考印度GIFT City等國際經驗",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544912"
+      "link": "https://news.cnyes.com/news/id/6545051"
     },
     {
       "region": "TW",
-      "headline": "韓股暴跌近6%又見熔斷 日股下挫1800點！關稅、油價與AI疑慮三重打擊",
+      "headline": "〈航運指數〉SCFI連3跌 跌幅收斂 波斯灣航線運價逆勢漲逾7%",
       "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6544889"
-    },
-    {
-      "region": "TW",
-      "headline": "韓SK集團「世紀離婚案」重審宣判 崔泰源需支付9440億韓元 創史上最高紀錄",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544972"
-    },
-    {
-      "region": "TW",
-      "headline": "〈ETF成分股調整〉00891換股納中美晶、台勝科、大聯大 完整涵蓋AI供應鏈",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544968"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股盤後〉4大不利因素創史上第9大跌點1195點失守季線 周線仍漲983點",
-      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6544957"
+      "link": "https://news.cnyes.com/news/id/6545202"
     },
     {
       "region": "TW",
-      "headline": "〈房產〉廠辦工程需求旺 6月營建業營業氣候創1年半新高",
-      "source": "台股",
+      "headline": "外資賣超609億元調節台塑集團股  三大法人力捧緯創3天加碼15萬張",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544867"
-    },
-    {
-      "region": "TW",
-      "headline": "微星推出全新第六代AMD EPYC™伺服器平台陣容 協助客戶打造彈性化資料中心",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6544895"
+      "link": "https://news.cnyes.com/news/id/6545168"
     }
   ]
 }
