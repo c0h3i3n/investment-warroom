@@ -1,38 +1,46 @@
 {
-  "timestamp": "2026-07-25T02:51:23.534983+00:00",
-  "generatedAt": "2026-07-25T02:51:23.534983+00:00",
+  "timestamp": "2026-07-25T05:44:51.488662+00:00",
+  "generatedAt": "2026-07-25T05:44:51.488662+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "怒批歐盟「洗劫」美國科技巨頭 川普揚言課重稅",
+      "headline": "外銷訂單紅火創952億美元新高、緯創德州新廠開幕、00891換股 本周大事回顧",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545570"
+      "link": "https://news.cnyes.com/news/id/6545491"
     },
     {
       "region": "TW",
-      "headline": "荷姆茲危機未解 巴克萊上調油價風險評估 估布油現貨恐衝150美元",
+      "headline": "AI大會後利多連發！華爾街喊買AMD 最高目標價800美元 看好再漲48%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6545589"
+      "link": "https://news.cnyes.com/news/id/6545634"
     },
     {
       "region": "TW",
-      "headline": "〈貴金屬盤後〉逢低買盤撐腰 黃金周線反彈 Fed會議下周登場",
+      "headline": "〈熱門股〉AI伺服器強推華碩月營收上千億元 除息後外資連17買惦惦吃貨",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545578"
+      "link": "https://news.cnyes.com/news/id/6545501"
     },
     {
       "region": "TW",
-      "headline": "特斯拉周跌18%、SpaceX續挫 馬斯克蒸發千億美元自嘲「前兆元富豪」",
+      "headline": "輝達、SK集團宣布5000億美元AI計畫 強化記憶體與資料中心合作",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6545571"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6545621"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉黃仁勳、林緯銘同聲唱旺AI需求 本周緯創股價天天漲、外資天天買",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6545459"
     },
     {
       "region": "TW",
@@ -41,30 +49,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6545340"
-    },
-    {
-      "region": "TW",
-      "headline": "台苯因應連4年虧損 宣布10/1起苯乙烯廠停產以改善經營績效",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545335"
-    },
-    {
-      "region": "TW",
-      "headline": "揚明光學上半年EPS 0.1元 估Q3車用光學產品成長",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545334"
-    },
-    {
-      "region": "TW",
-      "headline": "首家引進歐洲私募信貸公股銀！一銀高雄專區AUM衝500億大關、高端客戶破400戶",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545299"
     }
   ]
 }
