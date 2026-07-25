@@ -1,7 +1,23 @@
 {
-  "timestamp": "2026-07-25T12:03:58.943493+00:00",
-  "generatedAt": "2026-07-25T12:03:58.943493+00:00",
+  "timestamp": "2026-07-25T14:02:34.832879+00:00",
+  "generatedAt": "2026-07-25T14:02:34.832879+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "CPU重返AI戰場誰將勝出？英特爾、AMD、輝達掀三強爭霸",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6545746"
+    },
+    {
+      "region": "TW",
+      "headline": "GPU越多CPU越忙！英特爾Q2資料中心AI營收飆59%  陳立武：需求將一路旺到2028年",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6545732"
+    },
     {
       "region": "TW",
       "headline": "馬斯克預言AI五年超越人類！反對全面管制、提「同業互查」取代政府監管、談OpenAI恩怨",
@@ -12,27 +28,11 @@
     },
     {
       "region": "TW",
-      "headline": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過24.69億美元，BETA(BETA)24小時漲幅達64%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6545759"
-    },
-    {
-      "region": "TW",
       "headline": "輝達黃仁勳為何力挺開源AI？25家科技巨頭聯署公開信  背後商業盤算一次看懂",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6545687"
-    },
-    {
-      "region": "TW",
-      "headline": "AI投資掏空自由現金流？穆迪警告：科技巨頭邁入「重資產時代」、信用品質受衝擊",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6545673"
     },
     {
       "region": "TW",
