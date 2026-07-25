@@ -1,38 +1,46 @@
 {
-  "timestamp": "2026-07-25T10:52:24.508036+00:00",
-  "generatedAt": "2026-07-25T10:52:24.508036+00:00",
+  "timestamp": "2026-07-25T12:03:58.943493+00:00",
+  "generatedAt": "2026-07-25T12:03:58.943493+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "史上最大石油供應衝擊來襲 為何油價仍未失控？ ",
+      "headline": "馬斯克預言AI五年超越人類！反對全面管制、提「同業互查」取代政府監管、談OpenAI恩怨",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545579"
+      "link": "https://news.cnyes.com/news/id/6545674"
     },
     {
       "region": "TW",
-      "headline": "AI燒錢燒到債市！科技巨頭狂砸資本支出、債券投資人開始擔心了",
+      "headline": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過24.69億美元，BETA(BETA)24小時漲幅達64%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6545759"
+    },
+    {
+      "region": "TW",
+      "headline": "輝達黃仁勳為何力挺開源AI？25家科技巨頭聯署公開信  背後商業盤算一次看懂",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545672"
+      "link": "https://news.cnyes.com/news/id/6545687"
+    },
+    {
+      "region": "TW",
+      "headline": "AI投資掏空自由現金流？穆迪警告：科技巨頭邁入「重資產時代」、信用品質受衝擊",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6545673"
     },
     {
       "region": "TW",
       "headline": "台積電、美光壓力來了！韓美晶片同盟再加碼 三星SK海力士吞下9500億美元大餅",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6545720"
-    },
-    {
-      "region": "TW",
-      "headline": "伊朗飛彈愈打愈準？專家：中國衛星影像、俄羅斯戰術成關鍵",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545695"
     },
     {
       "region": "TW",
