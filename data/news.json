@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-07-24T23:45:35.699059+00:00",
-  "generatedAt": "2026-07-24T23:45:35.699059+00:00",
+  "timestamp": "2026-07-25T02:51:23.534983+00:00",
+  "generatedAt": "2026-07-25T02:51:23.534983+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - AT&amp;amp;T(T-US)大漲5.01%，報24.11美元",
+      "headline": "怒批歐盟「洗劫」美國科技巨頭 川普揚言課重稅",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6545570"
+    },
+    {
+      "region": "TW",
+      "headline": "荷姆茲危機未解 巴克萊上調油價風險評估 估布油現貨恐衝150美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6545560"
+      "link": "https://news.cnyes.com/news/id/6545589"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 科磊(KLAC-US)大跌5.05%，報207.68美元",
+      "headline": "〈貴金屬盤後〉逢低買盤撐腰 黃金周線反彈 Fed會議下周登場",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6545578"
+    },
+    {
+      "region": "TW",
+      "headline": "特斯拉周跌18%、SpaceX續挫 馬斯克蒸發千億美元自嘲「前兆元富豪」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6545550"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 威瑞森電信(VZ-US)大漲5.01%，報46.02美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6545548"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 科林研發(LRCX-US)大跌5.01%，報303.77美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6545547"
+      "link": "https://news.cnyes.com/news/id/6545571"
     },
     {
       "region": "TW",
