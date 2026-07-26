@@ -1,38 +1,54 @@
 {
-  "timestamp": "2026-07-26T11:01:45.229541+00:00",
-  "generatedAt": "2026-07-26T11:01:45.229541+00:00",
+  "timestamp": "2026-07-26T12:16:45.120274+00:00",
+  "generatedAt": "2026-07-26T12:16:45.120274+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈父親節理財〉寵愛老爸首選！美元分紅與一日手術醫療保障同步規劃 繳6年領到99歲安心樂活",
+      "headline": "中國長鑫存儲不靠低價了！需求飆升、記憶體報價超車三星、華為也拿不到優惠價",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6545929"
+    },
+    {
+      "region": "TW",
+      "headline": "黃仁勳：AI將讓半導體產業擴大10倍！輝達攜手SK打造5000億美元合作版圖",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545902"
+      "link": "https://news.cnyes.com/news/id/6545942"
+    },
+    {
+      "region": "TW",
+      "headline": "AI光通訊迎關鍵變革！專家：NPO可望早於CPO商業化  Glass Bridge成高密度互連新焦點",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6545922"
+    },
+    {
+      "region": "TW",
+      "headline": "黃仁勳喊「這次不一樣」！晶片股不會崩盤、AI基礎建設才起步",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6545915"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉磷化銦原料鬆綁帶動出貨需求 全新周漲18%站回300元大關",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6545885"
     },
     {
       "region": "TW",
       "headline": "台灣主動式ETF定期定額戶數破30萬！小資族逆勢青睞 單月大增13%",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6545898"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - ORDI大漲14.19%，報4.05美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6545961"
-    },
-    {
-      "region": "TW",
-      "headline": "Anthropic也要自研AI晶片了！崔泰源證實：已向SK海力士尋求供應",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545762"
     },
     {
       "region": "TW",
@@ -49,14 +65,6 @@
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6545882"
-    },
-    {
-      "region": "TW",
-      "headline": "AI需求夯 繼電器廠松川AI DC類產品營收大增8成 占比提高至17%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545756"
     }
   ]
 }
