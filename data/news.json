@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-07-26T04:06:33.406716+00:00",
-  "generatedAt": "2026-07-26T04:06:33.406716+00:00",
+  "timestamp": "2026-07-26T06:48:55.702464+00:00",
+  "generatedAt": "2026-07-26T06:48:55.702464+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "川普TACO時刻將至？顧問機構預測最快「今日」迎決策轉折",
+      "headline": "〈父親節理財〉寵愛老爸首選！美元分紅與一日手術醫療保障同步規劃 繳6年領到99歲安心樂活",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545817"
+      "link": "https://news.cnyes.com/news/id/6545902"
     },
     {
       "region": "TW",
-      "headline": "CPU重返AI戰場誰將勝出？英特爾、AMD、輝達掀三強爭霸",
+      "headline": "台灣主動式ETF定期定額戶數破30萬！小資族逆勢青睞 單月大增13%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545746"
+      "link": "https://news.cnyes.com/news/id/6545898"
     },
     {
       "region": "TW",
-      "headline": "GPU越多CPU越忙！英特爾Q2資料中心AI營收飆59%  陳立武：需求將一路旺到2028年",
+      "headline": "盤中速報 - ORDI大漲14.19%，報4.05美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6545732"
+      "link": "https://news.cnyes.com/news/id/6545961"
     },
     {
       "region": "TW",
-      "headline": "馬斯克預言AI五年超越人類！反對全面管制、提「同業互查」取代政府監管、談OpenAI恩怨",
+      "headline": "Anthropic也要自研AI晶片了！崔泰源證實：已向SK海力士尋求供應",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545674"
+      "link": "https://news.cnyes.com/news/id/6545762"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：穎崴(6515-TW)EPS預估下修至97.85元，預估目標價為12600元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6545864"
-    },
-    {
-      "region": "TW",
-      "headline": "台積電、美光壓力來了！韓美晶片同盟再加碼 三星SK海力士吞下9500億美元大餅",
+      "headline": "關稅戰先贏一波！台灣機械與工具機稅率優於日韓 手工具水五金完勝中越",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545720"
+      "link": "https://news.cnyes.com/news/id/6545887"
     },
     {
       "region": "TW",
-      "headline": "完整獎號一次看！5、6月統一發票開獎千萬特別獎「38548029」",
+      "headline": "紅海危機重挫民生防線！中油吞157億平穩物價 汽柴油各調漲0.7元與0.5元",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545713"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6545882"
     },
     {
       "region": "TW",
-      "headline": "AI巨頭財報前瞻一表看！微軟、Meta、蘋果下周開獎 聚焦資本支出",
+      "headline": "AI需求夯 繼電器廠松川AI DC類產品營收大增8成 占比提高至17%",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545473"
+      "link": "https://news.cnyes.com/news/id/6545756"
     }
   ]
 }
