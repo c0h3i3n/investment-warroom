@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-07-26T17:44:18.736320+00:00",
-  "generatedAt": "2026-07-26T17:44:18.736320+00:00",
+  "timestamp": "2026-07-26T18:44:55.659914+00:00",
+  "generatedAt": "2026-07-26T18:44:55.659914+00:00",
   "data": [
     {
       "region": "TW",
@@ -28,8 +28,16 @@
     },
     {
       "region": "TW",
-      "headline": "外界質疑高鐵延伸宜蘭無法紓解雪隧壅塞 鐵道局澄清：應以區域發展、運輸韌性評估",
+      "headline": "中國長鑫存儲不靠低價了！需求飆升、記憶體報價超車三星、華為也拿不到優惠價",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6545929"
+    },
+    {
+      "region": "TW",
+      "headline": "外界質疑高鐵延伸宜蘭無法紓解雪隧壅塞 鐵道局澄清：應以區域發展、運輸韌性評估",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6545971"
