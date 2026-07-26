@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-07-26T16:31:01.877227+00:00",
-  "generatedAt": "2026-07-26T16:31:01.877227+00:00",
+  "timestamp": "2026-07-26T17:44:18.736320+00:00",
+  "generatedAt": "2026-07-26T17:44:18.736320+00:00",
   "data": [
     {
       "id": "tai",
@@ -48,7 +48,7 @@
       "region": "US",
       "currency": "$",
       "price": 24975.824,
-      "change": -161.87,
+      "change": -161.88,
       "changePct": -0.64,
       "asOf": "2026-07-24T21:15:59+00:00",
       "source": "Yahoo Finance",
@@ -61,7 +61,7 @@
       "region": "US",
       "currency": "$",
       "price": 11818.886,
-      "change": -524.95,
+      "change": -524.91,
       "changePct": -4.25,
       "asOf": "2026-07-24T21:15:59+00:00",
       "source": "Yahoo Finance",
