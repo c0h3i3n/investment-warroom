@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-07-26T12:16:45.120274+00:00",
-  "generatedAt": "2026-07-26T12:16:45.120274+00:00",
+  "timestamp": "2026-07-26T14:08:45.927849+00:00",
+  "generatedAt": "2026-07-26T14:08:45.927849+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "中國長鑫存儲不靠低價了！需求飆升、記憶體報價超車三星、華為也拿不到優惠價",
+      "headline": "南韓散戶逆勢抄底背後原因曝！單日狂買4500億半導體槓桿ETF",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6545940"
+    },
+    {
+      "region": "TW",
+      "headline": "伊朗軍方：美方過去兩晚停止襲擊 伊朗暫停對等攻擊",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6546037"
+    },
+    {
+      "region": "TW",
+      "headline": "SK海力士、三星財報將登場！AI帶動獲利飆新高？半導體股迎關鍵時刻",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6545929"
+      "link": "https://news.cnyes.com/news/id/6545941"
     },
     {
       "region": "TW",
-      "headline": "黃仁勳：AI將讓半導體產業擴大10倍！輝達攜手SK打造5000億美元合作版圖",
+      "headline": "外界質疑高鐵延伸宜蘭無法紓解雪隧壅塞 鐵道局澄清：應以區域發展、運輸韌性評估",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545942"
-    },
-    {
-      "region": "TW",
-      "headline": "AI光通訊迎關鍵變革！專家：NPO可望早於CPO商業化  Glass Bridge成高密度互連新焦點",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545922"
-    },
-    {
-      "region": "TW",
-      "headline": "黃仁勳喊「這次不一樣」！晶片股不會崩盤、AI基礎建設才起步",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6545915"
+      "link": "https://news.cnyes.com/news/id/6545971"
     },
     {
       "region": "TW",
@@ -57,14 +57,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6545887"
-    },
-    {
-      "region": "TW",
-      "headline": "紅海危機重挫民生防線！中油吞157億平穩物價 汽柴油各調漲0.7元與0.5元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6545882"
     }
   ]
 }
