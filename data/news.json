@@ -1,70 +1,46 @@
 {
-  "timestamp": "2026-07-27T00:15:54.518953+00:00",
-  "generatedAt": "2026-07-27T00:15:54.518953+00:00",
+  "timestamp": "2026-07-27T04:22:25.871115+00:00",
+  "generatedAt": "2026-07-27T04:22:25.871115+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈走進中國〉大家還愛逛宜家 只是不愛在宜家買東西了",
+      "headline": "盤中速報 - LPT大漲11.17%，報1.58美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6546156"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：穩懋(3105-TW)EPS預估上修至7.03元，預估目標價為562.5元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6546033"
+      "link": "https://news.cnyes.com/news/id/6546132"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - BOOK OF MEME大漲14.93%，報0美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6546074"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - UTK大漲16.23%，報0.008美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6546071"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - DEXE大跌19.85%，報3.627美元",
+      "headline": "鉅亨速報 - Factset 最新調查：健策(3653-TW)EPS預估下修至55.78元，預估目標價為4840元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6546070"
+      "link": "https://news.cnyes.com/news/id/6546131"
     },
     {
       "region": "TW",
-      "headline": "外界質疑高鐵延伸宜蘭無法紓解雪隧壅塞 鐵道局澄清：應以區域發展、運輸韌性評估",
+      "headline": "鉅亨速報 - Factset 最新調查：信邦(3023-TW)EPS預估下修至14.8元，預估目標價為370元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6546130"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：大立光(3008-TW)EPS預估上修至190元，預估目標價為5220元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545971"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉磷化銦原料鬆綁帶動出貨需求 全新周漲18%站回300元大關",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6545885"
-    },
-    {
-      "region": "TW",
-      "headline": "台灣主動式ETF定期定額戶數破30萬！小資族逆勢青睞 單月大增13%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545898"
-    },
-    {
-      "region": "TW",
-      "headline": "關稅戰先贏一波！台灣機械與工具機稅率優於日韓 手工具水五金完勝中越",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6545887"
+      "link": "https://news.cnyes.com/news/id/6546129"
     }
   ]
 }
