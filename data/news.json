@@ -1,62 +1,54 @@
 {
-  "timestamp": "2026-07-27T11:40:15.116614+00:00",
-  "generatedAt": "2026-07-27T11:40:15.116614+00:00",
+  "timestamp": "2026-07-27T13:58:55.761323+00:00",
+  "generatedAt": "2026-07-27T13:58:55.761323+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "巧新現金減資25%  9/7新股上市換發",
+      "headline": "台股量縮震盪！6檔原型ETF成交量破10萬張 00406A躍黑馬",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6546741"
+      "link": "https://news.cnyes.com/news/id/6547012"
     },
     {
       "region": "TW",
-      "headline": "AI紅利改寫職場排序！SK海力士連兩年成南韓大學生就業首選 29日財報料創歷史紀錄",
+      "headline": "川普「去中化」踢到鐵板！美國關鍵礦物嚴重不足 2027年禁令恐跳票",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6546735"
+      "link": "https://news.cnyes.com/news/id/6547100"
     },
     {
       "region": "TW",
-      "headline": "攜程遭罰51.79億元人民幣天價罰單 港股卻上漲逾7% 資本市場押注「利空出盡」",
+      "headline": "韓股Naver獲輝達投資10億美元 將擴建資料中心 股價漲逾8%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6546627"
+      "link": "https://news.cnyes.com/news/id/6547020"
     },
     {
       "region": "TW",
-      "headline": "磐儀攜手統一資訊 WMS智慧倉儲解決方案落地",
+      "headline": "大立光上半年EPS 82.35元將配息41.5元 盈餘配發率50.39%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6546708"
+      "link": "https://news.cnyes.com/news/id/6547061"
     },
     {
       "region": "TW",
-      "headline": "PCB廠邑昇完成現增與發行CB 籌資3.06億元全數到位",
+      "headline": "威剛斥資3.84億元收購琉園近1.6萬張 持股比35.64% 達成公開收購條件",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6546709"
+      "link": "https://news.cnyes.com/news/id/6547071"
     },
     {
       "region": "TW",
-      "headline": "〈台股盤後〉台積電穩盤 回測4萬3止穩 量縮小跌20點仍未收復季線",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6546643"
-    },
-    {
-      "region": "TW",
-      "headline": "台灣虎航看好航空市場強勁成長 再釋出空服職缺",
+      "headline": "日台形象展集結150台企斬獲1.5億美元商機 由半導體延伸至AI數位轉型",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6546556"
+      "link": "https://news.cnyes.com/news/id/6547072"
     }
   ]
 }
