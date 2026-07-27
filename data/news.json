@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-07-27T21:16:40.205192+00:00",
-  "generatedAt": "2026-07-27T21:16:40.205192+00:00",
+  "timestamp": "2026-07-27T22:34:00.564944+00:00",
+  "generatedAt": "2026-07-27T22:34:00.564944+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "輝達7500億美元AI豪賭驚動債市！信用風險指標漲幅創紀錄",
+      "headline": "輝達跌近5%拖累晶片股「循環融資」疑慮再度升溫",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6547228"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6547389"
     },
     {
       "region": "TW",
-      "headline": "美國6月核心資本財訂單優於預期 AI支出帶動企業投資",
+      "headline": "〈能源盤後〉美國暫停空襲 原油挫8%跌破90美元 創逾一周新低但供應疑慮未解",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6547201"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6547318"
     },
     {
       "region": "TW",
-      "headline": "烏克蘭：伊朗是烏克蘭戰爭幫凶 沒資格裝受害者",
+      "headline": "中國DUV量產傳聞重擊ASML 美光、SK海力士ADR、SanDisk全面下殺",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6547253"
+      "link": "https://news.cnyes.com/news/id/6547373"
     },
     {
       "region": "TW",
-      "headline": "昔日福斯金雞母風光不再！保時捷宣布再裁5000人",
+      "headline": "川普：美伊談判若破局 準備採取「強力軍事行動」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6547194"
+      "link": "https://news.cnyes.com/news/id/6547380"
     },
     {
       "region": "TW",
