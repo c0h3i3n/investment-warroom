@@ -1,54 +1,70 @@
 {
-  "timestamp": "2026-07-27T13:58:55.761323+00:00",
-  "generatedAt": "2026-07-27T13:58:55.761323+00:00",
+  "timestamp": "2026-07-27T16:28:52.796851+00:00",
+  "generatedAt": "2026-07-27T16:28:52.796851+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "台股量縮震盪！6檔原型ETF成交量破10萬張 00406A躍黑馬",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6547012"
-    },
-    {
-      "region": "TW",
-      "headline": "川普「去中化」踢到鐵板！美國關鍵礦物嚴重不足 2027年禁令恐跳票",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6547100"
-    },
-    {
-      "region": "TW",
-      "headline": "韓股Naver獲輝達投資10億美元 將擴建資料中心 股價漲逾8%",
+      "headline": "輝達7500億美元AI豪賭驚動債市！信用風險指標漲幅創紀錄",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6547020"
+      "link": "https://news.cnyes.com/news/id/6547228"
     },
     {
       "region": "TW",
-      "headline": "大立光上半年EPS 82.35元將配息41.5元 盈餘配發率50.39%",
+      "headline": "美國6月核心資本財訂單優於預期 AI支出帶動企業投資",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6547061"
+      "link": "https://news.cnyes.com/news/id/6547201"
     },
     {
       "region": "TW",
-      "headline": "威剛斥資3.84億元收購琉園近1.6萬張 持股比35.64% 達成公開收購條件",
-      "source": "台股",
+      "headline": "烏克蘭：伊朗是烏克蘭戰爭幫凶 沒資格裝受害者",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6547071"
+      "link": "https://news.cnyes.com/news/id/6547253"
     },
     {
       "region": "TW",
-      "headline": "日台形象展集結150台企斬獲1.5億美元商機 由半導體延伸至AI數位轉型",
+      "headline": "昔日福斯金雞母風光不再！保時捷宣布再裁5000人",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6547194"
+    },
+    {
+      "region": "TW",
+      "headline": "昕力資訊代理美國Juxta系統 拚跨國防、醫療新版圖",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6547072"
+      "link": "https://news.cnyes.com/news/id/6547180"
+    },
+    {
+      "region": "TW",
+      "headline": "交通部推「聽障駕駛識別標識」 營造友善無障礙交通環境",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6547135"
+    },
+    {
+      "region": "TW",
+      "headline": "交通部今公告郵輪船票定型化契約  若航程延誤將按日賠償消費者",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6547129"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：台燿(6274-TW)EPS預估上修至34.62元，預估目標價為1975元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6547136"
     }
   ]
 }
