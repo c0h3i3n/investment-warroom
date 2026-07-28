@@ -1,19 +1,43 @@
 {
-  "timestamp": "2026-07-28T16:59:08.925602+00:00",
-  "generatedAt": "2026-07-28T16:59:08.925602+00:00",
+  "timestamp": "2026-07-28T18:21:27.545083+00:00",
+  "generatedAt": "2026-07-28T18:21:27.545083+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "康寧Q2業績亮眼卻難掩指引疑慮 股價盤前重挫逾11%",
+      "headline": "Shein香港IPO前出事了！遭美FTC調查、恐面臨高額代價",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6548857"
+      "link": "https://news.cnyes.com/news/id/6549004"
+    },
+    {
+      "region": "TW",
+      "headline": "Meta財報電話會議說什麼？交易員90%押注這個關鍵字",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6549005"
+    },
+    {
+      "region": "TW",
+      "headline": "油價又要漲？OPEC+傳9月最後增產 年底前按兵不動",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6548813"
+    },
+    {
+      "region": "TW",
+      "headline": "美股危險訊號齊亮！1.5兆美元槓桿恐加劇市場震盪",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6548893"
     },
     {
       "region": "TW",
       "headline": "台股近一個月來大洗盤 這3檔ETF逆勢抗跌近月收紅逾1%",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neg",
       "link": "https://news.cnyes.com/news/id/6548860"
@@ -21,7 +45,7 @@
     {
       "region": "TW",
       "headline": "上銀義大利子公司資訊系統遭駭客攻擊 對營運無重大影響",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6548864"
@@ -29,7 +53,7 @@
     {
       "region": "TW",
       "headline": "高雄港碼頭布局招商有成 非鐵金屬轉運中心將再引進COMEX進駐",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6548859"
