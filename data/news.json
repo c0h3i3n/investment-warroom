@@ -1,46 +1,46 @@
 {
-  "timestamp": "2026-07-28T10:45:06.506727+00:00",
-  "generatedAt": "2026-07-28T10:45:06.506727+00:00",
+  "timestamp": "2026-07-28T12:55:33.626857+00:00",
+  "generatedAt": "2026-07-28T12:55:33.626857+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "韓股跌逾10% 監管層擬重拳整治個股槓桿ETF",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6548077"
-    },
-    {
-      "region": "TW",
-      "headline": "〈焦點股〉AI有多熱被殺得就有多慘 前50大權值股竟有過半數跌停",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6548066"
-    },
-    {
-      "region": "TW",
-      "headline": "41萬人受惠！學貸利率大降1%至0.775% 臺銀8月1日起開辦",
+      "headline": "康寧Q2業績亮眼卻難掩指引疑慮 股價盤前重挫逾11%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6548047"
+      "link": "https://news.cnyes.com/news/id/6548857"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉台泥正式啟動歐洲上市計畫 逆勢抗跌站回半年線",
+      "headline": "台股近一個月來大洗盤 這3檔ETF逆勢抗跌近月收紅逾1%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6548057"
+      "link": "https://news.cnyes.com/news/id/6548860"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉台股跌破4萬2 「第四法人」低接0050成交值已破300億元",
+      "headline": "上銀義大利子公司資訊系統遭駭客攻擊 對營運無重大影響",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6548864"
+    },
+    {
+      "region": "TW",
+      "headline": "高雄港碼頭布局招商有成 非鐵金屬轉運中心將再引進COMEX進駐",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6548859"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台幣〉外資落跑股匯雙殺 央行穩匯收貶7.9分險守32.3字頭",
       "source": "台股",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6548049"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6548821"
     }
   ]
 }
