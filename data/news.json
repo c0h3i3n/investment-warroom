@@ -1,7 +1,31 @@
 {
-  "timestamp": "2026-07-28T18:21:27.545083+00:00",
-  "generatedAt": "2026-07-28T18:21:27.545083+00:00",
+  "timestamp": "2026-07-28T20:01:48.081182+00:00",
+  "generatedAt": "2026-07-28T20:01:48.081182+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "Fed本周升息機率逼近40%！華許仍有三大理由按兵不動",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6549006"
+    },
+    {
+      "region": "TW",
+      "headline": "高物價與就業降溫夾擊 美國7月消費者信心再度下滑",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6549021"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 柴犬幣大跌8.53%，報0.000005美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6549026"
+    },
     {
       "region": "TW",
       "headline": "Shein香港IPO前出事了！遭美FTC調查、恐面臨高額代價",
@@ -12,59 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "Meta財報電話會議說什麼？交易員90%押注這個關鍵字",
-      "source": "鉅亨",
+      "headline": "台積電更新JASM近況  人員安全無虞已逐步回產線",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6549005"
+      "link": "https://news.cnyes.com/news/id/6548891"
     },
     {
       "region": "TW",
-      "headline": "油價又要漲？OPEC+傳9月最後增產 年底前按兵不動",
-      "source": "鉅亨",
+      "headline": "欣興Q2純益131億元創高 上半年純益193.56億元EPS11.7元",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6548813"
+      "link": "https://news.cnyes.com/news/id/6548888"
     },
     {
       "region": "TW",
-      "headline": "美股危險訊號齊亮！1.5兆美元槓桿恐加劇市場震盪",
-      "source": "鉅亨",
+      "headline": "金管會點頭！首批7銀行獲准採IRB法Q4生效 釋放長期配息彈性",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6548893"
+      "link": "https://news.cnyes.com/news/id/6548877"
     },
     {
       "region": "TW",
-      "headline": "台股近一個月來大洗盤 這3檔ETF逆勢抗跌近月收紅逾1%",
+      "headline": "台股崩跌4.65% 「臺灣璞玉指數」僅跌2.84%發揮下行保護",
       "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6548860"
-    },
-    {
-      "region": "TW",
-      "headline": "上銀義大利子公司資訊系統遭駭客攻擊 對營運無重大影響",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6548864"
-    },
-    {
-      "region": "TW",
-      "headline": "高雄港碼頭布局招商有成 非鐵金屬轉運中心將再引進COMEX進駐",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6548859"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台幣〉外資落跑股匯雙殺 央行穩匯收貶7.9分險守32.3字頭",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6548821"
+      "link": "https://news.cnyes.com/news/id/6548865"
     }
   ]
 }
