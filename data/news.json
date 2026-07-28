@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-07-28T22:42:04.224606+00:00",
-  "generatedAt": "2026-07-28T22:42:04.224606+00:00",
+  "timestamp": "2026-07-28T23:42:53.741415+00:00",
+  "generatedAt": "2026-07-28T23:42:53.741415+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "Fed本周升息機率逼近40%！華許仍有三大理由按兵不動",
+      "headline": "Visa財報優預期仍裁員2600人 AI轉型成重整主軸",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6549006"
+      "link": "https://news.cnyes.com/news/id/6549052"
     },
     {
       "region": "TW",
-      "headline": "高物價與就業降溫夾擊 美國7月消費者信心再度下滑",
+      "headline": "〈貴金屬盤後〉美元堅挺 黃金觸及一周低點 等待Fed決策和華許發言",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6549021"
+      "link": "https://news.cnyes.com/news/id/6548379"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 柴犬幣大跌8.53%，報0.000005美元",
+      "headline": "賣token賺很大！Anthropic營收輾壓星巴克+麥當勞 有望入選《財星》美國500百強企業",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6548942"
+    },
+    {
+      "region": "TW",
+      "headline": "美光重挫8.9% 領跌新一波晶片股賣壓",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6549026"
-    },
-    {
-      "region": "TW",
-      "headline": "Shein香港IPO前出事了！遭美FTC調查、恐面臨高額代價",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6549004"
+      "link": "https://news.cnyes.com/news/id/6549070"
     },
     {
       "region": "TW",
