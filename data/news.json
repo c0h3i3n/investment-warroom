@@ -1,70 +1,46 @@
 {
-  "timestamp": "2026-07-28T02:43:43.644322+00:00",
-  "generatedAt": "2026-07-28T02:43:43.644322+00:00",
+  "timestamp": "2026-07-28T05:34:12.968928+00:00",
+  "generatedAt": "2026-07-28T05:34:12.968928+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "輝達跌近5%拖累晶片股「循環融資」疑慮再度升溫",
+      "headline": "韓股跌逾10% 監管層擬重拳整治個股槓桿ETF",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6547389"
+      "link": "https://news.cnyes.com/news/id/6548077"
     },
     {
       "region": "TW",
-      "headline": "〈能源盤後〉美國暫停空襲 原油挫8%跌破90美元 創逾一周新低但供應疑慮未解",
+      "headline": "〈焦點股〉AI有多熱被殺得就有多慘 前50大權值股竟有過半數跌停",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6547318"
+      "link": "https://news.cnyes.com/news/id/6548066"
     },
     {
       "region": "TW",
-      "headline": "中國DUV量產傳聞重擊ASML 美光、SK海力士ADR、SanDisk全面下殺",
+      "headline": "41萬人受惠！學貸利率大降1%至0.775% 臺銀8月1日起開辦",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6547373"
+      "link": "https://news.cnyes.com/news/id/6548047"
     },
     {
       "region": "TW",
-      "headline": "川普：美伊談判若破局 準備採取「強力軍事行動」",
+      "headline": "〈焦點股〉台泥正式啟動歐洲上市計畫 逆勢抗跌站回半年線",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6547380"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6548057"
     },
     {
       "region": "TW",
-      "headline": "昕力資訊代理美國Juxta系統 拚跨國防、醫療新版圖",
+      "headline": "〈焦點股〉台股跌破4萬2 「第四法人」低接0050成交值已破300億元",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6547180"
-    },
-    {
-      "region": "TW",
-      "headline": "交通部推「聽障駕駛識別標識」 營造友善無障礙交通環境",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6547135"
-    },
-    {
-      "region": "TW",
-      "headline": "交通部今公告郵輪船票定型化契約  若航程延誤將按日賠償消費者",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6547129"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：台燿(6274-TW)EPS預估上修至34.62元，預估目標價為1975元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6547136"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6548049"
     }
   ]
 }
