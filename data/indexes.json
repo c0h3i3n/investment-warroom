@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-07-28T20:01:48.081182+00:00",
-  "generatedAt": "2026-07-28T20:01:48.081182+00:00",
+  "timestamp": "2026-07-28T21:32:05.949484+00:00",
+  "generatedAt": "2026-07-28T21:32:05.949484+00:00",
   "data": [
     {
       "id": "tai",
@@ -34,10 +34,10 @@
       "name": "S&P 500",
       "region": "US",
       "currency": "$",
-      "price": 7429.22,
-      "change": 16.04,
-      "changePct": 0.22,
-      "asOf": "2026-07-28T20:01:47+00:00",
+      "price": 7428.78,
+      "change": 15.6,
+      "changePct": 0.21,
+      "asOf": "2026-07-28T21:10:14+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -50,7 +50,7 @@
       "price": 24876.912,
       "change": -55.17,
       "changePct": -0.22,
-      "asOf": "2026-07-28T20:01:47+00:00",
+      "asOf": "2026-07-28T21:15:59+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -63,7 +63,7 @@
       "price": 11035.683,
       "change": -519.2,
       "changePct": -4.49,
-      "asOf": "2026-07-28T20:01:45+00:00",
+      "asOf": "2026-07-28T21:15:59+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
