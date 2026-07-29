@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-07-29T01:10:55.358973+00:00",
-  "generatedAt": "2026-07-29T01:10:55.358973+00:00",
+  "timestamp": "2026-07-29T04:32:13.473246+00:00",
+  "generatedAt": "2026-07-29T04:32:13.473246+00:00",
   "data": [
     {
       "id": "tai",
@@ -8,10 +8,10 @@
       "name": "加權指數 TAIEX",
       "region": "TW",
       "currency": "NT$",
-      "price": 40970.97,
-      "change": -632.39,
-      "changePct": -1.52,
-      "asOf": "2026-07-29T01:11:10+00:00",
+      "price": 39644.16,
+      "change": -1959.2,
+      "changePct": -4.71,
+      "asOf": "2026-07-29T04:32:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -21,10 +21,10 @@
       "name": "OTC 櫃買指數",
       "region": "TW",
       "currency": "NT$",
-      "price": 342.32,
-      "change": -10.1,
-      "changePct": -2.87,
-      "asOf": "2026-07-29T01:11:05+00:00",
+      "price": 328.7,
+      "change": -23.72,
+      "changePct": -6.73,
+      "asOf": "2026-07-29T04:32:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
