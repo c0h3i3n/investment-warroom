@@ -1,54 +1,70 @@
 {
-  "timestamp": "2026-07-29T12:29:20.915066+00:00",
-  "generatedAt": "2026-07-29T12:29:20.915066+00:00",
+  "timestamp": "2026-07-29T14:54:33.443520+00:00",
+  "generatedAt": "2026-07-29T14:54:33.443520+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "軟銀發行900億日元債券 以支持AI投資 利率創今年新高",
+      "headline": "盤中速報 - 費城半導體大跌3.02%，報10702.25點",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6550483"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6551223"
     },
     {
       "region": "TW",
-      "headline": "外資砍222億、投信獨抗空 三大法人賣超317.57億元",
+      "headline": "盤中速報 - 自動資料處理(ADP-US)大漲5%，報277.38美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6550583"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6551219"
     },
     {
       "region": "TW",
-      "headline": "Kimi K3引爆美中AI攻防 黃仁勳奔華府打響開源AI保衛戰",
+      "headline": "〈財報前瞻〉庫克最後一役！蘋果上季營收估增15.5% 料創5年同期最佳",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6549150"
+      "link": "https://news.cnyes.com/news/id/6551058"
     },
     {
       "region": "TW",
-      "headline": "送愛到熊本　玉山金捐款3000萬日幣協助災後重建",
+      "headline": "日本熊本縣地震 多家半導體工廠停工",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6550548"
+      "link": "https://news.cnyes.com/news/id/6551215"
     },
     {
       "region": "TW",
-      "headline": "PCB上游銅箔廠榮科完成現增籌資21億元 現增股8/3上市交易",
+      "headline": "鉅亨速報 - Factset 最新調查：聯電(2303-TW)EPS預估上修至4.93元，預估目標價為120元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6550517"
+      "link": "https://news.cnyes.com/news/id/6551204"
     },
     {
       "region": "TW",
-      "headline": "亞資中心政策見效！滙豐調查：台灣富裕投資人全球布局意願大增逾5成",
+      "headline": "民航局宣布8/1日起調高機場消防人員危險加給 最高提升9700元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6550492"
+      "link": "https://news.cnyes.com/news/id/6551140"
+    },
+    {
+      "region": "TW",
+      "headline": "中碳屏南廠研發中心落成啟用 搶攻三大應用碳材市場",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6551139"
+    },
+    {
+      "region": "TW",
+      "headline": "惠譽確認維持台灣AA主權評等 展望穩定 看好半導體優勢助攻出口與財政",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6551061"
     }
   ]
 }
