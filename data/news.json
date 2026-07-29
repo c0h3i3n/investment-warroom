@@ -1,70 +1,54 @@
 {
-  "timestamp": "2026-07-29T04:32:13.473246+00:00",
-  "generatedAt": "2026-07-29T04:32:13.473246+00:00",
+  "timestamp": "2026-07-29T07:31:03.443127+00:00",
+  "generatedAt": "2026-07-29T07:31:03.443127+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "Visa財報優預期仍裁員2600人 AI轉型成重整主軸",
+      "headline": "軟銀發行900億日元債券 以支持AI投資 利率創今年新高",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6549052"
+      "link": "https://news.cnyes.com/news/id/6550483"
     },
     {
       "region": "TW",
-      "headline": "〈貴金屬盤後〉美元堅挺 黃金觸及一周低點 等待Fed決策和華許發言",
+      "headline": "外資砍222億、投信獨抗空 三大法人賣超317.57億元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6548379"
+      "link": "https://news.cnyes.com/news/id/6550583"
     },
     {
       "region": "TW",
-      "headline": "賣token賺很大！Anthropic營收輾壓星巴克+麥當勞 有望入選《財星》美國500百強企業",
+      "headline": "Kimi K3引爆美中AI攻防 黃仁勳奔華府打響開源AI保衛戰",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6548942"
+      "link": "https://news.cnyes.com/news/id/6549150"
     },
     {
       "region": "TW",
-      "headline": "美光重挫8.9% 領跌新一波晶片股賣壓",
+      "headline": "送愛到熊本　玉山金捐款3000萬日幣協助災後重建",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6549070"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6550548"
     },
     {
       "region": "TW",
-      "headline": "台積電更新JASM近況  人員安全無虞已逐步回產線",
+      "headline": "PCB上游銅箔廠榮科完成現增籌資21億元 現增股8/3上市交易",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6548891"
+      "link": "https://news.cnyes.com/news/id/6550517"
     },
     {
       "region": "TW",
-      "headline": "欣興Q2純益131億元創高 上半年純益193.56億元EPS11.7元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6548888"
-    },
-    {
-      "region": "TW",
-      "headline": "金管會點頭！首批7銀行獲准採IRB法Q4生效 釋放長期配息彈性",
+      "headline": "亞資中心政策見效！滙豐調查：台灣富裕投資人全球布局意願大增逾5成",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6548877"
-    },
-    {
-      "region": "TW",
-      "headline": "台股崩跌4.65% 「臺灣璞玉指數」僅跌2.84%發揮下行保護",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6548865"
+      "link": "https://news.cnyes.com/news/id/6550492"
     }
   ]
 }
