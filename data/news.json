@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-07-30T17:09:02.434707+00:00",
-  "generatedAt": "2026-07-30T17:09:02.434707+00:00",
+  "timestamp": "2026-07-30T18:46:40.790114+00:00",
+  "generatedAt": "2026-07-30T18:46:40.790114+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 特許通訊(CHTR-US)大跌5.21%，報137.64美元",
+      "headline": "手機市場為何旺不起來？高通CEO點名記憶體太貴",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6553349"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6553409"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 英特爾(INTC-US)大漲13.13%，報92.63美元",
+      "headline": "亞馬遜搶先特斯拉！Zoox無人計程車獲美國首張商業部署許可",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6553348"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6553065"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 安謀控股公司(ARM-US)大漲6.44%，報239.37美元",
+      "headline": "美國上周初領失業金人數升至19.7萬 仍低於市場預期",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6553347"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6552929"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 英特格(ENTG-US)大漲13.01%，報120.93美元",
+      "headline": "押注AI慘翻車！前OpenAI研究員遭多空雙殺、旗下基金被迫清倉",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6553346"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6553212"
     },
     {
       "region": "TW",
