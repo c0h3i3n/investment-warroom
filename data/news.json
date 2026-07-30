@@ -1,62 +1,70 @@
 {
-  "timestamp": "2026-07-30T15:32:07.966025+00:00",
-  "generatedAt": "2026-07-30T15:32:07.966025+00:00",
+  "timestamp": "2026-07-30T17:09:02.434707+00:00",
+  "generatedAt": "2026-07-30T17:09:02.434707+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "WGC下調全球央行黃金購買量 因年初買進數量遠低於預期",
+      "headline": "盤中速報 - 特許通訊(CHTR-US)大跌5.21%，報137.64美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6552314"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6553349"
     },
     {
       "region": "TW",
-      "headline": "蘋果加速「去高通」！iPhone晶片市占驟降 高通盤前重挫5%",
+      "headline": "盤中速報 - 英特爾(INTC-US)大漲13.13%，報92.63美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6552932"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6553348"
     },
     {
       "region": "TW",
-      "headline": "財報放暖風 OpenAI 7月營收創佳績 年化收入超越第二季",
+      "headline": "盤中速報 - 安謀控股公司(ARM-US)大漲6.44%，報239.37美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6552823"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6553347"
     },
     {
       "region": "TW",
-      "headline": "華安子公司與瑞士Medvisis簽署合作備忘錄 共同推動AI開發藥物",
+      "headline": "盤中速報 - 英特格(ENTG-US)大漲13.01%，報120.93美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6552920"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6553346"
     },
     {
       "region": "TW",
-      "headline": "中華電信、遠傳參與2026 AI WAVE SHOW 透過AI助力企業轉型升級",
+      "headline": "〈央行理監事會記錄〉釋升息風向？通膨示警 罕見兩位理事直接放鷹",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6553335"
+    },
+    {
+      "region": "TW",
+      "headline": "〈央行理監事會記錄〉憂心民眾信用擴張 且台股降溫恐又推升房價",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6552875"
+      "link": "https://news.cnyes.com/news/id/6553322"
     },
     {
       "region": "TW",
-      "headline": "〈台達電法說〉董座：未見AI發展停下腳步 今年資本支出上看700億元",
+      "headline": "友達處分高雄廠獲利42.8億元 新增資本支出86.41億元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6552921"
+      "link": "https://news.cnyes.com/news/id/6553069"
     },
     {
       "region": "TW",
-      "headline": "融資租賃業第三波納管 金管會：12家9/15起適用金保法",
+      "headline": "溢泰買回3000張庫藏股提前執行完畢 每股買回均價67.92元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6552879"
+      "link": "https://news.cnyes.com/news/id/6553080"
     }
   ]
 }
