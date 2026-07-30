@@ -1,62 +1,62 @@
 {
-  "timestamp": "2026-07-30T09:44:58.472327+00:00",
-  "generatedAt": "2026-07-30T09:44:58.472327+00:00",
+  "timestamp": "2026-07-30T11:42:08.144326+00:00",
+  "generatedAt": "2026-07-30T11:42:08.144326+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "英國央行預計將維持利率3.75%不變 但仍將面臨通膨壓力",
+      "headline": "WGC下調全球央行黃金購買量 因年初買進數量遠低於預期",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6552322"
+      "link": "https://news.cnyes.com/news/id/6552314"
     },
     {
       "region": "TW",
-      "headline": "「反科技」成最強招牌 「這國」股市逆勢創新高",
+      "headline": "蘋果加速「去高通」！iPhone晶片市占驟降 高通盤前重挫5%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6551478"
+      "link": "https://news.cnyes.com/news/id/6552932"
     },
     {
       "region": "TW",
-      "headline": "外資連三賣再砍483億、投信續撿126億 三大法人賣超508.74億元",
+      "headline": "財報放暖風 OpenAI 7月營收創佳績 年化收入超越第二季",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6552359"
+      "link": "https://news.cnyes.com/news/id/6552823"
     },
     {
       "region": "TW",
-      "headline": "救物價也救民調！高市早苗拍板食品消費稅降至1% 為期兩年",
+      "headline": "華安子公司與瑞士Medvisis簽署合作備忘錄 共同推動AI開發藥物",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6552320"
+      "link": "https://news.cnyes.com/news/id/6552920"
     },
     {
       "region": "TW",
-      "headline": "王品金雞夏慕尼加速展店 將揮軍商場",
+      "headline": "中華電信、遠傳參與2026 AI WAVE SHOW 透過AI助力企業轉型升級",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6552270"
+      "link": "https://news.cnyes.com/news/id/6552875"
     },
     {
       "region": "TW",
-      "headline": "〈台股盤後〉千點反彈白忙一場 電子股賣壓仍重 跌105點失守4萬點大關",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6552262"
-    },
-    {
-      "region": "TW",
-      "headline": "竑騰訂單排到明年 新產能8月起顯現",
+      "headline": "〈台達電法說〉董座：未見AI發展停下腳步 今年資本支出上看700億元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6552030"
+      "link": "https://news.cnyes.com/news/id/6552921"
+    },
+    {
+      "region": "TW",
+      "headline": "融資租賃業第三波納管 金管會：12家9/15起適用金保法",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6552879"
     }
   ]
 }
