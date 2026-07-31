@@ -1,7 +1,31 @@
 {
-  "timestamp": "2026-07-31T19:46:52.282648+00:00",
-  "generatedAt": "2026-07-31T19:46:52.282648+00:00",
+  "timestamp": "2026-07-31T21:16:45.970786+00:00",
+  "generatedAt": "2026-07-31T21:16:45.970786+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "特斯拉若分拆中國業務誰最賺？答案恐不是股東而是馬斯克",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555434"
+    },
+    {
+      "region": "TW",
+      "headline": "Fed利率還不夠高？巴金坦言升息確實有充分理由",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555461"
+    },
+    {
+      "region": "TW",
+      "headline": "華爾街不再閉眼買美股七雄！AI資金開始大搬家",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555440"
+    },
     {
       "region": "TW",
       "headline": "美7月密大消費者信心升至5個月高點 通膨預期略為降溫",
@@ -9,30 +33,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6555208"
-    },
-    {
-      "region": "TW",
-      "headline": "日元跌到美國準備出手！美日罕見聯手干預匯市",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6555432"
-    },
-    {
-      "region": "TW",
-      "headline": "市場不信Fed會再升息？美債曲線出現罕見警訊",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6555330"
-    },
-    {
-      "region": "TW",
-      "headline": "南韓券商KIS：三星電子遭嚴重低估 目標價上調10%至65萬韓元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6555230"
     },
     {
       "region": "TW",
