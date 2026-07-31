@@ -1,38 +1,62 @@
 {
-  "timestamp": "2026-07-31T12:08:25.241319+00:00",
-  "generatedAt": "2026-07-31T12:08:25.241319+00:00",
+  "timestamp": "2026-07-31T15:25:50.382439+00:00",
+  "generatedAt": "2026-07-31T15:25:50.382439+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "力積電創辦人黃崇仁辭世 走過千億負債重返榮耀、半導體傳奇謝幕",
+      "headline": "Kimi K3背後推手曝光！阿里巴巴提供2萬顆輝達晶片算力",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555081"
+      "link": "https://news.cnyes.com/news/id/6555332"
     },
     {
       "region": "TW",
-      "headline": "離岸風電面臨多重挑戰 台灣風力發電產業協會理事長許逸德提四大建言",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555078"
-    },
-    {
-      "region": "TW",
-      "headline": "進泰電子營收轉爲正成長 宣布完成現增籌資2.1億元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555009"
-    },
-    {
-      "region": "TW",
-      "headline": "研華Q2純益年增1倍賺逾半股本締新猷 上半年EPS 9.05元同創高",
+      "headline": "華爾街這次沒有被AI資本支出嚇壞 幫助亞馬遜財報公布後大漲",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6555019"
+      "link": "https://news.cnyes.com/news/id/6555077"
+    },
+    {
+      "region": "TW",
+      "headline": "美食展「台灣觀光館」今盛大登場 展館首度規劃四大AI體驗、共54家特色品牌",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555320"
+    },
+    {
+      "region": "TW",
+      "headline": "豐田6月在中國銷量銳減26.9% 連降五個月",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555326"
+    },
+    {
+      "region": "TW",
+      "headline": "364萬人快刷存摺！首批退稅總金額610億元今入帳",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555228"
+    },
+    {
+      "region": "TW",
+      "headline": "下周一再新增8檔股票抓去關 ABF股王南電關至8/18處置最久",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555240"
+    },
+    {
+      "region": "TW",
+      "headline": "東典光電自結6月獲利由虧轉盈 濾光片切入5G與資料中心",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555205"
     }
   ]
 }
