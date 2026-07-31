@@ -1,54 +1,54 @@
 {
-  "timestamp": "2026-07-31T06:52:04.539235+00:00",
-  "generatedAt": "2026-07-31T06:52:04.539235+00:00",
+  "timestamp": "2026-07-31T09:50:51.353296+00:00",
+  "generatedAt": "2026-07-31T09:50:51.353296+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "股務作業系統廠作業疏失 緯創股利延至8月3日發放",
+      "headline": "竹陞科技6月營收登頂自結單月淨利6500萬年增1.1倍 EPS達2.77元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6554361"
+      "link": "https://news.cnyes.com/news/id/6554643"
     },
     {
       "region": "TW",
-      "headline": "台股飆逾2800點吹響反攻號角 法人：短線大盤看這些支撐和反壓點位",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6554313"
-    },
-    {
-      "region": "TW",
-      "headline": "美國多名參議員 阻撓蘋果採購中國記憶體晶片",
+      "headline": "黃仁勳自爆「超內向」：沒有開源就沒今天的AI  記憶體已成AI最大瓶頸",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6553521"
+      "link": "https://news.cnyes.com/news/id/6554592"
     },
     {
       "region": "TW",
-      "headline": "台股飆近3000點創史上最大漲點 抄底大軍瘋搶這兩檔正2 ETF",
+      "headline": "SK海力士暴跌引發監管變革 香港「兩倍做多」改「靈活槓桿」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6554568"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股盤後〉史上最大漲點3186點市值暴增10兆元 周線拉出3438點下影線",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6554265"
+      "link": "https://news.cnyes.com/news/id/6554599"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 集中市場加權指數上漲2940.6點至42873.9點，漲幅7.36%",
+      "headline": "日本熊本強震 賴清德：台灣搜救隊已準備好協助、籲產業界捐款助日",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6554366"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6554587"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 櫃買市場加權指數上漲21.28點至347.51點，漲幅6.52%",
+      "headline": "〈焦點股〉台股史詩級大反攻 光通訊族群跌得深彈得高多檔亮燈漲停",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6554364"
+      "link": "https://news.cnyes.com/news/id/6554549"
     }
   ]
 }
