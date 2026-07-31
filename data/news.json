@@ -1,38 +1,46 @@
 {
-  "timestamp": "2026-07-31T15:25:50.382439+00:00",
-  "generatedAt": "2026-07-31T15:25:50.382439+00:00",
+  "timestamp": "2026-07-31T17:48:10.426728+00:00",
+  "generatedAt": "2026-07-31T17:48:10.426728+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "Kimi K3背後推手曝光！阿里巴巴提供2萬顆輝達晶片算力",
+      "headline": "美7月密大消費者信心升至5個月高點 通膨預期略為降溫",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555332"
+      "link": "https://news.cnyes.com/news/id/6555208"
     },
     {
       "region": "TW",
-      "headline": "華爾街這次沒有被AI資本支出嚇壞 幫助亞馬遜財報公布後大漲",
+      "headline": "日元跌到美國準備出手！美日罕見聯手干預匯市",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6555432"
+    },
+    {
+      "region": "TW",
+      "headline": "市場不信Fed會再升息？美債曲線出現罕見警訊",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6555330"
+    },
+    {
+      "region": "TW",
+      "headline": "南韓券商KIS：三星電子遭嚴重低估 目標價上調10%至65萬韓元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6555077"
+      "link": "https://news.cnyes.com/news/id/6555230"
     },
     {
       "region": "TW",
       "headline": "美食展「台灣觀光館」今盛大登場 展館首度規劃四大AI體驗、共54家特色品牌",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6555320"
-    },
-    {
-      "region": "TW",
-      "headline": "豐田6月在中國銷量銳減26.9% 連降五個月",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555326"
     },
     {
       "region": "TW",
