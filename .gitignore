@@ -1,2 +1,4 @@
 .DS_Store
 screenshot.png
+node_modules/
+.wrangler/

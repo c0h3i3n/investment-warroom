@@ -3,6 +3,9 @@
 // ═══════════════════════════════════════
 
 const CONFIG = {
+  // Cloudflare Worker market aggregator.
+  MARKET_API: 'https://investment-warroom-market.investment-warroom.workers.dev',
+
   // ── CORS Proxies (tried in order) ──
   CORS_PROXIES: [
     'https://api.allorigins.win/get?url=',

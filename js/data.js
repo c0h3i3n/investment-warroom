@@ -145,6 +145,41 @@ const DataService = (() => {
   }
 
   // ═══════════════════════════════════════
+  // MARKET BACKEND — primary, low-latency data source
+  // ═══════════════════════════════════════
+  async function fetchMarketSnapshot() {
+    if (!CONFIG.MARKET_API) return null;
+    const url = addCacheBuster(`${CONFIG.MARKET_API.replace(/\/$/, '')}/api/market`);
+    const response = await fetch(url, {
+      cache: 'no-store',
+      headers: { Accept: 'application/json' },
+      signal: requestTimeoutSignal(8000),
+    });
+    if (!response.ok) throw new Error(`Market backend returned ${response.status}`);
+    const payload = await response.json();
+    if (payload?.schemaVersion !== 1
+      || !Array.isArray(payload.indexes)
+      || !Array.isArray(payload.quotes)) {
+      throw new Error('Invalid market backend response');
+    }
+
+    const indexes = payload.indexes
+      .map(record => {
+        const config = CONFIG.INDEXES.find(index => index.id === record?.id || index.symbol === record?.symbol);
+        if (!config) return null;
+        const normalized = { ...config, ...record, deliveryMode: 'backend' };
+        return isFreshRecord(normalized, config.region) ? keepNewest(normalized, config.symbol) : null;
+      })
+      .filter(Boolean);
+    const quotes = payload.quotes
+      .map(record => ({ ...record, deliveryMode: 'backend' }))
+      .filter(record => isFreshRecord(record))
+      .map(record => keepNewest(record, record.symbol));
+    if (!indexes.length && !quotes.length) throw new Error('Market backend contains no fresh records');
+    return { indexes, quotes, generatedAt: payload.generatedAt, delivery: payload.delivery };
+  }
+
+  // ═══════════════════════════════════════
   // PARSE PROXY RESPONSE (handles allorigins wrapper)
   // ═══════════════════════════════════════
   function parseProxyResponse(text) {
@@ -692,6 +727,7 @@ const DataService = (() => {
   // PUBLIC API
   // ═══════════════════════════════════════
   return {
+    fetchMarketSnapshot,
     fetchQuotes,
     fetchQuote,
     fetchHistorical,

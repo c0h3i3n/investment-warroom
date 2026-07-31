@@ -583,9 +583,23 @@ const UI = (() => {
       if (isRefreshing) btn.classList.add('spinning');
       else btn.classList.remove('spinning');
     }
-    if (lbl && isRefreshing && /--:--|^UPDATED|^DATA UNAVAILABLE/.test(lbl.textContent)) {
+    if (lbl && isRefreshing && /--:--|^UPDATED|^DATA UNAVAILABLE|^CONNECTING/.test(lbl.textContent)) {
       lbl.textContent = 'REFRESHING...';
     }
+  }
+
+  function setConnecting() {
+    const lbl = document.getElementById('last-updated');
+    const sysOrb = document.getElementById('sysOrb');
+    const sysLabel = document.getElementById('sysLabel');
+    const tickerMode = document.getElementById('ticker-mode-label');
+    if (lbl) {
+      lbl.textContent = 'CONNECTING MARKET DATA...';
+      lbl.title = '正在連線至行情服務';
+    }
+    if (sysOrb) sysOrb.className = 'status-orb pre';
+    if (sysLabel) sysLabel.textContent = 'DATA CONNECTING';
+    if (tickerMode) tickerMode.textContent = '◌ CONNECTING';
   }
 
   function setDataStatus({ fresh, total, oldestAsOf, twAsOf, usAsOf, mode = 'live', indicative = 0 }) {
@@ -666,6 +680,7 @@ const UI = (() => {
     setLoading,
     showError,
     setRefreshing,
+    setConnecting,
     setDataStatus,
 
     // Helpers

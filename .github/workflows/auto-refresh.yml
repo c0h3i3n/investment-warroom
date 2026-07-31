@@ -2,7 +2,9 @@ name: Auto Refresh Static Data
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    # Hourly emergency snapshot. Live data is refreshed every 5 minutes by
+    # Cloudflare Worker; avoid GitHub's busiest top-of-hour window.
+    - cron: '7 * * * *'
   workflow_dispatch:
   push:
     branches: [main]

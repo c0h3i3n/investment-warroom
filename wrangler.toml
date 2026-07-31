@@ -1,0 +1,11 @@
+name = "investment-warroom-market"
+main = "worker/src/index.mjs"
+compatibility_date = "2026-07-31"
+workers_dev = true
+
+[triggers]
+crons = ["*/5 * * * *"]
+
+[[kv_namespaces]]
+binding = "MARKET_CACHE"
+id = "5407d71e4d734b5fa8e1a3ae2384441b"

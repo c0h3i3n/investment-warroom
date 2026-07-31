@@ -146,12 +146,40 @@ const App = (() => {
 
     try {
       try {
+        const backend = await DataService.fetchMarketSnapshot().catch(error => {
+          if (CONFIG.MARKET_API) console.warn('Market backend failed, using browser fallback:', error.message);
+          return null;
+        });
+
         // Indexes and quotes are independent. Run both paths together so a slow
         // proxy cannot block the rest of the dashboard from updating.
         const indexTask = (async () => {
-          const indexes = await DataService.fetchIndexes();
+          let indexes = backend?.indexes || [];
+          if (indexes.length > 0 && generation === refreshGeneration) {
+            indexData = CONFIG.INDEXES.map(config => (
+              indexes.find(item => item.symbol === config.symbol) || { ...config, unavailable: true }
+            ));
+            UI.renderIndexCards(indexData);
+            indexFreshness = indexes.filter(x => DataService.isFreshRecord(x, x.region));
+            publishStatus();
+          }
+
+          if (indexes.length < CONFIG.INDEXES.length) {
+            const fallbackIndexes = await DataService.fetchIndexes() || [];
+            const fallbackMap = new Map(fallbackIndexes
+              .filter(item => DataService.isFreshRecord(item, item.region))
+              .map(item => [item.symbol, item]));
+            indexes = CONFIG.INDEXES.map(config => (
+              indexes.find(item => item.symbol === config.symbol)
+              || fallbackMap.get(config.symbol)
+              || { ...config, unavailable: true }
+            ));
+          } else {
+            indexes = CONFIG.INDEXES.map(config => (
+              indexes.find(item => item.symbol === config.symbol) || { ...config, unavailable: true }
+            ));
+          }
           if (generation !== refreshGeneration) return;
-          if (!indexes) return;
           indexData = indexes;
           UI.renderIndexCards(indexes);
           indexFreshness = indexes.filter(x => DataService.isFreshRecord(x, x.region));
@@ -164,13 +192,46 @@ const App = (() => {
         })();
 
         const quoteTask = (async () => {
-          const quotes = allQuoteSymbols.length > 0
-            ? await DataService.fetchAllQuotes(allQuoteSymbols) || []
-            : [];
+          let quotes = (backend?.quotes || []).filter(item => allQuoteSymbols.includes(item.symbol));
+          const renderQuotes = currentQuotes => {
+            if (generation !== refreshGeneration) return;
+            quotesForPortfolio = currentQuotes;
+            quoteFreshness = currentQuotes.filter(q => wSymbols.includes(q.symbol) && DataService.isFreshRecord(q));
+            const watchData = watchlist.map(w => {
+              const q = currentQuotes.find(item => item.symbol === w.symbol);
+              return {
+                ...w,
+                price: q?.price,
+                change: q?.change,
+                changePct: q?.changePct,
+                currency: q?.currency,
+                asOf: q?.asOf,
+                source: q?.source,
+                priceType: q?.priceType,
+                deliveryMode: q?.deliveryMode,
+                region: w.region || (w.symbol.endsWith('.TW') ? 'TW' : 'US'),
+              };
+            });
+            watchlistQuotes = watchData;
+            window._watchlistQuotes = watchData;
+            UI.renderWatchlist(watchData);
+            UI.renderFeatured();
+            UI.renderTicker(watchData);
+            publishStatus();
+            return watchData;
+          };
+
+          if (quotes.length > 0) renderQuotes(quotes);
+          const received = new Set(quotes.map(item => item.symbol));
+          const missingSymbols = allQuoteSymbols.filter(symbol => !received.has(symbol));
+          if (missingSymbols.length > 0) {
+            const fallbackQuotes = await DataService.fetchAllQuotes(missingSymbols) || [];
+            const merged = new Map(quotes.map(item => [item.symbol, item]));
+            fallbackQuotes.forEach(item => merged.set(item.symbol, item));
+            quotes = [...merged.values()];
+          }
           if (generation !== refreshGeneration) return;
-          quotesForPortfolio = quotes;
-          quoteFreshness = quotes.filter(q => wSymbols.includes(q.symbol) && DataService.isFreshRecord(q));
-          const watchData = watchlist.map(w => {
+          const watchData = renderQuotes(quotes) || watchlist.map(w => {
             const q = quotes.find(item => item.symbol === w.symbol);
             return {
               ...w,
@@ -185,12 +246,6 @@ const App = (() => {
               region: w.region || (w.symbol.endsWith('.TW') ? 'TW' : 'US'),
             };
           });
-          watchlistQuotes = watchData;
-          window._watchlistQuotes = watchData;
-          UI.renderWatchlist(watchData);
-          UI.renderFeatured();
-          UI.renderTicker(watchData);
-          publishStatus();
 
           if (quotes.length > 0) {
             DataService.fetchSparklines(wSymbols).then(sparkData => {
@@ -483,7 +538,7 @@ const App = (() => {
     UI.renderTicker(watchData);
     updatePortfolio([], refreshGeneration);
     UI.renderNews([]);
-    UI.setDataStatus({ fresh: 0, total: CONFIG.INDEXES.length + watchlist.length });
+    UI.setConnecting();
   }
 
   async function init() {
