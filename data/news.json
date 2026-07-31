@@ -1,70 +1,54 @@
 {
-  "timestamp": "2026-07-31T03:51:06.473211+00:00",
-  "generatedAt": "2026-07-31T03:51:06.473211+00:00",
+  "timestamp": "2026-07-31T03:55:26.277687+00:00",
+  "generatedAt": "2026-07-31T03:55:26.277687+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "韓股巨震引恐慌 擬再祭禁賣空令、縮小30%漲跌停限制",
+      "headline": "股務作業系統廠作業疏失 緯創股利延至8月3日發放",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6554361"
+    },
+    {
+      "region": "TW",
+      "headline": "台股飆逾2800點吹響反攻號角 法人：短線大盤看這些支撐和反壓點位",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6553937"
+      "link": "https://news.cnyes.com/news/id/6554313"
     },
     {
       "region": "TW",
-      "headline": "AI基建需求未降溫 Wolfe：記憶體、晶圓代工最快2028年才可能供過於求",
+      "headline": "美國多名參議員 阻撓蘋果採購中國記憶體晶片",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6553432"
+      "link": "https://news.cnyes.com/news/id/6553521"
     },
     {
       "region": "TW",
-      "headline": "台股盤前｜投本比排行【景碩、大成鋼、欣興】，台股夜盤大漲1573點，有望帶動台股反彈?",
+      "headline": "台股飆近3000點創史上最大漲點 抄底大軍瘋搶這兩檔正2 ETF",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6553610"
+      "link": "https://news.cnyes.com/news/id/6554265"
     },
     {
       "region": "TW",
-      "headline": "永豐餘生技主動通報苦茶油苯駢芘不符規定 全面下架、全額退費",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6553370"
-    },
-    {
-      "region": "TW",
-      "headline": "歷史性一刻！AI股回血助台股漲近3000點 9檔主動式ETF齊衝漲停",
+      "headline": "盤中速報 - 集中市場加權指數上漲2940.6點至42873.9點，漲幅7.36%",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6554188"
+      "link": "https://news.cnyes.com/news/id/6554366"
     },
     {
       "region": "TW",
-      "headline": "華碩旗下杏碩攜手UL Solutions 於AI WAVE 2026展出與微軟合作AI Safety檢核工具",
+      "headline": "盤中速報 - 櫃買市場加權指數上漲21.28點至347.51點，漲幅6.52%",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6554164"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：致茂(2360-TW)EPS預估上修至44.21元，預估目標價為2725元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6554160"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：日月光投控(3711-TW)EPS預估上修至17.89元，預估目標價為660元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6554159"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6554364"
     }
   ]
 }
