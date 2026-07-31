@@ -6,7 +6,7 @@
 <title>J.A.R.V.I.S · 投資戰情室</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;500&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=3.4.0">
+<link rel="stylesheet" href="css/style.css?v=3.4.1">
 </head>
 <body>
 
@@ -141,13 +141,8 @@
         <div class="ind-grid" id="ind-grid">
           <div class="ind-cell" style="grid-column:1/-1;text-align:center;padding:20px">
             <div style="color:var(--gold);font-size:13px;margin-bottom:8px">📊 技術指標 · 0050</div>
-            <button id="ind-load-btn" 
-              onclick="var b=this;b.textContent='⟳ LOADING...';b.disabled=true;window.App.updateIndicators('0050.TW').then(function(){console.log('indicators OK');}).catch(function(e){console.error(e);}).finally(function(){b.textContent='⬡ LOAD INDICATORS';b.disabled=false});" 
-              style="position:relative;z-index:999;background:rgba(255,119,68,0.12);border:1px solid var(--arc);color:var(--arc);padding:6px 20px;font-family:inherit;font-size:12px;cursor:pointer;letter-spacing:1px">
-              ⬡ LOAD INDICATORS
-            </button>
-            <div style="color:var(--dim);font-size:10px;margin-top:6px">RSI / KD / MACD / 均線 / 成交量</div>
-          
+            <div class="loading-indicator">WAITING FOR MARKET DATA...</div>
+            <div style="color:var(--dim);font-size:10px;margin-top:6px">將在背景自動載入</div>
           </div>
         </div>
         <svg class="chart-svg" viewBox="0 0 340 90" id="ind-chart"></svg>
@@ -196,14 +191,14 @@
 
 <!-- ═══ SCRIPTS ═══ -->
 <script>document.querySelector(".hud-time").textContent="JS OK"; console.log("Script loader: starting...");</script>
-<script src="js/config.js?v=3.4.0"></script>
-<script src="js/data.js?v=3.4.0"></script>
+<script src="js/config.js?v=3.4.1"></script>
+<script src="js/data.js?v=3.4.1"></script>
 <script>console.log("data.js loaded, CONFIG proxies:", CONFIG?.CORS_PROXIES?.length);</script>
-<script src="js/portfolio.js?v=3.4.0"></script>
-<script src="js/indicators.js?v=3.4.0"></script>
-<script src="js/news.js?v=3.4.0"></script>
-<script src="js/ui.js?v=3.4.0"></script>
-<script src="js/main.js?v=3.4.0"></script>
+<script src="js/portfolio.js?v=3.4.1"></script>
+<script src="js/indicators.js?v=3.4.1"></script>
+<script src="js/news.js?v=3.4.1"></script>
+<script src="js/ui.js?v=3.4.1"></script>
+<script src="js/main.js?v=3.4.1"></script>
 
 
 </body>

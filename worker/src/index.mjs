@@ -1,5 +1,7 @@
 const SNAPSHOT_KEY = 'market:snapshot:v1';
 const SNAPSHOT_MAX_AGE_MS = 7 * 60 * 1000;
+const HISTORY_MAX_AGE_MS = 15 * 60 * 1000;
+const HISTORY_FALLBACK_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 const CLOSED_MARKET_MAX_AGE_MS = 4 * 24 * 60 * 60 * 1000;
 const REQUEST_TIMEOUT_MS = 8000;
 
@@ -33,6 +35,16 @@ const OTC_CODES = new Set([
   '00937B', '00942B', '00945B', '00948B', '00950B', '00951B', '00952B',
   '00953B', '00956B', '00957B', '00958B', '00959B', '00960B', '00961B',
   '00962B', '00963B', '00964B', '00965B',
+]);
+const ALLOWED_HISTORY_SYMBOLS = new Set([
+  ...INDEXES.map(index => index.symbol),
+  ...QUOTE_SYMBOLS,
+]);
+const ALLOWED_HISTORY_QUERIES = new Set([
+  '6mo:1d',
+  '3mo:1d',
+  '1d:5m',
+  '5d:60m',
 ]);
 
 function marketParts(region, timestamp = Date.now()) {
@@ -162,6 +174,41 @@ export async function fetchYahooQuote(symbol) {
     region,
   };
   return validRecord(record, region) ? record : null;
+}
+
+export async function fetchYahooHistory(symbol, range, interval) {
+  if (!ALLOWED_HISTORY_SYMBOLS.has(symbol)
+    || !ALLOWED_HISTORY_QUERIES.has(`${range}:${interval}`)) {
+    throw new Error('Unsupported history query');
+  }
+  const yahooSymbol = OTC_YAHOO_MAP[symbol] || symbol;
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?range=${encodeURIComponent(range)}&interval=${encodeURIComponent(interval)}`;
+  const json = await fetchJson(url);
+  const result = json?.chart?.result?.[0];
+  const timestamps = result?.timestamp;
+  const quote = result?.indicators?.quote?.[0];
+  if (!Array.isArray(timestamps) || !quote) throw new Error('No history data');
+  const adjusted = result.indicators?.adjclose?.[0]?.adjclose;
+  const data = timestamps.map((timestamp, index) => ({
+    time: Number(timestamp) * 1000,
+    open: Number.isFinite(Number(quote.open?.[index])) ? Number(quote.open[index]) : null,
+    high: Number.isFinite(Number(quote.high?.[index])) ? Number(quote.high[index]) : null,
+    low: Number.isFinite(Number(quote.low?.[index])) ? Number(quote.low[index]) : null,
+    close: Number.isFinite(Number(adjusted?.[index] ?? quote.close?.[index]))
+      ? Number(adjusted?.[index] ?? quote.close[index])
+      : null,
+    volume: Number.isFinite(Number(quote.volume?.[index])) ? Number(quote.volume[index]) : null,
+  })).filter(row => Number.isFinite(row.time) && row.time > 0 && Number.isFinite(row.close) && row.close > 0);
+  if (data.length < 2) throw new Error('Insufficient history data');
+  return {
+    schemaVersion: 1,
+    generatedAt: new Date().toISOString(),
+    symbol,
+    range,
+    interval,
+    data,
+    source: 'Yahoo Finance',
+  };
 }
 
 function misKey(symbol) {
@@ -365,11 +412,48 @@ function jsonResponse(data, status, request) {
   });
 }
 
+async function handleHistoryRequest(request, env, url) {
+  const symbol = String(url.searchParams.get('symbol') || '').toUpperCase();
+  const range = String(url.searchParams.get('range') || '');
+  const interval = String(url.searchParams.get('interval') || '');
+  if (!ALLOWED_HISTORY_SYMBOLS.has(symbol)
+    || !ALLOWED_HISTORY_QUERIES.has(`${range}:${interval}`)) {
+    return jsonResponse({ error: 'Unsupported history query' }, 400, request);
+  }
+
+  const key = `market:history:v1:${symbol}:${range}:${interval}`;
+  const cached = env?.MARKET_CACHE
+    ? await env.MARKET_CACHE.get(key, { type: 'json' }).catch(() => null)
+    : null;
+  const cachedAt = Date.parse(cached?.generatedAt || '');
+  const cacheAgeMs = Number.isFinite(cachedAt) ? Math.max(0, Date.now() - cachedAt) : Infinity;
+  if (cached && cacheAgeMs <= HISTORY_MAX_AGE_MS) {
+    return jsonResponse({ ...cached, delivery: 'kv' }, 200, request);
+  }
+
+  try {
+    const fresh = await fetchYahooHistory(symbol, range, interval);
+    if (env?.MARKET_CACHE) {
+      await env.MARKET_CACHE.put(key, JSON.stringify(fresh), { expirationTtl: 86400 });
+    }
+    return jsonResponse({ ...fresh, delivery: 'live' }, 200, request);
+  } catch (error) {
+    console.error('History refresh failed', error);
+    if (cached && cacheAgeMs <= HISTORY_FALLBACK_MAX_AGE_MS) {
+      return jsonResponse({ ...cached, delivery: 'stale-kv', warning: 'Refresh failed' }, 200, request);
+    }
+    return jsonResponse({ error: 'History data unavailable' }, 503, request);
+  }
+}
+
 export async function handleRequest(request, env) {
   if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: corsHeaders(request) });
   if (request.method !== 'GET') return jsonResponse({ error: 'Method not allowed' }, 405, request);
 
   const url = new URL(request.url);
+  if (url.pathname === '/api/history') {
+    return handleHistoryRequest(request, env, url);
+  }
   if (!['/api/market', '/health'].includes(url.pathname)) {
     return jsonResponse({ error: 'Not found' }, 404, request);
   }

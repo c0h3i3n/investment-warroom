@@ -15,6 +15,9 @@ const App = (() => {
   let pendingForceRefresh = false;
   let portfolioGeneration = 0;
   let newsGeneration = 0;
+  let indicatorInFlight = null;
+  let indicatorAutoAttempted = false;
+  const DEFAULT_INDICATOR_SYMBOL = '0050.TW';
 
   // ═══════════════════════════════════════
   // CLOCK & STATUS
@@ -268,7 +271,12 @@ const App = (() => {
         await updatePortfolio(quotesForPortfolio, generation);
         if (generation !== refreshGeneration) return false;
 
-        // 4. Technical indicators - load on demand via HTML button
+        // Technical indicators load in the background once per page session.
+        // They never delay quotes, portfolio totals, or the data-status badge.
+        if (!indicatorAutoAttempted) {
+          indicatorAutoAttempted = true;
+          queueMicrotask(() => updateIndicators(DEFAULT_INDICATOR_SYMBOL, { automatic: true }));
+        }
       } catch (e) {
         console.error('Data fetch error:', e);
         UI.showToast('資料擷取異常，顯示備用數據', 'warn');
@@ -412,17 +420,29 @@ const App = (() => {
   // ═══════════════════════════════════════
   // INDICATORS
   // ═══════════════════════════════════════
-  async function updateIndicators(symbol) {
-    const quote = await DataService.fetchQuote(symbol);
-    const currentPrice = quote?.price;
-
-    const result = await IndicatorsService.calculateFor(symbol, currentPrice);
-    if (result && !result.error) {
-      UI.renderIndicators(result);
-    } else {
-      const msg = result?.error || '未知錯誤';
-      document.getElementById("ind-grid").innerHTML = '<div class="ind-cell" style="grid-column:1/-1;text-align:center;color:var(--warn);padding:24px">⚠ 無法載入技術指標<br><small>' + msg + '</small><br><button onclick="App.updateIndicators(\'0050.TW\')" style="margin-top:8px;background:rgba(255,119,68,0.12);border:1px solid var(--arc);color:var(--arc);padding:4px 16px;font-family:inherit;font-size:11px;cursor:pointer">🔄 重試</button></div>';
-    }
+  function updateIndicators(symbol = DEFAULT_INDICATOR_SYMBOL, { automatic = false } = {}) {
+    if (indicatorInFlight) return indicatorInFlight;
+    UI.showIndicatorLoading(symbol, automatic);
+    indicatorInFlight = (async () => {
+      const existingQuote = watchlistQuotes.find(item => item.symbol === symbol);
+      const quote = DataService.isFreshRecord(existingQuote)
+        ? existingQuote
+        : await DataService.fetchQuote(symbol);
+      const result = await IndicatorsService.calculateFor(symbol, quote?.price);
+      if (result && !result.error) {
+        UI.renderIndicators(result);
+        return true;
+      }
+      UI.showIndicatorPrompt(symbol, result?.error || '未知錯誤');
+      return false;
+    })().catch(error => {
+      console.warn('Indicator load failed:', error);
+      UI.showIndicatorPrompt(symbol, '歷史資料服務暫時無法連線');
+      return false;
+    }).finally(() => {
+      indicatorInFlight = null;
+    });
+    return indicatorInFlight;
   }
 
   // ═══════════════════════════════════════

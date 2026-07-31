@@ -120,3 +120,35 @@ test('a refresh keeps a missing cached symbol only while its source time is fres
   assert.equal(merged.quotes.find(item => item.symbol === '2330.TW')?.price, 2400);
   assert.equal(merged.quotes.some(item => item.symbol === '00878.TW'), false);
 });
+
+test('history API serves a cached 0050 series without an upstream request', async () => {
+  const history = {
+    schemaVersion: 1,
+    generatedAt: new Date().toISOString(),
+    symbol: '0050.TW',
+    range: '6mo',
+    interval: '1d',
+    data: [
+      { time: Date.now() - 86400000, close: 100 },
+      { time: Date.now(), close: 101 },
+    ],
+    source: 'Yahoo Finance',
+  };
+  const env = {
+    MARKET_CACHE: {
+      get: async key => {
+        assert.equal(key, 'market:history:v1:0050.TW:6mo:1d');
+        return history;
+      },
+      put: async () => assert.fail('fresh history KV should not be rewritten'),
+    },
+  };
+  const response = await handleRequest(
+    new Request('https://worker.example/api/history?symbol=0050.TW&range=6mo&interval=1d'),
+    env,
+  );
+  const payload = await response.json();
+  assert.equal(response.status, 200);
+  assert.equal(payload.delivery, 'kv');
+  assert.equal(payload.data.length, 2);
+});

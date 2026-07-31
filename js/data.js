@@ -478,6 +478,33 @@ const DataService = (() => {
     if (cached) return cached;
     const requestEpoch = cacheEpoch;
 
+    if (CONFIG.MARKET_API) {
+      try {
+        const params = new URLSearchParams({ symbol, range, interval });
+        const backendUrl = addCacheBuster(
+          `${CONFIG.MARKET_API.replace(/\/$/, '')}/api/history?${params.toString()}`,
+        );
+        const response = await fetch(backendUrl, {
+          cache: 'no-store',
+          headers: { Accept: 'application/json' },
+          signal: requestTimeoutSignal(8000),
+        });
+        if (response.ok) {
+          const payload = await response.json();
+          const data = Array.isArray(payload?.data)
+            ? payload.data.filter(row => Number.isFinite(Number(row?.time))
+              && Number.isFinite(Number(row?.close)) && Number(row.close) > 0)
+            : [];
+          if (payload?.schemaVersion === 1 && data.length >= 2) {
+            if (requestEpoch === cacheEpoch) setCache(key, data);
+            return data;
+          }
+        }
+      } catch (error) {
+        console.warn(`History backend ${symbol} failed, using browser fallback:`, error.message);
+      }
+    }
+
     const encodedSymbol = encodeURIComponent(symbol);
     const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodedSymbol}?range=${range}&interval=${interval}`;
     try {
