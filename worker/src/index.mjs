@@ -95,10 +95,10 @@ export function isFreshTimestamp(timestamp, region, nowMs = Date.now()) {
   return weekdaysCrossed(sourceMs, nowMs, region) <= 1;
 }
 
-function validRecord(record, region = record?.region) {
+function validRecord(record, region = record?.region, nowMs = Date.now()) {
   return Number.isFinite(Number(record?.price))
     && Number(record.price) > 0
-    && isFreshTimestamp(record?.asOf, region);
+    && isFreshTimestamp(record?.asOf, region, nowMs);
 }
 
 function parseMisTimestamp(row) {
@@ -282,17 +282,65 @@ function acceptableSnapshot(snapshot) {
   return snapshot?.valid?.indexes >= 3 && snapshot?.valid?.quotes >= 5;
 }
 
+function newestFreshRecord(current, cached, region, nowMs) {
+  const candidates = [current, cached]
+    .filter(record => validRecord(record, region || record?.region, nowMs));
+  return candidates.reduce((newest, record) => {
+    if (!newest) return record;
+    const newestTime = typeof newest.asOf === 'string' ? Date.parse(newest.asOf) : Number(newest.asOf);
+    const recordTime = typeof record.asOf === 'string' ? Date.parse(record.asOf) : Number(record.asOf);
+    return recordTime > newestTime ? record : newest;
+  }, null);
+}
+
+export function mergeSnapshotWithCache(snapshot, cached, nowMs = Date.now()) {
+  if (!cached) return snapshot;
+  const currentIndexes = new Map((snapshot?.indexes || []).map(record => [record.symbol, record]));
+  const cachedIndexes = new Map((cached?.indexes || []).map(record => [record.symbol, record]));
+  const currentQuotes = new Map((snapshot?.quotes || []).map(record => [record.symbol, record]));
+  const cachedQuotes = new Map((cached?.quotes || []).map(record => [record.symbol, record]));
+
+  const indexes = INDEXES.map(config => newestFreshRecord(
+    currentIndexes.get(config.symbol),
+    cachedIndexes.get(config.symbol),
+    config.region,
+    nowMs,
+  )).filter(Boolean);
+  const quotes = QUOTE_SYMBOLS.map(symbol => newestFreshRecord(
+    currentQuotes.get(symbol),
+    cachedQuotes.get(symbol),
+    yahooRegion(symbol),
+    nowMs,
+  )).filter(Boolean);
+
+  return {
+    ...snapshot,
+    indexes,
+    quotes,
+    valid: {
+      indexes: indexes.length,
+      quotes: quotes.length,
+      totalIndexes: INDEXES.length,
+      totalQuotes: QUOTE_SYMBOLS.length,
+    },
+  };
+}
+
 async function readCached(env) {
   if (!env?.MARKET_CACHE) return null;
   return env.MARKET_CACHE.get(SNAPSHOT_KEY, { type: 'json' });
 }
 
 async function refreshAndStore(env) {
-  const snapshot = await buildSnapshot();
-  if (acceptableSnapshot(snapshot) && env?.MARKET_CACHE) {
-    await env.MARKET_CACHE.put(SNAPSHOT_KEY, JSON.stringify(snapshot));
+  const [snapshot, cached] = await Promise.all([
+    buildSnapshot(),
+    readCached(env).catch(() => null),
+  ]);
+  const merged = mergeSnapshotWithCache(snapshot, cached);
+  if (acceptableSnapshot(merged) && env?.MARKET_CACHE) {
+    await env.MARKET_CACHE.put(SNAPSHOT_KEY, JSON.stringify(merged));
   }
-  return snapshot;
+  return merged;
 }
 
 function corsHeaders(request) {

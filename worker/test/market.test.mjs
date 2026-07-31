@@ -6,6 +6,7 @@ import {
   buildSnapshot,
   handleRequest,
   isFreshTimestamp,
+  mergeSnapshotWithCache,
 } from '../src/index.mjs';
 
 test('freshness rejects an old open-market quote and accepts the current one', () => {
@@ -86,4 +87,36 @@ test('API serves KV data with CORS and avoids an upstream refresh', async () => 
   assert.equal(response.status, 200);
   assert.equal(response.headers.get('access-control-allow-origin'), 'https://c0h3i3n.github.io');
   assert.equal((await response.json()).delivery, 'kv');
+});
+
+test('a refresh keeps a missing cached symbol only while its source time is fresh', () => {
+  const now = Date.parse('2026-07-31T02:00:00Z'); // Thu 10:00 Taipei
+  const record = (symbol, minutesOld, price) => ({
+    symbol,
+    price,
+    asOf: now - minutesOld * 60 * 1000,
+    region: 'TW',
+    source: 'TWSE MIS',
+    priceType: 'indicative',
+  });
+  const snapshot = {
+    schemaVersion: 1,
+    generatedAt: new Date(now).toISOString(),
+    indexes: [],
+    quotes: [record('2330.TW', 1, 2400)],
+    valid: { indexes: 0, quotes: 1, totalIndexes: 5, totalQuotes: 11 },
+  };
+  const cached = {
+    indexes: [],
+    quotes: [
+      record('0050.TW', 5, 102.5),
+      record('2330.TW', 10, 2390),
+      record('00878.TW', 30, 32),
+    ],
+  };
+
+  const merged = mergeSnapshotWithCache(snapshot, cached, now);
+  assert.equal(merged.quotes.find(item => item.symbol === '0050.TW')?.price, 102.5);
+  assert.equal(merged.quotes.find(item => item.symbol === '2330.TW')?.price, 2400);
+  assert.equal(merged.quotes.some(item => item.symbol === '00878.TW'), false);
 });
