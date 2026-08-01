@@ -1,7 +1,31 @@
 {
-  "timestamp": "2026-08-01T09:14:30.606619+00:00",
-  "generatedAt": "2026-08-01T09:14:30.606619+00:00",
+  "timestamp": "2026-08-01T11:25:47.721847+00:00",
+  "generatedAt": "2026-08-01T11:25:47.721847+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "美國陷入「衰退」！達利歐警告：台灣若遭封鎖恐引爆「全球股災」、5天就足以重創供應鏈",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6555666"
+    },
+    {
+      "region": "TW",
+      "headline": "長鑫科技迎關鍵突破！LPDDR6研發驗證近完成、傳拚2026全球首發量產",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6555710"
+    },
+    {
+      "region": "TW",
+      "headline": "曾送外賣給川普！美最大外賣平台使用中國AI 國會不忍了高聲喊查",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555718"
+    },
     {
       "region": "TW",
       "headline": "蘋果iPhone 18 Pro系列要變「史上最貴」？傳售價暴漲300美元",
@@ -12,16 +36,8 @@
     },
     {
       "region": "TW",
-      "headline": "中國AI晶片自主研發面臨新挑戰！美國擬封殺RISC-V、開源晶片架構恐納出口管制",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555670"
-    },
-    {
-      "region": "TW",
       "headline": "台股史上最狂反彈！一表看18檔主被動ETF齊亮紅燈 0050、00981A入列",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6555360"
@@ -29,7 +45,7 @@
     {
       "region": "TW",
       "headline": "聚陽Q2純益年增3成 上半年EPS7.65元擬配息6元",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6555692"
