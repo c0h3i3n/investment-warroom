@@ -1,70 +1,54 @@
 {
-  "timestamp": "2026-07-31T23:12:29.718174+00:00",
-  "generatedAt": "2026-07-31T23:12:29.718174+00:00",
+  "timestamp": "2026-08-01T03:44:01.200526+00:00",
+  "generatedAt": "2026-08-01T03:44:01.200526+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "SpaceX首份財報倒數 大摩維持300美元目標價：最危險時刻來臨 AI價值仍遭低估",
+      "headline": "鉅亨速報 - Factset 最新調查：中興電(1513-TW)目標價調升至191元，幅度約6.11%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555444"
+      "link": "https://news.cnyes.com/news/id/6555639"
     },
     {
       "region": "TW",
-      "headline": "〈能源盤後〉伊朗戰事衝擊航運 油價單月飆逾20% 創3月來最大漲幅",
+      "headline": "鉅亨速報 - Factset 最新調查：光寶科(2301-TW)目標價調升至250元，幅度約4.6%",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555638"
+    },
+    {
+      "region": "TW",
+      "headline": "首座太空新創TASA iSPARK開幕！710億元推動太空計畫 期培育台灣太空產業獨角獸",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555634"
+    },
+    {
+      "region": "TW",
+      "headline": "台灣不只有台積電！卓揆視察新竹生醫園區 60億打造第四生技大樓",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555619"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉和泰車股價周漲逾1成 逆勢創近5個月高點",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6555443"
+      "link": "https://news.cnyes.com/news/id/6555627"
     },
     {
       "region": "TW",
-      "headline": "巴西推E32汽油政策 乙醇摻混率升至32% 正式啟動180天試行",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555505"
-    },
-    {
-      "region": "TW",
-      "headline": "〈美股盤後〉亞馬遜飆超15% 蘋果挫逾7% 那指收高但創2006年來最慘7月表現",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6554929"
-    },
-    {
-      "region": "TW",
-      "headline": "美食展「台灣觀光館」今盛大登場 展館首度規劃四大AI體驗、共54家特色品牌",
+      "headline": "台股史上最狂反彈、電子權值股法說周、台灣Q2 GDP上修至12.92% 本周大事回顧",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555320"
-    },
-    {
-      "region": "TW",
-      "headline": "364萬人快刷存摺！首批退稅總金額610億元今入帳",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555228"
-    },
-    {
-      "region": "TW",
-      "headline": "下周一再新增8檔股票抓去關 ABF股王南電關至8/18處置最久",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555240"
-    },
-    {
-      "region": "TW",
-      "headline": "東典光電自結6月獲利由虧轉盈 濾光片切入5G與資料中心",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555205"
+      "link": "https://news.cnyes.com/news/id/6555468"
     }
   ]
 }
