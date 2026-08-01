@@ -1,7 +1,31 @@
 {
-  "timestamp": "2026-08-01T13:47:00.294511+00:00",
-  "generatedAt": "2026-08-01T13:47:00.294511+00:00",
+  "timestamp": "2026-08-01T15:11:19.494130+00:00",
+  "generatedAt": "2026-08-01T15:11:19.494130+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "記憶體巨頭「回購牛市」將到來？鎧俠宣布8000億日元股票回購計畫開第一槍",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555735"
+    },
+    {
+      "region": "TW",
+      "headline": "OpenAI AI代理「失控」範圍擴大！Hugging Face遭駭事件引爆全球監管壓力",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555669"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - COTI大跌11.94%，報0.0142美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6555782"
+    },
     {
       "region": "TW",
       "headline": "美國陷入「衰退」！達利歐警告：台灣若遭封鎖恐引爆「全球股災」、5天就足以重創供應鏈",
@@ -9,30 +33,6 @@
       "time": "--:--",
       "impact": "neg",
       "link": "https://news.cnyes.com/news/id/6555666"
-    },
-    {
-      "region": "TW",
-      "headline": "長鑫科技迎關鍵突破！LPDDR6研發驗證近完成、傳拚2026全球首發量產",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6555710"
-    },
-    {
-      "region": "TW",
-      "headline": "曾送外賣給川普！美最大外賣平台使用中國AI 國會不忍了高聲喊查",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555718"
-    },
-    {
-      "region": "TW",
-      "headline": "蘋果iPhone 18 Pro系列要變「史上最貴」？傳售價暴漲300美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6555523"
     },
     {
       "region": "TW",
