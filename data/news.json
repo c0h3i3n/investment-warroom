@@ -1,11 +1,43 @@
 {
-  "timestamp": "2026-08-01T03:44:01.200526+00:00",
-  "generatedAt": "2026-08-01T03:44:01.200526+00:00",
+  "timestamp": "2026-08-01T06:37:52.385128+00:00",
+  "generatedAt": "2026-08-01T06:37:52.385128+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：中興電(1513-TW)目標價調升至191元，幅度約6.11%",
+      "headline": "AI股神爆倉真相曝光 Citadel折價接手160億美元持股引爆市場反彈",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555684"
+    },
+    {
+      "region": "TW",
+      "headline": "OpenAI、台積電、特斯拉都在布局！晶圓級晶片成AI算力競賽新戰場",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555668"
+    },
+    {
+      "region": "TW",
+      "headline": "DeepSeek-V4-Flash正式API上線！ Agent能力暴漲6倍 價格僅Claude 1/90",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6555685"
+    },
+    {
+      "region": "TW",
+      "headline": "庫克一句話釋訊號 記憶體晶片股觸底了嗎？",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555556"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：中興電(1513-TW)目標價調升至191元，幅度約6.11%",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6555639"
@@ -13,7 +45,7 @@
     {
       "region": "TW",
       "headline": "鉅亨速報 - Factset 最新調查：光寶科(2301-TW)目標價調升至250元，幅度約4.6%",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6555638"
@@ -21,7 +53,7 @@
     {
       "region": "TW",
       "headline": "首座太空新創TASA iSPARK開幕！710億元推動太空計畫 期培育台灣太空產業獨角獸",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6555634"
@@ -29,26 +61,10 @@
     {
       "region": "TW",
       "headline": "台灣不只有台積電！卓揆視察新竹生醫園區 60億打造第四生技大樓",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6555619"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉和泰車股價周漲逾1成 逆勢創近5個月高點",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6555627"
-    },
-    {
-      "region": "TW",
-      "headline": "台股史上最狂反彈、電子權值股法說周、台灣Q2 GDP上修至12.92% 本周大事回顧",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555468"
     }
   ]
 }
