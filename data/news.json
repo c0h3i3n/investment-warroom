@@ -1,70 +1,54 @@
 {
-  "timestamp": "2026-08-01T06:37:52.385128+00:00",
-  "generatedAt": "2026-08-01T06:37:52.385128+00:00",
+  "timestamp": "2026-08-01T09:14:30.606619+00:00",
+  "generatedAt": "2026-08-01T09:14:30.606619+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI股神爆倉真相曝光 Citadel折價接手160億美元持股引爆市場反彈",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555684"
-    },
-    {
-      "region": "TW",
-      "headline": "OpenAI、台積電、特斯拉都在布局！晶圓級晶片成AI算力競賽新戰場",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555668"
-    },
-    {
-      "region": "TW",
-      "headline": "DeepSeek-V4-Flash正式API上線！ Agent能力暴漲6倍 價格僅Claude 1/90",
+      "headline": "蘋果iPhone 18 Pro系列要變「史上最貴」？傳售價暴漲300美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6555685"
+      "link": "https://news.cnyes.com/news/id/6555523"
     },
     {
       "region": "TW",
-      "headline": "庫克一句話釋訊號 記憶體晶片股觸底了嗎？",
+      "headline": "中國AI晶片自主研發面臨新挑戰！美國擬封殺RISC-V、開源晶片架構恐納出口管制",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555556"
+      "link": "https://news.cnyes.com/news/id/6555670"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：中興電(1513-TW)目標價調升至191元，幅度約6.11%",
-      "source": "台股",
+      "headline": "台股史上最狂反彈！一表看18檔主被動ETF齊亮紅燈 0050、00981A入列",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555639"
+      "link": "https://news.cnyes.com/news/id/6555360"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：光寶科(2301-TW)目標價調升至250元，幅度約4.6%",
-      "source": "台股",
+      "headline": "聚陽Q2純益年增3成 上半年EPS7.65元擬配息6元",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555638"
+      "link": "https://news.cnyes.com/news/id/6555692"
     },
     {
       "region": "TW",
-      "headline": "首座太空新創TASA iSPARK開幕！710億元推動太空計畫 期培育台灣太空產業獨角獸",
+      "headline": "〈熱門股〉記憶體模組成資金避風港 創見周漲11%",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555634"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6548273"
     },
     {
       "region": "TW",
-      "headline": "台灣不只有台積電！卓揆視察新竹生醫園區 60億打造第四生技大樓",
+      "headline": "新竹工業三路廠房起火 欣銓澄清：非公司廠房、目前無影響",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555619"
+      "link": "https://news.cnyes.com/news/id/6555723"
     }
   ]
 }
