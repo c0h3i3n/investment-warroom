@@ -1,7 +1,23 @@
 {
-  "timestamp": "2026-08-02T15:12:13.359439+00:00",
-  "generatedAt": "2026-08-02T15:12:13.359439+00:00",
+  "timestamp": "2026-08-02T17:10:50.586714+00:00",
+  "generatedAt": "2026-08-02T17:10:50.586714+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "華許首場記者會失靈？美銀示警Fed恐9月升息、市場憂聯準會公信力動搖",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6556005"
+    },
+    {
+      "region": "TW",
+      "headline": "本週操盤筆記：美7月非農、SpaceX超微Sandisk財報、AI行情及中東局勢",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6554937"
+    },
     {
       "region": "TW",
       "headline": "AI重塑記憶體版圖！HBM、DRAM、NAND大洗牌  誰將掌握下一代運算主導權？",
@@ -20,16 +36,8 @@
     },
     {
       "region": "TW",
-      "headline": "OpenAI新模型Astra曝！攻克10道數學難題、多AI代理協作挑戰AGI",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555943"
-    },
-    {
-      "region": "TW",
       "headline": "〈台股風向球〉台股最慘7月收斂正乖 8月多方拚突破月季線兩個反壓",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6555893"
