@@ -1,7 +1,15 @@
 {
-  "timestamp": "2026-08-01T22:07:57.515012+00:00",
-  "generatedAt": "2026-08-01T22:07:57.515012+00:00",
+  "timestamp": "2026-08-02T00:06:04.760570+00:00",
+  "generatedAt": "2026-08-02T00:06:04.760570+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "俄軍摧毀基輔美國公司無人機工廠！川普：尚未同意授權烏克蘭生產「愛國者」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555755"
+    },
     {
       "region": "TW",
       "headline": "記憶體巨頭「回購牛市」將到來？鎧俠宣布8000億日元股票回購計畫開第一槍",
@@ -25,14 +33,6 @@
       "time": "--:--",
       "impact": "neg",
       "link": "https://news.cnyes.com/news/id/6555666"
-    },
-    {
-      "region": "TW",
-      "headline": "長鑫科技迎關鍵突破！LPDDR6研發驗證近完成、傳拚2026全球首發量產",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6555710"
     },
     {
       "region": "TW",
