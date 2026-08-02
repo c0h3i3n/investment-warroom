@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-02T17:10:50.586714+00:00",
-  "generatedAt": "2026-08-02T17:10:50.586714+00:00",
+  "timestamp": "2026-08-02T19:23:12.830944+00:00",
+  "generatedAt": "2026-08-02T19:23:12.830944+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "華許首場記者會失靈？美銀示警Fed恐9月升息、市場憂聯準會公信力動搖",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6556005"
-    },
-    {
-      "region": "TW",
-      "headline": "本週操盤筆記：美7月非農、SpaceX超微Sandisk財報、AI行情及中東局勢",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6554937"
-    },
-    {
-      "region": "TW",
-      "headline": "AI重塑記憶體版圖！HBM、DRAM、NAND大洗牌  誰將掌握下一代運算主導權？",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6556023"
-    },
-    {
-      "region": "TW",
-      "headline": "國防股跌出機會？「這家公司」估值回落、分析師看漲32%",
+      "headline": "盤中速報 - 雪崩代幣大漲9.29%，報6.65美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6555975"
+      "link": "https://news.cnyes.com/news/id/6556073"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - AEVO大跌10.78%，報0.02美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6556070"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - COTI大跌13.55%，報0.0129美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6556069"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - UTK大漲16.23%，報0.008美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6556068"
     },
     {
       "region": "TW",
