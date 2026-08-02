@@ -1,7 +1,23 @@
 {
-  "timestamp": "2026-08-02T11:24:15.301960+00:00",
-  "generatedAt": "2026-08-02T11:24:15.301960+00:00",
+  "timestamp": "2026-08-02T13:47:25.563350+00:00",
+  "generatedAt": "2026-08-02T13:47:25.563350+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "AI重塑記憶體版圖！HBM、DRAM、NAND大洗牌  誰將掌握下一代運算主導權？",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6556023"
+    },
+    {
+      "region": "TW",
+      "headline": "國防股跌出機會？「這家公司」估值回落、分析師看漲32%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6555975"
+    },
     {
       "region": "TW",
       "headline": "OpenAI新模型Astra曝！攻克10道數學難題、多AI代理協作挑戰AGI",
@@ -21,7 +37,7 @@
     {
       "region": "TW",
       "headline": "提前偵測幫叫瓦斯、手機變身專業棒球教練！盤點改變你我生活的5大AI「黑科技」",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6555941"
@@ -29,7 +45,7 @@
     {
       "region": "TW",
       "headline": "點亮半導體重鎮！高雄楠梓台電雄積三四線提前2年完工 供電量翻倍至千萬瓦",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6555929"
