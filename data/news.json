@@ -1,70 +1,46 @@
 {
-  "timestamp": "2026-08-02T00:06:04.760570+00:00",
-  "generatedAt": "2026-08-02T00:06:04.760570+00:00",
+  "timestamp": "2026-08-02T03:48:00.522681+00:00",
+  "generatedAt": "2026-08-02T03:48:00.522681+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "俄軍摧毀基輔美國公司無人機工廠！川普：尚未同意授權烏克蘭生產「愛國者」",
+      "headline": "川普TACO！稱應「中東國家要求」取消對伊朗打擊、「雙方已就協議框架達成共識」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555755"
+      "link": "https://news.cnyes.com/news/id/6555901"
     },
     {
       "region": "TW",
-      "headline": "記憶體巨頭「回購牛市」將到來？鎧俠宣布8000億日元股票回購計畫開第一槍",
+      "headline": "一人救全村！微軟財報報喜單周狂漲21% 這幾檔「高含微軟ETF」跟著飛",
       "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555735"
-    },
-    {
-      "region": "TW",
-      "headline": "OpenAI AI代理「失控」範圍擴大！Hugging Face遭駭事件引爆全球監管壓力",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555669"
-    },
-    {
-      "region": "TW",
-      "headline": "美國陷入「衰退」！達利歐警告：台灣若遭封鎖恐引爆「全球股災」、5天就足以重創供應鏈",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6555666"
-    },
-    {
-      "region": "TW",
-      "headline": "台股史上最狂反彈！一表看18檔主被動ETF齊亮紅燈 0050、00981A入列",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555360"
-    },
-    {
-      "region": "TW",
-      "headline": "聚陽Q2純益年增3成 上半年EPS7.65元擬配息6元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555692"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉記憶體模組成資金避風港 創見周漲11%",
-      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6548273"
+      "link": "https://news.cnyes.com/news/id/6555660"
     },
     {
       "region": "TW",
-      "headline": "新竹工業三路廠房起火 欣銓澄清：非公司廠房、目前無影響",
+      "headline": "鴻勁CPO光電同測設備10月起出貨 成明年新動能",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555018"
+    },
+    {
+      "region": "TW",
+      "headline": "迅得Q3營收仍走強全年再成長創新高 估獲利成長幅度攀高",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555799"
+    },
+    {
+      "region": "TW",
+      "headline": "迎戰AI用電狂潮！專家分析表後儲能如何助台灣企業「削峰填谷」",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555723"
+      "link": "https://news.cnyes.com/news/id/6553577"
     }
   ]
 }
