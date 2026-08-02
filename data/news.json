@@ -1,7 +1,23 @@
 {
-  "timestamp": "2026-08-02T22:07:01.918793+00:00",
-  "generatedAt": "2026-08-02T22:07:01.918793+00:00",
+  "timestamp": "2026-08-02T23:07:36.335417+00:00",
+  "generatedAt": "2026-08-02T23:07:36.335417+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "40天驚魂記！從市值崩跌規模超過去年GDP到單日飆18% 韓股去槓桿動盪結束了？",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6556053"
+    },
+    {
+      "region": "TW",
+      "headline": "〈走進中國〉愛馬仕CEO：在等中國豬肉漲價",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6555703"
+    },
     {
       "region": "TW",
       "headline": "盤中速報 - 雪崩代幣大漲9.29%，報6.65美元",
@@ -17,22 +33,6 @@
       "time": "--:--",
       "impact": "neg",
       "link": "https://news.cnyes.com/news/id/6556070"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - COTI大跌13.55%，報0.0129美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6556069"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - UTK大漲16.23%，報0.008美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6556068"
     },
     {
       "region": "TW",
