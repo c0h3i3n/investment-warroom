@@ -1,19 +1,43 @@
 {
-  "timestamp": "2026-08-02T03:48:00.522681+00:00",
-  "generatedAt": "2026-08-02T03:48:00.522681+00:00",
+  "timestamp": "2026-08-02T06:41:40.682101+00:00",
+  "generatedAt": "2026-08-02T06:41:40.682101+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "川普TACO！稱應「中東國家要求」取消對伊朗打擊、「雙方已就協議框架達成共識」",
+      "headline": "盤中速報 - 艾達幣大漲9.12%，報0.1854美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6555955"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - Ethena大漲8.2%，報0.09美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6555934"
+    },
+    {
+      "region": "TW",
+      "headline": "AI需求沒降溫？南韓7月半導體出口暴增179%  三星：晶片荒恐延續至2028年",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555901"
+      "link": "https://news.cnyes.com/news/id/6555910"
+    },
+    {
+      "region": "TW",
+      "headline": "Kimi K3發布後美AI股市值蒸發4700億美元 矽谷驚嘆中國AI崛起速度",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6554405"
     },
     {
       "region": "TW",
       "headline": "一人救全村！微軟財報報喜單周狂漲21% 這幾檔「高含微軟ETF」跟著飛",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6555660"
@@ -21,7 +45,7 @@
     {
       "region": "TW",
       "headline": "鴻勁CPO光電同測設備10月起出貨 成明年新動能",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6555018"
@@ -29,7 +53,7 @@
     {
       "region": "TW",
       "headline": "迅得Q3營收仍走強全年再成長創新高 估獲利成長幅度攀高",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6555799"
