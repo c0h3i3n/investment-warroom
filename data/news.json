@@ -1,70 +1,46 @@
 {
-  "timestamp": "2026-08-02T09:17:35.223070+00:00",
-  "generatedAt": "2026-08-02T09:17:35.223070+00:00",
+  "timestamp": "2026-08-02T11:24:15.301960+00:00",
+  "generatedAt": "2026-08-02T11:24:15.301960+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 艾達幣大漲9.12%，報0.1854美元",
+      "headline": "OpenAI新模型Astra曝！攻克10道數學難題、多AI代理協作挑戰AGI",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6555943"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股風向球〉台股最慘7月收斂正乖 8月多方拚突破月季線兩個反壓",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6555955"
+      "link": "https://news.cnyes.com/news/id/6555893"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Ethena大漲8.2%，報0.09美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6555934"
-    },
-    {
-      "region": "TW",
-      "headline": "AI需求沒降溫？南韓7月半導體出口暴增179%  三星：晶片荒恐延續至2028年",
+      "headline": "提前偵測幫叫瓦斯、手機變身專業棒球教練！盤點改變你我生活的5大AI「黑科技」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555910"
+      "link": "https://news.cnyes.com/news/id/6555941"
     },
     {
       "region": "TW",
-      "headline": "Kimi K3發布後美AI股市值蒸發4700億美元 矽谷驚嘆中國AI崛起速度",
+      "headline": "點亮半導體重鎮！高雄楠梓台電雄積三四線提前2年完工 供電量翻倍至千萬瓦",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6554405"
+      "link": "https://news.cnyes.com/news/id/6555929"
     },
     {
       "region": "TW",
-      "headline": "一人救全村！微軟財報報喜單周狂漲21% 這幾檔「高含微軟ETF」跟著飛",
+      "headline": "研華接單續旺邊緣AI成長動能強 下半年營運展望樂觀",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6555660"
-    },
-    {
-      "region": "TW",
-      "headline": "鴻勁CPO光電同測設備10月起出貨 成明年新動能",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555018"
-    },
-    {
-      "region": "TW",
-      "headline": "迅得Q3營收仍走強全年再成長創新高 估獲利成長幅度攀高",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6555799"
-    },
-    {
-      "region": "TW",
-      "headline": "迎戰AI用電狂潮！專家分析表後儲能如何助台灣企業「削峰填谷」",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6553577"
+      "link": "https://news.cnyes.com/news/id/6555925"
     }
   ]
 }
