@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-03T19:51:02.134700+00:00",
-  "generatedAt": "2026-08-03T19:51:02.134700+00:00",
+  "timestamp": "2026-08-03T21:15:50.543575+00:00",
+  "generatedAt": "2026-08-03T21:15:50.543575+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI燒錢才剛開始！科技業恐再借5000億美元買晶片",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6557787"
-    },
-    {
-      "region": "TW",
-      "headline": "川普還沒宣布關稅 逾百萬噸銅已瘋狂湧入美國",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6557786"
-    },
-    {
-      "region": "TW",
-      "headline": "美伊談判陷羅生門！伊朗全面否認接觸 川普怒批表裡不一",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6557794"
-    },
-    {
-      "region": "TW",
-      "headline": "「你騙不了債市！」美銀警告Fed：再不交代抗通膨計畫 美債恐續跌",
+      "headline": "〈能源盤後〉川普暫緩攻擊伊朗 Brent暴跌7%創三周新低 WTI挫逾5%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6557734"
+      "link": "https://news.cnyes.com/news/id/6557775"
+    },
+    {
+      "region": "TW",
+      "headline": "美製造業景氣創4年最快成長 供應鏈亂象仍隱憂重重",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6557770"
+    },
+    {
+      "region": "TW",
+      "headline": "737 Max 7苦等近十年終於過關！波音股價大漲 分析師喊上450美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6557837"
+    },
+    {
+      "region": "TW",
+      "headline": "蘋果再度槓上英國政府！拒絕開放用戶加密雲端資料",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6557836"
     },
     {
       "region": "TW",
