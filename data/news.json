@@ -1,38 +1,46 @@
 {
-  "timestamp": "2026-08-03T15:10:35.321311+00:00",
-  "generatedAt": "2026-08-03T15:10:35.321311+00:00",
+  "timestamp": "2026-08-03T18:00:41.959339+00:00",
+  "generatedAt": "2026-08-03T18:00:41.959339+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "日元暴力反彈5%只是曇花一現？分析師揭最大致命傷",
+      "headline": "AI燒錢才剛開始！科技業恐再借5000億美元買晶片",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6557625"
+      "link": "https://news.cnyes.com/news/id/6557787"
     },
     {
       "region": "TW",
-      "headline": "〈美股早盤〉美伊緊張局勢降溫、油價跌破80美元 主要指數開高",
+      "headline": "川普還沒宣布關稅 逾百萬噸銅已瘋狂湧入美國",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6557786"
+    },
+    {
+      "region": "TW",
+      "headline": "美伊談判陷羅生門！伊朗全面否認接觸 川普怒批表裡不一",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6557794"
+    },
+    {
+      "region": "TW",
+      "headline": "「你騙不了債市！」美銀警告Fed：再不交代抗通膨計畫 美債恐續跌",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6557518"
+      "link": "https://news.cnyes.com/news/id/6557734"
     },
     {
       "region": "TW",
       "headline": "佳必琪擬一年內加碼崧騰最多1成持股 每股價格上限60元",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6557708"
-    },
-    {
-      "region": "TW",
-      "headline": "韓國央行抄底黃金 13年來首次增持！",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6557706"
     },
     {
       "region": "TW",
