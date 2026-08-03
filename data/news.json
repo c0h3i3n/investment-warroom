@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-08-03T03:47:25.581936+00:00",
-  "generatedAt": "2026-08-03T03:47:25.581936+00:00",
+  "timestamp": "2026-08-03T07:38:20.394933+00:00",
+  "generatedAt": "2026-08-03T07:38:20.394933+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 大量(3167)股價拉至漲停，漲停價534.0元，成交384張",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6556631"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 馬光-KY(4139)急拉3.44%報38.0元，成交2張",
+      "headline": "能率亞洲投資布局進入收成期 擬辦現增募集5.76億元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6556630"
+      "link": "https://news.cnyes.com/news/id/6556899"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 振樺電(8114)股價拉至漲停，漲停價215.0元，成交619張",
+      "headline": "AI能否回本？微軟、亞馬遜、Alphabet財報揭示華爾街「新邏輯」",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6556629"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6556115"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 旺宏(2337)股價拉至漲停，漲停價110.5元，成交34,738張",
+      "headline": "5年期人民幣國債期貨今在港掛牌！中國證監會：「五維協同」鞏固港離岸人民幣樞紐地位",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6556628"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6556857"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 櫃買市場加權指數上漲14.1點至361.95點，漲幅4.05%",
-      "source": "台股",
+      "headline": "能源管理法修法逾400家用電大戶受影響 工總籲明定用電契約兼顧產業發展",
+      "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6556535"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6556871"
     },
     {
       "region": "TW",
-      "headline": "0803 台股盤前｜投本比排行:力成、世界，美晶片法案與美股暴漲催化 台股狂飆 3,186 點創歷史最大漲點",
+      "headline": "1萬元即可投資全球！貝萊德在台首檔傘型基金009826 00991B股債雙掛牌",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6556429"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6556893"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 櫃買市場加權指數上漲10.45點至358.3點，漲幅3%",
+      "headline": "鉅亨速報 - Factset 最新調查：光寶科(2301-TW)EPS預估上修至8.8元，預估目標價為250元",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6556397"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6556909"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 櫃買市場加權指數上漲7.11點至354.96點，漲幅2.04%",
+      "headline": "鉅亨速報 - Factset 最新調查：智伸科(4551-TW)目標價調升至240元，幅度約7.87%",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6556321"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6556908"
     }
   ]
 }
