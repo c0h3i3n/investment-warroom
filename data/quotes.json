@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-04T06:36:48.745910+00:00",
-  "generatedAt": "2026-08-04T06:36:48.745910+00:00",
+  "timestamp": "2026-08-04T09:45:26.601603+00:00",
+  "generatedAt": "2026-08-04T09:45:26.601603+00:00",
   "data": [
     {
       "symbol": "0050.TW",
@@ -8,8 +8,8 @@
       "price": 100.65,
       "change": -1.35,
       "changePct": -1.32,
-      "asOf": "2026-08-04T05:30:02+00:00",
-      "source": "Yahoo Finance",
+      "asOf": "2026-08-04T06:30:00+00:00",
+      "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
@@ -18,8 +18,8 @@
       "price": 2320.0,
       "change": -50.0,
       "changePct": -2.11,
-      "asOf": "2026-08-04T05:30:05+00:00",
-      "source": "Yahoo Finance",
+      "asOf": "2026-08-04T06:30:00+00:00",
+      "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
@@ -28,18 +28,18 @@
       "price": 26.45,
       "change": 0.03,
       "changePct": 0.11,
-      "asOf": "2026-08-04T05:30:38+00:00",
-      "source": "Yahoo Finance",
+      "asOf": "2026-08-04T06:30:00+00:00",
+      "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
       "symbol": "00878.TW",
       "name": "",
       "price": 32.57,
-      "change": 0,
-      "changePct": 0,
-      "asOf": "2026-08-04T05:30:02+00:00",
-      "source": "Yahoo Finance",
+      "change": 0.0,
+      "changePct": 0.0,
+      "asOf": "2026-08-04T06:30:00+00:00",
+      "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
@@ -48,8 +48,8 @@
       "price": 28.15,
       "change": 0.58,
       "changePct": 2.1,
-      "asOf": "2026-08-04T05:30:04+00:00",
-      "source": "Yahoo Finance",
+      "asOf": "2026-08-04T06:30:00+00:00",
+      "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
@@ -58,8 +58,8 @@
       "price": 15.96,
       "change": 0.02,
       "changePct": 0.13,
-      "asOf": "2026-08-04T05:30:22+00:00",
-      "source": "Yahoo Finance",
+      "asOf": "2026-08-04T06:30:00+00:00",
+      "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
@@ -68,8 +68,8 @@
       "price": 14.62,
       "change": 0.05,
       "changePct": 0.34,
-      "asOf": "2026-08-04T05:30:22+00:00",
-      "source": "Yahoo Finance",
+      "asOf": "2026-08-04T06:30:00+00:00",
+      "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
@@ -78,8 +78,8 @@
       "price": 12.99,
       "change": 0.19,
       "changePct": 1.48,
-      "asOf": "2026-08-04T05:30:14+00:00",
-      "source": "Yahoo Finance",
+      "asOf": "2026-08-04T06:30:00+00:00",
+      "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
