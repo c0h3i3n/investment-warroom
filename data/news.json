@@ -1,46 +1,62 @@
 {
-  "timestamp": "2026-08-04T15:32:05.083148+00:00",
-  "generatedAt": "2026-08-04T15:32:05.083148+00:00",
+  "timestamp": "2026-08-04T17:59:46.421195+00:00",
+  "generatedAt": "2026-08-04T17:59:46.421195+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美伊協議傳接近達成、企業財報報喜！道瓊期貨勁揚600點",
+      "headline": "特斯拉中國業務成燙手山芋？與SpaceX合併恐卡在美國國安審查",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6559320"
+      "link": "https://news.cnyes.com/news/id/6559381"
     },
     {
       "region": "TW",
-      "headline": "凌華接單穩定、漲價效應 估下半年營收雙位數年增 毛利率可望回升",
+      "headline": "美國6月JOLTS職缺降至735.9萬個 招聘回升、裁員仍有限",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6559398"
+    },
+    {
+      "region": "TW",
+      "headline": "SpaceX首份財報將登場！多空激戰恐撼動2250億美元市值",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6559157"
+    },
+    {
+      "region": "TW",
+      "headline": "忘掉華爾街預期！Palantir用一份財報反擊空頭 盤中股價一度飆20%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6559271"
+      "link": "https://news.cnyes.com/news/id/6559397"
     },
     {
       "region": "TW",
-      "headline": "進泰電子Q2轉盈EPS爲0.19 元 下半年營運拚成長",
-      "source": "鉅亨",
+      "headline": "鉅亨速報 - Factset 最新調查：富世達(6805-TW)EPS預估下修至63.08元，預估目標價為2600元",
+      "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6559163"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6559440"
     },
     {
       "region": "TW",
-      "headline": "賴清德授勳 麥考爾透露：川普很快將提送國會140億美元關鍵軍售案",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6559156"
-    },
-    {
-      "region": "TW",
-      "headline": "〈緯創法說〉上半年EPS 7.78元 再斥資175億元同步投資台灣、美國與越南",
+      "headline": "鉅亨速報 - Factset 最新調查：世界(5347-TW)EPS預估上修至5.88元，預估目標價為187元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6559160"
+      "link": "https://news.cnyes.com/news/id/6559439"
+    },
+    {
+      "region": "TW",
+      "headline": "國科會核准5件園區投資案約41億元 共4件聚焦半導體業",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6559327"
     }
   ]
 }
