@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-04T21:22:19.752073+00:00",
-  "generatedAt": "2026-08-04T21:22:19.752073+00:00",
+  "timestamp": "2026-08-04T23:13:39.453157+00:00",
+  "generatedAt": "2026-08-04T23:13:39.453157+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "川普擬對多晶矽設底價、加關稅！太陽能板與晶片恐變貴",
+      "headline": "川普揚言「斬首」後 盧比歐：荷姆茲談判取得進展 「很快」能達協議",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6559520"
+      "link": "https://news.cnyes.com/news/id/6559570"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：Coinbase Global Inc - Class ACOIN-US的目標價調降至194元，幅度約3.72%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6559546"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：Wayfair公司W-US的目標價調升至104元，幅度約5.05%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6559545"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - Zscaler公司(ZS-US)大漲5.02%，報162.22美元",
+      "headline": "〈美股盤後〉美伊談判露曙光！道瓊標普刷新高 費半暴漲超6.5% SpaceX盤後急跳水",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6559542"
+      "link": "https://news.cnyes.com/news/id/6558967"
+    },
+    {
+      "region": "TW",
+      "headline": "〈能源盤後〉美伊談判露曙光 Brent挫逾5%跌破80美元 觸三周低點",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6559472"
+    },
+    {
+      "region": "TW",
+      "headline": "SpaceX上市首份財報倒數！馬斯克二度槓上空頭",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6559574"
     },
     {
       "region": "TW",
