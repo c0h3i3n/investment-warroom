@@ -1,54 +1,70 @@
 {
-  "timestamp": "2026-08-05T06:37:22.649561+00:00",
-  "generatedAt": "2026-08-05T06:37:22.649561+00:00",
+  "timestamp": "2026-08-05T09:43:29.296902+00:00",
+  "generatedAt": "2026-08-05T09:43:29.296902+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "SK海力士獲華爾街齊聲喊買 估值有望追上美光",
+      "headline": "美伊談了一整天！川普暗示荷姆茲海峽將重啟 否則將對伊朗「出重拳」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6559598"
+      "link": "https://news.cnyes.com/news/id/6560309"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉美擬封殺中國光收發器 光通訊股集體發光飆漲",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6560181"
-    },
-    {
-      "region": "TW",
-      "headline": "AI錢潮下一站在哪？主線轉向應用端 微軟可望吞「變現大餅」",
+      "headline": "日本薪資連六月增長 勞動力市場緊俏強化日銀升息預期",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6559768"
+      "link": "https://news.cnyes.com/news/id/6560276"
     },
     {
       "region": "TW",
-      "headline": "綠商標10年飆破12.6萬件 統一2274件奪冠、蘋果與任天堂緊追",
+      "headline": "資料中心上太空！SpaceX輝達合作打造算力：開發Starmind AI1衛星 搭載Rubin GPU+Vera CPU",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6559165"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6560117"
     },
     {
       "region": "TW",
-      "headline": "華城除權息秀亮眼 先行完成填息 填權息幅度達61%",
+      "headline": "大摩推演開源vs閉源勝負三劇本 受惠股出列、輝達成「通吃贏家」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6559648"
+    },
+    {
+      "region": "TW",
+      "headline": "中國光收發器恐遭美封殺  這些光通訊台廠有望喜迎轉單商機",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6560161"
+      "link": "https://news.cnyes.com/news/id/6560305"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉百容處置出關見喜 半導體應用業務需求強早盤跳空漲停",
+      "headline": "〈房產〉信用管制大大衝擊買氣 新北預售案待售餘屋升破1.8萬戶以淡水居冠",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6560141"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6560329"
+    },
+    {
+      "region": "TW",
+      "headline": "華城董事長許邦福獲2026台灣企業領袖100強 兩大原因排名大躍升",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6560339"
+    },
+    {
+      "region": "TW",
+      "headline": "台股量能回歸 外資狂掃904億、三大法人買超1004.06億元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6560336"
     }
   ]
 }
