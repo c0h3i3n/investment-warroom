@@ -1,70 +1,46 @@
 {
-  "timestamp": "2026-08-05T09:43:29.296902+00:00",
-  "generatedAt": "2026-08-05T09:43:29.296902+00:00",
+  "timestamp": "2026-08-05T12:07:42.440194+00:00",
+  "generatedAt": "2026-08-05T12:07:42.440194+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美伊談了一整天！川普暗示荷姆茲海峽將重啟 否則將對伊朗「出重拳」",
+      "headline": "盤中速報 - Bonfida大漲25.85%，報0.02美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6560829"
+    },
+    {
+      "region": "TW",
+      "headline": "外資光速翻多 史上第三大買超903億元 狂買元大台灣50正2逾11萬張",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6560309"
+      "link": "https://news.cnyes.com/news/id/6560748"
     },
     {
       "region": "TW",
-      "headline": "日本薪資連六月增長 勞動力市場緊俏強化日銀升息預期",
+      "headline": "群光上半年 EPS 5.06元 Edge AI與機器人新應用助攻長線展望",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6560276"
+      "link": "https://news.cnyes.com/news/id/6560724"
     },
     {
       "region": "TW",
-      "headline": "資料中心上太空！SpaceX輝達合作打造算力：開發Starmind AI1衛星 搭載Rubin GPU+Vera CPU",
+      "headline": "OTC：久舜股票6日起得為融資融券交易",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6560117"
+      "link": "https://news.cnyes.com/news/id/6560737"
     },
     {
       "region": "TW",
-      "headline": "大摩推演開源vs閉源勝負三劇本 受惠股出列、輝達成「通吃贏家」",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6559648"
-    },
-    {
-      "region": "TW",
-      "headline": "中國光收發器恐遭美封殺  這些光通訊台廠有望喜迎轉單商機",
+      "headline": "營收速報  - 世紀鋼(9958)7月營收19.31億元年增率高達91.16％",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6560305"
-    },
-    {
-      "region": "TW",
-      "headline": "〈房產〉信用管制大大衝擊買氣 新北預售案待售餘屋升破1.8萬戶以淡水居冠",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6560329"
-    },
-    {
-      "region": "TW",
-      "headline": "華城董事長許邦福獲2026台灣企業領袖100強 兩大原因排名大躍升",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6560339"
-    },
-    {
-      "region": "TW",
-      "headline": "台股量能回歸 外資狂掃904億、三大法人買超1004.06億元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6560336"
+      "link": "https://news.cnyes.com/news/id/6560736"
     }
   ]
 }
