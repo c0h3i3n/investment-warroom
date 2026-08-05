@@ -1,70 +1,54 @@
 {
-  "timestamp": "2026-08-05T03:25:39.491585+00:00",
-  "generatedAt": "2026-08-05T03:25:39.491585+00:00",
+  "timestamp": "2026-08-05T06:37:22.649561+00:00",
+  "generatedAt": "2026-08-05T06:37:22.649561+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "黃仁勳：下一波AI浪潮是機器人 輝達開源最新自駕模型",
+      "headline": "SK海力士獲華爾街齊聲喊買 估值有望追上美光",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6559599"
+      "link": "https://news.cnyes.com/news/id/6559598"
     },
     {
       "region": "TW",
-      "headline": "主動式ETF再添新兵！00411A、00987D同步聚焦科技、美債，攻守配置成市場焦點？",
+      "headline": "〈焦點股〉美擬封殺中國光收發器 光通訊股集體發光飆漲",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6560181"
+    },
+    {
+      "region": "TW",
+      "headline": "AI錢潮下一站在哪？主線轉向應用端 微軟可望吞「變現大餅」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6559762"
+      "link": "https://news.cnyes.com/news/id/6559768"
     },
     {
       "region": "TW",
-      "headline": "0805 台股盤前｜營收創高策略鎖定【南亞科、晶豪科、倉和、南電】記憶體與 ABF 載板強攻噴發！加權震盪守 43,300 點、櫃買勁揚 3.35%",
+      "headline": "綠商標10年飆破12.6萬件 統一2274件奪冠、蘋果與任天堂緊追",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6558981"
+      "link": "https://news.cnyes.com/news/id/6559165"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 南亞科(2408)7月營收4,387萬元年增率高達49.27％",
-      "source": "鉅亨",
+      "headline": "華城除權息秀亮眼 先行完成填息 填權息幅度達61%",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6559709"
+      "link": "https://news.cnyes.com/news/id/6560161"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 櫃買市場加權指數上漲15.05點至390.08點，漲幅4.01%",
+      "headline": "〈焦點股〉百容處置出關見喜 半導體應用業務需求強早盤跳空漲停",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6559843"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 櫃買市場加權指數上漲13.66點至388.69點，漲幅3.64%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6559823"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 集中市場加權指數上漲1366.52點至44727.18點，漲幅3.15%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6559811"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 櫃買市場加權指數上漲9.01點至384.04點，漲幅2.4%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6559810"
+      "link": "https://news.cnyes.com/news/id/6560141"
     }
   ]
 }
