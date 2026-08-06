@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-08-05T23:12:49.598655+00:00",
-  "generatedAt": "2026-08-05T23:12:49.598655+00:00",
+  "timestamp": "2026-08-06T03:28:54.346029+00:00",
+  "generatedAt": "2026-08-06T03:28:54.346029+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈能源盤後〉油價震盪收盤 市場觀望美伊談判與荷姆茲海峽動向",
+      "headline": "M31私募引進信驊作為策略性投資人 深化雙方AI伺服器IP合作",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6561482"
+      "link": "https://news.cnyes.com/news/id/6561907"
     },
     {
       "region": "TW",
-      "headline": "馬斯克點名SpaceX全面導入輝達AI晶片 AMD慘崩超7%、輝達喜揚超3%",
+      "headline": "盤中速報 - 宜鼎(5289)股價拉至漲停，漲停價1610.0元，成交3,182張",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6561935"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 宇瞻(8271)大漲7.05%，報243元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6561934"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 中探針(6217)大漲9.18%，報160.5元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6561933"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：智原(3035-TW)EPS預估下修至3.45元，預估目標價為195元",
+      "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6561497"
+      "link": "https://news.cnyes.com/news/id/6561906"
     },
     {
       "region": "TW",
-      "headline": "財報優預期仍難救股價 威騰電子盤後重挫10%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6561509"
-    },
-    {
-      "region": "TW",
-      "headline": "蘋果向長鑫壓價LPDDR5X遭拒！中國國產DRAM首現「不給果鏈打折」反轉",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6561415"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：力積電(6770-TW)目標價調降至92.5元，幅度約7.5%",
+      "headline": "鉅亨速報 - Factset 最新調查：啟碁(6285-TW)EPS預估上修至12.56元，預估目標價為302元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6561372"
+      "link": "https://news.cnyes.com/news/id/6561905"
     },
     {
       "region": "TW",
-      "headline": "〈環宇法說〉光通訊市場持續供不應求 美禁中國光收發器有利後市營運",
+      "headline": "鉅亨速報 - Factset 最新調查：力成(6239-TW)目標價調升至335元，幅度約8.06%",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6561338"
-    },
-    {
-      "region": "TW",
-      "headline": "2027科技預算1823億元史上最高 國科會：加碼AI算力、帶動中小微企業轉型AI化",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6561216"
-    },
-    {
-      "region": "TW",
-      "headline": "氣立2026年上半年轉盈稅後賺進4803萬元每股純益0.69元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6561210"
+      "link": "https://news.cnyes.com/news/id/6561904"
     }
   ]
 }
