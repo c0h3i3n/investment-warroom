@@ -1,62 +1,70 @@
 {
-  "timestamp": "2026-08-06T03:28:54.346029+00:00",
-  "generatedAt": "2026-08-06T03:28:54.346029+00:00",
+  "timestamp": "2026-08-06T06:40:36.325217+00:00",
+  "generatedAt": "2026-08-06T06:40:36.325217+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "M31私募引進信驊作為策略性投資人 深化雙方AI伺服器IP合作",
+      "headline": "盤中速報 - 點晶(3288)急拉3.13%報23.1元，成交88張",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6561907"
+      "link": "https://news.cnyes.com/news/id/6562105"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 宜鼎(5289)股價拉至漲停，漲停價1610.0元，成交3,182張",
+      "headline": "三星搶攻Web3金融生態 8億支Galaxy手機將內建原生穩定幣",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6560350"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 今國光(6209)大漲7.09%，報77元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6561935"
+      "link": "https://news.cnyes.com/news/id/6562102"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 宇瞻(8271)大漲7.05%，報243元",
+      "headline": "盤中速報 - 造紙工業類股表現強勁，漲幅2.04%，總成交額1.93億",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6561934"
+      "link": "https://news.cnyes.com/news/id/6562101"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 中探針(6217)大漲9.18%，報160.5元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6561933"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：智原(3035-TW)EPS預估下修至3.45元，預估目標價為195元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6561906"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：啟碁(6285-TW)EPS預估上修至12.56元，預估目標價為302元",
+      "headline": "AI電力系統革命 大聯大詮鼎攜英飛凌搶SST商機",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6561905"
+      "link": "https://news.cnyes.com/news/id/6562090"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：力成(6239-TW)目標價調升至335元，幅度約8.06%",
+      "headline": "廣錠搶攻光通訊散熱商機 小金雞廣熯奪美系網通與雲端大廠訂單",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6561904"
+      "link": "https://news.cnyes.com/news/id/6562088"
+    },
+    {
+      "region": "TW",
+      "headline": "第9次護盤史上最長！國安基金僅買8檔全勝 靠台積電進帳77.7億元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6551074"
+    },
+    {
+      "region": "TW",
+      "headline": "突破二維半導體材料介面瓶頸 國科會支援台積團隊開啟後矽時代新契機",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6562061"
     }
   ]
 }
