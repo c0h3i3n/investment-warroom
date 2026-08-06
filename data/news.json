@@ -1,70 +1,38 @@
 {
-  "timestamp": "2026-08-06T06:40:36.325217+00:00",
-  "generatedAt": "2026-08-06T06:40:36.325217+00:00",
+  "timestamp": "2026-08-06T09:46:29.859466+00:00",
+  "generatedAt": "2026-08-06T09:46:29.859466+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 點晶(3288)急拉3.13%報23.1元，成交88張",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6562105"
-    },
-    {
-      "region": "TW",
-      "headline": "三星搶攻Web3金融生態 8億支Galaxy手機將內建原生穩定幣",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6560350"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 今國光(6209)大漲7.09%，報77元",
+      "headline": "台股處置制度更新，樂觀看待流動性改善",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6562102"
+      "link": "https://news.cnyes.com/news/id/6562553"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 造紙工業類股表現強勁，漲幅2.04%，總成交額1.93億",
+      "headline": "上銀7月營收26.8億元創近4年新高 大銀微系統續寫單月新高",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6562101"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6562374"
     },
     {
       "region": "TW",
-      "headline": "AI電力系統革命 大聯大詮鼎攜英飛凌搶SST商機",
-      "source": "台股",
+      "headline": "營收速報  - 大國鋼(8415)7月營收26.66億元年增率高達36.76％",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6562090"
+      "link": "https://news.cnyes.com/news/id/6562575"
     },
     {
       "region": "TW",
-      "headline": "廣錠搶攻光通訊散熱商機 小金雞廣熯奪美系網通與雲端大廠訂單",
-      "source": "台股",
+      "headline": "營收速報  - 尖點(8021)7月營收7.30億元年增率高達102.56％",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6562088"
-    },
-    {
-      "region": "TW",
-      "headline": "第9次護盤史上最長！國安基金僅買8檔全勝 靠台積電進帳77.7億元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6551074"
-    },
-    {
-      "region": "TW",
-      "headline": "突破二維半導體材料介面瓶頸 國科會支援台積團隊開啟後矽時代新契機",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6562061"
+      "link": "https://news.cnyes.com/news/id/6562574"
     }
   ]
 }
