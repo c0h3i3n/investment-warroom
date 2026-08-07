@@ -1,62 +1,46 @@
 {
-  "timestamp": "2026-08-07T09:12:22.088802+00:00",
-  "generatedAt": "2026-08-07T09:12:22.088802+00:00",
+  "timestamp": "2026-08-07T11:52:48.033531+00:00",
+  "generatedAt": "2026-08-07T11:52:48.033531+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美零售商折價出售關稅退稅權 以確保先拿到現金",
+      "headline": "AI造出16種活病毒！《科學》刊出史丹佛大學里程碑研究 生物安全警鈴同步響起",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6564161"
+    },
+    {
+      "region": "TW",
+      "headline": "〈進出口統計〉7月出口753億美元史上第3高 8月挑戰最長34紅 全年上看8千億美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6564124"
+      "link": "https://news.cnyes.com/news/id/6564491"
     },
     {
       "region": "TW",
-      "headline": "〈台股盤後〉權值股疲軟收跌170點痛失季線 8月首周漲1106點",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6563934"
-    },
-    {
-      "region": "TW",
-      "headline": "史上最缺一年將至？記憶體三巨頭把2027產能賣光 消息人士：一些AI公司已在「跪求晶片」",
+      "headline": "京鼎宣布斥2.34億美元 啟動泰國二期投資",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6564014"
+      "link": "https://news.cnyes.com/news/id/6564494"
     },
     {
       "region": "TW",
-      "headline": "秀朗橋北側重劃區：藍鑽級水岸開發，10分鐘抵敦南",
+      "headline": "旺宏7月營收衝破70億元 續創單月新高",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6564003"
+      "link": "https://news.cnyes.com/news/id/6564490"
     },
     {
       "region": "TW",
-      "headline": "〈台達永續AI峰會〉鄭平：微電網將是未來幾年發展重點 看好三大應用需求",
+      "headline": "中信銀行參展高齡健康博覽會 主打「三本一留」與智慧防詐金融體驗",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6564113"
-    },
-    {
-      "region": "TW",
-      "headline": "歷年規模最大文博會！「台灣專利超級站」首次進駐 7天免費諮詢不斷電",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6564094"
-    },
-    {
-      "region": "TW",
-      "headline": "〈焦點股〉台橡上半年獲利創近5年新高 股價跳空鎖漲停",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6564084"
+      "link": "https://news.cnyes.com/news/id/6564485"
     }
   ]
 }
