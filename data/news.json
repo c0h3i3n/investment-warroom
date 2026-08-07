@@ -1,46 +1,70 @@
 {
-  "timestamp": "2026-08-07T15:03:58.407168+00:00",
-  "generatedAt": "2026-08-07T15:03:58.407168+00:00",
+  "timestamp": "2026-08-07T16:05:26.870467+00:00",
+  "generatedAt": "2026-08-07T16:05:26.870467+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "佳世達Q2純益季增87% 上半年EPS0.58元",
+      "headline": "紐約Fed調查：美國7月消費者就業信心改善 短期通膨預期降至3.6%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6565931"
+      "link": "https://news.cnyes.com/news/id/6566160"
     },
     {
       "region": "TW",
-      "headline": "和椿上半年EPS達1.92元賺逾去年全年9成 下半年將提升高毛利產品比重",
+      "headline": "SK海力士調整中國布局？30億美元重慶廠傳尋找投資人",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6565838"
+      "link": "https://news.cnyes.com/news/id/6566130"
     },
     {
       "region": "TW",
-      "headline": "邑錡Q2轉盈上半年每股虧損0.3元 續投入AI視覺產品開發",
+      "headline": "Fed還升得下去嗎？華爾街看完非農都說先等等 升息恐扼殺製造業復甦",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6565834"
+      "link": "https://news.cnyes.com/news/id/6565992"
     },
     {
       "region": "TW",
-      "headline": "百萬噸鐵礦砂賣不掉！中國買家接連疏遠兩大貿易商",
+      "headline": "〈美股早盤〉非農意外轉負緩解Fed升息疑慮 主要指數開高",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6565338"
+      "link": "https://news.cnyes.com/news/id/6565334"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：川湖(2059-TW)EPS預估上修至253.74元，預估目標價為10000元",
+      "headline": "營收速報  - 新漢(8234)7月營收7.52億元年增率高達74.55％",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6565837"
+      "link": "https://news.cnyes.com/news/id/6566015"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 金山電(8042)7月營收4.37億元年增率高達40.35％",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566014"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 高僑(6234)7月營收6,080萬元年增率高達111.52％",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566013"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 遠雄(5522)7月營收35.53億元年增率高達189.24％",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566012"
     }
   ]
 }
