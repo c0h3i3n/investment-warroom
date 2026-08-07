@@ -1,46 +1,46 @@
 {
-  "timestamp": "2026-08-07T11:52:48.033531+00:00",
-  "generatedAt": "2026-08-07T11:52:48.033531+00:00",
+  "timestamp": "2026-08-07T13:24:16.044924+00:00",
+  "generatedAt": "2026-08-07T13:24:16.044924+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI造出16種活病毒！《科學》刊出史丹佛大學里程碑研究 生物安全警鈴同步響起",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6564161"
-    },
-    {
-      "region": "TW",
-      "headline": "〈進出口統計〉7月出口753億美元史上第3高 8月挑戰最長34紅 全年上看8千億美元",
+      "headline": "佳世達Q2純益季增87% 上半年EPS0.58元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6564491"
+      "link": "https://news.cnyes.com/news/id/6565931"
     },
     {
       "region": "TW",
-      "headline": "京鼎宣布斥2.34億美元 啟動泰國二期投資",
+      "headline": "和椿上半年EPS達1.92元賺逾去年全年9成 下半年將提升高毛利產品比重",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6564494"
+      "link": "https://news.cnyes.com/news/id/6565838"
     },
     {
       "region": "TW",
-      "headline": "旺宏7月營收衝破70億元 續創單月新高",
+      "headline": "邑錡Q2轉盈上半年每股虧損0.3元 續投入AI視覺產品開發",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6564490"
+      "link": "https://news.cnyes.com/news/id/6565834"
     },
     {
       "region": "TW",
-      "headline": "中信銀行參展高齡健康博覽會 主打「三本一留」與智慧防詐金融體驗",
+      "headline": "百萬噸鐵礦砂賣不掉！中國買家接連疏遠兩大貿易商",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6565338"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：川湖(2059-TW)EPS預估上修至253.74元，預估目標價為10000元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6564485"
+      "link": "https://news.cnyes.com/news/id/6565837"
     }
   ]
 }
