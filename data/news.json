@@ -1,38 +1,46 @@
 {
-  "timestamp": "2026-08-07T21:50:38.385642+00:00",
-  "generatedAt": "2026-08-07T21:50:38.385642+00:00",
+  "timestamp": "2026-08-07T22:49:38.056218+00:00",
+  "generatedAt": "2026-08-07T22:49:38.056218+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美債殖利率終於有救？財政部暗示可能減發長債",
+      "headline": "〈能源盤後〉荷姆茲海峽重啟仍添變數 原油漲逾1% 但周線仍跌逾8%",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566221"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6566271"
+    },
+    {
+      "region": "TW",
+      "headline": "外匯速報 - 美元/韓元(USDKRW) 大跌1.13%，報1406.67元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6566272"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 思佳訊半導體(SWKS-US)大漲5.66%，報70.62美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6566264"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：維斯達能源(VST-US)EPS預估下修至9.14元，預估目標價為222.00元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6566263"
     },
     {
       "region": "TW",
       "headline": "賴清德：0-18歲每月5千津貼明年上路 籲「此時不生更待何時」",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6565933"
-    },
-    {
-      "region": "TW",
-      "headline": "SK海力士擴產嚇跌美光 但新產能遠水救不了近火",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6566158"
-    },
-    {
-      "region": "TW",
-      "headline": "不再是崩盤代名詞！價值股大勝成長股 專家：AI擴散助長多頭行情",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6563575"
     },
     {
       "region": "TW",
