@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-07T00:11:17.098749+00:00",
-  "generatedAt": "2026-08-07T00:11:17.098749+00:00",
+  "timestamp": "2026-08-07T03:57:19.136849+00:00",
+  "generatedAt": "2026-08-07T03:57:19.136849+00:00",
   "data": [
     {
       "id": "tai",
@@ -8,11 +8,11 @@
       "name": "加權指數 TAIEX",
       "region": "TW",
       "currency": "NT$",
-      "price": 44396.7,
-      "change": -214.9,
-      "changePct": -0.48,
-      "asOf": "2026-08-06T05:33:15+00:00",
-      "source": "Yahoo Finance",
+      "price": 44175.77,
+      "change": -220.93,
+      "changePct": -0.5,
+      "asOf": "2026-08-07T03:57:25+00:00",
+      "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
@@ -21,12 +21,12 @@
       "name": "OTC 櫃買指數",
       "region": "TW",
       "currency": "NT$",
-      "price": null,
-      "change": null,
-      "changePct": null,
-      "asOf": null,
-      "source": null,
-      "priceType": null
+      "price": 386.92,
+      "change": -4.45,
+      "changePct": -1.14,
+      "asOf": "2026-08-07T03:57:35+00:00",
+      "source": "TWSE MIS",
+      "priceType": "trade"
     },
     {
       "id": "spx",
