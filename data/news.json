@@ -1,62 +1,54 @@
 {
-  "timestamp": "2026-08-08T02:12:11.978377+00:00",
-  "generatedAt": "2026-08-08T02:12:11.978377+00:00",
+  "timestamp": "2026-08-08T04:17:00.130875+00:00",
+  "generatedAt": "2026-08-08T04:17:00.130875+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - UTK大漲16.23%，報0.008美元",
+      "headline": "單周市值暴增5620億美元破紀錄！馬斯克背書加雲端巨頭擴張 輝達單周狂飆11%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6566362"
+      "link": "https://news.cnyes.com/news/id/6566315"
     },
     {
       "region": "TW",
-      "headline": "〈熱門股〉健策7月營收月增21%續創高 股價谷底翻漲重回4000元關卡",
+      "headline": "記憶體雙雄大對決！美光漲208%後估值遭質疑 分析師：SK hynix更便宜",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6561036"
+      "link": "https://news.cnyes.com/news/id/6566379"
     },
     {
       "region": "TW",
-      "headline": "立地就醫！iRhythm 重金收購VitalConnect 搶攻遠距心臟監測市場",
+      "headline": "AI基建吃錢無止境 Jane Street擬轉私人信貸籌110億美元 華爾街也瘋AI軍備競賽",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566319"
+      "link": "https://news.cnyes.com/news/id/6566346"
     },
     {
       "region": "TW",
-      "headline": "美股重點新聞摘要2026年8月8日",
+      "headline": "台股處置天數縮短、撮合改2分鐘8/10上路 這10檔上市股提前出關",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6564478"
+      "link": "https://news.cnyes.com/news/id/6566171"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：東陽(1319-TW)EPS預估下修至6.41元，預估目標價為100元",
+      "headline": "鉅亨速報 - Factset 最新調查：穩懋(3105-TW)EPS預估上修至7.65元，預估目標價為417.5元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566385"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：瑞昱(2379-TW)EPS預估下修至32.09元，預估目標價為717元",
       "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6566337"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：聯茂(6213-TW)EPS預估上修至8.54元，預估目標價為421元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566336"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：雙鴻(3324-TW)EPS預估上修至57.85元，預估目標價為1335元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566335"
+      "link": "https://news.cnyes.com/news/id/6566384"
     }
   ]
 }
