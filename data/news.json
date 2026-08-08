@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-08T09:49:26.409500+00:00",
-  "generatedAt": "2026-08-08T09:49:26.409500+00:00",
+  "timestamp": "2026-08-08T10:45:12.279057+00:00",
+  "generatedAt": "2026-08-08T10:45:12.279057+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "DRAM供給恐緊缺至2030年！高盛示警：南韓記憶體股遭過度悲觀定價",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6566419"
-    },
-    {
-      "region": "TW",
-      "headline": "大摩「空頭」態度大轉彎！記憶體股修正近尾聲：迎戰術性買點",
+      "headline": "志聖H1獲利創新高EPS達 7.16元  7月營收以11.68億元再登頂",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566403"
+      "link": "https://news.cnyes.com/news/id/6566351"
     },
     {
       "region": "TW",
-      "headline": "川普頻喊和平市場買單嗎？荷姆茲海峽協議陷空談 專家示警油價恐暴漲 ",
+      "headline": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過11.85億美元，NFPrompt Token(NFP)24小時漲幅達66.2%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6566280"
+      "link": "https://news.cnyes.com/news/id/6566531"
     },
     {
       "region": "TW",
-      "headline": "輝達Rubin Ultra傳縮減HBM容量！記憶體短缺下晶片廠商如何破局？",
+      "headline": "宏致Q2純益成長近1倍上半年EPS1.89元 7月營收再創新高",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566400"
+      "link": "https://news.cnyes.com/news/id/6566463"
+    },
+    {
+      "region": "TW",
+      "headline": "藥華藥更新AOP仲裁案第二階段結果 研議聲請撤銷仲銷判斷",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566516"
     },
     {
       "region": "TW",
@@ -41,30 +41,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6566417"
-    },
-    {
-      "region": "TW",
-      "headline": "布局歐日、高齡友善科技正夯 2027年台灣健康福祉產值估達3799億元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566432"
-    },
-    {
-      "region": "TW",
-      "headline": "台股處置天數縮短、撮合改2分鐘8/10上路 這10檔上市股提前出關",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566171"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：穩懋(3105-TW)EPS預估上修至7.65元，預估目標價為417.5元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566385"
     }
   ]
 }
