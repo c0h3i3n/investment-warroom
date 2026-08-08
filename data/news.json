@@ -1,7 +1,23 @@
 {
-  "timestamp": "2026-08-08T16:47:02.611079+00:00",
-  "generatedAt": "2026-08-08T16:47:02.611079+00:00",
+  "timestamp": "2026-08-08T17:39:42.492544+00:00",
+  "generatedAt": "2026-08-08T17:39:42.492544+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "「SaaS末日」來了嗎？AI浪潮下軟體股表現兩極：誰獲勝、誰失敗一次看",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566569"
+    },
+    {
+      "region": "TW",
+      "headline": "中國AI硬體漲價潮 傳導3C租賃 需求翻倍",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6566581"
+    },
     {
       "region": "TW",
       "headline": "蘋果正式牽手阿里！Apple Intelligence整合「千問」　Siri可直接調用",
@@ -17,22 +33,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6566586"
-    },
-    {
-      "region": "TW",
-      "headline": "CPU恐成雲端業下一個瓶頸！亞馬遜AWS出現「CPU短缺」",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566508"
-    },
-    {
-      "region": "TW",
-      "headline": "輝達砸30億美元押注AI電力基建！傳入股Lancium 20%、布局「星際之門」資料中心",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566440"
     },
     {
       "region": "TW",
