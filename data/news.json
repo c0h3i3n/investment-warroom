@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-08-07T23:42:19.238911+00:00",
-  "generatedAt": "2026-08-07T23:42:19.238911+00:00",
+  "timestamp": "2026-08-08T02:12:11.978377+00:00",
+  "generatedAt": "2026-08-08T02:12:11.978377+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈能源盤後〉荷姆茲海峽重啟仍添變數 原油漲逾1% 但周線仍跌逾8%",
+      "headline": "盤中速報 - UTK大漲16.23%，報0.008美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6566271"
+      "link": "https://news.cnyes.com/news/id/6566362"
     },
     {
       "region": "TW",
-      "headline": "外匯速報 - 美元/韓元(USDKRW) 大跌1.13%，報1406.67元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6566272"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 思佳訊半導體(SWKS-US)大漲5.66%，報70.62美元",
+      "headline": "〈熱門股〉健策7月營收月增21%續創高 股價谷底翻漲重回4000元關卡",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6566264"
+      "link": "https://news.cnyes.com/news/id/6561036"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：維斯達能源(VST-US)EPS預估下修至9.14元，預估目標價為222.00元",
+      "headline": "立地就醫！iRhythm 重金收購VitalConnect 搶攻遠距心臟監測市場",
       "source": "鉅亨",
       "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566319"
+    },
+    {
+      "region": "TW",
+      "headline": "美股重點新聞摘要2026年8月8日",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6564478"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：東陽(1319-TW)EPS預估下修至6.41元，預估目標價為100元",
+      "source": "台股",
+      "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6566263"
+      "link": "https://news.cnyes.com/news/id/6566337"
     },
     {
       "region": "TW",
-      "headline": "賴清德：0-18歲每月5千津貼明年上路 籲「此時不生更待何時」",
+      "headline": "鉅亨速報 - Factset 最新調查：聯茂(6213-TW)EPS預估上修至8.54元，預估目標價為421元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6565933"
+      "link": "https://news.cnyes.com/news/id/6566336"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 新漢(8234)7月營收7.52億元年增率高達74.55％",
+      "headline": "鉅亨速報 - Factset 最新調查：雙鴻(3324-TW)EPS預估上修至57.85元，預估目標價為1335元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566015"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報  - 金山電(8042)7月營收4.37億元年增率高達40.35％",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566014"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報  - 高僑(6234)7月營收6,080萬元年增率高達111.52％",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566013"
+      "link": "https://news.cnyes.com/news/id/6566335"
     }
   ]
 }
