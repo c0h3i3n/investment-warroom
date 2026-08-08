@@ -1,27 +1,51 @@
 {
-  "timestamp": "2026-08-08T13:06:43.535992+00:00",
-  "generatedAt": "2026-08-08T13:06:43.535992+00:00",
+  "timestamp": "2026-08-08T13:54:22.649064+00:00",
+  "generatedAt": "2026-08-08T13:54:22.649064+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "志聖H1獲利創新高EPS達 7.16元  7月營收以11.68億元再登頂",
+      "headline": "蘋果正式牽手阿里！Apple Intelligence整合「千問」　Siri可直接調用",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566558"
+    },
+    {
+      "region": "TW",
+      "headline": "永和豆漿創始人林炳生去世 享壽70歲！",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566586"
+    },
+    {
+      "region": "TW",
+      "headline": "CPU恐成雲端業下一個瓶頸！亞馬遜AWS出現「CPU短缺」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566508"
+    },
+    {
+      "region": "TW",
+      "headline": "輝達砸30億美元押注AI電力基建！傳入股Lancium 20%、布局「星際之門」資料中心",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566440"
+    },
+    {
+      "region": "TW",
+      "headline": "志聖H1獲利創新高EPS達 7.16元  7月營收以11.68億元再登頂",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6566351"
     },
     {
       "region": "TW",
-      "headline": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過11.85億美元，NFPrompt Token(NFP)24小時漲幅達66.2%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6566531"
-    },
-    {
-      "region": "TW",
       "headline": "宏致Q2純益成長近1倍上半年EPS1.89元 7月營收再創新高",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6566463"
@@ -29,18 +53,10 @@
     {
       "region": "TW",
       "headline": "藥華藥更新AOP仲裁案第二階段結果 研議聲請撤銷仲銷判斷",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566516"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉愛普*低接買盤強 單周反彈43%晉身準千金股",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566417"
+      "link": "https://news.cnyes.com/news/id/6566516"
     }
   ]
 }
