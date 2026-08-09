@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-09T04:24:41.318968+00:00",
-  "generatedAt": "2026-08-09T04:24:41.318968+00:00",
+  "timestamp": "2026-08-09T05:53:32.366516+00:00",
+  "generatedAt": "2026-08-09T05:53:32.366516+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - Saga大漲19.19%，報0.02美元",
+      "headline": "基金爆倉反成加分題？「AI股神」遭重創  矽谷投資人反而搶著押注",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6566688"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566627"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Hashflow大跌12.62%，報0.01美元",
+      "headline": "印能科技卡位雙陣營 今年營收估倍增、產能再增3成",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6566675"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6564044"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - DODO大漲11.27%，報0.02美元",
+      "headline": "記憶體大漲推升顯示卡迎第三波漲價潮 板卡廠平均出貨單價激增進補",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6566674"
+      "link": "https://news.cnyes.com/news/id/6566177"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - UTK大漲16.23%，報0.008美元",
+      "headline": "AI浪潮遇能源地獄梗！全球斷供破10億桶 PIMCO揭3大節點封鎖 台灣受創深",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6566673"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566721"
     },
     {
       "region": "TW",
@@ -49,22 +49,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6566586"
-    },
-    {
-      "region": "TW",
-      "headline": "志聖H1獲利創新高EPS達 7.16元  7月營收以11.68億元再登頂",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566351"
-    },
-    {
-      "region": "TW",
-      "headline": "宏致Q2純益成長近1倍上半年EPS1.89元 7月營收再創新高",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566463"
     }
   ]
 }
