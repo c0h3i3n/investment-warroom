@@ -1,7 +1,31 @@
 {
-  "timestamp": "2026-08-09T08:55:38.100492+00:00",
-  "generatedAt": "2026-08-09T08:55:38.100492+00:00",
+  "timestamp": "2026-08-09T09:51:01.741887+00:00",
+  "generatedAt": "2026-08-09T09:51:01.741887+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉磷化銦需求持續看旺 聯亞周漲41.41％站上所有均線",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6566819"
+    },
+    {
+      "region": "TW",
+      "headline": "飛捷Q3接單能見度明朗 拉貨力道顯著優於去年同期",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566770"
+    },
+    {
+      "region": "TW",
+      "headline": "SK海力士擬砸710億美元回饋股東！40%買庫藏股、相當於美股發行規模",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566751"
+    },
     {
       "region": "TW",
       "headline": "基金爆倉反成加分題？「AI股神」遭重創  矽谷投資人反而搶著押注",
@@ -13,7 +37,7 @@
     {
       "region": "TW",
       "headline": "印能科技卡位雙陣營 今年營收估倍增、產能再增3成",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6564044"
@@ -21,34 +45,10 @@
     {
       "region": "TW",
       "headline": "記憶體大漲推升顯示卡迎第三波漲價潮 板卡廠平均出貨單價激增進補",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6566177"
-    },
-    {
-      "region": "TW",
-      "headline": "AI浪潮遇能源地獄梗！全球斷供破10億桶 PIMCO揭3大節點封鎖 台灣受創深",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566721"
-    },
-    {
-      "region": "TW",
-      "headline": "繼巨大護盤之後 自行車廠明係10日起執行買回1000張庫藏股",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566490"
-    },
-    {
-      "region": "TW",
-      "headline": "永和豆漿創始人林炳生去世 享壽70歲！",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566586"
     }
   ]
 }
