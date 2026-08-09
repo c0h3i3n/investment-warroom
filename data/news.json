@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-09T02:23:15.061239+00:00",
-  "generatedAt": "2026-08-09T02:23:15.061239+00:00",
+  "timestamp": "2026-08-09T04:24:41.318968+00:00",
+  "generatedAt": "2026-08-09T04:24:41.318968+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,6 +36,14 @@
     },
     {
       "region": "TW",
+      "headline": "繼巨大護盤之後 自行車廠明係10日起執行買回1000張庫藏股",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566490"
+    },
+    {
+      "region": "TW",
       "headline": "永和豆漿創始人林炳生去世 享壽70歲！",
       "source": "台股",
       "time": "--:--",
@@ -57,14 +65,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6566463"
-    },
-    {
-      "region": "TW",
-      "headline": "藥華藥更新AOP仲裁案第二階段結果 研議聲請撤銷仲銷判斷",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566516"
     }
   ]
 }
