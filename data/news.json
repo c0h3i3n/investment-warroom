@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-09T14:45:24.477526+00:00",
-  "generatedAt": "2026-08-09T14:45:24.477526+00:00",
+  "timestamp": "2026-08-09T15:40:25.440832+00:00",
+  "generatedAt": "2026-08-09T15:40:25.440832+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "伊朗戰事曝彈藥斷層！華郵：五角大廈勒令國防承包商21天內交出增產計畫",
+      "headline": "本週操盤筆記：美國通膨數據、英國GDP與澳洲利率決策",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566762"
+      "link": "https://news.cnyes.com/news/id/6566676"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Dymension大漲25.56%，報0.02美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6566868"
-    },
-    {
-      "region": "TW",
-      "headline": "美國、中國AI投資收益有限！台灣、南韓、日本成最大贏家？",
+      "headline": "加拿大野火快速蔓延 2萬人連夜逃命",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566744"
+      "link": "https://news.cnyes.com/news/id/6566910"
     },
     {
       "region": "TW",
-      "headline": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過5.88億美元，NFPrompt Token(NFP)24小時漲幅達66.2%",
+      "headline": "華爾街日報：蘋果測試長鑫存儲記憶體晶片 用於iPhone、MacBook",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6566845"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566909"
+    },
+    {
+      "region": "TW",
+      "headline": "韓股暴跌40%後迎轉機？去槓桿完成過半、KOSPI估值創歷史新低",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6566755"
     },
     {
       "region": "TW",
