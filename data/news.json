@@ -1,35 +1,43 @@
 {
-  "timestamp": "2026-08-08T23:38:35.374342+00:00",
-  "generatedAt": "2026-08-08T23:38:35.374342+00:00",
+  "timestamp": "2026-08-09T02:23:15.061239+00:00",
+  "generatedAt": "2026-08-09T02:23:15.061239+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "「SaaS末日」來了嗎？AI浪潮下軟體股表現兩極：誰獲勝、誰失敗一次看",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566569"
-    },
-    {
-      "region": "TW",
-      "headline": "中國AI硬體漲價潮 傳導3C租賃 需求翻倍",
+      "headline": "盤中速報 - Saga大漲19.19%，報0.02美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6566581"
+      "link": "https://news.cnyes.com/news/id/6566688"
     },
     {
       "region": "TW",
-      "headline": "蘋果正式牽手阿里！Apple Intelligence整合「千問」　Siri可直接調用",
+      "headline": "盤中速報 - Hashflow大跌12.62%，報0.01美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566558"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6566675"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - DODO大漲11.27%，報0.02美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6566674"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - UTK大漲16.23%，報0.008美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6566673"
     },
     {
       "region": "TW",
       "headline": "永和豆漿創始人林炳生去世 享壽70歲！",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6566586"
