@@ -1,11 +1,43 @@
 {
-  "timestamp": "2026-08-09T10:46:48.910443+00:00",
-  "generatedAt": "2026-08-09T10:46:48.910443+00:00",
+  "timestamp": "2026-08-09T11:38:23.109473+00:00",
+  "generatedAt": "2026-08-09T11:38:23.109473+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈熱門股〉磷化銦需求持續看旺 聯亞周漲41.41％站上所有均線",
+      "headline": "伊朗戰事曝彈藥斷層！華郵：五角大廈勒令國防承包商21天內交出增產計畫",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566762"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - Dymension大漲25.56%，報0.02美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6566868"
+    },
+    {
+      "region": "TW",
+      "headline": "美國、中國AI投資收益有限！台灣、南韓、日本成最大贏家？",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6566744"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過5.88億美元，NFPrompt Token(NFP)24小時漲幅達66.2%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6566845"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉磷化銦需求持續看旺 聯亞周漲41.41％站上所有均線",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6566819"
@@ -13,26 +45,10 @@
     {
       "region": "TW",
       "headline": "飛捷Q3接單能見度明朗 拉貨力道顯著優於去年同期",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6566770"
-    },
-    {
-      "region": "TW",
-      "headline": "SK海力士擬砸710億美元回饋股東！40%買庫藏股、相當於美股發行規模",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566751"
-    },
-    {
-      "region": "TW",
-      "headline": "基金爆倉反成加分題？「AI股神」遭重創  矽谷投資人反而搶著押注",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566627"
     },
     {
       "region": "TW",
