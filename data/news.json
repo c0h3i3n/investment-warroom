@@ -1,62 +1,70 @@
 {
-  "timestamp": "2026-08-10T15:10:05.783186+00:00",
-  "generatedAt": "2026-08-10T15:10:05.783186+00:00",
+  "timestamp": "2026-08-10T17:03:10.961861+00:00",
+  "generatedAt": "2026-08-10T17:03:10.961861+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "那指出現創立以來僅18次的罕見信號 這通常意味著什麼？",
+      "headline": "川習會還沒登場！中國先拿美國農產品施壓",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6568581"
+      "link": "https://news.cnyes.com/news/id/6568802"
     },
     {
       "region": "TW",
-      "headline": "上市櫃14檔處置股明起齊被關 愛普*、晶豪科漲很大遭關禁閉至8/17",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6569101"
-    },
-    {
-      "region": "TW",
-      "headline": "挑戰台積電還要更多銀彈！英特爾發股募資150億美元",
+      "headline": "不想讓OpenAI等巨頭壟斷AI！祖克柏開放Meta最強模型",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6569103"
+      "link": "https://news.cnyes.com/news/id/6569173"
     },
     {
       "region": "TW",
-      "headline": "PSA華科事業群攜北科大產學合作 聚焦AI技術研發與人才培育兩大面向",
+      "headline": "不只賣比特幣還賣股票 Strategy一周套現逾7億美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6569050"
+      "link": "https://news.cnyes.com/news/id/6569191"
     },
     {
       "region": "TW",
-      "headline": "資產處分活化、油品雙引擎挹注  北基上半年EPS 0.62元已賺贏去年全年",
+      "headline": "560億美元收購喊卡？GameStop擬改與eBay合作",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6569104"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：奇鋐(3017-TW)EPS預估上修至96.5元，預估目標價為3450元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6568918"
+      "link": "https://news.cnyes.com/news/id/6569217"
     },
     {
       "region": "TW",
-      "headline": "台股漲700點外資回頭買超512億元 敲進中鋼反手砍航空、金融股",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6568894"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報  - 安普新(6743)7月營收7.92億元年增率高達50.24％",
+      "headline": "鉅亨速報 - Factset 最新調查：環球晶(6488-TW)EPS預估上修至21.28元，預估目標價為1180元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6568913"
+      "link": "https://news.cnyes.com/news/id/6569216"
+    },
+    {
+      "region": "TW",
+      "headline": "不想再看輝達臉色！微軟向台積電要產能 Maia 300大舉擴產",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6569190"
+    },
+    {
+      "region": "TW",
+      "headline": "統一中國飲品賣不動了 半年報營收近五年來首現下滑",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6569176"
     }
   ]
 }
