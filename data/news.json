@@ -1,54 +1,70 @@
 {
-  "timestamp": "2026-08-10T02:28:02.313187+00:00",
-  "generatedAt": "2026-08-10T02:28:02.313187+00:00",
+  "timestamp": "2026-08-10T04:47:48.756558+00:00",
+  "generatedAt": "2026-08-10T04:47:48.756558+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - Saga大跌8.33%，報0.02美元",
+      "headline": "盤中速報 - 光麗-KY(6431)急跌-5.1%報18.95元，成交29張",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6566994"
+      "link": "https://news.cnyes.com/news/id/6567721"
     },
     {
       "region": "TW",
-      "headline": "〈台股盤前要聞〉拚重回4萬5大關、MSCI 本周季度調整、處置股提前出關",
+      "headline": "砸1兆日元！索尼傳攜手台積電日本建廠 攻機器人、車用次世代感測器",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6548270"
+      "link": "https://news.cnyes.com/news/id/6567702"
     },
     {
       "region": "TW",
-      "headline": "〈台股風向球〉台指期夜盤重回4萬5大關 MSCI季度調整台股權重恐遭小幅調降",
+      "headline": "盤中速報 - 通嘉(3588)大漲7%，報58元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6567720"
+    },
+    {
+      "region": "TW",
+      "headline": "力士7月營收創四年高 下半年營運穩步回升",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566878"
+      "link": "https://news.cnyes.com/news/id/6567671"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - GLMR大跌9.63%，報0.0085美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6566966"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉磷化銦需求持續看旺 聯亞周漲41.41％站上所有均線",
+      "headline": "盤中速報 - 櫃買市場加權指數上漲10.36點至394.55點，漲幅2.7%",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6566819"
+      "link": "https://news.cnyes.com/news/id/6567653"
     },
     {
       "region": "TW",
-      "headline": "飛捷Q3接單能見度明朗 拉貨力道顯著優於去年同期",
+      "headline": "盤中速報 - 集中市場加權指數上漲911.33點至45137.24點，漲幅2.06%",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6566770"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6567652"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 集中市場加權指數上漲915.47點至45141.38點，漲幅2.07%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6567651"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 櫃買市場加權指數上漲10.44點至394.63點，漲幅2.72%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6567650"
     }
   ]
 }
