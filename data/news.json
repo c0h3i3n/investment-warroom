@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-11T09:10:40.071686+00:00",
-  "generatedAt": "2026-08-11T09:10:40.071686+00:00",
+  "timestamp": "2026-08-11T10:59:52.991129+00:00",
+  "generatedAt": "2026-08-11T10:59:52.991129+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,35 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "原相Q3營收估持平 無人載具、電競滑鼠扮動能",
+      "headline": "英業達Q2每股大賺1.09元創高 看好伺服器營收年增3成惟需觀察缺料狀況",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6570819"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6571326"
     },
     {
       "region": "TW",
-      "headline": "一卡通新董座由前高市府秘書長郭添貴接任、廖泰翔卸任",
+      "headline": "電支轉盈！LINE Pay上半年賺近3億元年增28% EPS達4.35元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6570797"
+      "link": "https://news.cnyes.com/news/id/6571138"
     },
     {
       "region": "TW",
-      "headline": "0050、0056、006208配息怎麼領更划算？ETF投資人必看的省稅4大招",
+      "headline": "晟德轉投資帳列虧損百億元 拖累上半年每股虧11.24元 淨現金流仍達32億元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6570823"
+      "link": "https://news.cnyes.com/news/id/6571135"
     },
     {
       "region": "TW",
-      "headline": "中嘉寬頻攜手1Finity、辰隆科技 完成400G APN全光網路部署",
+      "headline": "〈稅收統計〉前7月證交稅收3987億元飆增1.9倍 國庫稅收2.87兆元雙創同期高",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6567610"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6570962"
     }
   ]
 }
