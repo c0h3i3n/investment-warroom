@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-11T19:15:20.520342+00:00",
-  "generatedAt": "2026-08-11T19:15:20.520342+00:00",
+  "timestamp": "2026-08-11T20:57:37.099609+00:00",
+  "generatedAt": "2026-08-11T20:57:37.099609+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - Applovin Corp - Class A(APP-US)大跌5.29%，報321美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6572065"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 美卡多(MELI-US)大漲5.11%，報1917.01美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6572061"
-    },
-    {
-      "region": "TW",
-      "headline": "還沒達到2%就想換指標？華許政策框架恐賠上Fed公信力",
+      "headline": "〈美股盤後〉美伊協議未見進展 三大指數盡墨 記憶體族群逆勢走強",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6571316"
+      "link": "https://news.cnyes.com/news/id/6571923"
     },
     {
       "region": "TW",
-      "headline": "黃仁勳說到做到！輝達不到三周端出開源AI模型",
+      "headline": "Google史上成長最快產品誕生 Gemini月活躍用戶破10億大關",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6572007"
+      "link": "https://news.cnyes.com/news/id/6572090"
+    },
+    {
+      "region": "TW",
+      "headline": "NAND版圖洗牌！SK海力士躍升鎧俠最大股東 東芝持股降至14.06%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6572047"
+    },
+    {
+      "region": "TW",
+      "headline": "美債買家不再照單全收！30年期殖利率恐長期卡在高檔",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6572056"
     },
     {
       "region": "TW",
