@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-11T15:10:43.291853+00:00",
-  "generatedAt": "2026-08-11T15:10:43.291853+00:00",
+  "timestamp": "2026-08-11T17:07:56.202654+00:00",
+  "generatedAt": "2026-08-11T17:07:56.202654+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,35 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "英業達Q2每股大賺1.09元創高 看好伺服器營收年增3成惟需觀察缺料狀況",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6571326"
-    },
-    {
-      "region": "TW",
-      "headline": "電支轉盈！LINE Pay上半年賺近3億元年增28% EPS達4.35元",
+      "headline": "AI狂潮強彈！上櫃公司7月營收3576億暴增43% 金融、營造及光電「倒退嚕」",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6571138"
+      "link": "https://news.cnyes.com/news/id/6572003"
     },
     {
       "region": "TW",
-      "headline": "晟德轉投資帳列虧損百億元 拖累上半年每股虧11.24元 淨現金流仍達32億元",
+      "headline": "光群雷決議明起進場股價25元以下買5000張庫藏股護盤",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6571135"
+      "link": "https://news.cnyes.com/news/id/6571929"
     },
     {
       "region": "TW",
-      "headline": "〈稅收統計〉前7月證交稅收3987億元飆增1.9倍 國庫稅收2.87兆元雙創同期高",
+      "headline": "淘寶「陸機」化整為零？跨部會突襲新北稽查 違法輸入中國重機下場曝光",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6570962"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6571822"
+    },
+    {
+      "region": "TW",
+      "headline": "景美上半年EPS 2.56元 超越2025年全年",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6571810"
     }
   ]
 }
