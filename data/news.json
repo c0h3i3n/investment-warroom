@@ -1,70 +1,70 @@
 {
-  "timestamp": "2026-08-11T07:22:23.535825+00:00",
-  "generatedAt": "2026-08-11T07:22:23.535825+00:00",
+  "timestamp": "2026-08-11T09:10:40.071686+00:00",
+  "generatedAt": "2026-08-11T09:10:40.071686+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 光焱科技(7728)急跌-3.09%報598.0元，成交10張",
+      "headline": "〈陸股盤後〉午後震盪下行 三大指數走低",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6570736"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6570027"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 昶昕(8438)急跌-4.48%報67.0元，成交253張",
+      "headline": "年輕拚收入、中年顧本金，提高報酬前先搞懂你幾歲了？",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6570735"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6570947"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 來思達(8066)急跌-3.31%報14.6元，成交16張",
+      "headline": "5000億美元押注AI算力 黃仁勳為何敢說它是「投資級資產」？",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6570734"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6570826"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 麗升能源(8087)急跌-3.06%報29.45元，成交6張",
+      "headline": "矽品雲林斗六新廠2028年啟用 將導入CoWoS製程",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6570733"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6570929"
     },
     {
       "region": "TW",
-      "headline": "7月營收連三月創新高，看好下半年營運持續升溫",
+      "headline": "原相Q3營收估持平 無人載具、電競滑鼠扮動能",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6570643"
+      "link": "https://news.cnyes.com/news/id/6570819"
     },
     {
       "region": "TW",
-      "headline": "和運租車掛牌上市穩步走蜜月行情 將強化MaaS移動生態系",
+      "headline": "一卡通新董座由前高市府秘書長郭添貴接任、廖泰翔卸任",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6570605"
+      "link": "https://news.cnyes.com/news/id/6570797"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 雄順(2073)7月營收1.47億元年增率高達247.85％",
+      "headline": "0050、0056、006208配息怎麼領更划算？ETF投資人必看的省稅4大招",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6570618"
+      "link": "https://news.cnyes.com/news/id/6570823"
     },
     {
       "region": "TW",
-      "headline": "談北車商場 新光三越：將砸逾10億元升級 餐飲比重降至7成下",
+      "headline": "中嘉寬頻攜手1Finity、辰隆科技 完成400G APN全光網路部署",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6570556"
+      "link": "https://news.cnyes.com/news/id/6567610"
     }
   ]
 }
