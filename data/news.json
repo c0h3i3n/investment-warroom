@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-12T17:06:28.915726+00:00",
-  "generatedAt": "2026-08-12T17:06:28.915726+00:00",
+  "timestamp": "2026-08-12T18:04:13.399104+00:00",
+  "generatedAt": "2026-08-12T18:04:13.399104+00:00",
   "data": [
     {
       "region": "TW",
@@ -57,14 +57,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6574206"
-    },
-    {
-      "region": "TW",
-      "headline": "永捷上半年EPS-0.1元虧損大幅收斂 下半年加速「多角化發展」策略",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6574054"
     }
   ]
 }
