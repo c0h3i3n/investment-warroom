@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-12T21:56:11.004394+00:00",
-  "generatedAt": "2026-08-12T21:56:11.004394+00:00",
+  "timestamp": "2026-08-12T22:53:49.922164+00:00",
+  "generatedAt": "2026-08-12T22:53:49.922164+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "DeepSeek不再獨領風騷？Meta、輝達殺入開放模型戰場",
+      "headline": "AI資本支出明年衝1.6兆美元 操盤手：這波更像1998年動盪、而非網路泡沫",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6574174"
+      "link": "https://news.cnyes.com/news/id/6574195"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：Liquidia CorpLQDA-US的目標價調升至81元，幅度約8.72%",
+      "headline": "減產兩成仍價跌50% 天然鑽石恐重演百年珍珠崩盤",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6574327"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6574192"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：Cava Group IncCAVA-US的目標價調降至90元，幅度約3.74%",
+      "headline": "〈紐約匯市〉美元抹去CPI數據後跌幅 荷姆茲海峽局勢不明推升避險需求",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6574326"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6573701"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - COTI大漲35.43%，報0.014美元",
+      "headline": "〈美股盤後〉溫和CPI消除升息疑慮 費半強漲近2.5% 記憶體類股噴高",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6574323"
+      "link": "https://news.cnyes.com/news/id/6574249"
     },
     {
       "region": "TW",
