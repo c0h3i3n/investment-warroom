@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-12T02:36:55.661697+00:00",
-  "generatedAt": "2026-08-12T02:36:55.661697+00:00",
+  "timestamp": "2026-08-12T04:55:53.186684+00:00",
+  "generatedAt": "2026-08-12T04:55:53.186684+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,35 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "AI狂潮強彈！上櫃公司7月營收3576億暴增43% 金融、營造及光電「倒退嚕」",
+      "headline": "微星攜手輝達導入最新AI模型 XpertStation WS300支援Nemotron 3.5 Lightning",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6572003"
+      "link": "https://news.cnyes.com/news/id/6572538"
     },
     {
       "region": "TW",
-      "headline": "光群雷決議明起進場股價25元以下買5000張庫藏股護盤",
+      "headline": "〈焦點股〉柏文Q2獲利飆高 上半年賺逾半個股本 明年將達百店里程碑",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6571929"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6572520"
     },
     {
       "region": "TW",
-      "headline": "淘寶「陸機」化整為零？跨部會突襲新北稽查 違法輸入中國重機下場曝光",
+      "headline": "盤中速報 - 櫃買市場加權指數上漲7.94點至399.62點，漲幅2.03%",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6571822"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6572531"
     },
     {
       "region": "TW",
-      "headline": "景美上半年EPS 2.56元 超越2025年全年",
+      "headline": "〈台股開盤〉台積電力守紅盤 由記憶體及PCB族群帶路 漲逾300點守穩4萬5",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6571810"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6572504"
     }
   ]
 }
