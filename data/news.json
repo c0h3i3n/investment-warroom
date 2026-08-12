@@ -1,43 +1,35 @@
 {
-  "timestamp": "2026-08-12T11:54:57.635417+00:00",
-  "generatedAt": "2026-08-12T11:54:57.635417+00:00",
+  "timestamp": "2026-08-12T13:37:00.691158+00:00",
+  "generatedAt": "2026-08-12T13:37:00.691158+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "台股盤後｜鴻海法說與權值股發力 台股大漲397點重返45.5K IC載板與矽晶圓狂飆 外本比策略鎖定金居、至上、新盛力",
+      "headline": "〈聯亞法說〉CW Laser產能供不應求 基板缺料問題不大",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6574040"
+    },
+    {
+      "region": "TW",
+      "headline": "哥倫比亞7.4強震重創交通與港口 頂級咖啡出口面臨停擺危機",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6573699"
+    },
+    {
+      "region": "TW",
+      "headline": "AI泡沫疑慮先放一邊！CoreWeave、美超微盤前聯手大漲",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6573259"
-    },
-    {
-      "region": "TW",
-      "headline": "〈鴻海法說〉Q3、全年營收強勁成長 AI需求續旺明年展望正向",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6573218"
-    },
-    {
-      "region": "TW",
-      "headline": "松川Q2營收獲利同創新高  上半年賺回逾半個股本EPS達5.52元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6573214"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台幣〉外資連續買超台股 台幣偏強整理收32.246元 升值3.2分",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6573213"
+      "link": "https://news.cnyes.com/news/id/6573721"
     },
     {
       "region": "TW",
       "headline": "高端疫苗Q2轉虧為盈 腸病毒疫苗即將於越南開賣全年拚轉盈",
-      "source": "台股",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6573696"
