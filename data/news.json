@@ -1,38 +1,46 @@
 {
-  "timestamp": "2026-08-12T18:04:13.399104+00:00",
-  "generatedAt": "2026-08-12T18:04:13.399104+00:00",
+  "timestamp": "2026-08-12T19:15:54.566596+00:00",
+  "generatedAt": "2026-08-12T19:15:54.566596+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "OPEC連四次下修今年石油需求成長！沙國、俄羅斯日產量兩樣情",
+      "headline": "DeepSeek不再獨領風騷？Meta、輝達殺入開放模型戰場",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6574197"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6574174"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：Liquidia CorpLQDA-US的目標價調升至81元，幅度約8.72%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6574327"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：Cava Group IncCAVA-US的目標價調降至90元，幅度約3.74%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6574326"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - COTI大漲35.43%，報0.014美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6574323"
     },
     {
       "region": "TW",
       "headline": "台泥上半年EPS0.38元 整合土葡非水泥事業Cimpor International申請海外IPO",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6574248"
-    },
-    {
-      "region": "TW",
-      "headline": "微軟Win 11授權費傳已最高調漲10% OEM廠首當其衝",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6574191"
-    },
-    {
-      "region": "TW",
-      "headline": "強行升息只會把事情搞砸！摩根大通策略師警告Fed別操之過急",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6574251"
     },
     {
       "region": "TW",

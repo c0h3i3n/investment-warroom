@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-12T18:04:13.399104+00:00",
-  "generatedAt": "2026-08-12T18:04:13.399104+00:00",
+  "timestamp": "2026-08-12T19:15:54.566596+00:00",
+  "generatedAt": "2026-08-12T19:15:54.566596+00:00",
   "data": [
     {
       "id": "tai",
@@ -11,8 +11,8 @@
       "price": 45518.07,
       "change": 397.35,
       "changePct": 0.88,
-      "asOf": "2026-08-12T05:33:25+00:00",
-      "source": "Yahoo Finance",
+      "asOf": "2026-08-12T05:33:00+00:00",
+      "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
@@ -21,12 +21,12 @@
       "name": "OTC 櫃買指數",
       "region": "TW",
       "currency": "NT$",
-      "price": null,
-      "change": null,
-      "changePct": null,
-      "asOf": null,
-      "source": null,
-      "priceType": null
+      "price": 402.02,
+      "change": 10.34,
+      "changePct": 2.64,
+      "asOf": "2026-08-12T05:33:00+00:00",
+      "source": "TWSE MIS",
+      "priceType": "trade"
     },
     {
       "id": "spx",
@@ -34,10 +34,10 @@
       "name": "S&P 500",
       "region": "US",
       "currency": "$",
-      "price": 7751.93,
-      "change": 23.73,
-      "changePct": 0.31,
-      "asOf": "2026-08-12T18:04:12+00:00",
+      "price": 7753.07,
+      "change": 24.87,
+      "changePct": 0.32,
+      "asOf": "2026-08-12T19:15:54+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -47,10 +47,10 @@
       "name": "NASDAQ",
       "region": "US",
       "currency": "$",
-      "price": 26597.627,
-      "change": 152.18,
-      "changePct": 0.58,
-      "asOf": "2026-08-12T18:04:10+00:00",
+      "price": 26616.848,
+      "change": 171.4,
+      "changePct": 0.65,
+      "asOf": "2026-08-12T19:15:51+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -60,10 +60,10 @@
       "name": "費城半導體 SOX",
       "region": "US",
       "currency": "$",
-      "price": 12493.951,
-      "change": 395.48,
-      "changePct": 3.27,
-      "asOf": "2026-08-12T18:04:12+00:00",
+      "price": 12477.539,
+      "change": 379.07,
+      "changePct": 3.13,
+      "asOf": "2026-08-12T19:15:52+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
