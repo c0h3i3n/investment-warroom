@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-12T13:37:00.691158+00:00",
-  "generatedAt": "2026-08-12T13:37:00.691158+00:00",
+  "timestamp": "2026-08-12T15:08:11.125124+00:00",
+  "generatedAt": "2026-08-12T15:08:11.125124+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,27 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "鴻海斥10億元取得土城土地 布局光通及精密模具成型",
+      "headline": "鉅亨速報 - Factset 最新調查：鴻海(2317-TW)EPS預估上修至17.92元，預估目標價為320元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6573692"
+      "link": "https://news.cnyes.com/news/id/6574237"
     },
     {
       "region": "TW",
-      "headline": "〈聯亞法說〉聯亞Q2 EPS 4.62元創新高 今年還會增加資本支出 明年產能提高2.5倍",
+      "headline": "鉅亨速報 - Factset 最新調查：億豐(8464-TW)EPS預估下修至25.28元，預估目標價為460元",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6573688"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6574236"
     },
     {
       "region": "TW",
-      "headline": "〈鴻海法說〉今年資本支出估增3成 前期投入已逐步反映在營運成果",
+      "headline": "台灣大斥資上限291億元、溢價29.5%收購精誠股權 目標持股過半",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6573676"
+      "link": "https://news.cnyes.com/news/id/6574206"
+    },
+    {
+      "region": "TW",
+      "headline": "永捷上半年EPS-0.1元虧損大幅收斂 下半年加速「多角化發展」策略",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6574054"
     }
   ]
 }
