@@ -1,62 +1,70 @@
 {
-  "timestamp": "2026-08-12T08:36:19.876124+00:00",
-  "generatedAt": "2026-08-12T08:36:19.876124+00:00",
+  "timestamp": "2026-08-12T10:16:33.115592+00:00",
+  "generatedAt": "2026-08-12T10:16:33.115592+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "黃金在103個交易日後出現超買信號 市場聚焦今晚CPI數據",
+      "headline": "台股盤後｜鴻海法說與權值股發力 台股大漲397點重返45.5K IC載板與矽晶圓狂飆 外本比策略鎖定金居、至上、新盛力",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6573259"
+    },
+    {
+      "region": "TW",
+      "headline": "〈鴻海法說〉Q3、全年營收強勁成長 AI需求續旺明年展望正向",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6572855"
+      "link": "https://news.cnyes.com/news/id/6573218"
     },
     {
       "region": "TW",
-      "headline": "輝達AI融資案「撕裂市場」 資管巨頭暴漲、科技股卻連跌2天",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6572328"
-    },
-    {
-      "region": "TW",
-      "headline": "美7月CPI公布在即！高盛首席經濟學家：通膨將溫和表現 就業已降溫 升息不必要",
+      "headline": "松川Q2營收獲利同創新高  上半年賺回逾半個股本EPS達5.52元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6572784"
+      "link": "https://news.cnyes.com/news/id/6573214"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉興勤Q2獲利倍增賺逾半股本 站回月線觸漲停",
+      "headline": "〈台幣〉外資連續買超台股 台幣偏強整理收32.246元 升值3.2分",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6572842"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6573213"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 櫃買市場加權指數上漲9.9點至401.58點，漲幅2.53%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6572874"
-    },
-    {
-      "region": "TW",
-      "headline": "國票金開「招親」3條件！拒當爛蘋果 張兆順霸氣承諾「變美美」讓人搶合併",
+      "headline": "零組件來台組裝「違法」！龔明鑫重申未開放中國重機進口 歡迎重啟雙邊談判",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6572826"
+      "link": "https://news.cnyes.com/news/id/6573097"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉Lumentum財測亮眼 光通訊概念股6檔亮燈漲停",
+      "headline": "〈SEMICON〉致茂：AI晶片對缺陷是零容忍 檢量測已變剛性需求",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6572828"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6573101"
+    },
+    {
+      "region": "TW",
+      "headline": "〈SEMICON〉穎崴今年產能被訂光 AI需求一路旺到2027年後",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6573089"
+    },
+    {
+      "region": "TW",
+      "headline": "〈SEMICON〉京元電：美國獨缺測試環節 願意扮演角色補全供應鏈拼圖",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6573082"
     }
   ]
 }
