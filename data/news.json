@@ -1,7 +1,23 @@
 {
-  "timestamp": "2026-08-13T20:55:29.790483+00:00",
-  "generatedAt": "2026-08-13T20:55:29.790483+00:00",
+  "timestamp": "2026-08-13T21:55:56.796963+00:00",
+  "generatedAt": "2026-08-13T21:55:56.796963+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "IPO前怎麼了？OpenAI數日內連走兩名重量級高層",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6576141"
+    },
+    {
+      "region": "TW",
+      "headline": "川普逼車廠回美國代價多大？三巨頭每年恐多燒20億美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6576142"
+    },
     {
       "region": "TW",
       "headline": "關稅退款神速！標普500逾40家申報96億美元 蘋果近22億美元入袋  ",
@@ -9,22 +25,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6575164"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 胡椒博士集團(KDP-US)大漲5.01%，報31.04美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6576155"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 美光科技(MU-US)大漲6.23%，報968.19美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6576154"
     },
     {
       "region": "TW",
