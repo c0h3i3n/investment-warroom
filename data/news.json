@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-13T06:24:42.615738+00:00",
-  "generatedAt": "2026-08-13T06:24:42.615738+00:00",
+  "timestamp": "2026-08-13T08:39:23.954391+00:00",
+  "generatedAt": "2026-08-13T08:39:23.954391+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "馬斯克Grok 4.6亮相！性能追平GPT-5.6 Sol、API價格砍半",
+      "headline": "〈房產〉預售市場買氣連續18個月探底 6月揭露量僅剩高峰期2成",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6574611"
+      "link": "https://news.cnyes.com/news/id/6575260"
     },
     {
       "region": "TW",
-      "headline": "美國干預日元反而更危險？《財富》警告市場恐被「大玩家」綁架",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6574555"
-    },
-    {
-      "region": "TW",
-      "headline": "〈焦點股〉奇鋐GPU及ASIC下半年同步放量 法說行情噴漲停新天價",
+      "headline": "南韓KOSPI指數收漲3.6% 已連續4日上漲",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6573247"
+      "link": "https://news.cnyes.com/news/id/6575254"
     },
     {
       "region": "TW",
-      "headline": "AI競賽告急！谷歌共同創辦人布林下場督戰 DeepMind大重組 加速衝刺Gemini",
+      "headline": "能率創新Q2淨利1.23億元創近24季新高 推升上半年轉盈EPS0.4元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6574527"
+      "link": "https://news.cnyes.com/news/id/6575247"
+    },
+    {
+      "region": "TW",
+      "headline": "AI浪潮助攻 聯想第一季營收飆升43% 助股價衝上歷史新高",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6575170"
     },
     {
       "region": "TW",
