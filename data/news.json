@@ -1,70 +1,54 @@
 {
-  "timestamp": "2026-08-13T10:18:07.562394+00:00",
-  "generatedAt": "2026-08-13T10:18:07.562394+00:00",
+  "timestamp": "2026-08-13T11:55:16.666708+00:00",
+  "generatedAt": "2026-08-13T11:55:16.666708+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈房產〉預售市場買氣連續18個月探底 6月揭露量僅剩高峰期2成",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575260"
-    },
-    {
-      "region": "TW",
-      "headline": "南韓KOSPI指數收漲3.6% 已連續4日上漲",
+      "headline": "AI需求帶動成熟製程復甦 中芯國際第二季營收突破30億美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6575254"
+      "link": "https://news.cnyes.com/news/id/6575574"
     },
     {
       "region": "TW",
-      "headline": "能率創新Q2淨利1.23億元創近24季新高 推升上半年轉盈EPS0.4元",
+      "headline": "台灣手機第二季平均降幅達20% OPPO Find X9s下殺萬元奪冠",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575247"
+      "link": "https://news.cnyes.com/news/id/6575704"
     },
     {
       "region": "TW",
-      "headline": "AI浪潮助攻 聯想第一季營收飆升43% 助股價衝上歷史新高",
+      "headline": "國泰00878、00881年化配息率衝12%、16% 經理人看Q3震盪是買點",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6575170"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6575702"
     },
     {
       "region": "TW",
-      "headline": "集邦：2028年全球衛星火箭發射商機達404億美元 這4家台廠可望受惠",
+      "headline": "雲端大廠資本支出強勢走揚 川湖獲美系CSP強勁拉貨擴廠時程提前",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6575568"
+    },
+    {
+      "region": "TW",
+      "headline": "〈廣達法說〉今年產能將較2025年翻倍 AI伺服器能見度看至2028年",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575154"
+      "link": "https://news.cnyes.com/news/id/6575714"
     },
     {
       "region": "TW",
-      "headline": "新冠升溫 9成重症沒打疫苗！9月開學恐大流行 卓揆緊急指示2大措施",
+      "headline": "〈玉山金法說〉市場已自動緊縮！陳茂欽：台央行今年無升息急迫 憂美債步入空頭",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575139"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：藥華藥(6446-TW)EPS預估上修至25.95元，預估目標價為1419.84元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575157"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：智伸科(4551-TW)EPS預估下修至10.67元，預估目標價為239元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6575156"
+      "link": "https://news.cnyes.com/news/id/6575526"
     }
   ]
 }
