@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-13T15:08:03.589562+00:00",
-  "generatedAt": "2026-08-13T15:08:03.589562+00:00",
+  "timestamp": "2026-08-13T17:06:22.761597+00:00",
+  "generatedAt": "2026-08-13T17:06:22.761597+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈美股早盤〉Fed升息警報降溫！主要指數開高 標普再攻歷史新高",
+      "headline": "關稅退款神速！標普500逾40家申報96億美元 蘋果近22億美元入袋  ",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6575814"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6575164"
     },
     {
       "region": "TW",
-      "headline": "〈財報〉塞港反成航運利多！馬士基上季獲利超預期 上調全年財測",
+      "headline": "盤中速報 - 胡椒博士集團(KDP-US)大漲5.01%，報31.04美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6576025"
+      "link": "https://news.cnyes.com/news/id/6576155"
     },
     {
       "region": "TW",
-      "headline": "星展銀亞洲高階大換血！黃思翰挾亮眼獲利2027年交棒 林子聰接掌台灣總經理",
+      "headline": "盤中速報 - 美光科技(MU-US)大漲6.23%，報968.19美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575994"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6576154"
     },
     {
       "region": "TW",
-      "headline": "黃仁勳親筆催貨！SK海力士豪砸7200億美元蓋AI記憶體帝國",
+      "headline": "延攬國際人才！金融就業金卡核發破千張 香港、美國成最大來源地",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575826"
+      "link": "https://news.cnyes.com/news/id/6574922"
     },
     {
       "region": "TW",
