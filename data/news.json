@@ -1,35 +1,43 @@
 {
-  "timestamp": "2026-08-13T22:55:19.011945+00:00",
-  "generatedAt": "2026-08-13T22:55:19.011945+00:00",
+  "timestamp": "2026-08-13T23:52:08.986121+00:00",
+  "generatedAt": "2026-08-13T23:52:08.986121+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "IPO前怎麼了？OpenAI數日內連走兩名重量級高層",
+      "headline": "伊朗稱「很快」加入金磚新開發銀行！專家：深化與金磚國家經濟聯盟突圍西方制裁",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6576141"
+      "link": "https://news.cnyes.com/news/id/6576105"
     },
     {
       "region": "TW",
-      "headline": "川普逼車廠回美國代價多大？三巨頭每年恐多燒20億美元",
+      "headline": "傳Silver Lake洽購 Workday創史上最大單日漲幅 市值暴增近80億美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6576142"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6576190"
     },
     {
       "region": "TW",
-      "headline": "關稅退款神速！標普500逾40家申報96億美元 蘋果近22億美元入袋  ",
+      "headline": "AI資本支出續強 3大基建股Micron、SanDisk、Super Micro齊揚",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575164"
+      "link": "https://news.cnyes.com/news/id/6576223"
+    },
+    {
+      "region": "TW",
+      "headline": "川普打造AI「邊境偵探」嚴查中國商品繞道輸美",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6576186"
     },
     {
       "region": "TW",
       "headline": "延攬國際人才！金融就業金卡核發破千張 香港、美國成最大來源地",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6574922"
