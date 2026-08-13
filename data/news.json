@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-08-13T02:39:07.731516+00:00",
-  "generatedAt": "2026-08-13T02:39:07.731516+00:00",
+  "timestamp": "2026-08-13T05:00:06.266390+00:00",
+  "generatedAt": "2026-08-13T05:00:06.266390+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "Palantir、微軟走低 為何AI行情復甦衝擊軟體股？",
+      "headline": "馬斯克Grok 4.6亮相！性能追平GPT-5.6 Sol、API價格砍半",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6574369"
+      "link": "https://news.cnyes.com/news/id/6574611"
     },
     {
       "region": "TW",
-      "headline": "全球長錢盯上AI記憶體 淡馬錫傳擬直接投資三星與SK海力士",
+      "headline": "美國干預日元反而更危險？《財富》警告市場恐被「大玩家」綁架",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6574558"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6574555"
     },
     {
       "region": "TW",
-      "headline": "〈財報〉光通訊巨頭Coherent財報營運財測優預期 投資人期待更高盤後不漲反跌",
+      "headline": "〈焦點股〉奇鋐GPU及ASIC下半年同步放量 法說行情噴漲停新天價",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6574394"
+      "link": "https://news.cnyes.com/news/id/6573247"
     },
     {
       "region": "TW",
-      "headline": "【袁志峰專欄】騰訊(700)季度盈利略勝預期",
+      "headline": "AI競賽告急！谷歌共同創辦人布林下場督戰 DeepMind大重組 加速衝刺Gemini",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6574268"
+      "link": "https://news.cnyes.com/news/id/6574527"
     },
     {
       "region": "TW",
-      "headline": "營收速報 - 2026年8月13日台股中小型公司7月營收一覽（新增1646家）",
+      "headline": "鉅亨速報 - Factset 最新調查：鴻海(2317-TW)EPS預估上修至18.22元，預估目標價為340.79元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6574426"
+      "link": "https://news.cnyes.com/news/id/6575035"
     },
     {
       "region": "TW",
-      "headline": "營收速報 - 2026年8月13日台股大型公司7月營收一覽（新增210家）",
+      "headline": "鉅亨速報 - Factset 最新調查：奇鋐(3017-TW)目標價調升至3800元，幅度約5.56%",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6574425"
+      "link": "https://news.cnyes.com/news/id/6575034"
     },
     {
       "region": "TW",
-      "headline": "台泥上半年EPS0.38元 整合土葡非水泥事業Cimpor International申請海外IPO",
+      "headline": "鉅亨速報 - Factset 最新調查：華碩(2357-TW)目標價調升至860元，幅度約5.2%",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6574248"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：鴻海(2317-TW)EPS預估上修至17.92元，預估目標價為320元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6574237"
+      "link": "https://news.cnyes.com/news/id/6575033"
     }
   ]
 }
