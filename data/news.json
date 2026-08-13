@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-13T11:55:16.666708+00:00",
-  "generatedAt": "2026-08-13T11:55:16.666708+00:00",
+  "timestamp": "2026-08-13T13:37:43.054448+00:00",
+  "generatedAt": "2026-08-13T13:37:43.054448+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,19 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "〈廣達法說〉今年產能將較2025年翻倍 AI伺服器能見度看至2028年",
+      "headline": "財經名人假帳號氾濫！證交所澄清董座未設群組 提防AI變臉詐騙",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575714"
+      "link": "https://news.cnyes.com/news/id/6575981"
     },
     {
       "region": "TW",
-      "headline": "〈玉山金法說〉市場已自動緊縮！陳茂欽：台央行今年無升息急迫 憂美債步入空頭",
+      "headline": "商總：打造台商合作平台讓潛力企業加速成長 鼓勵中小型台商打世界杯",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575526"
+      "link": "https://news.cnyes.com/news/id/6575943"
+    },
+    {
+      "region": "TW",
+      "headline": "台新新光金7月大賺89.4億元年增147%  前7月EPS達2.04元創新高",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6575933"
+    },
+    {
+      "region": "TW",
+      "headline": "5億元股本的街口電支還在虧 泰山：將參與100%股權拍賣投標案",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6575932"
     }
   ]
 }
