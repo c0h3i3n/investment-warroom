@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-13T17:06:22.761597+00:00",
-  "generatedAt": "2026-08-13T17:06:22.761597+00:00",
+  "timestamp": "2026-08-13T18:04:12.773658+00:00",
+  "generatedAt": "2026-08-13T18:04:12.773658+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,35 +36,27 @@
     },
     {
       "region": "TW",
-      "headline": "財經名人假帳號氾濫！證交所澄清董座未設群組 提防AI變臉詐騙",
+      "headline": "金管會查核會計師事務所 今年6件防洗錢缺失遭罰65萬元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575981"
+      "link": "https://news.cnyes.com/news/id/6576140"
     },
     {
       "region": "TW",
-      "headline": "商總：打造台商合作平台讓潛力企業加速成長 鼓勵中小型台商打世界杯",
+      "headline": "泰山要搶街口電支股權 街口金科反擊：拍賣程序極為遙遠",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575943"
+      "link": "https://news.cnyes.com/news/id/6576118"
     },
     {
       "region": "TW",
-      "headline": "台新新光金7月大賺89.4億元年增147%  前7月EPS達2.04元創新高",
+      "headline": "鉅亨速報 - Factset 最新調查：玉晶光(3406-TW)目標價調升至655元，幅度約26.45%",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575933"
-    },
-    {
-      "region": "TW",
-      "headline": "5億元股本的街口電支還在虧 泰山：將參與100%股權拍賣投標案",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575932"
+      "link": "https://news.cnyes.com/news/id/6576068"
     }
   ]
 }
