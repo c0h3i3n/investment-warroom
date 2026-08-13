@@ -1,38 +1,54 @@
 {
-  "timestamp": "2026-08-12T23:53:10.228670+00:00",
-  "generatedAt": "2026-08-12T23:53:10.228670+00:00",
+  "timestamp": "2026-08-13T02:39:07.731516+00:00",
+  "generatedAt": "2026-08-13T02:39:07.731516+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI資本支出明年衝1.6兆美元 操盤手：這波更像1998年動盪、而非網路泡沫",
+      "headline": "Palantir、微軟走低 為何AI行情復甦衝擊軟體股？",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6574195"
+      "link": "https://news.cnyes.com/news/id/6574369"
     },
     {
       "region": "TW",
-      "headline": "減產兩成仍價跌50% 天然鑽石恐重演百年珍珠崩盤",
+      "headline": "全球長錢盯上AI記憶體 淡馬錫傳擬直接投資三星與SK海力士",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6574192"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6574558"
     },
     {
       "region": "TW",
-      "headline": "〈紐約匯市〉美元抹去CPI數據後跌幅 荷姆茲海峽局勢不明推升避險需求",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6573701"
-    },
-    {
-      "region": "TW",
-      "headline": "〈美股盤後〉溫和CPI消除升息疑慮 費半強漲近2.5% 記憶體類股噴高",
+      "headline": "〈財報〉光通訊巨頭Coherent財報營運財測優預期 投資人期待更高盤後不漲反跌",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6574249"
+      "link": "https://news.cnyes.com/news/id/6574394"
+    },
+    {
+      "region": "TW",
+      "headline": "【袁志峰專欄】騰訊(700)季度盈利略勝預期",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6574268"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報 - 2026年8月13日台股中小型公司7月營收一覽（新增1646家）",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6574426"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報 - 2026年8月13日台股大型公司7月營收一覽（新增210家）",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6574425"
     },
     {
       "region": "TW",
@@ -49,22 +65,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6574237"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：億豐(8464-TW)EPS預估下修至25.28元，預估目標價為460元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6574236"
-    },
-    {
-      "region": "TW",
-      "headline": "台灣大斥資上限291億元、溢價29.5%收購精誠股權 目標持股過半",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6574206"
     }
   ]
 }
