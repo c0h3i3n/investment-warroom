@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-13T13:37:43.054448+00:00",
-  "generatedAt": "2026-08-13T13:37:43.054448+00:00",
+  "timestamp": "2026-08-13T15:08:03.589562+00:00",
+  "generatedAt": "2026-08-13T15:08:03.589562+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI需求帶動成熟製程復甦 中芯國際第二季營收突破30億美元",
+      "headline": "〈美股早盤〉Fed升息警報降溫！主要指數開高 標普再攻歷史新高",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6575814"
+    },
+    {
+      "region": "TW",
+      "headline": "〈財報〉塞港反成航運利多！馬士基上季獲利超預期 上調全年財測",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6575574"
+      "link": "https://news.cnyes.com/news/id/6576025"
     },
     {
       "region": "TW",
-      "headline": "台灣手機第二季平均降幅達20% OPPO Find X9s下殺萬元奪冠",
+      "headline": "星展銀亞洲高階大換血！黃思翰挾亮眼獲利2027年交棒 林子聰接掌台灣總經理",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575704"
+      "link": "https://news.cnyes.com/news/id/6575994"
     },
     {
       "region": "TW",
-      "headline": "國泰00878、00881年化配息率衝12%、16% 經理人看Q3震盪是買點",
+      "headline": "黃仁勳親筆催貨！SK海力士豪砸7200億美元蓋AI記憶體帝國",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575702"
-    },
-    {
-      "region": "TW",
-      "headline": "雲端大廠資本支出強勢走揚 川湖獲美系CSP強勁拉貨擴廠時程提前",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575568"
+      "link": "https://news.cnyes.com/news/id/6575826"
     },
     {
       "region": "TW",
