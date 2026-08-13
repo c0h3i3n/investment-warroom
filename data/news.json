@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-13T05:00:06.266390+00:00",
-  "generatedAt": "2026-08-13T05:00:06.266390+00:00",
+  "timestamp": "2026-08-13T06:24:42.615738+00:00",
+  "generatedAt": "2026-08-13T06:24:42.615738+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,27 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：鴻海(2317-TW)EPS預估上修至18.22元，預估目標價為340.79元",
+      "headline": "集邦：2028年全球衛星火箭發射商機達404億美元 這4家台廠可望受惠",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575035"
+      "link": "https://news.cnyes.com/news/id/6575154"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：奇鋐(3017-TW)目標價調升至3800元，幅度約5.56%",
+      "headline": "新冠升溫 9成重症沒打疫苗！9月開學恐大流行 卓揆緊急指示2大措施",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575034"
+      "link": "https://news.cnyes.com/news/id/6575139"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：華碩(2357-TW)目標價調升至860元，幅度約5.2%",
+      "headline": "鉅亨速報 - Factset 最新調查：藥華藥(6446-TW)EPS預估上修至25.95元，預估目標價為1419.84元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6575033"
+      "link": "https://news.cnyes.com/news/id/6575157"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：智伸科(4551-TW)EPS預估下修至10.67元，預估目標價為239元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6575156"
     }
   ]
 }
