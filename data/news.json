@@ -1,38 +1,54 @@
 {
-  "timestamp": "2026-08-14T11:52:54.901641+00:00",
-  "generatedAt": "2026-08-14T11:52:54.901641+00:00",
+  "timestamp": "2026-08-14T13:33:26.466882+00:00",
+  "generatedAt": "2026-08-14T13:33:26.466882+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI時代「記憶體即石油」 ！SK集團會長崔泰源：2027年將是晶片短缺最慘烈一年",
+      "headline": "美國7月零售銷售意外下滑0.6% 創逾一年最大跌幅",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577041"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6577577"
     },
     {
       "region": "TW",
-      "headline": "威世波上半年 EPS 0.19元轉盈 新廠Q4啟用新品逐步放量增添成長動能",
+      "headline": "從蘋果到福特都繞不開！中國科技正深入全球企業供應鏈",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577284"
+      "link": "https://news.cnyes.com/news/id/6577433"
     },
     {
       "region": "TW",
-      "headline": "蘋果新機受記憶體漲價與長短料雙重影響",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6577287"
-    },
-    {
-      "region": "TW",
-      "headline": "台股盤後｜無人機與 AI PC 強勢噴發！加權指數洗盤拉回 210 點，外資單日大買 453 億元挺台股，關注「外本比排行」策略標的漢翔、方土昶、全友",
+      "headline": "友達400億聯貸爆搶！一銀、臺銀聯手統籌主辦23家銀行「砸錢」超額認購2.62倍",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577283"
+      "link": "https://news.cnyes.com/news/id/6577436"
+    },
+    {
+      "region": "TW",
+      "headline": "貿協發布2026首輪經貿指數 半數受地緣動盪推升成本、7成7以上台企加速分散供應鏈",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6577434"
+    },
+    {
+      "region": "TW",
+      "headline": "神基下半年營運續強 無人機專案暴增手握歐美、中東大客戶",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6577562"
+    },
+    {
+      "region": "TW",
+      "headline": "證交所：Q2財報申報截止 僅凌巨一家未如期出具",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6577418"
     }
   ]
 }
