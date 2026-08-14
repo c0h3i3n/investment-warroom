@@ -1,62 +1,38 @@
 {
-  "timestamp": "2026-08-14T10:12:58.320017+00:00",
-  "generatedAt": "2026-08-14T10:12:58.320017+00:00",
+  "timestamp": "2026-08-14T11:52:54.901641+00:00",
+  "generatedAt": "2026-08-14T11:52:54.901641+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "超越美光與AMD！戴爾今年股價狂飆285% 美超微亮眼財報指引新榮景 ",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6576239"
-    },
-    {
-      "region": "TW",
-      "headline": "撕掉「賣PC」標籤！聯想轉型成功手握540億美元AI伺服器訂單 今年大漲290%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6576111"
-    },
-    {
-      "region": "TW",
-      "headline": "AI需求強勁 中芯國際調漲代工價格",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6576879"
-    },
-    {
-      "region": "TW",
-      "headline": "光聚晶電Q2轉盈EPS0.58元 全年獲利估進一步改善",
+      "headline": "AI時代「記憶體即石油」 ！SK集團會長崔泰源：2027年將是晶片短缺最慘烈一年",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6576884"
+      "link": "https://news.cnyes.com/news/id/6577041"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：智伸科(4551-TW)EPS預估上修至10.67元，預估目標價為232.5元",
-      "source": "台股",
+      "headline": "威世波上半年 EPS 0.19元轉盈 新廠Q4啟用新品逐步放量增添成長動能",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6576947"
+      "link": "https://news.cnyes.com/news/id/6577284"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：統一超(2912-TW)EPS預估下修至11.56元，預估目標價為277.5元",
-      "source": "台股",
+      "headline": "蘋果新機受記憶體漲價與長短料雙重影響",
+      "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6576946"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6577287"
     },
     {
       "region": "TW",
-      "headline": "國科會吳誠文率團訪德州光通訊廠AAOI 拓展半導體、矽光及太空科技合作",
-      "source": "台股",
+      "headline": "台股盤後｜無人機與 AI PC 強勢噴發！加權指數洗盤拉回 210 點，外資單日大買 453 億元挺台股，關注「外本比排行」策略標的漢翔、方土昶、全友",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6576865"
+      "link": "https://news.cnyes.com/news/id/6577283"
     }
   ]
 }
