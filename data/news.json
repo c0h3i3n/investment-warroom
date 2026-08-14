@@ -1,27 +1,59 @@
 {
-  "timestamp": "2026-08-14T17:03:47.078796+00:00",
-  "generatedAt": "2026-08-14T17:03:47.078796+00:00",
+  "timestamp": "2026-08-14T18:00:38.882460+00:00",
+  "generatedAt": "2026-08-14T18:00:38.882460+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美國7月零售銷售意外下滑0.6% 創逾一年最大跌幅",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6577577"
-    },
-    {
-      "region": "TW",
-      "headline": "從蘋果到福特都繞不開！中國科技正深入全球企業供應鏈",
+      "headline": "川普政府再出手！美國要求歐盟拆除永續法規等非關稅壁壘",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577433"
+      "link": "https://news.cnyes.com/news/id/6577681"
+    },
+    {
+      "region": "TW",
+      "headline": "美股漲勢暗藏風險！VIX 探底凸顯過度樂觀 專家警告：平靜過後恐迎更猛烈跌勢 ",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6576240"
+    },
+    {
+      "region": "TW",
+      "headline": "通膨焦慮又升高！美國8月消費者信心降至51 一年期通膨預期升至4.3%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6577663"
+    },
+    {
+      "region": "TW",
+      "headline": "5000億美元從哪來？黃仁勳主動找上高盛 全球尋覓AI金主",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6577620"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：元太(8069-TW)目標價調降至220元，幅度約4.35%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6577637"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：群聯(8299-TW)目標價調降至2900元，幅度約3.33%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6577636"
     },
     {
       "region": "TW",
       "headline": "友達400億聯貸爆搶！一銀、臺銀聯手統籌主辦23家銀行「砸錢」超額認購2.62倍",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6577436"
@@ -29,26 +61,10 @@
     {
       "region": "TW",
       "headline": "貿協發布2026首輪經貿指數 半數受地緣動盪推升成本、7成7以上台企加速分散供應鏈",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6577434"
-    },
-    {
-      "region": "TW",
-      "headline": "神基下半年營運續強 無人機專案暴增手握歐美、中東大客戶",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577562"
-    },
-    {
-      "region": "TW",
-      "headline": "證交所：Q2財報申報截止 僅凌巨一家未如期出具",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577418"
     }
   ]
 }
