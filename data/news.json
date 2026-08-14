@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-08-14T04:56:44.938267+00:00",
-  "generatedAt": "2026-08-14T04:56:44.938267+00:00",
+  "timestamp": "2026-08-14T06:22:30.884625+00:00",
+  "generatedAt": "2026-08-14T06:22:30.884625+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI推理成最大引擎！閃迪3大目標 營收中高雙位數成長、毛利率80%、現金全還股東",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6576225"
-    },
-    {
-      "region": "TW",
-      "headline": "金價單周狂漲7.4%後刷新2個月高點 瑞銀曝最佳買點、劍指5200美元",
+      "headline": "超越美光與AMD！戴爾今年股價狂飆285% 美超微亮眼財報指引新榮景 ",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6576694"
+      "link": "https://news.cnyes.com/news/id/6576239"
     },
     {
       "region": "TW",
-      "headline": "美時受收購成本與匯損影響 上半年稅後純益12億元年減逾4成",
+      "headline": "撕掉「賣PC」標籤！聯想轉型成功手握540億美元AI伺服器訂單 今年大漲290%",
       "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6573693"
-    },
-    {
-      "region": "TW",
-      "headline": "AI熱潮延燒 10大科技股EPS驚喜出爐 Sandisk、美光包辦前兩名",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6576645"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報 - 2026年8月14日台股大型公司7月營收一覽（新增5家）",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6576258"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報 - 2026年8月14日台股中小型公司7月營收一覽（新增9家）",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6576259"
-    },
-    {
-      "region": "TW",
-      "headline": "〈能源盤後〉美庫存暴增、需求前景轉弱施壓 原油跌逾2%結束連漲",
-      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6576205"
+      "link": "https://news.cnyes.com/news/id/6576111"
     },
     {
       "region": "TW",
-      "headline": "延攬國際人才！金融就業金卡核發破千張 香港、美國成最大來源地",
+      "headline": "AI需求強勁 中芯國際調漲代工價格",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6576879"
+    },
+    {
+      "region": "TW",
+      "headline": "光聚晶電Q2轉盈EPS0.58元 全年獲利估進一步改善",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6576884"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：智伸科(4551-TW)EPS預估上修至10.67元，預估目標價為232.5元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6574922"
+      "link": "https://news.cnyes.com/news/id/6576947"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：統一超(2912-TW)EPS預估下修至11.56元，預估目標價為277.5元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6576946"
+    },
+    {
+      "region": "TW",
+      "headline": "國科會吳誠文率團訪德州光通訊廠AAOI 拓展半導體、矽光及太空科技合作",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6576865"
     }
   ]
 }
