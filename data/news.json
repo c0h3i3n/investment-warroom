@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-08-15T03:48:46.275702+00:00",
-  "generatedAt": "2026-08-15T03:48:46.275702+00:00",
+  "timestamp": "2026-08-15T04:40:33.829854+00:00",
+  "generatedAt": "2026-08-15T04:40:33.829854+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "波克夏重押Alphabet躍居第三大持股 加碼達美航空、住宅建商",
+      "headline": "豪賭美光與SanDisk！爆倉「AI股神」基金揭被迫賣給城堡投資前布局",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577766"
+      "link": "https://news.cnyes.com/news/id/6577806"
     },
     {
       "region": "TW",
-      "headline": "〈能源盤後〉荷姆茲海峽又有油輪遇襲、美伊和談無進展 油價周漲近6%",
+      "headline": "輝達黃仁勳獲Glassdoor 2026最佳執行長 員工認可度高達99%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6577883"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉健鼎H1提前賺回逾一個股本EPS達 13.02元 股價周漲23.86%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6577052"
+      "link": "https://news.cnyes.com/news/id/6577814"
     },
     {
       "region": "TW",
-      "headline": "輝達持有SpaceX約210億美元股權 持股市值已縮水至172億美元",
+      "headline": "盤中速報 - LINK大漲8.62%，報9.594美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577792"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6577896"
     },
     {
       "region": "TW",
-      "headline": "〈貴金屬盤後〉通膨數據助長Fed按兵不動預期 黃金周線收高",
-      "source": "鉅亨",
+      "headline": "〈熱門股〉技嘉Q2大賺66億元寫新猷 股價周漲15%外資力挺連10買",
+      "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577051"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6577736"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：元太(8069-TW)目標價調降至220元，幅度約4.35%",
+      "headline": "鉅亨速報 - Factset 最新調查：視陽(6782-TW)EPS預估下修至17.42元，預估目標價為249.5元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6577886"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：文曄(3036-TW)EPS預估上修至26.62元，預估目標價為310元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577637"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：群聯(8299-TW)目標價調降至2900元，幅度約3.33%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577636"
-    },
-    {
-      "region": "TW",
-      "headline": "友達400億聯貸爆搶！一銀、臺銀聯手統籌主辦23家銀行「砸錢」超額認購2.62倍",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577436"
-    },
-    {
-      "region": "TW",
-      "headline": "貿協發布2026首輪經貿指數 半數受地緣動盪推升成本、7成7以上台企加速分散供應鏈",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577434"
+      "link": "https://news.cnyes.com/news/id/6577885"
     }
   ]
 }
