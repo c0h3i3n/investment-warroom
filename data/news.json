@@ -1,7 +1,23 @@
 {
-  "timestamp": "2026-08-15T16:35:57.358067+00:00",
-  "generatedAt": "2026-08-15T16:35:57.358067+00:00",
+  "timestamp": "2026-08-15T17:29:51.477370+00:00",
+  "generatedAt": "2026-08-15T17:29:51.477370+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "〈13F〉橋水幾乎清倉美光！Q2大幅減持半導體、增持標普500指數ETF防禦",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6577988"
+    },
+    {
+      "region": "TW",
+      "headline": "中美算力博弈進入「鐵幕時代」！美國要把資料中心建成「戰略武器」？",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6577989"
+    },
     {
       "region": "TW",
       "headline": "Anthropic為Claude加AI浮水印引爆爭議！Reddit用戶正反激辯",
@@ -20,16 +36,8 @@
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Xai大跌8.46%，報0.01美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6578056"
-    },
-    {
-      "region": "TW",
       "headline": "無人機預算過關 黃志芳：台廠無人機產業起飛訊號！貿協將扮關鍵角色",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6577964"
