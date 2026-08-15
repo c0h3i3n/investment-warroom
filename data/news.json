@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-14T23:30:44.646766+00:00",
-  "generatedAt": "2026-08-14T23:30:44.646766+00:00",
+  "timestamp": "2026-08-15T01:45:09.790497+00:00",
+  "generatedAt": "2026-08-15T01:45:09.790497+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：雷多斯控股LDOS-US的目標價調升至160元，幅度約6.67%",
+      "headline": "波克夏重押Alphabet躍居第三大持股 加碼達美航空、住宅建商",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577769"
+      "link": "https://news.cnyes.com/news/id/6577766"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Xai大漲8.47%，報0.01美元",
+      "headline": "〈能源盤後〉荷姆茲海峽又有油輪遇襲、美伊和談無進展 油價周漲近6%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6577743"
+      "link": "https://news.cnyes.com/news/id/6577052"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 超微半導體(AMD-US)大漲5.01%，報507.12美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6577741"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：超微電腦(SMCI-US)EPS預估上修至4.39元，預估目標價為42.00元",
+      "headline": "輝達持有SpaceX約210億美元股權 持股市值已縮水至172億美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577740"
+      "link": "https://news.cnyes.com/news/id/6577792"
+    },
+    {
+      "region": "TW",
+      "headline": "〈貴金屬盤後〉通膨數據助長Fed按兵不動預期 黃金周線收高",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6577051"
     },
     {
       "region": "TW",
