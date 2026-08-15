@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-15T09:34:39.726012+00:00",
-  "generatedAt": "2026-08-15T09:34:39.726012+00:00",
+  "timestamp": "2026-08-15T10:32:41.536675+00:00",
+  "generatedAt": "2026-08-15T10:32:41.536675+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "川普稱擊敗伊朗後將宣布荷姆茲海峽為「美國領土」！強調高油價只是「小問題」",
+      "headline": "謝明凱：廣運下半年看成長 金運及盛新材料預計在10月登興櫃",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577937"
+      "link": "https://news.cnyes.com/news/id/6577940"
     },
     {
       "region": "TW",
-      "headline": "SanDisk一周反彈近35% 最新財測與NAND技術藍圖成催化劑",
+      "headline": "廣運布局AI、半導體及機器人產業 團隊全面領航另一個50年",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577790"
+      "link": "https://news.cnyes.com/news/id/6577917"
     },
     {
       "region": "TW",
-      "headline": "豪賭美光與SanDisk！爆倉「AI股神」基金揭被迫賣給城堡投資前布局",
+      "headline": "無人機232關稅9月上路！經部允強化美規認驗證助攻 15%稅率迎「轉單」商機",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577806"
+      "link": "https://news.cnyes.com/news/id/6577871"
     },
     {
       "region": "TW",
-      "headline": "輝達黃仁勳獲Glassdoor 2026最佳執行長 員工認可度高達99%",
+      "headline": "Anthropic史上最大IPO要來了？擬60億美元收購Decart、估值挑戰2兆美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577883"
+      "link": "https://news.cnyes.com/news/id/6577957"
     },
     {
       "region": "TW",
@@ -49,22 +49,6 @@
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6577736"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：視陽(6782-TW)EPS預估下修至17.42元，預估目標價為249.5元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6577886"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：文曄(3036-TW)EPS預估上修至26.62元，預估目標價為310元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577885"
     }
   ]
 }
