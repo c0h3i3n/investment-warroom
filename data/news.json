@@ -1,62 +1,46 @@
 {
-  "timestamp": "2026-08-16T03:08:35.081440+00:00",
-  "generatedAt": "2026-08-16T03:08:35.081440+00:00",
+  "timestamp": "2026-08-16T04:44:48.158568+00:00",
+  "generatedAt": "2026-08-16T04:44:48.158568+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "幫你看緊荷包！​​​​​​​期交所祭2大風控新招：夜盤預警17日上線、風險模擬平台升級",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6577999"
-    },
-    {
-      "region": "TW",
-      "headline": "〈13F〉橋水幾乎清倉美光！Q2大幅減持半導體、增持標普500指數ETF防禦",
+      "headline": "美伊海峽控制權「各說各話」！伊朗稱已與阿曼就通行方案達成協議",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577988"
+      "link": "https://news.cnyes.com/news/id/6578035"
     },
     {
       "region": "TW",
-      "headline": "中美算力博弈進入「鐵幕時代」！美國要把資料中心建成「戰略武器」？",
+      "headline": "樺漢今年獲利估高成長 收購Kontron效益明顯顯現",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577989"
+      "link": "https://news.cnyes.com/news/id/6578212"
     },
     {
       "region": "TW",
-      "headline": "Anthropic為Claude加AI浮水印引爆爭議！Reddit用戶正反激辯",
+      "headline": "〈台股風向球〉8月來反彈2700點 4萬6關前籌碼面轉強有助驚驚漲格局",
       "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577956"
-    },
-    {
-      "region": "TW",
-      "headline": "無人機預算過關 黃志芳：台廠無人機產業起飛訊號！貿協將扮關鍵角色",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6577964"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉外資連7買進場按讚 光環量增價揚周漲26.98％",
-      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6578016"
+      "link": "https://news.cnyes.com/news/id/6578200"
     },
     {
       "region": "TW",
-      "headline": "〈熱門股〉鈺創7月營收獲利亮眼 單周大漲28%創26年來新高",
-      "source": "台股",
+      "headline": "台股修復行情！6檔主動ETF扮反彈急先鋒 今年漲幅重回7-8成",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6577916"
+      "link": "https://news.cnyes.com/news/id/6577731"
+    },
+    {
+      "region": "TW",
+      "headline": "華碩伺服器出貨強勁與高階PC占比提升 Q3營運看旺毛利率走俏",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6577744"
     }
   ]
 }
