@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-17T19:35:39.602371+00:00",
-  "generatedAt": "2026-08-17T19:35:39.602371+00:00",
+  "timestamp": "2026-08-17T20:37:11.520461+00:00",
+  "generatedAt": "2026-08-17T20:37:11.520461+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "黃金終於鬆開手煞車！8月大漲9%重拾避險光環",
+      "headline": "掛著微軟又給7%殖利率！80億美元搶買AI資料中心債券",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6579708"
+    },
+    {
+      "region": "TW",
+      "headline": "伊朗不忍了！政策轉向全面進攻、揚言打破美軍封鎖",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6579711"
+    },
+    {
+      "region": "TW",
+      "headline": "美債賣壓止不住！30年期殖利率飆上19年新高",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6579657"
+      "link": "https://news.cnyes.com/news/id/6579707"
     },
     {
       "region": "TW",
-      "headline": "寫一句話就能出歌！阿里巴巴推出AI音樂神器快樂蝦米",
+      "headline": "美債殖利率為何壓不下來？城堡證券直指Fed不願收緊政策",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6579520"
-    },
-    {
-      "region": "TW",
-      "headline": "VIX跌到14.2不是好消息？策略師示警美股進入一年最難熬時段",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6579588"
-    },
-    {
-      "region": "TW",
-      "headline": "IPO前高層一直走？OpenAI總裁稱聚光燈放大離職潮",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6579587"
+      "link": "https://news.cnyes.com/news/id/6579686"
     },
     {
       "region": "TW",
