@@ -1,46 +1,54 @@
 {
-  "timestamp": "2026-08-17T07:11:13.322164+00:00",
-  "generatedAt": "2026-08-17T07:11:13.322164+00:00",
+  "timestamp": "2026-08-17T08:55:05.899182+00:00",
+  "generatedAt": "2026-08-17T08:55:05.899182+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈房產〉六都預售屋市場結構重組 台北價量齊躍升 高雄交易量慘減半",
+      "headline": "外資連六買加碼454億、投信翻空 三大法人買超291.06億元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6578933"
+      "link": "https://news.cnyes.com/news/id/6579150"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉資本利得配息占比逾9成 00881、00878除息前夕爆大量",
+      "headline": "日本長期利率飆升至30年來新高 市場聚焦日銀9月升息動向",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6579110"
+    },
+    {
+      "region": "TW",
+      "headline": "〈車市〉捷博看汽車美容市場進入爆發期 下半年單月有望轉獲利",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6578929"
+      "link": "https://news.cnyes.com/news/id/6579115"
     },
     {
       "region": "TW",
-      "headline": "國籍航空唯一 華航連4年獲亞洲最佳企業雇主獎",
+      "headline": "美經濟數據疲軟削弱升息預期 帶動日元及亞幣回升",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6578916"
+      "link": "https://news.cnyes.com/news/id/6579100"
     },
     {
       "region": "TW",
-      "headline": "記憶體頂部提前？三星、SK海力士遭多家券商下調目標價 價差最多達200萬韓元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6578758"
-    },
-    {
-      "region": "TW",
-      "headline": "曾遭興登堡做空、安永辭任審計　美超微走過爭議後AI需求再創新高",
+      "headline": "台新新光金連九度獲HR Asia最佳雇主肯定 再獲北市府友善育兒事業獎",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6578928"
+      "link": "https://news.cnyes.com/news/id/6579137"
+    },
+    {
+      "region": "TW",
+      "headline": "國科會吳誠文率團訪匹茲堡 深化台美AI與機器人科技合作",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6579067"
     }
   ]
 }
