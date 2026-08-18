@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-18T06:58:57.160283+00:00",
-  "generatedAt": "2026-08-18T06:58:57.160283+00:00",
+  "timestamp": "2026-08-18T07:47:58.084118+00:00",
+  "generatedAt": "2026-08-18T07:47:58.084118+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,27 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-7.98點至390.34點，跌幅2%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6580193"
-    },
-    {
-      "region": "TW",
-      "headline": "川湖衝破15000元！高含「湖」量ETF表現靚 00728逼近歷史新高",
+      "headline": "永豐銀主辦展頌27.25億元永續指標聯貸 省水、節電達標可獲利率優惠",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580155"
+      "link": "https://news.cnyes.com/news/id/6580325"
     },
     {
       "region": "TW",
-      "headline": "台塑新智能車電通過歐洲出車安認證 王瑞瑜：加速國產電池接軌全球供應鏈",
+      "headline": "廣宇AI伺服器Q4量產 全年營收維持雙位數成長目標明年迎爆發",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580151"
+      "link": "https://news.cnyes.com/news/id/6580314"
+    },
+    {
+      "region": "TW",
+      "headline": "外資終結連六買提款119億 三大法人賣超239.3億元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6580316"
+    },
+    {
+      "region": "TW",
+      "headline": "映泰搶攻智慧城市與安防商機 推出EdgeComp MT-N150 Edge AI系統",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6580296"
     }
   ]
 }
