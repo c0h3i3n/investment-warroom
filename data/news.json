@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-08-18T01:45:38.350488+00:00",
-  "generatedAt": "2026-08-18T01:45:38.350488+00:00",
+  "timestamp": "2026-08-18T03:04:25.663420+00:00",
+  "generatedAt": "2026-08-18T03:04:25.663420+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "Cybercab商業化進入倒數 特斯拉傳8月在奧斯汀啟動員工試乘",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6579758"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - DEXE大漲8.41%，報1.973美元",
+      "headline": "〈台股開盤〉三攻4萬6關卡壓力加重 權值股表現壓抑 上漲200點後翻黑走低",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6579778"
+      "link": "https://news.cnyes.com/news/id/6579984"
     },
     {
       "region": "TW",
-      "headline": "美光、SanDisk領漲晶片股 費半重返牛市 投資人對AI支出信心增強",
+      "headline": "美要韓赴美蓋記憶體廠？韓總統府火速否認：首單項目以能源優先 非晶片",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6579761"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6579994"
     },
     {
       "region": "TW",
-      "headline": "SanDisk暴漲逾6倍後腰斬 避險基金持股策略大分歧 達里奧、提普等資金退場",
+      "headline": "南韓散戶轉戰美股爆買45億美元 專家：並未放棄AI題材",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6579724"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6579806"
     },
     {
       "region": "TW",
-      "headline": "邑昇簡榮坤：LEO板已占PCB業務10%比重 還要跨半導體散熱材",
-      "source": "台股",
+      "headline": "川普最新表態：金正恩已回應「對話」請求",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6579574"
+      "link": "https://news.cnyes.com/news/id/6579810"
     },
     {
       "region": "TW",
-      "headline": "2026臺灣週11月登場！彭金隆揭五大戰略 宣示台灣邁向亞洲資本島",
+      "headline": "野村投信最新台股看法--【台股操盤人筆記】油價震盪往下，AI需求帶領台灣供應鏈獲利向上",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6579507"
+      "link": "https://news.cnyes.com/news/id/6575000"
     },
     {
       "region": "TW",
-      "headline": "賴清德：明年總預算共五項重要任務 AI為台灣經濟帶來歷史機會",
+      "headline": "【0818台股盤前】外資狂買454億抗投信賣壓 貨櫃三雄與光通訊攜手強攻，「營收亮眼法人買」標的萬潤、聯鈞、致茂",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6579509"
+      "link": "https://news.cnyes.com/news/id/6579349"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：中鋼(2002-TW)EPS預估上修至0.15元，預估目標價為21.75元",
+      "headline": "鉅亨速報 - Factset 最新調查：技嘉(2376-TW)EPS預估上修至33.19元，預估目標價為444元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6579519"
+      "link": "https://news.cnyes.com/news/id/6579824"
     }
   ]
 }
