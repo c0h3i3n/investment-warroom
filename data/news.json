@@ -1,54 +1,46 @@
 {
-  "timestamp": "2026-08-18T10:39:26.236476+00:00",
-  "generatedAt": "2026-08-18T10:39:26.236476+00:00",
+  "timestamp": "2026-08-18T11:34:48.238484+00:00",
+  "generatedAt": "2026-08-18T11:34:48.238484+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "30年美債殖利率飆破5.31%創近20年新高   三大因素恐推動進一步上升",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6580313"
-    },
-    {
-      "region": "TW",
-      "headline": "永豐銀主辦展頌27.25億元永續指標聯貸 省水、節電達標可獲利率優惠",
+      "headline": "LINE Pay上半年交易量逾4450億元 電支核心業務續居市場第一",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580325"
+      "link": "https://news.cnyes.com/news/id/6580556"
     },
     {
       "region": "TW",
-      "headline": "廣宇AI伺服器Q4量產 全年營收維持雙位數成長目標明年迎爆發",
+      "headline": "世界健身-KY揮軍東南亞 泰國首店啟動創始會員預售",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580314"
+      "link": "https://news.cnyes.com/news/id/6580549"
     },
     {
       "region": "TW",
-      "headline": "債券義警重新集結？Yardeni警告：5%殖利率恐成全球市場壓力測試",
+      "headline": "生華科8.5億元現增銀彈到位 強化推動各項臨床試驗與新藥研發計畫",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6580548"
+    },
+    {
+      "region": "TW",
+      "headline": "美伊和平希望渺茫 記憶體族群美股盤前領跌",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6580302"
+      "link": "https://news.cnyes.com/news/id/6580502"
     },
     {
       "region": "TW",
-      "headline": "外資終結連六買提款119億 三大法人賣超239.3億元",
+      "headline": "台灣大公開收購精誠正式受理應賣 累計已取得14.13%股份應賣承諾",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580316"
-    },
-    {
-      "region": "TW",
-      "headline": "映泰搶攻智慧城市與安防商機 推出EdgeComp MT-N150 Edge AI系統",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580296"
+      "link": "https://news.cnyes.com/news/id/6580557"
     }
   ]
 }
