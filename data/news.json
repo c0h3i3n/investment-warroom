@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-18T14:44:57.501159+00:00",
-  "generatedAt": "2026-08-18T14:44:57.501159+00:00",
+  "timestamp": "2026-08-18T15:39:59.071524+00:00",
+  "generatedAt": "2026-08-18T15:39:59.071524+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,35 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "台灣大公開收購精誠正式受理應賣 累計已取得14.13%股份應賣承諾",
+      "headline": "〈中信金法說〉台壽全年FYP目標大幅上修衝破千億 金控調整後EPS達3.97元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580557"
+      "link": "https://news.cnyes.com/news/id/6580704"
     },
     {
       "region": "TW",
-      "headline": "LINE Pay上半年交易量逾4450億元 電支核心業務續居市場第一",
+      "headline": "鉅亨速報 - Factset 最新調查：長榮(2603-TW)EPS預估上修至32.11元，預估目標價為234.5元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580556"
+      "link": "https://news.cnyes.com/news/id/6580724"
     },
     {
       "region": "TW",
-      "headline": "世界健身-KY揮軍東南亞 泰國首店啟動創始會員預售",
+      "headline": "台灣應用AI強度亞洲四地中唯一下滑 貿協：AI未來將走出產線面對實體",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580549"
+      "link": "https://news.cnyes.com/news/id/6580632"
     },
     {
       "region": "TW",
-      "headline": "生華科8.5億元現增銀彈到位 強化推動各項臨床試驗與新藥研發計畫",
+      "headline": "Fed 9月升息機率掉至3成！「月配息」「主動選債」成熱搜 00985D受益人數飆升23.5%",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580548"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6580631"
     }
   ]
 }

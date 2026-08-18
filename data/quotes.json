@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-18T14:44:57.501159+00:00",
-  "generatedAt": "2026-08-18T14:44:57.501159+00:00",
+  "timestamp": "2026-08-18T15:39:59.071524+00:00",
+  "generatedAt": "2026-08-18T15:39:59.071524+00:00",
   "data": [
     {
       "symbol": "0050.TW",
@@ -85,30 +85,30 @@
     {
       "symbol": "SPCX",
       "name": "",
-      "price": 140.95,
-      "change": -5.28,
-      "changePct": -3.61,
-      "asOf": "2026-08-18T14:45:13+00:00",
+      "price": 141.835,
+      "change": -4.39,
+      "changePct": -3.01,
+      "asOf": "2026-08-18T15:40:15+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "NVDA",
       "name": "",
-      "price": 219.37,
-      "change": -5.64,
-      "changePct": -2.51,
-      "asOf": "2026-08-18T14:45:14+00:00",
+      "price": 219.35,
+      "change": -5.66,
+      "changePct": -2.52,
+      "asOf": "2026-08-18T15:40:15+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "TSLA",
       "name": "",
-      "price": 337.25,
-      "change": -2.05,
-      "changePct": -0.6,
-      "asOf": "2026-08-18T14:45:13+00:00",
+      "price": 337.215,
+      "change": -2.08,
+      "changePct": -0.61,
+      "asOf": "2026-08-18T15:40:15+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
