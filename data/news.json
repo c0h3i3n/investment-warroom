@@ -1,38 +1,46 @@
 {
-  "timestamp": "2026-08-18T16:42:52.259858+00:00",
-  "generatedAt": "2026-08-18T16:42:52.259858+00:00",
+  "timestamp": "2026-08-18T17:36:30.182366+00:00",
+  "generatedAt": "2026-08-18T17:36:30.182366+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 芯源系統(MPWR-US)大跌5.04%，報1344.33美元",
+      "headline": "輝達被市場錯殺了？美銀稱股價最多低估五成 上看350美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6580706"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6580744"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 應用材料(AMAT-US)大跌5.04%，報508.07美元",
+      "headline": "在中國布局逾40年仍不敵本土對手！諾基亞年底前幾乎關光據點",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6580705"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6580745"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Onto Innovation Inc.(ONTO-US)大跌5.33%，報328.35美元",
+      "headline": "「買硬體、拋軟體」交易失靈！AI投資行情進入「各走各的」階段",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6580702"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6579807"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 英特爾(INTC-US)大跌5.39%，報97.89美元",
+      "headline": "普發萬元紅包怎麼花？國泰投信建議「股票拚成長、債券降波動」放大財富",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6580701"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6580757"
+    },
+    {
+      "region": "TW",
+      "headline": "純網銀虧損改善！LINE Bank連7月獲利 樂天減增資累虧大降",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6580755"
     },
     {
       "region": "TW",
@@ -49,22 +57,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6580724"
-    },
-    {
-      "region": "TW",
-      "headline": "台灣應用AI強度亞洲四地中唯一下滑 貿協：AI未來將走出產線面對實體",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580632"
-    },
-    {
-      "region": "TW",
-      "headline": "Fed 9月升息機率掉至3成！「月配息」「主動選債」成熱搜 00985D受益人數飆升23.5%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6580631"
     }
   ]
 }
