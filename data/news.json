@@ -1,43 +1,19 @@
 {
-  "timestamp": "2026-08-18T07:47:58.084118+00:00",
-  "generatedAt": "2026-08-18T07:47:58.084118+00:00",
+  "timestamp": "2026-08-18T08:48:56.674653+00:00",
+  "generatedAt": "2026-08-18T08:48:56.674653+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "工總攜手泰國工總拓展智慧產業 簽四項MOU搶攻AI商機",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580190"
-    },
-    {
-      "region": "TW",
-      "headline": "伊朗揚言「全面進攻」！荷姆茲海峽再傳船遭攻擊 航運近乎停擺 油價逼近91美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580169"
-    },
-    {
-      "region": "TW",
-      "headline": "現貨金價突破4400美元！海納：選擇權買盤轉向多頭 資金回流",
+      "headline": "30年美債殖利率飆破5.31%創近20年新高   三大因素恐推動進一步上升",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6580091"
-    },
-    {
-      "region": "TW",
-      "headline": "SpaceX上漲4.5% 9月將有逾7億股解禁",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6579760"
+      "link": "https://news.cnyes.com/news/id/6580313"
     },
     {
       "region": "TW",
       "headline": "永豐銀主辦展頌27.25億元永續指標聯貸 省水、節電達標可獲利率優惠",
-      "source": "台股",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6580325"
@@ -45,10 +21,18 @@
     {
       "region": "TW",
       "headline": "廣宇AI伺服器Q4量產 全年營收維持雙位數成長目標明年迎爆發",
-      "source": "台股",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6580314"
+    },
+    {
+      "region": "TW",
+      "headline": "債券義警重新集結？Yardeni警告：5%殖利率恐成全球市場壓力測試",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6580302"
     },
     {
       "region": "TW",
