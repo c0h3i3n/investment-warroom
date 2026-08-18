@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-18T22:35:10.805581+00:00",
-  "generatedAt": "2026-08-18T22:35:10.805581+00:00",
+  "timestamp": "2026-08-18T23:30:48.737343+00:00",
+  "generatedAt": "2026-08-18T23:30:48.737343+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：Amer Sports, Inc.(AS-US)EPS預估上修至1.26元，預估目標價為48.50元",
+      "headline": "輝達遇強敵？「大賣空」貝瑞點名Etched：對輝達的嚴肅競爭",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580786"
+      "link": "https://news.cnyes.com/news/id/6580807"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Ontology Gas大漲9.12%，報0.06美元",
+      "headline": "德銀炮轟美日聯合干預：不僅無效 若不出手日元可能會升更多",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6580728"
+    },
+    {
+      "region": "TW",
+      "headline": "四檔記憶體股今年暴漲 加碼仍不會太晚？",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6580785"
+      "link": "https://news.cnyes.com/news/id/6580788"
     },
     {
       "region": "TW",
-      "headline": "美債殖利率急升成亞洲AI股最大風險！台韓科技股首當其衝",
+      "headline": "兩枚伊朗飛彈逼近！阿聯宣布暫停與伊朗經貿往來",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580419"
-    },
-    {
-      "region": "TW",
-      "headline": "美債殖利率升破4.7%！華許似乎不急著出手 美國房貸族苦撐",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580776"
+      "link": "https://news.cnyes.com/news/id/6580680"
     },
     {
       "region": "TW",
