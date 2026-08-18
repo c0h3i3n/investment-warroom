@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-18T13:51:44.743986+00:00",
-  "generatedAt": "2026-08-18T13:51:44.743986+00:00",
+  "timestamp": "2026-08-18T14:44:57.501159+00:00",
+  "generatedAt": "2026-08-18T14:44:57.501159+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "LINE Pay上半年交易量逾4450億元 電支核心業務續居市場第一",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580556"
-    },
-    {
-      "region": "TW",
-      "headline": "世界健身-KY揮軍東南亞 泰國首店啟動創始會員預售",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580549"
-    },
-    {
-      "region": "TW",
-      "headline": "生華科8.5億元現增銀彈到位 強化推動各項臨床試驗與新藥研發計畫",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580548"
-    },
-    {
-      "region": "TW",
-      "headline": "美伊和平希望渺茫 記憶體族群美股盤前領跌",
+      "headline": "盤中速報 - 芯源系統(MPWR-US)大跌5.04%，報1344.33美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6580502"
+      "link": "https://news.cnyes.com/news/id/6580706"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 應用材料(AMAT-US)大跌5.04%，報508.07美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6580705"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - Onto Innovation Inc.(ONTO-US)大跌5.33%，報328.35美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6580702"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 英特爾(INTC-US)大跌5.39%，報97.89美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6580701"
     },
     {
       "region": "TW",
@@ -41,6 +41,30 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6580557"
+    },
+    {
+      "region": "TW",
+      "headline": "LINE Pay上半年交易量逾4450億元 電支核心業務續居市場第一",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6580556"
+    },
+    {
+      "region": "TW",
+      "headline": "世界健身-KY揮軍東南亞 泰國首店啟動創始會員預售",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6580549"
+    },
+    {
+      "region": "TW",
+      "headline": "生華科8.5億元現增銀彈到位 強化推動各項臨床試驗與新藥研發計畫",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6580548"
     }
   ]
 }
