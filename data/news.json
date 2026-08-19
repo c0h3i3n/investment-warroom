@@ -1,38 +1,46 @@
 {
-  "timestamp": "2026-08-19T16:40:55.974996+00:00",
-  "generatedAt": "2026-08-19T16:40:55.974996+00:00",
+  "timestamp": "2026-08-19T17:35:25.882361+00:00",
+  "generatedAt": "2026-08-19T17:35:25.882361+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI時代沃爾瑪員工多出新職責：幫AI糾錯",
+      "headline": "盤中速報 - 科派特(CPRT-US)大漲6.78%，報33.64美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6581642"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6581921"
     },
     {
       "region": "TW",
-      "headline": "日本債市快撐不住了？10年期殖利率逼近3%警戒線",
+      "headline": "盤中速報 - UNI大漲9.3%，報3.57美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6581633"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6581915"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 大零幣大漲8.31%，報553美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6581914"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：雪佛龍(CVX-US)EPS預估上修至15.94元，預估目標價為221.00元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6581912"
     },
     {
       "region": "TW",
       "headline": "〈台北國際自動化展〉Teradyne Robotics首度在台展AI Trainer、雙手臂移動協作平台 從實驗室走向現場實做",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6581746"
-    },
-    {
-      "region": "TW",
-      "headline": "川普傳指示尋求今秋再會金正恩 欲重啟核武外交",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6581695"
     },
     {
       "region": "TW",
