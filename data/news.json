@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-19T18:48:29.589249+00:00",
-  "generatedAt": "2026-08-19T18:48:29.589249+00:00",
+  "timestamp": "2026-08-19T19:33:32.468455+00:00",
+  "generatedAt": "2026-08-19T19:33:32.468455+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 科派特(CPRT-US)大漲6.78%，報33.64美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6581921"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - UNI大漲9.3%，報3.57美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6581915"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 大零幣大漲8.31%，報553美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6581914"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：雪佛龍(CVX-US)EPS預估上修至15.94元，預估目標價為221.00元",
+      "headline": "川金會真的要回來了？川普稱今年將再見金正恩",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6581912"
+      "link": "https://news.cnyes.com/news/id/6581913"
+    },
+    {
+      "region": "TW",
+      "headline": "空頭被軋爆！莫德納盤中狂飆160% 帳面慘賠50億美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6581935"
+    },
+    {
+      "region": "TW",
+      "headline": "財政部出手也擋不住？市場料美債10年期殖利率年底前突破5%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6581895"
+    },
+    {
+      "region": "TW",
+      "headline": "輝達不只賣GPU！如今還當起AI資料中心媒人",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6581869"
     },
     {
       "region": "TW",
