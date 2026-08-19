@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-19T20:38:13.796412+00:00",
-  "generatedAt": "2026-08-19T20:38:13.796412+00:00",
+  "timestamp": "2026-08-19T21:34:39.263550+00:00",
+  "generatedAt": "2026-08-19T21:34:39.263550+00:00",
   "data": [
     {
       "id": "tai",
@@ -37,7 +37,7 @@
       "price": 7707.98,
       "change": 16.22,
       "changePct": 0.21,
-      "asOf": "2026-08-19T20:20:01+00:00",
+      "asOf": "2026-08-19T20:38:31+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -50,7 +50,7 @@
       "price": 26331.09,
       "change": 41.38,
       "changePct": 0.16,
-      "asOf": "2026-08-19T20:38:11+00:00",
+      "asOf": "2026-08-19T21:15:59+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -63,7 +63,7 @@
       "price": 11738.226,
       "change": -254.24,
       "changePct": -2.12,
-      "asOf": "2026-08-19T20:38:13+00:00",
+      "asOf": "2026-08-19T21:15:59+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
