@@ -1,54 +1,62 @@
 {
-  "timestamp": "2026-08-19T08:49:49.122572+00:00",
-  "generatedAt": "2026-08-19T08:49:49.122572+00:00",
+  "timestamp": "2026-08-19T09:43:16.107241+00:00",
+  "generatedAt": "2026-08-19T09:43:16.107241+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈上銀展望〉訂單能見度看到明年Q1！卓文恒看好下半年 全年營收雙位數成長無虞",
+      "headline": "華碩搶攻具身智能兆元商機 攜手安川、利凌等夥伴打造智慧製造生態系",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6581328"
+      "link": "https://news.cnyes.com/news/id/6579274"
     },
     {
       "region": "TW",
-      "headline": "宇樹科技上市批量造富 多名90後技術骨幹身家破億",
+      "headline": "〈港股盤後〉科技股受挫下跌 金融與公用事業撐盤 恒指微漲",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6581344"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6581551"
     },
     {
       "region": "TW",
-      "headline": "HBM像荷姆茲海峽？兩位投資大老示警：記憶體股藏「高價自噬」風險",
+      "headline": "十年估值飆逾33000倍！宇樹上市背後大贏家 王興興身家破千億 王興美團系成最大外部贏家",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6581465"
+    },
+    {
+      "region": "TW",
+      "headline": "〈陸股盤後〉午後跌幅進一步擴大 三大指數走低",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6581339"
+      "link": "https://news.cnyes.com/news/id/6580722"
     },
     {
       "region": "TW",
-      "headline": "6%美債殖利率是美股目前最大風險？",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580803"
-    },
-    {
-      "region": "TW",
-      "headline": "〈房產〉全台縣轄市千萬買房哪裡機會多 屏東市最親民",
+      "headline": "〈晶技展望〉AI及車由產品組合朝有利趨勢發展 7月毛利率回升到36%",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6581193"
+      "link": "https://news.cnyes.com/news/id/6581552"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：中信金(2891-TW)EPS預估下修至4.35元，預估目標價為65元",
+      "headline": "慧友穩固車用基本盤 推進AI監視器、機器狗運算新品",
       "source": "台股",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6581320"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6581500"
+    },
+    {
+      "region": "TW",
+      "headline": "SK海力士為自家股價抱屈！砸40兆韓元實施庫藏股全數註銷",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6581494"
     }
   ]
 }
