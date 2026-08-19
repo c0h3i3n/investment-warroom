@@ -1,70 +1,54 @@
 {
-  "timestamp": "2026-08-19T04:46:24.726224+00:00",
-  "generatedAt": "2026-08-19T04:46:24.726224+00:00",
+  "timestamp": "2026-08-19T05:38:58.216869+00:00",
+  "generatedAt": "2026-08-19T05:38:58.216869+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 邁科(6831)大跌7.18%，報608元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6581109"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 華懋(5292)大漲7.07%，報204.5元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6581108"
-    },
-    {
-      "region": "TW",
-      "headline": "俄羅斯黑海港口附近至少五艘糧船遇襲 糧食供應風險升高",
+      "headline": "〈上銀展望〉訂單能見度看到明年Q1！卓文恒看好下半年 全年營收雙位數成長無虞",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6580831"
+      "link": "https://news.cnyes.com/news/id/6581328"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 福永生技(4183)急跌-3.38%報14.5元，成交2張",
+      "headline": "宇樹科技上市批量造富 多名90後技術骨幹身家破億",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6581344"
+    },
+    {
+      "region": "TW",
+      "headline": "HBM像荷姆茲海峽？兩位投資大老示警：記憶體股藏「高價自噬」風險",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6581106"
+      "link": "https://news.cnyes.com/news/id/6581339"
     },
     {
       "region": "TW",
-      "headline": "二個因素可能緩和供需緊俏 Q4運價支撐力有待觀察",
+      "headline": "6%美債殖利率是美股目前最大風險？",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6580803"
+    },
+    {
+      "region": "TW",
+      "headline": "〈房產〉全台縣轄市千萬買房哪裡機會多 屏東市最親民",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6581073"
+      "link": "https://news.cnyes.com/news/id/6581193"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：力旺(3529-TW)EPS預估下修至34.34元，預估目標價為3785元",
+      "headline": "鉅亨速報 - Factset 最新調查：中信金(2891-TW)EPS預估下修至4.35元，預估目標價為65元",
       "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6581079"
-    },
-    {
-      "region": "TW",
-      "headline": "圓展啟動AI辦公室、商用無人機雙軌布局 下半年展望樂觀",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6580872"
-    },
-    {
-      "region": "TW",
-      "headline": "老牌科技ETF元大0053推動分割與不配息 投票9/16開跑",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6581000"
+      "link": "https://news.cnyes.com/news/id/6581320"
     }
   ]
 }
