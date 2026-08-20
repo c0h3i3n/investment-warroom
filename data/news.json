@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-20T08:51:07.254899+00:00",
-  "generatedAt": "2026-08-20T08:51:07.254899+00:00",
+  "timestamp": "2026-08-20T09:44:53.178307+00:00",
+  "generatedAt": "2026-08-20T09:44:53.178307+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,35 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "SK海力士砸大錢買自家股 台記憶體族群同步飆漲",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6582452"
-    },
-    {
-      "region": "TW",
-      "headline": "研華攜手產業夥伴 邊緣AI串聯智慧物流與零售營運",
+      "headline": "非紅供應鏈與歐盟CRA法規雙重發酵 Moxa看好台廠邊緣運算與工業網通迎紅利",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582442"
+      "link": "https://news.cnyes.com/news/id/6582627"
     },
     {
       "region": "TW",
-      "headline": "面試不再只看薪水！104調查：4成求職者「看廁所」決定要不要報到",
+      "headline": "〈外銷訂單〉連18紅！7月979.4億美元史上新高年增61.9% 資通接戰旺到年增近9成",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582407"
+      "link": "https://news.cnyes.com/news/id/6582605"
     },
     {
       "region": "TW",
-      "headline": "〈房產〉高價買盤力道不足 台北市億元新豪宅上半年僅推二案",
+      "headline": "創見推全系列DDR5工控記憶體模組 搶AI PC、邊緣運算商機",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582406"
+      "link": "https://news.cnyes.com/news/id/6582581"
+    },
+    {
+      "region": "TW",
+      "headline": "美食-KY上半年獲利年增逾7成 Q2 EPS 1.88元創5年來單季高",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6582579"
     }
   ]
 }
