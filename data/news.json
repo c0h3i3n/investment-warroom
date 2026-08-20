@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-20T07:50:26.970274+00:00",
-  "generatedAt": "2026-08-20T07:50:26.970274+00:00",
+  "timestamp": "2026-08-20T08:51:07.254899+00:00",
+  "generatedAt": "2026-08-20T08:51:07.254899+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "股價腰斬後急救市！SK海力士砸290億美元回購 小摩：2027有望再返還股東至少1300億美元",
+      "headline": "AI硬體「搶飛機」掀空運新周期：亞洲—北美航線連續5個月雙位數成長 貨值佔比破五成",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582388"
+      "link": "https://news.cnyes.com/news/id/6582546"
     },
     {
       "region": "TW",
-      "headline": "退訂潮？Claude Code增速自逾600%驟降至5.2% 後續留存率才是關鍵",
+      "headline": "美財政部干預債市與庫存回升 銅價守穩14000美元心理關卡",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582363"
+      "link": "https://news.cnyes.com/news/id/6582530"
     },
     {
       "region": "TW",
-      "headline": "面試不再只看薪水！104調查：4成求職者「看廁所」決定要不要報到",
+      "headline": "〈房產〉淡海輕軌V07淡水行政中心站捷運開發案基地910坪公告招商",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582407"
+      "link": "https://news.cnyes.com/news/id/6582550"
     },
     {
       "region": "TW",
-      "headline": "〈房產〉高價買盤力道不足 台北市億元新豪宅上半年僅推二案",
+      "headline": "永豐領先優化處置股「預收款券」盤中到位 看Q4行情樂觀但須留意2變數",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582406"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6582549"
     },
     {
       "region": "TW",
@@ -49,6 +49,22 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6582442"
+    },
+    {
+      "region": "TW",
+      "headline": "面試不再只看薪水！104調查：4成求職者「看廁所」決定要不要報到",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6582407"
+    },
+    {
+      "region": "TW",
+      "headline": "〈房產〉高價買盤力道不足 台北市億元新豪宅上半年僅推二案",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6582406"
     }
   ]
 }
