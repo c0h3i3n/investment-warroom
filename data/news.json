@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-20T11:36:06.464776+00:00",
-  "generatedAt": "2026-08-20T11:36:06.464776+00:00",
+  "timestamp": "2026-08-20T13:05:31.416935+00:00",
+  "generatedAt": "2026-08-20T13:05:31.416935+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,35 +36,27 @@
     },
     {
       "region": "TW",
-      "headline": "非紅供應鏈與歐盟CRA法規雙重發酵 Moxa看好台廠邊緣運算與工業網通迎紅利",
+      "headline": "聯亞7月受惠矽光產品出貨放量 單月獲利EPS 2.07元、年增近5倍",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582627"
+      "link": "https://news.cnyes.com/news/id/6582905"
     },
     {
       "region": "TW",
-      "headline": "〈外銷訂單〉連18紅！7月979.4億美元史上新高年增61.9% 資通接戰旺到年增近9成",
+      "headline": "安克生醫攜台大醫院完成千人研究 鎖定睡眠呼吸中止症健檢商機",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582605"
+      "link": "https://news.cnyes.com/news/id/6576794"
     },
     {
       "region": "TW",
-      "headline": "創見推全系列DDR5工控記憶體模組 搶AI PC、邊緣運算商機",
+      "headline": "潤德2026年上半年EPS達9.51元 在手工程訂單達59億元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582581"
-    },
-    {
-      "region": "TW",
-      "headline": "美食-KY上半年獲利年增逾7成 Q2 EPS 1.88元創5年來單季高",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582579"
+      "link": "https://news.cnyes.com/news/id/6582770"
     }
   ]
 }
