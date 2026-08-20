@@ -1,11 +1,43 @@
 {
-  "timestamp": "2026-08-20T16:46:10.381563+00:00",
-  "generatedAt": "2026-08-20T16:46:10.381563+00:00",
+  "timestamp": "2026-08-20T17:38:29.117909+00:00",
+  "generatedAt": "2026-08-20T17:38:29.117909+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "新創看上北士科？卓揆指示國科會研議設TTA基地 搶攻AI與次世代通訊",
+      "headline": "不用重啟大規模攻勢？貝森特揚言靠制裁壓垮伊朗",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6583039"
+    },
+    {
+      "region": "TW",
+      "headline": "Switch 2賣不動了？美國銷量腰斬 主機市場迎疫情來最慘7月",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6583006"
+    },
+    {
+      "region": "TW",
+      "headline": "貝森特省下2億美元卻埋更大風險？華爾街警告美債成本恐更高",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6583005"
+    },
+    {
+      "region": "TW",
+      "headline": "美上周初領失業金人數降至20.6萬 Fed下月更有理由按兵不動",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6582984"
+    },
+    {
+      "region": "TW",
+      "headline": "新創看上北士科？卓揆指示國科會研議設TTA基地 搶攻AI與次世代通訊",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6582991"
@@ -13,26 +45,18 @@
     {
       "region": "TW",
       "headline": "平日住宿補助每人最高可領3700元 觀光署：9/1起刺激國旅商機",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6582942"
     },
     {
       "region": "TW",
-      "headline": "輝達伺服器轉運案調查出爐！美超微稱高層不知情 股價一度勁揚近6%",
-      "source": "鉅亨",
+      "headline": "鉅亨速報 - Factset 最新調查：旭隼(6409-TW)EPS預估上修至31.42元，預估目標價為1035元",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582995"
-    },
-    {
-      "region": "TW",
-      "headline": "美債賣成這樣也不用升息？戴莉稱Fed信譽未受威脅",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582990"
+      "link": "https://news.cnyes.com/news/id/6583008"
     },
     {
       "region": "TW",
@@ -41,30 +65,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6582905"
-    },
-    {
-      "region": "TW",
-      "headline": "安克生醫攜台大醫院完成千人研究 鎖定睡眠呼吸中止症健檢商機",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6576794"
-    },
-    {
-      "region": "TW",
-      "headline": "續升綠能攜手天鷹資本 簽署20年26.3MW綠電採購協議",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582837"
-    },
-    {
-      "region": "TW",
-      "headline": "潤德2026年上半年EPS達9.51元 在手工程訂單達59億元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582770"
     }
   ]
 }
