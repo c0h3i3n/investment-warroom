@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-20T22:37:49.479270+00:00",
-  "generatedAt": "2026-08-20T22:37:49.479270+00:00",
+  "timestamp": "2026-08-20T23:34:26.187582+00:00",
+  "generatedAt": "2026-08-20T23:34:26.187582+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,6 +36,14 @@
     },
     {
       "region": "TW",
+      "headline": "〈台股盤前要聞〉低量收復季線拚4萬5關卡、7月外銷訂單近千億美元創新高",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6577303"
+    },
+    {
+      "region": "TW",
       "headline": "新創看上北士科？卓揆指示國科會研議設TTA基地 搶攻AI與次世代通訊",
       "source": "台股",
       "time": "--:--",
@@ -57,14 +65,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6583008"
-    },
-    {
-      "region": "TW",
-      "headline": "聯亞7月受惠矽光產品出貨放量 單月獲利EPS 2.07元、年增近5倍",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582905"
     }
   ]
 }
