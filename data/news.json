@@ -1,7 +1,31 @@
 {
-  "timestamp": "2026-08-20T20:39:22.139157+00:00",
-  "generatedAt": "2026-08-20T20:39:22.139157+00:00",
+  "timestamp": "2026-08-20T21:37:00.604901+00:00",
+  "generatedAt": "2026-08-20T21:37:00.604901+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "貝森特救債市反逼Fed升息？華許「看球論」被打亂",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6583090"
+    },
+    {
+      "region": "TW",
+      "headline": "輝達中國市場要回來了？傳新款AI晶片最快年底出貨",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6583089"
+    },
+    {
+      "region": "TW",
+      "headline": "美元要走弱了？花旗突然轉空 3個月美元指數目標砍至98.34",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6583077"
+    },
     {
       "region": "TW",
       "headline": "不用重啟大規模攻勢？貝森特揚言靠制裁壓垮伊朗",
@@ -9,30 +33,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6583039"
-    },
-    {
-      "region": "TW",
-      "headline": "Switch 2賣不動了？美國銷量腰斬 主機市場迎疫情來最慘7月",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6583006"
-    },
-    {
-      "region": "TW",
-      "headline": "貝森特省下2億美元卻埋更大風險？華爾街警告美債成本恐更高",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6583005"
-    },
-    {
-      "region": "TW",
-      "headline": "美上周初領失業金人數降至20.6萬 Fed下月更有理由按兵不動",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582984"
     },
     {
       "region": "TW",
