@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-20T04:46:59.837536+00:00",
-  "generatedAt": "2026-08-20T04:46:59.837536+00:00",
+  "timestamp": "2026-08-20T05:39:32.785328+00:00",
+  "generatedAt": "2026-08-20T05:39:32.785328+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,35 +36,19 @@
     },
     {
       "region": "TW",
-      "headline": "中元中秋加開學「油」夠緊張！經部急祭3招補缺口 大統益、台糖和長輝全線增產",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582396"
-    },
-    {
-      "region": "TW",
-      "headline": "美伊僵局推升油價、美債殖利率飆高！ 13F報告揭橋水、哈佛、ARK最新持股， 3招學聰明錢換股！",
+      "headline": "SK海力士砸大錢買自家股 台記憶體族群同步飆漲",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6582400"
+      "link": "https://news.cnyes.com/news/id/6582452"
     },
     {
       "region": "TW",
-      "headline": "聚焦矽智財與AI 櫃買中心邀14家上櫃精銳發表業績 力旺、家登與萬潤登場",
+      "headline": "研華攜手產業夥伴 邊緣AI串聯智慧物流與零售營運",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582382"
-    },
-    {
-      "region": "TW",
-      "headline": "華航搶高端客 歐紐澳航線9月起推商務艙新餐具",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582381"
+      "link": "https://news.cnyes.com/news/id/6582442"
     }
   ]
 }
