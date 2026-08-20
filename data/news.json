@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-20T14:47:56.968611+00:00",
-  "generatedAt": "2026-08-20T14:47:56.968611+00:00",
+  "timestamp": "2026-08-20T15:43:05.589265+00:00",
+  "generatedAt": "2026-08-20T15:43:05.589265+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "投資人不買單？Shein港股上市推遲至9月1日 估值縮水逾七成",
+      "headline": "新創看上北士科？卓揆指示國科會研議設TTA基地 搶攻AI與次世代通訊",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582838"
+      "link": "https://news.cnyes.com/news/id/6582991"
     },
     {
       "region": "TW",
-      "headline": "泡泡瑪特上半年營收171.7億元人民幣 熱門IP「星星人」增速超580%",
+      "headline": "平日住宿補助每人最高可領3700元 觀光署：9/1起刺激國旅商機",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582760"
+      "link": "https://news.cnyes.com/news/id/6582942"
     },
     {
       "region": "TW",
-      "headline": "續升綠能攜手天鷹資本 簽署20年26.3MW綠電採購協議",
+      "headline": "輝達伺服器轉運案調查出爐！美超微稱高層不知情 股價一度勁揚近6%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582837"
+      "link": "https://news.cnyes.com/news/id/6582995"
     },
     {
       "region": "TW",
-      "headline": "莫德納因癌症疫苗突破性進展飆升177%後 華爾街如何評價後市？",
+      "headline": "美債賣成這樣也不用升息？戴莉稱Fed信譽未受威脅",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6582676"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6582990"
     },
     {
       "region": "TW",
@@ -49,6 +49,14 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6576794"
+    },
+    {
+      "region": "TW",
+      "headline": "續升綠能攜手天鷹資本 簽署20年26.3MW綠電採購協議",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6582837"
     },
     {
       "region": "TW",
