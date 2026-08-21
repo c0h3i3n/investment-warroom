@@ -1,7 +1,31 @@
 {
-  "timestamp": "2026-08-21T18:50:23.831918+00:00",
-  "generatedAt": "2026-08-21T18:50:23.831918+00:00",
+  "timestamp": "2026-08-21T19:32:23.727399+00:00",
+  "generatedAt": "2026-08-21T19:32:23.727399+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "美國債務危機最快一年後爆發？達里歐喊賣債券、買黃金",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6584076"
+    },
+    {
+      "region": "TW",
+      "headline": "長江存儲母公司申請上海科創板IPO 擬籌資49億美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6584030"
+    },
+    {
+      "region": "TW",
+      "headline": "AI晶片不只拚效能！博通籌800億美元 與輝達展開資本軍備競賽",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6584060"
+    },
     {
       "region": "TW",
       "headline": "貝森特愈來愈像川普！美債市場的耐心快沒了",
@@ -9,30 +33,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6584017"
-    },
-    {
-      "region": "TW",
-      "headline": "美股還能再漲6%！瑞銀喊標普500年底攻上8100點",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6584011"
-    },
-    {
-      "region": "TW",
-      "headline": "演算法停權惹禍！荷蘭認定Uber侵犯駕駛權益 重罰9.66億美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584010"
-    },
-    {
-      "region": "TW",
-      "headline": "衰退擔憂降溫！美國8月商業活動創逾四年最快 Q3經濟成長率上看3%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584007"
     },
     {
       "region": "TW",
