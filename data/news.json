@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-21T04:49:20.720935+00:00",
-  "generatedAt": "2026-08-21T04:49:20.720935+00:00",
+  "timestamp": "2026-08-21T05:41:19.836358+00:00",
+  "generatedAt": "2026-08-21T05:41:19.836358+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,27 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "搶進日本上兆元創新生態系！國發會東京新基地啟用 席位「倍僧」助打國際盃",
+      "headline": "陸製張雪機車分拆輸台放話「查一輛送一輛」 經濟部4點聲明強硬反擊",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6582528"
+      "link": "https://news.cnyes.com/news/id/6583443"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉美食-KY獲利動能轉好 Q2 EPS創5年單季新高 亮漲停燈",
+      "headline": "〈焦點股〉世紀*填權行情噴出 搭上無人載具行情拉出第6根漲停逾4萬張委買",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6583343"
+      "link": "https://news.cnyes.com/news/id/6582333"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉高端腸病毒71型疫苗展望正面全年有望轉盈 價量齊揚",
+      "headline": "鉅亨速報 - Factset 最新調查：貿聯-KY(3665-TW)EPS預估上修至66.09元，預估目標價為3125元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6581003"
+      "link": "https://news.cnyes.com/news/id/6583462"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：中鋼(2002-TW)EPS預估上修至0.15元，預估目標價為22元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6583461"
     }
   ]
 }
