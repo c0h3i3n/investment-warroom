@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-21T08:52:35.732365+00:00",
-  "generatedAt": "2026-08-21T08:52:35.732365+00:00",
+  "timestamp": "2026-08-21T09:47:35.986345+00:00",
+  "generatedAt": "2026-08-21T09:47:35.986345+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,35 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "陸製張雪機車分拆輸台放話「查一輛送一輛」 經濟部4點聲明強硬反擊",
+      "headline": "沒用載具虧大了？財部「加碼」每期雲端發票500元獎多50萬組",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6583443"
+      "link": "https://news.cnyes.com/news/id/6583658"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉世紀*填權行情噴出 搭上無人載具行情拉出第6根漲停逾4萬張委買",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6582333"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：貿聯-KY(3665-TW)EPS預估上修至66.09元，預估目標價為3125元",
+      "headline": "〈房產〉全台前10低空屋率區域都在雙北 並以南港、泰山價量最具韌性",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6583462"
+      "link": "https://news.cnyes.com/news/id/6583641"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：中鋼(2002-TW)EPS預估上修至0.15元，預估目標價為22元",
+      "headline": "2026年上半年全球電視出貨量年增1.3% 品牌兩極化加劇 RGB Mini LED商業化邁步",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6583461"
+      "link": "https://news.cnyes.com/news/id/6583619"
+    },
+    {
+      "region": "TW",
+      "headline": "〈房產〉槓桿開大 全台雙貸族衝42.3萬人創新高 每百名房貸族近19人也揹信貸",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6583587"
     }
   ]
 }
