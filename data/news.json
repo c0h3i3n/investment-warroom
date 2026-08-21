@@ -1,70 +1,54 @@
 {
-  "timestamp": "2026-08-21T11:35:06.845603+00:00",
-  "generatedAt": "2026-08-21T11:35:06.845603+00:00",
+  "timestamp": "2026-08-21T13:04:46.203449+00:00",
+  "generatedAt": "2026-08-21T13:04:46.203449+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "隨著「聰明錢」撤離 美股AI記憶體四巨頭已回檔20-30%",
+      "headline": "貝森特的彈藥夠用嗎？美債殖利率再飆恐逼Fed進場",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6583919"
+    },
+    {
+      "region": "TW",
+      "headline": "美時與Alvotech簽署授權與商業化合作協議 於美國及亞洲市場推動兩項生物相似藥",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6583741"
+      "link": "https://news.cnyes.com/news/id/6583952"
     },
     {
       "region": "TW",
-      "headline": "鴻海增資子公司Q-Edge近60億元 強化美國製造布局",
+      "headline": "比特幣暴漲強襲7.8萬美元關卡 分析師：純粹消息面影響",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6583790"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6583854"
     },
     {
       "region": "TW",
-      "headline": "明年國防預算破兆創新高 賴清德三大面向感謝國人拚經濟增加稅收",
+      "headline": "美國揚言對伊朗發動經濟制裁 外資連買塑化股齊漲",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6583774"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6583927"
     },
     {
       "region": "TW",
-      "headline": "大陸 IPO案未竟全功 巨大決議擲近30億元買回鼎鎂36%股權",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6583779"
-    },
-    {
-      "region": "TW",
-      "headline": "沒用載具虧大了？財部「加碼」每期雲端發票500元獎多50萬組",
+      "headline": "〈房產〉自用需求不弱 7月五大銀行新承做房貸衝上1年新高",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6583658"
+      "link": "https://news.cnyes.com/news/id/6583920"
     },
     {
       "region": "TW",
-      "headline": "〈房產〉全台前10低空屋率區域都在雙北 並以南港、泰山價量最具韌性",
+      "headline": "Qnity首度以廠商亮相SEMICON Taiwan  9/2起展材料技術創新與整合專業",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6583641"
-    },
-    {
-      "region": "TW",
-      "headline": "2026年上半年全球電視出貨量年增1.3% 品牌兩極化加劇 RGB Mini LED商業化邁步",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6583619"
-    },
-    {
-      "region": "TW",
-      "headline": "〈房產〉槓桿開大 全台雙貸族衝42.3萬人創新高 每百名房貸族近19人也揹信貸",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6583587"
+      "link": "https://news.cnyes.com/news/id/6583883"
     }
   ]
 }
