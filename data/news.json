@@ -1,35 +1,51 @@
 {
-  "timestamp": "2026-08-21T16:46:16.948586+00:00",
-  "generatedAt": "2026-08-21T16:46:16.948586+00:00",
+  "timestamp": "2026-08-21T17:37:52.402224+00:00",
+  "generatedAt": "2026-08-21T17:37:52.402224+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "貝森特的彈藥夠用嗎？美債殖利率再飆恐逼Fed進場",
+      "headline": "貝森特愈來愈像川普！美債市場的耐心快沒了",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6584017"
+    },
+    {
+      "region": "TW",
+      "headline": "美股還能再漲6%！瑞銀喊標普500年底攻上8100點",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6583919"
+      "link": "https://news.cnyes.com/news/id/6584011"
+    },
+    {
+      "region": "TW",
+      "headline": "演算法停權惹禍！荷蘭認定Uber侵犯駕駛權益 重罰9.66億美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6584010"
+    },
+    {
+      "region": "TW",
+      "headline": "衰退擔憂降溫！美國8月商業活動創逾四年最快 Q3經濟成長率上看3%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6584007"
     },
     {
       "region": "TW",
       "headline": "美時與Alvotech簽署授權與商業化合作協議 於美國及亞洲市場推動兩項生物相似藥",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6583952"
     },
     {
       "region": "TW",
-      "headline": "比特幣暴漲強襲7.8萬美元關卡 分析師：純粹消息面影響",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6583854"
-    },
-    {
-      "region": "TW",
       "headline": "美國揚言對伊朗發動經濟制裁 外資連買塑化股齊漲",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6583927"
