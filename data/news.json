@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-22T03:02:39.799413+00:00",
-  "generatedAt": "2026-08-22T03:02:39.799413+00:00",
+  "timestamp": "2026-08-22T03:50:41.920476+00:00",
+  "generatedAt": "2026-08-22T03:50:41.920476+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,35 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "美時與Alvotech簽署授權與商業化合作協議 於美國及亞洲市場推動兩項生物相似藥",
+      "headline": "鉅亨速報 - Factset 最新調查：長榮(2603-TW)EPS預估上修至33.36元，預估目標價為237.5元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6583952"
+      "link": "https://news.cnyes.com/news/id/6584149"
     },
     {
       "region": "TW",
-      "headline": "美國揚言對伊朗發動經濟制裁 外資連買塑化股齊漲",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6583927"
-    },
-    {
-      "region": "TW",
-      "headline": "〈房產〉自用需求不弱 7月五大銀行新承做房貸衝上1年新高",
+      "headline": "鉅亨速報 - Factset 最新調查：世芯-KY(3661-TW)EPS預估上修至138.85元，預估目標價為6000元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6583920"
+      "link": "https://news.cnyes.com/news/id/6584148"
     },
     {
       "region": "TW",
-      "headline": "Qnity首度以廠商亮相SEMICON Taiwan  9/2起展材料技術創新與整合專業",
+      "headline": "鉅亨速報 - Factset 最新調查：文曄(3036-TW)EPS預估下修至26.41元，預估目標價為320元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6584147"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：群聯(8299-TW)EPS預估上修至402.74元，預估目標價為2750元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6583883"
+      "link": "https://news.cnyes.com/news/id/6584146"
     }
   ]
 }
