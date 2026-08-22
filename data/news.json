@@ -1,7 +1,31 @@
 {
-  "timestamp": "2026-08-22T09:36:08.863657+00:00",
-  "generatedAt": "2026-08-22T09:36:08.863657+00:00",
+  "timestamp": "2026-08-22T10:33:44.872048+00:00",
+  "generatedAt": "2026-08-22T10:33:44.872048+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "《日經》日本專利競爭力下滑！全球占比20年縮至8%、中國申請量已是美日韓歐1.3倍",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6584194"
+    },
+    {
+      "region": "TW",
+      "headline": "中美AI差距縮至2.7%！中國模型靠低價追趕美國、AI競賽從「比性能」轉向「比成本」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6584175"
+    },
+    {
+      "region": "TW",
+      "headline": "美加貿易談判破局！川普對加拿大部分商品加徵50%關稅、卡尼宣布報復",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6584187"
+    },
     {
       "region": "TW",
       "headline": "遺贈稅法修正三讀！取消30萬分期門檻、終止為人「買單」等6大關鍵懶人包",
@@ -12,16 +36,8 @@
     },
     {
       "region": "TW",
-      "headline": "油價逼近1個月新高衝擊科技股 資金爆輪動潮 法人點名下周4件大事",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584134"
-    },
-    {
-      "region": "TW",
       "headline": "單月外銷訂單逼近千億美元、明年普發現金1萬元、中信金法說 本周大事回顧",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6584068"
@@ -29,7 +45,7 @@
     {
       "region": "TW",
       "headline": "〈熱門股〉富喬上半年EPS達2.24元 外資單周買超45607張漲幅22%",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6584104"
