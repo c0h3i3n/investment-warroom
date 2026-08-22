@@ -1,70 +1,46 @@
 {
-  "timestamp": "2026-08-22T04:42:40.048865+00:00",
-  "generatedAt": "2026-08-22T04:42:40.048865+00:00",
+  "timestamp": "2026-08-22T05:36:30.177576+00:00",
+  "generatedAt": "2026-08-22T05:36:30.177576+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美光股價暴漲估值仍低：究竟是大宗商品還是AI強者？",
+      "headline": "遺贈稅法修正三讀！取消30萬分期門檻、終止為人「買單」等6大關鍵懶人包",
       "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6584102"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉金價飆破4600美元！3檔貴金屬ETF急拉 00708L周漲1成",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6584018"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉竑騰連飆2根漲停 下半年新產能挹注營運續強",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6583963"
-    },
-    {
-      "region": "TW",
-      "headline": "特斯拉股價為何跳漲？Robotaxi大戰拉斯維加斯開打 首年獲准部署多達5000輛",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6584087"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：長榮(2603-TW)EPS預估上修至33.36元，預估目標價為237.5元",
-      "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584149"
+      "link": "https://news.cnyes.com/news/id/6584160"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：世芯-KY(3661-TW)EPS預估上修至138.85元，預估目標價為6000元",
-      "source": "台股",
+      "headline": "油價逼近1個月新高衝擊科技股 資金爆輪動潮 法人點名下周4件大事",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584148"
+      "link": "https://news.cnyes.com/news/id/6584134"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：文曄(3036-TW)EPS預估下修至26.41元，預估目標價為320元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6584147"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：群聯(8299-TW)EPS預估上修至402.74元，預估目標價為2750元",
-      "source": "台股",
+      "headline": "單月外銷訂單逼近千億美元、明年普發現金1萬元、中信金法說 本周大事回顧",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584146"
+      "link": "https://news.cnyes.com/news/id/6584068"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉富喬上半年EPS達2.24元 外資單周買超45607張漲幅22%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6584104"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉立碁矽光子1.6T模組拚Q4出貨 外資買盤力挺周漲17%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6584067"
     }
   ]
 }
