@@ -1,7 +1,15 @@
 {
-  "timestamp": "2026-08-22T16:35:04.607196+00:00",
-  "generatedAt": "2026-08-22T16:35:04.607196+00:00",
+  "timestamp": "2026-08-22T17:30:00.293742+00:00",
+  "generatedAt": "2026-08-22T17:30:00.293742+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "OpenAI大砍GPT-5.6 Sol價格逾20%！正面迎戰Anthropic與中國AI",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6584252"
+    },
     {
       "region": "TW",
       "headline": "特斯拉Cybercab 9/3德州亮相！無方向盤Robotaxi上路在即  能否取代Model Y？",
@@ -25,14 +33,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6584202"
-    },
-    {
-      "region": "TW",
-      "headline": "《日經》日本專利競爭力下滑！全球占比20年縮至8%、中國申請量已是美日韓歐1.3倍",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584194"
     },
     {
       "region": "TW",
