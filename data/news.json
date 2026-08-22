@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-22T01:44:57.156494+00:00",
-  "generatedAt": "2026-08-22T01:44:57.156494+00:00",
+  "timestamp": "2026-08-22T03:02:39.799413+00:00",
+  "generatedAt": "2026-08-22T03:02:39.799413+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "貝森特突襲回購長債 川普撇清：「不是我下令的！」",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584094"
-    },
-    {
-      "region": "TW",
-      "headline": "伊朗總統：是時候結束美伊戰爭了！",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584086"
-    },
-    {
-      "region": "TW",
-      "headline": "川普稱美加協議「幾乎談妥」 汽車關稅可望由25%降至15%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584088"
-    },
-    {
-      "region": "TW",
-      "headline": "〈美股盤後〉美股止血反彈！道瓊漲逾500點 但高殖利率陰霾揮之不去 三大指數周線全黑",
+      "headline": "美光股價暴漲估值仍低：究竟是大宗商品還是AI強者？",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6583789"
+      "link": "https://news.cnyes.com/news/id/6584102"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉金價飆破4600美元！3檔貴金屬ETF急拉 00708L周漲1成",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6584018"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉竑騰連飆2根漲停 下半年新產能挹注營運續強",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6583963"
+    },
+    {
+      "region": "TW",
+      "headline": "特斯拉股價為何跳漲？Robotaxi大戰拉斯維加斯開打 首年獲准部署多達5000輛",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6584087"
     },
     {
       "region": "TW",
