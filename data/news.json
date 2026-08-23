@@ -1,19 +1,43 @@
 {
-  "timestamp": "2026-08-23T07:41:28.906412+00:00",
-  "generatedAt": "2026-08-23T07:41:28.906412+00:00",
+  "timestamp": "2026-08-23T08:42:14.118208+00:00",
+  "generatedAt": "2026-08-23T08:42:14.118208+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "Dan Ives看好AI記憶體股！供需比達15比1、所有人都得「付錢」",
+      "headline": "盤中速報 - FET大跌8.24%，報0.1549美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6584587"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 瑞波幣大跌8.27%，報1.4491美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6584586"
+    },
+    {
+      "region": "TW",
+      "headline": "七年來首次！阿里巴巴擬配售800億港元新股 全部投入AI建設",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584272"
+      "link": "https://news.cnyes.com/news/id/6584584"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - COTI大漲19.46%，報0.0128美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6584578"
     },
     {
       "region": "TW",
       "headline": "智易5G拉貨與Wi-Fi 7升級雙動能加持 下半年營運優於上半年",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6584072"
@@ -21,7 +45,7 @@
     {
       "region": "TW",
       "headline": "南下建立協同機制 迅得擬投資友上科技1.5億元拿下逾20%股權",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6584291"
@@ -29,7 +53,7 @@
     {
       "region": "TW",
       "headline": "矽晶圓終於翻身！徐秀蘭證實現貨、長約都上漲",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6583862"
