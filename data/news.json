@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-23T10:34:11.939915+00:00",
-  "generatedAt": "2026-08-23T10:34:11.939915+00:00",
+  "timestamp": "2026-08-23T11:30:01.769342+00:00",
+  "generatedAt": "2026-08-23T11:30:01.769342+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - FET大跌8.24%，報0.1549美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6584587"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 瑞波幣大跌8.27%，報1.4491美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6584586"
-    },
-    {
-      "region": "TW",
-      "headline": "七年來首次！阿里巴巴擬配售800億港元新股 全部投入AI建設",
+      "headline": "SemiAnalysis：NAND製造正「由鎢轉鉬」！「這些企業」有望受惠",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584584"
+      "link": "https://news.cnyes.com/news/id/6584594"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - COTI大漲19.46%，報0.0128美元",
+      "headline": "川普重倉方向曝光！6月狂交易逾千筆股票、買進近5000萬美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6584593"
+    },
+    {
+      "region": "TW",
+      "headline": "比特幣為何突然暴漲？能否突破8萬美元需觀察這「三項指標」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6584578"
+      "link": "https://news.cnyes.com/news/id/6584592"
+    },
+    {
+      "region": "TW",
+      "headline": "中國人形機器人出貨量稱霸全球！智元市占43.1%居冠、前5名全是中國業者",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6584203"
     },
     {
       "region": "TW",
