@@ -1,7 +1,23 @@
 {
-  "timestamp": "2026-08-23T21:30:16.676670+00:00",
-  "generatedAt": "2026-08-23T21:30:16.676670+00:00",
+  "timestamp": "2026-08-23T22:32:19.824055+00:00",
+  "generatedAt": "2026-08-23T22:32:19.824055+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "地緣緊張與獲利出場雙殺多頭！加密貨幣周末集體跳水 17.92萬人爆倉近9億美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6584636"
+    },
+    {
+      "region": "TW",
+      "headline": "〈走進中國〉中國紙尿褲公司樂舒適 在非洲稱王",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6584576"
+    },
     {
       "region": "TW",
       "headline": "達明協作機器人成功打進晶圓廠產線實作 新機器人明年起出貨",
@@ -20,16 +36,8 @@
     },
     {
       "region": "TW",
-      "headline": "印度對俄羅斯石油依賴衝到歷史新高 日進口量飆至260萬桶",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6584637"
-    },
-    {
-      "region": "TW",
       "headline": "〈熱門股〉受益AI光通訊需求、磷化銦漲價 IET-KY周漲22.5％站上所有均線",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6584625"
