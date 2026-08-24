@@ -1,62 +1,62 @@
 {
-  "timestamp": "2026-08-24T01:52:56.441384+00:00",
-  "generatedAt": "2026-08-24T01:52:56.441384+00:00",
+  "timestamp": "2026-08-24T03:12:29.564319+00:00",
+  "generatedAt": "2026-08-24T03:12:29.564319+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "地緣緊張與獲利出場雙殺多頭！加密貨幣周末集體跳水 17.92萬人爆倉近9億美元",
+      "headline": "〈台股開盤〉無量待變？台積電等權值股熄火 站穩4萬5小漲小跌整理",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584636"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6584917"
     },
     {
       "region": "TW",
-      "headline": "〈走進中國〉中國紙尿褲公司樂舒適 在非洲稱王",
+      "headline": "9秒32！深圳榮耀「閃電」機器人打破博爾特紀錄  峰值每秒14.5公尺重寫人類百米極限",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584576"
+      "link": "https://news.cnyes.com/news/id/6584907"
+    },
+    {
+      "region": "TW",
+      "headline": "美國變了！加總理強硬掀桌  專家：卡尼藏有兩張王牌 墨國恐成美加關稅戰直接受害者",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6584659"
+    },
+    {
+      "region": "TW",
+      "headline": "國際金價連漲三周站上4600美元 反彈還是反轉？",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6584652"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：臻鼎-KY(4958-TW)EPS預估下修至13.93元，預估目標價為685元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6584725"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：仁寶(2324-TW)EPS預估上修至2.17元，預估目標價為40元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6584724"
     },
     {
       "region": "TW",
       "headline": "達明協作機器人成功打進晶圓廠產線實作 新機器人明年起出貨",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6584657"
-    },
-    {
-      "region": "TW",
-      "headline": "本週操盤筆記：輝達財報、華許演說與PCE三大關卡來了",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6583974"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉受益AI光通訊需求、磷化銦漲價 IET-KY周漲22.5％站上所有均線",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6584625"
-    },
-    {
-      "region": "TW",
-      "headline": "智易5G拉貨與Wi-Fi 7升級雙動能加持 下半年營運優於上半年",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584072"
-    },
-    {
-      "region": "TW",
-      "headline": "南下建立協同機制 迅得擬投資友上科技1.5億元拿下逾20%股權",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584291"
     }
   ]
 }
