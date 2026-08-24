@@ -1,70 +1,54 @@
 {
-  "timestamp": "2026-08-24T10:47:51.511893+00:00",
-  "generatedAt": "2026-08-24T10:47:51.511893+00:00",
+  "timestamp": "2026-08-24T11:37:51.224457+00:00",
+  "generatedAt": "2026-08-24T11:37:51.224457+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "缺工仍為產業界最大痛點 工總白皮書建議移工年限延長、參考日韓2國經驗",
+      "headline": "散戶風向降溫 7月證券劃撥存款餘額創4個月低 減額超過2000億元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585291"
+      "link": "https://news.cnyes.com/news/id/6585478"
     },
     {
       "region": "TW",
-      "headline": "中國定調今年下半年增量政策：2兆人民幣國債待發、3000億補資本、財金協同再升級",
+      "headline": "高端次世代多價型腸病毒疫苗啟動雙軌策略 結盟國內外三大夥伴",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584926"
+      "link": "https://news.cnyes.com/news/id/6585469"
     },
     {
       "region": "TW",
-      "headline": "〈港股盤後〉阿里重挫領跌 恒指低開低走下跌1.89%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6585304"
-    },
-    {
-      "region": "TW",
-      "headline": "〈房產〉又見建商砸3億元買下幼兒園 全台近年至少8處幼兒園址轉手",
+      "headline": "阿里巴巴完成百億美元現增 隨即發表Wan3.0 AI影片生成模型",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585280"
+      "link": "https://news.cnyes.com/news/id/6585407"
     },
     {
       "region": "TW",
-      "headline": "明年基本工資3萬 工總：支持幫員工加薪、提建言籲政府不應獨厚半導體忽略傳產",
+      "headline": "「三芯齊發」！小米發表首款AI旗艦SoC晶片「玄戒O3」 央視按讚：中國晶片產業再突破",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6585307"
+    },
+    {
+      "region": "TW",
+      "headline": "零股族注意！12/7起與整股同步9點開盤 櫃買提醒「開盤價」可能不同",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585152"
+      "link": "https://news.cnyes.com/news/id/6585412"
     },
     {
       "region": "TW",
-      "headline": "泵浦重油洩漏引燃！大林煉油廠深夜火警已撲滅 中油緊急調度確保用油無虞",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6585131"
-    },
-    {
-      "region": "TW",
-      "headline": "散裝航運旺季將至 估運價有望維持高檔至年底",
+      "headline": "欣技新品、AI及軟體服務三引擎啟動 迎新一波產品週期",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585119"
-    },
-    {
-      "region": "TW",
-      "headline": "柏承南通新廠趕上光模塊mSAP製程需求 下半年也不看淡",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585086"
+      "link": "https://news.cnyes.com/news/id/6585409"
     }
   ]
 }
