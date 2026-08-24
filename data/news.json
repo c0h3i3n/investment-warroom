@@ -1,54 +1,70 @@
 {
-  "timestamp": "2026-08-24T14:53:26.615364+00:00",
-  "generatedAt": "2026-08-24T14:53:26.615364+00:00",
+  "timestamp": "2026-08-24T15:50:18.223422+00:00",
+  "generatedAt": "2026-08-24T15:50:18.223422+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "散戶風向降溫 7月證券劃撥存款餘額創4個月低 減額超過2000億元",
+      "headline": "美加真的撕破臉了！川普揚言加拿大汽車關稅翻倍至50%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585478"
+      "link": "https://news.cnyes.com/news/id/6585656"
     },
     {
       "region": "TW",
-      "headline": "高端次世代多價型腸病毒疫苗啟動雙軌策略 結盟國內外三大夥伴",
+      "headline": "鉅亨速報 - Factset 最新調查：諾布爾公司(NE-US)EPS預估下修至0.58元，預估目標價為45.00元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6585646"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：Coinbase Global Inc - Class ACOIN-US的目標價調升至199元，幅度約3.92%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585469"
+      "link": "https://news.cnyes.com/news/id/6585645"
     },
     {
       "region": "TW",
-      "headline": "阿里巴巴完成百億美元現增 隨即發表Wan3.0 AI影片生成模型",
+      "headline": "盤中速報 - MongoDB公司(MDB-US)大跌5.18%，報408美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585407"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6585644"
     },
     {
       "region": "TW",
-      "headline": "「三芯齊發」！小米發表首款AI旗艦SoC晶片「玄戒O3」 央視按讚：中國晶片產業再突破",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6585307"
-    },
-    {
-      "region": "TW",
-      "headline": "零股族注意！12/7起與整股同步9點開盤 櫃買提醒「開盤價」可能不同",
+      "headline": "32萬股東注意！00940月配息調高至0.055元 創掛牌新高",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585412"
+      "link": "https://news.cnyes.com/news/id/6585593"
     },
     {
       "region": "TW",
-      "headline": "欣技新品、AI及軟體服務三引擎啟動 迎新一波產品週期",
+      "headline": "連8年全球醫療照護指數奪第一 卓揆挺生醫：打造半導體之外「護國群體」",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585409"
+      "link": "https://news.cnyes.com/news/id/6585576"
+    },
+    {
+      "region": "TW",
+      "headline": "〈富邦金法說〉韓蔚廷：北富銀上半年AI、半導體放款增逾2成 榮景看至明年H1",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6585538"
+    },
+    {
+      "region": "TW",
+      "headline": "鴻海科技日10/30登場規模擴大 首次發出中英雙語邀請函藏巧思",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6585565"
     }
   ]
 }
