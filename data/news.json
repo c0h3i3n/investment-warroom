@@ -1,62 +1,46 @@
 {
-  "timestamp": "2026-08-24T03:12:29.564319+00:00",
-  "generatedAt": "2026-08-24T03:12:29.564319+00:00",
+  "timestamp": "2026-08-24T04:55:48.774104+00:00",
+  "generatedAt": "2026-08-24T04:55:48.774104+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈台股開盤〉無量待變？台積電等權值股熄火 站穩4萬5小漲小跌整理",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6584917"
-    },
-    {
-      "region": "TW",
-      "headline": "9秒32！深圳榮耀「閃電」機器人打破博爾特紀錄  峰值每秒14.5公尺重寫人類百米極限",
+      "headline": "明年基本工資3萬 工總：支持幫員工加薪、提建言籲政府不應獨厚半導體忽略傳產",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584907"
+      "link": "https://news.cnyes.com/news/id/6585152"
     },
     {
       "region": "TW",
-      "headline": "美國變了！加總理強硬掀桌  專家：卡尼藏有兩張王牌 墨國恐成美加關稅戰直接受害者",
+      "headline": "泵浦重油洩漏引燃！大林煉油廠深夜火警已撲滅 中油緊急調度確保用油無虞",
       "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584659"
-    },
-    {
-      "region": "TW",
-      "headline": "國際金價連漲三周站上4600美元 反彈還是反轉？",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6584652"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：臻鼎-KY(4958-TW)EPS預估下修至13.93元，預估目標價為685元",
-      "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6584725"
+      "link": "https://news.cnyes.com/news/id/6585131"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：仁寶(2324-TW)EPS預估上修至2.17元，預估目標價為40元",
-      "source": "台股",
+      "headline": "散裝航運旺季將至 估運價有望維持高檔至年底",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584724"
+      "link": "https://news.cnyes.com/news/id/6585119"
     },
     {
       "region": "TW",
-      "headline": "達明協作機器人成功打進晶圓廠產線實作 新機器人明年起出貨",
+      "headline": "AI關鍵材料又告急 「這種氣體」價格暴漲28%仍不夠賣",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6585132"
+    },
+    {
+      "region": "TW",
+      "headline": "柏承南通新廠趕上光模塊mSAP製程需求 下半年也不看淡",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584657"
+      "link": "https://news.cnyes.com/news/id/6585086"
     }
   ]
 }
