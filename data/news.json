@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-24T16:50:23.034387+00:00",
-  "generatedAt": "2026-08-24T16:50:23.034387+00:00",
+  "timestamp": "2026-08-24T17:38:47.526627+00:00",
+  "generatedAt": "2026-08-24T17:38:47.526627+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美加真的撕破臉了！川普揚言加拿大汽車關稅翻倍至50%",
+      "headline": "川習會前貿易戰恐再升溫！川普擬加徵7.5%關稅 對中國新增稅率拉回20%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585656"
+      "link": "https://news.cnyes.com/news/id/6585688"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：諾布爾公司(NE-US)EPS預估下修至0.58元，預估目標價為45.00元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6585646"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：Coinbase Global Inc - Class ACOIN-US的目標價調升至199元，幅度約3.92%",
+      "headline": "美股輪動迎兩大壓力測試：輝達、Fed華許",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585645"
+      "link": "https://news.cnyes.com/news/id/6585238"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - MongoDB公司(MDB-US)大跌5.18%，報408美元",
+      "headline": "1兆美元AI晶片大戰開打！輝達霸主地位遭挑戰 台積電成勝負關鍵",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6585644"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6585590"
+    },
+    {
+      "region": "TW",
+      "headline": "比特幣直逼8萬美元！三天狂飆逾20% 加密空頭爆倉40億美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6585657"
     },
     {
       "region": "TW",
@@ -57,14 +57,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6585538"
-    },
-    {
-      "region": "TW",
-      "headline": "鴻海科技日10/30登場規模擴大 首次發出中英雙語邀請函藏巧思",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585565"
     }
   ]
 }
