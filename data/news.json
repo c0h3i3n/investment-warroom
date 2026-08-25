@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-25T16:49:33.456208+00:00",
-  "generatedAt": "2026-08-25T16:49:33.456208+00:00",
+  "timestamp": "2026-08-25T17:39:27.770705+00:00",
+  "generatedAt": "2026-08-25T17:39:27.770705+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "馬雲連日增持 與管理層合計買入阿里巴巴8億港元",
+      "headline": "美國8月消費者信心降至7個月低點 新屋銷售大減10.5%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6586646"
+      "link": "https://news.cnyes.com/news/id/6586723"
     },
     {
       "region": "TW",
-      "headline": "輝達財報預熱：市場不缺「超預期」 缺的是Rubin、循環融資與遠期市場份額三大底牌",
+      "headline": "鉅亨速報 - Factset 最新調查：金田(GFI-US)EPS預估上修至5.19元，預估目標價為46.00元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6584641"
+      "link": "https://news.cnyes.com/news/id/6586778"
     },
     {
       "region": "TW",
-      "headline": "高盛：大型投資人對AI投資有分歧 但均瘋狂湧入金融股",
+      "headline": "鉅亨速報 - Factset 最新調查：網路應用NTAP-US的目標價調升至190元，幅度約4.11%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6586487"
+      "link": "https://news.cnyes.com/news/id/6586777"
     },
     {
       "region": "TW",
-      "headline": "奧丁丁H1毛利率升至15.3% 首度曝光：攜手臺銀打通Web3.0「跨境發薪」",
+      "headline": "盤中速報 - CDW Corp(CDW-US)大漲5%，報138.43美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6586596"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6586774"
     },
     {
       "region": "TW",
