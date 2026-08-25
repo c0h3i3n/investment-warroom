@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-25T07:02:34.599668+00:00",
-  "generatedAt": "2026-08-25T07:02:34.599668+00:00",
+  "timestamp": "2026-08-25T07:53:10.756581+00:00",
+  "generatedAt": "2026-08-25T07:53:10.756581+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,35 +36,11 @@
     },
     {
       "region": "TW",
-      "headline": "〈台經院看景氣〉7月製造業營業氣候創4年半來新高 多數業者仍看好未來半年",
+      "headline": "鉅亨速報 - Factset 最新調查：美利達(9914-TW)EPS預估下修至4.92元，預估目標價為95.5元",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6586002"
-    },
-    {
-      "region": "TW",
-      "headline": "ETF再添新兵！掌握高科技與美債轉折 統一股債傘型00411A與00987D櫃買雙掛牌",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6586000"
-    },
-    {
-      "region": "TW",
-      "headline": "〈焦點股〉富邦金淨值暴增、股利展望樂觀 大漲近7%再戰新高",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6585995"
-    },
-    {
-      "region": "TW",
-      "headline": "國際BPH專家來台 益安加速微創醫材台灣上市同步啟動商業化準備工作",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585972"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6586211"
     }
   ]
 }
