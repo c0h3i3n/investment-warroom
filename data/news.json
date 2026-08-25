@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-25T22:38:00.312150+00:00",
-  "generatedAt": "2026-08-25T22:38:00.312150+00:00",
+  "timestamp": "2026-08-25T23:33:04.247452+00:00",
+  "generatedAt": "2026-08-25T23:33:04.247452+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - Cadence設計系統(CDNS-US)大漲5.08%，報331.91美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6586826"
-    },
-    {
-      "region": "TW",
-      "headline": "Anthropic喊出逾30兆美元AI商機！IPO規模有望超越SpaceX",
+      "headline": "SpaceX斥資千億美元打造太空港 馬斯克：這座設施「只存在科幻小說」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6586800"
+      "link": "https://news.cnyes.com/news/id/6586853"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Zscaler公司(ZS-US)大跌5.06%，報167.14美元",
+      "headline": "每小時80%綠電！AI算力搶電網 西班牙擬祭最嚴水電與資安新規",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6586860"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：歐特培(UGP-US)EPS預估上修至0.7元，預估目標價為6.76元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6586874"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：Dick s體育用品(DKS-US)EPS預估下修至14.05元，預估目標價為245.00元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6586815"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 拳王幣大漲17.15%，報0.265美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6586814"
+      "link": "https://news.cnyes.com/news/id/6586873"
     },
     {
       "region": "TW",
