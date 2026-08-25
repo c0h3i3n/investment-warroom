@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-25T01:46:42.045760+00:00",
-  "generatedAt": "2026-08-25T01:46:42.045760+00:00",
+  "timestamp": "2026-08-25T03:08:08.828083+00:00",
+  "generatedAt": "2026-08-25T03:08:08.828083+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,35 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "1兆美元AI晶片大戰開打！輝達霸主地位遭挑戰 台積電成勝負關鍵",
+      "headline": "〈台經院看景氣〉7月製造業營業氣候創4年半來新高 多數業者仍看好未來半年",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585590"
+      "link": "https://news.cnyes.com/news/id/6586002"
     },
     {
       "region": "TW",
-      "headline": "32萬股東注意！00940月配息調高至0.055元 創掛牌新高",
+      "headline": "ETF再添新兵！掌握高科技與美債轉折 統一股債傘型00411A與00987D櫃買雙掛牌",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585593"
+      "link": "https://news.cnyes.com/news/id/6586000"
     },
     {
       "region": "TW",
-      "headline": "連8年全球醫療照護指數奪第一 卓揆挺生醫：打造半導體之外「護國群體」",
+      "headline": "〈焦點股〉富邦金淨值暴增、股利展望樂觀 大漲近7%再戰新高",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585576"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6585995"
     },
     {
       "region": "TW",
-      "headline": "〈富邦金法說〉韓蔚廷：北富銀上半年AI、半導體放款增逾2成 榮景看至明年H1",
+      "headline": "國際BPH專家來台 益安加速微創醫材台灣上市同步啟動商業化準備工作",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6585538"
+      "link": "https://news.cnyes.com/news/id/6585972"
     }
   ]
 }
