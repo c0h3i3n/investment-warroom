@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-25T08:53:55.875438+00:00",
-  "generatedAt": "2026-08-25T08:53:55.875438+00:00",
+  "timestamp": "2026-08-25T09:46:18.873337+00:00",
+  "generatedAt": "2026-08-25T09:46:18.873337+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,11 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：美利達(9914-TW)EPS預估下修至4.92元，預估目標價為95.5元",
+      "headline": "汽車板廠敬鵬1200張庫藏股提前買齊 每股買回均價41.65元",
       "source": "台股",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6586211"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6583253"
+    },
+    {
+      "region": "TW",
+      "headline": "八方雲集看純外帶店成餐飲業新戰場 將以TOGO店插旗人流熱點",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6586365"
+    },
+    {
+      "region": "TW",
+      "headline": "〈彰銀法說〉海外放款飆26%！搶台商跨境商機：鳳凰城據點只等美方點頭 雪梨及多倫多已啟動",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6586340"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台幣〉量縮小貶1.4分收31.868元 靜待本周二件大事",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6586343"
     }
   ]
 }
