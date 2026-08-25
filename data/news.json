@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-24T23:30:15.596468+00:00",
-  "generatedAt": "2026-08-24T23:30:15.596468+00:00",
+  "timestamp": "2026-08-25T01:46:42.045760+00:00",
+  "generatedAt": "2026-08-25T01:46:42.045760+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "中國飛彈技術再突破 可攻擊數千公里外軍機",
+      "headline": "特斯拉Cybercab 9/3登場 Robotaxi押注升溫",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6585724"
+    },
+    {
+      "region": "TW",
+      "headline": "〈貴金屬盤後〉美回購長債效應 金價突破4600美元 聚焦CPI和傑克森洞年會",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6585618"
+      "link": "https://news.cnyes.com/news/id/6585713"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：Grupo Aeroportuario Del Pacifico SAB de CV - ADR(PAC-US)EPS預…",
+      "headline": "美元暴跌與資產拋售「接踵而至」？美銀警告：貝森特需壓住長端利率",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6585718"
+      "link": "https://news.cnyes.com/news/id/6585006"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：泛美銀礦(PAAS-US)EPS預估下修至3.45元，預估目標價為65.00元",
+      "headline": "長江存儲49億美元IPO來勢洶洶 美光怕不怕？HBM成關鍵防線",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6585717"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - Ethena大跌8.45%，報0.15美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6585711"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6585636"
     },
     {
       "region": "TW",
