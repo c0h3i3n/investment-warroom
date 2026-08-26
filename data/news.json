@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-08-26T01:52:23.718092+00:00",
-  "generatedAt": "2026-08-26T01:52:23.718092+00:00",
+  "timestamp": "2026-08-26T03:14:06.711493+00:00",
+  "generatedAt": "2026-08-26T03:14:06.711493+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "SpaceX斥資千億美元打造太空港 馬斯克：這座設施「只存在科幻小說」",
+      "headline": "川普連曬三張與金正恩合照 再次釋出對話信號",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6586853"
+      "link": "https://news.cnyes.com/news/id/6586664"
     },
     {
       "region": "TW",
-      "headline": "每小時80%綠電！AI算力搶電網 西班牙擬祭最嚴水電與資安新規",
+      "headline": "OpenAI高階主管出走潮又一人！資料中心主管Malone離職",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6586860"
+      "link": "https://news.cnyes.com/news/id/6586876"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：歐特培(UGP-US)EPS預估上修至0.7元，預估目標價為6.76元",
+      "headline": "亞馬遜宣布：硬體裝置大幅漲價 智慧音箱大漲60%",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6586874"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6586943"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：Dick s體育用品(DKS-US)EPS預估下修至14.05元，預估目標價為245.00元",
+      "headline": "台股盤前｜大漲407點站回45,169點！台積電重回2,400元 RS動能與投本比鎖碼瀚荃、聯一光、富喬",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6586873"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6587112"
     },
     {
       "region": "TW",
-      "headline": "大立光第四度出手以30.8億元向科宏工業取得大面積工業地產",
+      "headline": "輝達財務前瞻重點",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6586689"
+      "link": "https://news.cnyes.com/news/id/6587016"
     },
     {
       "region": "TW",
-      "headline": "蘋果桌機全面升級！Mac mini首搭台積電2奈米M6晶片",
+      "headline": "【股市焦點】30年美債殖利率飆破5% 美財政部出手買回 新光證券：投資人下一步盯3大訊號",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6586366"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：長榮航(2618-TW)EPS預估上修至4.55元，預估目標價為47.75元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6586684"
-    },
-    {
-      "region": "TW",
-      "headline": "AI淘金熱燒不停 安聯00412A布局亞洲關鍵半導體「賣鏟人」",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6586479"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：義隆(2458-TW)EPS預估下修至9.35元，預估目標價為180元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6586615"
+      "link": "https://news.cnyes.com/news/id/6586921"
     }
   ]
 }
