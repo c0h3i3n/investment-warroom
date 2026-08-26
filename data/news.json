@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-26T10:46:35.738529+00:00",
-  "generatedAt": "2026-08-26T10:46:35.738529+00:00",
+  "timestamp": "2026-08-26T11:38:18.477894+00:00",
+  "generatedAt": "2026-08-26T11:38:18.477894+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,35 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "愛派司下半年營運將優於上半年 海外市場目標每年成長2成",
+      "headline": "〈華夏法說〉上半年受惠低價原料庫存轉虧為盈 Q3以減產保價維持獲利",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6587604"
+      "link": "https://news.cnyes.com/news/id/6587943"
     },
     {
       "region": "TW",
-      "headline": "台股帶量收復所有均線、外資回補365億 三大法人買超593.87億元",
+      "headline": "免費會計師輔導還送股號！櫃買創櫃板輔導逾600家 助9家新創升級上市櫃",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6587607"
+      "link": "https://news.cnyes.com/news/id/6587892"
     },
     {
       "region": "TW",
-      "headline": "還不換嗎？環部首度結盟momo 3大電商12家業者推照明「汰舊換新」優惠 省電省錢加抽獎",
+      "headline": "台灣大硬科技日9月8日登場 攜策略夥伴秀Agentic AI落地實力",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6587539"
+      "link": "https://news.cnyes.com/news/id/6587944"
     },
     {
       "region": "TW",
-      "headline": "鈺邦看好CAP取代MLCC機會增 到明年上半年擴產約7成",
+      "headline": "博大接單樂觀能見度達明年Q1 越南廠挹注全年產能增3成",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6587535"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6587860"
     }
   ]
 }
