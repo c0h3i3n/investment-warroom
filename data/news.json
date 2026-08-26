@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-26T03:14:06.711493+00:00",
-  "generatedAt": "2026-08-26T03:14:06.711493+00:00",
+  "timestamp": "2026-08-26T04:50:17.050885+00:00",
+  "generatedAt": "2026-08-26T04:50:17.050885+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,27 +36,35 @@
     },
     {
       "region": "TW",
-      "headline": "輝達財務前瞻重點",
+      "headline": "晶華甫獲米其林 攜手港名店推動國際餐飲交流",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6587016"
+      "link": "https://news.cnyes.com/news/id/6587440"
     },
     {
       "region": "TW",
-      "headline": "【股市焦點】30年美債殖利率飆破5% 美財政部出手買回 新光證券：投資人下一步盯3大訊號",
+      "headline": "〈焦點股〉輝達財報公布倒數、除權行情搶先發酵 緯穎衝6925元闖歷史新天價",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6587445"
+    },
+    {
+      "region": "TW",
+      "headline": "〈焦點股〉AI推動高階電子材料需求強勁 南亞亮燈漲停攻上200元大關",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6586366"
+      "link": "https://news.cnyes.com/news/id/6587434"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：長榮航(2618-TW)EPS預估上修至4.55元，預估目標價為47.75元",
+      "headline": "佳格鎖定兒童營養需求四大原則布局新產品並深入社區",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6586921"
+      "link": "https://news.cnyes.com/news/id/6587422"
     }
   ]
 }
