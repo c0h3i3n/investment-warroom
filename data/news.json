@@ -1,70 +1,70 @@
 {
-  "timestamp": "2026-08-26T16:25:08.329777+00:00",
-  "generatedAt": "2026-08-26T16:25:08.329777+00:00",
+  "timestamp": "2026-08-26T19:14:31.190015+00:00",
+  "generatedAt": "2026-08-26T19:14:31.190015+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "船過荷姆茲海峽恐得付錢！伊朗稱與阿曼談妥分潤",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6588047"
-    },
-    {
-      "region": "TW",
-      "headline": "美加貿易戰開打 多項民生物資面臨衝擊 衛生紙恐大漲？",
+      "headline": "美股還沒漲完！華爾街調查：標普500年底上看7900點",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6587889"
+      "link": "https://news.cnyes.com/news/id/6588029"
+    },
+    {
+      "region": "TW",
+      "headline": "摺疊iPhone真的來了！蘋果9月9日正式揭曉 特納斯迎執行長首秀",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6588237"
+    },
+    {
+      "region": "TW",
+      "headline": "白領、藍領都逃不掉！蓋茲示警AI淘汰人類速度前所未見「全球根本沒應對計畫」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6588177"
+    },
+    {
+      "region": "TW",
+      "headline": "Meta巨額和解不是利空？分析師：至少拆掉一顆未爆彈",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6588144"
+    },
+    {
+      "region": "TW",
+      "headline": "BTC會議落幕 國科會：智慧生技國家隊正式啟航全球布局",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6588068"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：慧洋-KY(2637-TW)EPS預估上修至9.26元，預估目標價為96元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6588138"
     },
     {
       "region": "TW",
       "headline": "台達電攜官田鋼建置80MW大型儲能系統 正式併網啟用",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6588050"
     },
     {
       "region": "TW",
-      "headline": "AI會駭網站、搶工作！比爾蓋茲擬11月見習近平 推動美中聯手設防",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6587965"
-    },
-    {
-      "region": "TW",
-      "headline": "〈華夏法說〉上半年受惠低價原料庫存轉虧為盈 Q3以減產保價維持獲利",
+      "headline": "中鋼電磁鋼捲RC30取得經部資源再生綠色產品認證 助拓歐盟市場",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6587943"
-    },
-    {
-      "region": "TW",
-      "headline": "免費會計師輔導還送股號！櫃買創櫃板輔導逾600家 助9家新創升級上市櫃",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6587892"
-    },
-    {
-      "region": "TW",
-      "headline": "台灣大硬科技日9月8日登場 攜策略夥伴秀Agentic AI落地實力",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6587944"
-    },
-    {
-      "region": "TW",
-      "headline": "博大接單樂觀能見度達明年Q1 越南廠挹注全年產能增3成",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6587860"
+      "link": "https://news.cnyes.com/news/id/6588031"
     }
   ]
 }
