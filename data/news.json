@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-08-26T08:55:54.427777+00:00",
-  "generatedAt": "2026-08-26T08:55:54.427777+00:00",
+  "timestamp": "2026-08-26T09:52:15.615564+00:00",
+  "generatedAt": "2026-08-26T09:52:15.615564+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "鈺邦看好CAP取代MLCC機會增 到明年上半年擴產約7成",
+      "headline": "〈台幣〉升貶互見收在31.818元 升值5分",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6587535"
+      "link": "https://news.cnyes.com/news/id/6587704"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 鈞寶(6155)急拉3.57%報56.0元，成交779張",
+      "headline": "〈港股盤後〉券商、半導體領漲 恒指收升0.56% 有色金屬強勢",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6587559"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6587695"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 弘凱(5244)急拉6.84%報35.15元，成交226張",
+      "headline": "輝達財報愈好股價愈難漲？連8季擊敗預期 6次隔日反下跌",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6587558"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6587674"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 國精化(4722)急拉5.21%報211.0元，成交780張",
+      "headline": "宇樹科技連跌5日 股價幾乎腰斬 市值蒸發2,056億",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6587557"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6587706"
     },
     {
       "region": "TW",
@@ -57,6 +57,14 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6587539"
+    },
+    {
+      "region": "TW",
+      "headline": "鈺邦看好CAP取代MLCC機會增 到明年上半年擴產約7成",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6587535"
     }
   ]
 }
