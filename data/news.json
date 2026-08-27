@@ -1,70 +1,54 @@
 {
-  "timestamp": "2026-08-26T23:22:16.299406+00:00",
-  "generatedAt": "2026-08-26T23:22:16.299406+00:00",
+  "timestamp": "2026-08-27T09:28:55.696302+00:00",
+  "generatedAt": "2026-08-27T09:28:55.696302+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美股還沒漲完！華爾街調查：標普500年底上看7900點",
+      "headline": "〈房產〉大繼承時代來到 全台去年逾1.12億元適用20%稅率遺產達721件",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6589100"
+    },
+    {
+      "region": "TW",
+      "headline": "日銀副總裁釋放鷹派訊號：將適時升息防止通膨超預期",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6588993"
+    },
+    {
+      "region": "TW",
+      "headline": "輝達毛利率前景明朗 高盛上調目標價至300美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6588029"
+      "link": "https://news.cnyes.com/news/id/6589059"
     },
     {
       "region": "TW",
-      "headline": "摺疊iPhone真的來了！蘋果9月9日正式揭曉 特納斯迎執行長首秀",
+      "headline": "家登估EUV Pod全年出貨增逾50% 下半年營運逐季走揚 亞利桑那新廠Q4啟動試產",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6588237"
+      "link": "https://news.cnyes.com/news/id/6589074"
     },
     {
       "region": "TW",
-      "headline": "白領、藍領都逃不掉！蓋茲示警AI淘汰人類速度前所未見「全球根本沒應對計畫」",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6588177"
-    },
-    {
-      "region": "TW",
-      "headline": "Meta巨額和解不是利空？分析師：至少拆掉一顆未爆彈",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6588144"
-    },
-    {
-      "region": "TW",
-      "headline": "BTC會議落幕 國科會：智慧生技國家隊正式啟航全球布局",
+      "headline": "凱美下半年訂單明朗 全年AI伺服器電阻出貨估倍增",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6588068"
+      "link": "https://news.cnyes.com/news/id/6589082"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：慧洋-KY(2637-TW)EPS預估上修至9.26元，預估目標價為96元",
+      "headline": "9月配息ETF首發！00939近一年漲逾7成、00400A單月漲逾1成，除息日與配息一次看",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6588138"
-    },
-    {
-      "region": "TW",
-      "headline": "台達電攜官田鋼建置80MW大型儲能系統 正式併網啟用",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6588050"
-    },
-    {
-      "region": "TW",
-      "headline": "中鋼電磁鋼捲RC30取得經部資源再生綠色產品認證 助拓歐盟市場",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6588031"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6589097"
     }
   ]
 }
