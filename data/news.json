@@ -1,54 +1,70 @@
 {
-  "timestamp": "2026-08-27T09:28:55.696302+00:00",
-  "generatedAt": "2026-08-27T09:28:55.696302+00:00",
+  "timestamp": "2026-08-27T20:19:29.570564+00:00",
+  "generatedAt": "2026-08-27T20:19:29.570564+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈房產〉大繼承時代來到 全台去年逾1.12億元適用20%稅率遺產達721件",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6589100"
-    },
-    {
-      "region": "TW",
-      "headline": "日銀副總裁釋放鷹派訊號：將適時升息防止通膨超預期",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6588993"
-    },
-    {
-      "region": "TW",
-      "headline": "輝達毛利率前景明朗 高盛上調目標價至300美元",
+      "headline": "盤中速報 - 費城半導體大漲2%，報11843.52點",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6589059"
+      "link": "https://news.cnyes.com/news/id/6589902"
     },
     {
       "region": "TW",
-      "headline": "家登估EUV Pod全年出貨增逾50% 下半年營運逐季走揚 亞利桑那新廠Q4啟動試產",
+      "headline": "盤中速報 - CDW Corp(CDW-US)大漲5.01%，報148.45美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6589900"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 莫德納(MRNA-US)大跌5.05%，報142.08美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6589884"
+    },
+    {
+      "region": "TW",
+      "headline": "川普又來了！安大略湖一夕變「美國湖」 加拿大氣炸",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6589074"
+      "link": "https://news.cnyes.com/news/id/6589766"
     },
     {
       "region": "TW",
-      "headline": "凱美下半年訂單明朗 全年AI伺服器電阻出貨估倍增",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6589082"
-    },
-    {
-      "region": "TW",
-      "headline": "9月配息ETF首發！00939近一年漲逾7成、00400A單月漲逾1成，除息日與配息一次看",
+      "headline": "漲價還降規？三星Galaxy S26 FE比前代更貴 處理器改採聯發科",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6589097"
+      "link": "https://news.cnyes.com/news/id/6589738"
+    },
+    {
+      "region": "TW",
+      "headline": "新創大利多！產創條例三讀：股票緩課稅上限衝千萬、天使輪與創投認列年限放寬至8年",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6589492"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：聯茂(6213-TW)目標價調升至600元，幅度約5.26%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6589524"
+    },
+    {
+      "region": "TW",
+      "headline": "〈第一金法說〉聯貸案「吸金」！搶攻供應鏈跨境商機 調高外幣放款年增目標至20%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6589398"
     }
   ]
 }
