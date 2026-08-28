@@ -1,70 +1,70 @@
 {
-  "timestamp": "2026-08-28T05:18:10.284881+00:00",
-  "generatedAt": "2026-08-28T05:18:10.284881+00:00",
+  "timestamp": "2026-08-28T18:34:22.737916+00:00",
+  "generatedAt": "2026-08-28T18:34:22.737916+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 欣興(3037)大跌7.2%，報1095元",
+      "headline": "美國救日元原來是在救自己？貝森特揭背後盤算",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6590539"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6591215"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 康聯訊(3672)急跌-3.21%報12.1元，成交11張",
+      "headline": "華許想讓市場忽略Fed發言？美債反應卻恰好相反",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6590538"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6591181"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 正能量智能(5348)急跌-3.21%報15.75元，成交6張",
+      "headline": "華許說了很多又像沒說？華爾街：Fed拒給方向 市場恐迎更大波動",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6590537"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6591137"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 雙鍵(4764)股價拉至漲停，漲停價250.5元，成交2,621張",
+      "headline": "AI成長引擎力抗能源危機！全球經濟意外展現韌性 過度集中卻成最大隱憂",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6589941"
+    },
+    {
+      "region": "TW",
+      "headline": "欣興指今遭檢調調查對財務及業務並沒有重大影響 外資砸42.77億元大買",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6590856"
+    },
+    {
+      "region": "TW",
+      "headline": "〈國泰金法說〉AI帶動企金放款強勁 國泰世華銀全年NIM展望樂觀上調",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6590536"
+      "link": "https://news.cnyes.com/news/id/6590851"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉營邦除息秀先蹲後跳 漲逾半根停板完成填息",
+      "headline": "成本與CBAM雙重壓力籠罩 華新9月調漲316產品每公噸5000元",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6590478"
+      "link": "https://news.cnyes.com/news/id/6590840"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：矽力-KY(6415-TW)EPS預估上修至10.54元，預估目標價為630元",
+      "headline": "鮮活果汁-KY在Q2賺回逾半個股本  上半年EPS達8.98元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6590483"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：台化(1326-TW)EPS預估上修至3.71元，預估目標價為80元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6590482"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：中鋼(2002-TW)EPS預估上修至0.16元，預估目標價為21.75元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6590481"
+      "link": "https://news.cnyes.com/news/id/6590839"
     }
   ]
 }
