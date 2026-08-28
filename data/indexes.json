@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-27T20:19:29.570564+00:00",
-  "generatedAt": "2026-08-27T20:19:29.570564+00:00",
+  "timestamp": "2026-08-28T05:18:10.284881+00:00",
+  "generatedAt": "2026-08-28T05:18:10.284881+00:00",
   "data": [
     {
       "id": "tai",
@@ -8,10 +8,10 @@
       "name": "加權指數 TAIEX",
       "region": "TW",
       "currency": "NT$",
-      "price": 45975.22,
-      "change": 142.6,
-      "changePct": 0.31,
-      "asOf": "2026-08-27T05:31:00+00:00",
+      "price": 46309.2,
+      "change": 333.98,
+      "changePct": 0.73,
+      "asOf": "2026-08-28T05:18:10+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -21,10 +21,10 @@
       "name": "OTC 櫃買指數",
       "region": "TW",
       "currency": "NT$",
-      "price": 400.38,
-      "change": 4.72,
-      "changePct": 1.19,
-      "asOf": "2026-08-27T05:33:00+00:00",
+      "price": 402.33,
+      "change": 1.95,
+      "changePct": 0.49,
+      "asOf": "2026-08-28T05:18:15+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -37,7 +37,7 @@
       "price": 7730.99,
       "change": 55.29,
       "changePct": 0.72,
-      "asOf": "2026-08-27T20:19:28+00:00",
+      "asOf": "2026-08-27T20:58:24+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -50,7 +50,7 @@
       "price": 26541.352,
       "change": 411.15,
       "changePct": 1.57,
-      "asOf": "2026-08-27T20:19:27+00:00",
+      "asOf": "2026-08-27T21:15:59+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -63,7 +63,7 @@
       "price": 11882.169,
       "change": 270.93,
       "changePct": 2.33,
-      "asOf": "2026-08-27T20:19:26+00:00",
+      "asOf": "2026-08-27T21:15:59+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
