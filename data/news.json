@@ -1,70 +1,70 @@
 {
-  "timestamp": "2026-08-29T02:05:28.769962+00:00",
-  "generatedAt": "2026-08-29T02:05:28.769962+00:00",
+  "timestamp": "2026-08-29T08:58:36.647571+00:00",
+  "generatedAt": "2026-08-29T08:58:36.647571+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "蘋果上調美國Apple TV與Apple One訂閱費 ",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6591285"
-    },
-    {
-      "region": "TW",
-      "headline": "邁威爾財測再上修 谷歌AI晶片合作六年商機上看1200億美元 唯後市胃口大 收挫逾10%",
+      "headline": "長鑫科技起訴美國國防部！中國最大DRAM廠提告、挑戰「1260H清單」列名",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6591317"
+      "link": "https://news.cnyes.com/news/id/6591460"
     },
     {
       "region": "TW",
-      "headline": "AI教父沒上榜？輝達營收飆106% 黃仁勳卻落選《時代》AI百大 市場質疑評選標準",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6591316"
-    },
-    {
-      "region": "TW",
-      "headline": "前Fed副主席：華許最終還是釋放升息前瞻指引",
+      "headline": "科技巨頭急抱民主黨大腿？Meta砸3000萬美元布局、憂共和黨失守眾院遭調查",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6591287"
+      "link": "https://news.cnyes.com/news/id/6591421"
     },
     {
       "region": "TW",
-      "headline": "欣興指今遭檢調調查對財務及業務並沒有重大影響 外資砸42.77億元大買",
-      "source": "台股",
+      "headline": "川普對委內瑞拉石油出手！掌控650億桶石油、美企擬進軍17座油田　盧比歐：雙贏",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6590856"
+      "link": "https://news.cnyes.com/news/id/6591422"
     },
     {
       "region": "TW",
-      "headline": "〈國泰金法說〉AI帶動企金放款強勁 國泰世華銀全年NIM展望樂觀上調",
+      "headline": "Fed古爾斯比力挺華許抗通膨！警告經濟過熱 通膨尚未脫離險境",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6591270"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉精材今明年營運旺 三大法人同步敲進周漲26%",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6590851"
+      "link": "https://news.cnyes.com/news/id/6591330"
     },
     {
       "region": "TW",
-      "headline": "成本與CBAM雙重壓力籠罩 華新9月調漲316產品每公噸5000元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6590840"
-    },
-    {
-      "region": "TW",
-      "headline": "鮮活果汁-KY在Q2賺回逾半個股本  上半年EPS達8.98元",
+      "headline": "〈熱門股〉松川精密獲AI需求助攻外資也力挺 股價收新天價327.5元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6590839"
+      "link": "https://news.cnyes.com/news/id/6591307"
+    },
+    {
+      "region": "TW",
+      "headline": "新創迎黃金期！產創條例修正3大亮點吸睛 4大會計為何搶按讚？一表看",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6591379"
+    },
+    {
+      "region": "TW",
+      "headline": "輝達財報+MSCI雙利多！台股兆元成交量再現 法人本周掃貨10檔ETF名單一次看",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6591180"
     }
   ]
 }
