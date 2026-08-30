@@ -1,70 +1,54 @@
 {
-  "timestamp": "2026-08-30T00:10:09.869624+00:00",
-  "generatedAt": "2026-08-30T00:10:09.869624+00:00",
+  "timestamp": "2026-08-30T06:31:50.607052+00:00",
+  "generatedAt": "2026-08-30T06:31:50.607052+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - DEXE大跌8.01%，報2.389美元",
+      "headline": "美國擬管制AI「算力」！中國AI透過海外數據中心租用輝達GB300、月之暗面遭點名",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6591738"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股風向球〉9月開局4萬6多空拔河 外資回流動能成行情一大關鍵",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6591702"
+    },
+    {
+      "region": "TW",
+      "headline": "OpenAI切斷Cursor AI模型供應！SpaceX收購後合作破局、馬斯克回嗆「我根本不在乎」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6591593"
+    },
+    {
+      "region": "TW",
+      "headline": "矽力-KY AI含金量升高 明年資料中心營收占比拚逾2成",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6591719"
+    },
+    {
+      "region": "TW",
+      "headline": "內外資齊力拱盤！法人：從權值股轉到中小型題材 台股Risk-on訊號亮燈",
+      "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6591634"
+      "link": "https://news.cnyes.com/news/id/6591635"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Moonriver大跌10.23%，報0.8美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6591633"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - COTI大漲11.03%，報0.0135美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6591632"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 達世幣大漲10.97%，報42美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6591631"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉精材今明年營運旺 三大法人同步敲進周漲26%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6591330"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉松川精密獲AI需求助攻外資也力挺 股價收新天價327.5元",
+      "headline": "品牌建商在公辦都更勝出 大直「儒玉」、「藏璽」分別由皇昌及長虹拿下",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6591307"
-    },
-    {
-      "region": "TW",
-      "headline": "新創迎黃金期！產創條例修正3大亮點吸睛 4大會計為何搶按讚？一表看",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6591379"
-    },
-    {
-      "region": "TW",
-      "headline": "輝達財報+MSCI雙利多！台股兆元成交量再現 法人本周掃貨10檔ETF名單一次看",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6591180"
+      "link": "https://news.cnyes.com/news/id/6591411"
     }
   ]
 }
