@@ -1,54 +1,38 @@
 {
-  "timestamp": "2026-08-30T23:24:45.157967+00:00",
-  "generatedAt": "2026-08-30T23:24:45.157967+00:00",
+  "timestamp": "2026-08-31T05:22:01.870215+00:00",
+  "generatedAt": "2026-08-31T05:22:01.870215+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "工總率團赴印簽6項MOU 鏈結電子供應鏈將交流走向實際落地",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6591841"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉外資連4買點讚 穩懋周漲17.69％站上所有均線",
+      "headline": "〈焦點股〉立碁登場SEMICON秀光模組1.6T技術 逆勢放量攻漲停",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6591832"
+      "link": "https://news.cnyes.com/news/id/6592555"
     },
     {
       "region": "TW",
-      "headline": "美國CIA局長密訪莫斯科！拋川普、普丁、澤倫斯基三方峰會、俄烏談判9月有望重啟?",
+      "headline": "捷流閥業大啖 AI 基建商機  半導體及高科技接單增至3-4成",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6591823"
+      "link": "https://news.cnyes.com/news/id/6592534"
     },
     {
       "region": "TW",
-      "headline": "新疆直通北冰洋 中國、俄羅斯、哈薩克有新構想",
+      "headline": "〈焦點股〉建準下半年營運看旺 亮燈漲停股價創今年高點",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6582497"
+    },
+    {
+      "region": "TW",
+      "headline": "〈SEMICON〉家登先進封裝載具增長雙位數 方圓規格通吃",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6591887"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股風向球〉9月開局4萬6多空拔河 外資回流動能成行情一大關鍵",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6591702"
-    },
-    {
-      "region": "TW",
-      "headline": "矽力-KY AI含金量升高 明年資料中心營收占比拚逾2成",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6591719"
+      "link": "https://news.cnyes.com/news/id/6568028"
     }
   ]
 }
