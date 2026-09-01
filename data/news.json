@@ -1,70 +1,46 @@
 {
-  "timestamp": "2026-09-01T04:56:41.177274+00:00",
-  "generatedAt": "2026-09-01T04:56:41.177274+00:00",
+  "timestamp": "2026-09-01T09:57:54.918518+00:00",
+  "generatedAt": "2026-09-01T09:57:54.918518+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "輝達搶貨、微軟谷歌搶單！HBM4良率持續承壓  現貨價格已高出長約價格4倍",
+      "headline": "群創首度發表Chip Last關鍵技術平台 預計2027年下半年量產",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6593195"
+      "link": "https://news.cnyes.com/news/id/6594233"
     },
     {
       "region": "TW",
-      "headline": "蘋果稱掌握新證據 OpenAI涉使用機密電路圖並滅證",
+      "headline": "最高漲1,000元！華為、小米、榮耀多款手機調價 機構料壓力延續至明年",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6594056"
+    },
+    {
+      "region": "TW",
+      "headline": "0901 台股盤後｜聯發科領軍台股狂飆 820 點，挑戰47000點大關！三大法人回補 561 億元，投本比 鎖碼玉晶光、臻鼎-KY、台勝科",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6594222"
+    },
+    {
+      "region": "TW",
+      "headline": "台積電供應鏈迅得8月營收6.11億元改寫歷年同期新高 年增15%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6593319"
+      "link": "https://news.cnyes.com/news/id/6594167"
     },
     {
       "region": "TW",
-      "headline": "美股標普500通常在9月下跌 今年可能不同？",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6593307"
-    },
-    {
-      "region": "TW",
-      "headline": "美債回購引爆師徒交鋒 貝森特暗酸朱肯米勒「不喜歡賠錢」",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6593289"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股盤前要聞〉9月開局捍衛4萬6、輝達砸35億美元認購聯發科ECB",
+      "headline": "雙鴻GPU與ASIC雙引擎帶動Q4登高峰 明年營收更上一層樓",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6589725"
-    },
-    {
-      "region": "TW",
-      "headline": "材料-KY去年下半年3.05元股息訂9/16除息交易",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6593111"
-    },
-    {
-      "region": "TW",
-      "headline": "聯發科搶XPU、輝達賣整套 黃仁勳首揭AI兩強結盟盤算",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6593156"
-    },
-    {
-      "region": "TW",
-      "headline": "輝達砸35億美元認購聯發科ECB 結盟進軍AI工廠、客製化XPU",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6593121"
+      "link": "https://news.cnyes.com/news/id/6593885"
     }
   ]
 }
