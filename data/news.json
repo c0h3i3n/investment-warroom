@@ -1,38 +1,46 @@
 {
-  "timestamp": "2026-08-31T23:45:37.260166+00:00",
-  "generatedAt": "2026-08-31T23:45:37.260166+00:00",
+  "timestamp": "2026-09-01T04:56:41.177274+00:00",
+  "generatedAt": "2026-09-01T04:56:41.177274+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "外匯速報 - 美元/新加坡幣(USDSGD) 大跌0.29%，報1.2708元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6593282"
-    },
-    {
-      "region": "TW",
-      "headline": "「我知道市場不知道的事」貝森特一句話點燃日銀9月升息預期",
+      "headline": "輝達搶貨、微軟谷歌搶單！HBM4良率持續承壓  現貨價格已高出長約價格4倍",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6593267"
+      "link": "https://news.cnyes.com/news/id/6593195"
     },
     {
       "region": "TW",
-      "headline": "蘋果「老臣」又少一位？希勒卸兩大要職、退休腳步近了",
+      "headline": "蘋果稱掌握新證據 OpenAI涉使用機密電路圖並滅證",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6593248"
+      "link": "https://news.cnyes.com/news/id/6593319"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Ethena大跌8.73%，報0.15美元",
+      "headline": "美股標普500通常在9月下跌 今年可能不同？",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6593256"
+      "link": "https://news.cnyes.com/news/id/6593307"
+    },
+    {
+      "region": "TW",
+      "headline": "美債回購引爆師徒交鋒 貝森特暗酸朱肯米勒「不喜歡賠錢」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6593289"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股盤前要聞〉9月開局捍衛4萬6、輝達砸35億美元認購聯發科ECB",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6589725"
     },
     {
       "region": "TW",
@@ -57,14 +65,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6593121"
-    },
-    {
-      "region": "TW",
-      "headline": "輝達豪砸35億美元投資聯發科！黃仁勳押注台灣晶片大廠",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6593110"
     }
   ]
 }
