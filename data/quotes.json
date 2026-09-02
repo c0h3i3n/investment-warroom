@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-02T09:29:43.380313+00:00",
-  "generatedAt": "2026-09-02T09:29:43.380313+00:00",
+  "timestamp": "2026-09-02T14:21:59.282887+00:00",
+  "generatedAt": "2026-09-02T14:21:59.282887+00:00",
   "data": [
     {
       "symbol": "0050.TW",
@@ -8,8 +8,8 @@
       "price": 106.8,
       "change": -1.65,
       "changePct": -1.52,
-      "asOf": "2026-09-02T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-09-02T05:30:04+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -18,8 +18,8 @@
       "price": 2385.0,
       "change": -55.0,
       "changePct": -2.25,
-      "asOf": "2026-09-02T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-09-02T05:30:11+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -28,8 +28,8 @@
       "price": 25.65,
       "change": 0.06,
       "changePct": 0.23,
-      "asOf": "2026-09-02T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-09-02T05:30:39+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -38,8 +38,8 @@
       "price": 33.65,
       "change": -0.11,
       "changePct": -0.33,
-      "asOf": "2026-09-02T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-09-02T05:30:03+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -48,8 +48,8 @@
       "price": 29.43,
       "change": -0.03,
       "changePct": -0.1,
-      "asOf": "2026-09-02T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-09-02T05:30:06+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -58,8 +58,8 @@
       "price": 15.47,
       "change": -0.03,
       "changePct": -0.19,
-      "asOf": "2026-09-02T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-09-02T05:30:23+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -68,8 +68,8 @@
       "price": 14.23,
       "change": -0.02,
       "changePct": -0.14,
-      "asOf": "2026-09-02T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-09-02T05:30:23+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -78,37 +78,37 @@
       "price": 12.83,
       "change": -0.12,
       "changePct": -0.93,
-      "asOf": "2026-09-02T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-09-02T05:30:21+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "SPCX",
       "name": "",
-      "price": 142.23,
-      "change": -1.46,
-      "changePct": -1.02,
-      "asOf": "2026-09-01T20:00:00+00:00",
+      "price": 140.1387,
+      "change": -2.09,
+      "changePct": -1.47,
+      "asOf": "2026-09-02T14:22:38+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "NVDA",
       "name": "",
-      "price": 217.44,
-      "change": -3.06,
-      "changePct": -1.39,
-      "asOf": "2026-09-01T20:00:00+00:00",
+      "price": 223.125,
+      "change": 5.68,
+      "changePct": 2.61,
+      "asOf": "2026-09-02T14:22:37+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "TSLA",
       "name": "",
-      "price": 356.09,
-      "change": -11.86,
-      "changePct": -3.22,
-      "asOf": "2026-09-01T20:00:00+00:00",
+      "price": 354.28,
+      "change": -1.81,
+      "changePct": -0.51,
+      "asOf": "2026-09-02T14:22:37+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
