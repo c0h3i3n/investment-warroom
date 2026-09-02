@@ -1,38 +1,46 @@
 {
-  "timestamp": "2026-09-01T21:42:54.197950+00:00",
-  "generatedAt": "2026-09-01T21:42:54.197950+00:00",
+  "timestamp": "2026-09-02T00:01:06.728472+00:00",
+  "generatedAt": "2026-09-02T00:01:06.728472+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "中國商品淹向全球！美國要G20聯手提高貿易壁壘",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6594569"
-    },
-    {
-      "region": "TW",
-      "headline": "貝森特當面施壓植田和男！敦促日本採穩健政策 避免匯率劇烈波動",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6594567"
-    },
-    {
-      "region": "TW",
-      "headline": "美軍猛烈空襲伊朗！川普警告：更大的攻擊還在後面 油價暴漲逾4%",
+      "headline": "〈美股盤後〉美軍再轟伊朗 油價飆 全球債市遭拋售 道瓊跌逾400點 費半摔逾2%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6594577"
+      "link": "https://news.cnyes.com/news/id/6594634"
     },
     {
       "region": "TW",
-      "headline": "4.5兆美元蘋果帝國換主人！特納斯接棒先闖三大難關",
+      "headline": "貝森特：荷姆茲2年內將被「繞過」、對石油業「毫無價值」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6594375"
+      "link": "https://news.cnyes.com/news/id/6594642"
+    },
+    {
+      "region": "TW",
+      "headline": "AI資料中心蓋太多？知名投資人反駁：蓋不夠才是問題！500億美元算力 10個月就能回本",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6594648"
+    },
+    {
+      "region": "TW",
+      "headline": "美軍擴大空襲伊朗 穆吉塔巴揚言給美國「難忘教訓」 川普警告勿報復",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6594638"
+    },
+    {
+      "region": "TW",
+      "headline": "〈能源盤後〉美伊戰火再起！原油暴漲逾5% Brent創5周新高 WTI重返90美元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6594646"
     },
     {
       "region": "TW",
@@ -57,14 +65,6 @@
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6594461"
-    },
-    {
-      "region": "TW",
-      "headline": "證交所：永冠-KY財報難產併案停止買賣 康控-KY加採分盤交易",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6594438"
     }
   ]
 }
