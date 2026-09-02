@@ -1,70 +1,38 @@
 {
-  "timestamp": "2026-09-02T00:01:06.728472+00:00",
-  "generatedAt": "2026-09-02T00:01:06.728472+00:00",
+  "timestamp": "2026-09-02T04:19:30.706827+00:00",
+  "generatedAt": "2026-09-02T04:19:30.706827+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈美股盤後〉美軍再轟伊朗 油價飆 全球債市遭拋售 道瓊跌逾400點 費半摔逾2%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6594634"
-    },
-    {
-      "region": "TW",
-      "headline": "貝森特：荷姆茲2年內將被「繞過」、對石油業「毫無價值」",
+      "headline": "鉅亨速報 - Factset 最新調查：矽力-KY(6415-TW)EPS預估上修至11.87元，預估目標價為610元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6594642"
+      "link": "https://news.cnyes.com/news/id/6595139"
     },
     {
       "region": "TW",
-      "headline": "AI資料中心蓋太多？知名投資人反駁：蓋不夠才是問題！500億美元算力 10個月就能回本",
+      "headline": "鉅亨速報 - Factset 最新調查：技嘉(2376-TW)EPS預估上修至33.63元，預估目標價為490元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6594648"
+      "link": "https://news.cnyes.com/news/id/6595138"
     },
     {
       "region": "TW",
-      "headline": "美軍擴大空襲伊朗 穆吉塔巴揚言給美國「難忘教訓」 川普警告勿報復",
+      "headline": "鉅亨速報 - Factset 最新調查：台化(1326-TW)EPS預估下修至3.75元，預估目標價為80元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6594638"
+      "link": "https://news.cnyes.com/news/id/6595137"
     },
     {
       "region": "TW",
-      "headline": "〈能源盤後〉美伊戰火再起！原油暴漲逾5% Brent創5周新高 WTI重返90美元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6594646"
-    },
-    {
-      "region": "TW",
-      "headline": "〈車市〉8月銷量跌破3萬台創近半年低 Q4漸入佳境",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6594519"
-    },
-    {
-      "region": "TW",
-      "headline": "中信00896配息1.45元刷新紀錄 年化配息率衝破20%",
-      "source": "台股",
+      "headline": "鉅亨速報 - Factset 最新調查：緯穎(6669-TW)EPS預估上修至361.05元，預估目標價為7847.5元",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6594472"
-    },
-    {
-      "region": "TW",
-      "headline": "27萬受益人同嗨！00713股價站上62元創高 本季配息調升至1.25元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6594461"
+      "link": "https://news.cnyes.com/news/id/6595136"
     }
   ]
 }
