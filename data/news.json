@@ -1,70 +1,70 @@
 {
-  "timestamp": "2026-09-03T09:38:59.692766+00:00",
-  "generatedAt": "2026-09-03T09:38:59.692766+00:00",
+  "timestamp": "2026-09-03T14:25:15.069744+00:00",
+  "generatedAt": "2026-09-03T14:25:15.069744+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈焦點股〉台積電水冷新藍圖激勵 奇鋐衝3525元再創歷史新天價",
+      "headline": "印度被曝要拆換中國通訊設備 賬單30億美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596150"
+      "link": "https://news.cnyes.com/news/id/6596807"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：弘塑(3131-TW)EPS預估上修至67.75元，預估目標價為4000元",
+      "headline": "華勒一句話救美債！Fed升息押注降溫 2年期殖利率一度重挫7基點",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596167"
+      "link": "https://news.cnyes.com/news/id/6596792"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：富邦金(2881-TW)EPS預估上修至10.95元，預估目標價為141元",
+      "headline": "〈美股早盤〉Fed理事華勒釋出耐心訊號！主要指數開高、美債殖利率回落",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596166"
+      "link": "https://news.cnyes.com/news/id/6596615"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：億豐(8464-TW)EPS預估下修至24.24元，預估目標價為460.5元",
+      "headline": "蘋果麻煩大了！App追蹤規則挨告 開發商求償27億美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6596165"
-    },
-    {
-      "region": "TW",
-      "headline": "鈺祥（7909）SEMICON Taiwan 2026 展出循環再生、AI智慧製造、氣液整合三大布局",
-      "source": "台股",
-      "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596147"
+      "link": "https://news.cnyes.com/news/id/6596643"
     },
     {
       "region": "TW",
-      "headline": "緯穎洪麗寗：金融科技必須融入全球供應鏈 點出三大核心關鍵",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596138"
-    },
-    {
-      "region": "TW",
-      "headline": "海警又來了！大陸宣布：在台灣以東海域依法展開常態化執法巡查",
+      "headline": "鉅亨速報 - Factset 最新調查：來億-KY(6890-TW)EPS預估下修至11.45元，預估目標價為230元",
       "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6596123"
+      "link": "https://news.cnyes.com/news/id/6596808"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 森鉅(8942)8月營收2.97億元年增率高達47.62％",
+      "headline": "上詮斥資15.38億擴產FAU生產線 Q3起依客戶需求交貨3.2T產品",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596119"
+      "link": "https://news.cnyes.com/news/id/6596699"
+    },
+    {
+      "region": "TW",
+      "headline": "台股熱讓詐團藉機活躍？Q2詐騙廣告通報略增 金管會令證交所加強蒐報",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6596644"
+    },
+    {
+      "region": "TW",
+      "headline": "全新8月營收年增71.16％再寫單月新高 磷化銦產品出貨訂單滿載已至年底",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6596638"
     }
   ]
 }
