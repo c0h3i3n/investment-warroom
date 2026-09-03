@@ -1,70 +1,70 @@
 {
-  "timestamp": "2026-09-03T00:04:56.526331+00:00",
-  "generatedAt": "2026-09-03T00:04:56.526331+00:00",
+  "timestamp": "2026-09-03T04:16:54.648335+00:00",
+  "generatedAt": "2026-09-03T04:16:54.648335+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈美股盤後〉川普稱對伊軍事行動不會持續太久 油價漲勢趨緩 三大指數終結連三黑",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6595854"
-    },
-    {
-      "region": "TW",
-      "headline": "川普：對伊朗新一輪轟炸不會拖太久 美軍想打隨時可再出手",
+      "headline": "〈焦點股〉台積電水冷新藍圖激勵 奇鋐衝3525元再創歷史新天價",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6595858"
+      "link": "https://news.cnyes.com/news/id/6596150"
     },
     {
       "region": "TW",
-      "headline": "不再是一夜交棒！蘋果CEO世代交替 看庫克如何用「適應期」助特納斯接班",
+      "headline": "鉅亨速報 - Factset 最新調查：弘塑(3131-TW)EPS預估上修至67.75元，預估目標價為4000元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6594627"
+      "link": "https://news.cnyes.com/news/id/6596167"
     },
     {
       "region": "TW",
-      "headline": "AI著作權大戰升溫！美國籲G20放行合理使用 別讓監管阻礙創新",
+      "headline": "鉅亨速報 - Factset 最新調查：富邦金(2881-TW)EPS預估上修至10.95元，預估目標價為141元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6595695"
+      "link": "https://news.cnyes.com/news/id/6596166"
     },
     {
       "region": "TW",
-      "headline": "聯鈞7月自結獲利1.48億元、年增279% 下半年擴產滿足客戶出貨",
+      "headline": "鉅亨速報 - Factset 最新調查：億豐(8464-TW)EPS預估下修至24.24元，預估目標價為460.5元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6596165"
+    },
+    {
+      "region": "TW",
+      "headline": "鈺祥（7909）SEMICON Taiwan 2026 展出循環再生、AI智慧製造、氣液整合三大布局",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6595638"
+      "link": "https://news.cnyes.com/news/id/6596147"
     },
     {
       "region": "TW",
-      "headline": "友達出售新加坡廠處予威騰電子 交易金額87億元",
+      "headline": "緯穎洪麗寗：金融科技必須融入全球供應鏈 點出三大核心關鍵",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6595639"
+      "link": "https://news.cnyes.com/news/id/6596138"
     },
     {
       "region": "TW",
-      "headline": "晶片不在美國生產就課稅！盧特尼克：台灣下周再宣布最高300億美元投資",
+      "headline": "海警又來了！大陸宣布：在台灣以東海域依法展開常態化執法巡查",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6596123"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 森鉅(8942)8月營收2.97億元年增率高達47.62％",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6595634"
-    },
-    {
-      "region": "TW",
-      "headline": "大立光、雙鴻等4檔飆股明起遭關禁閉 3檔處置至9/9、聯鈞至9/11",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6595621"
+      "link": "https://news.cnyes.com/news/id/6596119"
     }
   ]
 }
