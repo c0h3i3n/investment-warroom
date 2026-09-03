@@ -1,38 +1,46 @@
 {
-  "timestamp": "2026-09-03T18:32:57.286920+00:00",
-  "generatedAt": "2026-09-03T18:32:57.286920+00:00",
+  "timestamp": "2026-09-03T21:39:48.218118+00:00",
+  "generatedAt": "2026-09-03T21:39:48.218118+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "印度被曝要拆換中國通訊設備 賬單30億美元",
+      "headline": "神仙打架！Gemini 3.8 Flash才登頂就被超車 Meta、Mostik接連出招 競爭聚焦「成本」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596807"
+      "link": "https://news.cnyes.com/news/id/6596942"
     },
     {
       "region": "TW",
-      "headline": "華勒一句話救美債！Fed升息押注降溫 2年期殖利率一度重挫7基點",
+      "headline": "多空拉鋸！美伊戰火升溫又遇俄烏和平曙光 油價震盪站穩95美元上方",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596792"
+      "link": "https://news.cnyes.com/news/id/6596923"
     },
     {
       "region": "TW",
-      "headline": "〈美股早盤〉Fed理事華勒釋出耐心訊號！主要指數開高、美債殖利率回落",
+      "headline": "〈美股盤後〉華勒釋暫緩升息訊號 美債殖利率回落 三大指數齊漲逾1%",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596615"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6596945"
     },
     {
       "region": "TW",
-      "headline": "蘋果麻煩大了！App追蹤規則挨告 開發商求償27億美元",
+      "headline": "OpenAI最強模型來了！GPT-6 Astra能自己找出零時差漏洞",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596643"
+      "link": "https://news.cnyes.com/news/id/6596925"
+    },
+    {
+      "region": "TW",
+      "headline": "輝達把Blackwell塞進電腦！聯想、宏碁10月首發RTX Spark",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6596924"
     },
     {
       "region": "TW",
@@ -57,14 +65,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6596644"
-    },
-    {
-      "region": "TW",
-      "headline": "全新8月營收年增71.16％再寫單月新高 磷化銦產品出貨訂單滿載已至年底",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596638"
     }
   ]
 }
