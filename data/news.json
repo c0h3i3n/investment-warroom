@@ -1,46 +1,62 @@
 {
-  "timestamp": "2026-09-04T09:31:31.275135+00:00",
-  "generatedAt": "2026-09-04T09:31:31.275135+00:00",
+  "timestamp": "2026-09-04T14:15:12.059447+00:00",
+  "generatedAt": "2026-09-04T14:15:12.059447+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 松崗(6240)股價殺至跌停，跌停價25.2元，成交462張",
+      "headline": "〈美股早盤〉非農太強推升Fed升息預期 主要指數漲跌互現",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6597287"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6597702"
     },
     {
       "region": "TW",
-      "headline": "長榮發表冷鏈經營成果 拓生鮮大商機",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6597279"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：南亞(1303-TW)目標價調升至290元，幅度約4.5%",
+      "headline": "銀行搶著借錢給它！字節跳動豪取296億美元加碼AI",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6597281"
+      "link": "https://news.cnyes.com/news/id/6597889"
     },
     {
       "region": "TW",
-      "headline": "Moxa厚植資安治理與應變能力 全面就緒因應歐盟CRA 24小時通報新規",
+      "headline": "八月非農數據爆發擊潰鴿派 美債殖利率全線狂飆",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6597951"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台幣〉熱錢回流強升1.25角收31.63元 周線仍翻黑中止連5升",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6595433"
+      "link": "https://news.cnyes.com/news/id/6597930"
     },
     {
       "region": "TW",
-      "headline": "巨茂啟動上市櫃輔導 在手訂單逾30億元、能見度看到2030年",
+      "headline": "台灣8月外匯存底重返6000億美元關 終結連2減 增額創16個月來最大",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6597270"
+      "link": "https://news.cnyes.com/news/id/6597931"
+    },
+    {
+      "region": "TW",
+      "headline": "7月獲利亮眼 外資買超助華星光、前鼎收漲停",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6597904"
+    },
+    {
+      "region": "TW",
+      "headline": "海悅新建案交屋陸續發酵  8月營收14.25億元年增5.4倍",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6597903"
     }
   ]
 }
