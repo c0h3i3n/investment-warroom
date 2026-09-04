@@ -1,70 +1,46 @@
 {
-  "timestamp": "2026-09-03T23:58:25.877546+00:00",
-  "generatedAt": "2026-09-03T23:58:25.877546+00:00",
+  "timestamp": "2026-09-04T04:20:42.314607+00:00",
+  "generatedAt": "2026-09-04T04:20:42.314607+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "神仙打架！Gemini 3.8 Flash才登頂就被超車 Meta、Mostik接連出招 競爭聚焦「成本」",
+      "headline": "盤中速報 - 松崗(6240)股價殺至跌停，跌停價25.2元，成交462張",
       "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596942"
-    },
-    {
-      "region": "TW",
-      "headline": "多空拉鋸！美伊戰火升溫又遇俄烏和平曙光 油價震盪站穩95美元上方",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596923"
-    },
-    {
-      "region": "TW",
-      "headline": "〈美股盤後〉華勒釋暫緩升息訊號 美債殖利率回落 三大指數齊漲逾1%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6596945"
-    },
-    {
-      "region": "TW",
-      "headline": "OpenAI最強模型來了！GPT-6 Astra能自己找出零時差漏洞",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596925"
-    },
-    {
-      "region": "TW",
-      "headline": "輝達把Blackwell塞進電腦！聯想、宏碁10月首發RTX Spark",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596924"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：來億-KY(6890-TW)EPS預估下修至11.45元，預估目標價為230元",
-      "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6596808"
+      "link": "https://news.cnyes.com/news/id/6597287"
     },
     {
       "region": "TW",
-      "headline": "上詮斥資15.38億擴產FAU生產線 Q3起依客戶需求交貨3.2T產品",
-      "source": "台股",
+      "headline": "長榮發表冷鏈經營成果 拓生鮮大商機",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596699"
+      "link": "https://news.cnyes.com/news/id/6597279"
     },
     {
       "region": "TW",
-      "headline": "台股熱讓詐團藉機活躍？Q2詐騙廣告通報略增 金管會令證交所加強蒐報",
+      "headline": "鉅亨速報 - Factset 最新調查：南亞(1303-TW)目標價調升至290元，幅度約4.5%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6597281"
+    },
+    {
+      "region": "TW",
+      "headline": "Moxa厚植資安治理與應變能力 全面就緒因應歐盟CRA 24小時通報新規",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6595433"
+    },
+    {
+      "region": "TW",
+      "headline": "巨茂啟動上市櫃輔導 在手訂單逾30億元、能見度看到2030年",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6596644"
+      "link": "https://news.cnyes.com/news/id/6597270"
     }
   ]
 }
