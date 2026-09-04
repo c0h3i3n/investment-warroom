@@ -1,35 +1,43 @@
 {
-  "timestamp": "2026-09-04T18:18:31.493001+00:00",
-  "generatedAt": "2026-09-04T18:18:31.493001+00:00",
+  "timestamp": "2026-09-04T21:22:49.399690+00:00",
+  "generatedAt": "2026-09-04T21:22:49.399690+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈美股早盤〉非農太強推升Fed升息預期 主要指數漲跌互現",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6597702"
-    },
-    {
-      "region": "TW",
-      "headline": "銀行搶著借錢給它！字節跳動豪取296億美元加碼AI",
+      "headline": "川普放話：美軍可能「很快」轟伊朗鎬山核設施",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6597889"
+      "link": "https://news.cnyes.com/news/id/6598270"
     },
     {
       "region": "TW",
-      "headline": "八月非農數據爆發擊潰鴿派 美債殖利率全線狂飆",
+      "headline": "盤中速報 - 科林研發(LRCX-US)大漲5.03%，報307.32美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6597951"
+      "link": "https://news.cnyes.com/news/id/6598260"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 星座能源(CEG-US)大漲5.02%，報299.28美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6598259"
+    },
+    {
+      "region": "TW",
+      "headline": "海景第一排！南山人壽斥資逾40億元 淡水沙崙打造首座永續教育人才基地",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6597173"
     },
     {
       "region": "TW",
       "headline": "〈台幣〉熱錢回流強升1.25角收31.63元 周線仍翻黑中止連5升",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6597930"
@@ -49,14 +57,6 @@
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6597904"
-    },
-    {
-      "region": "TW",
-      "headline": "海悅新建案交屋陸續發酵  8月營收14.25億元年增5.4倍",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6597903"
     }
   ]
 }
