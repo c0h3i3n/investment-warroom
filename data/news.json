@@ -1,38 +1,54 @@
 {
-  "timestamp": "2026-09-05T08:58:23.520614+00:00",
-  "generatedAt": "2026-09-05T08:58:23.520614+00:00",
+  "timestamp": "2026-09-05T12:36:54.936007+00:00",
+  "generatedAt": "2026-09-05T12:36:54.936007+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "三星攜手Arm攻端側AI！2奈米客製晶片啟動 OpenAI傳成潛在客戶",
+      "headline": "貝森特預測伊朗戰事落幕：油價最低40美元 美債殖利率跟著降",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598422"
+      "link": "https://news.cnyes.com/news/id/6598547"
     },
     {
       "region": "TW",
-      "headline": "韓媒：三星逆勢擴產Galaxy A系列中低階手機 以實現「薄利多銷」",
+      "headline": "川普特使帶停戰方案抵俄 普丁下令對基輔停火3天",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598380"
+      "link": "https://news.cnyes.com/news/id/6598545"
     },
     {
       "region": "TW",
-      "headline": "資金方向變了！全球股票型ETF熱錢單周湧入55億美元  科技與中小型股最吸金",
+      "headline": "福斯大砍10萬人！受中國電動車、關稅衝擊：2035年車型砍半、4座德國廠停產",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598224"
+      "link": "https://news.cnyes.com/news/id/6598459"
     },
     {
       "region": "TW",
-      "headline": "美光HBM產能拚翻倍 投資人大利多來了？",
+      "headline": "美債殖利率為何飆升？華爾街與Fed說法南轅北轍",
       "source": "鉅亨",
       "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6597093"
+    },
+    {
+      "region": "TW",
+      "headline": "鴻海8月營收9217.66億元創同期高 能見度優於上月AI需求續成長",
+      "source": "台股",
+      "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598297"
+      "link": "https://news.cnyes.com/news/id/6598491"
+    },
+    {
+      "region": "TW",
+      "headline": "上千人搶當綠領！淨零測驗到考率破92%企業高管醫師也來考 最小僅17歲",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6598430"
     },
     {
       "region": "TW",
@@ -49,22 +65,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6598289"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉玉山金攻壽險版圖！投信狂掃貨 周漲12%衝破40元創新高",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6588875"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉輝達RTX Spark預購告急 微星周漲逾11%外資連六買共2.3萬張",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6598242"
     }
   ]
 }
