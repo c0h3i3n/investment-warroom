@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-09-06T21:16:04.354934+00:00",
-  "generatedAt": "2026-09-06T21:16:04.354934+00:00",
+  "timestamp": "2026-09-06T23:46:36.492704+00:00",
+  "generatedAt": "2026-09-06T23:46:36.492704+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "加幣成川普新目標 怒批美加匯率失衡「不可接受」",
+      "headline": "AI多頭等待的突破終於來了？高盛：OpenAI Astra模型「脫穎而出」",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598854"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6598701"
     },
     {
       "region": "TW",
-      "headline": "川普特使、女婿抵達基輔 將與澤倫斯基見面",
+      "headline": "Anthropic掛牌倒數 多檔槓桿ETF蓄勢待發 連Claude都建議別碰",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598853"
+      "link": "https://news.cnyes.com/news/id/6598875"
     },
     {
       "region": "TW",
-      "headline": "民主黨期中選舉橫掃或打崩美股！美銀：恐跌逾10%、戳破AI泡沫",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6598691"
-    },
-    {
-      "region": "TW",
-      "headline": "本週操盤筆記：美CPI牽動Fed升息決策、蘋果新CEO首場發表會、AI行情聚焦甲骨文財報",
+      "headline": "美國正失去避險天堂地位？各國央行紛紛把黃金搬離紐約",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598431"
+      "link": "https://news.cnyes.com/news/id/6598858"
+    },
+    {
+      "region": "TW",
+      "headline": "輝達砸130億美元收購Hugging Face 分析師：如同買「健康保險」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6598873"
     },
     {
       "region": "TW",
