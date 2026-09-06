@@ -1,46 +1,38 @@
 {
-  "timestamp": "2026-09-05T23:47:47.324068+00:00",
-  "generatedAt": "2026-09-05T23:47:47.324068+00:00",
+  "timestamp": "2026-09-06T04:26:05.793761+00:00",
+  "generatedAt": "2026-09-06T04:26:05.793761+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - Arbitrum大漲8.13%，報0.14美元",
+      "headline": "美軍證實轟3艘伊朗油輪！美軍司令威脅加倍報復、哈爾克島遭鎖定",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6598592"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6598580"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 狗狗幣大漲11.36%，報0.09384美元",
+      "headline": "美國監管機關 啟動特斯拉Cybercab安全認證調查",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6598591"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - UNI大漲9.18%，報6.76美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6598590"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - FET大漲8.02%，報0.1657美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6598589"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6598568"
     },
     {
       "region": "TW",
       "headline": "聯發科首創包場六福村水陸雙樂園 參與員工及眷屬近2.5萬名",
-      "source": "台股",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6598563"
+    },
+    {
+      "region": "TW",
+      "headline": "全球貨幣供應衝150兆美元新高！大宗商品走強背後「3大推力」曝光",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6598460"
     },
     {
       "region": "TW",
