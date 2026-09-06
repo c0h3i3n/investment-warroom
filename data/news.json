@@ -1,62 +1,54 @@
 {
-  "timestamp": "2026-09-06T04:26:05.793761+00:00",
-  "generatedAt": "2026-09-06T04:26:05.793761+00:00",
+  "timestamp": "2026-09-06T09:19:04.758402+00:00",
+  "generatedAt": "2026-09-06T09:19:04.758402+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美軍證實轟3艘伊朗油輪！美軍司令威脅加倍報復、哈爾克島遭鎖定",
+      "headline": "OpenAI已進入AGI時代？布羅克曼：Astra是首個「在10萬塊GPU上訓練的模型」、跨越了「應用門檻」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598580"
+      "link": "https://news.cnyes.com/news/id/6598581"
     },
     {
       "region": "TW",
-      "headline": "美國監管機關 啟動特斯拉Cybercab安全認證調查",
+      "headline": "〈台股風向球〉聯準會升息壓抑難脫整理格局 先靠績優股輪流維繫多頭火種",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598568"
+      "link": "https://news.cnyes.com/news/id/6598585"
     },
     {
       "region": "TW",
-      "headline": "聯發科首創包場六福村水陸雙樂園 參與員工及眷屬近2.5萬名",
+      "headline": "廠務工程在手訂單飆近9000億元 劍指兆元產值",
       "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598563"
-    },
-    {
-      "region": "TW",
-      "headline": "全球貨幣供應衝150兆美元新高！大宗商品走強背後「3大推力」曝光",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598460"
-    },
-    {
-      "region": "TW",
-      "headline": "鴻海8月營收9217.66億元創同期高 能見度優於上月AI需求續成長",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598491"
-    },
-    {
-      "region": "TW",
-      "headline": "上千人搶當綠領！淨零測驗到考率破92%企業高管醫師也來考 最小僅17歲",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598430"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉盟立大啖先進封裝商機 周漲11%創歷史新高",
-      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6598377"
+      "link": "https://news.cnyes.com/news/id/6568162"
+    },
+    {
+      "region": "TW",
+      "headline": "中東戰火、非農爆表夾擊市場！Fed路徑再生變 台股靠2大優勢逆風突圍",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6597195"
+    },
+    {
+      "region": "TW",
+      "headline": "群電衛星通訊電源需求強勁 Q4新機種量產",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6598687"
+    },
+    {
+      "region": "TW",
+      "headline": "聯亞8月營收年增180% 法人估2027產能為今年2.5倍",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6598692"
     }
   ]
 }
