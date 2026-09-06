@@ -1,19 +1,43 @@
 {
-  "timestamp": "2026-09-06T13:36:01.105324+00:00",
-  "generatedAt": "2026-09-06T13:36:01.105324+00:00",
+  "timestamp": "2026-09-06T16:55:28.821375+00:00",
+  "generatedAt": "2026-09-06T16:55:28.821375+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "OpenAI已進入AGI時代？布羅克曼：Astra是首個「在10萬塊GPU上訓練的模型」、跨越了「應用門檻」",
+      "headline": "加幣成川普新目標 怒批美加匯率失衡「不可接受」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598581"
+      "link": "https://news.cnyes.com/news/id/6598854"
+    },
+    {
+      "region": "TW",
+      "headline": "川普特使、女婿抵達基輔 將與澤倫斯基見面",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6598853"
+    },
+    {
+      "region": "TW",
+      "headline": "民主黨期中選舉橫掃或打崩美股！美銀：恐跌逾10%、戳破AI泡沫",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6598691"
+    },
+    {
+      "region": "TW",
+      "headline": "本週操盤筆記：美CPI牽動Fed升息決策、蘋果新CEO首場發表會、AI行情聚焦甲骨文財報",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6598431"
     },
     {
       "region": "TW",
       "headline": "〈台股風向球〉聯準會升息壓抑難脫整理格局 先靠績優股輪流維繫多頭火種",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6598585"
@@ -21,18 +45,10 @@
     {
       "region": "TW",
       "headline": "廠務工程在手訂單飆近9000億元 劍指兆元產值",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6568162"
-    },
-    {
-      "region": "TW",
-      "headline": "中東戰火、非農爆表夾擊市場！Fed路徑再生變 台股靠2大優勢逆風突圍",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6597195"
     },
     {
       "region": "TW",
