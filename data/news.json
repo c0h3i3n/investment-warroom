@@ -1,70 +1,38 @@
 {
-  "timestamp": "2026-09-07T04:24:42.914027+00:00",
-  "generatedAt": "2026-09-07T04:24:42.914027+00:00",
+  "timestamp": "2026-09-07T10:09:52.064126+00:00",
+  "generatedAt": "2026-09-07T10:09:52.064126+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI多頭等待的突破終於來了？高盛：OpenAI Astra模型「脫穎而出」",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6598701"
-    },
-    {
-      "region": "TW",
-      "headline": "Anthropic掛牌倒數 多檔槓桿ETF蓄勢待發 連Claude都建議別碰",
+      "headline": "營收速報  - 應廣(6716)8月營收1.74億元年增率高達111.75％",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598875"
+      "link": "https://news.cnyes.com/news/id/6599502"
     },
     {
       "region": "TW",
-      "headline": "美國正失去避險天堂地位？各國央行紛紛把黃金搬離紐約",
+      "headline": "營收速報  - 天正國際(6654)8月營收1.00億元年增率高達848.76％",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598858"
+      "link": "https://news.cnyes.com/news/id/6599501"
     },
     {
       "region": "TW",
-      "headline": "輝達砸130億美元收購Hugging Face 分析師：如同買「健康保險」",
+      "headline": "營收速報  - 建德工業(6606)8月營收9,497萬元年增率高達54.92％",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598873"
+      "link": "https://news.cnyes.com/news/id/6599500"
     },
     {
       "region": "TW",
-      "headline": "〈台股風向球〉聯準會升息壓抑難脫整理格局 先靠績優股輪流維繫多頭火種",
-      "source": "台股",
+      "headline": "營收速報  - 穎崴(6515)8月營收17.06億元年增率高達233.37％",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598585"
-    },
-    {
-      "region": "TW",
-      "headline": "廠務工程在手訂單飆近9000億元 劍指兆元產值",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6568162"
-    },
-    {
-      "region": "TW",
-      "headline": "群電衛星通訊電源需求強勁 Q4新機種量產",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598687"
-    },
-    {
-      "region": "TW",
-      "headline": "聯亞8月營收年增180% 法人估2027產能為今年2.5倍",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6598692"
+      "link": "https://news.cnyes.com/news/id/6599499"
     }
   ]
 }
