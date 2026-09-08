@@ -1,38 +1,46 @@
 {
-  "timestamp": "2026-09-08T18:32:58.451216+00:00",
-  "generatedAt": "2026-09-08T18:32:58.451216+00:00",
+  "timestamp": "2026-09-08T21:46:53.093043+00:00",
+  "generatedAt": "2026-09-08T21:46:53.093043+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "日本上次升2碼是37年前！日銀為何這次不願一次下重手？",
+      "headline": "〈美股盤後〉升息疑慮升溫 油價逼近100美元 道瓊重挫近630點 費半逆升1.3%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6601145"
+      "link": "https://news.cnyes.com/news/id/6601226"
     },
     {
       "region": "TW",
-      "headline": "〈美股早盤〉晶片股大漲力抗油價衝擊！主要指數漲跌互現",
+      "headline": "〈能源盤後〉胡塞組織突襲沙國能源設施 油價飆至6周高點 Brent逼近98美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6600785"
+      "link": "https://news.cnyes.com/news/id/6601139"
     },
     {
       "region": "TW",
-      "headline": "亞馬遜豪押高通！AI晶片訂單最高達600億美元 股價應聲走揚",
+      "headline": "那指再平衡將至！SpaceX權重可望上調　被動買盤估達124億美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6601151"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6601181"
     },
     {
       "region": "TW",
-      "headline": "習近平同英國首相通話 稱兩國共同利益大於分歧",
+      "headline": "連21周上調！不甩高通膨+升息預期   美股獲利動能5年來最強",
       "source": "鉅亨",
       "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6601155"
+    },
+    {
+      "region": "TW",
+      "headline": "汎瑋8月、前8月營收雙創新高 受惠電子材料應用拓展AI強勁需求",
+      "source": "台股",
+      "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6600846"
+      "link": "https://news.cnyes.com/news/id/6601133"
     },
     {
       "region": "TW",
@@ -49,22 +57,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6601144"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台塑四寶業績〉「金九銀十」旺季+電子材料產能趨滿載 台塑、南亞看好Q4業績更亮眼",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6600848"
-    },
-    {
-      "region": "TW",
-      "headline": "存放款+財管發威！彰銀前8月獲利155億年增23.21%再創新高 EPS 1.29元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6600827"
     }
   ]
 }
