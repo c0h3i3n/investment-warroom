@@ -1,62 +1,70 @@
 {
-  "timestamp": "2026-09-08T09:33:31.659263+00:00",
-  "generatedAt": "2026-09-08T09:33:31.659263+00:00",
+  "timestamp": "2026-09-08T14:25:15.851693+00:00",
+  "generatedAt": "2026-09-08T14:25:15.851693+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "貿協率團鏈結海灣地區共推AI策略合作 開拓中東主權 AI及AI基礎建設商機",
+      "headline": "日本上次升2碼是37年前！日銀為何這次不願一次下重手？",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6600366"
+      "link": "https://news.cnyes.com/news/id/6601145"
     },
     {
       "region": "TW",
-      "headline": "〈房產〉房市交易雖冷清 近一年北市住宅轉手逾9成還是有錢賺",
+      "headline": "〈美股早盤〉晶片股大漲力抗油價衝擊！主要指數漲跌互現",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6600785"
+    },
+    {
+      "region": "TW",
+      "headline": "亞馬遜豪押高通！AI晶片訂單最高達600億美元 股價應聲走揚",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6600373"
+      "link": "https://news.cnyes.com/news/id/6601151"
     },
     {
       "region": "TW",
-      "headline": "罕見！蘋果放棄壓價改簽NAND長約　專家：AI擠壓產能令記憶體議價權易主",
+      "headline": "習近平同英國首相通話 稱兩國共同利益大於分歧",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6600357"
+      "link": "https://news.cnyes.com/news/id/6600846"
     },
     {
       "region": "TW",
-      "headline": "AI熱潮驅動資料中心投資 馬來西亞單月狂湧39億美元外資",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6600352"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股盤後〉台積電獨撐大局 權值股熄火 跌220點守住4萬7",
+      "headline": "鉅亨速報 - Factset 最新調查：華通(2313-TW)EPS預估下修至7.38元，預估目標價為322.5元",
       "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6600365"
+      "link": "https://news.cnyes.com/news/id/6601180"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 金山電(8042)8月營收4.82億元年增率高達38.75％",
+      "headline": "中信銀、台壽相繼出手 合計擬砸41億元參與漢測IPO競拍",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6600372"
+      "link": "https://news.cnyes.com/news/id/6601144"
     },
     {
       "region": "TW",
-      "headline": "浮動式風電明年開跑！經部擬選2至3示範案場 自2032年起完工併網",
+      "headline": "〈台塑四寶業績〉「金九銀十」旺季+電子材料產能趨滿載 台塑、南亞看好Q4業績更亮眼",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6600358"
+      "link": "https://news.cnyes.com/news/id/6600848"
+    },
+    {
+      "region": "TW",
+      "headline": "存放款+財管發威！彰銀前8月獲利155億年增23.21%再創新高 EPS 1.29元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6600827"
     }
   ]
 }
