@@ -1,38 +1,62 @@
 {
-  "timestamp": "2026-09-07T10:09:52.064126+00:00",
-  "generatedAt": "2026-09-07T10:09:52.064126+00:00",
+  "timestamp": "2026-09-08T06:24:27.749647+00:00",
+  "generatedAt": "2026-09-08T06:24:27.749647+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "營收速報  - 應廣(6716)8月營收1.74億元年增率高達111.75％",
+      "headline": "貿協率團鏈結海灣地區共推AI策略合作 開拓中東主權 AI及AI基礎建設商機",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6599502"
+      "link": "https://news.cnyes.com/news/id/6600366"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 天正國際(6654)8月營收1.00億元年增率高達848.76％",
+      "headline": "〈房產〉房市交易雖冷清 近一年北市住宅轉手逾9成還是有錢賺",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6599501"
+      "link": "https://news.cnyes.com/news/id/6600373"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 建德工業(6606)8月營收9,497萬元年增率高達54.92％",
+      "headline": "罕見！蘋果放棄壓價改簽NAND長約　專家：AI擠壓產能令記憶體議價權易主",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6599500"
+      "link": "https://news.cnyes.com/news/id/6600357"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 穎崴(6515)8月營收17.06億元年增率高達233.37％",
+      "headline": "AI熱潮驅動資料中心投資 馬來西亞單月狂湧39億美元外資",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6599499"
+      "link": "https://news.cnyes.com/news/id/6600352"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股盤後〉台積電獨撐大局 權值股熄火 跌220點守住4萬7",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6600365"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 金山電(8042)8月營收4.82億元年增率高達38.75％",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6600372"
+    },
+    {
+      "region": "TW",
+      "headline": "浮動式風電明年開跑！經部擬選2至3示範案場 自2032年起完工併網",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6600358"
     }
   ]
 }
