@@ -10,6 +10,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/fetch_data.py'
+      - 'js/market-calendar.js'
       - '.github/workflows/auto-refresh.yml'
 
 concurrency:

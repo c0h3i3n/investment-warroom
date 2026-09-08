@@ -1,3 +1,4 @@
+import '../../js/market-calendar.js';
 const SNAPSHOT_KEY = 'market:snapshot:v1';
 const SNAPSHOT_MAX_AGE_MS = 7 * 60 * 1000;
 const HISTORY_MAX_AGE_MS = 15 * 60 * 1000;
@@ -74,7 +75,8 @@ function isWeekday(parts) {
 function marketOpen(region, nowMs) {
   const session = MARKET_SESSIONS[region] || MARKET_SESSIONS.US;
   const parts = marketParts(region, nowMs);
-  return isWeekday(parts) && parts.minutes >= session.open && parts.minutes < session.close;
+  return MarketCalendar.tradingDay(region, parts.dayNumber) && parts.minutes >= session.open
+    && parts.minutes < MarketCalendar.closeMinutes(region, parts.dayNumber);
 }
 
 function weekdaysCrossed(sourceMs, nowMs, region) {
@@ -96,15 +98,14 @@ export function isFreshTimestamp(timestamp, region, nowMs = Date.now()) {
   const age = nowMs - sourceMs;
   if (age < -5 * 60 * 1000) return false;
   if (marketOpen(region, nowMs)) return age <= 20 * 60 * 1000;
-  if (age > CLOSED_MARKET_MAX_AGE_MS) return false;
+  if (age > 30 * 86400000) return false;
 
   const session = MARKET_SESSIONS[region] || MARKET_SESSIONS.US;
   const sourceParts = marketParts(region, sourceMs);
   const nowParts = marketParts(region, nowMs);
-  if (!isWeekday(sourceParts) || sourceParts.minutes < session.close - 60) return false;
-  if (isWeekday(nowParts) && nowParts.minutes >= session.close
-    && sourceParts.dayNumber !== nowParts.dayNumber) return false;
-  return weekdaysCrossed(sourceMs, nowMs, region) <= 1;
+  return MarketCalendar.tradingDay(region, sourceParts.dayNumber)
+    && sourceParts.minutes >= MarketCalendar.closeMinutes(region, sourceParts.dayNumber) - 60
+    && sourceParts.dayNumber === MarketCalendar.latestSession(region, nowParts.dayNumber, nowParts.minutes);
 }
 
 function validRecord(record, region = record?.region, nowMs = Date.now()) {
@@ -326,7 +327,7 @@ export async function buildSnapshot() {
 }
 
 function acceptableSnapshot(snapshot) {
-  return snapshot?.valid?.indexes >= 3 && snapshot?.valid?.quotes >= 5;
+  return (snapshot?.valid?.indexes || 0) + (snapshot?.valid?.quotes || 0) > 0;
 }
 
 function newestFreshRecord(current, cached, region, nowMs) {
@@ -341,7 +342,7 @@ function newestFreshRecord(current, cached, region, nowMs) {
 }
 
 export function mergeSnapshotWithCache(snapshot, cached, nowMs = Date.now()) {
-  if (!cached) return snapshot;
+  cached ||= {};
   const currentIndexes = new Map((snapshot?.indexes || []).map(record => [record.symbol, record]));
   const cachedIndexes = new Map((cached?.indexes || []).map(record => [record.symbol, record]));
   const currentQuotes = new Map((snapshot?.quotes || []).map(record => [record.symbol, record]));
@@ -458,19 +459,22 @@ export async function handleRequest(request, env) {
     return jsonResponse({ error: 'Not found' }, 404, request);
   }
 
-  const cached = await readCached(env).catch(() => null);
+  const rawCached = await readCached(env).catch(() => null);
+  const cached = rawCached ? mergeSnapshotWithCache(rawCached, {}) : null;
   const cachedAt = Date.parse(cached?.generatedAt || '');
   const cacheAgeMs = Number.isFinite(cachedAt) ? Math.max(0, Date.now() - cachedAt) : null;
   if (url.pathname === '/health') {
     return jsonResponse({
-      ok: Boolean(cached),
+      ok: Boolean(cached && cacheAgeMs <= SNAPSHOT_MAX_AGE_MS
+        && cached.valid.indexes === INDEXES.length && cached.valid.quotes === QUOTE_SYMBOLS.length),
       cacheAgeMs,
       generatedAt: cached?.generatedAt || null,
       valid: cached?.valid || null,
-    }, cached ? 200 : 503, request);
+    }, cached && cacheAgeMs <= SNAPSHOT_MAX_AGE_MS
+      && cached.valid.indexes === INDEXES.length && cached.valid.quotes === QUOTE_SYMBOLS.length ? 200 : 503, request);
   }
 
-  if (cached && cacheAgeMs <= SNAPSHOT_MAX_AGE_MS) {
+  if (cached && acceptableSnapshot(cached) && cacheAgeMs <= SNAPSHOT_MAX_AGE_MS) {
     return jsonResponse({ ...cached, delivery: 'kv' }, 200, request);
   }
 
@@ -483,7 +487,7 @@ export async function handleRequest(request, env) {
     console.error('Market refresh failed', error);
   }
 
-  if (cached) {
+  if (cached && acceptableSnapshot(cached)) {
     return jsonResponse({ ...cached, delivery: 'stale-kv', warning: 'Refresh failed' }, 200, request);
   }
   return jsonResponse({ error: 'Market data unavailable' }, 503, request);

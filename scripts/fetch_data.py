@@ -15,6 +15,19 @@ TAIPEI = ZoneInfo('Asia/Taipei')
 NEW_YORK = ZoneInfo('America/New_York')
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(ROOT, 'data')
+with open(os.path.join(ROOT, 'js', 'market-calendar.js'), encoding='utf-8') as calendar_file:
+    HOLIDAYS = json.loads(calendar_file.read().split('/* calendar:start */')[1].split('/* calendar:end */')[0])
+
+
+def trading_day(day, region):
+    return day.weekday() < 5 and day.isoformat() not in HOLIDAYS.get(region, [])
+
+
+def close_minutes(day, region):
+    if region == 'TW':
+        return 810
+    return 780 if day.isoformat() in ('2026-11-27', '2026-12-24') else 960
+
 UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
 
 OTC_MAP = {'00679B.TW': '00679B.TWO', '00933B.TW': '00933B.TWO', '00937B.TW': '00937B.TWO'}
@@ -82,10 +95,10 @@ def parse_mis_time(item):
 def market_open(region, now=None):
     now = now or datetime.now(timezone.utc)
     local = now.astimezone(TAIPEI if region == 'TW' else NEW_YORK)
-    if local.weekday() >= 5:
+    if not trading_day(local.date(), region):
         return False
     minutes = local.hour * 60 + local.minute
-    return 540 <= minutes < 810 if region == 'TW' else 570 <= minutes < 960
+    return (540 if region == 'TW' else 570) <= minutes < close_minutes(local.date(), region)
 
 
 def weekdays_crossed(source_time, now, region):
@@ -115,20 +128,22 @@ def fresh(as_of, region, now=None):
         return False
     if market_open(region, now):
         return age <= timedelta(minutes=20)
-    if age > CLOSED_MARKET_MAX_AGE:
+    if age > timedelta(days=30):
         return False
 
     market_tz = TAIPEI if region == 'TW' else NEW_YORK
     source_local = source_time.astimezone(market_tz)
     now_local = now.astimezone(market_tz)
-    close = 810 if region == 'TW' else 960
+    close = close_minutes(source_local.date(), region)
     source_minutes = source_local.hour * 60 + source_local.minute
-    if source_local.weekday() >= 5 or source_minutes < close - 60:
+    if not trading_day(source_local.date(), region) or source_minutes < close - 60:
         return False
-    if now_local.weekday() < 5 and now_local.hour * 60 + now_local.minute >= close:
-        if source_local.date() != now_local.date():
-            return False
-    return weekdays_crossed(source_time, now, region) <= 1
+    expected = now_local.date()
+    if now_local.hour * 60 + now_local.minute < (540 if region == 'TW' else 570):
+        expected -= timedelta(days=1)
+    while not trading_day(expected, region):
+        expected -= timedelta(days=1)
+    return source_local.date() == expected
 
 
 def region_for_symbol(symbol):
@@ -342,7 +357,7 @@ for symbol in watch_symbols:
 
 valid_indexes = sum(1 for item in indexes if item.get('price') and item.get('asOf'))
 valid_quotes = sum(1 for item in quotes if item.get('price') and item.get('asOf'))
-if valid_indexes < 3 or valid_quotes < 5:
+if valid_indexes + valid_quotes == 0:
     print(f'❌ Refusing partial snapshot: indexes={valid_indexes}/{len(indexes)} quotes={valid_quotes}/{len(quotes)}', file=sys.stderr)
     print('   Missing indexes: ' + ', '.join(item['symbol'] for item in indexes if not item.get('price')), file=sys.stderr)
     print('   Missing quotes: ' + ', '.join(item['symbol'] for item in quotes if not item.get('price')), file=sys.stderr)

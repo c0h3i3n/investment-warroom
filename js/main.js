@@ -39,11 +39,12 @@ const App = (() => {
   function updateMarketStatus() {
     const now = new Date();
     const zoned = timeZone => Object.fromEntries(new Intl.DateTimeFormat('en-US', {
-      timeZone, weekday:'short', hour:'2-digit', minute:'2-digit', hour12:false,
+      timeZone, year:'numeric', month:'2-digit', day:'2-digit', weekday:'short', hour:'2-digit', minute:'2-digit', hourCycle:'h23',
     }).formatToParts(now).map(part => [part.type, part.value]));
     const twTime = zoned('Asia/Taipei');
     const usTime = zoned('America/New_York');
-    const isWeekday = parts => !['Sat', 'Sun'].includes(parts.weekday);
+    const dayNumber = parts => Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day));
+    const isWeekday = parts => MarketCalendar.tradingDay(parts === twTime ? 'TW' : 'US', dayNumber(parts));
     const twMinutes = Number(twTime.hour) * 60 + Number(twTime.minute);
     const usMinutes = Number(usTime.hour) * 60 + Number(usTime.minute);
 
@@ -61,7 +62,8 @@ const App = (() => {
     }
 
     const isPreMarket = isWeekday(usTime) && usMinutes >= 240 && usMinutes < 570;
-    const isMarketOpen = isWeekday(usTime) && usMinutes >= 570 && usMinutes < 960;
+    const isMarketOpen = isWeekday(usTime) && usMinutes >= 570
+      && usMinutes < MarketCalendar.closeMinutes('US', dayNumber(usTime));
 
     if (usOrb && usLabel) {
       if (isMarketOpen) {

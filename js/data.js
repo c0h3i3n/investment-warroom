@@ -59,7 +59,8 @@ const DataService = (() => {
   function isMarketOpen(region, now = new Date()) {
     const session = MARKET_SESSIONS[region] || MARKET_SESSIONS.US;
     const parts = getMarketTimeParts(region, now);
-    return isWeekday(parts) && parts.minutes >= session.open && parts.minutes < session.close;
+    return MarketCalendar.tradingDay(region, parts.dayNumber) && parts.minutes >= session.open
+      && parts.minutes < MarketCalendar.closeMinutes(region, parts.dayNumber);
   }
 
   function isInClosingGrace(region, now = new Date()) {
@@ -76,7 +77,7 @@ const DataService = (() => {
     const age = nowMs - sourceMs;
     if (age < -5 * 60 * 1000) return false;
     if (isMarketOpen(region, new Date(nowMs))) return age <= 20 * 60 * 1000;
-    if (age > MARKET_DATA_CLOSED_MAX_AGE) return false;
+    if (age > 30 * 86400000) return false;
 
     // Outside trading hours, only the latest plausible trading session is
     // accepted. This prevents a proxy or scheduled snapshot from making a
@@ -84,10 +85,9 @@ const DataService = (() => {
     const session = MARKET_SESSIONS[region] || MARKET_SESSIONS.US;
     const sourceParts = getMarketTimeParts(region, sourceMs);
     const nowParts = getMarketTimeParts(region, nowMs);
-    if (!isWeekday(sourceParts) || sourceParts.minutes < session.close - 60) return false;
-    if (isWeekday(nowParts) && nowParts.minutes >= session.close
-      && sourceParts.dayNumber !== nowParts.dayNumber) return false;
-    return countWeekdaysCrossed(sourceMs, nowMs, region) <= 1;
+    return MarketCalendar.tradingDay(region, sourceParts.dayNumber)
+      && sourceParts.minutes >= MarketCalendar.closeMinutes(region, sourceParts.dayNumber) - 60
+      && sourceParts.dayNumber === MarketCalendar.latestSession(region, nowParts.dayNumber, nowParts.minutes);
   }
 
   function countWeekdaysCrossed(sourceMs, nowMs, region) {

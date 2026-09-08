@@ -44,7 +44,8 @@ test('buildSnapshot prefers MIS for Taiwan and Yahoo for US records', async t =>
             symbol: yahooSymbol,
             regularMarketPrice: 500,
             previousClose: 490,
-            regularMarketTime: nowSeconds,
+            regularMarketTime: yahooSymbol.includes('.TW') || yahooSymbol.startsWith('^TW')
+              ? nowSeconds : Date.parse('2026-07-30T20:00:00Z') / 1000,
             currency: yahooSymbol.includes('.TW') || yahooSymbol.includes('.TWO') ? 'TWD' : 'USD',
           },
         }],
@@ -65,13 +66,16 @@ test('buildSnapshot prefers MIS for Taiwan and Yahoo for US records', async t =>
   assert.equal(snapshot.quotes.find(item => item.symbol === 'NVDA').source, 'Yahoo Finance');
 });
 
-test('API serves KV data with CORS and avoids an upstream refresh', async () => {
+test('API serves KV data with CORS and avoids an upstream refresh', async t => {
+  const originalNow = Date.now;
+  Date.now = () => Date.parse('2026-07-31T02:00:00Z');
+  t.after(() => { Date.now = originalNow; });
   const generatedAt = new Date().toISOString();
   const snapshot = {
     schemaVersion: 1,
-    generatedAt,
+    generatedAt: new Date(Date.now()).toISOString(),
     indexes: [],
-    quotes: [],
+    quotes: [{ symbol: '0050.TW', price: 100, asOf: Date.now(), region: 'TW' }],
     valid: { indexes: 5, quotes: 11, totalIndexes: 5, totalQuotes: 11 },
   };
   const env = {
