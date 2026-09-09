@@ -1,70 +1,70 @@
 {
-  "timestamp": "2026-09-09T09:36:36.308544+00:00",
-  "generatedAt": "2026-09-09T09:36:36.308544+00:00",
+  "timestamp": "2026-09-09T14:27:22.424641+00:00",
+  "generatedAt": "2026-09-09T14:27:22.424641+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "一文讀懂蘋果發表會看點！摺疊iPhone、iPhone 18 Pro漲價、標準版延後",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6601373"
-    },
-    {
-      "region": "TW",
-      "headline": "晶片撐起人均國民收入 韓國央行估今年有望首破4萬美元",
+      "headline": "鉅亨速報 - Factset 最新調查：富世達(6805-TW)EPS預估上修至61.85元，預估目標價為2650元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6601255"
+      "link": "https://news.cnyes.com/news/id/6602380"
     },
     {
       "region": "TW",
-      "headline": "諷川普愛改地名？喜劇動畫《南方四賤客》改名「南美洲」",
+      "headline": "鉅亨速報 - Factset 最新調查：中信金(2891-TW)EPS預估上修至4.31元，預估目標價為73.5元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6601417"
+      "link": "https://news.cnyes.com/news/id/6602379"
     },
     {
       "region": "TW",
-      "headline": "加速AI賽道布局！SK海力士未來論壇提出「全堆疊AI記憶體」戰略：從容量速度轉向系統設計力",
+      "headline": "華許真的要升息了？經濟學家按兵不動共識快速瓦解 周五CPI成關鍵",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6601374"
+      "link": "https://news.cnyes.com/news/id/6602034"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：文曄(3036-TW)EPS預估上修至26.62元，預估目標價為300元",
-      "source": "台股",
+      "headline": "盤中速報 - 聯合健康保險(UNH-US)大跌5.06%，報380.57美元",
+      "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6601459"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6602270"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 環宇-KY(4991)8月營收2.62億元年增率高達45.62％",
+      "headline": "和椿8月營收年增132％創單月新高 受惠訂單能見度攀升、助自動化布局加速",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6601451"
+      "link": "https://news.cnyes.com/news/id/6601955"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 勝悅-KY(1340)8月營收712萬元年增率高達114.24％",
+      "headline": "迎戰50年後人口減半！國發會祭3大處方：長靠出生、中靠升級、短靠「外」援",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6601450"
+      "link": "https://news.cnyes.com/news/id/6601932"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉邁科受惠美系ASIC貢獻8月營收再站上5億元關卡 走揚收復5日線",
+      "headline": "外資大買面板雙虎、倒貨金融股 三大法人合計買超220億元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6601444"
+      "link": "https://news.cnyes.com/news/id/6601931"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 倍力(6874)8月營收1.07億元年增率高達182.48％",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6601947"
     }
   ]
 }
