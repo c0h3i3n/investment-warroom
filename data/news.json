@@ -1,11 +1,43 @@
 {
-  "timestamp": "2026-09-09T18:30:01.155632+00:00",
-  "generatedAt": "2026-09-09T18:30:01.155632+00:00",
+  "timestamp": "2026-09-09T21:38:45.522167+00:00",
+  "generatedAt": "2026-09-09T21:38:45.522167+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：富世達(6805-TW)EPS預估上修至61.85元，預估目標價為2650元",
+      "headline": "〈台股盤前要聞〉盤踞4萬7制高點、外資三天掃貨友達30萬張、8月出口824億美元創新高",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6602472"
+    },
+    {
+      "region": "TW",
+      "headline": "〈美股盤後〉美債回購規模遜預期 油價升破100美元 三大指數三連黑",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6602462"
+    },
+    {
+      "region": "TW",
+      "headline": "川普下油價預言！期中選舉後將暴跌、美伊戰爭也會告終",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6602453"
+    },
+    {
+      "region": "TW",
+      "headline": "邊打伊朗邊賺石油財？川普能源持股帳面最高增值440萬美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6602426"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：富世達(6805-TW)EPS預估上修至61.85元，預估目標價為2650元",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6602380"
@@ -13,26 +45,10 @@
     {
       "region": "TW",
       "headline": "鉅亨速報 - Factset 最新調查：中信金(2891-TW)EPS預估上修至4.31元，預估目標價為73.5元",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6602379"
-    },
-    {
-      "region": "TW",
-      "headline": "華許真的要升息了？經濟學家按兵不動共識快速瓦解 周五CPI成關鍵",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6602034"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 聯合健康保險(UNH-US)大跌5.06%，報380.57美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6602270"
     },
     {
       "region": "TW",
@@ -41,30 +57,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6601955"
-    },
-    {
-      "region": "TW",
-      "headline": "迎戰50年後人口減半！國發會祭3大處方：長靠出生、中靠升級、短靠「外」援",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6601932"
-    },
-    {
-      "region": "TW",
-      "headline": "外資大買面板雙虎、倒貨金融股 三大法人合計買超220億元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6601931"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報  - 倍力(6874)8月營收1.07億元年增率高達182.48％",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6601947"
     }
   ]
 }
