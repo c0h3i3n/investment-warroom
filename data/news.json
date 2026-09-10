@@ -1,62 +1,62 @@
 {
-  "timestamp": "2026-09-10T00:06:27.213827+00:00",
-  "generatedAt": "2026-09-10T00:06:27.213827+00:00",
+  "timestamp": "2026-09-10T04:34:33.598708+00:00",
+  "generatedAt": "2026-09-10T04:34:33.598708+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈台股盤前要聞〉盤踞4萬7制高點、外資三天掃貨友達30萬張、8月出口824億美元創新高",
+      "headline": "〈焦點股〉業績亮眼推升股價上揚 光聖、前鼎逆風強漲半根停板",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6602775"
+    },
+    {
+      "region": "TW",
+      "headline": "惠譽看台灣：證券業上半年獲利狂飆325% 但大小券商結構差距恐擴大",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6599661"
+    },
+    {
+      "region": "TW",
+      "headline": "CBS News：美軍一架A-10機翼斷裂、8架F-15戰機受損",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6602472"
+      "link": "https://news.cnyes.com/news/id/6602774"
     },
     {
       "region": "TW",
-      "headline": "〈美股盤後〉美債回購規模遜預期 油價升破100美元 三大指數三連黑",
+      "headline": "人類史上首次！全球老人比小孩多了",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6602462"
+      "link": "https://news.cnyes.com/news/id/6602764"
     },
     {
       "region": "TW",
-      "headline": "川普下油價預言！期中選舉後將暴跌、美伊戰爭也會告終",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6602453"
-    },
-    {
-      "region": "TW",
-      "headline": "邊打伊朗邊賺石油財？川普能源持股帳面最高增值440萬美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6602426"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：富世達(6805-TW)EPS預估上修至61.85元，預估目標價為2650元",
+      "headline": "家登8月營收創同期新高 下半年營運續強",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6602380"
+      "link": "https://news.cnyes.com/news/id/6602762"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：中信金(2891-TW)EPS預估上修至4.31元，預估目標價為73.5元",
+      "headline": "緯穎第四季展望樂觀 下半年資本支出近300億元 明年將再上調",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6602379"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6602759"
     },
     {
       "region": "TW",
-      "headline": "和椿8月營收年增132％創單月新高 受惠訂單能見度攀升、助自動化布局加速",
+      "headline": "蘋果也扛不住記憶體漲價！法人：AI紅利擴散 00891迎Q4電子旺季",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6601955"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6600626"
     }
   ]
 }
