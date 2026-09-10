@@ -1,38 +1,46 @@
 {
-  "timestamp": "2026-09-10T18:20:02.819546+00:00",
-  "generatedAt": "2026-09-10T18:20:02.819546+00:00",
+  "timestamp": "2026-09-10T21:34:16.815569+00:00",
+  "generatedAt": "2026-09-10T21:34:16.815569+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "甲骨文財報登場 股價預計大幅波動11%？",
+      "headline": "〈能源盤後〉伊朗反擊擴大、胡塞攻占摩卡 油價狂飆逾6%！Brent、WTI均突破100美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6602483"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6604183"
     },
     {
       "region": "TW",
-      "headline": "Meta的AI王牌來了！Muse爆紅讓摩根大通升評",
+      "headline": "美軍不是宣稱摧毀九成？伊朗地下工廠重啟飛彈生產",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6603974"
+      "link": "https://news.cnyes.com/news/id/6604152"
     },
     {
       "region": "TW",
-      "headline": "iPhone Duo賣得動嗎？TrendForce估今年出貨500萬支、市占24.8%",
+      "headline": "AI下一個大商機來了？黃仁勳點名新戰場：網路安全",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6603969"
+      "link": "https://news.cnyes.com/news/id/6604151"
     },
     {
       "region": "TW",
-      "headline": "亞資中心台南專區將簽MOU！金管會：地方自行招商 業務範圍尚未具體化",
+      "headline": "AI開始替人類探月！IBM、NASA聯手找冰層、挑登陸點",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604031"
+      "link": "https://news.cnyes.com/news/id/6604033"
+    },
+    {
+      "region": "TW",
+      "headline": "暑期旺季效應 智冠8月營收繳雙增",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6604032"
     },
     {
       "region": "TW",
