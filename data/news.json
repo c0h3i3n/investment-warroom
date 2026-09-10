@@ -1,62 +1,62 @@
 {
-  "timestamp": "2026-09-10T09:35:56.567210+00:00",
-  "generatedAt": "2026-09-10T09:35:56.567210+00:00",
+  "timestamp": "2026-09-10T14:18:38.591814+00:00",
+  "generatedAt": "2026-09-10T14:18:38.591814+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈焦點股〉業績亮眼推升股價上揚 光聖、前鼎逆風強漲半根停板",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6602775"
-    },
-    {
-      "region": "TW",
-      "headline": "惠譽看台灣：證券業上半年獲利狂飆325% 但大小券商結構差距恐擴大",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6599661"
-    },
-    {
-      "region": "TW",
-      "headline": "CBS News：美軍一架A-10機翼斷裂、8架F-15戰機受損",
+      "headline": "甲骨文財報登場 股價預計大幅波動11%？",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6602774"
+      "link": "https://news.cnyes.com/news/id/6602483"
     },
     {
       "region": "TW",
-      "headline": "人類史上首次！全球老人比小孩多了",
+      "headline": "Meta的AI王牌來了！Muse爆紅讓摩根大通升評",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6602764"
+      "link": "https://news.cnyes.com/news/id/6603974"
     },
     {
       "region": "TW",
-      "headline": "家登8月營收創同期新高 下半年營運續強",
+      "headline": "iPhone Duo賣得動嗎？TrendForce估今年出貨500萬支、市占24.8%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6603969"
+    },
+    {
+      "region": "TW",
+      "headline": "亞資中心台南專區將簽MOU！金管會：地方自行招商 業務範圍尚未具體化",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6604031"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 光麗-KY(6431)8月營收4,189萬元年增率高達185.89％",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6602762"
+      "link": "https://news.cnyes.com/news/id/6604060"
     },
     {
       "region": "TW",
-      "headline": "緯穎第四季展望樂觀 下半年資本支出近300億元 明年將再上調",
+      "headline": "營收速報  - 德宏(5475)8月營收2.55億元年增率高達271.88％",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6602759"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6604059"
     },
     {
       "region": "TW",
-      "headline": "蘋果也扛不住記憶體漲價！法人：AI紅利擴散 00891迎Q4電子旺季",
+      "headline": "營收速報  - 地心引力(3629)8月營收144萬元年增率高達381％",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6600626"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6604054"
     }
   ]
 }
