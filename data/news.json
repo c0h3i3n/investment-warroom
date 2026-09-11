@@ -1,62 +1,70 @@
 {
-  "timestamp": "2026-09-11T09:33:03.107862+00:00",
-  "generatedAt": "2026-09-11T09:33:03.107862+00:00",
+  "timestamp": "2026-09-11T14:20:01.716342+00:00",
+  "generatedAt": "2026-09-11T14:20:01.716342+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈焦點股〉大東電受台電部分訂單遞延影響8月營收 跌逾半根停板",
+      "headline": "鉅亨速報 - Factset 最新調查：SpaceX(SPCX-US)EPS預估上修至-0.02元，預估目標價為214.50元",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6604904"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：PETROLEO BRASI(PBR.A-US)EPS預估上修至4.6元，預估目標價為22.45元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6604903"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：巴西石油(PBR-US)EPS預估上修至4.71元，預估目標價為22.00元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6604902"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：Rocket Lab USA IncRKLB-US的目標價調降至115元，幅度約4.17%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6604901"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：藥華藥(6446-TW)EPS預估下修至25.68元，預估目標價為1502.92元",
+      "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6604348"
+      "link": "https://news.cnyes.com/news/id/6604899"
     },
     {
       "region": "TW",
-      "headline": "「限制模式」失靈？宣稱能保護兒童卻沒做到 德州法官裁定TikTok誤導用戶",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604351"
-    },
-    {
-      "region": "TW",
-      "headline": "黃仁勳揭AI生意經：「製造問題」就是製造需求",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604213"
-    },
-    {
-      "region": "TW",
-      "headline": "房價仍是國旅最大「痛點」！觀光署補助最高3700元助攻 逾6成上班族心動排假中",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604444"
-    },
-    {
-      "region": "TW",
-      "headline": "嘉里大榮營收創高 拓高科技業物流一條龍版圖",
+      "headline": "鉅亨速報 - Factset 最新調查：玉山金(2884-TW)EPS預估下修至2.53元，預估目標價為38.8元",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6604367"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6604898"
     },
     {
       "region": "TW",
-      "headline": "映智科技獨拿非洲政府指紋辨識訂單 Q4起陸續出貨",
+      "headline": "鉅亨速報 - Factset 最新調查：元太(8069-TW)EPS預估下修至11.42元，預估目標價為217元",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6602867"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6604897"
     },
     {
       "region": "TW",
-      "headline": "通寶PQC資安晶片導入美系客戶 搶進機器人與無人機市場",
+      "headline": "鉅亨速報 - Factset 最新調查：智邦(2345-TW)EPS預估下修至87.47元，預估目標價為3500元",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604414"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6604896"
     }
   ]
 }
