@@ -1,86 +1,86 @@
 {
-  "timestamp": "2026-09-11T00:01:59.261424+00:00",
-  "generatedAt": "2026-09-11T00:01:59.261424+00:00",
+  "timestamp": "2026-09-11T04:28:25.240816+00:00",
+  "generatedAt": "2026-09-11T04:28:25.240816+00:00",
   "data": [
     {
       "symbol": "0050.TW",
       "name": "",
-      "price": 109.15,
-      "change": -0.5,
-      "changePct": -0.46,
-      "asOf": "2026-09-10T05:30:04+00:00",
-      "source": "Yahoo Finance",
+      "price": 107.95,
+      "change": -1.2,
+      "changePct": -1.1,
+      "asOf": "2026-09-11T04:28:59+00:00",
+      "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
       "symbol": "2330.TW",
       "name": "",
-      "price": 2450.0,
-      "change": -15.0,
-      "changePct": -0.61,
-      "asOf": "2026-09-10T05:30:10+00:00",
-      "source": "Yahoo Finance",
-      "priceType": "trade"
+      "price": 2417.5,
+      "change": -32.5,
+      "changePct": -1.33,
+      "asOf": "2026-09-11T04:28:30+00:00",
+      "source": "TWSE MIS",
+      "priceType": "indicative"
     },
     {
       "symbol": "00679B.TW",
       "name": "",
-      "price": 25.43,
-      "change": -0.15,
-      "changePct": -0.59,
-      "asOf": "2026-09-10T05:30:39+00:00",
-      "source": "Yahoo Finance",
-      "priceType": "trade"
+      "price": 25.235,
+      "change": -0.2,
+      "changePct": -0.77,
+      "asOf": "2026-09-11T04:28:43+00:00",
+      "source": "TWSE MIS",
+      "priceType": "indicative"
     },
     {
       "symbol": "00878.TW",
       "name": "",
-      "price": 34.15,
-      "change": 0.02,
-      "changePct": 0.06,
-      "asOf": "2026-09-10T05:30:02+00:00",
-      "source": "Yahoo Finance",
-      "priceType": "trade"
+      "price": 34.095,
+      "change": -0.05,
+      "changePct": -0.16,
+      "asOf": "2026-09-11T04:28:19+00:00",
+      "source": "TWSE MIS",
+      "priceType": "indicative"
     },
     {
       "symbol": "00929.TW",
       "name": "",
-      "price": 29.0,
-      "change": -0.12,
-      "changePct": -0.41,
-      "asOf": "2026-09-10T05:30:08+00:00",
-      "source": "Yahoo Finance",
-      "priceType": "trade"
+      "price": 28.735,
+      "change": -0.27,
+      "changePct": -0.91,
+      "asOf": "2026-09-11T04:28:53+00:00",
+      "source": "TWSE MIS",
+      "priceType": "indicative"
     },
     {
       "symbol": "00933B.TW",
       "name": "",
-      "price": 15.35,
-      "change": -0.03,
-      "changePct": -0.2,
-      "asOf": "2026-09-10T05:30:23+00:00",
-      "source": "Yahoo Finance",
-      "priceType": "trade"
+      "price": 15.265,
+      "change": -0.08,
+      "changePct": -0.55,
+      "asOf": "2026-09-11T04:28:17+00:00",
+      "source": "TWSE MIS",
+      "priceType": "indicative"
     },
     {
       "symbol": "00937B.TW",
       "name": "",
-      "price": 14.16,
-      "change": -0.04,
-      "changePct": -0.28,
-      "asOf": "2026-09-10T05:30:23+00:00",
-      "source": "Yahoo Finance",
-      "priceType": "trade"
+      "price": 14.095,
+      "change": -0.06,
+      "changePct": -0.46,
+      "asOf": "2026-09-11T04:28:33+00:00",
+      "source": "TWSE MIS",
+      "priceType": "indicative"
     },
     {
       "symbol": "009800.TW",
       "name": "",
-      "price": 12.92,
-      "change": -0.01,
-      "changePct": -0.08,
-      "asOf": "2026-09-10T05:30:19+00:00",
-      "source": "Yahoo Finance",
-      "priceType": "trade"
+      "price": 12.825,
+      "change": -0.1,
+      "changePct": -0.74,
+      "asOf": "2026-09-11T04:28:12+00:00",
+      "source": "TWSE MIS",
+      "priceType": "indicative"
     },
     {
       "symbol": "SPCX",

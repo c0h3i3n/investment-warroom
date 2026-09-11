@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-09-11T00:01:59.261424+00:00",
-  "generatedAt": "2026-09-11T00:01:59.261424+00:00",
+  "timestamp": "2026-09-11T04:28:25.240816+00:00",
+  "generatedAt": "2026-09-11T04:28:25.240816+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈能源盤後〉伊朗反擊擴大、胡塞攻占摩卡 油價狂飆逾6%！Brent、WTI均突破100美元",
+      "headline": "〈焦點股〉大東電受台電部分訂單遞延影響8月營收 跌逾半根停板",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6604348"
+    },
+    {
+      "region": "TW",
+      "headline": "「限制模式」失靈？宣稱能保護兒童卻沒做到 德州法官裁定TikTok誤導用戶",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6604351"
+    },
+    {
+      "region": "TW",
+      "headline": "黃仁勳揭AI生意經：「製造問題」就是製造需求",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6604213"
+    },
+    {
+      "region": "TW",
+      "headline": "房價仍是國旅最大「痛點」！觀光署補助最高3700元助攻 逾6成上班族心動排假中",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6604444"
+    },
+    {
+      "region": "TW",
+      "headline": "嘉里大榮營收創高 拓高科技業物流一條龍版圖",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6604183"
+      "link": "https://news.cnyes.com/news/id/6604367"
     },
     {
       "region": "TW",
-      "headline": "美軍不是宣稱摧毀九成？伊朗地下工廠重啟飛彈生產",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604152"
-    },
-    {
-      "region": "TW",
-      "headline": "AI下一個大商機來了？黃仁勳點名新戰場：網路安全",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604151"
-    },
-    {
-      "region": "TW",
-      "headline": "AI開始替人類探月！IBM、NASA聯手找冰層、挑登陸點",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604033"
-    },
-    {
-      "region": "TW",
-      "headline": "暑期旺季效應 智冠8月營收繳雙增",
+      "headline": "映智科技獨拿非洲政府指紋辨識訂單 Q4起陸續出貨",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604032"
+      "link": "https://news.cnyes.com/news/id/6602867"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 光麗-KY(6431)8月營收4,189萬元年增率高達185.89％",
+      "headline": "通寶PQC資安晶片導入美系客戶 搶進機器人與無人機市場",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604060"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報  - 德宏(5475)8月營收2.55億元年增率高達271.88％",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604059"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報  - 地心引力(3629)8月營收144萬元年增率高達381％",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604054"
+      "link": "https://news.cnyes.com/news/id/6604414"
     }
   ]
 }
