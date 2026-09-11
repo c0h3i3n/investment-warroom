@@ -1,38 +1,54 @@
 {
-  "timestamp": "2026-09-11T18:24:19.007087+00:00",
-  "generatedAt": "2026-09-11T18:24:19.007087+00:00",
+  "timestamp": "2026-09-11T21:40:33.889994+00:00",
+  "generatedAt": "2026-09-11T21:40:33.889994+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：SpaceX(SPCX-US)EPS預估上修至-0.02元，預估目標價為214.50元",
+      "headline": "鉅亨速報 - Factset 最新調查：LATAM Airlines Group SA Sponsored ADR(LTM-US)EPS預估上修至4.66元，預…",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604904"
+      "link": "https://news.cnyes.com/news/id/6604958"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：PETROLEO BRASI(PBR.A-US)EPS預估上修至4.6元，預估目標價為22.45元",
+      "headline": "鉅亨速報 - Factset 最新調查：Smithfield Foods, Inc.(SFD-US)EPS預估下修至2.21元，預估目標價為28.00元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604903"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6604957"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：巴西石油(PBR-US)EPS預估上修至4.71元，預估目標價為22.00元",
+      "headline": "Fed升息幾乎成定局反而大漲？美股接下來才是真正考驗",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604902"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6604937"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：Rocket Lab USA IncRKLB-US的目標價調降至115元，幅度約4.17%",
-      "source": "鉅亨",
+      "headline": "綠電再生H1轉盈EPS達0.67元勝去年全年 配息0.35元9/30除息",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604901"
+      "link": "https://news.cnyes.com/news/id/6604839"
+    },
+    {
+      "region": "TW",
+      "headline": "中石化：京華城土地仍遭扣押  鼎越預計9月底提出變更建照設計報告",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6604828"
+    },
+    {
+      "region": "TW",
+      "headline": "高公局推國道服務區響應敬軍優惠 統一超、全家4超商響應支援",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6604800"
     },
     {
       "region": "TW",
@@ -41,30 +57,6 @@
       "time": "--:--",
       "impact": "neg",
       "link": "https://news.cnyes.com/news/id/6604899"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：玉山金(2884-TW)EPS預估下修至2.53元，預估目標價為38.8元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6604898"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：元太(8069-TW)EPS預估下修至11.42元，預估目標價為217元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6604897"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：智邦(2345-TW)EPS預估下修至87.47元，預估目標價為3500元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6604896"
     }
   ]
 }
