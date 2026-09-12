@@ -1,7 +1,23 @@
 {
-  "timestamp": "2026-09-12T19:11:50.172813+00:00",
-  "generatedAt": "2026-09-12T19:11:50.172813+00:00",
+  "timestamp": "2026-09-12T22:11:41.065521+00:00",
+  "generatedAt": "2026-09-12T22:11:41.065521+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "華為三摺疊新機開售 各版本均已斷貨",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6605136"
+    },
+    {
+      "region": "TW",
+      "headline": "若升息美股反有望迎「下一波多頭」行情？Fed升息機率飆至87%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6605078"
+    },
     {
       "region": "TW",
       "headline": "iPhone 18 Pro系列在中國正式預售 開售數分鐘首批貨源賣光",
@@ -17,22 +33,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6605079"
-    },
-    {
-      "region": "TW",
-      "headline": "中國邁向「工業5.0」！大摩： 未來10年或迎來12兆美元實體投資超級週期",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605089"
-    },
-    {
-      "region": "TW",
-      "headline": "蘋果CEO特努斯談iPhone Duo：「軟硬體一體」才是摺疊螢幕核心",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605082"
     },
     {
       "region": "TW",
