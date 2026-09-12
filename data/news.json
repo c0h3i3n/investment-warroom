@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-09-12T10:37:29.675191+00:00",
-  "generatedAt": "2026-09-12T10:37:29.675191+00:00",
+  "timestamp": "2026-09-12T14:01:13.237043+00:00",
+  "generatedAt": "2026-09-12T14:01:13.237043+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "CPI成翻盤關鍵！高盛、花旗改口押升息 TD喊連升3次",
+      "headline": "iPhone 18 Pro系列在中國正式預售 開售數分鐘首批貨源賣光",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604989"
+      "link": "https://news.cnyes.com/news/id/6605130"
     },
     {
       "region": "TW",
-      "headline": "WTI淨多頭創20周新高 川普政府研動用國防生產法擴煉油產能",
+      "headline": "南韓半導體出口首破400兆韓元！AI需求推升三星、SK海力士業績",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605056"
+      "link": "https://news.cnyes.com/news/id/6605079"
     },
     {
       "region": "TW",
-      "headline": "甲骨文法說會少了熟悉身影！82歲艾里森淡出鎂光燈 雙CEO掌舵迎AI轉型",
+      "headline": "中國邁向「工業5.0」！大摩： 未來10年或迎來12兆美元實體投資超級週期",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6604974"
+      "link": "https://news.cnyes.com/news/id/6605089"
     },
     {
       "region": "TW",
-      "headline": "華爾街點名6檔潛力股！Robinhood還能漲42%、ServiceTitan喊到110美元",
+      "headline": "蘋果CEO特努斯談iPhone Duo：「軟硬體一體」才是摺疊螢幕核心",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6604987"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6605082"
     },
     {
       "region": "TW",
@@ -57,14 +57,6 @@
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6602958"
-    },
-    {
-      "region": "TW",
-      "headline": "上櫃公司前8月營收衝上2.55兆元！三大產業領跑8月營收年增近5成",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605002"
     }
   ]
 }
