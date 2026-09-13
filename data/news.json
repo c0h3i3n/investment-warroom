@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-13T05:59:22.141607+00:00",
-  "generatedAt": "2026-09-13T05:59:22.141607+00:00",
+  "timestamp": "2026-09-13T11:41:03.679298+00:00",
+  "generatedAt": "2026-09-13T11:41:03.679298+00:00",
   "data": [
     {
       "region": "TW",
@@ -36,35 +36,11 @@
     },
     {
       "region": "TW",
-      "headline": "南韓半導體出口首破400兆韓元！AI需求推升三星、SK海力士業績",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605079"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉光罩爆量周漲23.7% 創兩個月來新高",
+      "headline": "〈熱門股〉萊德光電-KY受惠衛星、光纖雙引擎驅動  周漲15％站回500元大關",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6604631"
-    },
-    {
-      "region": "TW",
-      "headline": "從產線到舞台！2026日月光好聲音各廠區員工同台獻唱",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605028"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉油價又破百！00642U飆漲衝新高、00673R逆勢吸金額度面臨告罄",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6602958"
+      "link": "https://news.cnyes.com/news/id/6605236"
     }
   ]
 }
