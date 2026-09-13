@@ -1,43 +1,35 @@
 {
-  "timestamp": "2026-09-13T19:21:27.442615+00:00",
-  "generatedAt": "2026-09-13T19:21:27.442615+00:00",
+  "timestamp": "2026-09-13T22:21:06.436046+00:00",
+  "generatedAt": "2026-09-13T22:21:06.436046+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - KAVA大跌10.21%，報0.063美元",
+      "headline": "AI三巨頭齊喊先進模型研發「降速」！ 分析師：「這族群」周一恐先跌為敬 但長期影響有限",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6605318"
+      "link": "https://news.cnyes.com/news/id/6605306"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 權力代幣大漲8.91%，報0.0599美元",
+      "headline": "持續施壓Fed降息！川普：美國應該擁有全球最低的利率",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6605317"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6605314"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - ether.fi大跌14.65%，報0.64美元",
+      "headline": "〈走進中國〉5年減少2.97萬所小學 中國多地小學改成養老院",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6605316"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - Ark大漲20.62%，報0.15美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6605315"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6605135"
     },
     {
       "region": "TW",
       "headline": "和成受惠軍工題材、無人機通過政院副署 法人估2027軍工營收比重有望提升逾15％",
-      "source": "台股",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6605258"
