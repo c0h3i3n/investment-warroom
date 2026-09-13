@@ -1,35 +1,43 @@
 {
-  "timestamp": "2026-09-13T00:52:18.828668+00:00",
-  "generatedAt": "2026-09-13T00:52:18.828668+00:00",
+  "timestamp": "2026-09-13T05:59:22.141607+00:00",
+  "generatedAt": "2026-09-13T05:59:22.141607+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "華為三摺疊新機開售 各版本均已斷貨",
+      "headline": "〈台股風向球〉資金續航力先看台幣 提防「升息周期到來」的預期形成",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605136"
+      "link": "https://news.cnyes.com/news/id/6605148"
     },
     {
       "region": "TW",
-      "headline": "若升息美股反有望迎「下一波多頭」行情？Fed升息機率飆至87%",
+      "headline": "imec突破High-NA EUV極限 光阻材料將一路延續至埃米世代",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6605078"
+      "link": "https://news.cnyes.com/news/id/6605204"
     },
     {
       "region": "TW",
-      "headline": "iPhone 18 Pro系列在中國正式預售 開售數分鐘首批貨源賣光",
+      "headline": "葉門戰局升溫牽動全球航運！胡塞若擴大控制恐衝擊紅海運輸",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605130"
+      "link": "https://news.cnyes.com/news/id/6605206"
+    },
+    {
+      "region": "TW",
+      "headline": "百容購新廠建地本周完成交割 仍往需求強烈半導體應用擴張",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6605166"
     },
     {
       "region": "TW",
       "headline": "南韓半導體出口首破400兆韓元！AI需求推升三星、SK海力士業績",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6605079"
