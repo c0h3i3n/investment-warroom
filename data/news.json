@@ -1,62 +1,70 @@
 {
-  "timestamp": "2026-09-14T18:32:27.820329+00:00",
-  "generatedAt": "2026-09-14T18:32:27.820329+00:00",
+  "timestamp": "2026-09-14T22:25:21.869466+00:00",
+  "generatedAt": "2026-09-14T22:25:21.869466+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "舒潔母公司要擴大品牌帝國！400億美元交易卻碰上歐盟攔路",
+      "headline": "柴油價格創新高 美政府擬禁油出口以降價 內政部長：恐適得其反",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605947"
+      "link": "https://news.cnyes.com/news/id/6606394"
     },
     {
       "region": "TW",
-      "headline": "公股4金2銀前8月合賺1213億創新高！兆豐金穩坐獲利王 華南金年增近4成居冠",
+      "headline": "AI巨頭齊喊「減速」輝達美光領晶片股暴跌 資安ETF創史上最大漲幅",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6606378"
+    },
+    {
+      "region": "TW",
+      "headline": "記憶體股陷熊市！DRAM ETF連14日失血 資金流出近20億美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605818"
+      "link": "https://news.cnyes.com/news/id/6606347"
     },
     {
       "region": "TW",
-      "headline": "美債殖利率逼近5%大關 為市場與經濟帶來了全新風險",
+      "headline": "〈美股盤後〉AI巨頭齊喊「踩煞車」股債雙殺 費半慘崩近6% 台積電ADR跌3.5%",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605936"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6606374"
     },
     {
       "region": "TW",
-      "headline": "蘋果開放預售兩天 直降900元 iPhone 18 Pro在中國「破發」",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605991"
-    },
-    {
-      "region": "TW",
-      "headline": "環宇-KY受惠基板缺料逐步舒緩 營運有望逐季成長",
+      "headline": "〈台股盤前要聞〉AI煞車論嚇到費半指數 台積電ADR同摔、信驊向日月光鎖2年產能",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6606013"
+      "link": "https://news.cnyes.com/news/id/6602473"
     },
     {
       "region": "TW",
-      "headline": "「台股儀表板」要來了！林修銘揭三大核心項目：強化風險教育與數據透明",
+      "headline": "00935及00999A日均量破萬張！「AI三巨頭」齊喊降速免驚 經理人曝AI長線2大支柱",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6606007"
+      "link": "https://news.cnyes.com/news/id/6605653"
     },
     {
       "region": "TW",
-      "headline": "高檔震盪選股難！外資近一月瘋買主動式ETF 囤貨00403A、00988A雙冠",
+      "headline": "又一檔千金股高力被抓去關 與巨有科技處置期至9/21、採每2分鐘撮合交易",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605996"
+      "link": "https://news.cnyes.com/news/id/6606057"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：金像電(2368-TW)EPS預估上修至41.57元，預估目標價為1620元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6606173"
     }
   ]
 }
