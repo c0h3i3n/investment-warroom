@@ -1,62 +1,54 @@
 {
-  "timestamp": "2026-09-14T00:57:37.448512+00:00",
-  "generatedAt": "2026-09-14T00:57:37.448512+00:00",
+  "timestamp": "2026-09-14T06:06:32.788750+00:00",
+  "generatedAt": "2026-09-14T06:06:32.788750+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI三巨頭齊喊先進模型研發「降速」！ 分析師：「這族群」周一恐先跌為敬 但長期影響有限",
+      "headline": "盤中速報 - 邁達特(6112)股價拉至漲停，漲停價50.6元，成交10,454張",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6605306"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6605589"
     },
     {
       "region": "TW",
-      "headline": "持續施壓Fed降息！川普：美國應該擁有全球最低的利率",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605314"
-    },
-    {
-      "region": "TW",
-      "headline": "〈走進中國〉5年減少2.97萬所小學 中國多地小學改成養老院",
+      "headline": "古爾曼：蘋果iPhone Duo有望成行業標準　引爆十年換機週期",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605135"
+      "link": "https://news.cnyes.com/news/id/6605339"
     },
     {
       "region": "TW",
-      "headline": "和成受惠軍工題材、無人機通過政院副署 法人估2027軍工營收比重有望提升逾15％",
+      "headline": "獨家代理！富強鑫攜手中科先峰 跨足半導體玻璃基板先進封裝",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605258"
+      "link": "https://news.cnyes.com/news/id/6605562"
     },
     {
       "region": "TW",
-      "headline": "〈熱門股〉萊德光電-KY受惠衛星、光纖雙引擎驅動  周漲15％站回500元大關",
+      "headline": "營收速報  - 元大金(2885)8月營收195.86億元年增率高達57.94％",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6605576"
+    },
+    {
+      "region": "TW",
+      "headline": "APEC能源會議北京登場 副經長賴建信分享台灣強韌電網與AI應用獲盛讚",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6605587"
+    },
+    {
+      "region": "TW",
+      "headline": "〈焦點股〉玖鼎電力買回庫藏股 谷底反彈漲逾半根停板",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6605236"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股風向球〉資金續航力先看台幣 提防「升息周期到來」的預期形成",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605148"
-    },
-    {
-      "region": "TW",
-      "headline": "imec突破High-NA EUV極限 光阻材料將一路延續至埃米世代",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6605204"
+      "link": "https://news.cnyes.com/news/id/6605552"
     }
   ]
 }
