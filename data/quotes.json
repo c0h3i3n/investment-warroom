@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-14T06:06:32.788750+00:00",
-  "generatedAt": "2026-09-14T06:06:32.788750+00:00",
+  "timestamp": "2026-09-14T12:37:53.215621+00:00",
+  "generatedAt": "2026-09-14T12:37:53.215621+00:00",
   "data": [
     {
       "symbol": "0050.TW",
@@ -8,7 +8,7 @@
       "price": 106.9,
       "change": -0.8,
       "changePct": -0.74,
-      "asOf": "2026-09-14T05:30:00+00:00",
+      "asOf": "2026-09-14T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -18,7 +18,7 @@
       "price": 2380.0,
       "change": -30.0,
       "changePct": -1.24,
-      "asOf": "2026-09-14T05:30:00+00:00",
+      "asOf": "2026-09-14T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -28,7 +28,7 @@
       "price": 25.28,
       "change": 0.02,
       "changePct": 0.08,
-      "asOf": "2026-09-14T05:30:00+00:00",
+      "asOf": "2026-09-14T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -38,7 +38,7 @@
       "price": 34.23,
       "change": 0.23,
       "changePct": 0.68,
-      "asOf": "2026-09-14T05:30:00+00:00",
+      "asOf": "2026-09-14T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -48,7 +48,7 @@
       "price": 28.6,
       "change": -0.02,
       "changePct": -0.07,
-      "asOf": "2026-09-14T05:30:00+00:00",
+      "asOf": "2026-09-14T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -58,7 +58,7 @@
       "price": 15.29,
       "change": 0.02,
       "changePct": 0.13,
-      "asOf": "2026-09-14T05:30:00+00:00",
+      "asOf": "2026-09-14T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -68,7 +68,7 @@
       "price": 14.13,
       "change": 0.02,
       "changePct": 0.14,
-      "asOf": "2026-09-14T05:30:00+00:00",
+      "asOf": "2026-09-14T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -78,7 +78,7 @@
       "price": 12.79,
       "change": -0.02,
       "changePct": -0.16,
-      "asOf": "2026-09-14T05:30:00+00:00",
+      "asOf": "2026-09-14T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },

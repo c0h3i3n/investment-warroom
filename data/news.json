@@ -1,54 +1,62 @@
 {
-  "timestamp": "2026-09-14T06:06:32.788750+00:00",
-  "generatedAt": "2026-09-14T06:06:32.788750+00:00",
+  "timestamp": "2026-09-14T12:37:53.215621+00:00",
+  "generatedAt": "2026-09-14T12:37:53.215621+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 邁達特(6112)股價拉至漲停，漲停價50.6元，成交10,454張",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6605589"
-    },
-    {
-      "region": "TW",
-      "headline": "古爾曼：蘋果iPhone Duo有望成行業標準　引爆十年換機週期",
+      "headline": "舒潔母公司要擴大品牌帝國！400億美元交易卻碰上歐盟攔路",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605339"
+      "link": "https://news.cnyes.com/news/id/6605947"
     },
     {
       "region": "TW",
-      "headline": "獨家代理！富強鑫攜手中科先峰 跨足半導體玻璃基板先進封裝",
+      "headline": "公股4金2銀前8月合賺1213億創新高！兆豐金穩坐獲利王 華南金年增近4成居冠",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605562"
+      "link": "https://news.cnyes.com/news/id/6605818"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 元大金(2885)8月營收195.86億元年增率高達57.94％",
+      "headline": "美債殖利率逼近5%大關 為市場與經濟帶來了全新風險",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605576"
+      "link": "https://news.cnyes.com/news/id/6605936"
     },
     {
       "region": "TW",
-      "headline": "APEC能源會議北京登場 副經長賴建信分享台灣強韌電網與AI應用獲盛讚",
+      "headline": "蘋果開放預售兩天 直降900元 iPhone 18 Pro在中國「破發」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6605991"
+    },
+    {
+      "region": "TW",
+      "headline": "環宇-KY受惠基板缺料逐步舒緩 營運有望逐季成長",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605587"
+      "link": "https://news.cnyes.com/news/id/6606013"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉玖鼎電力買回庫藏股 谷底反彈漲逾半根停板",
+      "headline": "「台股儀表板」要來了！林修銘揭三大核心項目：強化風險教育與數據透明",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6605552"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6606007"
+    },
+    {
+      "region": "TW",
+      "headline": "高檔震盪選股難！外資近一月瘋買主動式ETF 囤貨00403A、00988A雙冠",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6605996"
     }
   ]
 }
