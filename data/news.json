@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-09-15T18:07:01.425749+00:00",
-  "generatedAt": "2026-09-15T18:07:01.425749+00:00",
+  "timestamp": "2026-09-15T21:16:28.022227+00:00",
+  "generatedAt": "2026-09-15T21:16:28.022227+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "華爾街最怕的不是AI泡沫 美債殖利率「失序飆升」成頭號風險",
+      "headline": "〈能源盤後〉沙烏地Yanbu停裝、取消歐洲油單 原油漲逾3美元 Brent叩關110美元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6607298"
+      "link": "https://news.cnyes.com/news/id/6607349"
     },
     {
       "region": "TW",
-      "headline": "競爭先放一邊！OpenAI攜手Anthropic、Google防範AI災難性風險",
+      "headline": "〈美股盤後〉美債殖利率升破5%創19年新高 油價再飆 三大指數盡墨 費半跌深反彈",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6607342"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6606995"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：PBF Energy Inc - Class A(PBF-US)EPS預估上修至20.1元，預估目標價為74.00元",
+      "headline": "盤中速報 - LINK大跌8.11%，報10.936美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6607380"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6607451"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：Forgent Power Solutions, Inc. Class AFPS-US的目標價調降至58元，幅度約3.3…",
+      "headline": "盤中速報 - 大零幣大跌8.81%，報1,114.1美元",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6607379"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6607450"
     },
     {
       "region": "TW",
