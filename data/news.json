@@ -1,46 +1,54 @@
 {
-  "timestamp": "2026-09-15T07:37:26.308913+00:00",
-  "generatedAt": "2026-09-15T07:37:26.308913+00:00",
+  "timestamp": "2026-09-15T13:26:58.192797+00:00",
+  "generatedAt": "2026-09-15T13:26:58.192797+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "搶救產業K型化！龔明鑫：明年起年投250億推升百萬中小企業AI轉型",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6606661"
-    },
-    {
-      "region": "TW",
-      "headline": "國泰00770最後申購日！今年多配一次 配息6元明除息",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6606666"
-    },
-    {
-      "region": "TW",
-      "headline": "〈焦點股〉美時前8月營收突破200億關卡躍居生技營收王 走揚收復5日線",
+      "headline": "美股漲不動了？富國銀行估標普500年底僅剩1%上漲空間",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6606645"
+      "link": "https://news.cnyes.com/news/id/6607219"
     },
     {
       "region": "TW",
-      "headline": "DRAM/NAND齊漲30%起！陸媒：蘋果接受三星2027年Q1記憶體報價",
+      "headline": "前Google DeepMind研究員補刀！稱AI恐「殺死全人類」、避免災難時間「已不多」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6606806"
+    },
+    {
+      "region": "TW",
+      "headline": "產業表態挺撥補台電中油 基本薪資連11漲？龔明鑫：提供受調薪衝擊企業「配套」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6606639"
+      "link": "https://news.cnyes.com/news/id/6607203"
     },
     {
       "region": "TW",
-      "headline": "華航首度完成長程航線使用40%SAF 再寫永續新局",
+      "headline": "創博會9/17世貿登場 科技館展技術涵蓋AI應用從晶片散熱到癌症早篩偵測",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6607204"
+    },
+    {
+      "region": "TW",
+      "headline": "財部拍板中韓電磁鋼品傾銷 追繳反傾銷稅最高達59%",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6606643"
+      "link": "https://news.cnyes.com/news/id/6607196"
+    },
+    {
+      "region": "TW",
+      "headline": "能率亞洲現增案完成募集4.61億元 現增股9/18上櫃買賣",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6607194"
     }
   ]
 }
