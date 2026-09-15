@@ -1,27 +1,51 @@
 {
-  "timestamp": "2026-09-15T13:26:58.192797+00:00",
-  "generatedAt": "2026-09-15T13:26:58.192797+00:00",
+  "timestamp": "2026-09-15T18:07:01.425749+00:00",
+  "generatedAt": "2026-09-15T18:07:01.425749+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美股漲不動了？富國銀行估標普500年底僅剩1%上漲空間",
+      "headline": "華爾街最怕的不是AI泡沫 美債殖利率「失序飆升」成頭號風險",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6607219"
+      "link": "https://news.cnyes.com/news/id/6607298"
     },
     {
       "region": "TW",
-      "headline": "前Google DeepMind研究員補刀！稱AI恐「殺死全人類」、避免災難時間「已不多」",
+      "headline": "競爭先放一邊！OpenAI攜手Anthropic、Google防範AI災難性風險",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6606806"
+      "link": "https://news.cnyes.com/news/id/6607342"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：PBF Energy Inc - Class A(PBF-US)EPS預估上修至20.1元，預估目標價為74.00元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6607380"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：Forgent Power Solutions, Inc. Class AFPS-US的目標價調降至58元，幅度約3.3…",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6607379"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：慧洋-KY(2637-TW)EPS預估上修至9.52元，預估目標價為104元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6607307"
     },
     {
       "region": "TW",
       "headline": "產業表態挺撥補台電中油 基本薪資連11漲？龔明鑫：提供受調薪衝擊企業「配套」",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6607203"
@@ -29,26 +53,10 @@
     {
       "region": "TW",
       "headline": "創博會9/17世貿登場 科技館展技術涵蓋AI應用從晶片散熱到癌症早篩偵測",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6607204"
-    },
-    {
-      "region": "TW",
-      "headline": "財部拍板中韓電磁鋼品傾銷 追繳反傾銷稅最高達59%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6607196"
-    },
-    {
-      "region": "TW",
-      "headline": "能率亞洲現增案完成募集4.61億元 現增股9/18上櫃買賣",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6607194"
     }
   ]
 }
