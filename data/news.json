@@ -1,54 +1,70 @@
 {
-  "timestamp": "2026-09-16T16:45:17.655644+00:00",
-  "generatedAt": "2026-09-16T16:45:17.655644+00:00",
+  "timestamp": "2026-09-16T20:01:05.993003+00:00",
+  "generatedAt": "2026-09-16T20:01:05.993003+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "華爾街靜待聯準會決策 70%機構預估2026年將升息至少2碼",
+      "headline": "Fed升息機率近90%也不算穩！華許若按兵不動 恐引爆美股賣壓",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6608149"
+      "link": "https://news.cnyes.com/news/id/6608458"
     },
     {
       "region": "TW",
-      "headline": "三三會籲政府應更積極「搶人才」 能源與人才短缺是國安與經濟韌性課題",
+      "headline": "美債殖利率升破5%！停留在高點多久比突破多少更危險 企業再融資與房市警報響起",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6607910"
+    },
+    {
+      "region": "TW",
+      "headline": "日本超低利率時代加速落幕！日銀周五料升息至31年高點",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6608191"
+      "link": "https://news.cnyes.com/news/id/6608249"
     },
     {
       "region": "TW",
-      "headline": "研調：AI伺服器帶動2026年全球資料中心電力需求年增31% 2028年電網供應缺口擴大",
+      "headline": "別讓AI以為自己有意識！微軟警告失控後果難以想像",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6608177"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6608389"
     },
     {
       "region": "TW",
-      "headline": "能源成本激增 英國8月通膨率升至3.1% 創5個月新高",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6608167"
-    },
-    {
-      "region": "TW",
-      "headline": "中信銀攜萬豪拓高端版圖！全台首張國際飯店聯名卡 發卡目標上看20萬張",
+      "headline": "華邦電砸356億元收購英飛凌記憶體事業 Spansion品牌復活",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6608179"
+      "link": "https://news.cnyes.com/news/id/6608345"
     },
     {
       "region": "TW",
-      "headline": "福壽：將重建消費者信賴 同時對中聯油脂求償規模也在精算中",
+      "headline": "〈鴻騰科技日〉盧松青：光通訊產能已備妥 最大瓶頸是材料供給",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6608174"
+      "link": "https://news.cnyes.com/news/id/6608313"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：健鼎(3044-TW)EPS預估上修至32.27元，預估目標價為700元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6608300"
+    },
+    {
+      "region": "TW",
+      "headline": "〈鴻騰科技日〉盧松青：AI需求不錯產能滿載 光通訊產品明年進一步放量",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6608267"
     }
   ]
 }
