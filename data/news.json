@@ -1,70 +1,54 @@
 {
-  "timestamp": "2026-09-17T13:22:22.331421+00:00",
-  "generatedAt": "2026-09-17T13:22:22.331421+00:00",
+  "timestamp": "2026-09-17T18:08:38.918994+00:00",
+  "generatedAt": "2026-09-17T18:08:38.918994+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "中國逾8億人愛看AI短劇 官方喊話加碼扶持真人劇",
+      "headline": "騰輝-KY董事會通過承租昆山廠房擴產 承接AI與HDI外溢訂單",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6609013"
+      "link": "https://news.cnyes.com/news/id/6609386"
     },
     {
       "region": "TW",
-      "headline": "美升息1碼與債殖利率衝高 富坦建議多元跨資產策略抗波動",
+      "headline": "紅海石油命脈告急！沙國急向中國求援 北京私下要求伊朗約束青年運動",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6608989"
+      "link": "https://news.cnyes.com/news/id/6609367"
     },
     {
       "region": "TW",
-      "headline": "川普顧問納瓦羅痛批聯準會主席華許：升息是「愚蠢決策」",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6608978"
-    },
-    {
-      "region": "TW",
-      "headline": "債市已跌到「最大痛苦點」 華爾街資金喊「太便宜」開始搶進長債",
+      "headline": "美股重演網際網路泡沫警訊？巴菲特給投資人的重磅警告",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6608622"
+      "link": "https://news.cnyes.com/news/id/6609287"
     },
     {
       "region": "TW",
-      "headline": "愛立信攜手聯發科突破5G定位精準度 加速自駕車、無人機與智慧製造應用",
+      "headline": "Fed重啟升息台股承壓？野村拆解26年數據：1年回歸基本面 慎防3大修正警訊",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6609341"
+    },
+    {
+      "region": "TW",
+      "headline": "新增5檔股票明起抓去關  飆股全友、聯一光處置期至9/30",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6608970"
+      "link": "https://news.cnyes.com/news/id/6609348"
     },
     {
       "region": "TW",
-      "headline": "〈台股盤後〉台積電、台塑四寶齊發力 上漲439點收復4萬6及月線",
+      "headline": "TIE開幕 中光電無人機搶下美警消大單 宇隆機器人攻北美市場",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6608950"
-    },
-    {
-      "region": "TW",
-      "headline": "M31擴大與Rambus技術合作 強化MIPI一站式解決方案",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6608928"
-    },
-    {
-      "region": "TW",
-      "headline": "杏輝三大引擎齊發力推升營運 積極進軍東協市場",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6608927"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6609339"
     }
   ]
 }
