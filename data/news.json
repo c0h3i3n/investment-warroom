@@ -1,70 +1,70 @@
 {
-  "timestamp": "2026-09-17T01:18:31.383264+00:00",
-  "generatedAt": "2026-09-17T01:18:31.383264+00:00",
+  "timestamp": "2026-09-17T07:33:26.479954+00:00",
+  "generatedAt": "2026-09-17T07:33:26.479954+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美光面臨新威脅 美國記憶體晶片霸主地位恐受挑戰",
+      "headline": "中國逾8億人愛看AI短劇 官方喊話加碼扶持真人劇",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6608574"
+      "link": "https://news.cnyes.com/news/id/6609013"
     },
     {
       "region": "TW",
-      "headline": "記憶體決定AI上限！美光高層：供需失衡恐延續至2028年後",
+      "headline": "美升息1碼與債殖利率衝高 富坦建議多元跨資產策略抗波動",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6607842"
+      "link": "https://news.cnyes.com/news/id/6608989"
     },
     {
       "region": "TW",
-      "headline": "〈貴金屬盤後〉Fed升息1碼、華許警告通膨仍過高 金價下挫逾1%",
+      "headline": "川普顧問納瓦羅痛批聯準會主席華許：升息是「愚蠢決策」",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6608978"
+    },
+    {
+      "region": "TW",
+      "headline": "債市已跌到「最大痛苦點」 華爾街資金喊「太便宜」開始搶進長債",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6607962"
+      "link": "https://news.cnyes.com/news/id/6608622"
     },
     {
       "region": "TW",
-      "headline": "AI資料中心電力需求爆發 亞馬遜砸最高80億美元買發電機 Generac盤後飆逾40%",
-      "source": "鉅亨",
+      "headline": "愛立信攜手聯發科突破5G定位精準度 加速自駕車、無人機與智慧製造應用",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6608592"
+      "link": "https://news.cnyes.com/news/id/6608970"
     },
     {
       "region": "TW",
-      "headline": "不再一條龍！三星客製化HBM擬採雙軌並行：自廠或台積電製造基礎裸片任客戶挑",
+      "headline": "〈台股盤後〉台積電、台塑四寶齊發力 上漲439點收復4萬6及月線",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6608075"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6608950"
     },
     {
       "region": "TW",
-      "headline": "華邦電砸356億元收購英飛凌記憶體事業 Spansion品牌復活",
+      "headline": "M31擴大與Rambus技術合作 強化MIPI一站式解決方案",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6608345"
+      "link": "https://news.cnyes.com/news/id/6608928"
     },
     {
       "region": "TW",
-      "headline": "〈鴻騰科技日〉盧松青：光通訊產能已備妥 最大瓶頸是材料供給",
+      "headline": "杏輝三大引擎齊發力推升營運 積極進軍東協市場",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6608313"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：健鼎(3044-TW)EPS預估上修至32.27元，預估目標價為700元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6608300"
+      "link": "https://news.cnyes.com/news/id/6608927"
     }
   ]
 }
