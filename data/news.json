@@ -1,62 +1,54 @@
 {
-  "timestamp": "2026-09-18T00:11:17.680016+00:00",
-  "generatedAt": "2026-09-18T00:11:17.680016+00:00",
+  "timestamp": "2026-09-18T05:49:11.842311+00:00",
+  "generatedAt": "2026-09-18T05:49:11.842311+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美股牛市走到底了？全球最強主權基金曝「回檔訊號」",
+      "headline": "中國車便宜30%-40% 川普放話歡迎赴美設廠 現代汽車CEO警告：沒有防線恐重演歐洲局面",
       "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6609014"
-    },
-    {
-      "region": "TW",
-      "headline": "〈美股盤後〉油價、美債殖利率「雙降」 那指漲近1.7% 費半強升超3%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6609573"
-    },
-    {
-      "region": "TW",
-      "headline": "〈能源盤後〉沙國增加原油供應 油價回落近1%仍站穩百美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6609485"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股盤前要聞〉台指期夜盤大漲突破4萬7、央行不跟進升息對房市再鬆綁",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6607477"
-    },
-    {
-      "region": "TW",
-      "headline": "大立光再砸11.72億元購入台中精密機械園區土地廠房",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6609411"
-    },
-    {
-      "region": "TW",
-      "headline": "騰輝-KY董事會通過承租昆山廠房擴產 承接AI與HDI外溢訂單",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6609386"
-    },
-    {
-      "region": "TW",
-      "headline": "Fed重啟升息台股承壓？野村拆解26年數據：1年回歸基本面 慎防3大修正警訊",
-      "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6609341"
+      "link": "https://news.cnyes.com/news/id/6609978"
+    },
+    {
+      "region": "TW",
+      "headline": "〈房產〉新北已非首購天堂  總價千萬內預售屋占比僅剩1.6% 主流總價帶上移",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6609965"
+    },
+    {
+      "region": "TW",
+      "headline": "〈蘋果新機開賣〉遠傳5G用戶滲透率突破50% 搭iPhone 18 Pro熱賣拚滲透率再攀升",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6609963"
+    },
+    {
+      "region": "TW",
+      "headline": "谷歌Gemini 4 Pro疑偷跑 四大跑分全面領先Astra、Fable",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6609933"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 櫃買市場加權指數上漲10.68點至408.85點，漲幅2.68%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6609976"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：技嘉(2376-TW)EPS預估上修至34.36元，預估目標價為495元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6609961"
     }
   ]
 }
