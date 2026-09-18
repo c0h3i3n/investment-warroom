@@ -1,46 +1,62 @@
 {
-  "timestamp": "2026-09-18T14:56:03.391904+00:00",
-  "generatedAt": "2026-09-18T14:56:03.391904+00:00",
+  "timestamp": "2026-09-18T18:19:47.762115+00:00",
+  "generatedAt": "2026-09-18T18:19:47.762115+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI三巨頭齊喊煞車 緯創林憲銘、和碩童子賢仍樂觀看AI產業",
+      "headline": "日銀升息也救不了日元？跌近158後傳出詢價 市場緊盯干預",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6610297"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6610507"
     },
     {
       "region": "TW",
-      "headline": "升息為何讓日元重摔、日股大漲？解析日銀決策被解讀不夠鷹派的三大關鍵",
+      "headline": "AI竟留言給未來的自己？OpenAI揭異常行為 微軟示警「情況嚴重」",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6610150"
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6610500"
     },
     {
       "region": "TW",
-      "headline": "外資期現貨用力做多 買超869億元史上第5大 全周仍賣超184億元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6610246"
-    },
-    {
-      "region": "TW",
-      "headline": "富采取得友達7.3萬張持股 深化集團「3+1」策略結盟綜效",
+      "headline": "沙國10月對歐長約原油配額歸零！煉油廠急搶替代貨源",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6610243"
+      "link": "https://news.cnyes.com/news/id/6610578"
     },
     {
       "region": "TW",
-      "headline": "電價續凍漲！審議會拍板優先爭取政府711億補助  費率延至12月併審",
+      "headline": "運動巨頭風光不再？Nike遭標普100剔除後 道瓊地位也告急",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6609623"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：南亞科(2408-TW)EPS預估上修至66.98元，預估目標價為637.5元",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6610228"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6610540"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：智邦(2345-TW)EPS預估下修至86.43元，預估目標價為3500元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6610539"
+    },
+    {
+      "region": "TW",
+      "headline": "華星光新品布局估2027 H2放量 法人估產能擴張有望開啟高速成長",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6610478"
     }
   ]
 }
