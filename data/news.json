@@ -1,54 +1,46 @@
 {
-  "timestamp": "2026-09-18T05:49:11.842311+00:00",
-  "generatedAt": "2026-09-18T05:49:11.842311+00:00",
+  "timestamp": "2026-09-18T11:04:29.721606+00:00",
+  "generatedAt": "2026-09-18T11:04:29.721606+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "中國車便宜30%-40% 川普放話歡迎赴美設廠 現代汽車CEO警告：沒有防線恐重演歐洲局面",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6609978"
-    },
-    {
-      "region": "TW",
-      "headline": "〈房產〉新北已非首購天堂  總價千萬內預售屋占比僅剩1.6% 主流總價帶上移",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6609965"
-    },
-    {
-      "region": "TW",
-      "headline": "〈蘋果新機開賣〉遠傳5G用戶滲透率突破50% 搭iPhone 18 Pro熱賣拚滲透率再攀升",
+      "headline": "AI三巨頭齊喊煞車 緯創林憲銘、和碩童子賢仍樂觀看AI產業",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6609963"
+      "link": "https://news.cnyes.com/news/id/6610297"
     },
     {
       "region": "TW",
-      "headline": "谷歌Gemini 4 Pro疑偷跑 四大跑分全面領先Astra、Fable",
+      "headline": "升息為何讓日元重摔、日股大漲？解析日銀決策被解讀不夠鷹派的三大關鍵",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6610150"
+    },
+    {
+      "region": "TW",
+      "headline": "外資期現貨用力做多 買超869億元史上第5大 全周仍賣超184億元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6609933"
+      "link": "https://news.cnyes.com/news/id/6610246"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 櫃買市場加權指數上漲10.68點至408.85點，漲幅2.68%",
+      "headline": "富采取得友達7.3萬張持股 深化集團「3+1」策略結盟綜效",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6610243"
+    },
+    {
+      "region": "TW",
+      "headline": "電價續凍漲！審議會拍板優先爭取政府711億補助  費率延至12月併審",
       "source": "台股",
       "time": "--:--",
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6609976"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：技嘉(2376-TW)EPS預估上修至34.36元，預估目標價為495元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6609961"
+      "link": "https://news.cnyes.com/news/id/6610228"
     }
   ]
 }
