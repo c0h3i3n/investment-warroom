@@ -1,62 +1,70 @@
 {
-  "timestamp": "2026-09-19T00:11:38.141726+00:00",
-  "generatedAt": "2026-09-19T00:11:38.141726+00:00",
+  "timestamp": "2026-09-19T05:44:12.782468+00:00",
+  "generatedAt": "2026-09-19T05:44:12.782468+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 文件幣大漲11.12%，報0.92美元",
+      "headline": "Anthropic今年年化營收估衝千億美元 為11月上市做準備",
       "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6610688"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 安可(AMKR-US)大漲5.01%，報50.35美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6610682"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 泰瑞達(TER-US)大漲5.01%，報370.82美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6610681"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 英特格(ENTG-US)大漲5%，報141.41美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6610678"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：南亞科(2408-TW)EPS預估上修至66.98元，預估目標價為637.5元",
-      "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6610540"
+      "link": "https://news.cnyes.com/news/id/6610716"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：智邦(2345-TW)EPS預估下修至86.43元，預估目標價為3500元",
-      "source": "台股",
+      "headline": "美光財報倒數 輝達、SK海力士釋記憶體市場強烈訊號",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6610739"
+    },
+    {
+      "region": "TW",
+      "headline": "葉門衝突升級以來頭一遭！沙國首都利雅德周六凌晨拉起空襲警報  胡塞空襲後油運怎麼繞？",
+      "source": "鉅亨",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6610539"
+      "link": "https://news.cnyes.com/news/id/6610902"
     },
     {
       "region": "TW",
-      "headline": "華星光新品布局估2027 H2放量 法人估產能擴張有望開啟高速成長",
+      "headline": "OpenAI被曝五年現金缺口達2780億美元 算力支出驚人",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6610720"
+    },
+    {
+      "region": "TW",
+      "headline": "美光勞資談判觸及三議題 10/22再舉行第二次會議",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6610478"
+      "link": "https://news.cnyes.com/news/id/6610827"
+    },
+    {
+      "region": "TW",
+      "headline": "財部出重拳！宣布對印印馬越4國陶瓷面磚展開反傾銷落日調查 最快明年5月定案",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6610182"
+    },
+    {
+      "region": "TW",
+      "headline": "手把手教你AI+期貨！期交所首開「AI智能交易」實戰課9/22首發 即起報名開搶",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6610828"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉測試介面族群輪動 雍智科技周漲29%站回季線",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6610801"
     }
   ]
 }
