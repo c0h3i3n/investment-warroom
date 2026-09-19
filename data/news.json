@@ -1,15 +1,7 @@
 {
-  "timestamp": "2026-09-19T17:56:11.610689+00:00",
-  "generatedAt": "2026-09-19T17:56:11.610689+00:00",
+  "timestamp": "2026-09-19T20:31:50.881599+00:00",
+  "generatedAt": "2026-09-19T20:31:50.881599+00:00",
   "data": [
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 恆星幣大漲9.08%，報0.203美元",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6611066"
-    },
     {
       "region": "TW",
       "headline": "智寶首度進軍好萊塢 《電鋸甜心》啟動真人版電影計畫",
@@ -33,6 +25,14 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6610970"
+    },
+    {
+      "region": "TW",
+      "headline": "OpenAI奧特曼下週赴聯合國安理會談AI安全！聚焦國際協調與失控風險",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6610925"
     },
     {
       "region": "TW",
