@@ -1,11 +1,43 @@
 {
-  "timestamp": "2026-09-20T18:42:18.387855+00:00",
-  "generatedAt": "2026-09-20T18:42:18.387855+00:00",
+  "timestamp": "2026-09-20T21:27:40.859304+00:00",
+  "generatedAt": "2026-09-20T21:27:40.859304+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈台股風向球〉升息利空出盡站回4萬7 惟提防中秋連假前賣壓",
+      "headline": "〈台股盤前要聞〉電價續凍漲、外資期現貨做多買超第五大",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6611478"
+    },
+    {
+      "region": "TW",
+      "headline": "Fed卡什卡里：通膨壓力已擴散至美經濟所有領域",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6611493"
+    },
+    {
+      "region": "TW",
+      "headline": "〈走進中國〉在讀75.36萬 存量120萬 中國博士真的過剩了嗎？",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6611232"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - Arweave大漲17.42%，報5.08美元",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6611505"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股風向球〉升息利空出盡站回4萬7 惟提防中秋連假前賣壓",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6611485"
@@ -13,26 +45,10 @@
     {
       "region": "TW",
       "headline": "集團作帳行情助攻 南亞、台塑化季底有望進行補漲",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6611387"
-    },
-    {
-      "region": "TW",
-      "headline": "俄羅斯首都莫斯科 遭遇有史以來最大規模襲擊",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6611476"
-    },
-    {
-      "region": "TW",
-      "headline": "本週操盤筆記：全球PMI、歐亞非多國央行利率決議、川習二會登場",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6610786"
     },
     {
       "region": "TW",
@@ -41,14 +57,6 @@
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6610618"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉中華化受惠電子級硫酸需求強勁 周漲18.3％站上百元大關",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6611181"
     }
   ]
 }
