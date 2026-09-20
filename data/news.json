@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-09-20T15:58:14.729908+00:00",
-  "generatedAt": "2026-09-20T15:58:14.729908+00:00",
+  "timestamp": "2026-09-20T18:42:18.387855+00:00",
+  "generatedAt": "2026-09-20T18:42:18.387855+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "亞洲貨櫃運價飆升！上海至美東每櫃破1萬美元、巴拿馬運河限航成推手",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6611281"
-    },
-    {
-      "region": "TW",
-      "headline": "AI失控警報再響！谷歌AI首度「越獄」 Gemini自主駭入3家公司",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6611098"
-    },
-    {
-      "region": "TW",
-      "headline": "漲價壓力向供應鏈下游傳導 中國顯示器也開始漲價了",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6611344"
-    },
-    {
-      "region": "TW",
-      "headline": "矽谷、華爾街「排隊」資助川普共和黨期中選舉！吸金4億美元",
+      "headline": "〈台股風向球〉升息利空出盡站回4萬7 惟提防中秋連假前賣壓",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6611326"
+      "link": "https://news.cnyes.com/news/id/6611485"
+    },
+    {
+      "region": "TW",
+      "headline": "集團作帳行情助攻 南亞、台塑化季底有望進行補漲",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6611387"
+    },
+    {
+      "region": "TW",
+      "headline": "俄羅斯首都莫斯科 遭遇有史以來最大規模襲擊",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6611476"
+    },
+    {
+      "region": "TW",
+      "headline": "本週操盤筆記：全球PMI、歐亞非多國央行利率決議、川習二會登場",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6610786"
     },
     {
       "region": "TW",
@@ -49,22 +49,6 @@
       "time": "--:--",
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6611181"
-    },
-    {
-      "region": "TW",
-      "headline": "NASDAQ 100近月強勁彈升！009820勁揚11% 稱霸同類型ETF",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6610580"
-    },
-    {
-      "region": "TW",
-      "headline": "智寶首度進軍好萊塢 《電鋸甜心》啟動真人版電影計畫",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6611017"
     }
   ]
 }
