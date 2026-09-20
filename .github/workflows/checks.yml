@@ -1,0 +1,19 @@
+name: Code checks
+on:
+  push:
+    paths: ['js/**', 'worker/**', 'scripts/**', 'index.html', 'package*.json', '.github/workflows/checks.yml']
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 1 * *'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci
+      - run: npm test
+      - run: node scripts/check-calendar.mjs

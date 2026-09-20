@@ -17,6 +17,7 @@ const App = (() => {
   let newsGeneration = 0;
   let indicatorInFlight = null;
   let indicatorAutoAttempted = false;
+  let indicatorLastAttempt = 0;
   const DEFAULT_INDICATOR_SYMBOL = '0050.TW';
 
   // ═══════════════════════════════════════
@@ -273,9 +274,9 @@ const App = (() => {
         await updatePortfolio(quotesForPortfolio, generation);
         if (generation !== refreshGeneration) return false;
 
-        // Technical indicators load in the background once per page session.
+        // Technical indicators refresh in the background every 15 minutes.
         // They never delay quotes, portfolio totals, or the data-status badge.
-        if (!indicatorAutoAttempted) {
+        if (!indicatorAutoAttempted || Date.now() - indicatorLastAttempt >= 15 * 60 * 1000) {
           indicatorAutoAttempted = true;
           queueMicrotask(() => updateIndicators(DEFAULT_INDICATOR_SYMBOL, { automatic: true }));
         }
@@ -424,6 +425,7 @@ const App = (() => {
   // ═══════════════════════════════════════
   function updateIndicators(symbol = DEFAULT_INDICATOR_SYMBOL, { automatic = false } = {}) {
     if (indicatorInFlight) return indicatorInFlight;
+    indicatorLastAttempt = Date.now();
     UI.showIndicatorLoading(symbol, automatic);
     indicatorInFlight = (async () => {
       const existingQuote = watchlistQuotes.find(item => item.symbol === symbol);

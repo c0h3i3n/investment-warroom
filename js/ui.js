@@ -340,6 +340,13 @@ const UI = (() => {
           <div class="ind-sig ${ind.color}">${ind.signal}</div>
         </div>
       `).join('');
+      const status = document.createElement('div');
+      status.style.cssText = 'grid-column:1/-1;font-size:11px;color:var(--dim)';
+      const format = time => new Date(time).toLocaleString('zh-TW', {timeZone:'Asia/Taipei'});
+      status.textContent = '日線 ' + format(indData.asOf) + ' · 計算 ' + format(indData.calculatedAt)
+        + (indData.historyMeta?.delivery === 'stale-kv' ? ' · 更新失敗，使用快取' : '')
+        + (indData.historyMeta?.rejectedRows ? ' · 已排除異常日線 ' + indData.historyMeta.rejectedRows + ' 筆' : '');
+      grid.appendChild(status);
     }
 
     if (chart && indData?.chartData) {

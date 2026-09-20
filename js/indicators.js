@@ -305,6 +305,9 @@ const IndicatorsService = (() => {
 
     return {
       symbol,
+      asOf: data.at(-1).time,
+      calculatedAt: Date.now(),
+      historyMeta: data.meta,
       indicators: interpret(rsi, macd, stoch, ma20, ma60, currentPrice, volumeIndicator),
       chartData: data.slice(-60),
     };

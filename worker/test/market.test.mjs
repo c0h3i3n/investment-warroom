@@ -141,7 +141,7 @@ test('history API serves a cached 0050 series without an upstream request', asyn
   const env = {
     MARKET_CACHE: {
       get: async key => {
-        assert.equal(key, 'market:history:v1:0050.TW:6mo:1d');
+        assert.equal(key, 'market:history:v2:0050.TW:6mo:1d');
         return history;
       },
       put: async () => assert.fail('fresh history KV should not be rewritten'),

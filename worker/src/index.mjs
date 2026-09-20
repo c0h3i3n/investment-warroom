@@ -1,4 +1,5 @@
 import '../../js/market-calendar.js';
+import '../../js/history-validation.js';
 const SNAPSHOT_KEY = 'market:snapshot:v1';
 const SNAPSHOT_MAX_AGE_MS = 7 * 60 * 1000;
 const HISTORY_MAX_AGE_MS = 15 * 60 * 1000;
@@ -189,17 +190,7 @@ export async function fetchYahooHistory(symbol, range, interval) {
   const timestamps = result?.timestamp;
   const quote = result?.indicators?.quote?.[0];
   if (!Array.isArray(timestamps) || !quote) throw new Error('No history data');
-  const adjusted = result.indicators?.adjclose?.[0]?.adjclose;
-  const data = timestamps.map((timestamp, index) => ({
-    time: Number(timestamp) * 1000,
-    open: Number.isFinite(Number(quote.open?.[index])) ? Number(quote.open[index]) : null,
-    high: Number.isFinite(Number(quote.high?.[index])) ? Number(quote.high[index]) : null,
-    low: Number.isFinite(Number(quote.low?.[index])) ? Number(quote.low[index]) : null,
-    close: Number.isFinite(Number(adjusted?.[index] ?? quote.close?.[index]))
-      ? Number(adjusted?.[index] ?? quote.close[index])
-      : null,
-    volume: Number.isFinite(Number(quote.volume?.[index])) ? Number(quote.volume[index]) : null,
-  })).filter(row => Number.isFinite(row.time) && row.time > 0 && Number.isFinite(row.close) && row.close > 0);
+  const data = HistoryValidation.fromYahoo(result, symbol, interval);
   if (data.length < 2) throw new Error('Insufficient history data');
   return {
     schemaVersion: 1,
@@ -209,6 +200,7 @@ export async function fetchYahooHistory(symbol, range, interval) {
     interval,
     data,
     source: 'Yahoo Finance',
+    rejectedRows: timestamps.length - data.length,
   };
 }
 
@@ -422,7 +414,7 @@ async function handleHistoryRequest(request, env, url) {
     return jsonResponse({ error: 'Unsupported history query' }, 400, request);
   }
 
-  const key = `market:history:v1:${symbol}:${range}:${interval}`;
+  const key = `market:history:v2:${symbol}:${range}:${interval}`;
   const cached = env?.MARKET_CACHE
     ? await env.MARKET_CACHE.get(key, { type: 'json' }).catch(() => null)
     : null;
@@ -452,6 +444,30 @@ export async function handleRequest(request, env) {
   if (request.method !== 'GET') return jsonResponse({ error: 'Method not allowed' }, 405, request);
 
   const url = new URL(request.url);
+  if (url.pathname === '/api/index-series') {
+    const index = INDEXES.find(x => x.region === 'TW' && x.symbol === url.searchParams.get('symbol'));
+    if (!index) return jsonResponse({error:'Unsupported index'},400,request);
+    const key = 'index-series:v1:' + index.symbol;
+    const cached = await env.MARKET_CACHE.get(key,{type:'json'}).catch(() => null);
+    const usable = payload => payload?.data?.length >= 2
+      && isFreshTimestamp(payload.data.at(-1).time,'TW');
+    if (usable(cached) && Date.now()-Date.parse(cached.generatedAt)<300000)
+      return jsonResponse(cached,200,request);
+    try {
+      const [ex,ch] = index.misKey.split('_');
+      const payload = await fetchJson('https://mis.twse.com.tw/stock/api/getChartOhlcStatis.jsp?ex='
+        + ex + '&ch=' + ch + '&fqy=1&delay=0');
+      const data = (payload.ohlcArray || []).map(r => ({time:Number(r.t) < 1e12 ? Number(r.t)*1000 : Number(r.t),close:Number(r.c)}))
+        .filter(r => r.time>0 && Number.isFinite(r.close) && r.close>0).sort((a,b)=>a.time-b.time);
+      const result = {data,source:ex === 'otc' ? 'TPEx MIS' : 'TWSE MIS',generatedAt:new Date().toISOString()};
+      if (!usable(result)) throw new Error('Invalid index series');
+      await env.MARKET_CACHE.put(key,JSON.stringify(result),{expirationTtl:604800});
+      return jsonResponse(result,200,request);
+    } catch {
+      return usable(cached) ? jsonResponse(cached,200,request)
+        : jsonResponse({error:'Index series unavailable'},503,request);
+    }
+  }
   if (url.pathname === '/api/history') {
     return handleHistoryRequest(request, env, url);
   }

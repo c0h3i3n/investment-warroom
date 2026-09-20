@@ -491,10 +491,9 @@ const DataService = (() => {
         });
         if (response.ok) {
           const payload = await response.json();
-          const data = Array.isArray(payload?.data)
-            ? payload.data.filter(row => Number.isFinite(Number(row?.time))
-              && Number.isFinite(Number(row?.close)) && Number(row.close) > 0)
-            : [];
+          const data = HistoryValidation.normalize(payload?.data, symbol, interval);
+          data.meta = { generatedAt:payload.generatedAt, delivery:payload.delivery,
+            rejectedRows:payload.rejectedRows || 0, source:payload.source };
           if (payload?.schemaVersion === 1 && data.length >= 2) {
             if (requestEpoch === cacheEpoch) setCache(key, data);
             return data;
@@ -512,18 +511,8 @@ const DataService = (() => {
       const result = json?.chart?.result?.[0];
       if (!result) throw new Error('No chart data');
 
-      const { timestamp, indicators } = result;
-      const quote = indicators.quote[0];
-      const adjClose = indicators.adjclose?.[0]?.adjclose || quote.close;
-
-      const data = timestamp.map((t, i) => ({
-        time: t * 1000,
-        open: quote.open[i],
-        high: quote.high[i],
-        low: quote.low[i],
-        close: adjClose[i],
-        volume: quote.volume[i],
-      })).filter(d => d.close != null);
+      const data = HistoryValidation.fromYahoo(result, symbol, interval);
+      data.meta = { delivery:'browser', source:'Yahoo Finance' };
 
       if (requestEpoch === cacheEpoch) setCache(key, data);
       return data;
@@ -577,6 +566,17 @@ const DataService = (() => {
   }
 
   async function fetchTWIndexSeries(index) {
+    if (CONFIG.MARKET_API) {
+      try {
+        const response = await fetch(CONFIG.MARKET_API + '/api/index-series?symbol=' + encodeURIComponent(index.symbol),
+          {cache:'no-store',signal:requestTimeoutSignal(8000)});
+        if (response.ok) {
+          const payload = await response.json();
+          const series = makeIndexSeries(payload.data, 'TW', payload.source, '1D', '1m');
+          if (series) return series;
+        }
+      } catch (error) { console.warn('Index backend unavailable:', error.message); }
+    }
     const chartKey = parseMISIndexKey(index?.misKey);
     if (!chartKey) return null;
     const url = `https://mis.twse.com.tw/stock/api/getChartOhlcStatis.jsp?ex=${encodeURIComponent(chartKey.ex)}&ch=${encodeURIComponent(chartKey.ch)}&fqy=1&delay=0`;
