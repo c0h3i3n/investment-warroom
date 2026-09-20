@@ -562,6 +562,17 @@ const App = (() => {
     UI.renderTicker(watchData);
     updatePortfolio([], refreshGeneration);
     UI.renderNews([]);
+    // Only the initial shell is pending; real responses retain unavailable labels.
+    const pendingLabels = new Map([
+      ['⚠ DATA UNAVAILABLE', '載入中…'], ['UNAVAILABLE', '載入中…'],
+      ['⚠ UNAVAILABLE', '載入中…'], ['NO CHART', '載入走勢…'],
+      ['⚠ CURRENT NEWS UNAVAILABLE · 未顯示舊新聞', '正在載入市場情報…'],
+    ]);
+    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+    while (walker.nextNode()) {
+      const replacement = pendingLabels.get(walker.currentNode.textContent.trim());
+      if (replacement) walker.currentNode.textContent = replacement;
+    }
     UI.setConnecting();
   }
 

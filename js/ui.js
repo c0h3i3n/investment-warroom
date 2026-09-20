@@ -74,7 +74,7 @@ const UI = (() => {
       return `
       <div class="idx-card">
         <div class="idx-region">${idx.region} · ${idx.region === 'TW' ? '台灣' : '美國'}</div>
-        <div class="idx-name">${idx.name}</div>
+        <div class="idx-name">${CONFIG.INDEXES.find(item => item.id === idx.id)?.name || idx.name}</div>
         <div class="idx-price ${hasData ? cls : ''}" data-id="${idx.id}" title="指數點位，不是貨幣金額">${hasData ? (idx.priceType === 'indicative' ? '≈' : '') + fmtIndexLevel(price) + '<span class="idx-unit"> ' + (idx.unit || 'PTS') + '</span>' : '--'}</div>
         <div class="idx-change">
           <span class="idx-pct ${hasData ? cls : ''}">${hasData ? chgArrow(changePct) + ' ' + Math.abs(changePct).toFixed(2) + '%' : '⚠ DATA UNAVAILABLE'}</span>
@@ -163,7 +163,8 @@ const UI = (() => {
     const totalPnl = document.getElementById('port-total-pnl');
     const returnRate = document.getElementById('port-return-rate');
 
-    const complete = !stats.unavailableCount && !stats.mixedCurrency;
+    const configured = stats.holdings.some(h => Number(h.shares) > 0);
+    const complete = configured && !stats.unavailableCount && !stats.mixedCurrency;
     const approximation = stats.hasIndicative ? '≈' : '';
     if (totalVal) totalVal.textContent = stats.mixedCurrency ? 'MIXED' : complete ? approximation + portfolioMoney(stats.totalValue, stats.currency) : '--';
     if (totalPnl) {
@@ -177,6 +178,16 @@ const UI = (() => {
 
     if (!tbody) return;
 
+    let notice = document.getElementById('portfolio-notice');
+    if (!notice) {
+      notice = document.createElement('p');
+      notice.id = 'portfolio-notice';
+      notice.className = 'portfolio-notice';
+      tbody.closest('table').before(notice);
+    }
+    notice.hidden = configured;
+    notice.textContent = '尚未設定持股數量；下列為預設追蹤清單，資產與報酬尚未計算。';
+
     tbody.innerHTML = stats.holdings.map(h => {
       const hasPrice = !h.unavailable && isFiniteValue(h.price);
       const cls = chgClass(h.pnlPct);
@@ -189,10 +200,11 @@ const UI = (() => {
         <td>${fmtCurrency(h.cost, h.region)}</td>
         <td style="color:${hasPrice ? (cls === 'up' ? 'var(--pos)' : 'var(--neg)') : 'var(--warn)'}" title="${h.priceType === 'indicative' ? '買一／賣一中間報價' : ''}">${hasPrice ? (h.priceType === 'indicative' ? '≈' : '') + fmtCurrency(h.price, h.region) : '⚠ --'}</td>
         <td>
-          <div class="pnl-wrap">
+          <div class="pnl-wrap" ${Number(h.shares) > 0 ? '' : 'hidden'}>
             <div class="pnl-bar"><div class="pnl-fill ${cls}" style="width:${barW}%"></div></div>
             <span style="color:${hasPrice ? (cls === 'up' ? 'var(--pos)' : 'var(--neg)') : 'var(--warn)'};font-family:'Orbitron',sans-serif;font-size:10px">${hasPrice ? arrow + ' ' + Math.abs(h.pnlPct || 0).toFixed(2) + '%' : 'UNAVAILABLE'}</span>
           </div>
+          ${Number(h.shares) > 0 ? '' : '<span class="holding-unset">未設定</span>'}
         </td>
         <td class="delete-col">
           <button class="btn danger small" onclick="App.deleteHolding('${h.symbol}')" title="移除">✕</button>
@@ -633,12 +645,12 @@ const UI = (() => {
     if (sysLabel) {
       sysLabel.textContent = mode === 'cache' && fresh > 0
         ? 'DATA CACHED'
-        : complete && !indicative ? 'DATA LIVE' : complete ? 'DATA QUOTED' : fresh > 0 ? 'DATA PARTIAL' : 'DATA OFFLINE';
+        : complete && !indicative ? 'DATA READY' : complete ? 'DATA QUOTED' : fresh > 0 ? 'DATA PARTIAL' : 'DATA OFFLINE';
     }
     if (tickerMode) {
       tickerMode.textContent = mode === 'cache' && fresh > 0
         ? '◈ CACHED'
-        : !fresh ? '⚠ OFFLINE' : fresh < total ? '⚠ PARTIAL' : indicative ? '≈ QUOTE' : '⬡ LIVE';
+        : !fresh ? '⚠ OFFLINE' : fresh < total ? '⚠ PARTIAL' : indicative ? '≈ QUOTE' : '⬡ QUOTES';
     }
   }
 
