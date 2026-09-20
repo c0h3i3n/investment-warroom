@@ -12,6 +12,9 @@ const cases = [
   ['current TW close', 'TW', '2026-09-08T05:30:00Z', '2026-09-08T06:00:00Z', true],
   ['Spring Festival', 'TW', '2026-02-11T05:30:00Z', '2026-02-20T06:00:00Z', true],
   ['early US close', 'US', '2026-11-27T18:00:00Z', '2026-11-27T19:00:00Z', true],
+  ['2027 Good Friday', 'US', '2027-03-25T20:00:00Z', '2027-03-26T15:00:00Z', true],
+  ['2027 Christmas observed', 'US', '2027-12-23T21:00:00Z', '2027-12-24T15:00:00Z', true],
+  ['2027 early US close', 'US', '2027-11-26T18:00:00Z', '2027-11-26T19:00:00Z', true],
 ];
 for (const [name, region, source, now, expected] of cases) {
   test(name, () => assert.equal(isFreshTimestamp(source, region, Date.parse(now)), expected));

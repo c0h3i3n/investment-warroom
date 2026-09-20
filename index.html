@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;500&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css?v=3.4.1">
-<link rel="stylesheet" href="css/readability.css?v=3.5.1">
+<link rel="stylesheet" href="css/readability.css?v=3.5.2">
 </head>
 <body>
 
@@ -74,7 +74,8 @@
   <!-- ═══ TICKER ═══ -->
   <div class="ticker-bar">
     <div class="ticker-label" id="ticker-mode-label">DATA CHECK</div>
-    <div class="ticker-scroll">
+    <button class="btn small" id="ticker-toggle" type="button" aria-expanded="true" aria-controls="ticker-content">收合跑馬燈</button>
+    <div class="ticker-scroll" id="ticker-content">
       <div class="ticker-inner" id="ticker-inner">
         <span class="t-item"><span class="t-sym">LOADING</span><span class="t-price">...</span></span>
       </div>
@@ -147,6 +148,7 @@
           </div>
         </div>
         <svg class="chart-svg" viewBox="0 0 340 90" id="ind-chart"></svg>
+        <output id="chart-detail" class="chart-detail" aria-live="polite">指向或點選走勢查看還原價格；鍵盤可用左右方向鍵。</output>
       </div>
 
       <!-- Watchlist -->
@@ -193,15 +195,16 @@
 <!-- ═══ SCRIPTS ═══ -->
 <script>document.querySelector(".hud-time").textContent="JS OK"; console.log("Script loader: starting...");</script>
 <script src="js/config.js?v=3.4.1"></script>
-<script src="js/market-calendar.js?v=3.4.2"></script>
+<script src="js/market-calendar.js?v=3.5.2"></script>
 <script src="js/history-validation.js?v=3.5.0"></script>
 <script src="js/data.js?v=3.5.0"></script>
 <script>console.log("data.js loaded, CONFIG proxies:", CONFIG?.CORS_PROXIES?.length);</script>
 <script src="js/portfolio.js?v=3.4.1"></script>
 <script src="js/indicators.js?v=3.5.0"></script>
 <script src="js/news.js?v=3.4.1"></script>
-<script src="js/ui.js?v=3.5.1"></script>
+<script src="js/ui.js?v=3.5.2"></script>
 <script src="js/main.js?v=3.5.1"></script>
+<script src="js/interactions.js?v=3.5.2"></script>
 
 
 </body>

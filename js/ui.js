@@ -363,6 +363,8 @@ const UI = (() => {
 
     if (chart && indData?.chartData) {
       chart.innerHTML = renderSVGChart(indData.chartData, 340, 90);
+      const detail = document.getElementById('chart-detail');
+      if (detail) detail.textContent = '指向或點選走勢查看還原價格；鍵盤可用左右方向鍵。';
     }
   }
 
@@ -388,6 +390,13 @@ const UI = (() => {
     }).join(' ')} ${w},${h}`;
 
     const color = closes[closes.length - 1] >= closes[0] ? '#ff3d1a' : '#cc1133';
+    const targets = data.map((row, i) => {
+      const date = new Date(row.time).toLocaleDateString('zh-TW', {timeZone:'Asia/Taipei'});
+      const value = key => Number(row[key]).toFixed(2);
+      const label = `${date} · 還原價格 開 ${value('open')} 高 ${value('high')} 低 ${value('low')} 收 ${value('close')}`;
+      const left = Math.max(0, (i-.5)*stepX);
+      return `<rect class="chart-hit" data-chart-detail="${label}" role="button" aria-label="${label}" tabindex="${i === data.length-1 ? 0 : -1}" x="${left}" y="15" width="${Math.min(w,left+stepX)-left}" height="${h-15}"><title>${label}</title></rect>`;
+    }).join('');
 
     return `
     <defs>
@@ -402,7 +411,7 @@ const UI = (() => {
     <path fill="url(#icg)" d="M${areaPts}"/>
     <polyline fill="none" stroke="${color}" stroke-width="2" points="${points}"/>
     <circle cx="${w}" cy="${h - 5 - ((closes[closes.length - 1] - min) / range) * (h - 25)}" r="3" fill="${color}" filter="drop-shadow(0 0 6px ${color})"/>
-    <text x="4" y="10" fill="rgba(255,61,26,.3)" font-family="Orbitron,sans-serif" font-size="6" letter-spacing="2">PRICE CHART</text>`;
+    <text x="4" y="10" fill="#adb5c1" font-family="sans-serif" font-size="7">ADJUSTED DAILY PRICE</text>${targets}`;
   }
 
   // ═══════════════════════════════════════

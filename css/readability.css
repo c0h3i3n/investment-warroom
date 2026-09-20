@@ -8,6 +8,10 @@
   --numeric:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 body { cursor:auto; line-height:1.5; }
+.chart-detail { display:block; min-height:3em; margin-top:12px; color:var(--text-mid); font-size:12px; line-height:1.6; }
+.chart-hit { fill:transparent; cursor:crosshair; outline:none; }
+.chart-hit:hover,.chart-hit:focus,.chart-hit.selected { fill:rgba(255,208,96,.24); stroke:var(--gold); stroke-width:.4; }
+#ticker-toggle { flex-shrink:0; font-family:inherit; font-size:11px; min-height:32px; }
 [hidden] { display:none !important; }
 .scan-sweep,.scanlines { display:none; }
 .arc-ring,.bg-layer { opacity:.25; }
