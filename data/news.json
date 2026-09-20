@@ -1,54 +1,70 @@
 {
-  "timestamp": "2026-09-20T00:59:21.162396+00:00",
-  "generatedAt": "2026-09-20T00:59:21.162396+00:00",
+  "timestamp": "2026-09-20T06:05:01.981736+00:00",
+  "generatedAt": "2026-09-20T06:05:01.981736+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "智寶首度進軍好萊塢 《電鋸甜心》啟動真人版電影計畫",
+      "headline": "美軍空襲伊朗小學釀逾150死 聯合國調查團：恐涉戰爭罪",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6611094"
+    },
+    {
+      "region": "TW",
+      "headline": "胡塞武裝稱對沙烏地首都及關鍵原油設施發動攻擊！石油出口面臨雙重威脅",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6611252"
+    },
+    {
+      "region": "TW",
+      "headline": "巴菲特卸任波克夏董座 留下5個領導哲學：想好訃聞、別死後還想掌權",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6611095"
+    },
+    {
+      "region": "TW",
+      "headline": "川普宣布組建AI特別工作組 任命「AI沙皇」統籌事務",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6611228"
+    },
+    {
+      "region": "TW",
+      "headline": "成本推升及內需消費平淡 台系家電廠多軌迎戰下半年",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6610618"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉中華化受惠電子級硫酸需求強勁 周漲18.3％站上百元大關",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6611181"
+    },
+    {
+      "region": "TW",
+      "headline": "NASDAQ 100近月強勁彈升！009820勁揚11% 稱霸同類型ETF",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6610580"
+    },
+    {
+      "region": "TW",
+      "headline": "智寶首度進軍好萊塢 《電鋸甜心》啟動真人版電影計畫",
+      "source": "台股",
       "time": "--:--",
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6611017"
-    },
-    {
-      "region": "TW",
-      "headline": "志聖慶一甲子家庭日逾800人同歡　加發4000萬元獎金感謝同仁",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6611051"
-    },
-    {
-      "region": "TW",
-      "headline": "為川習會做準備！貝森特將會何立峰：美中聚焦AI、稀土與關稅休戰",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6610970"
-    },
-    {
-      "region": "TW",
-      "headline": "OpenAI奧特曼下週赴聯合國安理會談AI安全！聚焦國際協調與失控風險",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6610925"
-    },
-    {
-      "region": "TW",
-      "headline": "〈房產〉永和大陳公辦都更再向前推進 漢皇建設單元7今啟動拆除",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6603056"
-    },
-    {
-      "region": "TW",
-      "headline": "美光勞資談判觸及三議題 10/22再舉行第二次會議",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6610827"
     }
   ]
 }
