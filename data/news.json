@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-09-21T06:11:05.040592+00:00",
-  "generatedAt": "2026-09-21T06:11:05.040592+00:00",
+  "timestamp": "2026-09-21T13:57:14.234770+00:00",
+  "generatedAt": "2026-09-21T13:57:14.234770+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "沙國首都敏感目標遭襲 胡塞同意不與美國交戰",
+      "headline": "歐洲光通訊大展開幕！Lumentum攜手高通康寧秀D2D互連  瞄準AI橫向擴展架構  開盤漲超3％",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6612345"
+    },
+    {
+      "region": "TW",
+      "headline": "有儲槽卻沒油可存！柴油荒恐延續至2027年 兩場戰爭讓全球吞苦果",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6611542"
+      "link": "https://news.cnyes.com/news/id/6612312"
     },
     {
       "region": "TW",
-      "headline": "2張反對票意外踩到油門 日本央行出現詭異「升息悖論」",
+      "headline": "降通膨沒有輕鬆路！Fed官員警告升息恐讓就業、薪資一起降",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6612246"
+    },
+    {
+      "region": "TW",
+      "headline": "鋼鐵輸歐配額「黑箱」？ 經濟部：8成業者沿用舊制 自由配額維持20%",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6611118"
+      "link": "https://news.cnyes.com/news/id/6612316"
     },
     {
       "region": "TW",
-      "headline": "貝森特稱荷姆茲海峽兩年後毫無價值 卡達能源部長駁「完全錯誤」",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6611554"
-    },
-    {
-      "region": "TW",
-      "headline": "再轟AI末日論！黃仁勳：毫無科學依據 嚇人不負責任  2030年世界末日機率為0%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6611539"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：瑞昱(2379-TW)EPS預估上修至31.91元，預估目標價為750元",
+      "headline": "鉅亨速報 - Factset 最新調查：緯穎(6669-TW)EPS預估上修至121.02元，預估目標價為2739.04元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6611575"
+      "link": "https://news.cnyes.com/news/id/6612278"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：世芯-KY(3661-TW)EPS預估上修至139.83元，預估目標價為6000元",
+      "headline": "台股挑戰4萬8 外資續買203億元狂掃友達逾23萬張",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6611574"
+      "link": "https://news.cnyes.com/news/id/6612256"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：義隆(2458-TW)目標價調降至160元，幅度約8.05%",
+      "headline": "抗關稅加碼海外參展補助規模飆3倍！經部助攻3400家業者搶國外訂單 這3大產業最受惠",
       "source": "台股",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6611573"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：新應材(4749-TW)目標價調降至950元，幅度約6.63%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6611572"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6612202"
     }
   ]
 }
