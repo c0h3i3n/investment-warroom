@@ -188,6 +188,8 @@ const UI = (() => {
       `<span class="night-driver"><b>${escapeHtml(driver.label)}</b> ${escapeHtml(driver.value)}</span>`).join('');
     const warning = data.stale
       ? '<div class="night-warning">⚠ 資料已逾時，方向判斷已停用</div>'
+      : data.delayed
+        ? '<div class="night-warning">⚠ 行情延遲 3–5 分鐘，方向僅供參考</div>'
       : data.delivery === 'stale-kv'
         ? '<div class="night-warning">⚠ 即時更新失敗，顯示最近資料</div>' : '';
 

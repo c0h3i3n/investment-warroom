@@ -26,3 +26,9 @@ test('stale night quotes never produce a directional label', () => {
   assert.equal(result.usable, false);
   assert.equal(result.label, '資料不足');
 });
+
+test('slightly delayed night quotes retain a directional label', () => {
+  const result = evaluate({ price:48000, changePct:0.58, stale:false, delayed:true }, []);
+  assert.equal(result.usable, true);
+  assert.equal(result.label, '偏多');
+});

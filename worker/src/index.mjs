@@ -7,7 +7,8 @@ const HISTORY_MAX_AGE_MS = 15 * 60 * 1000;
 const HISTORY_FALLBACK_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 const CLOSED_MARKET_MAX_AGE_MS = 4 * 24 * 60 * 60 * 1000;
 const REQUEST_TIMEOUT_MS = 8000;
-const NIGHT_OPEN_MAX_AGE_MS = 2 * 60 * 1000;
+const NIGHT_DELAYED_AFTER_MS = 3 * 60 * 1000;
+const NIGHT_OPEN_MAX_AGE_MS = 5 * 60 * 1000;
 const NIGHT_CLOSED_MAX_AGE_MS = 4 * 24 * 60 * 60 * 1000;
 const TAIFEX_NIGHT_URL = 'https://mis.taifex.com.tw/futures/api/getQuoteList';
 
@@ -244,11 +245,13 @@ export function parseTaifexNightQuotes(payload, nowMs = Date.now()) {
   const ageMs = Math.max(0, nowMs - asOf);
   const stale = asOf > nowMs + 5 * 60 * 1000
     || ageMs > (open ? NIGHT_OPEN_MAX_AGE_MS : NIGHT_CLOSED_MAX_AGE_MS);
+  const delayed = open && !stale && ageMs > NIGHT_DELAYED_AFTER_MS;
   return {
     schemaVersion: 1,
     session: 'after-hours',
     status: open ? 'open' : 'closed',
     stale,
+    delayed,
     contract: String(selected.contract),
     symbol: row.SymbolID,
     name: '臺股期貨近月',
@@ -592,10 +595,12 @@ async function handleNightMarketRequest(request, env) {
       const ageMs = Number.isFinite(asOf) ? Math.max(0, Date.now() - asOf) : Infinity;
       const stale = asOf > Date.now() + 5 * 60 * 1000
         || ageMs > (open ? NIGHT_OPEN_MAX_AGE_MS : NIGHT_CLOSED_MAX_AGE_MS);
+      const delayed = open && !stale && ageMs > NIGHT_DELAYED_AFTER_MS;
       return jsonResponse({
         ...cached,
         status: open ? 'open' : 'closed',
         stale,
+        delayed,
         delivery: stale ? 'stale-kv' : 'kv',
         warning: 'Live refresh failed',
       }, 200, request);

@@ -31,7 +31,11 @@ test('TAIFEX parser selects the nearest active TX contract and checks freshness'
   assert.equal(Number(quote.basis.toFixed(2)), 611.16);
   assert.equal(quote.status, 'open');
   assert.equal(quote.stale, false);
-  assert.equal(parseTaifexNightQuotes(payload('214500'), now).stale, true);
+  assert.equal(quote.delayed, false);
+  const delayed = parseTaifexNightQuotes(payload('214500'), now);
+  assert.equal(delayed.delayed, true);
+  assert.equal(delayed.stale, false);
+  assert.equal(parseTaifexNightQuotes(payload('214200'), now).stale, true);
 });
 
 test('expired daytime contract rolls forward when the next month is trading at night', () => {
