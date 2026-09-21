@@ -1,62 +1,70 @@
 {
-  "timestamp": "2026-09-21T00:08:59.010892+00:00",
-  "generatedAt": "2026-09-21T00:08:59.010892+00:00",
+  "timestamp": "2026-09-21T06:11:05.040592+00:00",
+  "generatedAt": "2026-09-21T06:11:05.040592+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈台股盤前要聞〉電價續凍漲、外資期現貨做多買超第五大",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6611478"
-    },
-    {
-      "region": "TW",
-      "headline": "Fed卡什卡里：通膨壓力已擴散至美經濟所有領域",
+      "headline": "沙國首都敏感目標遭襲 胡塞同意不與美國交戰",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6611493"
+      "link": "https://news.cnyes.com/news/id/6611542"
     },
     {
       "region": "TW",
-      "headline": "〈走進中國〉在讀75.36萬 存量120萬 中國博士真的過剩了嗎？",
+      "headline": "2張反對票意外踩到油門 日本央行出現詭異「升息悖論」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6611232"
+      "link": "https://news.cnyes.com/news/id/6611118"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Arweave大漲17.42%，報5.08美元",
+      "headline": "貝森特稱荷姆茲海峽兩年後毫無價值 卡達能源部長駁「完全錯誤」",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6611505"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6611554"
     },
     {
       "region": "TW",
-      "headline": "〈台股風向球〉升息利空出盡站回4萬7 惟提防中秋連假前賣壓",
+      "headline": "再轟AI末日論！黃仁勳：毫無科學依據 嚇人不負責任  2030年世界末日機率為0%",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6611539"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：瑞昱(2379-TW)EPS預估上修至31.91元，預估目標價為750元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6611485"
+      "link": "https://news.cnyes.com/news/id/6611575"
     },
     {
       "region": "TW",
-      "headline": "集團作帳行情助攻 南亞、台塑化季底有望進行補漲",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6611387"
-    },
-    {
-      "region": "TW",
-      "headline": "成本推升及內需消費平淡 台系家電廠多軌迎戰下半年",
+      "headline": "鉅亨速報 - Factset 最新調查：世芯-KY(3661-TW)EPS預估上修至139.83元，預估目標價為6000元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6610618"
+      "link": "https://news.cnyes.com/news/id/6611574"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：義隆(2458-TW)目標價調降至160元，幅度約8.05%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6611573"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：新應材(4749-TW)目標價調降至950元，幅度約6.63%",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6611572"
     }
   ]
 }
