@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════
-// J.A.R.V.I.S · MAIN APPLICATION v3.6
+// J.A.R.V.I.S · MAIN APPLICATION v3.7
 // Orchestrates all modules
 // ═══════════════════════════════════════
 
@@ -9,6 +9,7 @@ const App = (() => {
   let watchlistQuotes = [];
   window._watchlistQuotes = watchlistQuotes;
   let indexData = [];
+  let nightMarketData = null;
   let usingFallback = false;
   let refreshInFlight = false;
   let refreshGeneration = 0;
@@ -263,12 +264,21 @@ const App = (() => {
           }
         })();
 
+        const nightTask = DataService.fetchNightMarket().then(data => {
+          if (generation !== refreshGeneration) return;
+          nightMarketData = data;
+        }).catch(error => {
+          console.warn('Night market data failed:', error.message);
+          if (generation === refreshGeneration) nightMarketData = null;
+        });
+
         updateNews(forceRefresh, generation);
-        const outcomes = await Promise.allSettled([indexTask, quoteTask]);
+        const outcomes = await Promise.allSettled([indexTask, quoteTask, nightTask]);
         outcomes.filter(outcome => outcome.status === 'rejected').forEach(outcome => {
           console.error('Market data task failed:', outcome.reason);
         });
         if (generation !== refreshGeneration) return false;
+        UI.renderNightMarket(nightMarketData, indexData);
 
         // 3. Portfolio stats
         await updatePortfolio(quotesForPortfolio, generation);
@@ -630,7 +640,7 @@ const App = (() => {
 
 
 
-    console.log('J.A.R.V.I.S WARROOM v3.6 · SYSTEM ONLINE');
+    console.log('J.A.R.V.I.S WARROOM v3.7 · SYSTEM ONLINE');
   }
 
   // ═══════════════════════════════════════

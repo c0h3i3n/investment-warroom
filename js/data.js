@@ -179,6 +179,23 @@ const DataService = (() => {
     return { indexes, quotes, generatedAt: payload.generatedAt, delivery: payload.delivery };
   }
 
+  async function fetchNightMarket() {
+    if (!CONFIG.MARKET_API) return null;
+    const url = addCacheBuster(`${CONFIG.MARKET_API.replace(/\/$/, '')}/api/night-market`);
+    const response = await fetch(url, {
+      cache: 'no-store',
+      headers: { Accept: 'application/json' },
+      signal: requestTimeoutSignal(8000),
+    });
+    if (!response.ok) throw new Error(`Night market backend returned ${response.status}`);
+    const payload = await response.json();
+    if (payload?.schemaVersion !== 1 || payload?.session !== 'after-hours'
+      || !Number.isFinite(Number(payload.price)) || !Number.isFinite(Number(payload.asOf))) {
+      throw new Error('Invalid night market response');
+    }
+    return payload;
+  }
+
   // ═══════════════════════════════════════
   // PARSE PROXY RESPONSE (handles allorigins wrapper)
   // ═══════════════════════════════════════
@@ -755,6 +772,7 @@ const DataService = (() => {
   // ═══════════════════════════════════════
   return {
     fetchMarketSnapshot,
+    fetchNightMarket,
     fetchQuotes,
     fetchQuote,
     fetchHistorical,

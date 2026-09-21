@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;500&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css?v=3.4.1">
-<link rel="stylesheet" href="css/readability.css?v=3.6.0">
+<link rel="stylesheet" href="css/readability.css?v=3.7.0">
 </head>
 <body>
 
@@ -46,7 +46,7 @@
       </div>
       <div class="reactor-text">
         <h1>WARROOM</h1>
-        <div class="sub">INVESTMENT INTELLIGENCE SYSTEM · v3.6</div>
+        <div class="sub">INVESTMENT INTELLIGENCE SYSTEM · v3.7</div>
       </div>
     </div>
 
@@ -101,6 +101,20 @@
           <div class="loading-indicator">LOADING...</div>
         </div>
       </div>
+
+  <!-- ═══ NIGHT SESSION RISK RADAR ═══ -->
+  <div class="hud-panel night-panel" style="animation-delay:.38s">
+    <div class="bracket bracket-tl"></div><div class="bracket bracket-tr"></div>
+    <div class="bracket bracket-bl"></div><div class="bracket bracket-br"></div>
+    <div class="sec-label" style="margin-bottom:12px">
+      <div class="sec-label-dot night-dot"></div>
+      <div class="sec-label-text">NIGHT RISK RADAR · 台指期夜盤</div>
+      <div class="sec-label-line"></div>
+    </div>
+    <div id="night-market-content" aria-live="polite">
+      <div class="loading-indicator">LOADING TAIFEX NIGHT SESSION...</div>
+    </div>
+  </div>
 
   <!-- ═══ MAIN GRID ═══ -->
   <div class="main-grid">
@@ -199,9 +213,10 @@
   </div>
 
   <footer>
-    <span>J.A.R.V.I.S · WARROOM INVESTMENT INTELLIGENCE · v3.6</span>
+    <span>J.A.R.V.I.S · WARROOM INVESTMENT INTELLIGENCE · v3.7</span>
     <span id="fdate"></span>
     <span class="latency-badge"><span class="dot live"></span> 台股 MIS 即時</span>
+    <span class="latency-badge"><span class="dot live"></span> 期交所夜盤即時</span>
     <span class="latency-badge"><span class="dot delay"></span> 美股 Yahoo 延遲</span>
     <span>資料僅供參考</span>
   </footer>
@@ -213,13 +228,14 @@
 <script src="js/config.js?v=3.4.1"></script>
 <script src="js/market-calendar.js?v=3.5.2"></script>
 <script src="js/history-validation.js?v=3.5.0"></script>
-<script src="js/data.js?v=3.5.0"></script>
+<script src="js/data.js?v=3.7.0"></script>
 <script>console.log("data.js loaded, CONFIG proxies:", CONFIG?.CORS_PROXIES?.length);</script>
 <script src="js/portfolio.js?v=3.6.0"></script>
 <script src="js/indicators.js?v=3.6.0"></script>
 <script src="js/news.js?v=3.4.1"></script>
-<script src="js/ui.js?v=3.6.0"></script>
-<script src="js/main.js?v=3.6.0"></script>
+<script src="js/night-analysis.js?v=3.7.0"></script>
+<script src="js/ui.js?v=3.7.0"></script>
+<script src="js/main.js?v=3.7.0"></script>
 <script src="js/interactions.js?v=3.5.2"></script>
 
 

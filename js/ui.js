@@ -163,6 +163,64 @@ const UI = (() => {
     });
   }
 
+  function renderNightMarket(data, indexes = []) {
+    const container = document.getElementById('night-market-content');
+    if (!container) return;
+    if (!data) {
+      container.innerHTML = '<div class="night-unavailable">⚠ 夜盤資料暫時無法取得；不使用舊資料產生方向判斷。</div>';
+      return;
+    }
+
+    const analysis = NightAnalysis.evaluate(data, indexes);
+    const cls = Number(data.changePct) >= 0 ? 'up' : 'dn';
+    const arrow = Number(data.changePct) >= 0 ? '▲' : '▼';
+    const state = data.status === 'open' ? '夜盤交易中' : '夜盤已收盤';
+    const stateClass = data.status === 'open' ? 'live' : 'closed';
+    const asOf = isFiniteValue(data.asOf) ? new Intl.DateTimeFormat('zh-TW', {
+      timeZone:'Asia/Taipei', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', second:'2-digit', hour12:false,
+    }).format(new Date(Number(data.asOf))) : '--';
+    const level = value => isFiniteValue(value) ? Number(value).toLocaleString('en-US', {maximumFractionDigits:2}) : '--';
+    const signedPoints = value => isFiniteValue(value)
+      ? `${Number(value) >= 0 ? '+' : ''}${Number(value).toFixed(2)} 點` : '--';
+    const contract = /^\d{6}$/.test(String(data.contract || ''))
+      ? `${String(data.contract).slice(0,4)}/${String(data.contract).slice(4)}` : '--';
+    const drivers = analysis.drivers.map(driver =>
+      `<span class="night-driver"><b>${escapeHtml(driver.label)}</b> ${escapeHtml(driver.value)}</span>`).join('');
+    const warning = data.stale
+      ? '<div class="night-warning">⚠ 資料已逾時，方向判斷已停用</div>'
+      : data.delivery === 'stale-kv'
+        ? '<div class="night-warning">⚠ 即時更新失敗，顯示最近資料</div>' : '';
+
+    container.innerHTML = `
+      <div class="night-headline">
+        <div>
+          <span class="night-session ${stateClass}">${state}</span>
+          <span class="night-contract">TX ${contract} · ${escapeHtml(data.source || 'TAIFEX')}</span>
+        </div>
+        <div class="night-asof">行情時間 ${asOf}</div>
+      </div>
+      ${warning}
+      <div class="night-layout">
+        <div class="night-primary">
+          <div class="night-price ${cls}">${level(data.price)} <small>PTS</small></div>
+          <div class="night-change ${cls}">${arrow} ${Math.abs(Number(data.change || 0)).toFixed(2)} (${Math.abs(Number(data.changePct || 0)).toFixed(2)}%)</div>
+          <div class="night-reference">相對日盤參考價 ${level(data.referencePrice)}</div>
+        </div>
+        <div class="night-metrics">
+          <div><span>最高／最低</span><b>${level(data.high)}／${level(data.low)}</b></div>
+          <div><span>成交量</span><b>${isFiniteValue(data.volume) ? Math.round(Number(data.volume)).toLocaleString() + ' 口' : '--'}</b></div>
+          <div><span>現貨基差</span><b class="${Number(data.basis) >= 0 ? 'up' : 'dn'}">${signedPoints(data.basis)}</b></div>
+        </div>
+        <div class="night-risk ${analysis.tone}">
+          <span>${data.status === 'open' ? '即時風險方向' : '最近夜盤方向'}</span>
+          <strong>${escapeHtml(analysis.label)}</strong>
+          <small>${analysis.usable ? `綜合分數 ${analysis.score >= 0 ? '+' : ''}${analysis.score}` : '等待有效即時資料'}</small>
+        </div>
+      </div>
+      <div class="night-drivers">${drivers || '<span>美股交叉訊號暫不可用</span>'}</div>
+      <div class="night-disclaimer">台指期為主要訊號，美股指數僅做交叉確認；此區反映風險方向，不代表隔日開盤預測。</div>`;
+  }
+
   // ═══════════════════════════════════════
   // TICKER BAR
   // ═══════════════════════════════════════
@@ -789,6 +847,7 @@ const UI = (() => {
     // Rendering
     renderIndexCards,
     renderIndexSparklines,
+    renderNightMarket,
     renderTicker,
     renderPortfolio,
     renderWatchlist,

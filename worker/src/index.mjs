@@ -1,11 +1,15 @@
 import '../../js/market-calendar.js';
 import '../../js/history-validation.js';
 const SNAPSHOT_KEY = 'market:snapshot:v1';
+const NIGHT_MARKET_KEY = 'market:night:v1';
 const SNAPSHOT_MAX_AGE_MS = 7 * 60 * 1000;
 const HISTORY_MAX_AGE_MS = 15 * 60 * 1000;
 const HISTORY_FALLBACK_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 const CLOSED_MARKET_MAX_AGE_MS = 4 * 24 * 60 * 60 * 1000;
 const REQUEST_TIMEOUT_MS = 8000;
+const NIGHT_OPEN_MAX_AGE_MS = 2 * 60 * 1000;
+const NIGHT_CLOSED_MAX_AGE_MS = 4 * 24 * 60 * 60 * 1000;
+const TAIFEX_NIGHT_URL = 'https://mis.taifex.com.tw/futures/api/getQuoteList';
 
 export const INDEXES = [
   { id: 'tai', symbol: '^TWII', misKey: 'tse_t00.tw', name: '加權指數 TAIEX', region: 'TW', currency: 'NT$', unit: 'PTS' },
@@ -142,6 +146,136 @@ async function fetchJson(url, timeoutMs = REQUEST_TIMEOUT_MS) {
   } finally {
     clearTimeout(timer);
   }
+}
+
+async function postJson(url, body, timeoutMs = REQUEST_TIMEOUT_MS) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+        'Cache-Control': 'no-cache',
+        Referer: 'https://mis.taifex.com.tw/futures/AfterHoursSession/EquityIndices/FuturesDomestic',
+        'User-Agent': 'investment-warroom-market/1.0',
+      },
+      body: JSON.stringify(body),
+      cf: { cacheTtl: 0, cacheEverything: false },
+      signal: controller.signal,
+    });
+    if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+    return await response.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+function taipeiParts(timestamp = Date.now()) {
+  const values = Object.fromEntries(new Intl.DateTimeFormat('en-US', {
+    timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
+  }).formatToParts(new Date(timestamp)).map(part => [part.type, part.value]));
+  const hour = Number(values.hour) === 24 ? 0 : Number(values.hour);
+  return {
+    ...values,
+    minutes: hour * 60 + Number(values.minute),
+    dayNumber: Date.UTC(Number(values.year), Number(values.month) - 1, Number(values.day)),
+  };
+}
+
+export function isNightSessionOpen(nowMs = Date.now()) {
+  const parts = taipeiParts(nowMs);
+  if (parts.minutes >= 15 * 60) return MarketCalendar.tradingDay('TW', parts.dayNumber);
+  if (parts.minutes < 5 * 60) return MarketCalendar.tradingDay('TW', parts.dayNumber - 86400000);
+  return false;
+}
+
+function taifexTimestamp(row) {
+  const date = String(row?.CDate || '');
+  const time = String(row?.CTime || '').padStart(6, '0');
+  if (!/^\d{8}$/.test(date) || !/^\d{6}$/.test(time)) return null;
+  return Date.parse(`${date.slice(0,4)}-${date.slice(4,6)}-${date.slice(6,8)}T${time.slice(0,2)}:${time.slice(2,4)}:${time.slice(4,6)}+08:00`);
+}
+
+function contractMonth(row, nowMs) {
+  const match = String(row?.SymbolID || '').match(/^TXF([A-L])(\d)-M$/);
+  if (!match) return null;
+  const month = match[1].charCodeAt(0) - 64;
+  const currentYear = Number(taipeiParts(nowMs).year);
+  let year = Math.floor(currentYear / 10) * 10 + Number(match[2]);
+  if (year < currentYear - 1) year += 10;
+  return year * 100 + month;
+}
+
+function finiteNumber(value) {
+  if (value === null || value === undefined || value === '') return null;
+  const number = Number(value);
+  return Number.isFinite(number) ? number : null;
+}
+
+export function parseTaifexNightQuotes(payload, nowMs = Date.now()) {
+  const rows = Array.isArray(payload?.RtData?.QuoteList) ? payload.RtData.QuoteList : [];
+  const current = taipeiParts(nowMs);
+  const currentMonth = Number(current.year) * 100 + Number(current.month);
+  const contracts = rows
+    .map(row => ({ row, contract: contractMonth(row, nowMs), asOf: taifexTimestamp(row) }))
+    .filter(item => item.contract && item.contract >= currentMonth && finiteNumber(item.row.CLastPrice) > 0)
+    .sort((a, b) => a.contract - b.contract);
+  const open = isNightSessionOpen(nowMs);
+  let selected = contracts[0];
+  if (open && selected?.asOf) {
+    const selectedTime = taipeiParts(selected.asOf).minutes;
+    if (selectedTime < 15 * 60) {
+      selected = contracts.find(item => item.asOf && nowMs - item.asOf <= NIGHT_OPEN_MAX_AGE_MS) || selected;
+    }
+  }
+  if (!selected) throw new Error('No active TX night contract');
+
+  const row = selected.row;
+  const spot = rows.find(item => item.SymbolID === 'TXF-P');
+  const price = finiteNumber(row.CLastPrice);
+  const referencePrice = finiteNumber(row.CRefPrice);
+  const spotReference = finiteNumber(spot?.CRefPrice);
+  const asOf = taifexTimestamp(row);
+  if (!price || !referencePrice || !asOf) throw new Error('Invalid TX night quote');
+
+  const ageMs = Math.max(0, nowMs - asOf);
+  const stale = asOf > nowMs + 5 * 60 * 1000
+    || ageMs > (open ? NIGHT_OPEN_MAX_AGE_MS : NIGHT_CLOSED_MAX_AGE_MS);
+  return {
+    schemaVersion: 1,
+    session: 'after-hours',
+    status: open ? 'open' : 'closed',
+    stale,
+    contract: String(selected.contract),
+    symbol: row.SymbolID,
+    name: '臺股期貨近月',
+    price,
+    change: finiteNumber(row.CDiff) ?? price - referencePrice,
+    changePct: finiteNumber(row.CDiffRate) ?? ((price - referencePrice) / referencePrice) * 100,
+    referencePrice,
+    open: finiteNumber(row.COpenPrice),
+    high: finiteNumber(row.CHighPrice),
+    low: finiteNumber(row.CLowPrice),
+    volume: finiteNumber(row.CTotalVolume),
+    bid: finiteNumber(row.CBidPrice1),
+    ask: finiteNumber(row.CAskPrice1),
+    spotReference,
+    basis: spotReference ? price - spotReference : null,
+    asOf,
+    source: 'TAIFEX MIS',
+    priceType: 'trade',
+  };
+}
+
+export async function fetchTaifexNightMarket(nowMs = Date.now()) {
+  const payload = await postJson(TAIFEX_NIGHT_URL, {
+    MarketType: '1', SymbolType: 'F', KindID: '1', CID: '', ExpireMonth: '',
+  });
+  if (payload?.RtCode !== '0') throw new Error(payload?.RtMsg || 'TAIFEX MIS rejected request');
+  return { ...parseTaifexNightQuotes(payload, nowMs), generatedAt: new Date(nowMs).toISOString() };
 }
 
 function yahooRegion(symbol) {
@@ -439,11 +573,45 @@ async function handleHistoryRequest(request, env, url) {
   }
 }
 
+async function handleNightMarketRequest(request, env) {
+  const cached = env?.MARKET_CACHE
+    ? await env.MARKET_CACHE.get(NIGHT_MARKET_KEY, { type: 'json' }).catch(() => null)
+    : null;
+  try {
+    const fresh = await fetchTaifexNightMarket();
+    if (fresh.status === 'open' && fresh.stale) throw new Error('TAIFEX night quote is stale');
+    if (!fresh.stale && env?.MARKET_CACHE) {
+      await env.MARKET_CACHE.put(NIGHT_MARKET_KEY, JSON.stringify(fresh), { expirationTtl: 604800 });
+    }
+    return jsonResponse({ ...fresh, delivery: 'live' }, 200, request);
+  } catch (error) {
+    console.error('Night market refresh failed', error);
+    if (cached) {
+      const open = isNightSessionOpen();
+      const asOf = Number(cached.asOf);
+      const ageMs = Number.isFinite(asOf) ? Math.max(0, Date.now() - asOf) : Infinity;
+      const stale = asOf > Date.now() + 5 * 60 * 1000
+        || ageMs > (open ? NIGHT_OPEN_MAX_AGE_MS : NIGHT_CLOSED_MAX_AGE_MS);
+      return jsonResponse({
+        ...cached,
+        status: open ? 'open' : 'closed',
+        stale,
+        delivery: stale ? 'stale-kv' : 'kv',
+        warning: 'Live refresh failed',
+      }, 200, request);
+    }
+    return jsonResponse({ error: 'Night market data unavailable' }, 503, request);
+  }
+}
+
 export async function handleRequest(request, env) {
   if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: corsHeaders(request) });
   if (request.method !== 'GET') return jsonResponse({ error: 'Method not allowed' }, 405, request);
 
   const url = new URL(request.url);
+  if (url.pathname === '/api/night-market') {
+    return handleNightMarketRequest(request, env);
+  }
   if (url.pathname === '/api/index-series') {
     const index = INDEXES.find(x => x.region === 'TW' && x.symbol === url.searchParams.get('symbol'));
     if (!index) return jsonResponse({error:'Unsupported index'},400,request);
