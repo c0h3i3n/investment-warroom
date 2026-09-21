@@ -12,6 +12,34 @@ const UI = (() => {
   function isFiniteValue(value) {
     return value !== null && value !== undefined && value !== '' && Number.isFinite(Number(value));
   }
+  const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({
+    '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;',
+  })[char]);
+
+  function quoteMeta(record) {
+    if (!isFiniteValue(record?.asOf)) return '';
+    const time = new Intl.DateTimeFormat('zh-TW', { timeZone:'Asia/Taipei',
+      month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false
+    }).format(new Date(Number(record.asOf)));
+    const type = record.priceType === 'indicative' ? '中間報價' : '成交價';
+    return [type, record.source, time].filter(Boolean).join(' · ');
+  }
+
+  function isIntradayIndicator(indData) {
+    if (!isFiniteValue(indData?.asOf)) return false;
+    const region = String(indData.symbol || '').endsWith('.TW') ? 'TW' : 'US';
+    const zone = region === 'TW' ? 'Asia/Taipei' : 'America/New_York';
+    const parts = value => Object.fromEntries(new Intl.DateTimeFormat('en-CA', {
+      timeZone:zone,year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false
+    }).formatToParts(new Date(value)).map(item => [item.type,item.value]));
+    const source = parts(Number(indData.asOf)), now = parts(Date.now());
+    const sameDay = source.year === now.year && source.month === now.month && source.day === now.day;
+    const minutes = Number(now.hour) * 60 + Number(now.minute);
+    const open = region === 'TW' ? 540 : 570;
+    const day = Date.UTC(Number(now.year),Number(now.month)-1,Number(now.day));
+    return sameDay && MarketCalendar.tradingDay(region,day)
+      && minutes >= open && minutes < MarketCalendar.closeMinutes(region,day);
+  }
 
   function portfolioMoney(value, currency, signed = false) {
     const amount = Math.abs(Number(value));
@@ -164,16 +192,27 @@ const UI = (() => {
     const returnRate = document.getElementById('port-return-rate');
 
     const configured = stats.holdings.some(h => Number(h.shares) > 0);
-    const complete = configured && !stats.unavailableCount && !stats.mixedCurrency;
+    const complete = configured && !stats.unavailableCount;
     const approximation = stats.hasIndicative ? '≈' : '';
-    if (totalVal) totalVal.textContent = stats.mixedCurrency ? 'MIXED' : complete ? approximation + portfolioMoney(stats.totalValue, stats.currency) : '--';
+    const groups = Object.values(stats.byCurrency || {});
+    const groupLines = (key, formatter) => groups.map(group =>
+      `<span>${group.currency} ${group.unavailableCount ? '--' : formatter(group[key],group)}</span>`).join('');
+    const groupMoney = (value, group, signed = false) => (group.hasIndicative ? '≈' : '')
+      + portfolioMoney(value,group.currency,signed).replace(/^([+-]?)(NT\$|\$)/,'$1');
+    if (totalVal) {
+      totalVal.className = 'ps-value arc' + (stats.mixedCurrency ? ' multi' : '');
+      totalVal.innerHTML = stats.mixedCurrency ? groupLines('totalValue', groupMoney)
+        : complete ? escapeHtml(approximation + portfolioMoney(stats.totalValue, stats.currency)) : '--';
+    }
     if (totalPnl) {
-      totalPnl.textContent = complete ? approximation + portfolioMoney(stats.totalPnl, stats.currency, true) : '--';
-      totalPnl.className = 'ps-value ' + chgClass(stats.totalPnl);
+      totalPnl.className = 'ps-value ' + (stats.mixedCurrency ? 'multi' : chgClass(stats.totalPnl));
+      totalPnl.innerHTML = stats.mixedCurrency ? groupLines('totalPnl', (value,group) => groupMoney(value,group,true))
+        : complete ? escapeHtml(approximation + portfolioMoney(stats.totalPnl, stats.currency, true)) : '--';
     }
     if (returnRate) {
-      returnRate.textContent = complete ? approximation + pctStr(stats.returnPct) : '--';
-      returnRate.className = 'ps-value ' + chgClass(stats.returnPct);
+      returnRate.className = 'ps-value ' + (stats.mixedCurrency ? 'multi' : chgClass(stats.returnPct));
+      returnRate.innerHTML = stats.mixedCurrency ? groupLines('returnPct', value => pctStr(value))
+        : complete ? escapeHtml(approximation + pctStr(stats.returnPct)) : '--';
     }
 
     if (!tbody) return;
@@ -195,10 +234,10 @@ const UI = (() => {
       const arrow = chgArrow(h.pnlPct);
       return `
       <tr>
-        <td><span class="pt-ticker">${h.symbol.replace('.TW', '')}</span></td>
-        <td>${h.name}</td>
+        <td><span class="pt-ticker">${escapeHtml(h.symbol.replace('.TW', ''))}</span></td>
+        <td>${escapeHtml(h.name)}</td>
         <td>${fmtCurrency(h.cost, h.region)}</td>
-        <td style="color:${hasPrice ? (cls === 'up' ? 'var(--pos)' : 'var(--neg)') : 'var(--warn)'}" title="${h.priceType === 'indicative' ? '買一／賣一中間報價' : ''}">${hasPrice ? (h.priceType === 'indicative' ? '≈' : '') + fmtCurrency(h.price, h.region) : '⚠ --'}</td>
+        <td style="color:${hasPrice ? (cls === 'up' ? 'var(--pos)' : 'var(--neg)') : 'var(--warn)'}">${hasPrice ? (h.priceType === 'indicative' ? '≈' : '') + fmtCurrency(h.price, h.region) : '⚠ --'}<span class="quote-meta">${escapeHtml(quoteMeta(h))}</span></td>
         <td>
           <div class="pnl-wrap" ${Number(h.shares) > 0 ? '' : 'hidden'}>
             <div class="pnl-bar"><div class="pnl-fill ${cls}" style="width:${barW}%"></div></div>
@@ -207,6 +246,7 @@ const UI = (() => {
           ${Number(h.shares) > 0 ? '' : '<span class="holding-unset">未設定</span>'}
         </td>
         <td class="delete-col">
+          <button class="btn small" onclick="App.showEditModal('${h.symbol}')" title="編輯持股">編輯</button>
           <button class="btn danger small" onclick="App.deleteHolding('${h.symbol}')" title="移除">✕</button>
         </td>
       </tr>`;
@@ -265,6 +305,31 @@ const UI = (() => {
     const container = document.getElementById('watchlist');
     if (!container) return;
 
+    renderWatchlist.latestData = watchData;
+    renderWatchlist.latestSparks = sparkData;
+    if (!renderWatchlist.controlsBound) {
+      ['watch-search','watch-region','watch-sort'].forEach(id => {
+        document.getElementById(id)?.addEventListener(id === 'watch-search' ? 'input' : 'change', () =>
+          renderWatchlist(renderWatchlist.latestData || [], renderWatchlist.latestSparks));
+      });
+      renderWatchlist.controlsBound = true;
+    }
+    const query = (document.getElementById('watch-search')?.value || '').trim().toLowerCase();
+    const region = document.getElementById('watch-region')?.value || 'ALL';
+    const sort = document.getElementById('watch-sort')?.value || 'default';
+    const heldSymbols = new Set(PortfolioService.getHoldings()
+      .filter(item => Number(item.shares) > 0).map(item => item.symbol));
+    watchData = watchData.filter(item => (!query || `${item.symbol} ${item.name}`.toLowerCase().includes(query))
+      && (region === 'ALL' || (region === 'HOLDINGS' ? heldSymbols.has(item.symbol) : item.region === region)));
+    if (sort === 'gainers') watchData.sort((a,b) => (b.changePct ?? -Infinity) - (a.changePct ?? -Infinity));
+    if (sort === 'losers') watchData.sort((a,b) => (a.changePct ?? Infinity) - (b.changePct ?? Infinity));
+    if (sort === 'symbol') watchData.sort((a,b) => a.symbol.localeCompare(b.symbol));
+
+    if (!watchData.length) {
+      container.innerHTML = '<div class="portfolio-notice">沒有符合條件的自選股。</div>';
+      return;
+    }
+
     container.innerHTML = watchData.map(w => {
       const hasData = isFiniteValue(w.price) && isFiniteValue(w.changePct);
       const cls = (w.changePct || 0) >= 0 ? 'up' : 'dn';
@@ -276,7 +341,7 @@ const UI = (() => {
 
       return `
       <div class="watch-item">
-        <span class="w-ticker">${sym}</span><span class="w-name">${w.name}</span>
+        <span class="w-ticker">${escapeHtml(sym)}</span><span class="w-name">${escapeHtml(w.name)}<small class="quote-meta">${escapeHtml(quoteMeta(w))}</small></span>
         <svg class="w-spark" viewBox="0 0 55 22" preserveAspectRatio="none" aria-label="${pts ? '真實近三月日線走勢' : '走勢資料暫時不可用'}">
           ${pts
             ? `<polyline fill="none" stroke="${color}" stroke-width="1.5" points="${pts}"/>`
@@ -356,6 +421,7 @@ const UI = (() => {
       status.style.cssText = 'grid-column:1/-1;font-size:11px;color:var(--dim)';
       const format = time => new Date(time).toLocaleString('zh-TW', {timeZone:'Asia/Taipei'});
       status.textContent = '日線 ' + format(indData.asOf) + ' · 計算 ' + format(indData.calculatedAt)
+        + (isIntradayIndicator(indData) ? ' · 今日盤中日線，指標尚未定稿' : '')
         + (indData.historyMeta?.delivery === 'stale-kv' ? ' · 更新失敗，使用快取' : '')
         + (indData.historyMeta?.rejectedRows ? ' · 已排除異常日線 ' + indData.historyMeta.rejectedRows + ' 筆' : '');
       grid.appendChild(status);
@@ -425,9 +491,6 @@ const UI = (() => {
       return;
     }
 
-    const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({
-      '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;',
-    })[char]);
     const safeHttpUrl = value => {
       try {
         const url = new URL(String(value || ''));
@@ -560,6 +623,31 @@ const UI = (() => {
       } else {
         showToast(result.msg, 'error');
       }
+    });
+  }
+
+  function showEditHoldingModal(holding) {
+    if (!holding) return;
+    const content = `
+      <div class="form-group"><label>股票代號</label><input value="${escapeHtml(holding.symbol)}" disabled></div>
+      <div class="form-group"><label>股票名稱</label><input id="mf-name" type="text" value="${escapeHtml(holding.name)}" maxlength="80"></div>
+      <div class="form-row">
+        <div class="form-group"><label>股數 (Shares)</label><input id="mf-shares" type="number" value="${Number(holding.shares)}" min="0" step="1"></div>
+        <div class="form-group"><label>平均成本價 (Cost)</label><input id="mf-cost" type="number" value="${Number(holding.cost)}" min="0" step="0.01"></div>
+      </div>
+      <p class="form-hint">股數設為 0 可保留在追蹤清單，但不計入資產與報酬。</p>`;
+    showModal(`EDIT HOLDING · 編輯 ${escapeHtml(holding.symbol)}`, content, overlay => {
+      const name = overlay.querySelector('#mf-name').value.trim();
+      const shares = overlay.querySelector('#mf-shares').value;
+      const cost = overlay.querySelector('#mf-cost').value;
+      if (!name || shares === '' || cost === '' || Number(shares) < 0 || Number(cost) < 0
+        || (Number(shares) > 0 && Number(cost) <= 0)) {
+        showToast('請輸入有效的股數與成本；持股時成本必須大於 0', 'error');
+        return;
+      }
+      const result = PortfolioService.editHolding(holding.symbol, {name,shares,cost});
+      showToast(result.msg, result.ok ? 'success' : 'error');
+      if (result.ok) { closeModal(); window.App?.refreshPortfolio(); }
     });
   }
 
@@ -713,6 +801,7 @@ const UI = (() => {
     showModal,
     closeModal,
     showAddHoldingModal,
+    showEditHoldingModal,
     showIndicatorLoading,
     showIndicatorPrompt,
 

@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════
-// J.A.R.V.I.S · MAIN APPLICATION v3.2
+// J.A.R.V.I.S · MAIN APPLICATION v3.6
 // Orchestrates all modules
 // ═══════════════════════════════════════
 
@@ -505,10 +505,11 @@ const App = (() => {
   // PORTFOLIO CRUD (exposed for onclick)
   // ═══════════════════════════════════════
   function deleteHolding(symbol) {
+    if (!window.confirm(`確定要從投資組合移除 ${symbol}？`)) return;
     const result = PortfolioService.deleteHolding(symbol);
     if (result.ok) {
       UI.showToast(result.msg, 'success');
-      updatePortfolio();
+      updatePortfolio(watchlistQuotes);
     } else {
       UI.showToast(result.msg, 'error');
     }
@@ -516,6 +517,36 @@ const App = (() => {
 
   function showAddModal() {
     UI.showAddHoldingModal();
+  }
+
+  function showEditModal(symbol) {
+    UI.showEditHoldingModal(PortfolioService.getHoldings().find(item => item.symbol === symbol));
+  }
+
+  function exportPortfolio() {
+    const blob = new Blob([JSON.stringify(PortfolioService.exportBackup(), null, 2)], {type:'application/json'});
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `investment-warroom-portfolio-${new Date().toISOString().slice(0,10)}.json`;
+    link.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    UI.showToast('持股備份已匯出', 'success');
+  }
+
+  async function importPortfolio(event) {
+    const input = event.target;
+    const file = input.files?.[0];
+    input.value = '';
+    if (!file) return;
+    if (file.size > 1024 * 1024) return UI.showToast('備份檔過大', 'error');
+    try {
+      const result = PortfolioService.importBackup(JSON.parse(await file.text()));
+      UI.showToast(result.msg, result.ok ? 'success' : 'error');
+      if (result.ok) updatePortfolio(watchlistQuotes);
+    } catch {
+      UI.showToast('無法讀取備份檔', 'error');
+    }
   }
 
   // ═══════════════════════════════════════
@@ -599,7 +630,7 @@ const App = (() => {
 
 
 
-    console.log('J.A.R.V.I.S WARROOM v3.2 · SYSTEM ONLINE');
+    console.log('J.A.R.V.I.S WARROOM v3.6 · SYSTEM ONLINE');
   }
 
   // ═══════════════════════════════════════
@@ -610,6 +641,10 @@ const App = (() => {
     refresh: () => fetchAllData(true),
     deleteHolding,
     showAddModal,
+    showEditModal,
+    exportPortfolio,
+    importPortfolio,
+    refreshPortfolio: () => updatePortfolio(watchlistQuotes),
     updateIndicators,
   };
 })();

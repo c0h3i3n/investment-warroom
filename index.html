@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;500&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css?v=3.4.1">
-<link rel="stylesheet" href="css/readability.css?v=3.5.2">
+<link rel="stylesheet" href="css/readability.css?v=3.6.0">
 </head>
 <body>
 
@@ -46,7 +46,7 @@
       </div>
       <div class="reactor-text">
         <h1>WARROOM</h1>
-        <div class="sub">INVESTMENT INTELLIGENCE SYSTEM · v3.4</div>
+        <div class="sub">INVESTMENT INTELLIGENCE SYSTEM · v3.6</div>
       </div>
     </div>
 
@@ -119,6 +119,12 @@
         <div class="port-stat"><div class="ps-label">TOTAL P&amp;L</div><div class="ps-value up" id="port-total-pnl">--</div></div>
         <div class="port-stat"><div class="ps-label">RETURN RATE</div><div class="ps-value gold" id="port-return-rate">--</div></div>
       </div>
+      <div class="port-controls">
+        <button class="btn primary" type="button" onclick="App.showAddModal()">+ 新增持股</button>
+        <button class="btn" type="button" onclick="App.exportPortfolio()">匯出備份</button>
+        <button class="btn" type="button" onclick="document.getElementById('portfolio-import').click()">匯入備份</button>
+        <input id="portfolio-import" type="file" accept="application/json,.json" hidden onchange="App.importPortfolio(event)">
+      </div>
       <table class="port-table">
         <thead><tr><th>TICKER</th><th>NAME</th><th>COST</th><th>PRICE</th><th>P&amp;L %</th><th></th></tr></thead>
         <tbody id="port-tbody">
@@ -160,6 +166,16 @@
           <div class="sec-label-text">WATCHLIST · 自選股</div>
           <div class="sec-label-line"></div>
         </div>
+        <div class="watch-controls">
+          <input id="watch-search" type="search" placeholder="搜尋代號或名稱" aria-label="搜尋自選股">
+          <select id="watch-region" aria-label="市場篩選">
+            <option value="ALL">全部市場</option><option value="HOLDINGS">實際持有</option><option value="TW">台股</option><option value="US">美股</option>
+          </select>
+          <select id="watch-sort" aria-label="自選股排序">
+            <option value="default">預設順序</option><option value="gainers">漲幅由高到低</option>
+            <option value="losers">跌幅由大到小</option><option value="symbol">代號排序</option>
+          </select>
+        </div>
         <div id="watchlist">
           <div class="loading-indicator">LOADING WATCHLIST...</div>
         </div>
@@ -183,7 +199,7 @@
   </div>
 
   <footer>
-    <span>J.A.R.V.I.S · WARROOM INVESTMENT INTELLIGENCE · v3.4</span>
+    <span>J.A.R.V.I.S · WARROOM INVESTMENT INTELLIGENCE · v3.6</span>
     <span id="fdate"></span>
     <span class="latency-badge"><span class="dot live"></span> 台股 MIS 即時</span>
     <span class="latency-badge"><span class="dot delay"></span> 美股 Yahoo 延遲</span>
@@ -199,11 +215,11 @@
 <script src="js/history-validation.js?v=3.5.0"></script>
 <script src="js/data.js?v=3.5.0"></script>
 <script>console.log("data.js loaded, CONFIG proxies:", CONFIG?.CORS_PROXIES?.length);</script>
-<script src="js/portfolio.js?v=3.4.1"></script>
-<script src="js/indicators.js?v=3.5.0"></script>
+<script src="js/portfolio.js?v=3.6.0"></script>
+<script src="js/indicators.js?v=3.6.0"></script>
 <script src="js/news.js?v=3.4.1"></script>
-<script src="js/ui.js?v=3.5.2"></script>
-<script src="js/main.js?v=3.5.1"></script>
+<script src="js/ui.js?v=3.6.0"></script>
+<script src="js/main.js?v=3.6.0"></script>
 <script src="js/interactions.js?v=3.5.2"></script>
 
 

@@ -48,6 +48,16 @@ body { cursor:auto; line-height:1.5; }
 .last-updated { left:78px; bottom:14px; max-width:calc(100vw - 95px); padding:6px 10px; background:#12151af2; border:1px solid var(--border); border-radius:6px; font-family:inherit; font-size:11px; letter-spacing:0; }
 .refresh-btn { bottom:12px; }
 .portfolio-notice { color:var(--text-mid); font-size:13px; padding:12px 0; }
+.quote-meta { display:block; margin-top:3px; color:var(--text-dim); font-family:inherit !important; font-size:10px; line-height:1.35; white-space:nowrap; }
+.ps-value.multi { display:flex; flex-direction:column; gap:3px; font-size:14px; color:var(--text); }
+.ps-value.multi span { font-family:var(--numeric); font-variant-numeric:tabular-nums; }
+.delete-col { white-space:nowrap; }
+.delete-col .btn + .btn { margin-left:4px; }
+.form-hint { color:var(--text-mid); font-size:12px; line-height:1.5; }
+.watch-controls { display:grid; grid-template-columns:minmax(110px,1fr) auto auto; gap:8px; margin-bottom:10px; }
+.watch-controls input,.watch-controls select { min-width:0; padding:7px 9px; border:1px solid var(--border-hi); border-radius:4px; background:var(--deep); color:var(--text); font-family:inherit; font-size:11px; }
+.watch-controls input:focus,.watch-controls select:focus { outline:2px solid var(--gold); outline-offset:1px; }
+.port-controls { flex-wrap:wrap; }
 .ticker-bar:hover .ticker-inner,.ticker-bar:focus-within .ticker-inner { animation-play-state:paused; }
 button:focus-visible,a:focus-visible { outline:2px solid var(--gold); outline-offset:4px; }
 @media(max-width:1100px) { .index-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .main-grid { grid-template-columns:1fr; } }
@@ -59,6 +69,8 @@ button:focus-visible,a:focus-visible { outline:2px solid var(--gold); outline-of
   .port-stats { grid-template-columns:repeat(3,minmax(0,1fr)); gap:6px; }
   .ps-value { font-size:16px; } .ps-label { font-size:9px; }
   .w-name { min-width:0; } .w-spark { display:none; }
+  .watch-controls { grid-template-columns:1fr 1fr; }
+  .watch-controls input { grid-column:1/-1; }
   .last-updated { font-size:10px; }
 }
 @media(prefers-reduced-motion:reduce) { *,*::before,*::after { animation:none !important; transition:none !important; } }
