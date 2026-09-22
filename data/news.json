@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-09-22T09:51:35.068829+00:00",
-  "generatedAt": "2026-09-22T09:51:35.068829+00:00",
+  "timestamp": "2026-09-22T14:42:40.366192+00:00",
+  "generatedAt": "2026-09-22T14:42:40.366192+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過36.12億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6613157"
-    },
-    {
-      "region": "TW",
-      "headline": "ARK方舟伍德大舉加碼Meta近3500萬美元 逢高調節CrowdStrike",
+      "headline": "官股「私銀」開張了！臺銀高資產業務今上線 首開「黃金現貨指定保管業務」",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6613028"
+      "link": "https://news.cnyes.com/news/id/6613313"
     },
     {
       "region": "TW",
-      "headline": "盤後速報 - 虹堡(5258)次交易(23)日除息1.01元，參考價41.39元",
+      "headline": "川習會前揭露驚人資金流！華爾街、中國投資人跨海互押",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6613127"
+      "link": "https://news.cnyes.com/news/id/6613294"
     },
     {
       "region": "TW",
-      "headline": "盤後速報 - 興富發(2542)次交易(23)日除息4元，參考價41.45元",
+      "headline": "Volkswagen估中國乘用車市場將衰退20% 呼籲產業轉向永續價值創造",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6613126"
+      "link": "https://news.cnyes.com/news/id/6613226"
     },
     {
       "region": "TW",
-      "headline": "金融力挺低碳轉型！新光合纖56.25億永續聯貸案到位 9家銀行超額認購1.43倍",
+      "headline": "台達電董座鄭平拜會印度總理莫迪 持續擴充在地產能聚焦三大領域",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6613308"
+    },
+    {
+      "region": "TW",
+      "headline": "機車族小確幸！上駕訓班考照投保強制險可領200元禮券 明年起試辦",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6612958"
+      "link": "https://news.cnyes.com/news/id/6613297"
     },
     {
       "region": "TW",
-      "headline": "〈台股盤後〉漲逾800點創新高後虎頭蛇尾 小漲81點收最低47800點",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6612948"
-    },
-    {
-      "region": "TW",
-      "headline": "合勤控旗下兆勤推出全新系列10G 智慧型網管交換器 解決中小企業網路效能瓶頸",
+      "headline": "國統奪屏東新園工業用地及新園產業園區委託開發案金額達38.77億元",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6612946"
+      "link": "https://news.cnyes.com/news/id/6613255"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉友達利多加持、外資大買 連兩根漲停創16年新高價",
+      "headline": "首檔聚焦中小股本主動ETF 台新00416A鎖定隱形冠軍長線爆發力",
       "source": "台股",
       "time": "--:--",
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6612940"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6613243"
     }
   ]
 }
