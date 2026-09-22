@@ -1,70 +1,62 @@
 {
-  "timestamp": "2026-09-21T23:12:16.347042+00:00",
-  "generatedAt": "2026-09-21T23:12:16.347042+00:00",
+  "timestamp": "2026-09-22T04:42:52.060277+00:00",
+  "generatedAt": "2026-09-22T04:42:52.060277+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "市場恐誤判！德銀示警：終點利率恐遠超預期　升息未必導致股市下跌",
+      "headline": "阿里巴巴吳泳銘：未來機器思考總量將達到人類1,000倍以上",
       "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6612836"
+    },
+    {
+      "region": "TW",
+      "headline": "個人Agent大戰開打！Muse、Grok Bot大紅  OpenAI也坐不住了",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6612707"
+    },
+    {
+      "region": "TW",
+      "headline": "保時捷卡宴降價30萬？中國4S店：2026款清庫存",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6612650"
+    },
+    {
+      "region": "TW",
+      "headline": "技嘉旗下技鋼科技首座算力中心GAIFA落腳土城 強勢布局AIDC基礎建設與驗證能力",
+      "source": "鉅亨",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6612802"
+    },
+    {
+      "region": "TW",
+      "headline": "欣陸：欣達環工獲新竹客雅再生水BTO案最優申請人將投資84.5億元",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6612785"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：弘塑(3131-TW)EPS預估下修至62.4元，預估目標價為4000元",
+      "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6612338"
+      "link": "https://news.cnyes.com/news/id/6612807"
     },
     {
       "region": "TW",
-      "headline": "〈能源盤後〉油價挫逾3% 跌破100美元！美伊外交曙光現 沙烏地出口部分恢復",
-      "source": "鉅亨",
+      "headline": "鉅亨速報 - Factset 最新調查：譜瑞-KY(4966-TW)EPS預估下修至33.6元，預估目標價為660元",
+      "source": "台股",
       "time": "--:--",
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6612482"
-    },
-    {
-      "region": "TW",
-      "headline": "川習會前有新大單？波音先替市場期待降溫",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6612507"
-    },
-    {
-      "region": "TW",
-      "headline": "AI真失控怎麼辦？川普：必要時讓司法部出手",
-      "source": "鉅亨",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6612508"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：信驊(5274-TW)EPS預估上修至202.31元，預估目標價為23000元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6612401"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：群聯(8299-TW)EPS預估上修至402.74元，預估目標價為2815元",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6612400"
-    },
-    {
-      "region": "TW",
-      "headline": "台股驚爆聯茂3.19億元違約交割 創今年上市櫃單次最高紀錄",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6612375"
-    },
-    {
-      "region": "TW",
-      "headline": "鋼鐵輸歐配額「黑箱」？ 經濟部：8成業者沿用舊制 自由配額維持20%",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6612316"
+      "link": "https://news.cnyes.com/news/id/6612806"
     }
   ]
 }
