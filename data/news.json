@@ -1,62 +1,70 @@
 {
-  "timestamp": "2026-09-22T04:42:52.060277+00:00",
-  "generatedAt": "2026-09-22T04:42:52.060277+00:00",
+  "timestamp": "2026-09-22T09:51:35.068829+00:00",
+  "generatedAt": "2026-09-22T09:51:35.068829+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "阿里巴巴吳泳銘：未來機器思考總量將達到人類1,000倍以上",
+      "headline": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過36.12億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
       "source": "鉅亨",
       "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6612836"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6613157"
     },
     {
       "region": "TW",
-      "headline": "個人Agent大戰開打！Muse、Grok Bot大紅  OpenAI也坐不住了",
+      "headline": "ARK方舟伍德大舉加碼Meta近3500萬美元 逢高調節CrowdStrike",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6612707"
+      "link": "https://news.cnyes.com/news/id/6613028"
     },
     {
       "region": "TW",
-      "headline": "保時捷卡宴降價30萬？中國4S店：2026款清庫存",
+      "headline": "盤後速報 - 虹堡(5258)次交易(23)日除息1.01元，參考價41.39元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6612650"
+      "link": "https://news.cnyes.com/news/id/6613127"
     },
     {
       "region": "TW",
-      "headline": "技嘉旗下技鋼科技首座算力中心GAIFA落腳土城 強勢布局AIDC基礎建設與驗證能力",
+      "headline": "盤後速報 - 興富發(2542)次交易(23)日除息4元，參考價41.45元",
       "source": "鉅亨",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6612802"
+      "link": "https://news.cnyes.com/news/id/6613126"
     },
     {
       "region": "TW",
-      "headline": "欣陸：欣達環工獲新竹客雅再生水BTO案最優申請人將投資84.5億元",
+      "headline": "金融力挺低碳轉型！新光合纖56.25億永續聯貸案到位 9家銀行超額認購1.43倍",
       "source": "台股",
       "time": "--:--",
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6612785"
+      "link": "https://news.cnyes.com/news/id/6612958"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：弘塑(3131-TW)EPS預估下修至62.4元，預估目標價為4000元",
+      "headline": "〈台股盤後〉漲逾800點創新高後虎頭蛇尾 小漲81點收最低47800點",
       "source": "台股",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6612807"
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6612948"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：譜瑞-KY(4966-TW)EPS預估下修至33.6元，預估目標價為660元",
+      "headline": "合勤控旗下兆勤推出全新系列10G 智慧型網管交換器 解決中小企業網路效能瓶頸",
       "source": "台股",
       "time": "--:--",
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6612806"
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6612946"
+    },
+    {
+      "region": "TW",
+      "headline": "〈焦點股〉友達利多加持、外資大買 連兩根漲停創16年新高價",
+      "source": "台股",
+      "time": "--:--",
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6612940"
     }
   ]
 }
