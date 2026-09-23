@@ -98,6 +98,31 @@ body { cursor:auto; line-height:1.5; }
 .ticker-bar:hover .ticker-inner,.ticker-bar:focus-within .ticker-inner { animation-play-state:paused; }
 button:focus-visible,a:focus-visible { outline:2px solid var(--gold); outline-offset:4px; }
 @media(max-width:1100px) { .index-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .main-grid { grid-template-columns:1fr; } }
+@media(min-width:641px) and (max-width:1100px) {
+  .hud-header { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:12px 16px; }
+  .reactor,.reactor-text { min-width:0; }
+  .reactor-text .sub { letter-spacing:2px; white-space:nowrap; }
+  .hud-center { justify-self:end; }
+  .status-panel { grid-column:1/-1; width:100%; justify-content:flex-end; flex-wrap:wrap; }
+  .status-label { font-size:10px; }
+  .index-row { grid-template-columns:repeat(6,minmax(0,1fr)); }
+  .idx-card { grid-column:span 3; }
+  .idx-card:nth-child(n+3) { grid-column:span 2; }
+  .night-layout { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .night-risk { grid-column:2; grid-row:1; }
+  .night-metrics { grid-column:1/-1; grid-row:2; }
+  .night-price { font-size:30px; }
+  .night-contract,.night-asof,.night-reference,.night-metrics span,.night-risk span,.night-risk small,.night-disclaimer { font-size:12px; }
+  .night-metrics b { font-size:15px; white-space:nowrap; }
+  .night-driver { font-size:11px; }
+  .watch-remove { width:36px; height:36px; flex-basis:36px; }
+  .watch-controls input,.watch-controls select,.watch-add { min-height:40px; font-size:12px; }
+}
+@media(min-width:641px) and (max-width:779px) {
+  .index-row { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .idx-card,.idx-card:nth-child(n+3) { grid-column:auto; }
+  .idx-card:last-child { grid-column:1/-1; }
+}
 @media(max-width:640px) {
   .index-row { grid-template-columns:repeat(2,minmax(0,1fr)); }
   .featured-row { grid-template-columns:1fr; }

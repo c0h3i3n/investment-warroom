@@ -399,6 +399,17 @@ const UI = (() => {
   // ═══════════════════════════════════════
   // TECHNICAL INDICATORS
   // ═══════════════════════════════════════
+  let indicatorChartData = null;
+  let indicatorChartObserver = null;
+
+  function drawIndicatorChart() {
+    const chart = document.getElementById('ind-chart');
+    if (!chart || !indicatorChartData) return;
+    const width = Math.max(1, Math.round(chart.getBoundingClientRect().width));
+    chart.setAttribute('viewBox', `0 0 ${width} 90`);
+    chart.innerHTML = renderSVGChart(indicatorChartData, width, 90);
+  }
+
   function renderIndicators(indData) {
     const grid = document.getElementById('ind-grid');
     const chart = document.getElementById('ind-chart');
@@ -427,7 +438,12 @@ const UI = (() => {
     }
 
     if (chart && indData?.chartData) {
-      chart.innerHTML = renderSVGChart(indData.chartData, 340, 90);
+      indicatorChartData = indData.chartData;
+      drawIndicatorChart();
+      if (!indicatorChartObserver && typeof ResizeObserver !== 'undefined') {
+        indicatorChartObserver = new ResizeObserver(drawIndicatorChart);
+        indicatorChartObserver.observe(chart);
+      }
       const detail = document.getElementById('chart-detail');
       if (detail) detail.textContent = '指向或點選走勢查看還原價格；鍵盤可用左右方向鍵。';
     }
