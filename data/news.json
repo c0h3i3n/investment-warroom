@@ -1,42 +1,78 @@
 {
-  "timestamp": "2026-09-23T11:24:21.685071+00:00",
-  "generatedAt": "2026-09-23T11:24:21.685071+00:00",
+  "timestamp": "2026-09-23T16:47:21.427640+00:00",
+  "generatedAt": "2026-09-23T16:47:21.427640+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "研華北美營收爆發全年估破10億美元 半導體應用今年成長7成、明年再倍增",
+      "headline": "盤中速報 - Crowdstrike控股(CRWD-US)大漲5.02%，報262.63美元",
       "source": "鉅亨",
-      "time": "17:48",
-      "publishedAt": 1790156912000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6614138"
-    },
-    {
-      "region": "TW",
-      "headline": "台股連2日創高！00981A王者歸來登ETF漲幅王 近1年含息報酬衝136%",
-      "source": "鉅亨",
-      "time": "17:47",
-      "publishedAt": 1790156847000,
+      "time": "00:18",
+      "publishedAt": 1790180282000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6614188"
+      "link": "https://news.cnyes.com/news/id/6614532"
     },
     {
       "region": "TW",
-      "headline": "永慶房產調查：看跌全台下季房價走勢比例已收歛至28%",
+      "headline": "盤中速報 - 哈希圖大跌8.51%，報0.09美元",
       "source": "鉅亨",
-      "time": "17:46",
-      "publishedAt": 1790156800000,
+      "time": "00:05",
+      "publishedAt": 1790179519000,
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6614179"
+      "link": "https://news.cnyes.com/news/id/6614529"
     },
     {
       "region": "TW",
-      "headline": "Meta AI助理Muse爆紅 童子賢：顯示AI應用逐步落地",
+      "headline": "盤中速報 - LayerZero大漲15.81%，報1.46美元",
       "source": "鉅亨",
-      "time": "17:41",
-      "publishedAt": 1790156490000,
+      "time": "00:05",
+      "publishedAt": 1790179519000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6614528"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - Worldcoin大跌8.39%，報0.42美元",
+      "source": "鉅亨",
+      "time": "00:05",
+      "publishedAt": 1790179518000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6614527"
+    },
+    {
+      "region": "TW",
+      "headline": "貿聯完成收購新加坡Interplex Datacom業務 強化資料中心基礎設施布局",
+      "source": "台股",
+      "time": "20:23",
+      "publishedAt": 1790166190000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6614184"
+      "link": "https://news.cnyes.com/news/id/6614333"
+    },
+    {
+      "region": "TW",
+      "headline": "燁輝斥8.04億元認購燁聯私募股13.4萬張 持股比提升至35.46%",
+      "source": "台股",
+      "time": "20:04",
+      "publishedAt": 1790165099000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6614321"
+    },
+    {
+      "region": "TW",
+      "headline": "研華北美市場BB值逾2 產能供不應求爆滿到明年下半年",
+      "source": "台股",
+      "time": "20:04",
+      "publishedAt": 1790165063000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6614314"
+    },
+    {
+      "region": "TW",
+      "headline": "散戶大軍回神！8月證券劃撥存款餘額飆破4.5兆元 創歷史新高",
+      "source": "台股",
+      "time": "19:58",
+      "publishedAt": 1790164682000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6614311"
     }
   ]
 }
