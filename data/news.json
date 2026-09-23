@@ -1,44 +1,58 @@
 {
-  "timestamp": "2026-09-23T00:21:17.529829+00:00",
-  "generatedAt": "2026-09-23T00:21:17.529829+00:00",
+  "timestamp": "2026-09-23T02:22:07.733511+00:00",
+  "generatedAt": "2026-09-23T02:22:07.733511+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美媒《Semafor》：貝森特成川普「AI 沙皇」熱門人選",
+      "headline": "伊朗擬重罰未授權過境荷姆茲船隻 貨值20%罰款 拒付就扣押",
       "source": "鉅亨",
-      "time": "--:--",
+      "time": "08:54",
+      "publishedAt": 1790124853000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6613557"
+      "link": "https://news.cnyes.com/news/id/6613644"
     },
     {
       "region": "TW",
-      "headline": "Fed巴爾金點名通膨仍是 「麻煩製造者」 不排除進一步升息",
+      "headline": "外資近5日賣超個股",
       "source": "鉅亨",
-      "time": "--:--",
+      "time": "08:50",
+      "publishedAt": 1790124620000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6613558"
+      "link": "https://news.cnyes.com/news/id/6613706"
     },
     {
       "region": "TW",
-      "headline": "為何歐洲市值「一哥」艾司摩爾在當地銷售竟掛零？副總裁這樣說",
+      "headline": "【鉅亨-盤前掃瞄】技術面",
       "source": "鉅亨",
-      "time": "--:--",
+      "time": "08:50",
+      "publishedAt": 1790124616000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6613453"
+      "link": "https://news.cnyes.com/news/id/6613705"
     },
     {
       "region": "TW",
-      "headline": "〈美股盤後〉油價連五降 費半六連升 那指再寫歷史新高紀錄",
+      "headline": "【鉅亨-盤前掃瞄】基本面",
       "source": "鉅亨",
-      "time": "--:--",
+      "time": "08:50",
+      "publishedAt": 1790124615000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6613562"
+      "link": "https://news.cnyes.com/news/id/6613704"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台泥拓展東歐市場〉擬以212億元企業價值 併購烏克蘭第二大水泥公司",
+      "source": "台股",
+      "time": "07:15",
+      "publishedAt": 1790118930000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6613621"
     },
     {
       "region": "TW",
       "headline": "〈台股盤前要聞〉外銷訂單連19紅首度突破千億美元、台股闖4萬8創高",
       "source": "台股",
-      "time": "--:--",
+      "time": "05:10",
+      "publishedAt": 1790111403000,
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6613451"
     },
@@ -46,7 +60,8 @@
       "region": "TW",
       "headline": "川習會台灣成焦點！中國力阻140億美元軍售 川普態度受矚",
       "source": "台股",
-      "time": "--:--",
+      "time": "03:30",
+      "publishedAt": 1790105404000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6613512"
     },
@@ -54,17 +69,10 @@
       "region": "TW",
       "headline": "鉅亨速報 - Factset 最新調查：全新(2455-TW)目標價調升至622.5元，幅度約21.46%",
       "source": "台股",
-      "time": "--:--",
+      "time": "22:10",
+      "publishedAt": 1790086222000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6613436"
-    },
-    {
-      "region": "TW",
-      "headline": "8月五大銀行新承做房貸月減近120億元 創3個月低",
-      "source": "台股",
-      "time": "--:--",
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6613364"
     }
   ]
 }
