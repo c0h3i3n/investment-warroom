@@ -379,6 +379,16 @@ for source, rss_url, region in rss_feeds:
         continue
     for item in data.get('items', [])[:4]:
         title = item.get('title', '')
+        published_raw = item.get('pubDate')
+        published_at = None
+        if published_raw:
+            try:
+                published_at = int(datetime.fromisoformat(published_raw.replace('Z', '+00:00')).timestamp() * 1000)
+            except (TypeError, ValueError):
+                try:
+                    published_at = int(datetime.strptime(published_raw, '%Y-%m-%d %H:%M:%S').replace(tzinfo=timezone.utc).timestamp() * 1000)
+                except (TypeError, ValueError):
+                    published_at = None
         lowered = title.lower()
         positive = ['漲', '飆', '突破', '創高', '上調', '樂觀', 'surge', 'rally', 'record', 'upgrade']
         negative = ['跌', '崩', '暴跌', '下修', '警', 'risk', 'crash', 'downgrade', 'plunge']
@@ -387,7 +397,8 @@ for source, rss_url, region in rss_feeds:
             'region': region,
             'headline': title[:80] + '…' if len(title) > 80 else title,
             'source': source,
-            'time': '--:--',
+            'time': datetime.fromtimestamp(published_at / 1000, TAIPEI).strftime('%H:%M') if published_at else '--:--',
+            'publishedAt': published_at,
             'impact': impact,
             'link': item.get('link', ''),
         })
@@ -400,6 +411,7 @@ for item in news_items:
         seen.add(key)
         news.append(item)
 if news:
+    news.sort(key=lambda item: item.get('publishedAt') or 0, reverse=True)
     atomic_json('news.json', {'timestamp': generated_at, 'generatedAt': generated_at, 'data': news[:12]})
 
 print(f'✅ {datetime.now(TAIPEI).strftime("%H:%M:%S")}  Idx:{valid_indexes}/{len(indexes)}  Q:{valid_quotes}/{len(quotes)}  News:{len(news[:12])}')

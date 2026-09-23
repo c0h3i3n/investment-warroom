@@ -6,8 +6,8 @@
 <title>J.A.R.V.I.S · 投資戰情室</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;500&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=3.8.0">
-<link rel="stylesheet" href="css/readability.css?v=3.8.0">
+<link rel="stylesheet" href="css/style.css?v=3.9.0">
+<link rel="stylesheet" href="css/readability.css?v=3.9.0">
 </head>
 <body>
 
@@ -46,7 +46,7 @@
       </div>
       <div class="reactor-text">
         <h1>WARROOM</h1>
-        <div class="sub">INVESTMENT INTELLIGENCE SYSTEM · v3.8</div>
+        <div class="sub">INVESTMENT INTELLIGENCE SYSTEM · v3.9</div>
       </div>
     </div>
 
@@ -63,6 +63,10 @@
       <div class="status-item">
         <div class="status-orb pre" id="usOrb"></div>
         <div class="status-label" id="usLabel">US PRE-MKT</div>
+      </div>
+      <div class="status-item">
+        <div class="status-orb off" id="nightOrb"></div>
+        <div class="status-label" id="nightLabel">NIGHT CHECK</div>
       </div>
       <div class="status-item">
         <div class="status-orb off" id="sysOrb"></div>
@@ -156,7 +160,9 @@
             <option value="default">預設順序</option><option value="gainers">漲幅由高到低</option>
             <option value="losers">跌幅由大到小</option><option value="symbol">代號排序</option>
           </select>
+          <button class="btn watch-add" id="watch-add" type="button">＋ 新增</button>
         </div>
+        <div class="watch-hint">點選項目可切換技術指標；清單只儲存在此瀏覽器。</div>
         <div id="watchlist">
           <div class="loading-indicator">LOADING WATCHLIST...</div>
         </div>
@@ -178,28 +184,45 @@
   </div>
 
   <footer>
-    <span>J.A.R.V.I.S · WARROOM INVESTMENT INTELLIGENCE · v3.8</span>
+    <span>J.A.R.V.I.S · WARROOM INVESTMENT INTELLIGENCE · v3.9</span>
     <span id="fdate"></span>
     <span class="latency-badge"><span class="dot live"></span> 台股 MIS 即時</span>
-    <span class="latency-badge"><span class="dot live"></span> 期交所夜盤即時</span>
+    <span class="latency-badge"><span class="dot delay"></span> 夜盤狀態見頁首</span>
     <span class="latency-badge"><span class="dot delay"></span> 美股 Yahoo 延遲</span>
     <span>資料僅供參考</span>
   </footer>
 
 </div>
 
+<dialog class="watch-dialog" id="watch-dialog" aria-labelledby="watch-dialog-title">
+  <form id="watch-form">
+    <h2 id="watch-dialog-title">新增自選股</h2>
+    <label>股票代號
+      <input id="watch-symbol" name="symbol" autocomplete="off" maxlength="15" placeholder="例如 2882、AAPL" required>
+    </label>
+    <label>顯示名稱（選填）
+      <input id="watch-name" name="name" autocomplete="off" maxlength="30" placeholder="例如 國泰金">
+    </label>
+    <div class="watch-dialog-note">台股代號會自動加上 .TW；美股請輸入交易代號。</div>
+    <div class="watch-dialog-actions">
+      <button class="btn" id="watch-cancel" type="button">取消</button>
+      <button class="btn primary" type="submit">加入</button>
+    </div>
+  </form>
+</dialog>
+
 <!-- ═══ SCRIPTS ═══ -->
 <script>document.querySelector(".hud-time").textContent="JS OK"; console.log("Script loader: starting...");</script>
 <script src="js/config.js?v=3.4.1"></script>
 <script src="js/market-calendar.js?v=3.5.2"></script>
 <script src="js/history-validation.js?v=3.5.0"></script>
-<script src="js/data.js?v=3.7.0"></script>
+<script src="js/data.js?v=3.9.0"></script>
 <script>console.log("data.js loaded, CONFIG proxies:", CONFIG?.CORS_PROXIES?.length);</script>
 <script src="js/indicators.js?v=3.6.0"></script>
-<script src="js/news.js?v=3.4.1"></script>
+<script src="js/news.js?v=3.9.0"></script>
 <script src="js/night-analysis.js?v=3.7.0"></script>
-<script src="js/ui.js?v=3.8.0"></script>
-<script src="js/main.js?v=3.8.0"></script>
+<script src="js/ui.js?v=3.9.0"></script>
+<script src="js/main.js?v=3.9.0"></script>
 <script src="js/interactions.js?v=3.5.2"></script>
 
 

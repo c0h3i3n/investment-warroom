@@ -156,3 +156,37 @@ test('history API serves a cached 0050 series without an upstream request', asyn
   assert.equal(payload.delivery, 'kv');
   assert.equal(payload.data.length, 2);
 });
+
+test('quote API supports a user-added US symbol', async t => {
+  const originalFetch = globalThis.fetch;
+  const originalNow = Date.now;
+  const now = Date.parse('2026-09-23T02:00:00Z');
+  Date.now = () => now;
+  globalThis.fetch = async url => {
+    assert.match(String(url), /\/chart\/AAPL\?/);
+    return new Response(JSON.stringify({ chart:{ result:[{ meta:{
+      symbol:'AAPL', shortName:'Apple', regularMarketPrice:240,
+      previousClose:238, regularMarketTime:Date.parse('2026-09-22T20:00:00Z') / 1000,
+      currency:'USD',
+    } }] } }), { status:200 });
+  };
+  t.after(() => { globalThis.fetch = originalFetch; Date.now = originalNow; });
+
+  const response = await handleRequest(new Request('https://worker.example/api/quote?symbol=AAPL'), {});
+  const payload = await response.json();
+  assert.equal(response.status, 200);
+  assert.equal(payload.quote.symbol, 'AAPL');
+  assert.equal(payload.quote.price, 240);
+});
+
+test('history API permits a valid user-added symbol but rejects path-like input', async () => {
+  const history = {
+    schemaVersion:1, generatedAt:new Date().toISOString(), symbol:'AAPL', range:'6mo', interval:'1d',
+    data:[{time:Date.now()-86400000,close:100},{time:Date.now(),close:101}], source:'Yahoo Finance',
+  };
+  const env = { MARKET_CACHE:{ get:async key => key.includes(':AAPL:') ? history : null } };
+  const valid = await handleRequest(new Request('https://worker.example/api/history?symbol=AAPL&range=6mo&interval=1d'), env);
+  assert.equal(valid.status, 200);
+  const invalid = await handleRequest(new Request('https://worker.example/api/history?symbol=..%2Fsecret&range=6mo&interval=1d'), env);
+  assert.equal(invalid.status, 400);
+});

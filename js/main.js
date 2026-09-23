@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════
-// J.A.R.V.I.S · MAIN APPLICATION v3.8
+// J.A.R.V.I.S · MAIN APPLICATION v3.9
 // Orchestrates all modules
 // ═══════════════════════════════════════
 
@@ -16,9 +16,12 @@ const App = (() => {
   let pendingForceRefresh = false;
   let newsGeneration = 0;
   let indicatorInFlight = null;
+  let indicatorGeneration = 0;
   let indicatorAutoAttempted = false;
   let indicatorLastAttempt = 0;
   const DEFAULT_INDICATOR_SYMBOL = '0050.TW';
+  const FEATURED_SYMBOLS = ['0050.TW', '2330.TW'];
+  let activeIndicatorSymbol = DEFAULT_INDICATOR_SYMBOL;
 
   // ═══════════════════════════════════════
   // CLOCK & STATUS
@@ -121,8 +124,8 @@ const App = (() => {
     usingFallback = false;
     const watchlist = loadWatchlist();
     const wSymbols = watchlist.map(w => w.symbol);
-    const allQuoteSymbols = [...new Set(wSymbols)];
-    const expectedQuotes = CONFIG.INDEXES.length + wSymbols.length;
+    const allQuoteSymbols = [...new Set([...wSymbols, ...FEATURED_SYMBOLS])];
+    const expectedQuotes = CONFIG.INDEXES.length + allQuoteSymbols.length;
     let indexFreshness = indexData.filter(x => DataService.isFreshRecord(x, x.region));
     let quoteFreshness = watchlistQuotes.filter(x => DataService.isFreshRecord(x));
     const currentFreshness = () => [...indexFreshness, ...quoteFreshness];
@@ -197,7 +200,7 @@ const App = (() => {
           let quotes = (backend?.quotes || []).filter(item => allQuoteSymbols.includes(item.symbol));
           const renderQuotes = currentQuotes => {
             if (generation !== refreshGeneration) return;
-            quoteFreshness = currentQuotes.filter(q => wSymbols.includes(q.symbol) && DataService.isFreshRecord(q));
+            quoteFreshness = currentQuotes.filter(q => allQuoteSymbols.includes(q.symbol) && DataService.isFreshRecord(q));
             const watchData = watchlist.map(w => {
               const q = currentQuotes.find(item => item.symbol === w.symbol);
               return {
@@ -215,6 +218,7 @@ const App = (() => {
             });
             watchlistQuotes = watchData;
             window._watchlistQuotes = watchData;
+            window._featuredQuotes = FEATURED_SYMBOLS.map(symbol => currentQuotes.find(item => item.symbol === symbol)).filter(Boolean);
             UI.renderWatchlist(watchData);
             UI.renderFeatured();
             UI.renderTicker(watchData);
@@ -278,7 +282,7 @@ const App = (() => {
         // They never delay quotes or the data-status badge.
         if (!indicatorAutoAttempted || Date.now() - indicatorLastAttempt >= 15 * 60 * 1000) {
           indicatorAutoAttempted = true;
-          queueMicrotask(() => updateIndicators(DEFAULT_INDICATOR_SYMBOL, { automatic: true }));
+          queueMicrotask(() => updateIndicators(activeIndicatorSymbol, { automatic: true }));
         }
       } catch (e) {
         console.error('Data fetch error:', e);
@@ -352,6 +356,7 @@ const App = (() => {
         });
         watchlistQuotes = watchData;
         window._watchlistQuotes = watchData;
+        window._featuredQuotes = FEATURED_SYMBOLS.map(symbol => quotes.find(item => item.symbol === symbol)).filter(Boolean);
         UI.renderWatchlist(watchData);
         UI.renderFeatured();
         UI.renderTicker(watchData);
@@ -360,7 +365,7 @@ const App = (() => {
       UI.renderNews(news || []);
       
       const watchlist = loadWatchlist();
-      const watchlistSymbols = new Set(watchlist.map(w => w.symbol));
+      const watchlistSymbols = new Set([...watchlist.map(w => w.symbol), ...FEATURED_SYMBOLS]);
       const freshItems = [
         ...indexes.filter(x => DataService.isFreshRecord(x, x.region)),
         ...quotes.filter(q => watchlistSymbols.has(q.symbol)),
@@ -369,7 +374,7 @@ const App = (() => {
       const regionalTimes = sourceTimesByRegion(freshItems);
       UI.setDataStatus({
         fresh: freshItems.length,
-        total: CONFIG.INDEXES.length + watchlist.length,
+        total: CONFIG.INDEXES.length + watchlistSymbols.size,
         oldestAsOf: sourceTimes.length ? Math.min(...sourceTimes) : null,
         ...regionalTimes,
         mode: 'cache',
@@ -385,15 +390,18 @@ const App = (() => {
   // INDICATORS
   // ═══════════════════════════════════════
   function updateIndicators(symbol = DEFAULT_INDICATOR_SYMBOL, { automatic = false } = {}) {
-    if (indicatorInFlight) return indicatorInFlight;
+    activeIndicatorSymbol = symbol;
+    UI.setWatchlistActiveSymbol(symbol);
+    const generation = ++indicatorGeneration;
     indicatorLastAttempt = Date.now();
     UI.showIndicatorLoading(symbol, automatic);
-    indicatorInFlight = (async () => {
+    const task = (async () => {
       const existingQuote = watchlistQuotes.find(item => item.symbol === symbol);
       const quote = DataService.isFreshRecord(existingQuote)
         ? existingQuote
         : await DataService.fetchQuote(symbol);
       const result = await IndicatorsService.calculateFor(symbol, quote?.price);
+      if (generation !== indicatorGeneration) return false;
       if (result && !result.error) {
         UI.renderIndicators(result);
         return true;
@@ -401,13 +409,15 @@ const App = (() => {
       UI.showIndicatorPrompt(symbol, result?.error || '未知錯誤');
       return false;
     })().catch(error => {
+      if (generation !== indicatorGeneration) return false;
       console.warn('Indicator load failed:', error);
       UI.showIndicatorPrompt(symbol, '歷史資料服務暫時無法連線');
       return false;
     }).finally(() => {
-      indicatorInFlight = null;
+      if (indicatorInFlight === task) indicatorInFlight = null;
     });
-    return indicatorInFlight;
+    indicatorInFlight = task;
+    return task;
   }
 
   // ═══════════════════════════════════════
@@ -425,7 +435,7 @@ const App = (() => {
   // WATCHLIST MANAGEMENT
   // ═══════════════════════════════════════
   const WATCHLIST_KEY = 'warroom_watchlist';
-  const WATCHLIST_VERSION = 3; // bump to force reorder
+  const WATCHLIST_VERSION = 4;
 
   function loadWatchlist() {
     try {
@@ -433,21 +443,19 @@ const App = (() => {
       const savedVer = parseInt(localStorage.getItem(verKey)) || 0;
       const raw = localStorage.getItem(WATCHLIST_KEY);
       
-      if (raw && savedVer >= WATCHLIST_VERSION) {
+      if (raw) {
         const data = JSON.parse(raw);
-        if (Array.isArray(data) && data.length > 0) {
-          // Auto-migrate: add any new defaults not in saved list
-          const savedSymbols = new Set(data.map(w => w.symbol));
-          const defaults = CONFIG.DEFAULT_WATCHLIST;
-          let changed = false;
-          defaults.forEach(d => {
-            if (!savedSymbols.has(d.symbol)) {
-              data.push({...d});
-              changed = true;
-            }
-          });
-          if (changed) { saveWatchlist(data); localStorage.setItem(verKey, WATCHLIST_VERSION); }
-          return data;
+        if (Array.isArray(data)) {
+          const normalized = data.filter(item => item && typeof item.symbol === 'string').map(item => ({
+            symbol: item.symbol.toUpperCase(),
+            name: String(item.name || item.symbol.replace(/\.TW$/i, '')).slice(0, 30),
+            region: item.region === 'TW' || item.symbol.toUpperCase().endsWith('.TW') ? 'TW' : 'US',
+          }));
+          if (savedVer !== WATCHLIST_VERSION) {
+            saveWatchlist(normalized);
+            localStorage.setItem(verKey, WATCHLIST_VERSION);
+          }
+          return normalized;
         }
       }
     } catch (e) { /* use defaults */ }
@@ -460,6 +468,73 @@ const App = (() => {
 
   function saveWatchlist(watchlist) {
     localStorage.setItem(WATCHLIST_KEY, JSON.stringify(watchlist));
+    localStorage.setItem(WATCHLIST_KEY + '_ver', WATCHLIST_VERSION);
+  }
+
+  function normalizeWatchSymbol(value) {
+    const symbol = String(value || '').trim().toUpperCase().replace(/\s+/g, '');
+    if (/^\d{4,6}[A-Z]?$/.test(symbol)) return `${symbol}.TW`;
+    if (/^[A-Z][A-Z0-9.-]{0,14}$/.test(symbol)) return symbol;
+    return null;
+  }
+
+  function addWatchItem(value, displayName = '') {
+    const symbol = normalizeWatchSymbol(value);
+    if (!symbol) {
+      UI.showToast('股票代號格式不正確', 'warn');
+      return false;
+    }
+    const watchlist = loadWatchlist();
+    if (watchlist.some(item => item.symbol === symbol)) {
+      UI.showToast(`${symbol.replace('.TW', '')} 已在自選股`, 'warn');
+      return false;
+    }
+    if (watchlist.length >= 25) {
+      UI.showToast('自選股最多 25 檔', 'warn');
+      return false;
+    }
+    watchlist.push({
+      symbol,
+      name: String(displayName || symbol.replace('.TW', '')).trim().slice(0, 30),
+      region: symbol.endsWith('.TW') ? 'TW' : 'US',
+    });
+    saveWatchlist(watchlist);
+    UI.showToast(`已加入 ${symbol.replace('.TW', '')}`);
+    fetchAllData(true);
+    return true;
+  }
+
+  function removeWatchItem(symbol) {
+    const watchlist = loadWatchlist();
+    const next = watchlist.filter(item => item.symbol !== symbol);
+    if (next.length === watchlist.length) return false;
+    saveWatchlist(next);
+    watchlistQuotes = watchlistQuotes.filter(item => item.symbol !== symbol);
+    window._watchlistQuotes = watchlistQuotes;
+    UI.renderWatchlist(watchlistQuotes);
+    UI.renderTicker(watchlistQuotes);
+    if (activeIndicatorSymbol === symbol) {
+      updateIndicators(next[0]?.symbol || DEFAULT_INDICATOR_SYMBOL, { automatic: true });
+    }
+    UI.showToast(`已移除 ${symbol.replace('.TW', '')}`);
+    fetchAllData(true);
+    return true;
+  }
+
+  function bindWatchlistEditor() {
+    const dialog = document.getElementById('watch-dialog');
+    const form = document.getElementById('watch-form');
+    const symbolInput = document.getElementById('watch-symbol');
+    document.getElementById('watch-add')?.addEventListener('click', () => {
+      form?.reset();
+      dialog?.showModal();
+      symbolInput?.focus();
+    });
+    document.getElementById('watch-cancel')?.addEventListener('click', () => dialog?.close());
+    form?.addEventListener('submit', event => {
+      event.preventDefault();
+      if (addWatchItem(symbolInput?.value, document.getElementById('watch-name')?.value)) dialog?.close();
+    });
   }
 
   // ═══════════════════════════════════════
@@ -501,6 +576,7 @@ const App = (() => {
     indexData = CONFIG.INDEXES.map(index => ({ ...index, unavailable: true }));
     watchlistQuotes = watchData;
     window._watchlistQuotes = watchData;
+    window._featuredQuotes = FEATURED_SYMBOLS.map(symbol => watchData.find(item => item.symbol === symbol)).filter(Boolean);
     UI.renderIndexCards(indexData);
     UI.renderIndexSparklines({});
     UI.renderWatchlist(watchData);
@@ -525,6 +601,7 @@ const App = (() => {
     updateClock();
     updateMarketStatus();
     renderStartupShell();
+    bindWatchlistEditor();
 
     // Static snapshots are only accepted when both the envelope and individual
     // market records are fresh. The shell above remains usable if they are not.
@@ -544,7 +621,7 @@ const App = (() => {
 
 
 
-    console.log('J.A.R.V.I.S WARROOM v3.8 · SYSTEM ONLINE');
+    console.log('J.A.R.V.I.S WARROOM v3.9 · SYSTEM ONLINE');
   }
 
   // ═══════════════════════════════════════
@@ -554,6 +631,8 @@ const App = (() => {
     init,
     refresh: () => fetchAllData(true),
     updateIndicators,
+    addWatchItem,
+    removeWatchItem,
   };
 })();
 

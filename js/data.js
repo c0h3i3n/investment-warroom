@@ -196,6 +196,26 @@ const DataService = (() => {
     return payload;
   }
 
+  async function fetchBackendQuote(symbol) {
+    if (!CONFIG.MARKET_API) return null;
+    try {
+      const params = new URLSearchParams({ symbol });
+      const url = addCacheBuster(`${CONFIG.MARKET_API.replace(/\/$/, '')}/api/quote?${params}`);
+      const response = await fetch(url, {
+        cache: 'no-store',
+        headers: { Accept: 'application/json' },
+        signal: requestTimeoutSignal(8000),
+      });
+      if (!response.ok) return null;
+      const payload = await response.json();
+      const quote = { ...payload?.quote, deliveryMode: 'backend' };
+      return payload?.schemaVersion === 1 && isFreshRecord(quote) ? keepNewest(quote, symbol) : null;
+    } catch (error) {
+      console.warn(`Quote backend ${symbol} failed:`, error.message);
+      return null;
+    }
+  }
+
   // ═══════════════════════════════════════
   // PARSE PROXY RESPONSE (handles allorigins wrapper)
   // ═══════════════════════════════════════
@@ -317,8 +337,15 @@ const DataService = (() => {
     const requestEpoch = cacheEpoch;
 
     try {
-      const results = await Promise.all(symbols.map(s => fetchOneChartQuote(OTC_YAHOO_MAP[s] || s)));
-      const valid = results.filter(r => r != null);
+      const backendResults = CONFIG.MARKET_API
+        ? await Promise.all(symbols.map(fetchBackendQuote))
+        : [];
+      const backendMap = new Map(backendResults.filter(Boolean).map(item => [item.symbol, item]));
+      const missing = symbols.filter(symbol => !backendMap.has(symbol));
+      const browserResults = await Promise.all(missing.map(s => fetchOneChartQuote(OTC_YAHOO_MAP[s] || s)));
+      const merged = new Map(backendMap);
+      browserResults.filter(Boolean).forEach(item => merged.set(item.symbol, item));
+      const valid = symbols.map(symbol => merged.get(symbol)).filter(Boolean);
       if (valid.length > 0) {
         if (requestEpoch === cacheEpoch) setCache(key, valid);
         return valid;
@@ -692,13 +719,14 @@ const DataService = (() => {
   // FETCH SINGLE QUOTE
   // ═══════════════════════════════════════
   async function fetchQuote(symbol) {
+    const backend = await fetchBackendQuote(symbol);
+    if (backend) return backend;
     const isTW = symbol.endsWith('.TW') || symbol.endsWith('.tw');
     if (isTW) {
       const misData = await fetchMISQuotes([symbol]);
       if (misData && misData.length > 0) return misData[0];
     }
-    const results = await fetchQuotes([symbol]);
-    return results ? results[0] : null;
+    return fetchOneChartQuote(OTC_YAHOO_MAP[symbol] || symbol);
   }
 
   // ═══════════════════════════════════════

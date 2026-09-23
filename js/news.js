@@ -29,7 +29,8 @@ const NewsService = (() => {
 
       return data.items.slice(0, 5).map(item => {
         const pubDate = item.pubDate ? new Date(item.pubDate) : null;
-        const time = pubDate
+        const publishedAt = pubDate && Number.isFinite(pubDate.getTime()) ? pubDate.getTime() : null;
+        const time = publishedAt
           ? pubDate.toLocaleTimeString('zh-TW', { hour:'2-digit', minute:'2-digit', hour12:false })
           : '--:--';
         const source = (item.author || feedConfig.name || '').replace(/\(.*\)/, '').trim().slice(0, 12);
@@ -39,6 +40,7 @@ const NewsService = (() => {
           headline: truncate(item.title || '', 80),
           source: source || feedConfig.name,
           time,
+          publishedAt,
           impact: detectImpact(item.title || ''),
           link: item.link || '',
         };
@@ -52,7 +54,7 @@ const NewsService = (() => {
   // ── Fetch all feeds and merge ──
   async function fetchAllFeeds() {
     const results = await Promise.all(CONFIG.RSS_FEEDS.map(f => fetchFeed(f)));
-    const allNews = results.flat();
+    const allNews = results.flat().sort((a, b) => Number(b.publishedAt || 0) - Number(a.publishedAt || 0));
 
     if (allNews.length === 0) {
       console.info('No current RSS feeds available');

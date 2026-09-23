@@ -157,9 +157,12 @@ const UI = (() => {
     const container = document.getElementById('night-market-content');
     if (!container) return;
     if (!data) {
+      setNightStatus(null);
       container.innerHTML = '<div class="night-unavailable">⚠ 夜盤資料暫時無法取得；不使用舊資料產生方向判斷。</div>';
       return;
     }
+
+    setNightStatus(data);
 
     const analysis = NightAnalysis.evaluate(data, indexes);
     const cls = Number(data.changePct) >= 0 ? 'up' : 'dn';
@@ -176,18 +179,19 @@ const UI = (() => {
       ? `${String(data.contract).slice(0,4)}/${String(data.contract).slice(4)}` : '--';
     const drivers = analysis.drivers.map(driver =>
       `<span class="night-driver"><b>${escapeHtml(driver.label)}</b> ${escapeHtml(driver.value)}</span>`).join('');
+    const refreshFailed = Boolean(data.warning);
     const warning = data.stale
-      ? '<div class="night-warning">⚠ 資料已逾時，方向判斷已停用</div>'
+      ? `<div class="night-warning">⚠ 資料已逾時${refreshFailed ? '且即時更新失敗' : ''}，方向判斷已停用</div>`
       : data.delayed
         ? '<div class="night-warning">⚠ 行情延遲 3–5 分鐘，方向僅供參考</div>'
-      : data.delivery === 'stale-kv'
-        ? '<div class="night-warning">⚠ 即時更新失敗，顯示最近資料</div>' : '';
+      : refreshFailed || data.delivery === 'stale-kv'
+        ? '<div class="night-warning">⚠ 即時更新失敗，顯示最近有效夜盤資料</div>' : '';
 
     container.innerHTML = `
       <div class="night-headline">
         <div>
           <span class="night-session ${stateClass}">${state}</span>
-          <span class="night-contract">TX ${contract} · ${escapeHtml(data.source || 'TAIFEX')}</span>
+          <span class="night-contract">TX ${contract}${data.sessionTradingDay ? ` · 交易日 ${escapeHtml(data.sessionTradingDay)}` : ''} · ${escapeHtml(data.source || 'TAIFEX')}</span>
         </div>
         <div class="night-asof">行情時間 ${asOf}</div>
       </div>
@@ -283,6 +287,24 @@ const UI = (() => {
         document.getElementById(id)?.addEventListener(id === 'watch-search' ? 'input' : 'change', () =>
           renderWatchlist(renderWatchlist.latestData || [], renderWatchlist.latestSparks));
       });
+      container.addEventListener('click', event => {
+        const remove = event.target.closest('[data-remove-symbol]');
+        if (remove) {
+          event.stopPropagation();
+          App.removeWatchItem(remove.dataset.removeSymbol);
+          return;
+        }
+        const item = event.target.closest('[data-watch-symbol]');
+        if (item) App.updateIndicators(item.dataset.watchSymbol);
+      });
+      container.addEventListener('keydown', event => {
+        if (!['Enter', ' '].includes(event.key) || event.target.closest('button')) return;
+        const item = event.target.closest('[data-watch-symbol]');
+        if (item) {
+          event.preventDefault();
+          App.updateIndicators(item.dataset.watchSymbol);
+        }
+      });
       renderWatchlist.controlsBound = true;
     }
     const query = (document.getElementById('watch-search')?.value || '').trim().toLowerCase();
@@ -309,7 +331,7 @@ const UI = (() => {
       const pts = normalizeSparkline(realCloses, 55, 22);
 
       return `
-      <div class="watch-item">
+      <div class="watch-item${renderWatchlist.activeSymbol === w.symbol ? ' selected' : ''}" data-watch-symbol="${escapeHtml(w.symbol)}" role="button" tabindex="0" aria-label="顯示 ${escapeHtml(sym)} 技術指標">
         <span class="w-ticker">${escapeHtml(sym)}</span><span class="w-name">${escapeHtml(w.name)}<small class="quote-meta">${escapeHtml(quoteMeta(w))}</small></span>
         <svg class="w-spark" viewBox="0 0 55 22" preserveAspectRatio="none" aria-label="${pts ? '真實近三月日線走勢' : '走勢資料暫時不可用'}">
           ${pts
@@ -318,6 +340,7 @@ const UI = (() => {
         </svg>
         <span class="w-price" data-sym="${w.symbol}" title="${w.priceType === 'indicative' ? '≈ 代表買一／賣一中間報價，非最後成交價' : ''}">${hasData ? (w.priceType === 'indicative' ? '≈' : '') + fmtCurrency(w.price, w.region) : '--'}</span>
         <span class="w-chg ${hasData ? cls : ''}">${hasData ? arrow + ' ' + Math.abs(w.changePct).toFixed(2) + '%' : 'UNAVAILABLE'}</span>
+        <button class="watch-remove" type="button" data-remove-symbol="${escapeHtml(w.symbol)}" title="從自選股移除 ${escapeHtml(sym)}" aria-label="從自選股移除 ${escapeHtml(sym)}">×</button>
       </div>`;
     }).join('');
     // Flash prices after render
@@ -331,6 +354,13 @@ const UI = (() => {
     }, 80);
   }
 
+  function setWatchlistActiveSymbol(symbol) {
+    renderWatchlist.activeSymbol = symbol;
+    document.querySelectorAll('[data-watch-symbol]').forEach(item => {
+      item.classList.toggle('selected', item.dataset.watchSymbol === symbol);
+    });
+  }
+
 
   // ═══════════════════════════════════════
   // FEATURED · 重點關注
@@ -339,7 +369,7 @@ const UI = (() => {
     const container = document.getElementById('featured-row');
     if (!container) return;
     const featured = ['0050.TW', '2330.TW'];
-    const quotes = window._watchlistQuotes || [];
+    const quotes = window._featuredQuotes || window._watchlistQuotes || [];
     const data = featured.map(sym => quotes.find(q => q.symbol === sym)).filter(Boolean);
     if (!data.length) return;
 
@@ -467,6 +497,7 @@ const UI = (() => {
       } catch(e) { return ''; }
     };
 
+    newsItems = [...newsItems].sort((a, b) => Number(b.publishedAt || 0) - Number(a.publishedAt || 0));
     const half = Math.ceil(newsItems.length / 2);
     const left = newsItems.slice(0, half);
     const right = newsItems.slice(half);
@@ -476,6 +507,10 @@ const UI = (() => {
       const headline = escapeHtml(n.headline);
       const region = ['TW', 'US', 'INTL'].includes(n.region) ? n.region : 'INTL';
       const impact = ['pos', 'neg', 'neu'].includes(n.impact) ? n.impact : 'neu';
+      const publishedAt = Number(n.publishedAt);
+      const publishedText = Number.isFinite(publishedAt) && publishedAt > 0
+        ? new Intl.DateTimeFormat('zh-TW', { timeZone:'Asia/Taipei', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', hour12:false }).format(new Date(publishedAt))
+        : n.time || '--';
       const headlineHtml = link
         ? `<a class="n-headline" href="${link}" target="_blank" rel="noopener">${headline}</a>`
         : `<span class="n-headline">${headline}</span>`;
@@ -485,10 +520,10 @@ const UI = (() => {
         <div>
           ${headlineHtml}
           <div class="n-meta">
-            <span>${escapeHtml(n.source)}</span><span>${escapeHtml(n.time)}</span>
-            <div class="n-impact">
+            <span>${escapeHtml(n.source)}</span><span>${escapeHtml(publishedText)}</span>
+            <div class="n-impact" title="依新聞標題關鍵字粗略分類，不代表投資建議">
               <div class="n-dot ${impact}"></div>
-              <span style="color:${impact === 'pos' ? 'var(--pos)' : impact === 'neg' ? 'var(--neg)' : 'var(--gold)'}">${impact.toUpperCase()}</span>
+              <span style="color:${impact === 'pos' ? 'var(--pos)' : impact === 'neg' ? 'var(--neg)' : 'var(--gold)'}">粗分 ${impact.toUpperCase()}</span>
             </div>
           </div>
         </div>
@@ -549,7 +584,7 @@ const UI = (() => {
       if (isRefreshing) btn.classList.add('spinning');
       else btn.classList.remove('spinning');
     }
-    if (lbl && isRefreshing && /--:--|^UPDATED|^DATA UNAVAILABLE|^CONNECTING/.test(lbl.textContent)) {
+    if (lbl && isRefreshing && /--:--|^UPDATED|^(DATA|QUOTES) UNAVAILABLE|^CONNECTING/.test(lbl.textContent)) {
       lbl.textContent = 'REFRESHING...';
     }
   }
@@ -559,12 +594,16 @@ const UI = (() => {
     const sysOrb = document.getElementById('sysOrb');
     const sysLabel = document.getElementById('sysLabel');
     const tickerMode = document.getElementById('ticker-mode-label');
+    const nightOrb = document.getElementById('nightOrb');
+    const nightLabel = document.getElementById('nightLabel');
     if (lbl) {
       lbl.textContent = 'CONNECTING MARKET DATA...';
       lbl.title = '正在連線至行情服務';
     }
     if (sysOrb) sysOrb.className = 'status-orb pre';
-    if (sysLabel) sysLabel.textContent = 'DATA CONNECTING';
+    if (sysLabel) sysLabel.textContent = 'QUOTES CONNECTING';
+    if (nightOrb) nightOrb.className = 'status-orb pre';
+    if (nightLabel) nightLabel.textContent = 'NIGHT CHECK';
     if (tickerMode) tickerMode.textContent = '◌ CONNECTING';
   }
 
@@ -584,20 +623,42 @@ const UI = (() => {
     const complete = fresh === total && total > 0;
 
     if (lbl) {
-      const prefix = mode === 'cache' ? 'CACHED' : 'DATA';
-      lbl.textContent = fresh > 0 ? `${prefix} ${regionalText} · ${fresh}/${total}${indicative ? ` · ≈${indicative}` : ''}` : 'DATA UNAVAILABLE';
+      const prefix = mode === 'cache' ? 'CACHED QUOTES' : 'QUOTES';
+      lbl.textContent = fresh > 0 ? `${prefix} ${regionalText} · ${fresh}/${total}${indicative ? ` · ≈${indicative}` : ''}` : 'QUOTES UNAVAILABLE';
       lbl.title = '這是行情來源時間，不是頁面重新整理時間';
     }
     if (sysOrb) sysOrb.className = `status-orb ${complete && mode === 'live' ? 'live' : fresh > 0 ? 'pre' : 'off'}`;
     if (sysLabel) {
       sysLabel.textContent = mode === 'cache' && fresh > 0
-        ? 'DATA CACHED'
-        : complete && !indicative ? 'DATA READY' : complete ? 'DATA QUOTED' : fresh > 0 ? 'DATA PARTIAL' : 'DATA OFFLINE';
+        ? 'QUOTES CACHED'
+        : complete && !indicative ? 'QUOTES READY' : complete ? 'QUOTES LIVE' : fresh > 0 ? 'QUOTES PARTIAL' : 'QUOTES OFFLINE';
     }
     if (tickerMode) {
       tickerMode.textContent = mode === 'cache' && fresh > 0
         ? '◈ CACHED'
         : !fresh ? '⚠ OFFLINE' : fresh < total ? '⚠ PARTIAL' : indicative ? '≈ QUOTE' : '⬡ QUOTES';
+    }
+  }
+
+  function setNightStatus(data) {
+    const orb = document.getElementById('nightOrb');
+    const label = document.getElementById('nightLabel');
+    if (!orb || !label) return;
+    if (!data) {
+      orb.className = 'status-orb off';
+      label.textContent = 'NIGHT OFFLINE';
+    } else if (data.stale) {
+      orb.className = 'status-orb off';
+      label.textContent = 'NIGHT STALE';
+    } else if (data.delayed || data.warning || data.delivery === 'stale-kv') {
+      orb.className = 'status-orb pre';
+      label.textContent = data.delayed ? 'NIGHT DELAYED' : 'NIGHT CACHED';
+    } else if (data.status === 'open') {
+      orb.className = 'status-orb live';
+      label.textContent = 'NIGHT LIVE';
+    } else {
+      orb.className = 'status-orb off';
+      label.textContent = 'NIGHT CLOSED';
     }
   }
 
@@ -642,6 +703,7 @@ const UI = (() => {
     renderNightMarket,
     renderTicker,
     renderWatchlist,
+    setWatchlistActiveSymbol,
     renderFeatured,
     renderIndicators,
     renderNews,

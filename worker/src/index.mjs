@@ -43,16 +43,18 @@ const OTC_CODES = new Set([
   '00953B', '00956B', '00957B', '00958B', '00959B', '00960B', '00961B',
   '00962B', '00963B', '00964B', '00965B',
 ]);
-const ALLOWED_HISTORY_SYMBOLS = new Set([
-  ...INDEXES.map(index => index.symbol),
-  ...QUOTE_SYMBOLS,
-]);
 const ALLOWED_HISTORY_QUERIES = new Set([
   '6mo:1d',
   '3mo:1d',
   '1d:5m',
   '5d:60m',
 ]);
+
+function validMarketSymbol(symbol) {
+  return typeof symbol === 'string'
+    && symbol.length <= 20
+    && /^\^?[A-Z0-9][A-Z0-9.^=-]*$/.test(symbol);
+}
 
 function marketParts(region, timestamp = Date.now()) {
   const session = MARKET_SESSIONS[region] || MARKET_SESSIONS.US;
@@ -186,6 +188,40 @@ function taipeiParts(timestamp = Date.now()) {
   };
 }
 
+function nextTwTradingDay(dayNumber) {
+  for (let day = dayNumber + 86400000; day <= dayNumber + 31 * 86400000; day += 86400000) {
+    if (MarketCalendar.tradingDay('TW', day)) return day;
+  }
+  return null;
+}
+
+function latestNightSessionStart(nowMs = Date.now()) {
+  const parts = taipeiParts(nowMs);
+  let day = parts.dayNumber - (parts.minutes < 15 * 60 ? 86400000 : 0);
+  for (let attempts = 0; attempts < 31; attempts += 1, day -= 86400000) {
+    if (MarketCalendar.tradingDay('TW', day)) return day;
+  }
+  return null;
+}
+
+function dayKey(dayNumber) {
+  return Number.isFinite(dayNumber) ? new Date(dayNumber).toISOString().slice(0, 10) : null;
+}
+
+export function nightTradingDayForTimestamp(timestamp) {
+  const parts = taipeiParts(timestamp);
+  let sessionStart = parts.dayNumber;
+  if (parts.minutes <= 5 * 60) sessionStart -= 86400000;
+  else if (parts.minutes < 15 * 60) return null;
+  if (!MarketCalendar.tradingDay('TW', sessionStart)) return null;
+  return nextTwTradingDay(sessionStart);
+}
+
+export function expectedNightTradingDay(nowMs = Date.now()) {
+  const sessionStart = latestNightSessionStart(nowMs);
+  return Number.isFinite(sessionStart) ? nextTwTradingDay(sessionStart) : null;
+}
+
 export function isNightSessionOpen(nowMs = Date.now()) {
   const parts = taipeiParts(nowMs);
   if (parts.minutes >= 15 * 60) return MarketCalendar.tradingDay('TW', parts.dayNumber);
@@ -243,8 +279,13 @@ export function parseTaifexNightQuotes(payload, nowMs = Date.now()) {
   if (!price || !referencePrice || !asOf) throw new Error('Invalid TX night quote');
 
   const ageMs = Math.max(0, nowMs - asOf);
+  const sessionTradingDayNumber = nightTradingDayForTimestamp(asOf);
+  const expectedTradingDayNumber = expectedNightTradingDay(nowMs);
+  const sessionAligned = Number.isFinite(sessionTradingDayNumber)
+    && sessionTradingDayNumber === expectedTradingDayNumber;
   const stale = asOf > nowMs + 5 * 60 * 1000
-    || ageMs > (open ? NIGHT_OPEN_MAX_AGE_MS : NIGHT_CLOSED_MAX_AGE_MS);
+    || ageMs > (open ? NIGHT_OPEN_MAX_AGE_MS : NIGHT_CLOSED_MAX_AGE_MS)
+    || !sessionAligned;
   const delayed = open && !stale && ageMs > NIGHT_DELAYED_AFTER_MS;
   return {
     schemaVersion: 1,
@@ -268,6 +309,8 @@ export function parseTaifexNightQuotes(payload, nowMs = Date.now()) {
     spotReference,
     basis: spotReference ? price - spotReference : null,
     asOf,
+    sessionTradingDay: dayKey(sessionTradingDayNumber),
+    expectedTradingDay: dayKey(expectedTradingDayNumber),
     source: 'TAIFEX MIS',
     priceType: 'trade',
   };
@@ -316,7 +359,7 @@ export async function fetchYahooQuote(symbol) {
 }
 
 export async function fetchYahooHistory(symbol, range, interval) {
-  if (!ALLOWED_HISTORY_SYMBOLS.has(symbol)
+  if (!validMarketSymbol(symbol)
     || !ALLOWED_HISTORY_QUERIES.has(`${range}:${interval}`)) {
     throw new Error('Unsupported history query');
   }
@@ -546,7 +589,7 @@ async function handleHistoryRequest(request, env, url) {
   const symbol = String(url.searchParams.get('symbol') || '').toUpperCase();
   const range = String(url.searchParams.get('range') || '');
   const interval = String(url.searchParams.get('interval') || '');
-  if (!ALLOWED_HISTORY_SYMBOLS.has(symbol)
+  if (!validMarketSymbol(symbol)
     || !ALLOWED_HISTORY_QUERIES.has(`${range}:${interval}`)) {
     return jsonResponse({ error: 'Unsupported history query' }, 400, request);
   }
@@ -576,13 +619,33 @@ async function handleHistoryRequest(request, env, url) {
   }
 }
 
+async function handleQuoteRequest(request, url) {
+  const symbol = String(url.searchParams.get('symbol') || '').toUpperCase();
+  if (!validMarketSymbol(symbol) || symbol.startsWith('^')) {
+    return jsonResponse({ error: 'Unsupported quote symbol' }, 400, request);
+  }
+  try {
+    let quote = null;
+    if (/\.TW$/i.test(symbol)) {
+      const mis = await fetchMisBatch([symbol]).catch(() => ({ quotes: [] }));
+      quote = mis.quotes.find(item => item.symbol === symbol) || null;
+    }
+    quote ||= await fetchYahooQuote(symbol);
+    if (!quote) throw new Error('No fresh quote');
+    return jsonResponse({ schemaVersion: 1, generatedAt: new Date().toISOString(), quote }, 200, request);
+  } catch (error) {
+    console.error('Quote fetch failed', error);
+    return jsonResponse({ error: 'Quote data unavailable' }, 503, request);
+  }
+}
+
 async function handleNightMarketRequest(request, env) {
   const cached = env?.MARKET_CACHE
     ? await env.MARKET_CACHE.get(NIGHT_MARKET_KEY, { type: 'json' }).catch(() => null)
     : null;
   try {
     const fresh = await fetchTaifexNightMarket();
-    if (fresh.status === 'open' && fresh.stale) throw new Error('TAIFEX night quote is stale');
+    if (fresh.stale) throw new Error('TAIFEX night quote is stale or belongs to an earlier session');
     if (!fresh.stale && env?.MARKET_CACHE) {
       await env.MARKET_CACHE.put(NIGHT_MARKET_KEY, JSON.stringify(fresh), { expirationTtl: 604800 });
     }
@@ -593,14 +656,20 @@ async function handleNightMarketRequest(request, env) {
       const open = isNightSessionOpen();
       const asOf = Number(cached.asOf);
       const ageMs = Number.isFinite(asOf) ? Math.max(0, Date.now() - asOf) : Infinity;
+      const sessionTradingDayNumber = Number.isFinite(asOf) ? nightTradingDayForTimestamp(asOf) : null;
+      const expectedTradingDayNumber = expectedNightTradingDay();
       const stale = asOf > Date.now() + 5 * 60 * 1000
-        || ageMs > (open ? NIGHT_OPEN_MAX_AGE_MS : NIGHT_CLOSED_MAX_AGE_MS);
+        || ageMs > (open ? NIGHT_OPEN_MAX_AGE_MS : NIGHT_CLOSED_MAX_AGE_MS)
+        || !Number.isFinite(sessionTradingDayNumber)
+        || sessionTradingDayNumber !== expectedTradingDayNumber;
       const delayed = open && !stale && ageMs > NIGHT_DELAYED_AFTER_MS;
       return jsonResponse({
         ...cached,
         status: open ? 'open' : 'closed',
         stale,
         delayed,
+        sessionTradingDay: dayKey(sessionTradingDayNumber),
+        expectedTradingDay: dayKey(expectedTradingDayNumber),
         delivery: stale ? 'stale-kv' : 'kv',
         warning: 'Live refresh failed',
       }, 200, request);
@@ -616,6 +685,9 @@ export async function handleRequest(request, env) {
   const url = new URL(request.url);
   if (url.pathname === '/api/night-market') {
     return handleNightMarketRequest(request, env);
+  }
+  if (url.pathname === '/api/quote') {
+    return handleQuoteRequest(request, url);
   }
   if (url.pathname === '/api/index-series') {
     const index = INDEXES.find(x => x.region === 'TW' && x.symbol === url.searchParams.get('symbol'));
