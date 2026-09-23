@@ -522,7 +522,12 @@ function acceptableSnapshot(snapshot) {
 function newestFreshRecord(current, cached, region, nowMs) {
   const candidates = [current, cached]
     .filter(record => validRecord(record, region || record?.region, nowMs));
-  return candidates.reduce((newest, record) => {
+  // MIS is the official source for Taiwan records. Yahoo can timestamp the
+  // same closing level a few seconds later while carrying a wrong prevClose.
+  const official = region === 'TW'
+    ? candidates.filter(record => record.source === 'TWSE MIS')
+    : [];
+  return (official.length ? official : candidates).reduce((newest, record) => {
     if (!newest) return record;
     const newestTime = typeof newest.asOf === 'string' ? Date.parse(newest.asOf) : Number(newest.asOf);
     const recordTime = typeof record.asOf === 'string' ? Date.parse(record.asOf) : Number(record.asOf);

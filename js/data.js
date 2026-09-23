@@ -128,9 +128,15 @@ const DataService = (() => {
     const previous = latestRecords.get(key);
     const nextTime = typeof record.asOf === 'string' ? Date.parse(record.asOf) : Number(record.asOf);
     const previousTime = typeof previous?.asOf === 'string' ? Date.parse(previous.asOf) : Number(previous?.asOf);
-    if (previous && Number.isFinite(previousTime) && Number.isFinite(nextTime)
-      && previousTime > nextTime && isFreshRecord(previous, previous.region)) {
-      return previous;
+    if (previous && isFreshRecord(previous, previous.region)) {
+      const previousOfficial = previous.region === 'TW' && previous.source === 'TWSE MIS';
+      const nextOfficial = record.region === 'TW' && record.source === 'TWSE MIS';
+      if (previousOfficial !== nextOfficial) {
+        if (previousOfficial) return previous;
+      } else if (Number.isFinite(previousTime) && Number.isFinite(nextTime)
+        && previousTime > nextTime) {
+        return previous;
+      }
     }
     latestRecords.set(key, record);
     return record;

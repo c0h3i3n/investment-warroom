@@ -125,6 +125,26 @@ test('a refresh keeps a missing cached symbol only while its source time is fres
   assert.equal(merged.quotes.some(item => item.symbol === '00878.TW'), false);
 });
 
+test('official Taiwan index change wins over a later Yahoo timestamp', () => {
+  const now = Date.parse('2026-09-23T13:45:00Z');
+  const official = {
+    id: 'tai', symbol: '^TWII', region: 'TW', source: 'TWSE MIS',
+    price: 48157.29, prevClose: 47800.17, change: 357.12,
+    changePct: 357.12 / 47800.17 * 100,
+    asOf: Date.parse('2026-09-23T05:33:00Z'),
+  };
+  const yahoo = {
+    ...official, source: 'Yahoo Finance', prevClose: 47718.8,
+    change: 438.49, changePct: 438.49 / 47718.8 * 100,
+    asOf: official.asOf + 15000,
+  };
+  const merged = mergeSnapshotWithCache({ indexes: [official], quotes: [] }, {
+    indexes: [yahoo], quotes: [],
+  }, now);
+  assert.equal(merged.indexes[0].source, 'TWSE MIS');
+  assert.equal(merged.indexes[0].prevClose, 47800.17);
+});
+
 test('history API serves a cached 0050 series without an upstream request', async () => {
   const history = {
     schemaVersion: 1,
