@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════
-// J.A.R.V.I.S · MAIN APPLICATION v3.7
+// J.A.R.V.I.S · MAIN APPLICATION v3.8
 // Orchestrates all modules
 // ═══════════════════════════════════════
 
@@ -14,7 +14,6 @@ const App = (() => {
   let refreshInFlight = false;
   let refreshGeneration = 0;
   let pendingForceRefresh = false;
-  let portfolioGeneration = 0;
   let newsGeneration = 0;
   let indicatorInFlight = null;
   let indicatorAutoAttempted = false;
@@ -108,13 +107,11 @@ const App = (() => {
       if (forceRefresh) {
         pendingForceRefresh = true;
         refreshGeneration += 1;
-        portfolioGeneration += 1;
         newsGeneration += 1;
       }
       return false;
     }
     if (forceRefresh) {
-      portfolioGeneration += 1;
       newsGeneration += 1;
     }
     refreshInFlight = true;
@@ -124,10 +121,8 @@ const App = (() => {
     usingFallback = false;
     const watchlist = loadWatchlist();
     const wSymbols = watchlist.map(w => w.symbol);
-    const holdingSymbols = PortfolioService.getHoldings().map(h => h.symbol);
-    const allQuoteSymbols = [...new Set([...wSymbols, ...holdingSymbols])];
+    const allQuoteSymbols = [...new Set(wSymbols)];
     const expectedQuotes = CONFIG.INDEXES.length + wSymbols.length;
-    let quotesForPortfolio = [];
     let indexFreshness = indexData.filter(x => DataService.isFreshRecord(x, x.region));
     let quoteFreshness = watchlistQuotes.filter(x => DataService.isFreshRecord(x));
     const currentFreshness = () => [...indexFreshness, ...quoteFreshness];
@@ -202,7 +197,6 @@ const App = (() => {
           let quotes = (backend?.quotes || []).filter(item => allQuoteSymbols.includes(item.symbol));
           const renderQuotes = currentQuotes => {
             if (generation !== refreshGeneration) return;
-            quotesForPortfolio = currentQuotes;
             quoteFreshness = currentQuotes.filter(q => wSymbols.includes(q.symbol) && DataService.isFreshRecord(q));
             const watchData = watchlist.map(w => {
               const q = currentQuotes.find(item => item.symbol === w.symbol);
@@ -280,12 +274,8 @@ const App = (() => {
         if (generation !== refreshGeneration) return false;
         UI.renderNightMarket(nightMarketData, indexData);
 
-        // 3. Portfolio stats
-        await updatePortfolio(quotesForPortfolio, generation);
-        if (generation !== refreshGeneration) return false;
-
         // Technical indicators refresh in the background every 15 minutes.
-        // They never delay quotes, portfolio totals, or the data-status badge.
+        // They never delay quotes or the data-status badge.
         if (!indicatorAutoAttempted || Date.now() - indicatorLastAttempt >= 15 * 60 * 1000) {
           indicatorAutoAttempted = true;
           queueMicrotask(() => updateIndicators(DEFAULT_INDICATOR_SYMBOL, { automatic: true }));
@@ -365,7 +355,6 @@ const App = (() => {
         UI.renderWatchlist(watchData);
         UI.renderFeatured();
         UI.renderTicker(watchData);
-        await updatePortfolio(quotes, expectedGeneration);
       }
       if (expectedGeneration !== refreshGeneration || refreshInFlight) return false;
       UI.renderNews(news || []);
@@ -391,45 +380,7 @@ const App = (() => {
   }
 
   // ═══════════════════════════════════════
-  // PORTFOLIO
   // ═══════════════════════════════════════
-  async function updatePortfolio(preloadedQuotes = null, expectedRefreshGeneration = refreshGeneration) {
-    const requestGeneration = ++portfolioGeneration;
-    const holdings = PortfolioService.getHoldings();
-    if (!holdings.length) {
-      // Show empty portfolio state
-      if (requestGeneration === portfolioGeneration && expectedRefreshGeneration === refreshGeneration) {
-        UI.renderPortfolio({ holdings: [], totalValue: 0, totalCost: 0, totalPnl: 0, returnPct: 0 });
-      }
-      return false;
-    }
-
-    try {
-      // Build quotes map from existing watchlist data and any additional symbols
-      const allSymbols = [...new Set([
-        ...holdings.map(h => h.symbol),
-        ...watchlistQuotes.map(q => q.symbol),
-      ])];
-
-      const quotes = Array.isArray(preloadedQuotes)
-        ? preloadedQuotes
-        : await DataService.fetchAllQuotes(allSymbols);
-      if (requestGeneration !== portfolioGeneration || expectedRefreshGeneration !== refreshGeneration) return false;
-      const quotesMap = {};
-      if (quotes) quotes.forEach(q => { quotesMap[q.symbol] = q; });
-
-      const stats = PortfolioService.calculateStats(holdings, quotesMap);
-      UI.renderPortfolio(stats);
-      return true;
-    } catch (e) {
-      console.warn('Portfolio update failed:', e);
-      if (requestGeneration !== portfolioGeneration || expectedRefreshGeneration !== refreshGeneration) return false;
-      const stats = PortfolioService.calculateStats(holdings, {});
-      UI.renderPortfolio(stats);
-      return false;
-    }
-  }
-
   // ═══════════════════════════════════════
   // INDICATORS
   // ═══════════════════════════════════════
@@ -512,53 +463,7 @@ const App = (() => {
   }
 
   // ═══════════════════════════════════════
-  // PORTFOLIO CRUD (exposed for onclick)
   // ═══════════════════════════════════════
-  function deleteHolding(symbol) {
-    if (!window.confirm(`確定要從投資組合移除 ${symbol}？`)) return;
-    const result = PortfolioService.deleteHolding(symbol);
-    if (result.ok) {
-      UI.showToast(result.msg, 'success');
-      updatePortfolio(watchlistQuotes);
-    } else {
-      UI.showToast(result.msg, 'error');
-    }
-  }
-
-  function showAddModal() {
-    UI.showAddHoldingModal();
-  }
-
-  function showEditModal(symbol) {
-    UI.showEditHoldingModal(PortfolioService.getHoldings().find(item => item.symbol === symbol));
-  }
-
-  function exportPortfolio() {
-    const blob = new Blob([JSON.stringify(PortfolioService.exportBackup(), null, 2)], {type:'application/json'});
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `investment-warroom-portfolio-${new Date().toISOString().slice(0,10)}.json`;
-    link.click();
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
-    UI.showToast('持股備份已匯出', 'success');
-  }
-
-  async function importPortfolio(event) {
-    const input = event.target;
-    const file = input.files?.[0];
-    input.value = '';
-    if (!file) return;
-    if (file.size > 1024 * 1024) return UI.showToast('備份檔過大', 'error');
-    try {
-      const result = PortfolioService.importBackup(JSON.parse(await file.text()));
-      UI.showToast(result.msg, result.ok ? 'success' : 'error');
-      if (result.ok) updatePortfolio(watchlistQuotes);
-    } catch {
-      UI.showToast('無法讀取備份檔', 'error');
-    }
-  }
-
   // ═══════════════════════════════════════
   // PRICE FLICKER EFFECT
   // ═══════════════════════════════════════
@@ -601,7 +506,6 @@ const App = (() => {
     UI.renderWatchlist(watchData);
     UI.renderFeatured();
     UI.renderTicker(watchData);
-    updatePortfolio([], refreshGeneration);
     UI.renderNews([]);
     // Only the initial shell is pending; real responses retain unavailable labels.
     const pendingLabels = new Map([
@@ -640,7 +544,7 @@ const App = (() => {
 
 
 
-    console.log('J.A.R.V.I.S WARROOM v3.7 · SYSTEM ONLINE');
+    console.log('J.A.R.V.I.S WARROOM v3.8 · SYSTEM ONLINE');
   }
 
   // ═══════════════════════════════════════
@@ -649,12 +553,6 @@ const App = (() => {
   return {
     init,
     refresh: () => fetchAllData(true),
-    deleteHolding,
-    showAddModal,
-    showEditModal,
-    exportPortfolio,
-    importPortfolio,
-    refreshPortfolio: () => updatePortfolio(watchlistQuotes),
     updateIndicators,
   };
 })();

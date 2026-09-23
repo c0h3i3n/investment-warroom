@@ -41,16 +41,6 @@ const UI = (() => {
       && minutes >= open && minutes < MarketCalendar.closeMinutes(region,day);
   }
 
-  function portfolioMoney(value, currency, signed = false) {
-    const amount = Math.abs(Number(value));
-    const prefix = currency === 'USD' ? '$' : 'NT$';
-    const formatted = currency === 'USD'
-      ? amount.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
-      : Math.round(amount).toLocaleString();
-    const sign = signed ? (Number(value) >= 0 ? '+' : '-') : (Number(value) < 0 ? '-' : '');
-    return `${sign}${prefix}${formatted}`;
-  }
-
   // ── Price Flash Animation ──
   const _prevPrices = {};
 
@@ -243,86 +233,7 @@ const UI = (() => {
   }
 
   // ═══════════════════════════════════════
-  // PORTFOLIO TABLE
   // ═══════════════════════════════════════
-  function renderPortfolio(stats) {
-    const tbody = document.getElementById('port-tbody');
-    const totalVal = document.getElementById('port-total-val');
-    const totalPnl = document.getElementById('port-total-pnl');
-    const returnRate = document.getElementById('port-return-rate');
-
-    const configured = stats.holdings.some(h => Number(h.shares) > 0);
-    const complete = configured && !stats.unavailableCount;
-    const approximation = stats.hasIndicative ? '≈' : '';
-    const groups = Object.values(stats.byCurrency || {});
-    const groupLines = (key, formatter) => groups.map(group =>
-      `<span>${group.currency} ${group.unavailableCount ? '--' : formatter(group[key],group)}</span>`).join('');
-    const groupMoney = (value, group, signed = false) => (group.hasIndicative ? '≈' : '')
-      + portfolioMoney(value,group.currency,signed).replace(/^([+-]?)(NT\$|\$)/,'$1');
-    if (totalVal) {
-      totalVal.className = 'ps-value arc' + (stats.mixedCurrency ? ' multi' : '');
-      totalVal.innerHTML = stats.mixedCurrency ? groupLines('totalValue', groupMoney)
-        : complete ? escapeHtml(approximation + portfolioMoney(stats.totalValue, stats.currency)) : '--';
-    }
-    if (totalPnl) {
-      totalPnl.className = 'ps-value ' + (stats.mixedCurrency ? 'multi' : chgClass(stats.totalPnl));
-      totalPnl.innerHTML = stats.mixedCurrency ? groupLines('totalPnl', (value,group) => groupMoney(value,group,true))
-        : complete ? escapeHtml(approximation + portfolioMoney(stats.totalPnl, stats.currency, true)) : '--';
-    }
-    if (returnRate) {
-      returnRate.className = 'ps-value ' + (stats.mixedCurrency ? 'multi' : chgClass(stats.returnPct));
-      returnRate.innerHTML = stats.mixedCurrency ? groupLines('returnPct', value => pctStr(value))
-        : complete ? escapeHtml(approximation + pctStr(stats.returnPct)) : '--';
-    }
-
-    if (!tbody) return;
-
-    let notice = document.getElementById('portfolio-notice');
-    if (!notice) {
-      notice = document.createElement('p');
-      notice.id = 'portfolio-notice';
-      notice.className = 'portfolio-notice';
-      tbody.closest('table').before(notice);
-    }
-    notice.hidden = configured;
-    notice.textContent = '尚未設定持股數量；下列為預設追蹤清單，資產與報酬尚未計算。';
-
-    tbody.innerHTML = stats.holdings.map(h => {
-      const hasPrice = !h.unavailable && isFiniteValue(h.price);
-      const cls = chgClass(h.pnlPct);
-      const barW = hasPrice ? Math.min(100, Math.abs(h.pnlPct || 0) * 2.5) : 0;
-      const arrow = chgArrow(h.pnlPct);
-      return `
-      <tr>
-        <td><span class="pt-ticker">${escapeHtml(h.symbol.replace('.TW', ''))}</span></td>
-        <td>${escapeHtml(h.name)}</td>
-        <td>${fmtCurrency(h.cost, h.region)}</td>
-        <td style="color:${hasPrice ? (cls === 'up' ? 'var(--pos)' : 'var(--neg)') : 'var(--warn)'}">${hasPrice ? (h.priceType === 'indicative' ? '≈' : '') + fmtCurrency(h.price, h.region) : '⚠ --'}<span class="quote-meta">${escapeHtml(quoteMeta(h))}</span></td>
-        <td>
-          <div class="pnl-wrap" ${Number(h.shares) > 0 ? '' : 'hidden'}>
-            <div class="pnl-bar"><div class="pnl-fill ${cls}" style="width:${barW}%"></div></div>
-            <span style="color:${hasPrice ? (cls === 'up' ? 'var(--pos)' : 'var(--neg)') : 'var(--warn)'};font-family:'Orbitron',sans-serif;font-size:10px">${hasPrice ? arrow + ' ' + Math.abs(h.pnlPct || 0).toFixed(2) + '%' : 'UNAVAILABLE'}</span>
-          </div>
-          ${Number(h.shares) > 0 ? '' : '<span class="holding-unset">未設定</span>'}
-        </td>
-        <td class="delete-col">
-          <button class="btn small" onclick="App.showEditModal('${h.symbol}')" title="編輯持股">編輯</button>
-          <button class="btn danger small" onclick="App.deleteHolding('${h.symbol}')" title="移除">✕</button>
-        </td>
-      </tr>`;
-    }).join('');
-
-    // Add "add row" at bottom
-    if (stats.holdings.length < 10) {
-      tbody.innerHTML += `
-      <tr>
-        <td colspan="6" style="text-align:center;padding:8px">
-          <button class="btn primary small" onclick="App.showAddModal()">+ 新增持股</button>
-        </td>
-      </tr>`;
-    }
-  }
-
   // ═══════════════════════════════════════
   // SPARKLINE HELPER — normalize real data to SVG points
   // ═══════════════════════════════════════
@@ -377,16 +288,14 @@ const UI = (() => {
     const query = (document.getElementById('watch-search')?.value || '').trim().toLowerCase();
     const region = document.getElementById('watch-region')?.value || 'ALL';
     const sort = document.getElementById('watch-sort')?.value || 'default';
-    const heldSymbols = new Set(PortfolioService.getHoldings()
-      .filter(item => Number(item.shares) > 0).map(item => item.symbol));
     watchData = watchData.filter(item => (!query || `${item.symbol} ${item.name}`.toLowerCase().includes(query))
-      && (region === 'ALL' || (region === 'HOLDINGS' ? heldSymbols.has(item.symbol) : item.region === region)));
+      && (region === 'ALL' || item.region === region));
     if (sort === 'gainers') watchData.sort((a,b) => (b.changePct ?? -Infinity) - (a.changePct ?? -Infinity));
     if (sort === 'losers') watchData.sort((a,b) => (a.changePct ?? Infinity) - (b.changePct ?? Infinity));
     if (sort === 'symbol') watchData.sort((a,b) => a.symbol.localeCompare(b.symbol));
 
     if (!watchData.length) {
-      container.innerHTML = '<div class="portfolio-notice">沒有符合條件的自選股。</div>';
+      container.innerHTML = '<div class="empty-state">沒有符合條件的自選股。</div>';
       return;
     }
 
@@ -591,126 +500,7 @@ const UI = (() => {
 
 
   // ═══════════════════════════════════════
-  // MODAL
   // ═══════════════════════════════════════
-  function showModal(title, content, onSave) {
-    // Remove existing modal
-    closeModal();
-
-    const overlay = document.createElement('div');
-    overlay.className = 'modal-overlay';
-    overlay.id = 'modal-overlay';
-    overlay.innerHTML = `
-      <div class="modal">
-        <h3>${title}</h3>
-        ${content}
-        <div class="modal-actions">
-          <button class="btn" onclick="UI.closeModal()">取消</button>
-          <button class="btn primary" id="modal-save-btn">確認</button>
-        </div>
-      </div>
-    `;
-    document.body.appendChild(overlay);
-
-    // Bind save
-    overlay.querySelector('#modal-save-btn').addEventListener('click', () => {
-      if (onSave) onSave(overlay);
-    });
-
-    // Close on overlay click
-    overlay.addEventListener('click', (e) => {
-      if (e.target === overlay) closeModal();
-    });
-
-    // Close on Escape
-    const escHandler = (e) => { if (e.key === 'Escape') { closeModal(); document.removeEventListener('keydown', escHandler); } };
-    document.addEventListener('keydown', escHandler);
-
-    // Focus first input
-    setTimeout(() => {
-      const firstInput = overlay.querySelector('input');
-      if (firstInput) firstInput.focus();
-    }, 100);
-  }
-
-  function closeModal() {
-    const overlay = document.getElementById('modal-overlay');
-    if (overlay) overlay.remove();
-  }
-
-  // ── Add holding modal ──
-  function showAddHoldingModal() {
-    const content = `
-      <div class="form-group">
-        <label>股票代號 (美股如 NVDA，台股如 2330.TW)</label>
-        <input id="mf-symbol" type="text" placeholder="例: 2330.TW 或 NVDA">
-      </div>
-      <div class="form-group">
-        <label>股票名稱</label>
-        <input id="mf-name" type="text" placeholder="例: 台積電">
-      </div>
-      <div class="form-row">
-        <div class="form-group">
-          <label>股數 (Shares)</label>
-          <input id="mf-shares" type="number" placeholder="100" min="1" step="1">
-        </div>
-        <div class="form-group">
-          <label>成本價 (Cost)</label>
-          <input id="mf-cost" type="number" placeholder="840" min="0.01" step="0.01">
-        </div>
-      </div>
-    `;
-
-    showModal('ADD HOLDING · 新增持股', content, async (overlay) => {
-      const symbol = overlay.querySelector('#mf-symbol').value.trim().toUpperCase();
-      const name = overlay.querySelector('#mf-name').value.trim();
-      const shares = overlay.querySelector('#mf-shares').value;
-      const cost = overlay.querySelector('#mf-cost').value;
-
-      if (!symbol || !name || !shares || !cost) {
-        showToast('請填寫所有欄位', 'error');
-        return;
-      }
-
-      // Determine region
-      const region = symbol.endsWith('.TW') ? 'TW' : 'US';
-      const result = PortfolioService.addHolding({ symbol, name, shares, cost, region });
-      if (result.ok) {
-        showToast(result.msg, 'success');
-        closeModal();
-        // Trigger refresh
-        if (window.App && App.refresh) App.refresh();
-      } else {
-        showToast(result.msg, 'error');
-      }
-    });
-  }
-
-  function showEditHoldingModal(holding) {
-    if (!holding) return;
-    const content = `
-      <div class="form-group"><label>股票代號</label><input value="${escapeHtml(holding.symbol)}" disabled></div>
-      <div class="form-group"><label>股票名稱</label><input id="mf-name" type="text" value="${escapeHtml(holding.name)}" maxlength="80"></div>
-      <div class="form-row">
-        <div class="form-group"><label>股數 (Shares)</label><input id="mf-shares" type="number" value="${Number(holding.shares)}" min="0" step="1"></div>
-        <div class="form-group"><label>平均成本價 (Cost)</label><input id="mf-cost" type="number" value="${Number(holding.cost)}" min="0" step="0.01"></div>
-      </div>
-      <p class="form-hint">股數設為 0 可保留在追蹤清單，但不計入資產與報酬。</p>`;
-    showModal(`EDIT HOLDING · 編輯 ${escapeHtml(holding.symbol)}`, content, overlay => {
-      const name = overlay.querySelector('#mf-name').value.trim();
-      const shares = overlay.querySelector('#mf-shares').value;
-      const cost = overlay.querySelector('#mf-cost').value;
-      if (!name || shares === '' || cost === '' || Number(shares) < 0 || Number(cost) < 0
-        || (Number(shares) > 0 && Number(cost) <= 0)) {
-        showToast('請輸入有效的股數與成本；持股時成本必須大於 0', 'error');
-        return;
-      }
-      const result = PortfolioService.editHolding(holding.symbol, {name,shares,cost});
-      showToast(result.msg, result.ok ? 'success' : 'error');
-      if (result.ok) { closeModal(); window.App?.refreshPortfolio(); }
-    });
-  }
-
   // ═══════════════════════════════════════
   // TOAST
   // ═══════════════════════════════════════
@@ -851,18 +641,12 @@ const UI = (() => {
     renderIndexSparklines,
     renderNightMarket,
     renderTicker,
-    renderPortfolio,
     renderWatchlist,
     renderFeatured,
     renderIndicators,
     renderNews,
     renderSVGChart,
 
-    // Modal
-    showModal,
-    closeModal,
-    showAddHoldingModal,
-    showEditHoldingModal,
     showIndicatorLoading,
     showIndicatorPrompt,
 
