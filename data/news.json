@@ -1,42 +1,42 @@
 {
-  "timestamp": "2026-09-23T16:47:21.427640+00:00",
-  "generatedAt": "2026-09-23T16:47:21.427640+00:00",
+  "timestamp": "2026-09-23T20:12:52.223711+00:00",
+  "generatedAt": "2026-09-23T20:12:52.223711+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - Crowdstrike控股(CRWD-US)大漲5.02%，報262.63美元",
+      "headline": "Disney+傳再漲價！無廣告方案月費大漲13%",
       "source": "鉅亨",
-      "time": "00:18",
-      "publishedAt": 1790180282000,
+      "time": "02:30",
+      "publishedAt": 1790188203000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6614532"
+      "link": "https://news.cnyes.com/news/id/6614557"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 哈希圖大跌8.51%，報0.09美元",
+      "headline": "川普急著救選情！白宮傳擬禁柴油出口90天 燃油價格恐不降反升",
       "source": "鉅亨",
-      "time": "00:05",
-      "publishedAt": 1790179519000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6614529"
+      "time": "02:00",
+      "publishedAt": 1790186404000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6614551"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - LayerZero大漲15.81%，報1.46美元",
+      "headline": "市場押Fed再升4次！美國5年期公債殖利率突破5% 近20年來首見",
       "source": "鉅亨",
-      "time": "00:05",
-      "publishedAt": 1790179519000,
+      "time": "01:30",
+      "publishedAt": 1790184606000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6614528"
+      "link": "https://news.cnyes.com/news/id/6614556"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Worldcoin大跌8.39%，報0.42美元",
+      "headline": "川習會還沒登場就先失去優勢？川普疏遠盟友讓中國得利",
       "source": "鉅亨",
-      "time": "00:05",
-      "publishedAt": 1790179518000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6614527"
+      "time": "01:00",
+      "publishedAt": 1790182807000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6614510"
     },
     {
       "region": "TW",
