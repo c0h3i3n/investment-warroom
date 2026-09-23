@@ -88,3 +88,21 @@ test('night-market API stores a fresh official quote', async t => {
   assert.equal(data.contract, '202610');
   assert.equal(stored.price, 48330);
 });
+
+test('fresh night quote remains live when KV write quota is exhausted', async t => {
+  const originalFetch = globalThis.fetch;
+  const originalNow = Date.now;
+  Date.now = () => Date.parse('2026-09-21T13:49:00Z');
+  globalThis.fetch = async () => new Response(JSON.stringify(payload()), { status:200 });
+  t.after(() => { globalThis.fetch = originalFetch; Date.now = originalNow; });
+  const env = { MARKET_CACHE:{
+    get:async () => null,
+    put:async () => { throw new Error('KV put() limit exceeded for the day.'); },
+  } };
+  const response = await handleRequest(new Request('https://worker.example/api/night-market'), env);
+  const data = await response.json();
+  assert.equal(response.status, 200);
+  assert.equal(data.delivery, 'live');
+  assert.equal(data.stale, false);
+  assert.equal(data.price, 48330);
+});

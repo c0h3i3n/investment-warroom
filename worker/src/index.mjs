@@ -3,14 +3,17 @@ import '../../js/history-validation.js';
 const SNAPSHOT_KEY = 'market:snapshot:v1';
 const NIGHT_MARKET_KEY = 'market:night:v1';
 const SNAPSHOT_MAX_AGE_MS = 7 * 60 * 1000;
-const HISTORY_MAX_AGE_MS = 15 * 60 * 1000;
 const HISTORY_FALLBACK_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 const CLOSED_MARKET_MAX_AGE_MS = 4 * 24 * 60 * 60 * 1000;
 const REQUEST_TIMEOUT_MS = 8000;
 const NIGHT_DELAYED_AFTER_MS = 3 * 60 * 1000;
 const NIGHT_OPEN_MAX_AGE_MS = 5 * 60 * 1000;
 const NIGHT_CLOSED_MAX_AGE_MS = 4 * 24 * 60 * 60 * 1000;
-const TAIFEX_NIGHT_URL = 'https://mis.taifex.com.tw/futures/api/getQuoteList';
+const NIGHT_CACHE_WRITE_INTERVAL_MS = 5 * 60 * 1000;
+const TAIFEX_NIGHT_URLS = [
+  'https://mis.bq888.taifex.com.tw/futures/api/getQuoteList',
+  'https://mis.taifex.com.tw/futures/api/getQuoteList',
+];
 
 export const INDEXES = [
   { id: 'tai', symbol: '^TWII', misKey: 'tse_t00.tw', name: '加權指數 TAIEX', region: 'TW', currency: 'NT$', unit: 'PTS' },
@@ -54,6 +57,12 @@ function validMarketSymbol(symbol) {
   return typeof symbol === 'string'
     && symbol.length <= 20
     && /^\^?[A-Z0-9][A-Z0-9.^=-]*$/.test(symbol);
+}
+
+function historyCacheMaxAge(symbol, range, interval, nowMs = Date.now()) {
+  if (range === '1d' && interval === '5m') return 5 * 60 * 1000;
+  if (range === '5d' && interval === '60m') return 15 * 60 * 1000;
+  return marketOpen(yahooRegion(symbol), nowMs) ? 60 * 60 * 1000 : 6 * 60 * 60 * 1000;
 }
 
 function marketParts(region, timestamp = Date.now()) {
@@ -317,11 +326,19 @@ export function parseTaifexNightQuotes(payload, nowMs = Date.now()) {
 }
 
 export async function fetchTaifexNightMarket(nowMs = Date.now()) {
-  const payload = await postJson(TAIFEX_NIGHT_URL, {
-    MarketType: '1', SymbolType: 'F', KindID: '1', CID: '', ExpireMonth: '',
-  });
-  if (payload?.RtCode !== '0') throw new Error(payload?.RtMsg || 'TAIFEX MIS rejected request');
-  return { ...parseTaifexNightQuotes(payload, nowMs), generatedAt: new Date(nowMs).toISOString() };
+  let lastError = null;
+  for (const url of TAIFEX_NIGHT_URLS) {
+    try {
+      const payload = await postJson(url, {
+        MarketType: '1', SymbolType: 'F', KindID: '1', CID: '', ExpireMonth: '',
+      });
+      if (payload?.RtCode !== '0') throw new Error(payload?.RtMsg || 'TAIFEX MIS rejected request');
+      return { ...parseTaifexNightQuotes(payload, nowMs), generatedAt: new Date(nowMs).toISOString() };
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  throw lastError || new Error('TAIFEX MIS unavailable');
 }
 
 function yahooRegion(symbol) {
@@ -551,6 +568,17 @@ async function readCached(env) {
   return env.MARKET_CACHE.get(SNAPSHOT_KEY, { type: 'json' });
 }
 
+async function safeCachePut(env, key, value, options) {
+  if (!env?.MARKET_CACHE) return false;
+  try {
+    await env.MARKET_CACHE.put(key, value, options);
+    return true;
+  } catch (error) {
+    console.warn(`Cache write skipped for ${key}`, error);
+    return false;
+  }
+}
+
 async function refreshAndStore(env) {
   const [snapshot, cached] = await Promise.all([
     buildSnapshot(),
@@ -558,7 +586,7 @@ async function refreshAndStore(env) {
   ]);
   const merged = mergeSnapshotWithCache(snapshot, cached);
   if (acceptableSnapshot(merged) && env?.MARKET_CACHE) {
-    await env.MARKET_CACHE.put(SNAPSHOT_KEY, JSON.stringify(merged));
+    await safeCachePut(env, SNAPSHOT_KEY, JSON.stringify(merged));
   }
   return merged;
 }
@@ -600,14 +628,14 @@ async function handleHistoryRequest(request, env, url) {
     : null;
   const cachedAt = Date.parse(cached?.generatedAt || '');
   const cacheAgeMs = Number.isFinite(cachedAt) ? Math.max(0, Date.now() - cachedAt) : Infinity;
-  if (cached && cacheAgeMs <= HISTORY_MAX_AGE_MS) {
+  if (cached && cacheAgeMs <= historyCacheMaxAge(symbol, range, interval)) {
     return jsonResponse({ ...cached, delivery: 'kv' }, 200, request);
   }
 
   try {
     const fresh = await fetchYahooHistory(symbol, range, interval);
     if (env?.MARKET_CACHE) {
-      await env.MARKET_CACHE.put(key, JSON.stringify(fresh), { expirationTtl: 86400 });
+      await safeCachePut(env, key, JSON.stringify(fresh), { expirationTtl: 86400 });
     }
     return jsonResponse({ ...fresh, delivery: 'live' }, 200, request);
   } catch (error) {
@@ -646,8 +674,10 @@ async function handleNightMarketRequest(request, env) {
   try {
     const fresh = await fetchTaifexNightMarket();
     if (fresh.stale) throw new Error('TAIFEX night quote is stale or belongs to an earlier session');
-    if (!fresh.stale && env?.MARKET_CACHE) {
-      await env.MARKET_CACHE.put(NIGHT_MARKET_KEY, JSON.stringify(fresh), { expirationTtl: 604800 });
+    const cachedAsOf = Number(cached?.asOf);
+    if (!fresh.stale && env?.MARKET_CACHE
+      && (!Number.isFinite(cachedAsOf) || fresh.asOf - cachedAsOf >= NIGHT_CACHE_WRITE_INTERVAL_MS)) {
+      await safeCachePut(env, NIGHT_MARKET_KEY, JSON.stringify(fresh), { expirationTtl: 604800 });
     }
     return jsonResponse({ ...fresh, delivery: 'live' }, 200, request);
   } catch (error) {
@@ -706,7 +736,7 @@ export async function handleRequest(request, env) {
         .filter(r => r.time>0 && Number.isFinite(r.close) && r.close>0).sort((a,b)=>a.time-b.time);
       const result = {data,source:ex === 'otc' ? 'TPEx MIS' : 'TWSE MIS',generatedAt:new Date().toISOString()};
       if (!usable(result)) throw new Error('Invalid index series');
-      await env.MARKET_CACHE.put(key,JSON.stringify(result),{expirationTtl:604800});
+      await safeCachePut(env,key,JSON.stringify(result),{expirationTtl:604800});
       return jsonResponse(result,200,request);
     } catch {
       return usable(cached) ? jsonResponse(cached,200,request)

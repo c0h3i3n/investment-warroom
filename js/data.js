@@ -278,9 +278,9 @@ const DataService = (() => {
   // ═══════════════════════════════════════
   // CACHE HELPERS
   // ═══════════════════════════════════════
-  function getCached(key) {
+  function getCached(key, ttl = CACHE_TTL) {
     const entry = cache.get(key);
-    if (entry && (Date.now() - entry.ts) < CACHE_TTL) return entry.data;
+    if (entry && (Date.now() - entry.ts) < ttl) return entry.data;
     cache.delete(key);
     return null;
   }
@@ -518,7 +518,11 @@ const DataService = (() => {
   // ═══════════════════════════════════════
   async function fetchHistorical(symbol, range = '3mo', interval = '1d') {
     const key = `hist:${symbol}:${range}:${interval}`;
-    const cached = getCached(key);
+    const historyTtl = range === '1d' && interval === '5m' ? 60 * 1000
+      : range === '5d' && interval === '60m' ? 5 * 60 * 1000
+      : range === '3mo' && interval === '1d' ? 30 * 60 * 1000
+      : 15 * 60 * 1000;
+    const cached = getCached(key, historyTtl);
     if (cached) return cached;
     const requestEpoch = cacheEpoch;
 
