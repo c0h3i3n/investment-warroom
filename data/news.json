@@ -1,60 +1,42 @@
 {
-  "timestamp": "2026-09-23T05:51:28.017133+00:00",
-  "generatedAt": "2026-09-23T05:51:28.017133+00:00",
+  "timestamp": "2026-09-23T11:24:21.685071+00:00",
+  "generatedAt": "2026-09-23T11:24:21.685071+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "Meta Muse爆紅顛覆消費習慣？AI代理人幫管錢與訂房 華爾街急拋金融旅遊股",
+      "headline": "研華北美營收爆發全年估破10億美元 半導體應用今年成長7成、明年再倍增",
       "source": "鉅亨",
-      "time": "12:00",
-      "publishedAt": 1790136018000,
+      "time": "17:48",
+      "publishedAt": 1790156912000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6613600"
+      "link": "https://news.cnyes.com/news/id/6614138"
     },
     {
       "region": "TW",
-      "headline": "〈焦點股〉AMAX-KY台美需求暢旺 亮燈漲停",
+      "headline": "台股連2日創高！00981A王者歸來登ETF漲幅王 近1年含息報酬衝136%",
       "source": "鉅亨",
-      "time": "11:53",
-      "publishedAt": 1790135629000,
+      "time": "17:47",
+      "publishedAt": 1790156847000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6613859"
+      "link": "https://news.cnyes.com/news/id/6614188"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 旭然(4556)股價拉至漲停，漲停價93.6元，成交1,084張",
+      "headline": "永慶房產調查：看跌全台下季房價走勢比例已收歛至28%",
       "source": "鉅亨",
-      "time": "11:46",
-      "publishedAt": 1790135212000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6613860"
+      "time": "17:46",
+      "publishedAt": 1790156800000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6614179"
     },
     {
       "region": "TW",
-      "headline": "〈房產〉台北小宅房價哪兒最夯？中正區以年漲11%奪奪得冠軍",
+      "headline": "Meta AI助理Muse爆紅 童子賢：顯示AI應用逐步落地",
       "source": "鉅亨",
-      "time": "11:42",
-      "publishedAt": 1790134921000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6613855"
-    },
-    {
-      "region": "TW",
-      "headline": "南半球首個據點！北富銀雪梨分行盛大開幕 串聯亞太經貿樞紐",
-      "source": "台股",
-      "time": "11:38",
-      "publishedAt": 1790134715000,
+      "time": "17:41",
+      "publishedAt": 1790156490000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6613844"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台泥拓展東歐市場〉跨入烏克蘭成串聯歐洲版圖重要據點 鎖定戰後重建需求及低碳水泥市場",
-      "source": "台股",
-      "time": "11:30",
-      "publishedAt": 1790134217000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6613811"
+      "link": "https://news.cnyes.com/news/id/6614184"
     }
   ]
 }
