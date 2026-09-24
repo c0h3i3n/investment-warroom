@@ -1,78 +1,42 @@
 {
-  "timestamp": "2026-09-23T23:36:20.748936+00:00",
-  "generatedAt": "2026-09-23T23:36:20.748936+00:00",
+  "timestamp": "2026-09-24T04:35:36.628694+00:00",
+  "generatedAt": "2026-09-24T04:35:36.628694+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "「記憶體不缺」成空頭新論據 大賣空貝瑞加碼放空美光、Nebius",
+      "headline": "外資「抱股賞月」名單曝光 狂掃2檔主動式ETF最吸金",
       "source": "鉅亨",
-      "time": "06:50",
-      "publishedAt": 1790203806000,
+      "time": "10:50",
+      "publishedAt": 1790218244000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6614579"
+      "link": "https://news.cnyes.com/news/id/6614804"
     },
     {
       "region": "TW",
-      "headline": "〈貴金屬盤後〉Fed官員接連放鷹 黃金挫逾1%逼近一周最低",
+      "headline": "M31攜手Ambiq推台積電N12e超低功耗IP 搶AI邊緣商機",
       "source": "鉅亨",
-      "time": "06:49",
-      "publishedAt": 1790203781000,
+      "time": "10:49",
+      "publishedAt": 1790218192000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6614111"
+      "link": "https://news.cnyes.com/news/id/6614852"
     },
     {
       "region": "TW",
-      "headline": "輝達挑戰新高漲勢暫歇 Google AI晶片帶來難題",
+      "headline": "〈工資審議〉最低工資連11漲「有譜」？洪申翰會前釋訊號 喊話物價壓力大",
       "source": "鉅亨",
-      "time": "06:30",
-      "publishedAt": 1790202603000,
+      "time": "10:40",
+      "publishedAt": 1790217613000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6614603"
+      "link": "https://news.cnyes.com/news/id/6614836"
     },
     {
       "region": "TW",
-      "headline": "市場逼宮升息 伊爾艾朗警告：全球央行恐陷危險循環",
+      "headline": "〈房產〉北台灣前三季推案量年減17.6% 全年推案量破兆元有難度",
       "source": "鉅亨",
-      "time": "06:20",
-      "publishedAt": 1790202004000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6613720"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股盤前要聞〉台泥拓展東歐市場、台股總市值達5.3兆美元躍居全球第四",
-      "source": "台股",
-      "time": "05:10",
-      "publishedAt": 1790197802000,
+      "time": "10:38",
+      "publishedAt": 1790217501000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6614446"
-    },
-    {
-      "region": "TW",
-      "headline": "貿聯完成收購新加坡Interplex Datacom業務 強化資料中心基礎設施布局",
-      "source": "台股",
-      "time": "20:23",
-      "publishedAt": 1790166190000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6614333"
-    },
-    {
-      "region": "TW",
-      "headline": "燁輝斥8.04億元認購燁聯私募股13.4萬張 持股比提升至35.46%",
-      "source": "台股",
-      "time": "20:04",
-      "publishedAt": 1790165099000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6614321"
-    },
-    {
-      "region": "TW",
-      "headline": "研華北美市場BB值逾2 產能供不應求爆滿到明年下半年",
-      "source": "台股",
-      "time": "20:04",
-      "publishedAt": 1790165063000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6614314"
+      "link": "https://news.cnyes.com/news/id/6614833"
     }
   ]
 }
