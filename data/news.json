@@ -1,51 +1,78 @@
 {
-  "timestamp": "2026-09-24T14:56:03.398666+00:00",
-  "generatedAt": "2026-09-24T14:56:03.398666+00:00",
+  "timestamp": "2026-09-24T19:02:07.715141+00:00",
+  "generatedAt": "2026-09-24T19:02:07.715141+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "看好科技聚落！南山人壽再斥51.68億元 購入竹北2.1萬坪商辦大樓",
+      "headline": "外匯速報 - 美元/墨西哥披索(USDMXN) 大漲1.12%，報17.699元",
       "source": "鉅亨",
-      "time": "19:23",
-      "publishedAt": 1790248995000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615307"
+      "time": "01:50",
+      "publishedAt": 1790272217000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6615559"
     },
     {
       "region": "TW",
-      "headline": "澳洲政府：OpenAI AI 代理自主入侵官方醫療數據入口網站",
+      "headline": "盤中速報 - 文件幣大漲8.57%，報1.01美元",
       "source": "鉅亨",
-      "time": "19:00",
-      "publishedAt": 1790247611000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615235"
+      "time": "01:20",
+      "publishedAt": 1790270417000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6615553"
     },
     {
       "region": "TW",
-      "headline": "櫃買中心審議通過5家上櫃申請案 調升券商過怠金強化交割紀律",
+      "headline": "小摩調升Meta目標價 看好Muse成ChatGPT後最普及AI應用",
       "source": "鉅亨",
-      "time": "18:58",
-      "publishedAt": 1790247483000,
+      "time": "01:00",
+      "publishedAt": 1790269203000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615291"
+      "link": "https://news.cnyes.com/news/id/6615487"
     },
     {
       "region": "TW",
-      "headline": "富邦人壽通訊處業務員喋血案 金管會高度關切、要查門禁與應變機制",
+      "headline": "盤中速報 - Worldcoin大漲9.6%，報0.45美元",
       "source": "鉅亨",
-      "time": "18:54",
-      "publishedAt": 1790247243000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615290"
+      "time": "00:20",
+      "publishedAt": 1790266824000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6615532"
     },
     {
       "region": "TW",
-      "headline": "中鋼8月稅前盈餘月增1成 煉鋼成本推升帶動國際鋼價回溫",
+      "headline": "廣積推單板電腦整合CPU、GPU與NPU 鎖定新世代邊緣AI應用",
       "source": "台股",
-      "time": "18:42",
-      "publishedAt": 1790246563000,
+      "time": "21:00",
+      "publishedAt": 1790254807000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615250"
+      "link": "https://news.cnyes.com/news/id/6615373"
+    },
+    {
+      "region": "TW",
+      "headline": "台鐵攜新光三越打造寶可夢列車 明起至12/13投入西部幹線營運",
+      "source": "台股",
+      "time": "20:59",
+      "publishedAt": 1790254769000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6615375"
+    },
+    {
+      "region": "TW",
+      "headline": "國喬：轉型調整營運策略 鏈結AWI工業氣體布局半導體供應鏈",
+      "source": "台股",
+      "time": "20:08",
+      "publishedAt": 1790251712000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6615363"
+    },
+    {
+      "region": "TW",
+      "headline": "鴻海擬出清美國金融科技公司Figure Technology Solutions持股 實現投資利益",
+      "source": "台股",
+      "time": "20:05",
+      "publishedAt": 1790251552000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6615358"
     }
   ]
 }
