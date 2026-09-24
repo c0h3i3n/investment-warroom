@@ -1,78 +1,51 @@
 {
-  "timestamp": "2026-09-24T09:54:05.571043+00:00",
-  "generatedAt": "2026-09-24T09:54:05.571043+00:00",
+  "timestamp": "2026-09-24T14:56:03.398666+00:00",
+  "generatedAt": "2026-09-24T14:56:03.398666+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - RAY大漲18.28%，報2.123美元",
+      "headline": "看好科技聚落！南山人壽再斥51.68億元 購入竹北2.1萬坪商辦大樓",
       "source": "鉅亨",
-      "time": "16:05",
-      "publishedAt": 1790237123000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6615104"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - Arbitrum大跌9.86%，報0.22美元",
-      "source": "鉅亨",
-      "time": "16:05",
-      "publishedAt": 1790237122000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6615103"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - Worldcoin大跌8.43%，報0.42美元",
-      "source": "鉅亨",
-      "time": "16:05",
-      "publishedAt": 1790237122000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6615102"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 萊特幣大漲8.81%，報68.89美元",
-      "source": "鉅亨",
-      "time": "16:05",
-      "publishedAt": 1790237121000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6615101"
-    },
-    {
-      "region": "TW",
-      "headline": "〈國壽健康年報〉外溢保單折保費沒感覺？改發「小樹點」打造更有感健康生態圈",
-      "source": "台股",
-      "time": "15:05",
-      "publishedAt": 1790233547000,
+      "time": "19:23",
+      "publishedAt": 1790248995000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6614933"
+      "link": "https://news.cnyes.com/news/id/6615307"
     },
     {
       "region": "TW",
-      "headline": "〈房產〉AI供應鏈擴廠熱絡 商仲：全年商用不動產交易向上挑戰3000億元",
-      "source": "台股",
-      "time": "14:41",
-      "publishedAt": 1790232101000,
+      "headline": "澳洲政府：OpenAI AI 代理自主入侵官方醫療數據入口網站",
+      "source": "鉅亨",
+      "time": "19:00",
+      "publishedAt": 1790247611000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615008"
+      "link": "https://news.cnyes.com/news/id/6615235"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：巨大(9921-TW)EPS預估上修至3.57元，預估目標價為119元",
-      "source": "台股",
-      "time": "14:10",
-      "publishedAt": 1790230233000,
+      "headline": "櫃買中心審議通過5家上櫃申請案 調升券商過怠金強化交割紀律",
+      "source": "鉅亨",
+      "time": "18:58",
+      "publishedAt": 1790247483000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615005"
+      "link": "https://news.cnyes.com/news/id/6615291"
     },
     {
       "region": "TW",
-      "headline": "〈台股盤後〉台積電熄火 長假前觀望量縮跌132點險守4萬8大關 周漲843點",
+      "headline": "富邦人壽通訊處業務員喋血案 金管會高度關切、要查門禁與應變機制",
+      "source": "鉅亨",
+      "time": "18:54",
+      "publishedAt": 1790247243000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6615290"
+    },
+    {
+      "region": "TW",
+      "headline": "中鋼8月稅前盈餘月增1成 煉鋼成本推升帶動國際鋼價回溫",
       "source": "台股",
-      "time": "14:04",
-      "publishedAt": 1790229867000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6614974"
+      "time": "18:42",
+      "publishedAt": 1790246563000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6615250"
     }
   ]
 }
