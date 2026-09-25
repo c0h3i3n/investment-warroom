@@ -1,42 +1,42 @@
 {
-  "timestamp": "2026-09-25T18:29:37.235445+00:00",
-  "generatedAt": "2026-09-25T18:29:37.235445+00:00",
+  "timestamp": "2026-09-25T22:13:15.731525+00:00",
+  "generatedAt": "2026-09-25T22:13:15.731525+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "大摩銀行家大出包寄出「內部交易清單」！曝光約60宗亞洲IPO、併購案、大宗交易",
+      "headline": "〈美股盤後〉傳美伊進入技術磋商階段 道瓊勁揚近480點 三大指數周線收紅",
       "source": "鉅亨",
-      "time": "23:40",
-      "publishedAt": 1790350807000,
+      "time": "05:55",
+      "publishedAt": 1790373320000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615887"
+      "link": "https://news.cnyes.com/news/id/6616065"
     },
     {
       "region": "TW",
-      "headline": "〈美股早盤〉油價回落促使債券拋售暫歇  主要指數小幅走高",
+      "headline": "〈能源盤後〉美伊探索停戰路徑 油價回落逾2%  Brent站回104美元",
       "source": "鉅亨",
-      "time": "21:49",
-      "publishedAt": 1790344151000,
+      "time": "05:20",
+      "publishedAt": 1790371204000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615875"
+      "link": "https://news.cnyes.com/news/id/6616209"
     },
     {
       "region": "TW",
-      "headline": "特斯拉近月Optimus人形機器人產量提升10倍",
+      "headline": "AI基建熱藏後患？大賣空貝瑞警告5巨頭產能過剩 恐面臨資產減損",
       "source": "鉅亨",
-      "time": "21:39",
-      "publishedAt": 1790343547000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6616052"
+      "time": "05:10",
+      "publishedAt": 1790370603000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6616070"
     },
     {
       "region": "TW",
-      "headline": "IMF：今年全球AI投資規模可能突破2兆美元",
+      "headline": "川普：與習近平會晤富有成效 將有重大事情發生",
       "source": "鉅亨",
-      "time": "19:45",
-      "publishedAt": 1790336732000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6615997"
+      "time": "03:55",
+      "publishedAt": 1790366108000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6616192"
     },
     {
       "region": "TW",
