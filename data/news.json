@@ -1,42 +1,42 @@
 {
-  "timestamp": "2026-09-24T22:15:32.231021+00:00",
-  "generatedAt": "2026-09-24T22:15:32.231021+00:00",
+  "timestamp": "2026-09-25T01:24:03.390781+00:00",
+  "generatedAt": "2026-09-25T01:24:03.390781+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "川習會重啟「熊貓外交」 中國將送兩隻大熊貓赴亞特蘭大",
+      "headline": "〈熱門股〉車用放量疊加AI伺服器雙引擎發威 雷笛克光學周漲13%連7紅",
       "source": "鉅亨",
-      "time": "05:14",
-      "publishedAt": 1790284449000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615601"
-    },
-    {
-      "region": "TW",
-      "headline": "習近平要求川普「反對台灣獨立」 再提「修昔底德陷阱」",
-      "source": "鉅亨",
-      "time": "04:11",
-      "publishedAt": 1790280700000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615584"
-    },
-    {
-      "region": "TW",
-      "headline": "美參院一票之差否決決議案 川普對伊朗動武權限未受限",
-      "source": "鉅亨",
-      "time": "03:47",
-      "publishedAt": 1790279236000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615583"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - 莫德納(MRNA-US)大漲5.01%，報191.24美元",
-      "source": "鉅亨",
-      "time": "02:53",
-      "publishedAt": 1790276015000,
+      "time": "08:12",
+      "publishedAt": 1790295149000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6615575"
+      "link": "https://news.cnyes.com/news/id/6615473"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉達發AI業務聚「光」 周漲22%創新高",
+      "source": "鉅亨",
+      "time": "08:10",
+      "publishedAt": 1790295043000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6615405"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 萊特幣大漲16.38%，報71.96美元",
+      "source": "鉅亨",
+      "time": "08:05",
+      "publishedAt": 1790294722000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6615659"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - RAY大漲8.11%，報2.119美元",
+      "source": "鉅亨",
+      "time": "07:50",
+      "publishedAt": 1790293842000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6615654"
     },
     {
       "region": "TW",
@@ -55,24 +55,6 @@
       "publishedAt": 1790254769000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6615375"
-    },
-    {
-      "region": "TW",
-      "headline": "國喬：轉型調整營運策略 鏈結AWI工業氣體布局半導體供應鏈",
-      "source": "台股",
-      "time": "20:08",
-      "publishedAt": 1790251712000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615363"
-    },
-    {
-      "region": "TW",
-      "headline": "鴻海擬出清美國金融科技公司Figure Technology Solutions持股 實現投資利益",
-      "source": "台股",
-      "time": "20:05",
-      "publishedAt": 1790251552000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615358"
     }
   ]
 }
