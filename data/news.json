@@ -1,7 +1,34 @@
 {
-  "timestamp": "2026-09-25T13:38:17.295844+00:00",
-  "generatedAt": "2026-09-25T13:38:17.295844+00:00",
+  "timestamp": "2026-09-25T18:29:37.235445+00:00",
+  "generatedAt": "2026-09-25T18:29:37.235445+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "大摩銀行家大出包寄出「內部交易清單」！曝光約60宗亞洲IPO、併購案、大宗交易",
+      "source": "鉅亨",
+      "time": "23:40",
+      "publishedAt": 1790350807000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6615887"
+    },
+    {
+      "region": "TW",
+      "headline": "〈美股早盤〉油價回落促使債券拋售暫歇  主要指數小幅走高",
+      "source": "鉅亨",
+      "time": "21:49",
+      "publishedAt": 1790344151000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6615875"
+    },
+    {
+      "region": "TW",
+      "headline": "特斯拉近月Optimus人形機器人產量提升10倍",
+      "source": "鉅亨",
+      "time": "21:39",
+      "publishedAt": 1790343547000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6616052"
+    },
     {
       "region": "TW",
       "headline": "IMF：今年全球AI投資規模可能突破2兆美元",
@@ -10,33 +37,6 @@
       "publishedAt": 1790336732000,
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6615997"
-    },
-    {
-      "region": "TW",
-      "headline": "法國擬召集G7商討釋出戰略石油儲備",
-      "source": "鉅亨",
-      "time": "19:35",
-      "publishedAt": 1790336106000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615684"
-    },
-    {
-      "region": "TW",
-      "headline": "OpenAI傳將推500美元ChatGPT「Pro Max」方案！主打最快Work與Codex、或接Cerebras算力",
-      "source": "鉅亨",
-      "time": "19:10",
-      "publishedAt": 1790334603000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615814"
-    },
-    {
-      "region": "TW",
-      "headline": "AI代理掀長期硬體需求！戴爾示警「記憶體」、「HDD」短缺恐延續逾5年",
-      "source": "鉅亨",
-      "time": "18:10",
-      "publishedAt": 1790331003000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6615794"
     },
     {
       "region": "TW",
