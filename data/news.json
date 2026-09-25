@@ -1,11 +1,47 @@
 {
-  "timestamp": "2026-09-25T07:39:44.922517+00:00",
-  "generatedAt": "2026-09-25T07:39:44.922517+00:00",
+  "timestamp": "2026-09-25T13:38:17.295844+00:00",
+  "generatedAt": "2026-09-25T13:38:17.295844+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "輸歐鋼品配額管理措施調整 鋼鐵公會：全力配合並協助爭取更多配額",
+      "headline": "IMF：今年全球AI投資規模可能突破2兆美元",
       "source": "鉅亨",
+      "time": "19:45",
+      "publishedAt": 1790336732000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6615997"
+    },
+    {
+      "region": "TW",
+      "headline": "法國擬召集G7商討釋出戰略石油儲備",
+      "source": "鉅亨",
+      "time": "19:35",
+      "publishedAt": 1790336106000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6615684"
+    },
+    {
+      "region": "TW",
+      "headline": "OpenAI傳將推500美元ChatGPT「Pro Max」方案！主打最快Work與Codex、或接Cerebras算力",
+      "source": "鉅亨",
+      "time": "19:10",
+      "publishedAt": 1790334603000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6615814"
+    },
+    {
+      "region": "TW",
+      "headline": "AI代理掀長期硬體需求！戴爾示警「記憶體」、「HDD」短缺恐延續逾5年",
+      "source": "鉅亨",
+      "time": "18:10",
+      "publishedAt": 1790331003000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6615794"
+    },
+    {
+      "region": "TW",
+      "headline": "輸歐鋼品配額管理措施調整 鋼鐵公會：全力配合並協助爭取更多配額",
+      "source": "台股",
       "time": "13:41",
       "publishedAt": 1790314898000,
       "impact": "neu",
@@ -14,7 +50,7 @@
     {
       "region": "TW",
       "headline": "8月外銷訂單突破千億美元、川習會登場、台股市值衝5.3兆美元登全球第四 本周大事回顧",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "13:40",
       "publishedAt": 1790314841000,
       "impact": "pos",
@@ -23,20 +59,11 @@
     {
       "region": "TW",
       "headline": "完整獎號一次看！統一發票7、8月開獎 千萬特別獎「89996565」",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "13:11",
       "publishedAt": 1790313061000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6615826"
-    },
-    {
-      "region": "TW",
-      "headline": "川普政府評估「柴油出口禁令」！將如何影響油市與美國？",
-      "source": "鉅亨",
-      "time": "13:10",
-      "publishedAt": 1790313005000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615779"
     },
     {
       "region": "TW",
