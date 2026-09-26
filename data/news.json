@@ -1,42 +1,42 @@
 {
-  "timestamp": "2026-09-26T19:46:47.248555+00:00",
-  "generatedAt": "2026-09-26T19:46:47.248555+00:00",
+  "timestamp": "2026-09-26T22:40:27.238615+00:00",
+  "generatedAt": "2026-09-26T22:40:27.238615+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - 波卡幣大漲8.7%，報1.29美元",
+      "headline": "邁威爾：光學互連、記憶體成AI下一階段算力擴張關鍵",
       "source": "鉅亨",
-      "time": "00:05",
-      "publishedAt": 1790438720000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6616591"
+      "time": "22:10",
+      "publishedAt": 1790431802000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6616487"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 文件幣大漲16.92%，報1.2美元",
+      "headline": "AI投資進入新階段！大摩：槓鈴策略成爲配置主線",
       "source": "鉅亨",
-      "time": "00:05",
-      "publishedAt": 1790438719000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6616588"
+      "time": "20:10",
+      "publishedAt": 1790424607000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6616373"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Sei大漲9.36%，報0.07美元",
+      "headline": "沙國9月出口量寫伊朗戰爭爆發來新高 激增近80%",
       "source": "鉅亨",
-      "time": "00:05",
-      "publishedAt": 1790438719000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6616590"
+      "time": "19:56",
+      "publishedAt": 1790423811000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6616517"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - RUNE大漲18.04%，報0.759美元",
+      "headline": "《紐約客》AI建設速度驚人 科技巨頭為何難以共同防範AI風險？",
       "source": "鉅亨",
-      "time": "00:05",
-      "publishedAt": 1790438719000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6616589"
+      "time": "19:10",
+      "publishedAt": 1790421004000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6616456"
     },
     {
       "region": "TW",
