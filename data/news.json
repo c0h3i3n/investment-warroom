@@ -1,7 +1,43 @@
 {
-  "timestamp": "2026-09-26T07:32:31.228697+00:00",
-  "generatedAt": "2026-09-26T07:32:31.228697+00:00",
+  "timestamp": "2026-09-26T12:59:17.340206+00:00",
+  "generatedAt": "2026-09-26T12:59:17.340206+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "習近平訪美與川普達成8項共識！中美「300億美元」對等降稅、AI對話11月登場",
+      "source": "鉅亨",
+      "time": "18:10",
+      "publishedAt": 1790417404000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6616474"
+    },
+    {
+      "region": "TW",
+      "headline": "AI算力狂撒錢能否回本？高盛：6大科技巨頭2028-2030年需創造1.42兆美元收入",
+      "source": "鉅亨",
+      "time": "15:10",
+      "publishedAt": 1790406602000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6616372"
+    },
+    {
+      "region": "TW",
+      "headline": "美光下周財報恐迎「蹺蹺板行情」 分析師：輝達Rubin效應明年才發威",
+      "source": "鉅亨",
+      "time": "15:00",
+      "publishedAt": 1790406003000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6616237"
+    },
+    {
+      "region": "TW",
+      "headline": "日元逼近160大關！日本再干預預期升溫、美元強勢成阻力",
+      "source": "鉅亨",
+      "time": "14:10",
+      "publishedAt": 1790403007000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6616371"
+    },
     {
       "region": "TW",
       "headline": "外資回頭掃貨！主動式ETF規模前五強全勝大盤 00981A周漲近1成",
@@ -19,42 +55,6 @@
       "publishedAt": 1790396805000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6616313"
-    },
-    {
-      "region": "TW",
-      "headline": "美光財報前夕 美銀重申買進、看好再漲45%",
-      "source": "鉅亨",
-      "time": "12:10",
-      "publishedAt": 1790395803000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6615727"
-    },
-    {
-      "region": "TW",
-      "headline": "美債進入「5字頭時代」華爾街迎來高利率「新常態」",
-      "source": "鉅亨",
-      "time": "12:00",
-      "publishedAt": 1790395203000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6616322"
-    },
-    {
-      "region": "TW",
-      "headline": "蘋果續簽高通專利授權協議 市值一夜暴增600億美元 高通樂漲近4%",
-      "source": "鉅亨",
-      "time": "11:50",
-      "publishedAt": 1790394605000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6616343"
-    },
-    {
-      "region": "TW",
-      "headline": "記憶體暴漲占iPhone 18 Pro Max新增成本90%！蘋果毛利率遭看淡",
-      "source": "鉅亨",
-      "time": "11:40",
-      "publishedAt": 1790394003000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6616236"
     },
     {
       "region": "TW",
