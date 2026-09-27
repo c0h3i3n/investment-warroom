@@ -1,42 +1,60 @@
 {
-  "timestamp": "2026-09-26T22:40:27.238615+00:00",
-  "generatedAt": "2026-09-26T22:40:27.238615+00:00",
+  "timestamp": "2026-09-27T01:19:48.069248+00:00",
+  "generatedAt": "2026-09-27T01:19:48.069248+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "邁威爾：光學互連、記憶體成AI下一階段算力擴張關鍵",
-      "source": "鉅亨",
-      "time": "22:10",
-      "publishedAt": 1790431802000,
+      "headline": "微軟發布AI使用報告 台灣AI使用率33.8%全球排名前進至第19",
+      "source": "台股",
+      "time": "08:55",
+      "publishedAt": 1790470533000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6616487"
+      "link": "https://news.cnyes.com/news/id/6615570"
     },
     {
       "region": "TW",
-      "headline": "AI投資進入新階段！大摩：槓鈴策略成爲配置主線",
-      "source": "鉅亨",
-      "time": "20:10",
-      "publishedAt": 1790424607000,
+      "headline": "英特爾跨入Micro LED CPO 台LED廠迎AI矽光子商機",
+      "source": "台股",
+      "time": "08:53",
+      "publishedAt": 1790470399000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6616373"
+      "link": "https://news.cnyes.com/news/id/6615424"
     },
     {
       "region": "TW",
-      "headline": "沙國9月出口量寫伊朗戰爭爆發來新高 激增近80%",
+      "headline": "盤中速報 - AMP大漲55.47%，報0美元",
       "source": "鉅亨",
-      "time": "19:56",
-      "publishedAt": 1790423811000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6616517"
+      "time": "07:05",
+      "publishedAt": 1790463916000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6616626"
     },
     {
       "region": "TW",
-      "headline": "《紐約客》AI建設速度驚人 科技巨頭為何難以共同防範AI風險？",
+      "headline": "盤中速報 - 大零幣大漲8.71%，報1,665.1美元",
       "source": "鉅亨",
-      "time": "19:10",
-      "publishedAt": 1790421004000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6616456"
+      "time": "05:35",
+      "publishedAt": 1790458515000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6616608"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - Quant大漲26.19%，報123.62美元",
+      "source": "鉅亨",
+      "time": "03:35",
+      "publishedAt": 1790451317000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6616597"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - 波卡幣大漲8.7%，報1.29美元",
+      "source": "鉅亨",
+      "time": "00:05",
+      "publishedAt": 1790438720000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6616591"
     },
     {
       "region": "TW",
@@ -55,24 +73,6 @@
       "publishedAt": 1790396805000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6616313"
-    },
-    {
-      "region": "TW",
-      "headline": "AI國家隊出擊！國發會率團密訪微軟、史丹佛 聚焦算力部署、新創鏈結與人才轉型",
-      "source": "台股",
-      "time": "09:55",
-      "publishedAt": 1790387717000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6616297"
-    },
-    {
-      "region": "TW",
-      "headline": "精華生醫擬10/15上櫃掛牌 膳食補充劑市場商機放大中",
-      "source": "台股",
-      "time": "09:54",
-      "publishedAt": 1790387640000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6615735"
     }
   ]
 }
