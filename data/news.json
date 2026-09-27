@@ -1,20 +1,47 @@
 {
-  "timestamp": "2026-09-27T08:01:12.278770+00:00",
-  "generatedAt": "2026-09-27T08:01:12.278770+00:00",
+  "timestamp": "2026-09-27T13:51:16.953691+00:00",
+  "generatedAt": "2026-09-27T13:51:16.953691+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "南韓股市資金換擋！散戶8月撤資13.5兆韓元、KOSPI下輪行情由誰主宰？",
+      "headline": "Meta AI代理爆發！祖克柏談Muse：「元宇宙、智慧眼鏡和大模型」三大賭注完成交匯",
       "source": "鉅亨",
-      "time": "13:10",
-      "publishedAt": 1790485803000,
+      "time": "19:10",
+      "publishedAt": 1790507405000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6616713"
+      "link": "https://news.cnyes.com/news/id/6616737"
+    },
+    {
+      "region": "TW",
+      "headline": "全球AI交易考驗將來臨！三星與SK海力士第3季財報面臨「極高預期 」、記憶體漲價成焦點",
+      "source": "鉅亨",
+      "time": "18:10",
+      "publishedAt": 1790503802000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6616736"
+    },
+    {
+      "region": "TW",
+      "headline": "輝達評估導入玻璃基板！最快2028年前應用於下一代GPU、與台積電等合作",
+      "source": "鉅亨",
+      "time": "17:10",
+      "publishedAt": 1790500204000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6616743"
+    },
+    {
+      "region": "TW",
+      "headline": "原油運輸超級週期大爆發！BDTI飆5250點年漲逾100%、VLCC TCE突破百萬美元",
+      "source": "鉅亨",
+      "time": "16:10",
+      "publishedAt": 1790496603000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6616717"
     },
     {
       "region": "TW",
       "headline": "台積電又有漲價題材！「含積量」成焦點 00881包下AI四大電子族群",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "11:25",
       "publishedAt": 1790479507000,
       "impact": "pos",
@@ -22,17 +49,8 @@
     },
     {
       "region": "TW",
-      "headline": "搶升息後第一波高利｜合庫、一銀美元定存最高4.05% 公股銀最新優惠一次看",
-      "source": "鉅亨",
-      "time": "11:23",
-      "publishedAt": 1790479439000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6616701"
-    },
-    {
-      "region": "TW",
       "headline": "雄獅創兩個新里程碑 帶進國旅新客源、拓高端主題版圖",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "11:20",
       "publishedAt": 1790479240000,
       "impact": "neu",
