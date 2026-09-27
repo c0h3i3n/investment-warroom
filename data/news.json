@@ -1,42 +1,42 @@
 {
-  "timestamp": "2026-09-27T13:51:16.953691+00:00",
-  "generatedAt": "2026-09-27T13:51:16.953691+00:00",
+  "timestamp": "2026-09-27T18:17:02.463615+00:00",
+  "generatedAt": "2026-09-27T18:17:02.463615+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "Meta AI代理爆發！祖克柏談Muse：「元宇宙、智慧眼鏡和大模型」三大賭注完成交匯",
+      "headline": "盤中速報 - Wormhole大漲18.66%，報0.02美元",
       "source": "鉅亨",
-      "time": "19:10",
-      "publishedAt": 1790507405000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6616737"
-    },
-    {
-      "region": "TW",
-      "headline": "全球AI交易考驗將來臨！三星與SK海力士第3季財報面臨「極高預期 」、記憶體漲價成焦點",
-      "source": "鉅亨",
-      "time": "18:10",
-      "publishedAt": 1790503802000,
+      "time": "01:05",
+      "publishedAt": 1790528716000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6616736"
+      "link": "https://news.cnyes.com/news/id/6616932"
     },
     {
       "region": "TW",
-      "headline": "輝達評估導入玻璃基板！最快2028年前應用於下一代GPU、與台積電等合作",
+      "headline": "盤中速報 - AMP大跌12.07%，報0美元",
       "source": "鉅亨",
-      "time": "17:10",
-      "publishedAt": 1790500204000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6616743"
+      "time": "00:50",
+      "publishedAt": 1790527816000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6616928"
     },
     {
       "region": "TW",
-      "headline": "原油運輸超級週期大爆發！BDTI飆5250點年漲逾100%、VLCC TCE突破百萬美元",
+      "headline": "盤中速報 - NEAR大漲8.15%，報5.2美元",
       "source": "鉅亨",
-      "time": "16:10",
-      "publishedAt": 1790496603000,
+      "time": "00:35",
+      "publishedAt": 1790526921000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6616717"
+      "link": "https://news.cnyes.com/news/id/6616925"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - Saga大跌20.04%，報0.03美元",
+      "source": "鉅亨",
+      "time": "00:05",
+      "publishedAt": 1790525121000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6616922"
     },
     {
       "region": "TW",
