@@ -1,78 +1,78 @@
 {
-  "timestamp": "2026-09-28T15:19:09.333685+00:00",
-  "generatedAt": "2026-09-28T15:19:09.333685+00:00",
+  "timestamp": "2026-09-28T21:51:17.118142+00:00",
+  "generatedAt": "2026-09-28T21:51:17.118142+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI代理「越獄」怎麼辦？輝達推出安全平台防堵失控",
+      "headline": "盤中速報 - Palo Alto Networks Inc(PANW-US)大漲5.01%，報393.53美元",
       "source": "鉅亨",
-      "time": "21:00",
-      "publishedAt": 1790600406000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6617193"
-    },
-    {
-      "region": "TW",
-      "headline": "超越蘋果紀錄！輝達加碼1500億美元回購股票",
-      "source": "鉅亨",
-      "time": "20:30",
-      "publishedAt": 1790598644000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6617199"
-    },
-    {
-      "region": "TW",
-      "headline": "就業市場仍具韌性！經濟學家： Fed「高利率更久」政策再獲一層支撐",
-      "source": "鉅亨",
-      "time": "20:00",
-      "publishedAt": 1790596809000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6614794"
-    },
-    {
-      "region": "TW",
-      "headline": "黃金、白銀突然跳水！公債殖利率飆升掀起拋售潮",
-      "source": "鉅亨",
-      "time": "19:50",
-      "publishedAt": 1790596203000,
+      "time": "03:04",
+      "publishedAt": 1790622262000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6617197"
+      "link": "https://news.cnyes.com/news/id/6617384"
     },
     {
       "region": "TW",
-      "headline": "金屬中心董事長交棒 由台灣金屬熱處理學會理事長吳忠春接任",
-      "source": "台股",
-      "time": "17:57",
-      "publishedAt": 1790589424000,
+      "headline": "下月開庭前先和解！輝達AI軟體商標官司傳進展",
+      "source": "鉅亨",
+      "time": "03:00",
+      "publishedAt": 1790622003000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6617162"
+      "link": "https://news.cnyes.com/news/id/6617340"
     },
     {
       "region": "TW",
-      "headline": "〈VSMC開幕〉VSMC一期全滿 方略：二期規劃加速 不排除導入28/22奈米",
-      "source": "台股",
-      "time": "16:28",
-      "publishedAt": 1790584088000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6617143"
+      "headline": "盤中速報 - Ethena大跌8.4%，報0.26美元",
+      "source": "鉅亨",
+      "time": "02:50",
+      "publishedAt": 1790621419000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6617381"
     },
     {
       "region": "TW",
-      "headline": "〈VSMC開幕〉方略：產能已經「徹底爆掉」 成熟製程缺貨恐延續多年",
-      "source": "台股",
-      "time": "16:10",
-      "publishedAt": 1790583037000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6617135"
+      "headline": "外匯速報 - 美元/墨西哥披索(USDMXN) 大漲1.22%，報17.8898元",
+      "source": "鉅亨",
+      "time": "02:40",
+      "publishedAt": 1790620817000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6617380"
     },
     {
       "region": "TW",
-      "headline": "無懼單月調節！外資上櫃持股市值比攀24.61%新高 護國群山撐起5兆市值",
+      "headline": "〈台股風向球〉節後期待川普總司令做多 內資法人看本周高點49000點",
       "source": "台股",
-      "time": "13:49",
-      "publishedAt": 1790574570000,
+      "time": "00:20",
+      "publishedAt": 1790612442000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6605200"
+      "link": "https://news.cnyes.com/news/id/6617325"
+    },
+    {
+      "region": "TW",
+      "headline": "SiC搶攻AI能源商機 漢磊提供客戶高良率、高品質出貨技術",
+      "source": "台股",
+      "time": "23:54",
+      "publishedAt": 1790610883000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6617311"
+    },
+    {
+      "region": "TW",
+      "headline": "民雄無人機園區動土　賴清德：打造台灣成為「無人機供應鏈亞洲中心」",
+      "source": "台股",
+      "time": "23:45",
+      "publishedAt": 1790610318000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6617262"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉AI伺服器、矽光雙題材點火 嘉晶周漲374%創波段新高",
+      "source": "台股",
+      "time": "23:43",
+      "publishedAt": 1790610211000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6617215"
     }
   ]
 }
