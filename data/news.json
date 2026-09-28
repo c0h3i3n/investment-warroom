@@ -1,42 +1,42 @@
 {
-  "timestamp": "2026-09-27T22:01:43.906802+00:00",
-  "generatedAt": "2026-09-27T22:01:43.906802+00:00",
+  "timestamp": "2026-09-28T00:34:09.971492+00:00",
+  "generatedAt": "2026-09-28T00:34:09.971492+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "擴大合作！幣安1億美元入股Circle  分析師：USDC在穩定幣競爭中獲提振",
+      "headline": "鉅亨速報 - Factset 最新調查：華碩(2357-TW)EPS預估上修至75.9元，預估目標價為1080元",
       "source": "鉅亨",
-      "time": "22:00",
-      "publishedAt": 1790517603000,
+      "time": "08:10",
+      "publishedAt": 1790554259000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6614453"
+      "link": "https://news.cnyes.com/news/id/6616985"
     },
     {
       "region": "TW",
-      "headline": "本週操盤筆記：美國PCE物價指數、非農就業報告及美光財報",
+      "headline": "AI=電力基礎設施！韓副總理：政府正大力投入　力求實現全民免費覆蓋",
       "source": "鉅亨",
-      "time": "21:50",
-      "publishedAt": 1790517002000,
+      "time": "08:10",
+      "publishedAt": 1790554205000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6616686"
+      "link": "https://news.cnyes.com/news/id/6616791"
     },
     {
       "region": "TW",
-      "headline": "油價跌、油輪運價卻飆逾300%！大型原油運輸船租金突破50萬美元",
+      "headline": "盤中速報 - Wormhole大漲20.08%，報0.02美元",
       "source": "鉅亨",
-      "time": "21:00",
-      "publishedAt": 1790514002000,
+      "time": "08:05",
+      "publishedAt": 1790553921000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6616716"
+      "link": "https://news.cnyes.com/news/id/6616982"
     },
     {
       "region": "TW",
-      "headline": "失控風險加劇！OpenAI和Anthropic正調查數萬起安全事件：「這三大」AI安全難題同時爆發",
+      "headline": "盤中速報 - Saga大跌17.59%，報0.03美元",
       "source": "鉅亨",
-      "time": "20:50",
-      "publishedAt": 1790513403000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6614989"
+      "time": "08:05",
+      "publishedAt": 1790553920000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6616981"
     },
     {
       "region": "TW",
