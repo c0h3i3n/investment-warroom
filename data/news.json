@@ -1,78 +1,60 @@
 {
-  "timestamp": "2026-09-29T01:48:17.922622+00:00",
-  "generatedAt": "2026-09-29T01:48:17.922622+00:00",
+  "timestamp": "2026-09-29T08:20:38.141504+00:00",
+  "generatedAt": "2026-09-29T08:20:38.141504+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "去槓桿風暴將至！美銀Hartnett：兩大指標即將觸發拋售信號",
+      "headline": "日財務大臣重申日元疲軟擔憂 與美財長通話再提日元被低估  下一次聯合干預近了？",
       "source": "鉅亨",
-      "time": "06:10",
-      "publishedAt": 1790633402000,
+      "time": "12:40",
+      "publishedAt": 1790656804000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6617118"
+      "link": "https://news.cnyes.com/news/id/6617651"
     },
     {
       "region": "TW",
-      "headline": "AI熱潮誰真正賺到錢？輝達宣布2350億美元股票回購",
+      "headline": "〈焦點股〉浩鼎新藥研發可望受惠政策利多 亮燈漲停",
       "source": "鉅亨",
-      "time": "06:00",
-      "publishedAt": 1790632803000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6617420"
-    },
-    {
-      "region": "TW",
-      "headline": "美股淡定看期中選舉 VIX低於歷次選前、標普500選後預期波幅僅0.8%",
-      "source": "鉅亨",
-      "time": "05:50",
-      "publishedAt": 1790632205000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6617307"
-    },
-    {
-      "region": "TW",
-      "headline": "美股傳統旺季要來了 策略師卻警告：現在不宜加碼",
-      "source": "鉅亨",
-      "time": "05:40",
-      "publishedAt": 1790631602000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6617316"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股風向球〉節後期待川普總司令做多 內資法人看本周高點49000點",
-      "source": "台股",
-      "time": "00:20",
-      "publishedAt": 1790612442000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6617325"
-    },
-    {
-      "region": "TW",
-      "headline": "SiC搶攻AI能源商機 漢磊提供客戶高良率、高品質出貨技術",
-      "source": "台股",
-      "time": "23:54",
-      "publishedAt": 1790610883000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6617311"
-    },
-    {
-      "region": "TW",
-      "headline": "民雄無人機園區動土　賴清德：打造台灣成為「無人機供應鏈亞洲中心」",
-      "source": "台股",
-      "time": "23:45",
-      "publishedAt": 1790610318000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6617262"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉AI伺服器、矽光雙題材點火 嘉晶周漲374%創波段新高",
-      "source": "台股",
-      "time": "23:43",
-      "publishedAt": 1790610211000,
+      "time": "12:22",
+      "publishedAt": 1790655740000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6617215"
+      "link": "https://news.cnyes.com/news/id/6617679"
+    },
+    {
+      "region": "TW",
+      "headline": "三星出資10億美元 結盟輝達、KKR搶攻AI資料中心",
+      "source": "鉅亨",
+      "time": "12:20",
+      "publishedAt": 1790655605000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6617609"
+    },
+    {
+      "region": "TW",
+      "headline": "〈房產〉近一年新北十大熱銷中古社區排行榜  由淡水、汐止包辦7席",
+      "source": "鉅亨",
+      "time": "12:19",
+      "publishedAt": 1790655543000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6617667"
+    },
+    {
+      "region": "TW",
+      "headline": "〈焦點股〉油價上揚、地緣政治持續干擾 台塑化狂飆大漲9％領三寶齊揚",
+      "source": "台股",
+      "time": "12:18",
+      "publishedAt": 1790655514000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6617669"
+    },
+    {
+      "region": "TW",
+      "headline": "〈焦點股〉存股族卡位明年高股息 金控四天王大開資金派對",
+      "source": "台股",
+      "time": "12:14",
+      "publishedAt": 1790655294000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6617658"
     }
   ]
 }
