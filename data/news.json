@@ -1,60 +1,69 @@
 {
-  "timestamp": "2026-09-30T06:36:31.342360+00:00",
-  "generatedAt": "2026-09-30T06:36:31.342360+00:00",
+  "timestamp": "2026-09-30T13:35:43.861387+00:00",
+  "generatedAt": "2026-09-30T13:35:43.861387+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "DeepSeek與華為合作開發晶片程式設計工具 以加速擺脫對輝達的依賴",
+      "headline": "美中休兵延長、調查照走！中國兩項對美調查延至12月27日",
       "source": "鉅亨",
-      "time": "14:30",
-      "publishedAt": 1790749802000,
+      "time": "21:20",
+      "publishedAt": 1790774403000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6618581"
+      "link": "https://news.cnyes.com/news/id/6619036"
     },
     {
       "region": "TW",
-      "headline": "集保結算所接軌國際標準 股東會英文議案資訊導入ISO 20022",
+      "headline": "川普強迫勞動關稅遭控濫權 美國國際貿易法庭展開審查",
+      "source": "鉅亨",
+      "time": "20:50",
+      "publishedAt": 1790772603000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6618912"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台幣〉季底拋匯支持微升收31.852元 月、季線同步翻黑",
+      "source": "鉅亨",
+      "time": "20:44",
+      "publishedAt": 1790772287000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6619011"
+    },
+    {
+      "region": "TW",
+      "headline": "通膨低於預期！美國8月核心PCE僅年增3% Fed下月升息押注跌破四成",
+      "source": "鉅亨",
+      "time": "20:36",
+      "publishedAt": 1790771781000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6618919"
+    },
+    {
+      "region": "TW",
+      "headline": "瑞儀庫藏股執行期間屆滿 買回均價106.78元",
       "source": "台股",
-      "time": "14:07",
-      "publishedAt": 1790748440000,
+      "time": "20:27",
+      "publishedAt": 1790771232000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6618502"
+      "link": "https://news.cnyes.com/news/id/6619020"
     },
     {
       "region": "TW",
-      "headline": "挑戰谷歌、Paytm霸權！蘋果Apple Pay今正式登陸印度  免手續費要如何獲利？",
-      "source": "鉅亨",
-      "time": "14:00",
-      "publishedAt": 1790748003000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6618578"
-    },
-    {
-      "region": "TW",
-      "headline": "大同AIDC產品已取單 明年成長性可期",
-      "source": "鉅亨",
-      "time": "13:51",
-      "publishedAt": 1790747502000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6618586"
-    },
-    {
-      "region": "TW",
-      "headline": "景氣外熱內溫！調查：Q4近9成企業大舉招才 職缺均薪45811元創14年新高",
-      "source": "鉅亨",
-      "time": "13:50",
-      "publishedAt": 1790747444000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6618570"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股盤後〉台積電尾盤急殺 4萬8得而復失 終場漲308點留上影線",
+      "headline": "法人看好台塑擴展電子級硫酸布局半導體市場 外資連3買推升股價創波段高",
       "source": "台股",
-      "time": "13:50",
-      "publishedAt": 1790747435000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6618579"
+      "time": "20:21",
+      "publishedAt": 1790770881000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6618984"
+    },
+    {
+      "region": "TW",
+      "headline": "嘉泥旅宿事業結構轉變 擴大營收成長轉化為實質獲利",
+      "source": "台股",
+      "time": "20:19",
+      "publishedAt": 1790770769000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6618976"
     }
   ]
 }
