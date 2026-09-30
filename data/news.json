@@ -1,69 +1,60 @@
 {
-  "timestamp": "2026-09-30T00:19:29.741417+00:00",
-  "generatedAt": "2026-09-30T00:19:29.741417+00:00",
+  "timestamp": "2026-09-30T06:36:31.342360+00:00",
+  "generatedAt": "2026-09-30T06:36:31.342360+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "卡達居中斡旋跑斷腿但美伊雙方都不讓步　川普恐到選後再算帳？",
+      "headline": "DeepSeek與華為合作開發晶片程式設計工具 以加速擺脫對輝達的依賴",
       "source": "鉅亨",
-      "time": "08:10",
-      "publishedAt": 1790727033000,
+      "time": "14:30",
+      "publishedAt": 1790749802000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6618303"
+      "link": "https://news.cnyes.com/news/id/6618581"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：元太(8069-TW)EPS預估上修至11.5元，預估目標價為220元",
-      "source": "鉅亨",
-      "time": "08:10",
-      "publishedAt": 1790727028000,
+      "headline": "集保結算所接軌國際標準 股東會英文議案資訊導入ISO 20022",
+      "source": "台股",
+      "time": "14:07",
+      "publishedAt": 1790748440000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6618330"
+      "link": "https://news.cnyes.com/news/id/6618502"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - Numeraire大跌12.33%，報12.23美元",
+      "headline": "挑戰谷歌、Paytm霸權！蘋果Apple Pay今正式登陸印度  免手續費要如何獲利？",
       "source": "鉅亨",
-      "time": "08:05",
-      "publishedAt": 1790726721000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6618325"
+      "time": "14:00",
+      "publishedAt": 1790748003000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6618578"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - 數位代幣大漲9.47%，報3.43美元",
+      "headline": "大同AIDC產品已取單 明年成長性可期",
       "source": "鉅亨",
-      "time": "08:05",
-      "publishedAt": 1790726721000,
+      "time": "13:51",
+      "publishedAt": 1790747502000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6618586"
+    },
+    {
+      "region": "TW",
+      "headline": "景氣外熱內溫！調查：Q4近9成企業大舉招才 職缺均薪45811元創14年新高",
+      "source": "鉅亨",
+      "time": "13:50",
+      "publishedAt": 1790747444000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6618570"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股盤後〉台積電尾盤急殺 4萬8得而復失 終場漲308點留上影線",
+      "source": "台股",
+      "time": "13:50",
+      "publishedAt": 1790747435000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6618324"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股盤前要聞〉中秋後失守4萬8、亞馬遜參與金像電私募",
-      "source": "台股",
-      "time": "05:10",
-      "publishedAt": 1790716203000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6618148"
-    },
-    {
-      "region": "TW",
-      "headline": "金管會揭上半年金檢四大缺失 房貸不當搭售壽險、人頭戶防詐漏洞成焦點",
-      "source": "台股",
-      "time": "22:29",
-      "publishedAt": 1790692196000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6618144"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：緯創(3231-TW)EPS預估上修至16.97元，預估目標價為277.5元",
-      "source": "台股",
-      "time": "22:11",
-      "publishedAt": 1790691105000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6618140"
+      "link": "https://news.cnyes.com/news/id/6618579"
     }
   ]
 }
