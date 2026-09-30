@@ -1,69 +1,78 @@
 {
-  "timestamp": "2026-09-30T19:07:49.824968+00:00",
-  "generatedAt": "2026-09-30T19:07:49.824968+00:00",
+  "timestamp": "2026-09-30T23:40:56.057474+00:00",
+  "generatedAt": "2026-09-30T23:40:56.057474+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美中休兵延長、調查照走！中國兩項對美調查延至12月27日",
+      "headline": "日銀政策轉向 未來升息可能加速",
       "source": "鉅亨",
-      "time": "21:20",
-      "publishedAt": 1790774403000,
+      "time": "07:30",
+      "publishedAt": 1790811010000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6619036"
+      "link": "https://news.cnyes.com/news/id/6619212"
     },
     {
       "region": "TW",
-      "headline": "川普強迫勞動關稅遭控濫權 美國國際貿易法庭展開審查",
+      "headline": "川普公布南韓對美2000億美元投資計畫 含阿拉斯加LNG",
       "source": "鉅亨",
-      "time": "20:50",
-      "publishedAt": 1790772603000,
+      "time": "07:20",
+      "publishedAt": 1790810403000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6618912"
+      "link": "https://news.cnyes.com/news/id/6619208"
     },
     {
       "region": "TW",
-      "headline": "〈台幣〉季底拋匯支持微升收31.852元 月、季線同步翻黑",
+      "headline": "10年期美債遭遇逾30年來最慘季 TLT寫下歷史新低",
       "source": "鉅亨",
-      "time": "20:44",
-      "publishedAt": 1790772287000,
+      "time": "06:55",
+      "publishedAt": 1790808951000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6619011"
+      "link": "https://news.cnyes.com/news/id/6619171"
     },
     {
       "region": "TW",
-      "headline": "通膨低於預期！美國8月核心PCE僅年增3% Fed下月升息押注跌破四成",
+      "headline": "特斯拉與SpaceX合併又近一步？投票制度改變引聯想",
       "source": "鉅亨",
-      "time": "20:36",
-      "publishedAt": 1790771781000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6618919"
+      "time": "06:40",
+      "publishedAt": 1790808002000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6619192"
     },
     {
       "region": "TW",
-      "headline": "瑞儀庫藏股執行期間屆滿 買回均價106.78元",
+      "headline": "〈台股盤前要聞〉台股力守五日線、鴻海分紅大成長、欣興砸百億標廠",
       "source": "台股",
-      "time": "20:27",
-      "publishedAt": 1790771232000,
+      "time": "05:10",
+      "publishedAt": 1790802603000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6619020"
+      "link": "https://news.cnyes.com/news/id/6619070"
     },
     {
       "region": "TW",
-      "headline": "法人看好台塑擴展電子級硫酸布局半導體市場 外資連3買推升股價創波段高",
+      "headline": "凱基金擬辦現金增資最多250億元 7成以上將挹注凱基證券",
       "source": "台股",
-      "time": "20:21",
-      "publishedAt": 1790770881000,
+      "time": "23:09",
+      "publishedAt": 1790780947000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6618984"
+      "link": "https://news.cnyes.com/news/id/6619098"
     },
     {
       "region": "TW",
-      "headline": "嘉泥旅宿事業結構轉變 擴大營收成長轉化為實質獲利",
+      "headline": "華航釋空服職缺 10/5起報名 最快明年1月中旬報到",
       "source": "台股",
-      "time": "20:19",
-      "publishedAt": 1790770769000,
+      "time": "23:01",
+      "publishedAt": 1790780473000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6618976"
+      "link": "https://news.cnyes.com/news/id/6619089"
+    },
+    {
+      "region": "TW",
+      "headline": "資服業新兵報到 藍新資訊以AI維運平台搶占高門檻利基市場",
+      "source": "台股",
+      "time": "23:00",
+      "publishedAt": 1790780421000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6619085"
     }
   ]
 }
