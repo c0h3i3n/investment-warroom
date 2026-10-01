@@ -10,6 +10,7 @@ const NIGHT_DELAYED_AFTER_MS = 3 * 60 * 1000;
 const NIGHT_OPEN_MAX_AGE_MS = 5 * 60 * 1000;
 const NIGHT_CLOSED_MAX_AGE_MS = 4 * 24 * 60 * 60 * 1000;
 const NIGHT_CACHE_WRITE_INTERVAL_MS = 5 * 60 * 1000;
+const MIS_RECENT_TRADE_MAX_AGE_MS = 5 * 60 * 1000;
 const TAIFEX_NIGHT_URLS = [
   'https://mis.bq888.taifex.com.tw/futures/api/getQuoteList',
   'https://mis.taifex.com.tw/futures/api/getQuoteList',
@@ -140,6 +141,15 @@ function parseMisTimestamp(row) {
   );
 }
 
+function parseMisTradeTimestamp(row) {
+  const tradeAsOf = row?.trade?.t
+    ? parseMisTimestamp({ ...row, tlong: null, t: row.trade.t })
+    : parseMisTimestamp(row);
+  const quoteAsOf = parseMisTimestamp(row);
+  return Number.isFinite(tradeAsOf) && Number.isFinite(quoteAsOf)
+    && tradeAsOf <= quoteAsOf + 5 * 60 * 1000 ? tradeAsOf : null;
+}
+
 async function fetchJson(url, timeoutMs = REQUEST_TIMEOUT_MS) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
@@ -242,7 +252,10 @@ function taifexTimestamp(row) {
   const date = String(row?.CDate || '');
   const time = String(row?.CTime || '').padStart(6, '0');
   if (!/^\d{8}$/.test(date) || !/^\d{6}$/.test(time)) return null;
-  return Date.parse(`${date.slice(0,4)}-${date.slice(4,6)}-${date.slice(6,8)}T${time.slice(0,2)}:${time.slice(2,4)}:${time.slice(4,6)}+08:00`);
+  const sessionDate = Date.parse(`${date.slice(0,4)}-${date.slice(4,6)}-${date.slice(6,8)}T${time.slice(0,2)}:${time.slice(2,4)}:${time.slice(4,6)}+08:00`);
+  if (!Number.isFinite(sessionDate)) return null;
+  // TAIFEX CDate is the night session's start date even after midnight.
+  return sessionDate + (time <= '050000' ? 86400000 : 0);
 }
 
 function contractMonth(row, nowMs) {
@@ -409,15 +422,16 @@ function misKey(symbol) {
 function parseMisQuote(row) {
   if (!row?.c) return null;
   const previousClose = Number(row.y);
-  let price = Number(row.z);
-  let priceType = 'trade';
-  if (!Number.isFinite(price) || price <= 0) {
-    const bid = String(row.b || '').split('_').map(Number).find(value => value > 0);
-    const ask = String(row.a || '').split('_').map(Number).find(value => value > 0);
-    if (!bid || !ask) return null;
-    price = (bid + ask) / 2;
-    priceType = 'indicative';
-  }
+  const quoteAsOf = parseMisTimestamp(row);
+  const tradeAsOf = parseMisTradeTimestamp(row);
+  const lastTrade = finiteNumber(row.z) > 0 ? finiteNumber(row.z) : finiteNumber(row.trade?.z);
+  const recentTrade = lastTrade > 0 && isFreshTimestamp(tradeAsOf, 'TW')
+    && (!marketOpen('TW', Date.now()) || Date.now() - tradeAsOf <= MIS_RECENT_TRADE_MAX_AGE_MS);
+  const bid = String(row.b || '').split('_').map(Number).find(value => value > 0);
+  const ask = String(row.a || '').split('_').map(Number).find(value => value > 0);
+  if (!recentTrade && (!bid || !ask)) return null;
+  const price = recentTrade ? lastTrade : (bid + ask) / 2;
+  const priceType = recentTrade ? 'trade' : 'indicative';
   const record = {
     symbol: `${row.c}.TW`,
     name: row.n || row.nf || row.c,
@@ -429,7 +443,7 @@ function parseMisQuote(row) {
     prevClose: Number.isFinite(previousClose) ? previousClose : null,
     currency: 'TWD',
     source: 'TWSE MIS',
-    asOf: parseMisTimestamp(row),
+    asOf: recentTrade ? tradeAsOf : quoteAsOf,
     priceType,
     region: 'TW',
   };
@@ -519,7 +533,7 @@ function acceptableSnapshot(snapshot) {
   return (snapshot?.valid?.indexes || 0) + (snapshot?.valid?.quotes || 0) > 0;
 }
 
-function newestFreshRecord(current, cached, region, nowMs) {
+function newestFreshRecord(current, cached, region, nowMs, preferRecentTrade = false) {
   const candidates = [current, cached]
     .filter(record => validRecord(record, region || record?.region, nowMs));
   // MIS is the official source for Taiwan records. Yahoo can timestamp the
@@ -527,7 +541,12 @@ function newestFreshRecord(current, cached, region, nowMs) {
   const official = region === 'TW'
     ? candidates.filter(record => record.source === 'TWSE MIS')
     : [];
-  return (official.length ? official : candidates).reduce((newest, record) => {
+  const preferredSource = official.length ? official : candidates;
+  const recentTrades = preferRecentTrade && official.length
+    ? official.filter(record => record.priceType === 'trade'
+      && (!marketOpen('TW', nowMs) || nowMs - Number(record.asOf) <= MIS_RECENT_TRADE_MAX_AGE_MS))
+    : [];
+  return (recentTrades.length ? recentTrades : preferredSource).reduce((newest, record) => {
     if (!newest) return record;
     const newestTime = typeof newest.asOf === 'string' ? Date.parse(newest.asOf) : Number(newest.asOf);
     const recordTime = typeof record.asOf === 'string' ? Date.parse(record.asOf) : Number(record.asOf);
@@ -553,6 +572,7 @@ export function mergeSnapshotWithCache(snapshot, cached, nowMs = Date.now()) {
     cachedQuotes.get(symbol),
     yahooRegion(symbol),
     nowMs,
+    symbol.endsWith('.TW'),
   )).filter(Boolean);
 
   return {

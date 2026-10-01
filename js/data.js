@@ -16,6 +16,7 @@ const DataService = (() => {
   const INDEX_SERIES_CLOSED_TTL = 15 * 60 * 1000;
   const INDEX_SERIES_CLOSE_GRACE = 10;
   const MARKET_DATA_CLOSED_MAX_AGE = 4 * 24 * 60 * 60 * 1000;
+  const MIS_RECENT_TRADE_MAX_AGE = 5 * 60 * 1000;
   const MARKET_SESSIONS = {
     TW: { timeZone: 'Asia/Taipei', open: 540, close: 810 },
     US: { timeZone: 'America/New_York', open: 570, close: 960 },
@@ -123,6 +124,15 @@ const DataService = (() => {
     return Date.parse(`${d.slice(0, 4)}-${d.slice(4, 6)}-${d.slice(6, 8)}T${row.t}+08:00`);
   }
 
+  function parseMisTradeTimestamp(row) {
+    const tradeAsOf = row?.trade?.t
+      ? parseMisTimestamp({ ...row, tlong: null, t: row.trade.t })
+      : parseMisTimestamp(row);
+    const quoteAsOf = parseMisTimestamp(row);
+    return Number.isFinite(tradeAsOf) && Number.isFinite(quoteAsOf)
+      && tradeAsOf <= quoteAsOf + 5 * 60 * 1000 ? tradeAsOf : null;
+  }
+
   function keepNewest(record, key = record?.symbol || record?.id) {
     if (!record || !key) return record;
     const previous = latestRecords.get(key);
@@ -133,9 +143,20 @@ const DataService = (() => {
       const nextOfficial = record.region === 'TW' && record.source === 'TWSE MIS';
       if (previousOfficial !== nextOfficial) {
         if (previousOfficial) return previous;
-      } else if (Number.isFinite(previousTime) && Number.isFinite(nextTime)
-        && previousTime > nextTime) {
-        return previous;
+      } else {
+        if (previousOfficial && String(key).endsWith('.TW')) {
+          const recentTrade = (item, time) => item.priceType === 'trade'
+            && (!isMarketOpen('TW') || Date.now() - time <= MIS_RECENT_TRADE_MAX_AGE);
+          const oldTrade = recentTrade(previous, previousTime);
+          const newTrade = recentTrade(record, nextTime);
+          if (oldTrade !== newTrade && oldTrade) return previous;
+          if (oldTrade !== newTrade && newTrade) {
+            latestRecords.set(key, record);
+            return record;
+          }
+        }
+        if (Number.isFinite(previousTime) && Number.isFinite(nextTime)
+          && previousTime > nextTime) return previous;
       }
     }
     latestRecords.set(key, record);
@@ -422,22 +443,21 @@ const DataService = (() => {
     return msgArray.filter(r => r.c && r.c !== '').map(r => {
       const symbol = r.c + '.TW';
       const prevClose = parseFloat(r.y) || null;
-      let price = null;
-      let priceType = 'trade';
-      if (r.z && r.z !== '-') {
-        price = parseFloat(r.z);
-      } else {
-        const bids = (r.b || '').split('_').filter(Boolean).map(Number);
-        const asks = (r.a || '').split('_').filter(Boolean).map(Number);
-        if (bids.length && asks.length) {
-          price = (bids[0] + asks[0]) / 2;
-          priceType = 'indicative';
-        }
-      }
+      const quoteAsOf = parseMisTimestamp(r);
+      const tradeAsOf = parseMisTradeTimestamp(r);
+      const lastTrade = Number(r.z) > 0 ? Number(r.z) : Number(r.trade?.z);
+      const recentTrade = Number.isFinite(lastTrade) && lastTrade > 0
+        && isFreshTimestamp(tradeAsOf, 'TW')
+        && (!isMarketOpen('TW') || Date.now() - tradeAsOf <= MIS_RECENT_TRADE_MAX_AGE);
+      const bids = (r.b || '').split('_').filter(Boolean).map(Number);
+      const asks = (r.a || '').split('_').filter(Boolean).map(Number);
+      const price = recentTrade ? lastTrade
+        : bids[0] > 0 && asks[0] > 0 ? (bids[0] + asks[0]) / 2 : null;
+      const priceType = recentTrade ? 'trade' : 'indicative';
       if (price==null||isNaN(price)) return null;
       const change = (price!=null&&prevClose!=null) ? price-prevClose : null;
       const changePct = (prevClose&&change!=null) ? (change/prevClose)*100 : null;
-      const sourceTime = parseMisTimestamp(r);
+      const sourceTime = recentTrade ? tradeAsOf : quoteAsOf;
       if (!isFreshRecord({ price, asOf: sourceTime }, 'TW')) return null;
       return keepNewest({ symbol, price, change, changePct, prevClose, currency:'TWD', name: r.n||r.nf||r.c, source:'TWSE MIS', asOf:sourceTime, priceType, region:'TW' }, symbol);
     }).filter(r=>r!=null);

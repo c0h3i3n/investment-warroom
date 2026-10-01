@@ -6,8 +6,12 @@
 const UI = (() => {
 
   // ── Color / class helpers ──
-  function chgClass(val) { return val >= 0 ? 'up' : 'dn'; }
-  function chgArrow(val) { return val >= 0 ? '▲' : '▼'; }
+  function chgClass(val) {
+    if (!isFiniteValue(val)) return '';
+    if (Math.abs(Number(val)) < 0.005) return 'flat';
+    return Number(val) > 0 ? 'up' : 'dn';
+  }
+  function chgArrow(val) { return chgClass(val) === 'flat' ? '—' : Number(val) >= 0 ? '▲' : '▼'; }
   function pctStr(val) { return (val >= 0 ? '+' : '') + val.toFixed(2) + '%'; }
   function isFiniteValue(value) {
     return value !== null && value !== undefined && value !== '' && Number.isFinite(Number(value));
@@ -87,7 +91,7 @@ const UI = (() => {
       const price = idx.price;
       const changePct = idx.changePct;
       const hasData = isFiniteValue(price) && isFiniteValue(changePct);
-      const cls = changePct >= 0 ? 'up' : 'dn';
+      const cls = chgClass(changePct);
 
       return `
       <div class="idx-card">
@@ -164,9 +168,6 @@ const UI = (() => {
 
     setNightStatus(data);
 
-    const analysis = NightAnalysis.evaluate(data, indexes);
-    const cls = Number(data.changePct) >= 0 ? 'up' : 'dn';
-    const arrow = Number(data.changePct) >= 0 ? '▲' : '▼';
     const state = data.status === 'open' ? '夜盤交易中' : '夜盤已收盤';
     const stateClass = data.status === 'open' ? 'live' : 'closed';
     const asOf = isFiniteValue(data.asOf) ? new Intl.DateTimeFormat('zh-TW', {
@@ -177,12 +178,26 @@ const UI = (() => {
       ? `${Number(value) >= 0 ? '+' : ''}${Number(value).toFixed(2)} 點` : '--';
     const contract = /^\d{6}$/.test(String(data.contract || ''))
       ? `${String(data.contract).slice(0,4)}/${String(data.contract).slice(4)}` : '--';
+    if (data.stale) {
+      container.innerHTML = `
+        <div class="night-headline">
+          <div>
+            <span class="night-session ${stateClass}">${state}</span>
+            <span class="night-contract">TX ${contract} · ${escapeHtml(data.source || 'TAIFEX')}</span>
+          </div>
+          <div class="night-asof">最後取得 ${asOf}</div>
+        </div>
+        <div class="night-unavailable">⚠ 夜盤資料已逾時，舊點位與基差不顯示；方向判斷已停用，等待有效行情。</div>`;
+      return;
+    }
+
+    const analysis = NightAnalysis.evaluate(data, indexes);
+    const cls = chgClass(data.changePct);
+    const arrow = chgArrow(data.changePct);
     const drivers = analysis.drivers.map(driver =>
       `<span class="night-driver"><b>${escapeHtml(driver.label)}</b> ${escapeHtml(driver.value)}</span>`).join('');
     const refreshFailed = Boolean(data.warning);
-    const warning = data.stale
-      ? `<div class="night-warning">⚠ 資料已逾時${refreshFailed ? '且即時更新失敗' : ''}，方向判斷已停用</div>`
-      : data.delayed
+    const warning = data.delayed
         ? '<div class="night-warning">⚠ 行情延遲 3–5 分鐘，方向僅供參考</div>'
       : refreshFailed || data.delivery === 'stale-kv'
         ? '<div class="night-warning">⚠ 即時更新失敗，顯示最近有效夜盤資料</div>' : '';
@@ -227,8 +242,9 @@ const UI = (() => {
     // Duplicate for seamless scroll
     const items = [...quotes, ...quotes].map(q => {
       const hasData = isFiniteValue(q.price) && isFiniteValue(q.changePct);
-      const cls = hasData && q.changePct >= 0 ? 't-up' : 't-dn';
-      const arrow = (q.changePct || 0) >= 0 ? '▲' : '▼';
+      const tone = chgClass(q.changePct);
+      const cls = hasData ? `t-${tone}` : '';
+      const arrow = chgArrow(q.changePct);
       const sym = q.symbol.replace('.TW', '');
       return `<span class="t-item"><span class="t-sym">${sym}</span><span class="t-price" title="${q.priceType === 'indicative' ? '買一／賣一中間報價' : ''}">${hasData ? (q.priceType === 'indicative' ? '≈' : '') + fmtCurrency(q.price, q.symbol.endsWith('.TW') ? 'TW' : 'US') : '--'}</span><span class="${cls}">${hasData ? arrow + ' ' + Math.abs(q.changePct).toFixed(2) + '%' : 'UNAVAILABLE'}</span></span>`;
     }).join('');
@@ -323,8 +339,8 @@ const UI = (() => {
 
     container.innerHTML = watchData.map(w => {
       const hasData = isFiniteValue(w.price) && isFiniteValue(w.changePct);
-      const cls = (w.changePct || 0) >= 0 ? 'up' : 'dn';
-      const arrow = chgArrow(w.changePct || 0);
+      const cls = chgClass(w.changePct);
+      const arrow = chgArrow(w.changePct);
       const sym = w.symbol.replace('.TW', '');
       const color = cls === 'up' ? '#ff7744' : '#cc1133';
       const realCloses = sparkData ? sparkData[w.symbol] : null;
@@ -375,8 +391,8 @@ const UI = (() => {
 
     container.innerHTML = data.map(q => {
       const hasData = isFiniteValue(q.price) && isFiniteValue(q.changePct);
-      const cls = (q.changePct || 0) >= 0 ? 'up' : 'dn';
-      const arrow = (q.changePct || 0) >= 0 ? '▲' : '▼';
+      const cls = chgClass(q.changePct);
+      const arrow = chgArrow(q.changePct);
       const sym = q.symbol.replace('.TW', '');
       return `
       <div class="featured-card">

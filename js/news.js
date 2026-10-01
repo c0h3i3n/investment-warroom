@@ -11,6 +11,22 @@ const NewsService = (() => {
     return str.length > len ? str.slice(0, len) + '…' : str;
   }
 
+  function decodeHeadline(value) {
+    const named = { amp:'&', lt:'<', gt:'>', quot:'"', apos:"'", nbsp:' ' };
+    let result = String(value || '');
+    for (let pass = 0; pass < 2; pass += 1) {
+      const decoded = result.replace(/&(#x[0-9a-f]+|#\d+|amp|lt|gt|quot|apos|nbsp);/gi, (_, entity) => {
+        const lower = entity.toLowerCase();
+        if (lower in named) return named[lower];
+        const code = lower.startsWith('#x') ? parseInt(lower.slice(2), 16) : parseInt(lower.slice(1), 10);
+        return code >= 32 && code <= 0x10ffff ? String.fromCodePoint(code) : _;
+      });
+      if (decoded === result) break;
+      result = decoded;
+    }
+    return result;
+  }
+
   function detectImpact(title) {
     const tl = title.toLowerCase();
     if (/漲|飆|突破|創高|上調|樂觀|surge|rally|record|upgrade/i.test(tl)) return 'pos';
@@ -35,13 +51,14 @@ const NewsService = (() => {
           : '--:--';
         const source = (item.author || feedConfig.name || '').replace(/\(.*\)/, '').trim().slice(0, 12);
 
+        const headline = truncate(decodeHeadline(item.title), 80);
         return {
           region: feedConfig.region,
-          headline: truncate(item.title || '', 80),
+          headline,
           source: source || feedConfig.name,
           time,
           publishedAt,
-          impact: detectImpact(item.title || ''),
+          impact: detectImpact(headline),
           link: item.link || '',
         };
       });

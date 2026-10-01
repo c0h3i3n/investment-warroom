@@ -199,6 +199,41 @@ test('quote API supports a user-added US symbol', async t => {
   assert.equal(payload.quote.price, 240);
 });
 
+test('Taiwan quote uses the latest trade field before the bid/ask midpoint', async t => {
+  const originalFetch = globalThis.fetch;
+  const originalNow = Date.now;
+  Date.now = () => Date.parse('2026-10-01T02:30:30Z');
+  const row = {
+    c:'2330', d:'20261001', t:'10:30:00', z:'-', y:'2480',
+    b:'2495_2490_', a:'2500_2505_', trade:{ z:'2500', t:'10:29:19' },
+  };
+  globalThis.fetch = async () => new Response(JSON.stringify({ msgArray:[row] }), { status:200 });
+  t.after(() => { globalThis.fetch = originalFetch; Date.now = originalNow; });
+
+  const request = new Request('https://worker.example/api/quote?symbol=2330.TW');
+  const traded = await (await handleRequest(request, {})).json();
+  assert.equal(traded.quote.price, 2500);
+  assert.equal(traded.quote.priceType, 'trade');
+  assert.equal(traded.quote.asOf, Date.parse('2026-10-01T10:29:19+08:00'));
+
+  row.trade.t = '10:10:00';
+  const indicative = await (await handleRequest(request, {})).json();
+  assert.equal(indicative.quote.price, 2497.5);
+  assert.equal(indicative.quote.priceType, 'indicative');
+  assert.equal(indicative.quote.asOf, Date.parse('2026-10-01T10:30:00+08:00'));
+});
+
+test('fresh traded price wins over a newer indicative cached quote', () => {
+  const now = Date.parse('2026-10-01T02:30:30Z');
+  const quote = (price, priceType, time) => ({
+    symbol:'2330.TW', region:'TW', source:'TWSE MIS', price, priceType,
+    asOf:Date.parse(`2026-10-01T${time}+08:00`),
+  });
+  const snapshot = { indexes:[], quotes:[quote(2500, 'trade', '10:29:19')] };
+  const cached = { indexes:[], quotes:[quote(2497.5, 'indicative', '10:30:00')] };
+  assert.equal(mergeSnapshotWithCache(snapshot, cached, now).quotes[0].price, 2500);
+});
+
 test('history API permits a valid user-added symbol but rejects path-like input', async () => {
   const history = {
     schemaVersion:1, generatedAt:new Date().toISOString(), symbol:'AAPL', range:'6mo', interval:'1d',

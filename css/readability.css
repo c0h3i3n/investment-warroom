@@ -21,6 +21,7 @@ body { cursor:auto; line-height:1.5; }
   font-variant-numeric:tabular-nums; letter-spacing:0;
   text-shadow:none !important;
 }
+.idx-price.flat,.idx-pct.flat,.w-chg.flat,.featured-chg.flat,.t-flat { color:var(--text-mid); }
 .idx-price { font-size:clamp(20px,2vw,28px); line-height:1.25; }
 .idx-name,.w-name { font-size:13px; font-weight:400; }
 .idx-name { min-height:20px; }
