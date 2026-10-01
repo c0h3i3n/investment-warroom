@@ -1,11 +1,65 @@
 {
-  "timestamp": "2026-10-01T13:01:45.987529+00:00",
-  "generatedAt": "2026-10-01T13:01:45.987529+00:00",
+  "timestamp": "2026-10-01T18:48:19.306937+00:00",
+  "generatedAt": "2026-10-01T18:48:19.306937+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "權益大戰再升級！國泰世華結盟inline首創「專屬訂位」 熱門餐廳獨家訂到",
+      "headline": "美光毛利率高達87% 為何是福也是禍？",
       "source": "鉅亨",
+      "time": "23:51",
+      "publishedAt": 1790869905000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6619916"
+    },
+    {
+      "region": "TW",
+      "headline": "外匯速報 - 歐元/美元(EURUSD) 大跌0.88%，報1.123元",
+      "source": "鉅亨",
+      "time": "23:50",
+      "publishedAt": 1790869821000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6619917"
+    },
+    {
+      "region": "TW",
+      "headline": "美債殖利率衝5.34%！這波債市賣壓為何停不下來？",
+      "source": "鉅亨",
+      "time": "23:30",
+      "publishedAt": 1790868605000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6619870"
+    },
+    {
+      "region": "TW",
+      "headline": "外匯速報 - 美元/南非蘭特(USDZAR) 大漲1.66%，報16.6918元",
+      "source": "鉅亨",
+      "time": "23:10",
+      "publishedAt": 1790867421000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6619908"
+    },
+    {
+      "region": "TW",
+      "headline": "路透社：美國官員研判2027年共軍犯台可能性降低",
+      "source": "台股",
+      "time": "22:50",
+      "publishedAt": 1790866233000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6619883"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：緯穎(6669-TW)EPS預估上修至121.69元，預估目標價為2715.57元",
+      "source": "台股",
+      "time": "22:11",
+      "publishedAt": 1790863876000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6619886"
+    },
+    {
+      "region": "TW",
+      "headline": "權益大戰再升級！國泰世華結盟inline首創「專屬訂位」 熱門餐廳獨家訂到",
+      "source": "台股",
       "time": "20:44",
       "publishedAt": 1790858649000,
       "impact": "neu",
@@ -13,48 +67,12 @@
     },
     {
       "region": "TW",
-      "headline": "美企業9月裁員人數降至2022年以來同期新低",
-      "source": "鉅亨",
-      "time": "20:40",
-      "publishedAt": 1790858402000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6619747"
-    },
-    {
-      "region": "TW",
-      "headline": "美伊戰爭還沒完！川普稱期中選舉後可能加強轟炸伊朗",
-      "source": "鉅亨",
-      "time": "20:30",
-      "publishedAt": 1790857805000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6619808"
-    },
-    {
-      "region": "TW",
       "headline": "國科會通過13件園區投資案共512億元 南亞科確定入駐屏科",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "20:23",
       "publishedAt": 1790857436000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6619817"
-    },
-    {
-      "region": "TW",
-      "headline": "3大破兆預算新會期上陣！政院揭10大重點議案聚焦民生經濟 社福津貼回溯7/1加碼",
-      "source": "台股",
-      "time": "20:18",
-      "publishedAt": 1790857094000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6619810"
-    },
-    {
-      "region": "TW",
-      "headline": "買一張只要1萬5！00830擬「1拆5」分割 11/19召開受益人會議",
-      "source": "台股",
-      "time": "20:15",
-      "publishedAt": 1790856917000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6619819"
     }
   ]
 }
