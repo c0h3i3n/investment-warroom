@@ -1,42 +1,60 @@
 {
-  "timestamp": "2026-10-01T18:48:19.306937+00:00",
-  "generatedAt": "2026-10-01T18:48:19.306937+00:00",
+  "timestamp": "2026-10-01T23:05:16.442044+00:00",
+  "generatedAt": "2026-10-01T23:05:16.442044+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "美光毛利率高達87% 為何是福也是禍？",
+      "headline": "德銀點名9大科技股 將領軍下一波AI投資熱潮",
       "source": "鉅亨",
-      "time": "23:51",
-      "publishedAt": 1790869905000,
+      "time": "06:50",
+      "publishedAt": 1790895004000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6619916"
+      "link": "https://news.cnyes.com/news/id/6619912"
     },
     {
       "region": "TW",
-      "headline": "外匯速報 - 歐元/美元(EURUSD) 大跌0.88%，報1.123元",
+      "headline": "〈貴金屬盤後〉黃金小漲 Fed升息預期降溫但美債殖利率仍高",
       "source": "鉅亨",
-      "time": "23:50",
-      "publishedAt": 1790869821000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6619917"
-    },
-    {
-      "region": "TW",
-      "headline": "美債殖利率衝5.34%！這波債市賣壓為何停不下來？",
-      "source": "鉅亨",
-      "time": "23:30",
-      "publishedAt": 1790868605000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6619870"
-    },
-    {
-      "region": "TW",
-      "headline": "外匯速報 - 美元/南非蘭特(USDZAR) 大漲1.66%，報16.6918元",
-      "source": "鉅亨",
-      "time": "23:10",
-      "publishedAt": 1790867421000,
+      "time": "06:46",
+      "publishedAt": 1790894781000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6619908"
+      "link": "https://news.cnyes.com/news/id/6619636"
+    },
+    {
+      "region": "TW",
+      "headline": "AI晶片上太空！谷歌發射實驗衛星測試自研TPU晶片 Space能否助太空資料中心邁關鍵一步？",
+      "source": "鉅亨",
+      "time": "06:40",
+      "publishedAt": 1790894403000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6620025"
+    },
+    {
+      "region": "TW",
+      "headline": "美光財報佳漲逾3% 分析師的關鍵問題有答案了",
+      "source": "鉅亨",
+      "time": "06:40",
+      "publishedAt": 1790894403000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6620005"
+    },
+    {
+      "region": "TW",
+      "headline": "〈財報〉Nke Q1營收不如預期 中國業務驟減22% 加速轉型再裁員",
+      "source": "台股",
+      "time": "06:30",
+      "publishedAt": 1790893847000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6620003"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股盤前要聞〉台股重返4萬8、美光攜台廠出海、勞動基金大賺",
+      "source": "台股",
+      "time": "05:10",
+      "publishedAt": 1790889003000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6619878"
     },
     {
       "region": "TW",
@@ -55,24 +73,6 @@
       "publishedAt": 1790863876000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6619886"
-    },
-    {
-      "region": "TW",
-      "headline": "權益大戰再升級！國泰世華結盟inline首創「專屬訂位」 熱門餐廳獨家訂到",
-      "source": "台股",
-      "time": "20:44",
-      "publishedAt": 1790858649000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6619851"
-    },
-    {
-      "region": "TW",
-      "headline": "國科會通過13件園區投資案共512億元 南亞科確定入駐屏科",
-      "source": "台股",
-      "time": "20:23",
-      "publishedAt": 1790857436000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6619817"
     }
   ]
 }
