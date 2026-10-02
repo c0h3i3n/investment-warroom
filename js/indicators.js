@@ -280,36 +280,75 @@ const IndicatorsService = (() => {
   // ═══════════════════════════════════════
   // Calculate all indicators
   // ═══════════════════════════════════════
-  async function calculateFor(symbol, currentPrice) {
+  function marketDateParts(timestamp, zone) {
+    const parts = Object.fromEntries(new Intl.DateTimeFormat('en-US', {
+      timeZone: zone, year: 'numeric', month: '2-digit', day: '2-digit',
+      hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
+    }).formatToParts(new Date(timestamp)).map(part => [part.type, part.value]));
+    const hour = Number(parts.hour) === 24 ? 0 : Number(parts.hour);
+    return {
+      date: `${parts.year}-${parts.month}-${parts.day}`,
+      minutes: hour * 60 + Number(parts.minute),
+      dayNumber: Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day)),
+    };
+  }
+
+  // Yahoo's daily candle may be a partial trading day. Its timestamp marks
+  // the session date, not the time the candle was last updated.
+  function completedDailyData(data, symbol) {
+    const region = /\.TW$/i.test(symbol) ? 'TW' : 'US';
+    const zone = region === 'TW' ? 'Asia/Taipei' : 'America/New_York';
+    const latest = data.at(-1);
+    if (!latest) return { rows: data, excludedIncomplete: false };
+    const candle = marketDateParts(latest.time, zone);
+    const fetchedAt = Date.parse(data.meta?.generatedAt || '');
+    const fetched = Number.isFinite(fetchedAt) ? marketDateParts(fetchedAt, zone) : null;
+    const marketClose = MarketCalendar.closeMinutes(region, candle.dayNumber);
+    const sourceAsOf = Number(data.meta?.sourceAsOf);
+    const source = Number.isFinite(sourceAsOf) && sourceAsOf > 0
+      ? marketDateParts(sourceAsOf, zone) : null;
+    const sourceStillTrading = source?.date === candle.date && source.minutes < marketClose - 1;
+    const incomplete = !fetched || fetched.date < candle.date
+      || sourceStillTrading
+      || (fetched.date === candle.date && (fetched.minutes < marketClose + 15
+        || !source || source.date !== candle.date || source.minutes < marketClose - 1));
+    return {
+      rows: incomplete ? data.slice(0, -1) : data,
+      excludedIncomplete: incomplete,
+    };
+  }
+
+  async function calculateFor(symbol) {
     console.log('[Indicators] Fetching historical data for', symbol);
     const data = await DataService.fetchHistorical(symbol, '6mo', '1d');
     if (!data) {
       console.warn('[Indicators] fetchHistorical returned null');
       return { error: 'API 逾時或代理失敗' };
     }
-    if (data.length < 60) {
-      console.warn('[Indicators] Not enough data:', data.length);
-      return { error: `歷史資料不足 (${data.length}筆，需60筆)` };
+    const { rows, excludedIncomplete } = completedDailyData(data, symbol);
+    if (rows.length < 60) {
+      console.warn('[Indicators] Not enough completed daily data:', rows.length);
+      return { error: `已完成日線不足 (${rows.length}筆，需60筆)` };
     }
-    console.log('[Indicators] Got', data.length, 'points, calculating...');
+    console.log('[Indicators] Got', rows.length, 'completed points, calculating...');
 
-    const closes = getCloses(data);
-    const highs = getHighs(data);
-    const lows = getLows(data);
+    const closes = getCloses(rows);
+    const highs = getHighs(rows);
+    const lows = getLows(rows);
     const rsi = calcRSI(closes);
     const macd = calcMACD(closes);
     const stoch = calcStochastic(highs, lows, closes);
     const ma20 = calcSMA(closes, 20);
     const ma60 = calcSMA(closes, 60);
-    const volumeIndicator = analyzeVolume(data, symbol);
+    const volumeIndicator = analyzeVolume(rows, symbol);
 
     return {
       symbol,
-      asOf: data.at(-1).time,
+      asOf: rows.at(-1).time,
       calculatedAt: Date.now(),
-      historyMeta: data.meta,
-      indicators: interpret(rsi, macd, stoch, ma20, ma60, currentPrice, volumeIndicator),
-      chartData: data.slice(-60),
+      historyMeta: { ...data.meta, excludedIncomplete },
+      indicators: interpret(rsi, macd, stoch, ma20, ma60, rows.at(-1).close, volumeIndicator),
+      chartData: rows.slice(-60),
     };
   }
 

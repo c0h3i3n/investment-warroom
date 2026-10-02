@@ -17,6 +17,7 @@ const DataService = (() => {
   const INDEX_SERIES_CLOSE_GRACE = 10;
   const MARKET_DATA_CLOSED_MAX_AGE = 4 * 24 * 60 * 60 * 1000;
   const MIS_RECENT_TRADE_MAX_AGE = 5 * 60 * 1000;
+  const TW_OPEN_QUOTE_MAX_AGE = 8 * 60 * 1000;
   const MARKET_SESSIONS = {
     TW: { timeZone: 'Asia/Taipei', open: 540, close: 810 },
     US: { timeZone: 'America/New_York', open: 570, close: 960 },
@@ -77,7 +78,9 @@ const DataService = (() => {
     if (!Number.isFinite(sourceMs) || sourceMs <= 0) return false;
     const age = nowMs - sourceMs;
     if (age < -5 * 60 * 1000) return false;
-    if (isMarketOpen(region, new Date(nowMs))) return age <= 20 * 60 * 1000;
+    if (isMarketOpen(region, new Date(nowMs))) {
+      return age <= (region === 'TW' ? TW_OPEN_QUOTE_MAX_AGE : 20 * 60 * 1000);
+    }
     if (age > 30 * 86400000) return false;
 
     // Outside trading hours, only the latest plausible trading session is
@@ -566,7 +569,8 @@ const DataService = (() => {
         if (response.ok) {
           const payload = await response.json();
           const data = HistoryValidation.normalize(payload?.data, symbol, interval);
-          data.meta = { generatedAt:payload.generatedAt, delivery:payload.delivery,
+          data.meta = { generatedAt:payload.generatedAt, sourceAsOf:payload.sourceAsOf,
+            delivery:payload.delivery,
             rejectedRows:payload.rejectedRows || 0, source:payload.source };
           if (payload?.schemaVersion === 1 && data.length >= 2) {
             if (requestEpoch === cacheEpoch) setCache(key, data);
@@ -586,7 +590,11 @@ const DataService = (() => {
       if (!result) throw new Error('No chart data');
 
       const data = HistoryValidation.fromYahoo(result, symbol, interval);
-      data.meta = { delivery:'browser', source:'Yahoo Finance' };
+      data.meta = {
+        delivery:'browser', source:'Yahoo Finance', generatedAt:new Date().toISOString(),
+        sourceAsOf:Number.isFinite(Number(result.meta?.regularMarketTime))
+          ? Number(result.meta.regularMarketTime) * 1000 : null,
+      };
 
       if (requestEpoch === cacheEpoch) setCache(key, data);
       return data;

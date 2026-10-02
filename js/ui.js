@@ -29,22 +29,6 @@ const UI = (() => {
     return [type, record.source, time].filter(Boolean).join(' · ');
   }
 
-  function isIntradayIndicator(indData) {
-    if (!isFiniteValue(indData?.asOf)) return false;
-    const region = String(indData.symbol || '').endsWith('.TW') ? 'TW' : 'US';
-    const zone = region === 'TW' ? 'Asia/Taipei' : 'America/New_York';
-    const parts = value => Object.fromEntries(new Intl.DateTimeFormat('en-CA', {
-      timeZone:zone,year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false
-    }).formatToParts(new Date(value)).map(item => [item.type,item.value]));
-    const source = parts(Number(indData.asOf)), now = parts(Date.now());
-    const sameDay = source.year === now.year && source.month === now.month && source.day === now.day;
-    const minutes = Number(now.hour) * 60 + Number(now.minute);
-    const open = region === 'TW' ? 540 : 570;
-    const day = Date.UTC(Number(now.year),Number(now.month)-1,Number(now.day));
-    return sameDay && MarketCalendar.tradingDay(region,day)
-      && minutes >= open && minutes < MarketCalendar.closeMinutes(region,day);
-  }
-
   // ── Price Flash Animation ──
   const _prevPrices = {};
 
@@ -400,6 +384,7 @@ const UI = (() => {
         <div class="featured-name">${q.name || ''}</div>
         <div class="featured-price ${hasData ? cls : ''}" data-sym="${q.symbol}" title="${q.priceType === 'indicative' ? '≈ 代表買一／賣一中間報價，非最後成交價' : ''}">${hasData ? (q.priceType === 'indicative' ? '≈' : '') + Number(q.price).toFixed(2) : '--'}</div>
         <div class="featured-chg ${hasData ? cls : ''}">${hasData ? arrow + ' ' + Math.abs(q.change || 0).toFixed(2) + ' (' + Math.abs(q.changePct).toFixed(2) + '%)' : '⚠ UNAVAILABLE'}</div>
+        <div class="featured-meta">${escapeHtml(quoteMeta(q))}</div>
       </div>`;
     }).join('');
 
@@ -445,9 +430,18 @@ const UI = (() => {
       `).join('');
       const status = document.createElement('div');
       status.style.cssText = 'grid-column:1/-1;font-size:11px;color:var(--dim)';
-      const format = time => new Date(time).toLocaleString('zh-TW', {timeZone:'Asia/Taipei'});
-      status.textContent = '日線 ' + format(indData.asOf) + ' · 計算 ' + format(indData.calculatedAt)
-        + (isIntradayIndicator(indData) ? ' · 今日盤中日線，指標尚未定稿' : '')
+      const zone = String(indData.symbol || '').endsWith('.TW') ? 'Asia/Taipei' : 'America/New_York';
+      const asDate = time => new Intl.DateTimeFormat('zh-TW', {
+        timeZone:zone, year:'numeric', month:'2-digit', day:'2-digit',
+      }).format(new Date(time));
+      const asTime = time => new Intl.DateTimeFormat('zh-TW', {
+        timeZone:zone, month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', hour12:false,
+      }).format(new Date(time));
+      const generatedAt = Date.parse(indData.historyMeta?.generatedAt || '');
+      status.textContent = '技術指標截至 ' + asDate(indData.asOf) + ' 完整日線'
+        + (indData.historyMeta?.source ? ' · ' + indData.historyMeta.source : '')
+        + (Number.isFinite(generatedAt) ? ' · 資料取得 ' + asTime(generatedAt) : ' · 資料取得時間不明')
+        + (indData.historyMeta?.excludedIncomplete ? ' · 盤中日線未納入' : '')
         + (indData.historyMeta?.delivery === 'stale-kv' ? ' · 更新失敗，使用快取' : '')
         + (indData.historyMeta?.rejectedRows ? ' · 已排除異常日線 ' + indData.historyMeta.rejectedRows + ' 筆' : '');
       grid.appendChild(status);

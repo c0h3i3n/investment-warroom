@@ -396,11 +396,7 @@ const App = (() => {
     indicatorLastAttempt = Date.now();
     UI.showIndicatorLoading(symbol, automatic);
     const task = (async () => {
-      const existingQuote = watchlistQuotes.find(item => item.symbol === symbol);
-      const quote = DataService.isFreshRecord(existingQuote)
-        ? existingQuote
-        : await DataService.fetchQuote(symbol);
-      const result = await IndicatorsService.calculateFor(symbol, quote?.price);
+      const result = await IndicatorsService.calculateFor(symbol);
       if (generation !== indicatorGeneration) return false;
       if (result && !result.error) {
         UI.renderIndicators(result);

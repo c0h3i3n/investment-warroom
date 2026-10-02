@@ -36,6 +36,7 @@ body { cursor:auto; line-height:1.5; }
 .featured-name { grid-column:1; grid-row:2; margin:0; font-size:13px; }
 .featured-price { grid-column:2; grid-row:1; margin:0; font-size:28px; line-height:1.3; color:var(--text); }
 .featured-chg { grid-column:2; grid-row:2; text-align:right; font-size:13px; }
+.featured-meta { grid-column:1/-1; grid-row:3; margin-top:4px; color:var(--text-dim); font-size:10px; }
 .ind-val { font-size:25px; line-height:1.3; }
 .ind-cell { padding:12px; }
 .w-ticker { text-shadow:none; }

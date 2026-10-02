@@ -11,6 +11,8 @@ const NIGHT_OPEN_MAX_AGE_MS = 5 * 60 * 1000;
 const NIGHT_CLOSED_MAX_AGE_MS = 4 * 24 * 60 * 60 * 1000;
 const NIGHT_CACHE_WRITE_INTERVAL_MS = 5 * 60 * 1000;
 const MIS_RECENT_TRADE_MAX_AGE_MS = 5 * 60 * 1000;
+const TW_QUOTE_REFRESH_AGE_MS = 60 * 1000;
+const TW_OPEN_QUOTE_MAX_AGE_MS = 8 * 60 * 1000;
 const TAIFEX_NIGHT_URLS = [
   'https://mis.bq888.taifex.com.tw/futures/api/getQuoteList',
   'https://mis.taifex.com.tw/futures/api/getQuoteList',
@@ -66,6 +68,18 @@ function historyCacheMaxAge(symbol, range, interval, nowMs = Date.now()) {
   return marketOpen(yahooRegion(symbol), nowMs) ? 60 * 60 * 1000 : 6 * 60 * 60 * 1000;
 }
 
+function dailyHistoryNeedsCloseRefresh(symbol, interval, cachedAt, nowMs = Date.now()) {
+  if (interval !== '1d' || !Number.isFinite(cachedAt)) return false;
+  const region = yahooRegion(symbol);
+  const fetched = marketParts(region, cachedAt);
+  const now = marketParts(region, nowMs);
+  if (fetched.dayNumber !== now.dayNumber || !MarketCalendar.tradingDay(region, now.dayNumber)) {
+    return false;
+  }
+  const finalizedAfter = MarketCalendar.closeMinutes(region, now.dayNumber) + 15;
+  return fetched.minutes < finalizedAfter && now.minutes >= finalizedAfter;
+}
+
 function marketParts(region, timestamp = Date.now()) {
   const session = MARKET_SESSIONS[region] || MARKET_SESSIONS.US;
   const values = Object.fromEntries(new Intl.DateTimeFormat('en-US', {
@@ -115,7 +129,9 @@ export function isFreshTimestamp(timestamp, region, nowMs = Date.now()) {
   if (!Number.isFinite(sourceMs) || sourceMs <= 0) return false;
   const age = nowMs - sourceMs;
   if (age < -5 * 60 * 1000) return false;
-  if (marketOpen(region, nowMs)) return age <= 20 * 60 * 1000;
+  if (marketOpen(region, nowMs)) {
+    return age <= (region === 'TW' ? TW_OPEN_QUOTE_MAX_AGE_MS : 20 * 60 * 1000);
+  }
   if (age > 30 * 86400000) return false;
 
   const session = MARKET_SESSIONS[region] || MARKET_SESSIONS.US;
@@ -405,6 +421,8 @@ export async function fetchYahooHistory(symbol, range, interval) {
   return {
     schemaVersion: 1,
     generatedAt: new Date().toISOString(),
+    sourceAsOf: Number.isFinite(Number(result.meta?.regularMarketTime))
+      ? Number(result.meta.regularMarketTime) * 1000 : null,
     symbol,
     range,
     interval,
@@ -653,7 +671,9 @@ async function handleHistoryRequest(request, env, url) {
     : null;
   const cachedAt = Date.parse(cached?.generatedAt || '');
   const cacheAgeMs = Number.isFinite(cachedAt) ? Math.max(0, Date.now() - cachedAt) : Infinity;
-  if (cached && cacheAgeMs <= historyCacheMaxAge(symbol, range, interval)) {
+  if (cached && (interval !== '1d' || Number(cached.sourceAsOf) > 0)
+    && cacheAgeMs <= historyCacheMaxAge(symbol, range, interval)
+    && !dailyHistoryNeedsCloseRefresh(symbol, interval, cachedAt)) {
     return jsonResponse({ ...cached, delivery: 'kv' }, 200, request);
   }
 
@@ -791,6 +811,19 @@ export async function handleRequest(request, env) {
   }
 
   if (cached && acceptableSnapshot(cached) && cacheAgeMs <= SNAPSHOT_MAX_AGE_MS) {
+    if (marketOpen('TW', Date.now()) && cacheAgeMs > TW_QUOTE_REFRESH_AGE_MS) {
+      try {
+        const mis = await fetchMisBatch(QUOTE_SYMBOLS);
+        if (mis.indexes.length || mis.quotes.length) {
+          const updated = mergeSnapshotWithCache({
+            ...cached, indexes: mis.indexes, quotes: mis.quotes,
+          }, cached);
+          return jsonResponse({ ...updated, delivery: 'kv+live-mis' }, 200, request);
+        }
+      } catch (error) {
+        console.warn('MIS quote refresh failed, using fresh snapshot:', error);
+      }
+    }
     return jsonResponse({ ...cached, delivery: 'kv' }, 200, request);
   }
 

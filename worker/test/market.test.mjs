@@ -11,7 +11,8 @@ import {
 
 test('freshness rejects an old open-market quote and accepts the current one', () => {
   const now = Date.parse('2026-07-31T02:00:00Z'); // Thu 10:00 Taipei
-  assert.equal(isFreshTimestamp(now - 10 * 60 * 1000, 'TW', now), true);
+  assert.equal(isFreshTimestamp(now - 5 * 60 * 1000, 'TW', now), true);
+  assert.equal(isFreshTimestamp(now - 10 * 60 * 1000, 'TW', now), false);
   assert.equal(isFreshTimestamp(now - 30 * 60 * 1000, 'TW', now), false);
 });
 
@@ -93,6 +94,39 @@ test('API serves KV data with CORS and avoids an upstream refresh', async t => {
   assert.equal((await response.json()).delivery, 'kv');
 });
 
+test('a cached market snapshot refreshes Taiwan quotes from MIS during trading', async t => {
+  const originalNow = Date.now;
+  const originalFetch = globalThis.fetch;
+  const now = Date.parse('2026-07-31T02:00:00Z');
+  Date.now = () => now;
+  globalThis.fetch = async url => {
+    assert.match(String(url), /mis\.twse\.com\.tw/);
+    return new Response(JSON.stringify({ msgArray:[{
+      c:'0050', d:'20260731', t:'09:59:30', z:'101', y:'100',
+      tlong:String(now - 30000),
+    }] }), { status:200 });
+  };
+  t.after(() => { Date.now = originalNow; globalThis.fetch = originalFetch; });
+  const snapshot = {
+    schemaVersion:1,
+    generatedAt:new Date(now - 3 * 60 * 1000).toISOString(),
+    indexes:[],
+    quotes:[{
+      symbol:'0050.TW', price:100, asOf:now - 3 * 60 * 1000,
+      region:'TW', source:'TWSE MIS', priceType:'trade',
+    }],
+  };
+  const env = { MARKET_CACHE:{
+    get:async () => snapshot,
+    put:async () => assert.fail('read-time MIS refresh must not rewrite KV'),
+  } };
+  const response = await handleRequest(new Request('https://worker.example/api/market'), env);
+  const payload = await response.json();
+  assert.equal(response.status, 200);
+  assert.equal(payload.delivery, 'kv+live-mis');
+  assert.equal(payload.quotes.find(item => item.symbol === '0050.TW').price, 101);
+});
+
 test('a refresh keeps a missing cached symbol only while its source time is fresh', () => {
   const now = Date.parse('2026-07-31T02:00:00Z'); // Thu 10:00 Taipei
   const record = (symbol, minutesOld, price) => ({
@@ -149,6 +183,7 @@ test('history API serves a cached 0050 series without an upstream request', asyn
   const history = {
     schemaVersion: 1,
     generatedAt: new Date().toISOString(),
+    sourceAsOf: Date.now(),
     symbol: '0050.TW',
     range: '6mo',
     interval: '1d',
@@ -175,6 +210,41 @@ test('history API serves a cached 0050 series without an upstream request', asyn
   assert.equal(response.status, 200);
   assert.equal(payload.delivery, 'kv');
   assert.equal(payload.data.length, 2);
+});
+
+test('daily history fetched before the close is refreshed after the session finishes', async t => {
+  const originalNow = Date.now;
+  const originalFetch = globalThis.fetch;
+  const now = Date.parse('2026-10-01T06:00:00Z'); // 14:00 Taipei
+  Date.now = () => now;
+  globalThis.fetch = async url => {
+    assert.match(String(url), /\/chart\/0050\.TW\?/);
+    return new Response(JSON.stringify({ chart:{ result:[{
+      meta:{ regularMarketTime:Date.parse('2026-10-01T05:30:00Z') / 1000 },
+      timestamp:[
+        Date.parse('2026-09-30T01:00:00Z') / 1000,
+        Date.parse('2026-10-01T01:00:00Z') / 1000,
+      ],
+      indicators:{ quote:[{
+        open:[100,101], high:[102,103], low:[99,100],
+        close:[101,102], volume:[1000,2000],
+      }] },
+    }] } }), { status:200 });
+  };
+  t.after(() => { Date.now = originalNow; globalThis.fetch = originalFetch; });
+  const cached = {
+    schemaVersion:1, generatedAt:'2026-10-01T02:30:00Z',
+    symbol:'0050.TW', range:'6mo', interval:'1d', data:[{ time:1 }, { time:2 }],
+  };
+  const env = { MARKET_CACHE:{ get:async () => cached, put:async () => {} } };
+  const response = await handleRequest(new Request(
+    'https://worker.example/api/history?symbol=0050.TW&range=6mo&interval=1d',
+  ), env);
+  const payload = await response.json();
+  assert.equal(response.status, 200);
+  assert.equal(payload.delivery, 'live');
+  assert.equal(payload.sourceAsOf, Date.parse('2026-10-01T05:30:00Z'));
+  assert.equal(payload.data.at(-1).close, 102);
 });
 
 test('quote API supports a user-added US symbol', async t => {

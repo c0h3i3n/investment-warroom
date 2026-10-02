@@ -38,6 +38,45 @@ test('a rounded zero index change does not display a down arrow', () => {
   assert.doesNotMatch(element.innerHTML, /▼ 0\.00%/);
 });
 
+test('featured quotes show their source time and distinguish an indicative price', () => {
+  const element = { innerHTML:'', querySelector:() => null };
+  const context = vm.createContext({
+    document:{ getElementById:id => id === 'featured-row' ? element : null },
+    window:{ _featuredQuotes:[{
+      symbol:'2330.TW', name:'台積電', price:2502.5, change:22.5,
+      changePct:0.91, priceType:'indicative', source:'TWSE MIS',
+      asOf:Date.parse('2026-10-01T11:20:00+08:00'),
+    }] },
+    setTimeout:() => {},
+  });
+  vm.runInContext(fs.readFileSync(new URL('../../js/ui.js', import.meta.url), 'utf8'), context);
+  vm.runInContext('UI.renderFeatured()', context);
+  assert.match(element.innerHTML, /中間報價 · TWSE MIS · 10\/01\s+11:20/);
+  assert.match(element.innerHTML, /≈2502\.50/);
+});
+
+test('technical indicators identify the completed session and actual retrieval time', () => {
+  const grid = { innerHTML:'', appendChild(node) { this.status = node.textContent; } };
+  const label = { textContent:'' };
+  const context = vm.createContext({
+    document:{
+      getElementById:id => ({ 'ind-grid':grid, 'ind-label':label })[id] || null,
+      createElement:() => ({ style:{ cssText:'' }, textContent:'' }),
+    },
+  });
+  vm.runInContext(fs.readFileSync(new URL('../../js/ui.js', import.meta.url), 'utf8'), context);
+  context.data = {
+    symbol:'0050.TW', asOf:Date.parse('2026-09-30T01:00:00Z'),
+    indicators:[{ name:'MA · 20', value:'110.0', signal:'BELOW ✗', color:'dn' }],
+    historyMeta:{ source:'Yahoo Finance', generatedAt:'2026-10-01T02:27:57Z', excludedIncomplete:true },
+  };
+  vm.runInContext('UI.renderIndicators(data)', context);
+  assert.match(grid.status, /技術指標截至 2026\/09\/30 完整日線/);
+  assert.match(grid.status, /資料取得 10\/01\s+10:27/);
+  assert.match(grid.status, /盤中日線未納入/);
+  assert.doesNotMatch(grid.status, /計算/);
+});
+
 test('RSS headlines decode entities without inserting markup into the UI', async () => {
   const context = vm.createContext({
     CONFIG: { RSS_FEEDS:[{ name:'Test',url:'https://example.test/rss',region:'US' }], REFRESH_NEWS:300000 },
