@@ -1,60 +1,78 @@
 {
-  "timestamp": "2026-10-02T09:38:24.322505+00:00",
-  "generatedAt": "2026-10-02T09:38:24.322505+00:00",
+  "timestamp": "2026-10-02T16:13:27.900359+00:00",
+  "generatedAt": "2026-10-02T16:13:27.900359+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "中磊進軍歐洲Network X大展 發表Wi-Fi 8與50G PON次世代寬頻技術",
+      "headline": "盤中速報 - 愛麗絲大跌21.28%，報0.178美元",
       "source": "鉅亨",
-      "time": "16:50",
-      "publishedAt": 1790931053000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620466"
+      "time": "23:05",
+      "publishedAt": 1790953519000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6620721"
     },
     {
       "region": "TW",
-      "headline": "映泰看好工業電腦業務年增8成 美洲大案明年迎收割",
+      "headline": "川普施壓後達協議！G7將釋出最多1億桶原油與柴油救油價",
       "source": "鉅亨",
-      "time": "16:45",
-      "publishedAt": 1790930753000,
+      "time": "23:00",
+      "publishedAt": 1790953208000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620459"
+      "link": "https://news.cnyes.com/news/id/6620700"
     },
     {
       "region": "TW",
-      "headline": "〈港股盤後〉美債飆升與北水休市雙重夾擊 恒指重挫2.6%失守24000關卡",
+      "headline": "盤中速報 - 英特格(ENTG-US)大漲6.16%，報168.24美元",
       "source": "鉅亨",
-      "time": "16:42",
-      "publishedAt": 1790930568000,
+      "time": "22:38",
+      "publishedAt": 1790951883000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6620465"
+      "link": "https://news.cnyes.com/news/id/6620708"
     },
     {
       "region": "TW",
-      "headline": "半導體底蘊與資料中心熱潮：馬來西亞重塑全球科技供應鏈的新角色",
+      "headline": "盤中速報 - 特斯拉(TSLA-US)大漲5.28%，報372.81美元",
       "source": "鉅亨",
-      "time": "16:20",
-      "publishedAt": 1790929206000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620262"
-    },
-    {
-      "region": "TW",
-      "headline": "夏普參展CARES EXPO聚焦兩大應用 空氣淨化方案導入台日多處場域",
-      "source": "台股",
-      "time": "15:57",
-      "publishedAt": 1790927821000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620393"
-    },
-    {
-      "region": "TW",
-      "headline": "華泰漲價效益Q3顯現 明年邏輯、記憶體雙動能續強",
-      "source": "台股",
-      "time": "15:51",
-      "publishedAt": 1790927515000,
+      "time": "22:33",
+      "publishedAt": 1790951630000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6620398"
+      "link": "https://news.cnyes.com/news/id/6620706"
+    },
+    {
+      "region": "TW",
+      "headline": "3檔處置股下周一抓去關 準千金股大量遭處置至10/12",
+      "source": "台股",
+      "time": "22:29",
+      "publishedAt": 1790951344000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6620657"
+    },
+    {
+      "region": "TW",
+      "headline": "彭啓明：生物炭成AI與半導體減碳關鍵 將組「台灣隊」拚2030年移除百萬噸碳",
+      "source": "台股",
+      "time": "20:22",
+      "publishedAt": 1790943726000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6620634"
+    },
+    {
+      "region": "TW",
+      "headline": "宏捷科9月營收年月雙增 法人估2027年H1獲利有望轉佳",
+      "source": "台股",
+      "time": "20:19",
+      "publishedAt": 1790943599000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6620612"
+    },
+    {
+      "region": "TW",
+      "headline": "台積電加碼美國德州？經部表態協助全球布局 但核心技術「根留台灣」",
+      "source": "台股",
+      "time": "19:27",
+      "publishedAt": 1790940448000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6620604"
     }
   ]
 }
