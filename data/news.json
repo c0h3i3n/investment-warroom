@@ -1,7 +1,25 @@
 {
-  "timestamp": "2026-10-03T17:11:37.144561+00:00",
-  "generatedAt": "2026-10-03T17:11:37.144561+00:00",
+  "timestamp": "2026-10-03T21:07:22.968407+00:00",
+  "generatedAt": "2026-10-03T21:07:22.968407+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "傳台積電可能參加Terafab晶圓項目　馬斯克：僅處於討論階段 但可能有所進展",
+      "source": "鉅亨",
+      "time": "23:00",
+      "publishedAt": 1791039606000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6621088"
+    },
+    {
+      "region": "TW",
+      "headline": "體力變差？華爾街日報：「川習會」中方要求配合習近平休息",
+      "source": "鉅亨",
+      "time": "20:49",
+      "publishedAt": 1791031784000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6621011"
+    },
     {
       "region": "TW",
       "headline": "Fed示警「通膨心態」成降息阻力！企業提前漲價恐讓美國通膨更難降至2%",
@@ -22,24 +40,6 @@
     },
     {
       "region": "TW",
-      "headline": "普丁絕望？下令俄軍「不再遵守戰爭規則」、澤倫斯基揭情報：加大攻擊烏克蘭平民",
-      "source": "鉅亨",
-      "time": "17:10",
-      "publishedAt": 1791018604000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620949"
-    },
-    {
-      "region": "TW",
-      "headline": "川普擬任命國家情報總監擔任「AI沙皇」 ！掌管18個情報機構、明確反對美國暫停AI開發",
-      "source": "鉅亨",
-      "time": "16:20",
-      "publishedAt": 1791015604000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620942"
-    },
-    {
-      "region": "TW",
       "headline": "〈熱門股〉被動元件族群10月開門紅 華新科連二根漲停創近2個半月高",
       "source": "台股",
       "time": "13:00",
@@ -55,15 +55,6 @@
       "publishedAt": 1791003604000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6620964"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉晶心科明年營運看旺 創一年半新高",
-      "source": "台股",
-      "time": "11:59",
-      "publishedAt": 1790999955000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620931"
     }
   ]
 }
