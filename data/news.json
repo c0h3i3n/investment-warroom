@@ -1,7 +1,43 @@
 {
-  "timestamp": "2026-10-03T06:24:52.860802+00:00",
-  "generatedAt": "2026-10-03T06:24:52.860802+00:00",
+  "timestamp": "2026-10-03T12:27:00.561427+00:00",
+  "generatedAt": "2026-10-03T12:27:00.561427+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "Fed示警「通膨心態」成降息阻力！企業提前漲價恐讓美國通膨更難降至2%",
+      "source": "鉅亨",
+      "time": "19:10",
+      "publishedAt": 1791025804000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6620945"
+    },
+    {
+      "region": "TW",
+      "headline": "〈房產〉聯上發：新店「聯上澐朗」火警已撲滅 無人員傷亡",
+      "source": "鉅亨",
+      "time": "17:25",
+      "publishedAt": 1791019545000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6620973"
+    },
+    {
+      "region": "TW",
+      "headline": "普丁絕望？下令俄軍「不再遵守戰爭規則」、澤倫斯基揭情報：加大攻擊烏克蘭平民",
+      "source": "鉅亨",
+      "time": "17:10",
+      "publishedAt": 1791018604000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6620949"
+    },
+    {
+      "region": "TW",
+      "headline": "川普擬任命國家情報總監擔任「AI沙皇」 ！掌管18個情報機構、明確反對美國暫停AI開發",
+      "source": "鉅亨",
+      "time": "16:20",
+      "publishedAt": 1791015604000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6620942"
+    },
     {
       "region": "TW",
       "headline": "〈熱門股〉被動元件族群10月開門紅 華新科連二根漲停創近2個半月高",
@@ -28,51 +64,6 @@
       "publishedAt": 1790999955000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6620931"
-    },
-    {
-      "region": "TW",
-      "headline": "AI也能「治水」！園管局智慧管網節電近3成 台水攜手國環院守護全民飲水",
-      "source": "台股",
-      "time": "11:30",
-      "publishedAt": 1790998212000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620774"
-    },
-    {
-      "region": "TW",
-      "headline": "白宮首席經濟顧問：料聯準會今年不再升息",
-      "source": "鉅亨",
-      "time": "08:40",
-      "publishedAt": 1790988003000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620857"
-    },
-    {
-      "region": "TW",
-      "headline": "吉利48億入股蔚來能源、持股30%　專家按讚：中國「反內卷」樣本",
-      "source": "鉅亨",
-      "time": "08:30",
-      "publishedAt": 1790987453000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620190"
-    },
-    {
-      "region": "TW",
-      "headline": "Meta Muse遭控讀私人訊息 蘋果出手強化Mac AI權限控管",
-      "source": "鉅亨",
-      "time": "08:00",
-      "publishedAt": 1790985603000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620854"
-    },
-    {
-      "region": "TW",
-      "headline": "xAI告贏第一回合！美國上訴法院暫停明州AI裸化禁令",
-      "source": "鉅亨",
-      "time": "07:40",
-      "publishedAt": 1790984405000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620838"
     }
   ]
 }
