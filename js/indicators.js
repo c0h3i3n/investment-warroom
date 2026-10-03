@@ -318,6 +318,22 @@ const IndicatorsService = (() => {
     };
   }
 
+  function historyFreshness(asOf, symbol, now = Date.now()) {
+    const region = /\.TW$/i.test(symbol) ? 'TW' : 'US';
+    const zone = region === 'TW' ? 'Asia/Taipei' : 'America/New_York';
+    const current = marketDateParts(now, zone);
+    const source = marketDateParts(asOf, zone);
+    let expected = current.dayNumber;
+    // Allow the daily source 15 minutes to finalize after the exchange closes.
+    if (current.minutes < MarketCalendar.closeMinutes(region, expected) + 15) expected -= 86400000;
+    while (!MarketCalendar.tradingDay(region, expected)) expected -= 86400000;
+    let lagSessions = 0;
+    for (let day = source.dayNumber + 86400000; day <= expected; day += 86400000) {
+      if (MarketCalendar.tradingDay(region, day)) lagSessions++;
+    }
+    return { lagSessions, expectedSession: new Date(expected).toISOString().slice(0, 10) };
+  }
+
   async function calculateFor(symbol) {
     console.log('[Indicators] Fetching historical data for', symbol);
     const data = await DataService.fetchHistorical(symbol, '6mo', '1d');
@@ -346,7 +362,7 @@ const IndicatorsService = (() => {
       symbol,
       asOf: rows.at(-1).time,
       calculatedAt: Date.now(),
-      historyMeta: { ...data.meta, excludedIncomplete },
+      historyMeta: { ...data.meta, excludedIncomplete, ...historyFreshness(rows.at(-1).time, symbol) },
       indicators: interpret(rsi, macd, stoch, ma20, ma60, rows.at(-1).close, volumeIndicator),
       chartData: rows.slice(-60),
     };
@@ -355,5 +371,5 @@ const IndicatorsService = (() => {
   // ═══════════════════════════════════════
   // Public API
   // ═══════════════════════════════════════
-  return { calculateFor, calcSMA, analyzeVolume };
+  return { calculateFor, calcSMA, analyzeVolume, historyFreshness };
 })();

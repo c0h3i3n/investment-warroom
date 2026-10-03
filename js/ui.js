@@ -421,11 +421,12 @@ const UI = (() => {
     }
 
     if (grid && indData?.indicators) {
-      grid.innerHTML = indData.indicators.map(ind => `
+      const lag = Number(indData.historyMeta?.lagSessions) || 0;
+      grid.innerHTML = (lag > 0 ? `<div class="indicator-warning" role="status">日線落後 ${lag} 個交易日，應更新至 ${escapeHtml(indData.historyMeta.expectedSession)}。以下保留歷史數值，方向訊號暫停。</div>` : '') + indData.indicators.map(ind => `
         <div class="ind-cell">
           <div class="ind-name">${ind.name}</div>
-          <div class="ind-val ${ind.color}">${ind.value}</div>
-          <div class="ind-sig ${ind.color}">${ind.signal}</div>
+          <div class="ind-val ${lag > 0 ? 'historical' : ind.color}">${ind.value}</div>
+          <div class="ind-sig ${lag > 0 ? 'historical' : ind.color}">${lag > 0 ? '歷史數值 · 訊號暫停' : ind.signal}</div>
         </div>
       `).join('');
       const status = document.createElement('div');
@@ -532,7 +533,6 @@ const UI = (() => {
       const link = safeHttpUrl(n.link);
       const headline = escapeHtml(n.headline);
       const region = ['TW', 'US', 'INTL'].includes(n.region) ? n.region : 'INTL';
-      const impact = ['pos', 'neg', 'neu'].includes(n.impact) ? n.impact : 'neu';
       const publishedAt = Number(n.publishedAt);
       const publishedText = Number.isFinite(publishedAt) && publishedAt > 0
         ? new Intl.DateTimeFormat('zh-TW', { timeZone:'Asia/Taipei', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', hour12:false }).format(new Date(publishedAt))
@@ -547,10 +547,6 @@ const UI = (() => {
           ${headlineHtml}
           <div class="n-meta">
             <span>${escapeHtml(n.source)}</span><span>${escapeHtml(publishedText)}</span>
-            <div class="n-impact" title="依新聞標題關鍵字粗略分類，不代表投資建議">
-              <div class="n-dot ${impact}"></div>
-              <span style="color:${impact === 'pos' ? 'var(--pos)' : impact === 'neg' ? 'var(--neg)' : 'var(--gold)'}">粗分 ${impact.toUpperCase()}</span>
-            </div>
           </div>
         </div>
       </div>`;

@@ -14,9 +14,9 @@ function indicatorContext(generatedAt, sourceAsOf = generatedAt) {
   rows.meta = { source:'Yahoo Finance', generatedAt, sourceAsOf:Date.parse(sourceAsOf), delivery:'kv' };
   const context = vm.createContext({
     DataService:{ fetchHistorical:async () => rows },
-    MarketCalendar:{ closeMinutes:() => 810 },
     console:{ log:() => {}, warn:() => {} },
   });
+  vm.runInContext(fs.readFileSync(new URL('../../js/market-calendar.js', import.meta.url), 'utf8'), context);
   vm.runInContext(fs.readFileSync(new URL('../../js/indicators.js', import.meta.url), 'utf8'), context);
   return { context, previous, current };
 }
@@ -42,4 +42,19 @@ test('a post-close fetch cannot finalize a stale intraday candle', async () => {
   const result = await vm.runInContext('IndicatorsService.calculateFor("0050.TW")', context);
   assert.equal(result.asOf, previous);
   assert.equal(result.historyMeta.excludedIncomplete, true);
+});
+
+test('history lag counts trading sessions, skipping weekends and exchange holidays', () => {
+  const { context } = indicatorContext('2026-10-01T06:00:00Z');
+  const check = (source, now, lag, expected, symbol = '0050.TW') => {
+    const result = vm.runInContext(`IndicatorsService.historyFreshness(Date.parse('${source}'), '${symbol}', Date.parse('${now}'))`, context);
+    assert.equal(result.lagSessions, lag);
+    assert.equal(result.expectedSession, expected);
+  };
+  check('2026-10-01T01:00:00Z', '2026-10-04T02:00:00Z', 1, '2026-10-02');
+  check('2026-10-02T01:00:00Z', '2026-10-05T02:00:00Z', 0, '2026-10-02');
+  check('2026-10-02T01:00:00Z', '2026-10-05T05:40:00Z', 0, '2026-10-02');
+  check('2026-10-02T01:00:00Z', '2026-10-05T05:46:00Z', 1, '2026-10-05');
+  check('2026-10-08T01:00:00Z', '2026-10-11T02:00:00Z', 0, '2026-10-08');
+  check('2026-11-25T14:30:00Z', '2026-11-27T18:16:00Z', 1, '2026-11-27', 'NVDA');
 });

@@ -6,6 +6,7 @@
   try { collapsed = localStorage.getItem('warroom_ticker_collapsed') === 'true'; } catch {}
   function render() {
     content.hidden = collapsed;
+    content.closest('.ticker-bar').classList.toggle('is-collapsed', collapsed);
     button.setAttribute('aria-expanded', String(!collapsed));
     button.textContent = collapsed ? '展開跑馬燈' : '收合跑馬燈';
   }

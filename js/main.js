@@ -151,10 +151,32 @@ const App = (() => {
 
     try {
       try {
-        const backend = await DataService.fetchMarketSnapshot().catch(error => {
+        let backend = await DataService.fetchMarketSnapshot().catch(error => {
           if (CONFIG.MARKET_API) console.warn('Market backend failed, using browser fallback:', error.message);
           return null;
         });
+
+        if (!backend || backend.indexes.length < CONFIG.INDEXES.length
+          || allQuoteSymbols.some(symbol => !backend.quotes.some(q => q.symbol === symbol))) {
+          const snapshot = await DataService.fetchStaticMarketSnapshot();
+          const merge = (live, saved, previous) => {
+            const result = new Map();
+            // Prefer current backend responses; retain only source-valid older
+            // records if the backend or a public proxy is temporarily offline.
+            [...previous.map(item => ({ ...item, deliveryMode:'cache' })), ...saved, ...live].forEach(item => {
+              if (!DataService.isFreshRecord(item, item.region)) return;
+              const prior = result.get(item.symbol);
+              const timestamp = value => typeof value === 'string' ? Date.parse(value) : Number(value);
+              if (!prior || timestamp(item.asOf) >= timestamp(prior.asOf)) result.set(item.symbol, item);
+            });
+            return [...result.values()];
+          };
+          backend = {
+            indexes:merge(backend?.indexes || [], snapshot.indexes, indexData),
+            quotes:merge(backend?.quotes || [], snapshot.quotes, [...watchlistQuotes, ...(window._featuredQuotes || [])]),
+          };
+          DataService.rememberRecords([...backend.indexes, ...backend.quotes]);
+        }
 
         // Indexes and quotes are independent. Run both paths together so a slow
         // proxy cannot block the rest of the dashboard from updating.
@@ -310,24 +332,17 @@ const App = (() => {
   async function loadStaticFallback(expectedGeneration = refreshGeneration) {
     try {
       const requestId = `${Date.now()}_${Math.random().toString(36).slice(2)}`;
-      const [idxResp, qResp, nResp] = await Promise.all([
-        fetch(`data/indexes.json?_wr=${requestId}`, { cache:'no-store', signal: requestTimeoutSignal(3000) }).catch(() => null),
-        fetch(`data/quotes.json?_wr=${requestId}`, { cache:'no-store', signal: requestTimeoutSignal(3000) }).catch(() => null),
+      const [snapshot, nResp] = await Promise.all([
+        DataService.fetchStaticMarketSnapshot(),
         fetch(`data/news.json?_wr=${requestId}`, { cache:'no-store', signal: requestTimeoutSignal(3000) }).catch(() => null),
       ]);
-      if ((!idxResp || !idxResp.ok) && (!qResp || !qResp.ok)) return false;
-
-      const rawIdxEnvelope = idxResp?.ok ? await idxResp.json() : null;
-      const rawQEnvelope = qResp?.ok ? await qResp.json() : null;
       let rawNewsEnvelope = null;
       if (nResp?.ok) {
         try { rawNewsEnvelope = await nResp.json(); } catch(e) {}
       }
-      const idxEnvelope = isFreshEnvelope(rawIdxEnvelope) ? rawIdxEnvelope : null;
-      const qEnvelope = isFreshEnvelope(rawQEnvelope) ? rawQEnvelope : null;
       const newsEnvelope = isFreshEnvelope(rawNewsEnvelope) ? rawNewsEnvelope : null;
-      const rawIndexes = Array.isArray(idxEnvelope?.data) ? idxEnvelope.data : [];
-      const rawQuotes = Array.isArray(qEnvelope?.data) ? qEnvelope.data : [];
+      const rawIndexes = snapshot.indexes;
+      const rawQuotes = snapshot.quotes;
       const indexes = CONFIG.INDEXES.map(cfg => {
         const item = rawIndexes.find(x => x.id === cfg.id);
         return item && DataService.isFreshRecord(item, cfg.region)
@@ -599,8 +614,8 @@ const App = (() => {
     renderStartupShell();
     bindWatchlistEditor();
 
-    // Static snapshots are only accepted when both the envelope and individual
-    // market records are fresh. The shell above remains usable if they are not.
+    // Snapshot records must belong to the current/latest market session.
+    // Closed-market snapshots may survive a weekend without a new envelope.
     const startupGeneration = refreshGeneration;
     const staticOk = await loadStaticFallback(startupGeneration);
     setTimeout(() => {

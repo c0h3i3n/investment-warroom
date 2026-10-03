@@ -75,6 +75,13 @@ test('technical indicators identify the completed session and actual retrieval t
   assert.match(grid.status, /資料取得 10\/01\s+10:27/);
   assert.match(grid.status, /盤中日線未納入/);
   assert.doesNotMatch(grid.status, /計算/);
+  context.data.historyMeta.lagSessions = 1;
+  context.data.historyMeta.expectedSession = '2026-10-01';
+  vm.runInContext('UI.renderIndicators(data)', context);
+  assert.match(grid.innerHTML, /日線落後 1 個交易日/);
+  assert.match(grid.innerHTML, /110.0/);
+  assert.doesNotMatch(grid.innerHTML, /BELOW/);
+  assert.match(grid.innerHTML, /歷史數值 · 訊號暫停/);
 });
 
 test('RSS headlines decode entities without inserting markup into the UI', async () => {
@@ -97,4 +104,5 @@ test('RSS headlines decode entities without inserting markup into the UI', async
   vm.runInContext('UI.renderNews(news)', context);
   assert.match(element.innerHTML, /S&amp;P 500 &lt;script&gt;alert\(1\)&lt;\/script&gt;/);
   assert.doesNotMatch(element.innerHTML, /<script>/);
+  assert.doesNotMatch(element.innerHTML, /n-impact|粗分/);
 });

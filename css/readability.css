@@ -13,6 +13,10 @@ body { cursor:auto; line-height:1.5; }
 .chart-hit:hover,.chart-hit:focus,.chart-hit.selected { fill:rgba(255,208,96,.24); stroke:var(--gold); stroke-width:.4; }
 #ticker-toggle { flex-shrink:0; font-family:inherit; font-size:11px; min-height:32px; }
 [hidden] { display:none !important; }
+.ticker-bar.is-collapsed { width:fit-content; min-height:0; padding:4px 8px; margin-bottom:12px; }
+.ticker-bar.is-collapsed::before,.ticker-bar.is-collapsed::after,.ticker-bar.is-collapsed .ticker-label { display:none; }
+.indicator-warning { grid-column:1/-1; padding:10px; border:1px solid rgba(255,208,96,.35); background:rgba(255,208,96,.06); color:var(--warn); font-size:12px; }
+.ind-val.historical,.ind-sig.historical { color:var(--text-dim); }
 .scan-sweep,.scanlines { display:none; }
 .arc-ring,.bg-layer { opacity:.25; }
 .idx-price,.idx-pct,.ind-val,.w-price,.w-chg,.featured-price,
@@ -126,7 +130,9 @@ button:focus-visible,a:focus-visible { outline:2px solid var(--gold); outline-of
   .idx-card:last-child { grid-column:1/-1; }
 }
 @media(max-width:640px) {
-  .index-row { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .index-row { grid-template-columns:none; grid-auto-flow:column; grid-auto-columns:78%; overflow-x:auto; scroll-snap-type:x mandatory; overscroll-behavior-x:contain; padding-bottom:8px; }
+  .idx-card { min-width:0; scroll-snap-align:start; }
+  .index-row:focus-visible { outline:2px solid var(--gold); outline-offset:2px; }
   .featured-row { grid-template-columns:1fr; }
   .hud-panel { padding:12px; min-width:0; }
   .w-name { min-width:0; } .w-spark { display:none; }

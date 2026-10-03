@@ -27,13 +27,6 @@ const NewsService = (() => {
     return result;
   }
 
-  function detectImpact(title) {
-    const tl = title.toLowerCase();
-    if (/漲|飆|突破|創高|上調|樂觀|surge|rally|record|upgrade/i.test(tl)) return 'pos';
-    if (/跌|崩|暴跌|下修|警|risk|crash|downgrade|plunge/i.test(tl)) return 'neg';
-    return 'neu';
-  }
-
   // ── Fetch a single RSS feed via rss2json ──
   async function fetchFeed(feedConfig) {
     try {
@@ -58,7 +51,6 @@ const NewsService = (() => {
           source: source || feedConfig.name,
           time,
           publishedAt,
-          impact: detectImpact(headline),
           link: item.link || '',
         };
       });

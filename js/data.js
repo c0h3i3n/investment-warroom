@@ -119,6 +119,31 @@ const DataService = (() => {
       && isFreshTimestamp(record?.asOf, region);
   }
 
+  function snapshotRecords(envelope) {
+    const generatedAt = Date.parse(envelope?.generatedAt || envelope?.timestamp || '');
+    const age = Date.now() - generatedAt;
+    if (!Number.isFinite(age) || age < -300000 || age > 30 * 86400000) return [];
+    return (Array.isArray(envelope?.data) ? envelope.data : []).filter(record => {
+      const region = record.region || (/\.TW$/i.test(record.symbol || '') ? 'TW' : 'US');
+      // During a session both delivery and source must be fresh. After close,
+      // source-session validation is authoritative, including long weekends.
+      return (!isMarketOpen(region) || age <= 3600000) && isFreshRecord(record, region);
+    }).map(record => ({ ...record, deliveryMode:'cache' }));
+  }
+
+  async function fetchStaticMarketSnapshot() {
+    const read = async name => {
+      try {
+        const response = await fetch(`data/${name}.json?_wr=${Date.now()}`, {
+          cache:'no-store', signal:requestTimeoutSignal(3000),
+        });
+        return response.ok ? snapshotRecords(await response.json()) : [];
+      } catch { return []; }
+    };
+    const [indexes, quotes] = await Promise.all([read('indexes'), read('quotes')]);
+    return { indexes, quotes };
+  }
+
   function parseMisTimestamp(row) {
     const epoch = Number(row.tlong);
     if (Number.isFinite(epoch) && epoch > 0) return epoch;
@@ -838,6 +863,8 @@ const DataService = (() => {
   // ═══════════════════════════════════════
   return {
     fetchMarketSnapshot,
+    fetchStaticMarketSnapshot,
+    snapshotRecords,
     fetchNightMarket,
     fetchQuotes,
     fetchQuote,
