@@ -1,7 +1,43 @@
 {
-  "timestamp": "2026-10-03T01:05:00.601795+00:00",
-  "generatedAt": "2026-10-03T01:05:00.601795+00:00",
+  "timestamp": "2026-10-03T06:24:52.860802+00:00",
+  "generatedAt": "2026-10-03T06:24:52.860802+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉被動元件族群10月開門紅 華新科連二根漲停創近2個半月高",
+      "source": "台股",
+      "time": "13:00",
+      "publishedAt": 1791003604000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6620965"
+    },
+    {
+      "region": "TW",
+      "headline": "台積電傳與馬斯克Terafab探索合作  考慮美國第二園區",
+      "source": "台股",
+      "time": "13:00",
+      "publishedAt": 1791003604000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6620964"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉晶心科明年營運看旺 創一年半新高",
+      "source": "台股",
+      "time": "11:59",
+      "publishedAt": 1790999955000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6620931"
+    },
+    {
+      "region": "TW",
+      "headline": "AI也能「治水」！園管局智慧管網節電近3成 台水攜手國環院守護全民飲水",
+      "source": "台股",
+      "time": "11:30",
+      "publishedAt": 1790998212000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6620774"
+    },
     {
       "region": "TW",
       "headline": "白宮首席經濟顧問：料聯準會今年不再升息",
@@ -37,42 +73,6 @@
       "publishedAt": 1790984405000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6620838"
-    },
-    {
-      "region": "TW",
-      "headline": "3檔處置股下周一抓去關 準千金股大量遭處置至10/12",
-      "source": "台股",
-      "time": "22:29",
-      "publishedAt": 1790951344000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620657"
-    },
-    {
-      "region": "TW",
-      "headline": "彭啓明：生物炭成AI與半導體減碳關鍵 將組「台灣隊」拚2030年移除百萬噸碳",
-      "source": "台股",
-      "time": "20:22",
-      "publishedAt": 1790943726000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620634"
-    },
-    {
-      "region": "TW",
-      "headline": "宏捷科9月營收年月雙增 法人估2027年H1獲利有望轉佳",
-      "source": "台股",
-      "time": "20:19",
-      "publishedAt": 1790943599000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620612"
-    },
-    {
-      "region": "TW",
-      "headline": "台積電加碼美國德州？經部表態協助全球布局 但核心技術「根留台灣」",
-      "source": "台股",
-      "time": "19:27",
-      "publishedAt": 1790940448000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620604"
     }
   ]
 }
