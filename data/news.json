@@ -1,42 +1,42 @@
 {
-  "timestamp": "2026-10-02T21:16:34.502701+00:00",
-  "generatedAt": "2026-10-02T21:16:34.502701+00:00",
+  "timestamp": "2026-10-03T01:05:00.601795+00:00",
+  "generatedAt": "2026-10-03T01:05:00.601795+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "把AI搬上桌面！輝達推64GB新機 免靠雲端也能跑模型",
+      "headline": "白宮首席經濟顧問：料聯準會今年不再升息",
       "source": "鉅亨",
-      "time": "03:00",
-      "publishedAt": 1790967603000,
+      "time": "08:40",
+      "publishedAt": 1790988003000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620759"
+      "link": "https://news.cnyes.com/news/id/6620857"
     },
     {
       "region": "TW",
-      "headline": "不只賺上市費！高盛靠客戶早期押注SpaceX 再收數億美元",
+      "headline": "吉利48億入股蔚來能源、持股30%　專家按讚：中國「反內卷」樣本",
       "source": "鉅亨",
-      "time": "02:00",
-      "publishedAt": 1790964007000,
+      "time": "08:30",
+      "publishedAt": 1790987453000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620748"
+      "link": "https://news.cnyes.com/news/id/6620190"
     },
     {
       "region": "TW",
-      "headline": "川普喊韓國投84億美元採油！韓方錯愕：協議裡沒有",
+      "headline": "Meta Muse遭控讀私人訊息 蘋果出手強化Mac AI權限控管",
       "source": "鉅亨",
-      "time": "01:30",
-      "publishedAt": 1790962202000,
+      "time": "08:00",
+      "publishedAt": 1790985603000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620750"
+      "link": "https://news.cnyes.com/news/id/6620854"
     },
     {
       "region": "TW",
-      "headline": "輝達盤中再創高！市值衝5.7兆美元 史上首家6兆美元企業近了？",
+      "headline": "xAI告贏第一回合！美國上訴法院暫停明州AI裸化禁令",
       "source": "鉅亨",
-      "time": "01:00",
-      "publishedAt": 1790960402000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6620696"
+      "time": "07:40",
+      "publishedAt": 1790984405000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6620838"
     },
     {
       "region": "TW",
