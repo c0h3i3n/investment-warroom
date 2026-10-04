@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;500&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css?v=3.9.0">
-<link rel="stylesheet" href="css/readability.css?v=3.9.6.1">
+<link rel="stylesheet" href="css/readability.css?v=3.10.0">
 </head>
 <body>
 
@@ -18,10 +18,6 @@
 <div class="arc-ring arc-ring-3"></div>
 <div class="scan-sweep"></div>
 <div class="scanlines"></div>
-
-<!-- ═══ REFRESH BUTTON ═══ -->
-<button class="refresh-btn" id="refresh-btn" onclick="App.refresh()" title="Refresh Data">⟳</button>
-<span class="last-updated" id="last-updated">UPDATED --:--:--</span>
 
 <div class="hud">
 
@@ -46,7 +42,7 @@
       </div>
       <div class="reactor-text">
         <h1>WARROOM</h1>
-        <div class="sub">INVESTMENT INTELLIGENCE SYSTEM · v3.9.6</div>
+        <div class="sub">INVESTMENT INTELLIGENCE · v3.10.0</div>
       </div>
     </div>
 
@@ -74,6 +70,14 @@
       </div>
     </div>
   </header>
+
+  <div class="data-toolbar" aria-label="行情資料狀態">
+    <div class="data-timing">
+      <span class="data-caption">行情來源時間 · 台北時間</span>
+      <span class="last-updated" id="last-updated" role="status">UPDATED --:--:--</span>
+    </div>
+    <button class="refresh-btn" id="refresh-btn" onclick="App.refresh()" title="重新取得行情" aria-label="重新取得行情"><span aria-hidden="true">⟳</span> 更新行情</button>
+  </div>
 
   <!-- ═══ TICKER ═══ -->
   <div class="ticker-bar">
@@ -184,7 +188,7 @@
   </div>
 
   <footer>
-    <span>J.A.R.V.I.S · WARROOM INVESTMENT INTELLIGENCE · v3.9.6</span>
+    <span>WARROOM · INVESTMENT INTELLIGENCE · v3.10.0</span>
     <span id="fdate"></span>
     <span class="latency-badge"><span class="dot live"></span> 台股 MIS 即時</span>
     <span class="latency-badge"><span class="dot delay"></span> 夜盤狀態見頁首</span>
@@ -221,7 +225,7 @@
 <script src="js/indicators.js?v=3.9.6"></script>
 <script src="js/news.js?v=3.9.6"></script>
 <script src="js/night-analysis.js?v=3.7.0"></script>
-<script src="js/ui.js?v=3.9.6"></script>
+<script src="js/ui.js?v=3.10.0"></script>
 <script src="js/main.js?v=3.9.6"></script>
 <script src="js/interactions.js?v=3.9.6"></script>
 

@@ -430,7 +430,7 @@ const UI = (() => {
         </div>
       `).join('');
       const status = document.createElement('div');
-      status.style.cssText = 'grid-column:1/-1;font-size:11px;color:var(--dim)';
+      status.className = 'indicator-source';
       const zone = String(indData.symbol || '').endsWith('.TW') ? 'Asia/Taipei' : 'America/New_York';
       const asDate = time => new Intl.DateTimeFormat('zh-TW', {
         timeZone:zone, year:'numeric', month:'2-digit', day:'2-digit',
@@ -605,6 +605,8 @@ const UI = (() => {
     if (btn) {
       if (isRefreshing) btn.classList.add('spinning');
       else btn.classList.remove('spinning');
+      btn.disabled = isRefreshing;
+      btn.setAttribute('aria-busy', String(isRefreshing));
     }
     if (lbl && isRefreshing && /--:--|^UPDATED|^(DATA|QUOTES) UNAVAILABLE|^CONNECTING/.test(lbl.textContent)) {
       lbl.textContent = 'REFRESHING...';
