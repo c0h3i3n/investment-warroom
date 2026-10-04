@@ -27,6 +27,43 @@ const NewsService = (() => {
     return result;
   }
 
+  function prepareNews(items, watchlist = []) {
+    const aliases = {
+      '2330.TW':['台積電','TSMC'], '0050.TW':['0050','台灣50'],
+      NVDA:['輝達','NVIDIA'], TSLA:['特斯拉','TESLA'], SPCX:['SPACEX','太空探索'],
+    };
+    const matches = (title, term) => {
+      if (/^[A-Z0-9.]+$/i.test(term)) {
+        const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        return new RegExp(`(^|[^A-Z0-9])${escaped}([^A-Z0-9]|$)`, 'i').test(title);
+      }
+      return term.length >= 2 && title.includes(term);
+    };
+    const classify = title => {
+      if (/加密|虛擬貨幣|比特幣|以太|區塊鏈|\b(BTC|ETH|FET|AXS|GLMR|SAND|SuperVerse|LayerZero)\b/i.test(title)) return 'CRYPTO';
+      if (/台股|臺股|台積電|TSMC|0050|台灣50|鴻海|聯發科|聯電|櫃買|金管會/i.test(title)) return 'TW';
+      if (/美股|華爾街|那斯達克|NASDAQ|S&P|道瓊|輝達|NVIDIA|特斯拉|TESLA|SPACEX|蘋果|APPLE/i.test(title)) return 'US';
+      return 'INTL';
+    };
+    const sorted = (Array.isArray(items) ? items : []).filter(n => n && typeof n.headline === 'string')
+      .map(n => {
+        const headline = decodeHeadline(n.headline);
+        const region = classify(headline);
+        const related = watchlist.some(w => [w.symbol?.replace(/\.TW$/, ''), w.name, ...(aliases[w.symbol] || [])]
+          .filter(Boolean).some(term => matches(headline, term)));
+        const score = related ? 3 : /半導體|晶片|晶圓|央行|聯準會|利率|通膨|美債|台股|美股/i.test(headline) ? 2 : region === 'CRYPTO' ? 0 : 1;
+        return { ...n, headline, region:region === 'INTL' && ['TW','US'].includes(n.feedRegion) ? n.feedRegion : region, related, score };
+      }).sort((a,b) => Number(b.publishedAt || 0) - Number(a.publishedAt || 0));
+    const seen = new Set();
+    return sorted.filter(n => {
+      const bulletin = n.headline.match(/盤中速報\s*[-－—]\s*(.+?)(?:大漲|大跌|上漲|下跌)/);
+      const key = bulletin ? `bulletin:${bulletin[1].trim().toUpperCase()}` : n.headline.replace(/[\s\p{P}]/gu, '').toUpperCase();
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    }).sort((a,b) => b.score - a.score || Number(b.publishedAt || 0) - Number(a.publishedAt || 0)).slice(0,10);
+  }
+
   // ── Fetch a single RSS feed via rss2json ──
   async function fetchFeed(feedConfig) {
     try {
@@ -36,7 +73,7 @@ const NewsService = (() => {
       const data = await resp.json();
       if (data.status !== 'ok' || !data.items) throw new Error('rss2json failed');
 
-      return data.items.slice(0, 5).map(item => {
+      return data.items.slice(0, 10).map(item => {
         const pubDate = item.pubDate ? new Date(item.pubDate) : null;
         const publishedAt = pubDate && Number.isFinite(pubDate.getTime()) ? pubDate.getTime() : null;
         const time = publishedAt
@@ -47,6 +84,7 @@ const NewsService = (() => {
         const headline = truncate(decodeHeadline(item.title), 80);
         return {
           region: feedConfig.region,
+          feedRegion: /\/(tw_stock|us_stock)$/.test(feedConfig.url) ? feedConfig.region : 'INTL',
           headline,
           source: source || feedConfig.name,
           time,
@@ -79,7 +117,7 @@ const NewsService = (() => {
       return true;
     });
 
-    return deduped.slice(0, 10);
+    return deduped.slice(0, 30);
   }
 
   // ── Get news (cached or fresh) ──
@@ -100,5 +138,5 @@ const NewsService = (() => {
     return news;
   }
 
-  return { getNews };
+  return { getNews, prepareNews };
 })();

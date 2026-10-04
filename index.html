@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;500&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css?v=3.9.0">
-<link rel="stylesheet" href="css/readability.css?v=3.10.1">
+<link rel="stylesheet" href="css/readability.css?v=3.11.0">
 </head>
 <body>
 
@@ -42,7 +42,7 @@
       </div>
       <div class="reactor-text">
         <h1>WARROOM</h1>
-        <div class="sub">INVESTMENT INTELLIGENCE · v3.10.0</div>
+        <div class="sub">INVESTMENT INTELLIGENCE · v3.11.0</div>
       </div>
     </div>
 
@@ -80,6 +80,11 @@
     <button class="refresh-btn" id="refresh-btn" onclick="App.refresh()" title="重新取得行情" aria-label="重新取得行情"><span aria-hidden="true">⟳</span> 更新行情</button>
   </div>
 
+  <nav class="quick-nav" aria-label="區塊快捷導覽">
+    <a href="#index-cards">總覽</a><a href="#night-section">夜盤</a>
+    <a href="#technical-section">技術</a><a href="#watch-section">自選股</a>
+  </nav>
+
   <!-- ═══ TICKER ═══ -->
   <div class="ticker-bar">
     <div class="ticker-label" id="ticker-mode-label">DATA CHECK</div>
@@ -112,7 +117,7 @@
       </div>
 
   <!-- ═══ NIGHT SESSION RISK RADAR ═══ -->
-  <div class="hud-panel night-panel" style="animation-delay:.38s">
+  <div class="hud-panel night-panel" id="night-section" style="animation-delay:.38s">
     <div class="bracket bracket-tl"></div><div class="bracket bracket-tr"></div>
     <div class="bracket bracket-bl"></div><div class="bracket bracket-br"></div>
     <div class="sec-label" style="margin-bottom:12px">
@@ -128,7 +133,7 @@
   <!-- ═══ MAIN GRID ═══ -->
   <div class="main-grid">
     <!-- Technical Indicators -->
-    <div class="hud-panel" style="animation-delay:.4s">
+    <div class="hud-panel" id="technical-section" style="animation-delay:.4s">
         <div class="bracket bracket-tl"></div><div class="bracket bracket-tr"></div>
         <div class="bracket bracket-bl"></div><div class="bracket bracket-br"></div>
         <div class="sec-label" style="margin-bottom:12px">
@@ -148,7 +153,7 @@
     </div>
 
     <!-- Watchlist -->
-    <div class="hud-panel" style="animation-delay:.5s">
+    <div class="hud-panel" id="watch-section" style="animation-delay:.5s">
         <div class="bracket bracket-tl"></div><div class="bracket bracket-tr"></div>
         <div class="bracket bracket-bl"></div><div class="bracket bracket-br"></div>
         <div class="sec-label" style="margin-bottom:10px">
@@ -168,6 +173,13 @@
           <button class="btn watch-add" id="watch-add" type="button">＋ 新增</button>
         </div>
         <div class="watch-hint">點選項目可切換技術指標；清單只儲存在此瀏覽器。</div>
+        <div class="watch-tools">
+          <a class="btn" id="watch-indicator-link" href="#technical-section">查看 0050 技術指標 ↑</a>
+          <button class="btn" id="watch-export" type="button">匯出備份</button>
+          <button class="btn" id="watch-import" type="button">匯入備份</button>
+          <button class="btn" id="watch-undo" type="button" hidden>復原移除</button>
+          <input id="watch-import-file" type="file" accept=".json,application/json" hidden>
+        </div>
         <div id="watchlist">
           <div class="loading-indicator">LOADING WATCHLIST...</div>
         </div>
@@ -183,13 +195,14 @@
       <div class="sec-label-text">INTELLIGENCE FEED · 市場情報</div>
       <div class="sec-label-line"></div>
     </div>
+    <p class="watch-hint">自選相關與市場重點優先；同標的重複速報僅保留最新一則。分類依標題與來源，並非情緒判斷。</p>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 32px" id="news-feed">
       <div><div class="loading-indicator">FETCHING INTELLIGENCE...</div></div>
     </div>
   </div>
 
   <footer>
-    <span>WARROOM · INVESTMENT INTELLIGENCE · v3.10.0</span>
+    <span>WARROOM · INVESTMENT INTELLIGENCE · v3.11.0</span>
     <span id="fdate"></span>
     <span class="latency-badge"><span class="dot live"></span> 台股 MIS 即時</span>
     <span class="latency-badge"><span class="dot delay"></span> 夜盤狀態見頁首</span>
@@ -216,18 +229,33 @@
   </form>
 </dialog>
 
+<dialog class="watch-dialog" id="watch-import-dialog" aria-labelledby="watch-import-title">
+  <div class="import-content">
+    <h2 id="watch-import-title">匯入自選股備份</h2>
+    <p id="watch-import-preview"></p>
+    <label for="watch-import-mode">匯入方式</label>
+    <select id="watch-import-mode"><option value="merge">合併：保留現有清單</option><option value="replace">取代：改用備份中的完整清單</option></select>
+    <p class="watch-dialog-note">取代會移除目前清單中未包含的項目，建議先匯出備份。檔案只在此瀏覽器處理，不會上傳。</p>
+    <div class="watch-dialog-actions">
+      <button class="btn" id="watch-import-cancel" type="button">取消</button>
+      <button class="btn primary" id="watch-import-confirm" type="button">確認匯入</button>
+    </div>
+  </div>
+</dialog>
+
 <!-- ═══ SCRIPTS ═══ -->
 <script>document.querySelector(".hud-time").textContent="JS OK"; console.log("Script loader: starting...");</script>
 <script src="js/config.js?v=3.4.1"></script>
 <script src="js/market-calendar.js?v=3.5.2"></script>
 <script src="js/history-validation.js?v=3.5.0"></script>
-<script src="js/data.js?v=3.9.6"></script>
+<script src="js/data.js?v=3.11.0"></script>
 <script>console.log("data.js loaded, CONFIG proxies:", CONFIG?.CORS_PROXIES?.length);</script>
-<script src="js/indicators.js?v=3.9.6"></script>
-<script src="js/news.js?v=3.9.6"></script>
+<script src="js/indicators.js?v=3.11.0"></script>
+<script src="js/news.js?v=3.11.0"></script>
 <script src="js/night-analysis.js?v=3.7.0"></script>
-<script src="js/ui.js?v=3.10.0"></script>
-<script src="js/main.js?v=3.9.6"></script>
+<script src="js/ui.js?v=3.11.0"></script>
+<script src="js/watchlist-tools.js?v=3.11.0"></script>
+<script src="js/main.js?v=3.11.0"></script>
 <script src="js/interactions.js?v=3.9.6"></script>
 
 

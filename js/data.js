@@ -234,6 +234,23 @@ const DataService = (() => {
     return { indexes, quotes, generatedAt: payload.generatedAt, delivery: payload.delivery };
   }
 
+  let latestNightQuote = null;
+
+  function preferNightQuote(previous, incoming) {
+    // Never carry a previous session across a rollover or bypass a stale flag.
+    if (previous && !incoming.stale && !previous.stale
+      && previous.contract === incoming.contract
+      && previous.sessionTradingDay === incoming.sessionTradingDay
+      && incoming.sessionTradingDay === incoming.expectedTradingDay
+      && Number(previous.asOf) > Number(incoming.asOf)) {
+      return { ...incoming, ...previous, status:incoming.status,
+        stale:false, delayed:incoming.status === 'open' && Date.now() - Number(previous.asOf) > 180000,
+        delivery:'memory', warning:incoming.warning || 'Older source response ignored',
+      };
+    }
+    return incoming;
+  }
+
   async function fetchNightMarket() {
     if (!CONFIG.MARKET_API) return null;
     const url = addCacheBuster(`${CONFIG.MARKET_API.replace(/\/$/, '')}/api/night-market`);
@@ -248,7 +265,8 @@ const DataService = (() => {
       || !Number.isFinite(Number(payload.price)) || !Number.isFinite(Number(payload.asOf))) {
       throw new Error('Invalid night market response');
     }
-    return payload;
+    latestNightQuote = preferNightQuote(latestNightQuote, payload);
+    return latestNightQuote;
   }
 
   async function fetchBackendQuote(symbol) {
@@ -866,6 +884,7 @@ const DataService = (() => {
     fetchStaticMarketSnapshot,
     snapshotRecords,
     fetchNightMarket,
+    preferNightQuote,
     fetchQuotes,
     fetchQuote,
     fetchHistorical,

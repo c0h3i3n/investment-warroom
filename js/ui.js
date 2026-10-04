@@ -356,6 +356,8 @@ const UI = (() => {
 
   function setWatchlistActiveSymbol(symbol) {
     renderWatchlist.activeSymbol = symbol;
+    const link = document.getElementById('watch-indicator-link');
+    if (link) link.textContent = `查看 ${symbol.replace('.TW', '')} 技術指標 ↑`;
     document.querySelectorAll('[data-watch-symbol]').forEach(item => {
       item.classList.toggle('selected', item.dataset.watchSymbol === symbol);
     });
@@ -524,7 +526,9 @@ const UI = (() => {
       } catch(e) { return ''; }
     };
 
-    newsItems = [...newsItems].sort((a, b) => Number(b.publishedAt || 0) - Number(a.publishedAt || 0));
+    newsItems = typeof NewsService !== 'undefined'
+      ? NewsService.prepareNews(newsItems, typeof window !== 'undefined' ? window._watchlistQuotes || [] : [])
+      : [...newsItems].sort((a, b) => Number(b.publishedAt || 0) - Number(a.publishedAt || 0));
     const half = Math.ceil(newsItems.length / 2);
     const left = newsItems.slice(0, half);
     const right = newsItems.slice(half);
@@ -532,7 +536,8 @@ const UI = (() => {
     const renderCol = (items) => items.map(n => {
       const link = safeHttpUrl(n.link);
       const headline = escapeHtml(n.headline);
-      const region = ['TW', 'US', 'INTL'].includes(n.region) ? n.region : 'INTL';
+      const region = ['TW', 'US', 'INTL', 'CRYPTO'].includes(n.region) ? n.region : 'INTL';
+      const regionLabel = { TW:'台股', US:'美股', INTL:'綜合', CRYPTO:'加密' }[region];
       const publishedAt = Number(n.publishedAt);
       const publishedText = Number.isFinite(publishedAt) && publishedAt > 0
         ? new Intl.DateTimeFormat('zh-TW', { timeZone:'Asia/Taipei', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', hour12:false }).format(new Date(publishedAt))
@@ -542,11 +547,12 @@ const UI = (() => {
         : `<span class="n-headline">${headline}</span>`;
       return `
       <div class="news-item">
-        <div class="n-tag ${region === 'TW' ? 'tw' : region === 'US' ? 'us' : 'macro'}">${region}</div>
+        <div class="n-tag ${region === 'TW' ? 'tw' : region === 'US' ? 'us' : 'macro'}" title="依標題與專屬新聞來源分類">${regionLabel}</div>
         <div>
           ${headlineHtml}
           <div class="n-meta">
             <span>${escapeHtml(n.source)}</span><span>${escapeHtml(publishedText)}</span>
+            ${n.related ? '<span class="news-related">自選相關</span>' : ''}
           </div>
         </div>
       </div>`;

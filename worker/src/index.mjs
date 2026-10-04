@@ -720,8 +720,12 @@ async function handleNightMarketRequest(request, env) {
     const fresh = await fetchTaifexNightMarket();
     if (fresh.stale) throw new Error('TAIFEX night quote is stale or belongs to an earlier session');
     const cachedAsOf = Number(cached?.asOf);
+    if (Number.isFinite(cachedAsOf) && cachedAsOf > fresh.asOf) {
+      throw new Error('TAIFEX response is older than the saved quote');
+    }
     if (!fresh.stale && env?.MARKET_CACHE
-      && (!Number.isFinite(cachedAsOf) || fresh.asOf - cachedAsOf >= NIGHT_CACHE_WRITE_INTERVAL_MS)) {
+      && (!Number.isFinite(cachedAsOf) || fresh.asOf - cachedAsOf >= NIGHT_CACHE_WRITE_INTERVAL_MS
+        || (fresh.status === 'closed' && fresh.asOf > cachedAsOf))) {
       await safeCachePut(env, NIGHT_MARKET_KEY, JSON.stringify(fresh), { expirationTtl: 604800 });
     }
     return jsonResponse({ ...fresh, delivery: 'live' }, 200, request);

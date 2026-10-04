@@ -447,6 +447,8 @@ const App = (() => {
   // ═══════════════════════════════════════
   const WATCHLIST_KEY = 'warroom_watchlist';
   const WATCHLIST_VERSION = 4;
+  let removedWatchItem = null;
+  let pendingWatchImport = null;
 
   function loadWatchlist() {
     try {
@@ -520,6 +522,9 @@ const App = (() => {
     const next = watchlist.filter(item => item.symbol !== symbol);
     if (next.length === watchlist.length) return false;
     saveWatchlist(next);
+    removedWatchItem = { item:watchlist.find(item => item.symbol === symbol), index:watchlist.findIndex(item => item.symbol === symbol) };
+    const undo = document.getElementById('watch-undo');
+    if (undo) { undo.hidden = false; undo.textContent = `復原移除 ${symbol.replace('.TW', '')}`; }
     watchlistQuotes = watchlistQuotes.filter(item => item.symbol !== symbol);
     window._watchlistQuotes = watchlistQuotes;
     UI.renderWatchlist(watchlistQuotes);
@@ -545,6 +550,53 @@ const App = (() => {
     form?.addEventListener('submit', event => {
       event.preventDefault();
       if (addWatchItem(symbolInput?.value, document.getElementById('watch-name')?.value)) dialog?.close();
+    });
+    document.getElementById('watch-export')?.addEventListener('click', () => {
+      const data = { type:'warroom-watchlist', version:1, exportedAt:new Date().toISOString(), items:loadWatchlist() };
+      const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type:'application/json' }));
+      const link = document.createElement('a');
+      link.href = url; link.download = 'warroom-watchlist.json'; link.click();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+      UI.showToast('已匯出自選股備份');
+    });
+    const fileInput = document.getElementById('watch-import-file');
+    const importDialog = document.getElementById('watch-import-dialog');
+    document.getElementById('watch-import')?.addEventListener('click', () => fileInput?.click());
+    fileInput?.addEventListener('change', async () => {
+      const file = fileInput.files?.[0];
+      fileInput.value = '';
+      if (!file) return;
+      try {
+        if (file.size > 65536) throw new Error('備份檔案過大（上限 64 KB）');
+        pendingWatchImport = WatchlistTools.validateBackup(JSON.parse(await file.text()));
+        document.getElementById('watch-import-preview').textContent = `${pendingWatchImport.length} 檔：${pendingWatchImport.map(item => item.symbol.replace('.TW', '')).join('、') || '空清單'}`;
+        document.getElementById('watch-import-mode').value = 'merge';
+        importDialog.showModal();
+      } catch (error) { pendingWatchImport = null; UI.showToast(error.message, 'warn'); }
+    });
+    importDialog?.addEventListener('close', () => { pendingWatchImport = null; });
+    document.getElementById('watch-import-cancel')?.addEventListener('click', () => importDialog.close());
+    document.getElementById('watch-import-confirm')?.addEventListener('click', () => {
+      if (!pendingWatchImport) return;
+      try {
+        const items = WatchlistTools.combine(loadWatchlist(), pendingWatchImport, document.getElementById('watch-import-mode').value === 'replace');
+        saveWatchlist(items);
+        removedWatchItem = null;
+        document.getElementById('watch-undo').hidden = true;
+        importDialog.close();
+        UI.showToast(`已匯入，自選股共 ${items.length} 檔`);
+        fetchAllData(true);
+        if (!items.some(item => item.symbol === activeIndicatorSymbol)) updateIndicators(items[0]?.symbol || DEFAULT_INDICATOR_SYMBOL, { automatic:true });
+      } catch (error) { UI.showToast(error.message, 'warn'); }
+    });
+    document.getElementById('watch-undo')?.addEventListener('click', () => {
+      try {
+        saveWatchlist(WatchlistTools.restoreRemoved(loadWatchlist(), removedWatchItem));
+        removedWatchItem = null;
+        document.getElementById('watch-undo').hidden = true;
+        UI.showToast('已復原移除的自選股');
+        fetchAllData(true);
+      } catch (error) { UI.showToast(error.message, 'warn'); }
     });
   }
 

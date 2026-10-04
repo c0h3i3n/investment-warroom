@@ -109,6 +109,37 @@ test('night-market API stores a fresh official quote', async t => {
   assert.equal(stored.price, 48330);
 });
 
+test('night close saves the final minutes even inside the five-minute write interval', async t => {
+  const oldFetch = globalThis.fetch, oldNow = Date.now;
+  const now = Date.parse('2026-10-03T01:00:00Z');
+  Date.now = () => now;
+  t.after(() => { globalThis.fetch = oldFetch; Date.now = oldNow; });
+  const cached = parseTaifexNightQuotes(payload('045619','20261002'),now);
+  let saved;
+  globalThis.fetch = async () => Response.json(payload('045958','20261002'));
+  const result = await (await handleRequest(new Request('https://worker.example/api/night-market'),{
+    MARKET_CACHE:{ get:async()=>cached, put:async(_key,value)=>{ saved=JSON.parse(value); } },
+  })).json();
+  assert.ok(result.asOf > cached.asOf);
+  assert.equal(result.status,'closed');
+  assert.equal(saved.asOf,result.asOf);
+});
+
+test('an older upstream night response cannot replace a newer saved quote', async t => {
+  const oldFetch = globalThis.fetch, oldNow = Date.now;
+  const now = Date.parse('2026-10-03T01:00:00Z');
+  Date.now = () => now;
+  t.after(() => { globalThis.fetch = oldFetch; Date.now = oldNow; });
+  const cached = parseTaifexNightQuotes(payload('045958','20261002'),now);
+  globalThis.fetch = async () => Response.json(payload('045619','20261002'));
+  const result = await (await handleRequest(new Request('https://worker.example/api/night-market'),{
+    MARKET_CACHE:{ get:async()=>cached, put:async()=>assert.fail('must not save older data') },
+  })).json();
+  assert.equal(result.asOf,cached.asOf);
+  assert.equal(result.stale,false);
+  assert.equal(result.delivery,'kv');
+});
+
 test('new cross-midnight TAIFEX data replaces an obsolete night KV entry', async t => {
   const originalFetch = globalThis.fetch;
   const originalNow = Date.now;

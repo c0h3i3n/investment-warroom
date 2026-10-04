@@ -62,12 +62,15 @@ const IndicatorsService = (() => {
     const lastMacd = macdLine[macdLine.length - 1];
     const lastSignal = signal[signal.length - 1];
     const histogram = lastMacd - lastSignal;
+    const previousHistogram = macdLine.length > 9
+      ? macdLine.at(-2) - signal.at(-2) : null;
     if (isNaN(lastMacd) || isNaN(lastSignal)) return null;
     return {
       macd: lastMacd,
       signal: lastSignal,
       histogram: histogram,
-      cross: histogram > 0 ? 'bullish' : 'bearish',
+      cross: previousHistogram !== null && previousHistogram <= 0 && histogram > 0 ? 'bullish'
+        : previousHistogram !== null && previousHistogram >= 0 && histogram < 0 ? 'bearish' : null,
     };
   }
 
@@ -250,8 +253,10 @@ const IndicatorsService = (() => {
 
     if (macd) {
       let signal, color;
-      if (macd.cross === 'bullish' && macd.histogram > 0) { signal = 'CROSS ↑'; color = 'up'; }
-      else if (macd.cross === 'bearish') { signal = 'CROSS ↓'; color = 'dn'; }
+      if (macd.cross === 'bullish') { signal = '新向上交叉 ↑'; color = 'up'; }
+      else if (macd.cross === 'bearish') { signal = '新向下交叉 ↓'; color = 'dn'; }
+      else if (macd.histogram > 0) { signal = '維持訊號線上方'; color = 'up'; }
+      else if (macd.histogram < 0) { signal = '維持訊號線下方'; color = 'dn'; }
       else { signal = 'FLAT —'; color = 'warn'; }
       results.push({ name: 'MACD', value: macd.macd.toFixed(2), signal, color });
     }
@@ -371,5 +376,5 @@ const IndicatorsService = (() => {
   // ═══════════════════════════════════════
   // Public API
   // ═══════════════════════════════════════
-  return { calculateFor, calcSMA, analyzeVolume, historyFreshness };
+  return { calculateFor, calcSMA, calcMACD, analyzeVolume, historyFreshness };
 })();

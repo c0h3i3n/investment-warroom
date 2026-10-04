@@ -178,6 +178,20 @@ body { font-family:var(--reading); background:var(--void); }
 .data-timing { display:grid; gap:3px; min-width:0; }
 .data-caption { font-size:11px; color:var(--text-dim); }
 .data-note { font-size:11px; color:var(--text-dim); line-height:1.6; }
+.quick-nav { display:none; }
+#index-cards,#night-section,#technical-section,#watch-section { scroll-margin-top:70px; }
+.watch-tools { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 14px; }
+.watch-tools .btn { min-height:36px; display:inline-flex; align-items:center; text-decoration:none; }
+#watch-indicator-link { color:var(--arc); }
+.news-related { color:var(--gold); }
+.import-content { display:grid; gap:14px; padding:22px; }
+.import-content p { overflow-wrap:anywhere; font-size:13px; }
+.import-content select { width:100%; min-height:42px; padding:8px; color:var(--text); background:var(--deep); border:1px solid var(--border-hi); font:inherit; }
+@media(max-width:1200px) {
+  .quick-nav { display:flex; position:sticky; top:0; z-index:30; gap:6px; padding:10px 0; margin-bottom:12px; background:var(--void); border-bottom:1px solid var(--border); }
+  .quick-nav a { flex:1; text-align:center; padding:8px 4px; color:var(--text-mid); background:var(--panel); border:1px solid var(--border); border-radius:6px; text-decoration:none; font-size:13px; }
+  .quick-nav a:hover,.quick-nav a:focus-visible { color:var(--arc); border-color:var(--arc); }
+}
 .last-updated { position:static; max-width:none; padding:0; background:none; border:0; border-radius:0; font-family:var(--reading); font-size:12px; line-height:1.6; color:var(--text-mid); overflow-wrap:anywhere; }
 .refresh-btn { position:static; width:auto; height:36px; padding:0 12px; gap:6px; flex-shrink:0; border-radius:6px; font:500 12px var(--reading); color:var(--text-mid); box-shadow:none; background:var(--panel); }
 .refresh-btn span { font-size:20px; line-height:1; }
