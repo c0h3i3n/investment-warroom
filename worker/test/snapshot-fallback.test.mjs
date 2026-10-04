@@ -29,3 +29,7 @@ test('new envelope cannot revive an old session or stale intraday quote', () => 
   assert.equal(records('2026-10-05T02:00:00Z', '2026-10-05T02:00:00Z', '2026-10-05T01:50:00Z').length, 0);
   assert.equal(records('2026-10-05T02:00:00Z', '2026-10-05T02:00:00Z', '2026-10-05T01:59:00Z').length, 1);
 });
+
+test('a fresh timestamp on a closed Sunday cannot become a valid Taiwan quote', () => {
+  assert.equal(records('2026-10-04T02:35:00Z', '2026-10-04T02:34:00Z', '2026-10-04T02:33:50Z').length, 0);
+});

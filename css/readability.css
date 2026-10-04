@@ -177,6 +177,7 @@ body { font-family:var(--reading); background:var(--void); }
 .data-toolbar { display:flex; justify-content:space-between; align-items:center; gap:16px; margin:14px 0 18px; }
 .data-timing { display:grid; gap:3px; min-width:0; }
 .data-caption { font-size:11px; color:var(--text-dim); }
+.data-note { font-size:11px; color:var(--text-dim); line-height:1.6; }
 .last-updated { position:static; max-width:none; padding:0; background:none; border:0; border-radius:0; font-family:var(--reading); font-size:12px; line-height:1.6; color:var(--text-mid); overflow-wrap:anywhere; }
 .refresh-btn { position:static; width:auto; height:36px; padding:0 12px; gap:6px; flex-shrink:0; border-radius:6px; font:500 12px var(--reading); color:var(--text-mid); box-shadow:none; background:var(--panel); }
 .refresh-btn span { font-size:20px; line-height:1; }
@@ -230,7 +231,7 @@ body { font-family:var(--reading); background:var(--void); }
 .ind-sig { font-family:var(--reading); font-size:12px; letter-spacing:.2px; }
 .indicator-source { grid-column:1/-1; font-size:12px; color:var(--text-dim); line-height:1.7; padding-top:4px; }
 .chart-detail { color:var(--text-dim); min-height:0; }
-.main-grid { grid-template-columns:minmax(0,1fr) minmax(0,1.2fr); }
+.main-grid { grid-template-columns:minmax(0,1fr) minmax(0,1.2fr); align-items:start; }
 .watch-item { padding:14px 8px; border-bottom-color:var(--border); border-radius:5px; }
 .watch-item:hover { margin:0; padding:14px 8px; background:rgba(179,195,217,.05); }
 .w-ticker { color:var(--text-mid); font-family:var(--numeric); font-size:13px; flex-shrink:0; width:62px; }
@@ -249,6 +250,9 @@ body { font-family:var(--reading); background:var(--void); }
 .news-item:hover { margin:0; padding:16px 0; background:transparent; }
 footer { flex-wrap:wrap; gap:10px 16px; font:11px var(--reading); letter-spacing:0; border-color:var(--border); }
 .latency-badge { font-size:11px; }
+@media(min-width:1201px) {
+  .main-grid > .hud-panel:first-child { position:sticky; top:16px; }
+}
 @media(max-width:1200px) {
   .hud-header { flex-wrap:wrap; }
   .status-panel { flex-wrap:wrap; }
