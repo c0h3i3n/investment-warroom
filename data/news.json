@@ -1,38 +1,47 @@
 {
-  "timestamp": "2026-10-04T18:05:25.725212+00:00",
-  "generatedAt": "2026-10-04T18:05:25.725212+00:00",
+  "timestamp": "2026-10-04T21:17:34.447835+00:00",
+  "generatedAt": "2026-10-04T21:17:34.447835+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "盤中速報 - FET大漲8.67%，報0.2483美元",
+      "headline": "〈台股盤前要聞〉台積電評估與Terafab合作、鴻海攜輝達將機器人組裝技術導入GB300生產",
       "source": "鉅亨",
-      "time": "00:20",
-      "publishedAt": 1791130820000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6621341"
+      "time": "05:10",
+      "publishedAt": 1791148202000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6621326"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - AXS大漲12.1%，報1.34美元",
+      "headline": "〈走進中國〉有人想離開 有人等著進 空姐下跪事件背後職場圍城",
       "source": "鉅亨",
-      "time": "00:05",
-      "publishedAt": 1791129920000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6621340"
+      "time": "04:40",
+      "publishedAt": 1791146406000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6621057"
     },
     {
       "region": "TW",
-      "headline": "盤中速報 - FET大漲8.25%，報0.2479美元",
+      "headline": "危機的前奏？全球債市拉警報：長端利率飆至數十年高  高槓桿平倉放大恐慌",
       "source": "鉅亨",
-      "time": "23:50",
-      "publishedAt": 1791129020000,
+      "time": "03:20",
+      "publishedAt": 1791141605000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6621339"
+      "link": "https://news.cnyes.com/news/id/6619527"
+    },
+    {
+      "region": "TW",
+      "headline": "持續加碼！波克夏對Lennar持股比例增至11.2%  巴菲特逆勢操作透露何種信號?",
+      "source": "鉅亨",
+      "time": "02:50",
+      "publishedAt": 1791139805000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6621319"
     },
     {
       "region": "TW",
       "headline": "AI狂潮+股市熱！金融三業前8月稅前狂賺1.17兆元 刷新史上全年新高紀錄",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "23:09",
       "publishedAt": 1791126545000,
       "impact": "neu",
@@ -55,15 +64,6 @@
       "publishedAt": 1791113329000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6621275"
-    },
-    {
-      "region": "TW",
-      "headline": "台積電千億美元投資登全球第一！2025跨國投資破1.3兆美元、AI資料中心成焦點",
-      "source": "台股",
-      "time": "19:20",
-      "publishedAt": 1791112805000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621091"
     }
   ]
 }
