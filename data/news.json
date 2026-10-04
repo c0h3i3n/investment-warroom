@@ -1,60 +1,78 @@
 {
-  "timestamp": "2026-10-04T00:30:45.674070+00:00",
-  "generatedAt": "2026-10-04T00:30:45.674070+00:00",
+  "timestamp": "2026-10-04T06:45:32.452772+00:00",
+  "generatedAt": "2026-10-04T06:45:32.452772+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "傳台積電可能參加Terafab晶圓項目　馬斯克：僅處於討論階段 但可能有所進展",
+      "headline": "蘋果證實iPhone 18 Pro Max爆斷訊問題！受影響用戶須更換手機",
       "source": "鉅亨",
-      "time": "23:00",
-      "publishedAt": 1791039606000,
+      "time": "13:10",
+      "publishedAt": 1791090603000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621088"
+      "link": "https://news.cnyes.com/news/id/6621179"
     },
     {
       "region": "TW",
-      "headline": "體力變差？華爾街日報：「川習會」中方要求配合習近平休息",
+      "headline": "美股震盪美債走高免驚！野村提解方：靠「成長+基建+債券」3箭齊發",
       "source": "鉅亨",
-      "time": "20:49",
-      "publishedAt": 1791031784000,
+      "time": "12:50",
+      "publishedAt": 1791089403000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621011"
+      "link": "https://news.cnyes.com/news/id/6621158"
     },
     {
       "region": "TW",
-      "headline": "Fed示警「通膨心態」成降息阻力！企業提前漲價恐讓美國通膨更難降至2%",
+      "headline": "俄烏戰爭再升溫！澤倫斯基下令加強攻擊俄羅斯煉油廠、反制普丁冬季空襲",
       "source": "鉅亨",
-      "time": "19:10",
-      "publishedAt": 1791025804000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6620945"
+      "time": "12:10",
+      "publishedAt": 1791087005000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6621097"
     },
     {
       "region": "TW",
-      "headline": "〈房產〉聯上發：新店「聯上澐朗」火警已撲滅 無人員傷亡",
+      "headline": "川普任命國家情報總監為「AI沙皇」！白宮成立超級智慧工作小組、120天內評估風險",
       "source": "鉅亨",
-      "time": "17:25",
-      "publishedAt": 1791019545000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6620973"
+      "time": "11:11",
+      "publishedAt": 1791083501000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6621180"
     },
     {
       "region": "TW",
-      "headline": "〈熱門股〉被動元件族群10月開門紅 華新科連二根漲停創近2個半月高",
+      "headline": "台股無懼國際市場紛擾逆風創高 下周關注這些「變數」",
       "source": "台股",
-      "time": "13:00",
-      "publishedAt": 1791003604000,
+      "time": "11:10",
+      "publishedAt": 1791083403000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6620965"
+      "link": "https://news.cnyes.com/news/id/6618447"
     },
     {
       "region": "TW",
-      "headline": "台積電傳與馬斯克Terafab探索合作  考慮美國第二園區",
+      "headline": "精測9月、Q3營收雙創新高 前三季已超越去年全年",
       "source": "台股",
-      "time": "13:00",
-      "publishedAt": 1791003604000,
+      "time": "10:10",
+      "publishedAt": 1791079803000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620964"
+      "link": "https://news.cnyes.com/news/id/6620936"
+    },
+    {
+      "region": "TW",
+      "headline": "成本壓力難擋家電業迎漲價 業者瞄準2027年新能效標準搶攻換機商機",
+      "source": "台股",
+      "time": "09:40",
+      "publishedAt": 1791078004000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6620771"
+    },
+    {
+      "region": "TW",
+      "headline": "大盤登頂誰最賺？18檔ETF同創新高 主動式、市值型、海外科技全上榜",
+      "source": "台股",
+      "time": "09:20",
+      "publishedAt": 1791076803000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6621048"
     }
   ]
 }
