@@ -1,42 +1,51 @@
 {
-  "timestamp": "2026-10-04T06:45:32.452772+00:00",
-  "generatedAt": "2026-10-04T06:45:32.452772+00:00",
+  "timestamp": "2026-10-04T13:08:18.639555+00:00",
+  "generatedAt": "2026-10-04T13:08:18.639555+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "蘋果證實iPhone 18 Pro Max爆斷訊問題！受影響用戶須更換手機",
+      "headline": "盤中速報 - GLMR大跌11.29%，報0.0117美元",
       "source": "鉅亨",
-      "time": "13:10",
-      "publishedAt": 1791090603000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621179"
+      "time": "20:20",
+      "publishedAt": 1791116416000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6621302"
     },
     {
       "region": "TW",
-      "headline": "美股震盪美債走高免驚！野村提解方：靠「成長+基建+債券」3箭齊發",
+      "headline": "AI算力投資浪潮向上游擴散！伯恩斯坦重磅報告：半導體設備迎「黃金時代」 日本廠商成焦點",
       "source": "鉅亨",
-      "time": "12:50",
-      "publishedAt": 1791089403000,
+      "time": "20:10",
+      "publishedAt": 1791115802000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621158"
+      "link": "https://news.cnyes.com/news/id/6620939"
     },
     {
       "region": "TW",
-      "headline": "俄烏戰爭再升溫！澤倫斯基下令加強攻擊俄羅斯煉油廠、反制普丁冬季空襲",
+      "headline": "〈台股風向球〉營收和法說會重頭戲陸續上演 加熱光輝10月行情",
       "source": "鉅亨",
-      "time": "12:10",
-      "publishedAt": 1791087005000,
+      "time": "19:28",
+      "publishedAt": 1791113329000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621097"
+      "link": "https://news.cnyes.com/news/id/6621275"
     },
     {
       "region": "TW",
-      "headline": "川普任命國家情報總監為「AI沙皇」！白宮成立超級智慧工作小組、120天內評估風險",
+      "headline": "台積電千億美元投資登全球第一！2025跨國投資破1.3兆美元、AI資料中心成焦點",
       "source": "鉅亨",
-      "time": "11:11",
-      "publishedAt": 1791083501000,
+      "time": "19:20",
+      "publishedAt": 1791112805000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621180"
+      "link": "https://news.cnyes.com/news/id/6621091"
+    },
+    {
+      "region": "TW",
+      "headline": "鴻海攜手輝達推進機器人組裝技術導入GB300生產 Busbar組裝成功率超過95%",
+      "source": "台股",
+      "time": "15:50",
+      "publishedAt": 1791100251000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6621244"
     },
     {
       "region": "TW",
@@ -46,33 +55,6 @@
       "publishedAt": 1791083403000,
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6618447"
-    },
-    {
-      "region": "TW",
-      "headline": "精測9月、Q3營收雙創新高 前三季已超越去年全年",
-      "source": "台股",
-      "time": "10:10",
-      "publishedAt": 1791079803000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6620936"
-    },
-    {
-      "region": "TW",
-      "headline": "成本壓力難擋家電業迎漲價 業者瞄準2027年新能效標準搶攻換機商機",
-      "source": "台股",
-      "time": "09:40",
-      "publishedAt": 1791078004000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6620771"
-    },
-    {
-      "region": "TW",
-      "headline": "大盤登頂誰最賺？18檔ETF同創新高 主動式、市值型、海外科技全上榜",
-      "source": "台股",
-      "time": "09:20",
-      "publishedAt": 1791076803000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621048"
     }
   ]
 }
