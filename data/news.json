@@ -1,78 +1,51 @@
 {
-  "timestamp": "2026-10-05T06:53:27.867554+00:00",
-  "generatedAt": "2026-10-05T06:53:27.867554+00:00",
+  "timestamp": "2026-10-05T15:53:25.915539+00:00",
+  "generatedAt": "2026-10-05T15:53:25.915539+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "鈺祥企業榮獲2026《哈佛商業評論》數位轉型鼎革獎「智造升級轉型獎」中小型企業首獎",
-      "source": "台股",
-      "time": "14:17",
-      "publishedAt": 1791181050000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621679"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股盤後〉台積電攜低軌衛星、PCB狂歡 收漲1236點續創新高叩關5萬點",
-      "source": "台股",
-      "time": "14:08",
-      "publishedAt": 1791180516000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6621672"
-    },
-    {
-      "region": "TW",
-      "headline": "00830近一年翻倍？國泰費城半導體ETF成分股、配息與定期定額一次看",
-      "source": "台股",
-      "time": "13:55",
-      "publishedAt": 1791179742000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621668"
-    },
-    {
-      "region": "TW",
-      "headline": "00416A是什麼？首檔小股本主動式ETF登場，AI供應鏈下一批飆股藏在這裡？",
-      "source": "台股",
-      "time": "13:51",
-      "publishedAt": 1791179499000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6621665"
-    },
-    {
-      "region": "TW",
-      "headline": "歐元重挫至17個月新低 美元走強引發全球匯市波動",
+      "headline": "債券殖利率飆升下 黃金仍為各國央行核心避險儲備資產",
       "source": "鉅亨",
-      "time": "13:30",
-      "publishedAt": 1791178206000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621646"
-    },
-    {
-      "region": "TW",
-      "headline": "憂失「歐洲製造」待遇 英國擬對中國電動車課稅",
-      "source": "鉅亨",
-      "time": "13:27",
-      "publishedAt": 1791178038000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621410"
-    },
-    {
-      "region": "TW",
-      "headline": "〈焦點股〉南亞受惠電子材料持續升級 爆量漲停再寫新天價",
-      "source": "鉅亨",
-      "time": "13:20",
-      "publishedAt": 1791177643000,
+      "time": "21:10",
+      "publishedAt": 1791205803000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6621644"
+      "link": "https://news.cnyes.com/news/id/6621970"
     },
     {
       "region": "TW",
-      "headline": "台股叩關5萬點56千金盛況再現 川湖、台光電等8檔高價股攻漲停",
+      "headline": "9月外資持台股債存款金額破1.9兆美元 占外匯存底321%創新高",
       "source": "鉅亨",
-      "time": "13:17",
-      "publishedAt": 1791177478000,
+      "time": "20:55",
+      "publishedAt": 1791204914000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6622035"
+    },
+    {
+      "region": "TW",
+      "headline": "全民「嗶」運動！雲端發票使用率飆近7成 台鐵、全國電子上榜「重量級」",
+      "source": "鉅亨",
+      "time": "20:54",
+      "publishedAt": 1791204849000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6621643"
+      "link": "https://news.cnyes.com/news/id/6622033"
+    },
+    {
+      "region": "TW",
+      "headline": "精湛光學9月營收7134萬元年增17.7% 本季營運動能看佳",
+      "source": "鉅亨",
+      "time": "20:53",
+      "publishedAt": 1791204815000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6622030"
+    },
+    {
+      "region": "TW",
+      "headline": "〈特力屋將掛牌〉成功打造「一站式居家服務平台」簽約300個工班將快速複製服務站",
+      "source": "台股",
+      "time": "20:48",
+      "publishedAt": 1791204538000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6621995"
     }
   ]
 }
