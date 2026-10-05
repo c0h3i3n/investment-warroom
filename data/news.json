@@ -1,51 +1,78 @@
 {
-  "timestamp": "2026-10-05T15:53:25.915539+00:00",
-  "generatedAt": "2026-10-05T15:53:25.915539+00:00",
+  "timestamp": "2026-10-05T22:32:36.567067+00:00",
+  "generatedAt": "2026-10-05T22:32:36.567067+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "債券殖利率飆升下 黃金仍為各國央行核心避險儲備資產",
+      "headline": "今天一年、未來5週！辛頓警告：AI加速自我改進 人類應對時間不多了",
       "source": "鉅亨",
-      "time": "21:10",
-      "publishedAt": 1791205803000,
+      "time": "06:10",
+      "publishedAt": 1791238203000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6622095"
+    },
+    {
+      "region": "TW",
+      "headline": "AI危險反成微軟利多 分析師升評買進、還能漲三成",
+      "source": "鉅亨",
+      "time": "06:00",
+      "publishedAt": 1791237604000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6621970"
+      "link": "https://news.cnyes.com/news/id/6622134"
     },
     {
       "region": "TW",
-      "headline": "9月外資持台股債存款金額破1.9兆美元 占外匯存底321%創新高",
+      "headline": "俄研究所員工疑染鼠疫亡 急隔離200接觸者 盧比歐：「美方正密切追蹤」",
       "source": "鉅亨",
-      "time": "20:55",
-      "publishedAt": 1791204914000,
+      "time": "05:56",
+      "publishedAt": 1791237362000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622035"
+      "link": "https://news.cnyes.com/news/id/6622164"
     },
     {
       "region": "TW",
-      "headline": "全民「嗶」運動！雲端發票使用率飆近7成 台鐵、全國電子上榜「重量級」",
+      "headline": "老債王葛洛斯警告：勿碰長債、當心股市 債券只留這個「例外」",
       "source": "鉅亨",
-      "time": "20:54",
-      "publishedAt": 1791204849000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6622033"
+      "time": "05:50",
+      "publishedAt": 1791237003000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6622128"
     },
     {
       "region": "TW",
-      "headline": "精湛光學9月營收7134萬元年增17.7% 本季營運動能看佳",
-      "source": "鉅亨",
-      "time": "20:53",
-      "publishedAt": 1791204815000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622030"
-    },
-    {
-      "region": "TW",
-      "headline": "〈特力屋將掛牌〉成功打造「一站式居家服務平台」簽約300個工班將快速複製服務站",
+      "headline": "馬斯克晶片計畫找上台積電！英特爾股價承壓",
       "source": "台股",
-      "time": "20:48",
-      "publishedAt": 1791204538000,
+      "time": "22:30",
+      "publishedAt": 1791210607000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621995"
+      "link": "https://news.cnyes.com/news/id/6622063"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：大立光(3008-TW)EPS預估下修至187.88元，預估目標價為5300元",
+      "source": "台股",
+      "time": "22:11",
+      "publishedAt": 1791209484000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6622073"
+    },
+    {
+      "region": "TW",
+      "headline": "從半導體到無人機！龔明鑫看好下一座「護國神山」上調產值目標至500億",
+      "source": "台股",
+      "time": "21:20",
+      "publishedAt": 1791206408000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6622042"
+    },
+    {
+      "region": "TW",
+      "headline": "復華00418A採雙經理人、不配息 聚焦三大類股搶吃「整條魚」行情",
+      "source": "台股",
+      "time": "21:18",
+      "publishedAt": 1791206333000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6622051"
     }
   ]
 }
