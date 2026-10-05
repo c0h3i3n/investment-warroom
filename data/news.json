@@ -1,69 +1,78 @@
 {
-  "timestamp": "2026-10-05T00:47:22.275816+00:00",
-  "generatedAt": "2026-10-05T00:47:22.275816+00:00",
+  "timestamp": "2026-10-05T06:53:27.867554+00:00",
+  "generatedAt": "2026-10-05T06:53:27.867554+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "〈台股盤前要聞〉台積電評估與Terafab合作、鴻海攜輝達將機器人組裝技術導入GB300生產",
-      "source": "鉅亨",
-      "time": "05:10",
-      "publishedAt": 1791148202000,
+      "headline": "鈺祥企業榮獲2026《哈佛商業評論》數位轉型鼎革獎「智造升級轉型獎」中小型企業首獎",
+      "source": "台股",
+      "time": "14:17",
+      "publishedAt": 1791181050000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621326"
+      "link": "https://news.cnyes.com/news/id/6621679"
     },
     {
       "region": "TW",
-      "headline": "〈走進中國〉有人想離開 有人等著進 空姐下跪事件背後職場圍城",
-      "source": "鉅亨",
-      "time": "04:40",
-      "publishedAt": 1791146406000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621057"
-    },
-    {
-      "region": "TW",
-      "headline": "危機的前奏？全球債市拉警報：長端利率飆至數十年高  高槓桿平倉放大恐慌",
-      "source": "鉅亨",
-      "time": "03:20",
-      "publishedAt": 1791141605000,
+      "headline": "〈台股盤後〉台積電攜低軌衛星、PCB狂歡 收漲1236點續創新高叩關5萬點",
+      "source": "台股",
+      "time": "14:08",
+      "publishedAt": 1791180516000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6619527"
+      "link": "https://news.cnyes.com/news/id/6621672"
     },
     {
       "region": "TW",
-      "headline": "持續加碼！波克夏對Lennar持股比例增至11.2%  巴菲特逆勢操作透露何種信號?",
+      "headline": "00830近一年翻倍？國泰費城半導體ETF成分股、配息與定期定額一次看",
+      "source": "台股",
+      "time": "13:55",
+      "publishedAt": 1791179742000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6621668"
+    },
+    {
+      "region": "TW",
+      "headline": "00416A是什麼？首檔小股本主動式ETF登場，AI供應鏈下一批飆股藏在這裡？",
+      "source": "台股",
+      "time": "13:51",
+      "publishedAt": 1791179499000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6621665"
+    },
+    {
+      "region": "TW",
+      "headline": "歐元重挫至17個月新低 美元走強引發全球匯市波動",
       "source": "鉅亨",
-      "time": "02:50",
-      "publishedAt": 1791139805000,
+      "time": "13:30",
+      "publishedAt": 1791178206000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621319"
+      "link": "https://news.cnyes.com/news/id/6621646"
     },
     {
       "region": "TW",
-      "headline": "AI狂潮+股市熱！金融三業前8月稅前狂賺1.17兆元 刷新史上全年新高紀錄",
-      "source": "台股",
-      "time": "23:09",
-      "publishedAt": 1791126545000,
+      "headline": "憂失「歐洲製造」待遇 英國擬對中國電動車課稅",
+      "source": "鉅亨",
+      "time": "13:27",
+      "publishedAt": 1791178038000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621338"
+      "link": "https://news.cnyes.com/news/id/6621410"
     },
     {
       "region": "TW",
-      "headline": "台英科技合作簽MOU 加強雙方矽光子、半導體學術交流",
-      "source": "台股",
-      "time": "22:54",
-      "publishedAt": 1791125657000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621296"
+      "headline": "〈焦點股〉南亞受惠電子材料持續升級 爆量漲停再寫新天價",
+      "source": "鉅亨",
+      "time": "13:20",
+      "publishedAt": 1791177643000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6621644"
     },
     {
       "region": "TW",
-      "headline": "〈台股風向球〉營收和法說會重頭戲陸續上演 加熱光輝10月行情",
-      "source": "台股",
-      "time": "19:28",
-      "publishedAt": 1791113329000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621275"
+      "headline": "台股叩關5萬點56千金盛況再現 川湖、台光電等8檔高價股攻漲停",
+      "source": "鉅亨",
+      "time": "13:17",
+      "publishedAt": 1791177478000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6621643"
     }
   ]
 }
