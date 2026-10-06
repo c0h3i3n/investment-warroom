@@ -1,24 +1,51 @@
 {
-  "timestamp": "2026-10-06T16:44:28.878748+00:00",
-  "generatedAt": "2026-10-06T16:44:28.878748+00:00",
+  "timestamp": "2026-10-06T21:34:52.228384+00:00",
+  "generatedAt": "2026-10-06T21:34:52.228384+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "上網先找Muse？花旗估2030年替Meta帶來逾270億美元年營收",
+      "headline": "川普改口讚美元強勢 反映美國表現好、還能壓通膨",
       "source": "鉅亨",
-      "time": "23:00",
-      "publishedAt": 1791298804000,
+      "time": "04:39",
+      "publishedAt": 1791319166000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623163"
+      "link": "https://news.cnyes.com/news/id/6623275"
     },
     {
       "region": "TW",
-      "headline": "關稅擋不住進口！美國8月貿易逆差衝上1056億美元 創逾一年最大",
+      "headline": "特斯拉Cybercab要來歐洲了！巴黎車展首度亮相但不開放搭乘",
       "source": "鉅亨",
-      "time": "22:30",
-      "publishedAt": 1791297005000,
+      "time": "03:00",
+      "publishedAt": 1791313203000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623166"
+      "link": "https://news.cnyes.com/news/id/6623215"
+    },
+    {
+      "region": "TW",
+      "headline": "AI搶電大戰升溫！Google簽20年核電大單 電力股盤中大漲",
+      "source": "鉅亨",
+      "time": "02:30",
+      "publishedAt": 1791311405000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6623239"
+    },
+    {
+      "region": "TW",
+      "headline": "油價下跌也別急著樂觀！EIA估第四季布蘭特均價105美元",
+      "source": "鉅亨",
+      "time": "02:00",
+      "publishedAt": 1791309605000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6623240"
+    },
+    {
+      "region": "TW",
+      "headline": "TIS揭露上限引論戰！保險局捍衛三大監理原則 「承諾跳票」標示最快明年4月底現形",
+      "source": "台股",
+      "time": "23:50",
+      "publishedAt": 1791301828000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6623158"
     },
     {
       "region": "TW",
@@ -37,33 +64,6 @@
       "publishedAt": 1791295876000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6623177"
-    },
-    {
-      "region": "TW",
-      "headline": "美股太旺現金不香了？貨幣基金吸金減速推升美國短債殖利率",
-      "source": "鉅亨",
-      "time": "22:00",
-      "publishedAt": 1791295207000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622961"
-    },
-    {
-      "region": "TW",
-      "headline": "〈美股早盤〉AI熱潮與油價降溫聯手助攻！主要指數開高 標普500刷新盤中紀錄",
-      "source": "鉅亨",
-      "time": "21:42",
-      "publishedAt": 1791294157000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622909"
-    },
-    {
-      "region": "TW",
-      "headline": "金管會釋利多！擴大保險業「健康福祉事業」投資範疇 保單脫鉤、非上市櫃公司可100%控股",
-      "source": "台股",
-      "time": "21:28",
-      "publishedAt": 1791293290000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623144"
     }
   ]
 }
