@@ -1,78 +1,78 @@
 {
-  "timestamp": "2026-10-06T02:53:40.670174+00:00",
-  "generatedAt": "2026-10-06T02:53:40.670174+00:00",
+  "timestamp": "2026-10-06T10:06:02.240557+00:00",
+  "generatedAt": "2026-10-06T10:06:02.240557+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "AI風險聽證會登場！美AI四巨頭高管怕收到傳票而出庭　知名「吹哨者」Coxon亦出席作證",
-      "source": "鉅亨",
-      "time": "07:20",
-      "publishedAt": 1791242403000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622145"
-    },
-    {
-      "region": "TW",
-      "headline": "馬斯克讓英特爾股價受挫 但投資人不必恐慌",
-      "source": "鉅亨",
-      "time": "07:10",
-      "publishedAt": 1791241804000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622192"
-    },
-    {
-      "region": "TW",
-      "headline": "新AI時代已至 OpenAI核心主管：市場仍低估三大趨勢",
-      "source": "鉅亨",
-      "time": "07:10",
-      "publishedAt": 1791241804000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6621947"
-    },
-    {
-      "region": "TW",
-      "headline": "AI交易難再輕鬆賺！美銀籲調整布局 別低估美國消費力",
-      "source": "鉅亨",
-      "time": "07:00",
-      "publishedAt": 1791241204000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622139"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股盤前要聞〉鴻海9月營收首度破兆、台股創高劍指5萬點",
+      "headline": "台塑汽車發表新世代DAF重車 台灣成歐洲境外首座新世代組裝基地",
       "source": "台股",
-      "time": "05:10",
-      "publishedAt": 1791234604000,
+      "time": "13:52",
+      "publishedAt": 1791265921000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6622653"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台北紡織展〉新纖NEOLAST新產線正式量產 首階段年產能600噸",
+      "source": "台股",
+      "time": "13:51",
+      "publishedAt": 1791265877000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6622647"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 中菲行(5609)9月營收36.55億元年增率高達46.96％",
+      "source": "台股",
+      "time": "13:50",
+      "publishedAt": 1791265813000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6622659"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股盤後〉權值股尾盤拉抬 震盪甩尾收漲110點 靠攏5萬點",
+      "source": "台股",
+      "time": "13:49",
+      "publishedAt": 1791265783000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6622129"
+      "link": "https://news.cnyes.com/news/id/6622654"
     },
     {
       "region": "TW",
-      "headline": "馬斯克晶片計畫找上台積電！英特爾股價承壓",
-      "source": "台股",
-      "time": "22:30",
-      "publishedAt": 1791210607000,
+      "headline": "5月服務中斷元凶抓到了？維基百科：疑似OpenAI的AI代理失控 未授權卻狂抓資料",
+      "source": "鉅亨",
+      "time": "13:30",
+      "publishedAt": 1791264605000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622063"
+      "link": "https://news.cnyes.com/news/id/6622635"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：大立光(3008-TW)EPS預估下修至187.88元，預估目標價為5300元",
-      "source": "台股",
-      "time": "22:11",
-      "publishedAt": 1791209484000,
+      "headline": "009828頻創新高還能追？外資預告PCB未來三年迎最強成長期",
+      "source": "鉅亨",
+      "time": "13:26",
+      "publishedAt": 1791264405000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6622648"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台北紡織展〉儒鴻董座：Q4營運向上全年可望創高 明年首季展望樂觀",
+      "source": "鉅亨",
+      "time": "13:15",
+      "publishedAt": 1791263747000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6622620"
+    },
+    {
+      "region": "TW",
+      "headline": "中國不願增持、日本想拿回錢 達里歐警告美債需求隱憂",
+      "source": "鉅亨",
+      "time": "13:10",
+      "publishedAt": 1791263407000,
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6622073"
-    },
-    {
-      "region": "TW",
-      "headline": "從半導體到無人機！龔明鑫看好下一座「護國神山」上調產值目標至500億",
-      "source": "台股",
-      "time": "21:20",
-      "publishedAt": 1791206408000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6622042"
+      "link": "https://news.cnyes.com/news/id/6622611"
     }
   ]
 }
