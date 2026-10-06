@@ -1,78 +1,69 @@
 {
-  "timestamp": "2026-10-06T10:06:02.240557+00:00",
-  "generatedAt": "2026-10-06T10:06:02.240557+00:00",
+  "timestamp": "2026-10-06T16:44:28.878748+00:00",
+  "generatedAt": "2026-10-06T16:44:28.878748+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "台塑汽車發表新世代DAF重車 台灣成歐洲境外首座新世代組裝基地",
-      "source": "台股",
-      "time": "13:52",
-      "publishedAt": 1791265921000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622653"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台北紡織展〉新纖NEOLAST新產線正式量產 首階段年產能600噸",
-      "source": "台股",
-      "time": "13:51",
-      "publishedAt": 1791265877000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622647"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報  - 中菲行(5609)9月營收36.55億元年增率高達46.96％",
-      "source": "台股",
-      "time": "13:50",
-      "publishedAt": 1791265813000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622659"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股盤後〉權值股尾盤拉抬 震盪甩尾收漲110點 靠攏5萬點",
-      "source": "台股",
-      "time": "13:49",
-      "publishedAt": 1791265783000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6622654"
-    },
-    {
-      "region": "TW",
-      "headline": "5月服務中斷元凶抓到了？維基百科：疑似OpenAI的AI代理失控 未授權卻狂抓資料",
+      "headline": "上網先找Muse？花旗估2030年替Meta帶來逾270億美元年營收",
       "source": "鉅亨",
-      "time": "13:30",
-      "publishedAt": 1791264605000,
+      "time": "23:00",
+      "publishedAt": 1791298804000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622635"
+      "link": "https://news.cnyes.com/news/id/6623163"
     },
     {
       "region": "TW",
-      "headline": "009828頻創新高還能追？外資預告PCB未來三年迎最強成長期",
+      "headline": "關稅擋不住進口！美國8月貿易逆差衝上1056億美元 創逾一年最大",
       "source": "鉅亨",
-      "time": "13:26",
-      "publishedAt": 1791264405000,
+      "time": "22:30",
+      "publishedAt": 1791297005000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622648"
+      "link": "https://news.cnyes.com/news/id/6623166"
     },
     {
       "region": "TW",
-      "headline": "〈台北紡織展〉儒鴻董座：Q4營運向上全年可望創高 明年首季展望樂觀",
-      "source": "鉅亨",
-      "time": "13:15",
-      "publishedAt": 1791263747000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6622620"
+      "headline": "鉅亨速報 - Factset 最新調查：創意(3443-TW)EPS預估上修至52.79元，預估目標價為6494元",
+      "source": "台股",
+      "time": "22:11",
+      "publishedAt": 1791295878000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6623178"
     },
     {
       "region": "TW",
-      "headline": "中國不願增持、日本想拿回錢 達里歐警告美債需求隱憂",
+      "headline": "鉅亨速報 - Factset 最新調查：南亞(1303-TW)EPS預估上修至13.56元，預估目標價為320元",
+      "source": "台股",
+      "time": "22:11",
+      "publishedAt": 1791295876000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6623177"
+    },
+    {
+      "region": "TW",
+      "headline": "美股太旺現金不香了？貨幣基金吸金減速推升美國短債殖利率",
       "source": "鉅亨",
-      "time": "13:10",
-      "publishedAt": 1791263407000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6622611"
+      "time": "22:00",
+      "publishedAt": 1791295207000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6622961"
+    },
+    {
+      "region": "TW",
+      "headline": "〈美股早盤〉AI熱潮與油價降溫聯手助攻！主要指數開高 標普500刷新盤中紀錄",
+      "source": "鉅亨",
+      "time": "21:42",
+      "publishedAt": 1791294157000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6622909"
+    },
+    {
+      "region": "TW",
+      "headline": "金管會釋利多！擴大保險業「健康福祉事業」投資範疇 保單脫鉤、非上市櫃公司可100%控股",
+      "source": "台股",
+      "time": "21:28",
+      "publishedAt": 1791293290000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6623144"
     }
   ]
 }
