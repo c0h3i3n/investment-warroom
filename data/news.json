@@ -1,42 +1,51 @@
 {
-  "timestamp": "2026-10-05T22:32:36.567067+00:00",
-  "generatedAt": "2026-10-05T22:32:36.567067+00:00",
+  "timestamp": "2026-10-06T02:53:40.670174+00:00",
+  "generatedAt": "2026-10-06T02:53:40.670174+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "今天一年、未來5週！辛頓警告：AI加速自我改進 人類應對時間不多了",
+      "headline": "AI風險聽證會登場！美AI四巨頭高管怕收到傳票而出庭　知名「吹哨者」Coxon亦出席作證",
       "source": "鉅亨",
-      "time": "06:10",
-      "publishedAt": 1791238203000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6622095"
-    },
-    {
-      "region": "TW",
-      "headline": "AI危險反成微軟利多 分析師升評買進、還能漲三成",
-      "source": "鉅亨",
-      "time": "06:00",
-      "publishedAt": 1791237604000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6622134"
-    },
-    {
-      "region": "TW",
-      "headline": "俄研究所員工疑染鼠疫亡 急隔離200接觸者 盧比歐：「美方正密切追蹤」",
-      "source": "鉅亨",
-      "time": "05:56",
-      "publishedAt": 1791237362000,
+      "time": "07:20",
+      "publishedAt": 1791242403000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622164"
+      "link": "https://news.cnyes.com/news/id/6622145"
     },
     {
       "region": "TW",
-      "headline": "老債王葛洛斯警告：勿碰長債、當心股市 債券只留這個「例外」",
+      "headline": "馬斯克讓英特爾股價受挫 但投資人不必恐慌",
       "source": "鉅亨",
-      "time": "05:50",
-      "publishedAt": 1791237003000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6622128"
+      "time": "07:10",
+      "publishedAt": 1791241804000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6622192"
+    },
+    {
+      "region": "TW",
+      "headline": "新AI時代已至 OpenAI核心主管：市場仍低估三大趨勢",
+      "source": "鉅亨",
+      "time": "07:10",
+      "publishedAt": 1791241804000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6621947"
+    },
+    {
+      "region": "TW",
+      "headline": "AI交易難再輕鬆賺！美銀籲調整布局 別低估美國消費力",
+      "source": "鉅亨",
+      "time": "07:00",
+      "publishedAt": 1791241204000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6622139"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股盤前要聞〉鴻海9月營收首度破兆、台股創高劍指5萬點",
+      "source": "台股",
+      "time": "05:10",
+      "publishedAt": 1791234604000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6622129"
     },
     {
       "region": "TW",
@@ -64,15 +73,6 @@
       "publishedAt": 1791206408000,
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6622042"
-    },
-    {
-      "region": "TW",
-      "headline": "復華00418A採雙經理人、不配息 聚焦三大類股搶吃「整條魚」行情",
-      "source": "台股",
-      "time": "21:18",
-      "publishedAt": 1791206333000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622051"
     }
   ]
 }
