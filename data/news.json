@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-10-06T21:34:52.228384+00:00",
-  "generatedAt": "2026-10-06T21:34:52.228384+00:00",
+  "timestamp": "2026-10-07T01:26:09.596207+00:00",
+  "generatedAt": "2026-10-07T01:26:09.596207+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "川普改口讚美元強勢 反映美國表現好、還能壓通膨",
-      "source": "鉅亨",
-      "time": "04:39",
-      "publishedAt": 1791319166000,
+      "headline": "蔡康永現身沈伯洋競總成立大會 共軍帳號「鈞正平」表態！",
+      "source": "台股",
+      "time": "08:40",
+      "publishedAt": 1791333637000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623275"
+      "link": "https://news.cnyes.com/news/id/6623348"
     },
     {
       "region": "TW",
-      "headline": "特斯拉Cybercab要來歐洲了！巴黎車展首度亮相但不開放搭乘",
-      "source": "鉅亨",
-      "time": "03:00",
-      "publishedAt": 1791313203000,
+      "headline": "營收速報  - 高僑(6234)9月營收1.05億元年增率高達133.52％",
+      "source": "台股",
+      "time": "08:21",
+      "publishedAt": 1791332476000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623215"
+      "link": "https://news.cnyes.com/news/id/6623362"
     },
     {
       "region": "TW",
-      "headline": "AI搶電大戰升溫！Google簽20年核電大單 電力股盤中大漲",
+      "headline": "殖利率飆破5.3%仍擋不住AI熱潮 克雷默看好3大藍籌股：輝達、微軟、Meta",
       "source": "鉅亨",
-      "time": "02:30",
-      "publishedAt": 1791311405000,
+      "time": "08:20",
+      "publishedAt": 1791332403000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6623239"
+      "link": "https://news.cnyes.com/news/id/6623317"
     },
     {
       "region": "TW",
-      "headline": "油價下跌也別急著樂觀！EIA估第四季布蘭特均價105美元",
+      "headline": "比核電廠更惹人嫌！美國逾七成民眾反對資料中心 有四大原因",
       "source": "鉅亨",
-      "time": "02:00",
-      "publishedAt": 1791309605000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6623240"
+      "time": "08:10",
+      "publishedAt": 1791331806000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6623265"
     },
     {
       "region": "TW",
-      "headline": "TIS揭露上限引論戰！保險局捍衛三大監理原則 「承諾跳票」標示最快明年4月底現形",
+      "headline": "營收速報 - 2026年10月7日台股中小型公司9月營收一覽（新增334家）",
       "source": "台股",
-      "time": "23:50",
-      "publishedAt": 1791301828000,
+      "time": "07:55",
+      "publishedAt": 1791330912000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623158"
+      "link": "https://news.cnyes.com/news/id/6623344"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：創意(3443-TW)EPS預估上修至52.79元，預估目標價為6494元",
-      "source": "台股",
-      "time": "22:11",
-      "publishedAt": 1791295878000,
+      "headline": "營收速報 - 2026年10月7日台股大型公司9月營收一覽（新增27家）",
+      "source": "鉅亨",
+      "time": "07:55",
+      "publishedAt": 1791330911000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623178"
+      "link": "https://news.cnyes.com/news/id/6623343"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：南亞(1303-TW)EPS預估上修至13.56元，預估目標價為320元",
-      "source": "台股",
-      "time": "22:11",
-      "publishedAt": 1791295876000,
+      "headline": "最快年底出貨！SK海力士旗下Solidigm增台灣ODM基地 擴大資料中心SSD供應",
+      "source": "鉅亨",
+      "time": "07:50",
+      "publishedAt": 1791330604000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623177"
+      "link": "https://news.cnyes.com/news/id/6622828"
     }
   ]
 }
