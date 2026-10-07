@@ -1,69 +1,78 @@
 {
-  "timestamp": "2026-10-07T01:26:09.596207+00:00",
-  "generatedAt": "2026-10-07T01:26:09.596207+00:00",
+  "timestamp": "2026-10-07T08:32:58.408819+00:00",
+  "generatedAt": "2026-10-07T08:32:58.408819+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "蔡康永現身沈伯洋競總成立大會 共軍帳號「鈞正平」表態！",
+      "headline": "富士康聯手BMW造車？沙國CEER發布EXOBOT旗艦電動轎跑與SUV　獲王儲、主權基金大舉押注",
       "source": "台股",
-      "time": "08:40",
-      "publishedAt": 1791333637000,
+      "time": "15:10",
+      "publishedAt": 1791357002000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623348"
+      "link": "https://news.cnyes.com/news/id/6623375"
     },
     {
       "region": "TW",
-      "headline": "營收速報  - 高僑(6234)9月營收1.05億元年增率高達133.52％",
+      "headline": "〈台北紡織展〉台塑集團總裁吳嘉昭：石化景氣明年迎復甦 紡織業要靠「創新」賺錢",
       "source": "台股",
-      "time": "08:21",
-      "publishedAt": 1791332476000,
+      "time": "15:02",
+      "publishedAt": 1791356541000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623362"
+      "link": "https://news.cnyes.com/news/id/6623611"
     },
     {
       "region": "TW",
-      "headline": "殖利率飆破5.3%仍擋不住AI熱潮 克雷默看好3大藍籌股：輝達、微軟、Meta",
+      "headline": "日本工商會白皮書首發問卷揭3大痛點 國發會拋雙軸轉型3點正面回應",
+      "source": "台股",
+      "time": "15:00",
+      "publishedAt": 1791356407000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6623625"
+    },
+    {
+      "region": "TW",
+      "headline": "家登美國產線落成啟用 搶攻半導體與航太商機",
+      "source": "台股",
+      "time": "14:53",
+      "publishedAt": 1791356006000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6623629"
+    },
+    {
+      "region": "TW",
+      "headline": "十銓9月營收40.81億元 刷新單月次高",
       "source": "鉅亨",
-      "time": "08:20",
-      "publishedAt": 1791332403000,
+      "time": "14:43",
+      "publishedAt": 1791355410000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6623622"
+    },
+    {
+      "region": "TW",
+      "headline": "外匯速報 - 美元/印度盧比(USDINR) 大漲0.3%，報96.6825元",
+      "source": "鉅亨",
+      "time": "14:40",
+      "publishedAt": 1791355220000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6623317"
+      "link": "https://news.cnyes.com/news/id/6623626"
     },
     {
       "region": "TW",
-      "headline": "比核電廠更惹人嫌！美國逾七成民眾反對資料中心 有四大原因",
+      "headline": "盤中速報 - API3大跌8.67%，報0.322美元",
       "source": "鉅亨",
-      "time": "08:10",
-      "publishedAt": 1791331806000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623265"
+      "time": "14:35",
+      "publishedAt": 1791354918000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6623624"
     },
     {
       "region": "TW",
-      "headline": "營收速報 - 2026年10月7日台股中小型公司9月營收一覽（新增334家）",
-      "source": "台股",
-      "time": "07:55",
-      "publishedAt": 1791330912000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623344"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報 - 2026年10月7日台股大型公司9月營收一覽（新增27家）",
+      "headline": "台灣人轉性了？萬事達卡：從「買東西」變「玩體驗」 瘋玩日韓二三線城市",
       "source": "鉅亨",
-      "time": "07:55",
-      "publishedAt": 1791330911000,
+      "time": "14:33",
+      "publishedAt": 1791354814000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623343"
-    },
-    {
-      "region": "TW",
-      "headline": "最快年底出貨！SK海力士旗下Solidigm增台灣ODM基地 擴大資料中心SSD供應",
-      "source": "鉅亨",
-      "time": "07:50",
-      "publishedAt": 1791330604000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622828"
+      "link": "https://news.cnyes.com/news/id/6623477"
     }
   ]
 }
