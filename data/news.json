@@ -1,42 +1,60 @@
 {
-  "timestamp": "2026-10-07T16:20:58.516620+00:00",
-  "generatedAt": "2026-10-07T16:20:58.516620+00:00",
+  "timestamp": "2026-10-07T21:56:02.250865+00:00",
+  "generatedAt": "2026-10-07T21:56:02.250865+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "油價又破百美元！30年期美債殖利率衝回24年高點",
+      "headline": "OpenAI公布青少年ChatGPT使用報告！安全防護遭獨立測試打問號",
       "source": "鉅亨",
-      "time": "21:00",
-      "publishedAt": 1791378002000,
+      "time": "03:30",
+      "publishedAt": 1791401405000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623963"
+      "link": "https://news.cnyes.com/news/id/6624385"
     },
     {
       "region": "TW",
-      "headline": "外匯速報 - 美元/加幣(USDCAD) 大漲0.49%，報1.4277元",
+      "headline": "不靠雲端也能寫程式！微軟攜輝達推AI筆電 記憶體漲價卻來攪局",
       "source": "鉅亨",
-      "time": "20:50",
-      "publishedAt": 1791377425000,
+      "time": "03:00",
+      "publishedAt": 1791399607000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6624256"
+      "link": "https://news.cnyes.com/news/id/6624388"
     },
     {
       "region": "TW",
-      "headline": "10年期美債殖利率創24年新高 市場聚焦390億美元標售",
+      "headline": "Fed會議紀錄：升息還沒完！多數官員估年底前再一次 10月不一定出手",
       "source": "鉅亨",
-      "time": "20:45",
-      "publishedAt": 1791377116000,
+      "time": "02:20",
+      "publishedAt": 1791397239000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6624017"
+      "link": "https://news.cnyes.com/news/id/6624319"
     },
     {
       "region": "TW",
-      "headline": "外匯速報 - 美元/泰銖(USDTHB) 大漲0.51%，報33.73元",
+      "headline": "純電車加稅就改賣油電車？歐盟擬再出招 超額進口就課稅",
       "source": "鉅亨",
-      "time": "20:40",
-      "publishedAt": 1791376819000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6624016"
+      "time": "02:00",
+      "publishedAt": 1791396004000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6624346"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：南亞科(2408-TW)EPS預估上修至73.43元，預估目標價為660元",
+      "source": "台股",
+      "time": "22:11",
+      "publishedAt": 1791382278000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6624323"
+    },
+    {
+      "region": "TW",
+      "headline": "掌握無人機先機 國防科技論壇加速整合台企鏈結AI、低軌衛星新契機",
+      "source": "台股",
+      "time": "22:07",
+      "publishedAt": 1791382036000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6624009"
     },
     {
       "region": "TW",
@@ -55,24 +73,6 @@
       "publishedAt": 1791375633000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6623975"
-    },
-    {
-      "region": "TW",
-      "headline": "離岸風電二期爆接管爭議！台電回擊富崴：依約接管且設備所有權屬台電",
-      "source": "台股",
-      "time": "19:51",
-      "publishedAt": 1791373914000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623910"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報  - 台火(9902)9月營收4,028萬元年增率高達504.14％",
-      "source": "台股",
-      "time": "19:50",
-      "publishedAt": 1791373847000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623962"
     }
   ]
 }
