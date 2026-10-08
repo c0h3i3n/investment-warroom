@@ -1,78 +1,60 @@
 {
-  "timestamp": "2026-10-08T01:48:58.893546+00:00",
-  "generatedAt": "2026-10-08T01:48:58.893546+00:00",
+  "timestamp": "2026-10-08T08:49:47.454556+00:00",
+  "generatedAt": "2026-10-08T08:49:47.454556+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "2030年規模達2090億美元！瑞穗：AI智能體將引爆CPU需求 上調AMD英特爾等5大廠目標價",
-      "source": "鉅亨",
-      "time": "06:50",
-      "publishedAt": 1791413403000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6623323"
-    },
-    {
-      "region": "TW",
-      "headline": "〈貴金屬盤後〉美元升值、美債殖利率仍高 黃金跌到兩個月低點",
-      "source": "鉅亨",
-      "time": "06:48",
-      "publishedAt": 1791413328000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6623739"
-    },
-    {
-      "region": "TW",
-      "headline": "川普稱俄羅斯鼠疫不像生物武器 周三致電普丁",
-      "source": "鉅亨",
-      "time": "06:39",
-      "publishedAt": 1791412749000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6624418"
-    },
-    {
-      "region": "TW",
-      "headline": "諾貝爾和平獎倒數2天 川普再喊話：我應該得獎 但不確定會不會頒給我",
-      "source": "鉅亨",
-      "time": "06:30",
-      "publishedAt": 1791412206000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6624437"
-    },
-    {
-      "region": "TW",
-      "headline": "〈台股盤前要聞〉美光台灣罷工升溫、台塑看好石化景氣明年復甦",
+      "headline": "台塑新智能攜手創曦進軍AIDC CSP 啟動麥寮共建案串聯營運",
       "source": "台股",
-      "time": "05:10",
-      "publishedAt": 1791407402000,
+      "time": "13:28",
+      "publishedAt": 1791437318000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6624345"
+      "link": "https://news.cnyes.com/news/id/6624710"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：南亞科(2408-TW)EPS預估上修至73.43元，預估目標價為660元",
-      "source": "台股",
-      "time": "22:11",
-      "publishedAt": 1791382278000,
+      "headline": "AI紅利全民共享！政院拍板明年普發1萬 最快1/26入帳規劃時程一覽",
+      "source": "鉅亨",
+      "time": "13:28",
+      "publishedAt": 1791437290000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6624323"
+      "link": "https://news.cnyes.com/news/id/6624704"
     },
     {
       "region": "TW",
-      "headline": "掌握無人機先機 國防科技論壇加速整合台企鏈結AI、低軌衛星新契機",
-      "source": "台股",
-      "time": "22:07",
-      "publishedAt": 1791382036000,
+      "headline": "〈焦點股〉流感季節來臨 瑞磁9月營收年增逾7成 股價走揚收復月線",
+      "source": "鉅亨",
+      "time": "13:01",
+      "publishedAt": 1791435718000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6624009"
+      "link": "https://news.cnyes.com/news/id/6624689"
     },
     {
       "region": "TW",
-      "headline": "榮剛鑄鍛雙核心引擎到位 拓展AI、半導體及國防市場",
-      "source": "台股",
-      "time": "20:25",
-      "publishedAt": 1791375900000,
+      "headline": "美債殖利率攀升重創小型股！羅素2000瀕臨修正 資金轉向「科技七巨頭」避波動",
+      "source": "鉅亨",
+      "time": "13:00",
+      "publishedAt": 1791435608000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623917"
+      "link": "https://news.cnyes.com/news/id/6624453"
+    },
+    {
+      "region": "TW",
+      "headline": "聯茂泰國廠年底產能翻倍達每月60萬張 今年完成M8產品量產",
+      "source": "台股",
+      "time": "12:57",
+      "publishedAt": 1791435434000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6624711"
+    },
+    {
+      "region": "TW",
+      "headline": "榮剛軍工、能源需求強勁產能供不應求 ASP提升2成客戶洽談LTA",
+      "source": "鉅亨",
+      "time": "12:46",
+      "publishedAt": 1791434783000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6622700"
     }
   ]
 }
