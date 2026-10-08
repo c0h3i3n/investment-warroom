@@ -1,60 +1,78 @@
 {
-  "timestamp": "2026-10-08T08:49:47.454556+00:00",
-  "generatedAt": "2026-10-08T08:49:47.454556+00:00",
+  "timestamp": "2026-10-08T16:22:58.636495+00:00",
+  "generatedAt": "2026-10-08T16:22:58.636495+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "台塑新智能攜手創曦進軍AIDC CSP 啟動麥寮共建案串聯營運",
+      "headline": "亞馬遜平板不再拚便宜！告別Fire 新機靠AI叫陣蘋果iPad",
+      "source": "鉅亨",
+      "time": "23:00",
+      "publishedAt": 1791471605000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6625999"
+    },
+    {
+      "region": "TW",
+      "headline": "「伊斯蘭版北約」成真？巴基斯坦軍隊赴沙烏地阿拉伯",
+      "source": "鉅亨",
+      "time": "22:51",
+      "publishedAt": 1791471098000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6626056"
+    },
+    {
+      "region": "TW",
+      "headline": "不太裁人也不太招人！美國上周初領失業金降至19.7萬人",
+      "source": "鉅亨",
+      "time": "22:30",
+      "publishedAt": 1791469803000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6625846"
+    },
+    {
+      "region": "TW",
+      "headline": "最強曝光機已有接班人？艾司摩爾攜蔡司揭Hyper NA藍圖 估十年後就緒",
+      "source": "鉅亨",
+      "time": "22:00",
+      "publishedAt": 1791468003000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6625991"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 千附(8383)9月營收4.69億元年增率高達83.65％",
       "source": "台股",
-      "time": "13:28",
-      "publishedAt": 1791437318000,
+      "time": "19:52",
+      "publishedAt": 1791460330000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6624710"
+      "link": "https://news.cnyes.com/news/id/6625910"
     },
     {
       "region": "TW",
-      "headline": "AI紅利全民共享！政院拍板明年普發1萬 最快1/26入帳規劃時程一覽",
-      "source": "鉅亨",
-      "time": "13:28",
-      "publishedAt": 1791437290000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6624704"
-    },
-    {
-      "region": "TW",
-      "headline": "〈焦點股〉流感季節來臨 瑞磁9月營收年增逾7成 股價走揚收復月線",
-      "source": "鉅亨",
-      "time": "13:01",
-      "publishedAt": 1791435718000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6624689"
-    },
-    {
-      "region": "TW",
-      "headline": "美債殖利率攀升重創小型股！羅素2000瀕臨修正 資金轉向「科技七巨頭」避波動",
-      "source": "鉅亨",
-      "time": "13:00",
-      "publishedAt": 1791435608000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6624453"
-    },
-    {
-      "region": "TW",
-      "headline": "聯茂泰國廠年底產能翻倍達每月60萬張 今年完成M8產品量產",
+      "headline": "營收速報  - 保銳(8093)9月營收4,657萬元年增率高達329.26％",
       "source": "台股",
-      "time": "12:57",
-      "publishedAt": 1791435434000,
+      "time": "19:52",
+      "publishedAt": 1791460328000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6624711"
+      "link": "https://news.cnyes.com/news/id/6625909"
     },
     {
       "region": "TW",
-      "headline": "榮剛軍工、能源需求強勁產能供不應求 ASP提升2成客戶洽談LTA",
-      "source": "鉅亨",
-      "time": "12:46",
-      "publishedAt": 1791434783000,
+      "headline": "營收速報  - 創新服務(7828)9月營收1.56億元年增率高達102.3％",
+      "source": "台股",
+      "time": "19:52",
+      "publishedAt": 1791460322000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6622700"
+      "link": "https://news.cnyes.com/news/id/6625908"
+    },
+    {
+      "region": "TW",
+      "headline": "營收速報  - 稜研科技*-創(7812)9月營收1,044萬元年增率高達214.15％",
+      "source": "台股",
+      "time": "19:52",
+      "publishedAt": 1791460321000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6625907"
     }
   ]
 }
