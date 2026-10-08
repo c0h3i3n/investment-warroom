@@ -1,42 +1,51 @@
 {
-  "timestamp": "2026-10-07T21:56:02.250865+00:00",
-  "generatedAt": "2026-10-07T21:56:02.250865+00:00",
+  "timestamp": "2026-10-08T01:48:58.893546+00:00",
+  "generatedAt": "2026-10-08T01:48:58.893546+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "OpenAI公布青少年ChatGPT使用報告！安全防護遭獨立測試打問號",
+      "headline": "2030年規模達2090億美元！瑞穗：AI智能體將引爆CPU需求 上調AMD英特爾等5大廠目標價",
       "source": "鉅亨",
-      "time": "03:30",
-      "publishedAt": 1791401405000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6624385"
-    },
-    {
-      "region": "TW",
-      "headline": "不靠雲端也能寫程式！微軟攜輝達推AI筆電 記憶體漲價卻來攪局",
-      "source": "鉅亨",
-      "time": "03:00",
-      "publishedAt": 1791399607000,
+      "time": "06:50",
+      "publishedAt": 1791413403000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6624388"
+      "link": "https://news.cnyes.com/news/id/6623323"
     },
     {
       "region": "TW",
-      "headline": "Fed會議紀錄：升息還沒完！多數官員估年底前再一次 10月不一定出手",
+      "headline": "〈貴金屬盤後〉美元升值、美債殖利率仍高 黃金跌到兩個月低點",
       "source": "鉅亨",
-      "time": "02:20",
-      "publishedAt": 1791397239000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6624319"
+      "time": "06:48",
+      "publishedAt": 1791413328000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6623739"
     },
     {
       "region": "TW",
-      "headline": "純電車加稅就改賣油電車？歐盟擬再出招 超額進口就課稅",
+      "headline": "川普稱俄羅斯鼠疫不像生物武器 周三致電普丁",
       "source": "鉅亨",
-      "time": "02:00",
-      "publishedAt": 1791396004000,
+      "time": "06:39",
+      "publishedAt": 1791412749000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6624346"
+      "link": "https://news.cnyes.com/news/id/6624418"
+    },
+    {
+      "region": "TW",
+      "headline": "諾貝爾和平獎倒數2天 川普再喊話：我應該得獎 但不確定會不會頒給我",
+      "source": "鉅亨",
+      "time": "06:30",
+      "publishedAt": 1791412206000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6624437"
+    },
+    {
+      "region": "TW",
+      "headline": "〈台股盤前要聞〉美光台灣罷工升溫、台塑看好石化景氣明年復甦",
+      "source": "台股",
+      "time": "05:10",
+      "publishedAt": 1791407402000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6624345"
     },
     {
       "region": "TW",
@@ -64,15 +73,6 @@
       "publishedAt": 1791375900000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6623917"
-    },
-    {
-      "region": "TW",
-      "headline": "三大法人聯手賣超241億元 外資大買台塑、倒貨00406A及友達各逾7萬張",
-      "source": "台股",
-      "time": "20:20",
-      "publishedAt": 1791375633000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6623975"
     }
   ]
 }
