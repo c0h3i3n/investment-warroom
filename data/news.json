@@ -1,78 +1,69 @@
 {
-  "timestamp": "2026-10-09T08:53:28.515790+00:00",
-  "generatedAt": "2026-10-09T08:53:28.515790+00:00",
+  "timestamp": "2026-10-09T16:06:15.565456+00:00",
+  "generatedAt": "2026-10-09T16:06:15.565456+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "iPhone 18 Pro賣不動？《日經》：蘋果10月零組件訂單砍15%至20%",
+      "headline": "晶片夥伴撕破臉！五年權利金能不付？高通與安謀授權戰迎關鍵裁決",
       "source": "鉅亨",
-      "time": "14:50",
-      "publishedAt": 1791528602000,
+      "time": "21:20",
+      "publishedAt": 1791552002000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626759"
+      "link": "https://news.cnyes.com/news/id/6626882"
     },
     {
       "region": "TW",
-      "headline": "美債殖利率高得驚人 美財長新顧問：有望很快回落",
+      "headline": "盤中速報 - OGN大跌8.18%，報0.038美元",
       "source": "鉅亨",
-      "time": "14:30",
-      "publishedAt": 1791527403000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626569"
-    },
-    {
-      "region": "TW",
-      "headline": "輝達加持AI資料中心業者IPO突喊卡！Firmus放棄澳洲上市 擬明年轉戰那斯達克",
-      "source": "鉅亨",
-      "time": "14:10",
-      "publishedAt": 1791526206000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626559"
-    },
-    {
-      "region": "TW",
-      "headline": "華爾街多頭看好Anthropic、OpenAI IPO需求 負面消息難擋投資人熱情",
-      "source": "鉅亨",
-      "time": "13:30",
-      "publishedAt": 1791523806000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626545"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：長榮航(2618-TW)EPS預估下修至4.15元，預估目標價為47.75元",
-      "source": "台股",
-      "time": "12:10",
-      "publishedAt": 1791519037000,
+      "time": "20:50",
+      "publishedAt": 1791550219000,
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6626715"
+      "link": "https://news.cnyes.com/news/id/6626944"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：穩懋(3105-TW)EPS預估上修至7.8元，預估目標價為440元",
-      "source": "台股",
-      "time": "12:10",
-      "publishedAt": 1791519036000,
+      "headline": "串流巨頭也要瘦身？Netflix傳裁員5% 最快下周宣布",
+      "source": "鉅亨",
+      "time": "20:50",
+      "publishedAt": 1791550204000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626714"
+      "link": "https://news.cnyes.com/news/id/6626940"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：萬潤(6187-TW)EPS預估上修至28.94元，預估目標價為1500元",
-      "source": "台股",
-      "time": "12:10",
-      "publishedAt": 1791519034000,
+      "headline": "營收速報  - 達麗(6177)9月營收8.97億元年增率高達249.5％",
+      "source": "鉅亨",
+      "time": "20:20",
+      "publishedAt": 1791548421000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626713"
+      "link": "https://news.cnyes.com/news/id/6626923"
     },
     {
       "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：國泰金(2882-TW)EPS預估上修至9.02元，預估目標價為126.5元",
+      "headline": "亞弘電前9月營收轉爲正成長 下半年轉強並在台增設新產線",
       "source": "台股",
-      "time": "12:10",
-      "publishedAt": 1791519033000,
+      "time": "17:30",
+      "publishedAt": 1791538202000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626712"
+      "link": "https://news.cnyes.com/news/id/6626637"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉巧新營收創高 切入半導體設備供應鏈 股價挑戰前高",
+      "source": "台股",
+      "time": "17:10",
+      "publishedAt": 1791537004000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6626773"
+    },
+    {
+      "region": "TW",
+      "headline": "〈熱門股〉融程電9月營收衝高+明年展望樂觀 股價站回季線",
+      "source": "台股",
+      "time": "16:55",
+      "publishedAt": 1791536103000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6626707"
     }
   ]
 }

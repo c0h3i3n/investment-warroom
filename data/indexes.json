@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-09T08:53:28.515790+00:00",
-  "generatedAt": "2026-10-09T08:53:28.515790+00:00",
+  "timestamp": "2026-10-09T16:06:15.565456+00:00",
+  "generatedAt": "2026-10-09T16:06:15.565456+00:00",
   "data": [
     {
       "id": "tai",
@@ -34,10 +34,10 @@
       "name": "S&P 500",
       "region": "US",
       "currency": "$",
-      "price": 7765.36,
-      "change": -36.41,
-      "changePct": -0.47,
-      "asOf": "2026-10-08T20:46:43+00:00",
+      "price": 7802.74,
+      "change": 37.38,
+      "changePct": 0.48,
+      "asOf": "2026-10-09T16:06:14+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -47,10 +47,10 @@
       "name": "NASDAQ",
       "region": "US",
       "currency": "$",
-      "price": 27193.34,
-      "change": -345.35,
-      "changePct": -1.25,
-      "asOf": "2026-10-08T21:15:59+00:00",
+      "price": 27352.729,
+      "change": 159.39,
+      "changePct": 0.59,
+      "asOf": "2026-10-09T16:06:14+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -60,10 +60,10 @@
       "name": "費城半導體 SOX",
       "region": "US",
       "currency": "$",
-      "price": 12623.715,
-      "change": -442.43,
-      "changePct": -3.39,
-      "asOf": "2026-10-08T21:15:59+00:00",
+      "price": 12535.236,
+      "change": -88.48,
+      "changePct": -0.7,
+      "asOf": "2026-10-09T16:06:14+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
