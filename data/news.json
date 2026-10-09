@@ -1,78 +1,69 @@
 {
-  "timestamp": "2026-10-08T21:59:46.784247+00:00",
-  "generatedAt": "2026-10-08T21:59:46.784247+00:00",
+  "timestamp": "2026-10-09T02:01:24.408791+00:00",
+  "generatedAt": "2026-10-09T02:01:24.408791+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "航運風險升溫！荷姆茲海峽再傳多起油輪觸雷爆炸",
-      "source": "鉅亨",
-      "time": "04:48",
-      "publishedAt": 1791492482000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626520"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - Celestia大漲15.47%，報0.52美元",
-      "source": "鉅亨",
-      "time": "04:35",
-      "publishedAt": 1791491717000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6626530"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：菲利浦66(PSX-US)EPS預估上修至30元，預估目標價為267.50元",
-      "source": "鉅亨",
-      "time": "04:15",
-      "publishedAt": 1791490537000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626527"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨速報 - Factset 最新調查：Nova LtdNVMI-US的目標價調降至500元，幅度約4.76%",
-      "source": "鉅亨",
-      "time": "04:15",
-      "publishedAt": 1791490523000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626526"
-    },
-    {
-      "region": "TW",
-      "headline": "AI液冷組件需求訂單激增 榮惠9月、Q3營收雙創新高本季展望樂觀",
+      "headline": "營收速報  - 永彰(4523)9月營收1.16億元年增率高達122.59％",
       "source": "台股",
-      "time": "00:11",
-      "publishedAt": 1791475895000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6625997"
+      "time": "08:51",
+      "publishedAt": 1791507061000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6626639"
     },
     {
       "region": "TW",
-      "headline": "LEO概念股昇達科前9月營收大增71% 重點客戶新一代產品獲順利認證",
+      "headline": "營收速報  - 友霖(4166)9月營收1.49億元年增率高達41.18％",
       "source": "台股",
-      "time": "00:10",
-      "publishedAt": 1791475822000,
+      "time": "08:50",
+      "publishedAt": 1791507053000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6625970"
+      "link": "https://news.cnyes.com/news/id/6626638"
     },
     {
       "region": "TW",
-      "headline": "「商總台商騰飛計畫」啟動 許舒博：鏈結資金及資源助台商布局全球",
-      "source": "台股",
-      "time": "00:08",
-      "publishedAt": 1791475733000,
+      "headline": "旺季效應失靈！全球PC市場Q3急凍 出貨量衰退超20% 蘋果市佔逆風升至9.5%",
+      "source": "鉅亨",
+      "time": "08:40",
+      "publishedAt": 1791506406000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6625925"
+      "link": "https://news.cnyes.com/news/id/6626576"
     },
     {
       "region": "TW",
-      "headline": "飛捷9月、Q3營收創同期高 前三季營收超越去年全年",
-      "source": "台股",
-      "time": "00:08",
-      "publishedAt": 1791475693000,
+      "headline": "美股科技股重挫！克雷默：AI股遭拋售再次證明分散投資的重要性",
+      "source": "鉅亨",
+      "time": "08:30",
+      "publishedAt": 1791505807000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6625848"
+      "link": "https://news.cnyes.com/news/id/6626573"
+    },
+    {
+      "region": "TW",
+      "headline": "標普500、那指再創新高！11檔美股ETF近一季全數正報酬 00926奪冠",
+      "source": "鉅亨",
+      "time": "08:20",
+      "publishedAt": 1791505204000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6626093"
+    },
+    {
+      "region": "TW",
+      "headline": "鉅亨速報 - Factset 最新調查：慧洋-KY(2637-TW)EPS預估上修至10.8元，預估目標價為104.5元",
+      "source": "台股",
+      "time": "08:10",
+      "publishedAt": 1791504636000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6626607"
+    },
+    {
+      "region": "TW",
+      "headline": "人行重申：人民幣匯率不設目標 無意靠貶值搶出口",
+      "source": "鉅亨",
+      "time": "08:10",
+      "publishedAt": 1791504606000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6626080"
     }
   ]
 }
