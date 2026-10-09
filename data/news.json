@@ -1,38 +1,20 @@
 {
-  "timestamp": "2026-10-09T16:06:15.565456+00:00",
-  "generatedAt": "2026-10-09T16:06:15.565456+00:00",
+  "timestamp": "2026-10-09T20:50:02.700452+00:00",
+  "generatedAt": "2026-10-09T20:50:02.700452+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "晶片夥伴撕破臉！五年權利金能不付？高通與安謀授權戰迎關鍵裁決",
-      "source": "鉅亨",
-      "time": "21:20",
-      "publishedAt": 1791552002000,
+      "headline": "撤換Fed理事再出招！川普組調查小組 庫克律師嗆走過場",
+      "source": "台股",
+      "time": "01:00",
+      "publishedAt": 1791565205000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626882"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - OGN大跌8.18%，報0.038美元",
-      "source": "鉅亨",
-      "time": "20:50",
-      "publishedAt": 1791550219000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6626944"
-    },
-    {
-      "region": "TW",
-      "headline": "串流巨頭也要瘦身？Netflix傳裁員5% 最快下周宣布",
-      "source": "鉅亨",
-      "time": "20:50",
-      "publishedAt": 1791550204000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626940"
+      "link": "https://news.cnyes.com/news/id/6626984"
     },
     {
       "region": "TW",
       "headline": "營收速報  - 達麗(6177)9月營收8.97億元年增率高達249.5％",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "20:20",
       "publishedAt": 1791548421000,
       "impact": "neu",
@@ -55,15 +37,6 @@
       "publishedAt": 1791537004000,
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6626773"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉融程電9月營收衝高+明年展望樂觀 股價站回季線",
-      "source": "台股",
-      "time": "16:55",
-      "publishedAt": 1791536103000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6626707"
     }
   ]
 }
