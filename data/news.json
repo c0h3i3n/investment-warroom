@@ -1,42 +1,69 @@
 {
-  "timestamp": "2026-10-10T06:57:48.656542+00:00",
-  "generatedAt": "2026-10-10T06:57:48.656542+00:00",
+  "timestamp": "2026-10-10T13:33:24.426955+00:00",
+  "generatedAt": "2026-10-10T13:33:24.426955+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "蘋果iPhone Duo加單30% iPhone 18 Pro系列總訂單量未變",
-      "source": "鉅亨",
-      "time": "14:33",
-      "publishedAt": 1791614029000,
+      "headline": "今國光紅外線鏡頭熱賣挹注 前9月營收41.64億元超越去年全年",
+      "source": "台股",
+      "time": "20:04",
+      "publishedAt": 1791633862000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627270"
+      "link": "https://news.cnyes.com/news/id/6627318"
     },
     {
       "region": "TW",
-      "headline": "ASML曝光機零件韓國市場統一漲價10% 三星、SK 海力士已接受",
+      "headline": "國慶演說 賴清德以打造「山巔之城」為題 期許科技帶百工百業向前行",
+      "source": "台股",
+      "time": "19:58",
+      "publishedAt": 1791633522000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627310"
+    },
+    {
+      "region": "TW",
+      "headline": "賴清德發表雙十國慶演說 國台辦回應！",
+      "source": "台股",
+      "time": "18:20",
+      "publishedAt": 1791627641000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627325"
+    },
+    {
+      "region": "TW",
+      "headline": "全球首次！中國西湖科技機器人WR1比肩黃仁勳加碼投資的Figure　全身協同連貫自主摺衣",
       "source": "鉅亨",
-      "time": "14:13",
-      "publishedAt": 1791612839000,
+      "time": "18:00",
+      "publishedAt": 1791626403000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627251"
+    },
+    {
+      "region": "TW",
+      "headline": "盤中速報 - Pixels大漲11.11%，報0.01美元",
+      "source": "鉅亨",
+      "time": "17:50",
+      "publishedAt": 1791625818000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6627239"
+      "link": "https://news.cnyes.com/news/id/6627321"
     },
     {
       "region": "TW",
-      "headline": "全市場皆受高利率重傷 唯獨這個關鍵類股例外",
+      "headline": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過29.2億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
       "source": "鉅亨",
-      "time": "13:00",
-      "publishedAt": 1791608405000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6624475"
+      "time": "17:15",
+      "publishedAt": 1791623718000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6627314"
     },
     {
       "region": "TW",
-      "headline": "輝達自由現金流恐遭高估！戰略投資吃掉近七成、2,350億美元回購計畫添變數",
+      "headline": "中國發布新質生產力19項改革任務！AI、機器人、量子科技成布局重點",
       "source": "鉅亨",
-      "time": "12:40",
-      "publishedAt": 1791607204000,
+      "time": "17:10",
+      "publishedAt": 1791623405000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627213"
+      "link": "https://news.cnyes.com/news/id/6627260"
     },
     {
       "region": "TW",
@@ -46,33 +73,6 @@
       "publishedAt": 1791604806000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6625253"
-    },
-    {
-      "region": "TW",
-      "headline": "居家產業走出二年來低谷 家具、家電Q4買氣續旺",
-      "source": "台股",
-      "time": "10:10",
-      "publishedAt": 1791598203000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626791"
-    },
-    {
-      "region": "TW",
-      "headline": "全球低軌衛星部署加速 啓碁、耀登卡位地面設備與天線長線看俏",
-      "source": "台股",
-      "time": "09:50",
-      "publishedAt": 1791597003000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626114"
-    },
-    {
-      "region": "TW",
-      "headline": "每2人就有1個E人！貝萊德調查：台灣ETF滲透率53%穩居亞太第一",
-      "source": "台股",
-      "time": "09:41",
-      "publishedAt": 1791596510000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627180"
     }
   ]
 }
