@@ -660,7 +660,7 @@ const UI = (() => {
     if (tickerMode) tickerMode.textContent = '◌ CONNECTING';
   }
 
-  function setDataStatus({ fresh, total, oldestAsOf, twAsOf, usAsOf, mode = 'live', indicative = 0 }) {
+  function setDataStatus({ fresh, total, oldestAsOf, twAsOf, usAsOf, mode = 'live', indicative = 0, twCached = mode === 'cache', usCached = mode === 'cache' }) {
     const lbl = document.getElementById('last-updated');
     const sysOrb = document.getElementById('sysOrb');
     const sysLabel = document.getElementById('sysLabel');
@@ -671,8 +671,9 @@ const UI = (() => {
       : null;
     const regionalState = (region, time) => {
       if (!isFiniteValue(time)) return '無資料';
-      if (mode === 'cache') return '快取';
-      if (typeof DataService !== 'undefined' && !DataService.isMarketOpen(region)) return '最近收盤';
+      const cached = region === 'TW' ? twCached : usCached;
+      if (typeof DataService !== 'undefined' && !DataService.isMarketOpen(region)) return cached ? '最近收盤・快取' : '最近收盤';
+      if (cached) return '快取';
       return region === 'US' ? '延遲行情' : Date.now() - Number(time) > 120000 ? '行情延遲' : '盤中行情';
     };
     const regionalText = [

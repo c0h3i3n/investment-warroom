@@ -93,6 +93,8 @@ const App = (() => {
     return {
       twAsOf: result.TW.length ? Math.min(...result.TW) : null,
       usAsOf: result.US.length ? Math.min(...result.US) : null,
+      twCached: items.some(item => (item.region === 'TW' || /\.TW$/i.test(item.symbol || '')) && item.deliveryMode === 'cache'),
+      usCached: items.some(item => item.region === 'US' && item.deliveryMode === 'cache'),
     };
   }
 
@@ -393,6 +395,8 @@ const App = (() => {
         oldestAsOf: sourceTimes.length ? Math.min(...sourceTimes) : null,
         ...regionalTimes,
         mode: 'cache',
+        twCached: true,
+        usCached: true,
         indicative: freshItems.filter(x => x.priceType === 'indicative').length,
       });
       return freshItems.length > 0;

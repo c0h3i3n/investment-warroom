@@ -66,7 +66,10 @@ test('status distinguishes recent close from intraday and never promises all quo
   assert.match(elements['last-updated'].textContent,/美股 最近收盤/);
   assert.equal(elements.sysLabel.textContent,'行情齊全 ≠ 全部即時');
   status({fresh:1,total:2,twAsOf:time('2026-10-08T13:30:00+08:00'),mode:'cache'});
-  assert.match(elements['last-updated'].textContent,/台股 快取/);
+  assert.match(elements['last-updated'].textContent,/台股 最近收盤・快取/);
+  status({fresh:2,total:2,twAsOf:time('2026-10-08T13:30:00+08:00'),usAsOf:time('2026-10-10T04:00:00+08:00'),mode:'cache',twCached:false,usCached:true});
+  assert.doesNotMatch(elements['last-updated'].textContent,/台股 最近收盤・快取/);
+  assert.match(elements['last-updated'].textContent,/美股 最近收盤・快取/);
 });
 
 test('index line color uses previous-close change and includes previous-close baseline',()=>{
