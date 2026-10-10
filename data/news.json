@@ -1,7 +1,43 @@
 {
-  "timestamp": "2026-10-09T20:50:02.700452+00:00",
-  "generatedAt": "2026-10-09T20:50:02.700452+00:00",
+  "timestamp": "2026-10-10T00:42:33.866193+00:00",
+  "generatedAt": "2026-10-10T00:42:33.866193+00:00",
   "data": [
+    {
+      "region": "TW",
+      "headline": "巴拿馬規模7.7強震催毀民宅 引發海嘯警報",
+      "source": "鉅亨",
+      "time": "04:08",
+      "publishedAt": 1791576492000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6627087"
+    },
+    {
+      "region": "TW",
+      "headline": "美國今年當G20主席國 財長貝森特卻缺席IMF與世銀年會",
+      "source": "鉅亨",
+      "time": "03:30",
+      "publishedAt": 1791574204000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627033"
+    },
+    {
+      "region": "TW",
+      "headline": "川普壓柴油價格找上普丁！稱俄方將分批供應逾480萬噸",
+      "source": "鉅亨",
+      "time": "03:01",
+      "publishedAt": 1791572517000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627069"
+    },
+    {
+      "region": "TW",
+      "headline": "當AI房東穩賺？華爾街熱推資料中心 風險卻愈堆愈高",
+      "source": "鉅亨",
+      "time": "02:00",
+      "publishedAt": 1791568806000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6626982"
+    },
     {
       "region": "TW",
       "headline": "撤換Fed理事再出招！川普組調查小組 庫克律師嗆走過場",
