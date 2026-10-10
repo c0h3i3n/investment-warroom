@@ -1,78 +1,78 @@
 {
-  "timestamp": "2026-10-10T00:42:33.866193+00:00",
-  "generatedAt": "2026-10-10T00:42:33.866193+00:00",
+  "timestamp": "2026-10-10T06:57:48.656542+00:00",
+  "generatedAt": "2026-10-10T06:57:48.656542+00:00",
   "data": [
     {
       "region": "TW",
-      "headline": "巴拿馬規模7.7強震催毀民宅 引發海嘯警報",
+      "headline": "蘋果iPhone Duo加單30% iPhone 18 Pro系列總訂單量未變",
       "source": "鉅亨",
-      "time": "04:08",
-      "publishedAt": 1791576492000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6627087"
+      "time": "14:33",
+      "publishedAt": 1791614029000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627270"
     },
     {
       "region": "TW",
-      "headline": "美國今年當G20主席國 財長貝森特卻缺席IMF與世銀年會",
+      "headline": "ASML曝光機零件韓國市場統一漲價10% 三星、SK 海力士已接受",
       "source": "鉅亨",
-      "time": "03:30",
-      "publishedAt": 1791574204000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627033"
-    },
-    {
-      "region": "TW",
-      "headline": "川普壓柴油價格找上普丁！稱俄方將分批供應逾480萬噸",
-      "source": "鉅亨",
-      "time": "03:01",
-      "publishedAt": 1791572517000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627069"
-    },
-    {
-      "region": "TW",
-      "headline": "當AI房東穩賺？華爾街熱推資料中心 風險卻愈堆愈高",
-      "source": "鉅亨",
-      "time": "02:00",
-      "publishedAt": 1791568806000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626982"
-    },
-    {
-      "region": "TW",
-      "headline": "撤換Fed理事再出招！川普組調查小組 庫克律師嗆走過場",
-      "source": "台股",
-      "time": "01:00",
-      "publishedAt": 1791565205000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626984"
-    },
-    {
-      "region": "TW",
-      "headline": "營收速報  - 達麗(6177)9月營收8.97億元年增率高達249.5％",
-      "source": "台股",
-      "time": "20:20",
-      "publishedAt": 1791548421000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626923"
-    },
-    {
-      "region": "TW",
-      "headline": "亞弘電前9月營收轉爲正成長 下半年轉強並在台增設新產線",
-      "source": "台股",
-      "time": "17:30",
-      "publishedAt": 1791538202000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626637"
-    },
-    {
-      "region": "TW",
-      "headline": "〈熱門股〉巧新營收創高 切入半導體設備供應鏈 股價挑戰前高",
-      "source": "台股",
-      "time": "17:10",
-      "publishedAt": 1791537004000,
+      "time": "14:13",
+      "publishedAt": 1791612839000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6626773"
+      "link": "https://news.cnyes.com/news/id/6627239"
+    },
+    {
+      "region": "TW",
+      "headline": "全市場皆受高利率重傷 唯獨這個關鍵類股例外",
+      "source": "鉅亨",
+      "time": "13:00",
+      "publishedAt": 1791608405000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6624475"
+    },
+    {
+      "region": "TW",
+      "headline": "輝達自由現金流恐遭高估！戰略投資吃掉近七成、2,350億美元回購計畫添變數",
+      "source": "鉅亨",
+      "time": "12:40",
+      "publishedAt": 1791607204000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627213"
+    },
+    {
+      "region": "TW",
+      "headline": "台積領先優勢還能守幾年？傳輝達2028下半年評估採英特爾Foveros封裝",
+      "source": "台股",
+      "time": "12:00",
+      "publishedAt": 1791604806000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6625253"
+    },
+    {
+      "region": "TW",
+      "headline": "居家產業走出二年來低谷 家具、家電Q4買氣續旺",
+      "source": "台股",
+      "time": "10:10",
+      "publishedAt": 1791598203000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6626791"
+    },
+    {
+      "region": "TW",
+      "headline": "全球低軌衛星部署加速 啓碁、耀登卡位地面設備與天線長線看俏",
+      "source": "台股",
+      "time": "09:50",
+      "publishedAt": 1791597003000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6626114"
+    },
+    {
+      "region": "TW",
+      "headline": "每2人就有1個E人！貝萊德調查：台灣ETF滲透率53%穩居亞太第一",
+      "source": "台股",
+      "time": "09:41",
+      "publishedAt": 1791596510000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627180"
     }
   ]
 }
