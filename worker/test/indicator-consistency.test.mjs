@@ -27,7 +27,7 @@ test('intraday daily candle is excluded from every technical indicator', async (
   assert.equal(result.asOf, previous);
   assert.equal(result.chartData.length, 60);
   assert.equal(result.historyMeta.excludedIncomplete, true);
-  assert.equal(result.indicators.find(item => item.name === 'MA · 20').signal, 'BELOW ✗');
+  assert.equal(result.indicators.find(item => item.name === 'MA · 20').signal, '收盤等於均線');
 });
 
 test('daily candle fetched after the market closes is included', async () => {

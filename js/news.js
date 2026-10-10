@@ -48,7 +48,11 @@ const NewsService = (() => {
     const sorted = (Array.isArray(items) ? items : []).filter(n => n && typeof n.headline === 'string')
       .map(n => {
         const headline = decodeHeadline(n.headline);
-        const region = classify(headline);
+        const categories = Array.isArray(n.categories) ? n.categories.filter(c => typeof c === 'string').join(' ') : '';
+        const sourceCategory = /加密|虛擬貨幣|區塊鏈|crypto/i.test(categories) ? 'CRYPTO'
+          : /台股|臺股/.test(categories) ? 'TW' : /美股/.test(categories) ? 'US' : null;
+        const knownCryptoBulletin = /盤中速報\s*[-－—]\s*(Mina|Pixels)\b/i.test(headline);
+        const region = sourceCategory || (knownCryptoBulletin ? 'CRYPTO' : classify(headline));
         const related = watchlist.some(w => [w.symbol?.replace(/\.TW$/, ''), w.name, ...(aliases[w.symbol] || [])]
           .filter(Boolean).some(term => matches(headline, term)));
         const score = related ? 3 : /半導體|晶片|晶圓|央行|聯準會|利率|通膨|美債|台股|美股/i.test(headline) ? 2 : region === 'CRYPTO' ? 0 : 1;
@@ -85,6 +89,7 @@ const NewsService = (() => {
         return {
           region: feedConfig.region,
           feedRegion: /\/(tw_stock|us_stock)$/.test(feedConfig.url) ? feedConfig.region : 'INTL',
+          categories: Array.isArray(item.categories) ? item.categories : [],
           headline,
           source: source || feedConfig.name,
           time,

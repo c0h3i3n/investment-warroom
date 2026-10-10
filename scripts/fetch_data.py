@@ -395,6 +395,8 @@ for source, rss_url, region in rss_feeds:
         impact = 'pos' if any(word in lowered for word in positive) else 'neg' if any(word in lowered for word in negative) else 'neu'
         news_items.append({
             'region': region,
+            'feedRegion': region if rss_url.endswith(('tw_stock', 'us_stock')) else 'INTL',
+            'categories': item.get('categories', []) if isinstance(item.get('categories'), list) else [],
             'headline': title[:80] + '…' if len(title) > 80 else title,
             'source': source,
             'time': datetime.fromtimestamp(published_at / 1000, TAIPEI).strftime('%H:%M') if published_at else '--:--',

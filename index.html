@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;500&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css?v=3.9.0">
-<link rel="stylesheet" href="css/readability.css?v=3.11.0">
+<link rel="stylesheet" href="css/readability.css?v=3.12.0">
 </head>
 <body>
 
@@ -42,7 +42,7 @@
       </div>
       <div class="reactor-text">
         <h1>WARROOM</h1>
-        <div class="sub">INVESTMENT INTELLIGENCE · v3.11.0</div>
+        <div class="sub">INVESTMENT INTELLIGENCE · v3.12.0</div>
       </div>
     </div>
 
@@ -132,26 +132,6 @@
 
   <!-- ═══ MAIN GRID ═══ -->
   <div class="main-grid">
-    <!-- Technical Indicators -->
-    <div class="hud-panel" id="technical-section" style="animation-delay:.4s">
-        <div class="bracket bracket-tl"></div><div class="bracket bracket-tr"></div>
-        <div class="bracket bracket-bl"></div><div class="bracket bracket-br"></div>
-        <div class="sec-label" style="margin-bottom:12px">
-          <div class="sec-label-dot"></div>
-          <div class="sec-label-text" id="ind-label">TECHNICAL · 技術指標</div>
-          <div class="sec-label-line"></div>
-        </div>
-        <div class="ind-grid" id="ind-grid">
-          <div class="ind-cell" style="grid-column:1/-1;text-align:center;padding:20px">
-            <div style="color:var(--gold);font-size:13px;margin-bottom:8px">📊 技術指標 · 0050</div>
-            <div class="loading-indicator">WAITING FOR MARKET DATA...</div>
-            <div style="color:var(--dim);font-size:10px;margin-top:6px">將在背景自動載入</div>
-          </div>
-        </div>
-        <svg class="chart-svg" viewBox="0 0 340 90" id="ind-chart"></svg>
-        <output id="chart-detail" class="chart-detail" aria-live="polite">指向或點選走勢查看還原價格；鍵盤可用左右方向鍵。</output>
-    </div>
-
     <!-- Watchlist -->
     <div class="hud-panel" id="watch-section" style="animation-delay:.5s">
         <div class="bracket bracket-tl"></div><div class="bracket bracket-tr"></div>
@@ -174,15 +154,36 @@
         </div>
         <div class="watch-hint">點選項目可切換技術指標；清單只儲存在此瀏覽器。</div>
         <div class="watch-tools">
-          <a class="btn" id="watch-indicator-link" href="#technical-section">查看 0050 技術指標 ↑</a>
+          <a class="btn" id="watch-indicator-link" href="#technical-section">查看 0050 技術指標 ↓</a>
+          <details class="backup-menu"><summary class="btn">清單備份</summary><div>
           <button class="btn" id="watch-export" type="button">匯出備份</button>
           <button class="btn" id="watch-import" type="button">匯入備份</button>
+          </div></details>
           <button class="btn" id="watch-undo" type="button" hidden>復原移除</button>
           <input id="watch-import-file" type="file" accept=".json,application/json" hidden>
         </div>
         <div id="watchlist">
           <div class="loading-indicator">LOADING WATCHLIST...</div>
         </div>
+    </div>
+    <!-- Technical Indicators -->
+    <div class="hud-panel" id="technical-section" style="animation-delay:.4s">
+        <div class="bracket bracket-tl"></div><div class="bracket bracket-tr"></div>
+        <div class="bracket bracket-bl"></div><div class="bracket bracket-br"></div>
+        <div class="sec-label" style="margin-bottom:12px">
+          <div class="sec-label-dot"></div>
+          <div class="sec-label-text" id="ind-label">TECHNICAL · 技術指標</div>
+          <div class="sec-label-line"></div>
+        </div>
+        <div class="ind-grid" id="ind-grid">
+          <div class="ind-cell" style="grid-column:1/-1;text-align:center;padding:20px">
+            <div style="color:var(--gold);font-size:13px;margin-bottom:8px">📊 技術指標 · 0050</div>
+            <div class="loading-indicator">WAITING FOR MARKET DATA...</div>
+            <div style="color:var(--dim);font-size:10px;margin-top:6px">將在背景自動載入</div>
+          </div>
+        </div>
+        <svg class="chart-svg" viewBox="0 0 340 90" id="ind-chart"></svg>
+        <output id="chart-detail" class="chart-detail" aria-live="polite">指向或點選走勢查看還原價格；鍵盤可用左右方向鍵。</output>
     </div>
   </div>
 
@@ -202,7 +203,7 @@
   </div>
 
   <footer>
-    <span>WARROOM · INVESTMENT INTELLIGENCE · v3.11.0</span>
+    <span>WARROOM · INVESTMENT INTELLIGENCE · v3.12.0</span>
     <span id="fdate"></span>
     <span class="latency-badge"><span class="dot live"></span> 台股 MIS 即時</span>
     <span class="latency-badge"><span class="dot delay"></span> 夜盤狀態見頁首</span>
@@ -248,14 +249,14 @@
 <script src="js/config.js?v=3.4.1"></script>
 <script src="js/market-calendar.js?v=3.5.2"></script>
 <script src="js/history-validation.js?v=3.5.0"></script>
-<script src="js/data.js?v=3.11.0"></script>
+<script src="js/data.js?v=3.12.0"></script>
 <script>console.log("data.js loaded, CONFIG proxies:", CONFIG?.CORS_PROXIES?.length);</script>
-<script src="js/indicators.js?v=3.11.0"></script>
-<script src="js/news.js?v=3.11.0"></script>
-<script src="js/night-analysis.js?v=3.7.0"></script>
-<script src="js/ui.js?v=3.11.0"></script>
-<script src="js/watchlist-tools.js?v=3.11.0"></script>
-<script src="js/main.js?v=3.11.0"></script>
+<script src="js/indicators.js?v=3.12.0"></script>
+<script src="js/news.js?v=3.12.0"></script>
+<script src="js/night-analysis.js?v=3.12.0"></script>
+<script src="js/ui.js?v=3.12.0"></script>
+<script src="js/watchlist-tools.js?v=3.12.0"></script>
+<script src="js/main.js?v=3.12.0"></script>
 <script src="js/interactions.js?v=3.9.6"></script>
 
 

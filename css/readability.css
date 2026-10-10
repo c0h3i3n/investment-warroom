@@ -1,4 +1,10 @@
 /* Readability layer: keep the HUD identity, put market data first. */
+.night-details summary { cursor:pointer; padding:12px 0; font-size:15px; color:var(--text); }
+.night-details summary span { color:var(--text-dim); font-size:12px; margin-left:8px; }
+.night-details[open] summary { margin-bottom:8px; border-bottom:1px solid var(--border); }
+.backup-menu summary { cursor:pointer; list-style:none; }
+.backup-menu > div { display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; }
+.backup-menu { align-self:flex-start; }
 :root {
   --void:#0b0d10; --deep:#101216; --panel:#12151a; --card:#181b21;
   --text:#f0f2f5; --text-mid:#c0c5ce; --text-dim:#969eaa;
@@ -245,7 +251,7 @@ body { font-family:var(--reading); background:var(--void); }
 .ind-sig { font-family:var(--reading); font-size:12px; letter-spacing:.2px; }
 .indicator-source { grid-column:1/-1; font-size:12px; color:var(--text-dim); line-height:1.7; padding-top:4px; }
 .chart-detail { color:var(--text-dim); min-height:0; }
-.main-grid { grid-template-columns:minmax(0,1fr) minmax(0,1.2fr); align-items:start; }
+.main-grid { grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); align-items:start; }
 .watch-item { padding:14px 8px; border-bottom-color:var(--border); border-radius:5px; }
 .watch-item:hover { margin:0; padding:14px 8px; background:rgba(179,195,217,.05); }
 .w-ticker { color:var(--text-mid); font-family:var(--numeric); font-size:13px; flex-shrink:0; width:62px; }
@@ -265,7 +271,7 @@ body { font-family:var(--reading); background:var(--void); }
 footer { flex-wrap:wrap; gap:10px 16px; font:11px var(--reading); letter-spacing:0; border-color:var(--border); }
 .latency-badge { font-size:11px; }
 @media(min-width:1201px) {
-  .main-grid > .hud-panel:first-child { position:sticky; top:16px; }
+  #technical-section { position:sticky; top:16px; }
 }
 @media(max-width:1200px) {
   .hud-header { flex-wrap:wrap; }
@@ -310,4 +316,16 @@ footer { flex-wrap:wrap; gap:10px 16px; font:11px var(--reading); letter-spacing
   .night-metrics div:first-child { grid-column:1/-1; }
   .night-price { font-size:23px; }
   .night-risk span,.night-risk small { font-size:11px; }
+}
+
+/* v3.12: readable metadata and explicit chart axes, without extra glow. */
+.night-contract,.night-asof,.night-disclaimer,.indicator-source,.quote-meta,.watch-hint { font-size:13px; line-height:1.65; }
+.chart-svg { height:150px; min-height:150px; }
+.main-grid { align-items:start; }
+.night-details summary:focus-visible,.backup-menu summary:focus-visible { outline:2px solid var(--gold); outline-offset:3px; }
+@media(max-width:640px) {
+  .watch-tools .btn { min-height:40px; }
+  .quote-meta { font-size:12px; }
+  .night-details summary span { display:block; margin:4px 0 0; }
+  .idx-spark-meta { font-size:10px; }
 }

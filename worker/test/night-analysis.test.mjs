@@ -13,8 +13,9 @@ function evaluate(night, indexes) {
 }
 
 test('night analysis uses TX as the primary signal and US indexes as confirmation', () => {
-  const result = evaluate({ price:48000, changePct:0.58, stale:false }, [
-    { symbol:'^GSPC', changePct:0.3 }, { symbol:'^IXIC', changePct:0.4 }, { symbol:'^SOX', changePct:0.6 },
+  const asOf = Date.parse('2026-10-09T04:59:00+08:00');
+  const result = evaluate({ price:48000, changePct:0.58, stale:false, asOf, status:'closed' }, [
+    { symbol:'^GSPC', changePct:0.3, asOf }, { symbol:'^IXIC', changePct:0.4, asOf }, { symbol:'^SOX', changePct:0.6, asOf },
   ]);
   assert.equal(result.label, '偏多');
   assert.equal(result.score, 5);

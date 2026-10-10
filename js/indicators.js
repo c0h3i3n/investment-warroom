@@ -235,20 +235,22 @@ const IndicatorsService = (() => {
 
     if (rsi !== null) {
       let signal, color;
-      if (rsi > 70) { signal = 'OVERBOUGHT ⚠'; color = 'warn'; }
-      else if (rsi < 30) { signal = 'OVERSOLD ▼'; color = 'up'; }
-      else if (rsi > 50) { signal = 'BULLISH ▲'; color = 'up'; }
-      else { signal = 'BEARISH ▼'; color = 'dn'; }
+      if (rsi > 70) { signal = '超買區 ⚠'; color = 'warn'; }
+      else if (rsi < 30) { signal = '超賣區'; color = 'warn'; }
+      else if (rsi > 50) { signal = '動能偏強 ▲'; color = 'up'; }
+      else if (rsi < 50) { signal = '動能偏弱 ▼'; color = 'dn'; }
+      else { signal = '動能中性'; color = 'arc'; }
       results.push({ name: 'RSI · 14', value: rsi.toFixed(1), signal, color });
     }
 
     if (stoch) {
       let signal, color;
-      if (stoch.k > 80) { signal = 'OVERBOUGHT ⚠'; color = 'warn'; }
-      else if (stoch.k < 20) { signal = 'OVERSOLD ▼'; color = 'up'; }
-      else if (stoch.k > stoch.d) { signal = 'BULLISH ▲'; color = 'up'; }
-      else { signal = 'BEARISH ▼'; color = 'dn'; }
-      results.push({ name: 'KD · K值', value: stoch.k.toFixed(1), signal, color });
+      if (stoch.k > 80) { signal = 'K > 80 · 超買區'; color = 'warn'; }
+      else if (stoch.k < 20) { signal = 'K < 20 · 超賣區'; color = 'warn'; }
+      else if (stoch.k > stoch.d) { signal = 'K 高於 D'; color = 'up'; }
+      else if (stoch.k < stoch.d) { signal = 'K 低於 D'; color = 'dn'; }
+      else { signal = 'K 等於 D'; color = 'arc'; }
+      results.push({ name: '快速隨機 · %K (9,3)', value: stoch.k.toFixed(1), signal, color });
     }
 
     if (macd) {
@@ -257,21 +259,24 @@ const IndicatorsService = (() => {
       else if (macd.cross === 'bearish') { signal = '新向下交叉 ↓'; color = 'dn'; }
       else if (macd.histogram > 0) { signal = '維持訊號線上方'; color = 'up'; }
       else if (macd.histogram < 0) { signal = '維持訊號線下方'; color = 'dn'; }
-      else { signal = 'FLAT —'; color = 'warn'; }
+      else { signal = '位於訊號線'; color = 'arc'; }
       results.push({ name: 'MACD', value: macd.macd.toFixed(2), signal, color });
     }
 
     if (ma20 !== null && currentPrice) {
       const above = currentPrice > ma20;
-      results.push({ name: 'MA · 20', value: ma20.toFixed(1), signal: above ? 'ABOVE ✓' : 'BELOW ✗', color: above ? 'up' : 'dn' });
+      results.push({ name: 'MA · 20', value: ma20.toFixed(1), signal: currentPrice === ma20 ? '收盤等於均線' : above ? '收盤高於均線' : '收盤低於均線', color: currentPrice === ma20 ? 'arc' : above ? 'up' : 'dn' });
     }
 
     if (ma60 !== null && currentPrice) {
       const above = currentPrice > ma60;
-      results.push({ name: 'MA · 60', value: ma60.toFixed(1), signal: above ? 'ABOVE ✓' : 'BELOW ✗', color: above ? 'up' : 'dn' });
+      results.push({ name: 'MA · 60', value: ma60.toFixed(1), signal: currentPrice === ma60 ? '收盤等於均線' : above ? '收盤高於均線' : '收盤低於均線', color: currentPrice === ma60 ? 'arc' : above ? 'up' : 'dn' });
     }
 
-    if (volumeIndicator) results.push(volumeIndicator);
+    if (volumeIndicator) results.push({ ...volumeIndicator,
+      name:'日線成交量 · Yahoo（股）',
+      signal:volumeIndicator.ratio == null ? '累積資料中' : `同口徑${volumeIndicator.mode === 'pace' ? '時段預估量' : '20日均量'} ${Math.round(volumeIndicator.ratio * 100)}%`,
+    });
 
     return results;
   }

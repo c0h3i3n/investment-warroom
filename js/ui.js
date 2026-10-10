@@ -67,7 +67,9 @@ const UI = (() => {
   // ═══════════════════════════════════════
   // INDEX CARDS
   // ═══════════════════════════════════════
+  let indexQuoteMap = {};
   function renderIndexCards(indexes) {
+    indexQuoteMap = Object.fromEntries(indexes.map(item => [item.id, item]));
     const container = document.getElementById('index-cards');
     if (!container) return;
 
@@ -108,7 +110,9 @@ const UI = (() => {
     document.querySelectorAll('.idx-spark-wrap[data-index]').forEach(wrap => {
       const id = wrap.dataset.index;
       const series = seriesMap[id];
-      const geometry = normalizeSparkGeometry(series?.closes, 100, 30);
+      const quote = indexQuoteMap[id];
+      const baseline = isFiniteValue(quote?.prevClose) ? Number(quote.prevClose) : null;
+      const geometry = normalizeSparkGeometry(series?.closes, 100, 30, baseline);
       if (!geometry) {
         wrap.title = '真實走勢資料暫時不可用';
         wrap.innerHTML = `
@@ -119,17 +123,18 @@ const UI = (() => {
         return;
       }
 
-      const rising = geometry.lastValue >= geometry.firstValue;
-      const color = rising ? '#ff7744' : '#cc1133';
+      const rising = Number(quote?.changePct) >= 0;
+      const color = !isFiniteValue(quote?.changePct) ? '#adb5c1' : rising ? '#ff7744' : '#ed527b';
       const gradId = `idx-sg-${id}`;
       const asOf = Number(series.asOf);
       const asOfText = Number.isFinite(asOf)
         ? new Intl.DateTimeFormat('zh-TW', { timeZone:'Asia/Taipei', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', hour12:false }).format(new Date(asOf))
         : '--';
-      wrap.title = `${series.source || 'MARKET DATA'} · ${asOfText}`;
+      wrap.title = `${series.source || 'MARKET DATA'} · ${asOfText} · 線色依較昨收漲跌；線形為盤中走勢`;
       wrap.innerHTML = `
-        <div class="idx-spark-meta">${series.period} · ${series.interval}</div>
+        <div class="idx-spark-meta">${series.period} · ${series.interval} · 較昨收</div>
         <svg class="mini-spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-label="真實市場走勢">
+          ${geometry.baselineY !== null ? `<line x1="0" x2="100" y1="${geometry.baselineY}" y2="${geometry.baselineY}" stroke="#adb5c1" stroke-width=".5" stroke-dasharray="2 2"><title>昨收 ${baseline}</title></line>` : ''}
           <defs><linearGradient id="${gradId}" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stop-color="${color}" stop-opacity=".35"/>
             <stop offset="100%" stop-color="${color}" stop-opacity="0"/>
@@ -186,6 +191,7 @@ const UI = (() => {
       : refreshFailed || data.delivery === 'stale-kv'
         ? '<div class="night-warning">⚠ 即時更新失敗，顯示最近有效夜盤資料</div>' : '';
 
+    const detailsOpen = data.status === 'open' || container.querySelector?.('.night-details')?.open;
     container.innerHTML = `
       <div class="night-headline">
         <div>
@@ -195,6 +201,8 @@ const UI = (() => {
         <div class="night-asof">行情時間 ${asOf}</div>
       </div>
       ${warning}
+      <details class="night-details" ${detailsOpen ? 'open' : ''}>
+      <summary>${data.status === 'open' ? '夜盤行情' : '最近夜盤收盤'} · ${level(data.price)} 點 · ${arrow} ${Math.abs(Number(data.changePct)).toFixed(2)}% <span>展開／收合明細</span></summary>
       <div class="night-layout">
         <div class="night-primary">
           <div class="night-price ${cls}">${level(data.price)} <small>PTS</small></div>
@@ -203,17 +211,18 @@ const UI = (() => {
         </div>
         <div class="night-metrics">
           <div><span>最高／最低</span><b>${level(data.high)}／${level(data.low)}</b></div>
-          <div><span>成交量</span><b>${isFiniteValue(data.volume) ? Math.round(Number(data.volume)).toLocaleString() + ' 口' : '--'}</b></div>
-          <div><span>現貨基差</span><b class="${Number(data.basis) >= 0 ? 'up' : 'dn'}">${signedPoints(data.basis)}</b></div>
+          <div><span>MIS 行情成交量</span><b>${isFiniteValue(data.volume) ? Math.round(Number(data.volume)).toLocaleString() + ' 口' : '--'}</b></div>
+          <div><span>相對現貨收盤價差</span><b class="${Number(data.basis) >= 0 ? 'up' : 'dn'}">${signedPoints(data.basis)}</b></div>
         </div>
         <div class="night-risk ${analysis.tone}">
           <span>${data.status === 'open' ? '即時風險方向' : '最近夜盤方向'}</span>
           <strong>${escapeHtml(analysis.label)}</strong>
-          <small>${analysis.usable ? `綜合分數 ${analysis.score >= 0 ? '+' : ''}${analysis.score}` : '等待有效即時資料'}</small>
+          <small>${analysis.usable ? `${analysis.drivers.length > 1 ? '同時段分數' : '台指期單一訊號'} ${analysis.score >= 0 ? '+' : ''}${analysis.score}` : '等待有效即時資料'}</small>
         </div>
       </div>
       <div class="night-drivers">${drivers || '<span>美股交叉訊號暫不可用</span>'}</div>
-      <div class="night-disclaimer">台指期為主要訊號，美股指數僅做交叉確認；此區反映風險方向，不代表隔日開盤預測。</div>`;
+      ${analysis.excluded?.length ? `<div class="night-warning">${escapeHtml(analysis.excluded.join('、'))} 與夜盤非同時段或時間未確認，未納入評分。</div>` : ''}
+      <div class="night-disclaimer">成交量為 TAIFEX MIS 行情值，非官方日報總量；日報含價差及鉅額交易，兩者不可直接混用。現貨價差採最近現貨收盤 ${level(data.spotReference)} 點，並非同步可交易基差。此區僅反映風險方向，不代表隔日開盤預測。</div></details>`;
   }
 
   // ═══════════════════════════════════════
@@ -259,9 +268,12 @@ const UI = (() => {
     }).join(' ');
   }
 
-  function normalizeSparkGeometry(closes, w, h) {
+  function normalizeSparkGeometry(closes, w, h, baseline = null) {
     const values = (closes || []).map(Number).filter(Number.isFinite);
-    const line = normalizeSparkline(values, w, h);
+    const min = Math.min(...values, ...(baseline === null ? [] : [baseline]));
+    const max = Math.max(...values, ...(baseline === null ? [] : [baseline]));
+    const y = value => max === min ? h / 2 : h - ((value - min) / (max - min)) * (h - 4) - 2;
+    const line = values.length < 2 ? null : values.map((value,i) => `${(i*w/(values.length-1)).toFixed(1)},${y(value).toFixed(1)}`).join(' ');
     if (!line) return null;
     const lastPoint = line.split(' ').pop();
     return {
@@ -270,6 +282,7 @@ const UI = (() => {
       lastY: lastPoint.split(',')[1],
       firstValue: values[0],
       lastValue: values[values.length - 1],
+      baselineY: baseline === null ? null : y(baseline).toFixed(1),
     };
   }
 
@@ -357,7 +370,7 @@ const UI = (() => {
   function setWatchlistActiveSymbol(symbol) {
     renderWatchlist.activeSymbol = symbol;
     const link = document.getElementById('watch-indicator-link');
-    if (link) link.textContent = `查看 ${symbol.replace('.TW', '')} 技術指標 ↑`;
+    if (link) link.textContent = `查看 ${symbol.replace('.TW', '')} 技術指標 ↓`;
     document.querySelectorAll('[data-watch-symbol]').forEach(item => {
       item.classList.toggle('selected', item.dataset.watchSymbol === symbol);
     });
@@ -403,14 +416,15 @@ const UI = (() => {
   // TECHNICAL INDICATORS
   // ═══════════════════════════════════════
   let indicatorChartData = null;
+  let indicatorChartZone = 'Asia/Taipei';
   let indicatorChartObserver = null;
 
   function drawIndicatorChart() {
     const chart = document.getElementById('ind-chart');
     if (!chart || !indicatorChartData) return;
     const width = Math.max(1, Math.round(chart.getBoundingClientRect().width));
-    chart.setAttribute('viewBox', `0 0 ${width} 90`);
-    chart.innerHTML = renderSVGChart(indicatorChartData, width, 90);
+    chart.setAttribute('viewBox', `0 0 ${width} 150`);
+    chart.innerHTML = renderSVGChart(indicatorChartData, width, 150, indicatorChartZone);
   }
 
   function renderIndicators(indData) {
@@ -447,11 +461,13 @@ const UI = (() => {
         + (indData.historyMeta?.excludedIncomplete ? ' · 盤中日線未納入' : '')
         + (indData.historyMeta?.delivery === 'stale-kv' ? ' · 更新失敗，使用快取' : '')
         + (indData.historyMeta?.rejectedRows ? ' · 已排除異常日線 ' + indData.historyMeta.rejectedRows + ' 筆' : '');
+      status.textContent += ' · 成交量及均量採同一 Yahoo 日線口徑，不等同交易所全市場日報總量';
       grid.appendChild(status);
     }
 
     if (chart && indData?.chartData) {
       indicatorChartData = indData.chartData;
+      indicatorChartZone = String(indData.symbol).endsWith('.TW') ? 'Asia/Taipei' : 'America/New_York';
       drawIndicatorChart();
       if (!indicatorChartObserver && typeof ResizeObserver !== 'undefined') {
         indicatorChartObserver = new ResizeObserver(drawIndicatorChart);
@@ -462,35 +478,42 @@ const UI = (() => {
     }
   }
 
-  function renderSVGChart(data, w, h) {
+  function renderSVGChart(data, w, h, timeZone = 'Asia/Taipei') {
     if (!data || data.length < 2) return '';
 
     const closes = data.map(d => d.close);
     const min = Math.min(...closes) * 0.995;
     const max = Math.max(...closes) * 1.005;
     const range = max - min || 1;
-    const stepX = w / (closes.length - 1);
+    const plotWidth = Math.max(1, w - 54);
+    const bottom = h - 22;
+    const stepX = plotWidth / (closes.length - 1);
 
     const points = closes.map((c, i) => {
       const x = (i * stepX).toFixed(1);
-      const y = (h - 5 - ((c - min) / range) * (h - 25)).toFixed(1);
+      const y = (bottom - ((c - min) / range) * (bottom - 20)).toFixed(1);
       return `${x},${y}`;
     }).join(' ');
 
-    const areaPts = `0,${h} ${closes.map((c, i) => {
+    const areaPts = `0,${bottom} ${closes.map((c, i) => {
       const x = (i * stepX).toFixed(1);
-      const y = (h - 5 - ((c - min) / range) * (h - 25)).toFixed(1);
+      const y = (bottom - ((c - min) / range) * (bottom - 20)).toFixed(1);
       return `${x},${y}`;
-    }).join(' ')} ${w},${h}`;
+    }).join(' ')} ${plotWidth},${bottom}`;
 
     const color = closes[closes.length - 1] >= closes[0] ? '#ff3d1a' : '#cc1133';
     const targets = data.map((row, i) => {
-      const date = new Date(row.time).toLocaleDateString('zh-TW', {timeZone:'Asia/Taipei'});
+      const date = new Date(row.time).toLocaleDateString('zh-TW', {timeZone});
       const value = key => Number(row[key]).toFixed(2);
       const label = `${date} · 還原價格 開 ${value('open')} 高 ${value('high')} 低 ${value('low')} 收 ${value('close')}`;
       const left = Math.max(0, (i-.5)*stepX);
-      return `<rect class="chart-hit" data-chart-detail="${label}" role="button" aria-label="${label}" tabindex="${i === data.length-1 ? 0 : -1}" x="${left}" y="15" width="${Math.min(w,left+stepX)-left}" height="${h-15}"><title>${label}</title></rect>`;
+      return `<rect class="chart-hit" data-chart-detail="${label}" role="button" aria-label="${label}" tabindex="${i === data.length-1 ? 0 : -1}" x="${left}" y="15" width="${Math.min(plotWidth,left+stepX)-left}" height="${bottom-15}"><title>${label}</title></rect>`;
     }).join('');
+    const ticks = [0,.5,1].map(f => {
+      const y = bottom - f*(bottom-20);
+      return `<line x1="0" x2="${plotWidth}" y1="${y}" y2="${y}" stroke="#343b45" stroke-dasharray="3 4"/><text x="${plotWidth+5}" y="${y+4}" fill="#adb5c1" font-size="11">${(min+f*range).toFixed(2)}</text>`;
+    }).join('');
+    const dateLabel = row => new Intl.DateTimeFormat('zh-TW',{timeZone,month:'2-digit',day:'2-digit'}).format(new Date(row.time));
 
     return `
     <defs>
@@ -499,13 +522,13 @@ const UI = (() => {
         <stop offset="100%" stop-color="${color}" stop-opacity="0"/>
       </linearGradient>
     </defs>
-    <line x1="0" y1="${h * 0.25}" x2="${w}" y2="${h * 0.25}" stroke="rgba(255,61,26,.06)" stroke-width="1"/>
-    <line x1="0" y1="${h * 0.5}"  x2="${w}" y2="${h * 0.5}"  stroke="rgba(255,61,26,.06)" stroke-width="1"/>
-    <line x1="0" y1="${h * 0.75}" x2="${w}" y2="${h * 0.75}" stroke="rgba(255,61,26,.06)" stroke-width="1"/>
+    ${ticks}
     <path fill="url(#icg)" d="M${areaPts}"/>
     <polyline fill="none" stroke="${color}" stroke-width="2" points="${points}"/>
-    <circle cx="${w}" cy="${h - 5 - ((closes[closes.length - 1] - min) / range) * (h - 25)}" r="3" fill="${color}" filter="drop-shadow(0 0 6px ${color})"/>
-    <text x="4" y="10" fill="#adb5c1" font-family="sans-serif" font-size="7">ADJUSTED DAILY PRICE</text>${targets}`;
+    <circle cx="${plotWidth}" cy="${bottom - ((closes.at(-1) - min) / range) * (bottom - 20)}" r="3" fill="${color}"/>
+    <text x="0" y="11" fill="#adb5c1" font-size="10">還原日線 · 價格刻度</text>
+    <text x="0" y="${h-4}" fill="#adb5c1" font-size="11">${dateLabel(data[0])}</text>
+    <text x="${plotWidth}" y="${h-4}" text-anchor="end" fill="#adb5c1" font-size="11">${dateLabel(data.at(-1))}</text>${targets}`;
   }
 
   // ═══════════════════════════════════════
@@ -646,9 +669,15 @@ const UI = (() => {
     const formatTime = value => isFiniteValue(value)
       ? new Intl.DateTimeFormat('zh-TW', { timeZone:'Asia/Taipei', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', second:'2-digit', hour12:false }).format(new Date(Number(value)))
       : null;
+    const regionalState = (region, time) => {
+      if (!isFiniteValue(time)) return '無資料';
+      if (mode === 'cache') return '快取';
+      if (typeof DataService !== 'undefined' && !DataService.isMarketOpen(region)) return '最近收盤';
+      return region === 'US' ? '延遲行情' : Date.now() - Number(time) > 120000 ? '行情延遲' : '盤中行情';
+    };
     const regionalText = [
-      formatTime(twAsOf) ? `TW ${formatTime(twAsOf)}` : null,
-      formatTime(usAsOf) ? `US ${formatTime(usAsOf)}` : null,
+      formatTime(twAsOf) ? `台股 ${regionalState('TW',twAsOf)} ${formatTime(twAsOf)}` : null,
+      formatTime(usAsOf) ? `美股 ${regionalState('US',usAsOf)} ${formatTime(usAsOf)}` : null,
     ].filter(Boolean).join(' · ') || formatTime(asOf) || '--:--:--';
     const complete = fresh === total && total > 0;
 
@@ -661,7 +690,7 @@ const UI = (() => {
     if (sysLabel) {
       sysLabel.textContent = mode === 'cache' && fresh > 0
         ? 'QUOTES CACHED'
-        : complete && !indicative ? 'QUOTES READY' : complete ? 'QUOTES LIVE' : fresh > 0 ? 'QUOTES PARTIAL' : 'QUOTES OFFLINE';
+        : complete ? '行情齊全 ≠ 全部即時' : fresh > 0 ? '部分行情缺漏' : '行情無法取得';
     }
     if (tickerMode) {
       tickerMode.textContent = mode === 'cache' && fresh > 0
