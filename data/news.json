@@ -1,11 +1,54 @@
 {
-  "timestamp": "2026-10-10T13:33:24.426955+00:00",
-  "generatedAt": "2026-10-10T13:33:24.426955+00:00",
+  "timestamp": "2026-10-10T14:35:27.045861+00:00",
+  "generatedAt": "2026-10-10T14:35:27.045861+00:00",
   "data": [
     {
       "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "特斯拉FSD歐洲改名TAD！德國尚未開放、歐盟全面批准仍待審",
+      "source": "鉅亨",
+      "time": "21:10",
+      "publishedAt": 1791637802000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627342"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "headline": "盤中速報 - Mina大漲10.54%，報0.09美元",
+      "source": "鉅亨",
+      "time": "21:05",
+      "publishedAt": 1791637519000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6627364"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "《巴隆》川普放寬俄羅斯柴油制裁仍「難壓油價」！美國柴油年漲逾70%、烏克蘭批助長俄國",
+      "source": "鉅亨",
+      "time": "20:10",
+      "publishedAt": 1791634202000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6627217"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
       "headline": "今國光紅外線鏡頭熱賣挹注 前9月營收41.64億元超越去年全年",
-      "source": "台股",
+      "source": "鉅亨",
       "time": "20:04",
       "publishedAt": 1791633862000,
       "impact": "neu",
@@ -13,6 +56,10 @@
     },
     {
       "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台灣政經"
+      ],
       "headline": "國慶演說 賴清德以打造「山巔之城」為題 期許科技帶百工百業向前行",
       "source": "台股",
       "time": "19:58",
@@ -22,6 +69,10 @@
     },
     {
       "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台灣政經"
+      ],
       "headline": "賴清德發表雙十國慶演說 國台辦回應！",
       "source": "台股",
       "time": "18:20",
@@ -31,42 +82,10 @@
     },
     {
       "region": "TW",
-      "headline": "全球首次！中國西湖科技機器人WR1比肩黃仁勳加碼投資的Figure　全身協同連貫自主摺衣",
-      "source": "鉅亨",
-      "time": "18:00",
-      "publishedAt": 1791626403000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627251"
-    },
-    {
-      "region": "TW",
-      "headline": "盤中速報 - Pixels大漲11.11%，報0.01美元",
-      "source": "鉅亨",
-      "time": "17:50",
-      "publishedAt": 1791625818000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6627321"
-    },
-    {
-      "region": "TW",
-      "headline": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過29.2億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
-      "source": "鉅亨",
-      "time": "17:15",
-      "publishedAt": 1791623718000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6627314"
-    },
-    {
-      "region": "TW",
-      "headline": "中國發布新質生產力19項改革任務！AI、機器人、量子科技成布局重點",
-      "source": "鉅亨",
-      "time": "17:10",
-      "publishedAt": 1791623405000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627260"
-    },
-    {
-      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "美股雷達"
+      ],
       "headline": "台積領先優勢還能守幾年？傳輝達2028下半年評估採英特爾Foveros封裝",
       "source": "台股",
       "time": "12:00",
