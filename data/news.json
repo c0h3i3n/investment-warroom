@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-10-10T14:35:27.045861+00:00",
-  "generatedAt": "2026-10-10T14:35:27.045861+00:00",
+  "timestamp": "2026-10-10T18:28:17.518713+00:00",
+  "generatedAt": "2026-10-10T18:28:17.518713+00:00",
   "data": [
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "虛擬貨幣盤中"
       ],
-      "headline": "特斯拉FSD歐洲改名TAD！德國尚未開放、歐盟全面批准仍待審",
+      "headline": "盤中速報 - Mina大漲9.38%，報0.09美元",
       "source": "鉅亨",
-      "time": "21:10",
-      "publishedAt": 1791637802000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627342"
+      "time": "00:05",
+      "publishedAt": 1791648320000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6627398"
     },
     {
       "region": "TW",
@@ -21,34 +21,47 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "headline": "盤中速報 - Mina大漲10.54%，報0.09美元",
+      "headline": "盤中速報 - Pixels大漲10.7%，報0.01美元",
       "source": "鉅亨",
-      "time": "21:05",
-      "publishedAt": 1791637519000,
+      "time": "00:05",
+      "publishedAt": 1791648319000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6627364"
+      "link": "https://news.cnyes.com/news/id/6627397"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "虛擬貨幣盤中"
       ],
-      "headline": "《巴隆》川普放寬俄羅斯柴油制裁仍「難壓油價」！美國柴油年漲逾70%、烏克蘭批助長俄國",
+      "headline": "盤中速報 - CFX大漲19.2%，報0.0593美元",
       "source": "鉅亨",
-      "time": "20:10",
-      "publishedAt": 1791634202000,
+      "time": "00:05",
+      "publishedAt": 1791648319000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6627217"
+      "link": "https://news.cnyes.com/news/id/6627396"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "headline": "盤中速報 - Worldcoin大漲13.67%，報0.56美元",
+      "source": "鉅亨",
+      "time": "00:05",
+      "publishedAt": 1791648318000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6627395"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股新聞"
       ],
       "headline": "今國光紅外線鏡頭熱賣挹注 前9月營收41.64億元超越去年全年",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "20:04",
       "publishedAt": 1791633862000,
       "impact": "neu",
