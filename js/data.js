@@ -894,6 +894,7 @@ const DataService = (() => {
     fetchIndexSeries,
     clearCache,
     isFreshRecord,
+    isMarketOpen,
     rememberRecords,
   };
 })();

@@ -79,3 +79,12 @@ test('index line color uses previous-close change and includes previous-close ba
   assert.match(wrap.innerHTML,/昨收 100/);
   assert.match(wrap.innerHTML,/stroke="#ed527b"/);
 });
+
+test('status integrates with the real data service and exchange calendar',()=>{
+  const elements=Object.fromEntries(['last-updated','sysOrb','sysLabel','ticker-mode-label'].map(id=>[id,{}]));
+  const ctx=load('market-calendar.js',{CONFIG:{},document:{getElementById:id=>elements[id]}});
+  for(const file of ['data.js','ui.js']) vm.runInContext(fs.readFileSync(new URL(`../../js/${file}`,import.meta.url),'utf8'),ctx);
+  assert.equal(vm.runInContext(`DataService.isMarketOpen('TW',new Date('2026-10-09T10:00:00+08:00'))`,ctx),false);
+  assert.equal(vm.runInContext(`DataService.isMarketOpen('TW',new Date('2026-10-08T10:00:00+08:00'))`,ctx),true);
+  assert.doesNotThrow(()=>vm.runInContext(`UI.setDataStatus({fresh:2,total:2,twAsOf:${time('2026-10-08T13:30:00+08:00')},usAsOf:${time('2026-10-10T04:00:00+08:00')}})`,ctx));
+});
