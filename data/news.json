@@ -1,97 +1,97 @@
 {
-  "timestamp": "2026-10-11T01:47:42.262393+00:00",
-  "generatedAt": "2026-10-11T01:47:42.262393+00:00",
+  "timestamp": "2026-10-11T08:41:01.561248+00:00",
+  "generatedAt": "2026-10-11T08:41:01.561248+00:00",
   "data": [
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "國際政經"
+        "美股雷達"
       ],
-      "headline": "川普、普丁通話誰都「不想先掛電話」！俄供柴油降油價惹怒烏克蘭",
+      "headline": "《黑天鵝》作者示警：AI前景好不等於值得買 更怕美國人自己撤出美債",
       "source": "鉅亨",
-      "time": "01:29",
-      "publishedAt": 1791653374000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627374"
+      "time": "13:00",
+      "publishedAt": 1791694805000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6624469"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "港股"
       ],
-      "headline": "特斯拉FSD歐洲改名TAD！德國尚未開放、歐盟全面批准仍待審",
+      "headline": "立訊精密回應美337調查：涉案產品尚處客戶驗證階段 不影響營運",
       "source": "鉅亨",
-      "time": "21:10",
-      "publishedAt": 1791637802000,
+      "time": "12:00",
+      "publishedAt": 1791691206000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627342"
+      "link": "https://news.cnyes.com/news/id/6627523"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "ETF"
       ],
-      "headline": "《巴隆》川普放寬俄羅斯柴油制裁仍「難壓油價」！美國柴油年漲逾70%、烏克蘭批助長俄國",
+      "headline": "大盤創高後拉回 這12檔台股ETF規模仍創高 00927今年來漲幅翻倍居冠",
       "source": "鉅亨",
-      "time": "20:10",
-      "publishedAt": 1791634202000,
+      "time": "11:40",
+      "publishedAt": 1791690003000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6627217"
+      "link": "https://news.cnyes.com/news/id/6627497"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "看好開放模型！輝達洽談加碼投資Reflection AI、提供算力",
+      "source": "鉅亨",
+      "time": "11:30",
+      "publishedAt": 1791689404000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627479"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股新聞"
       ],
-      "headline": "今國光紅外線鏡頭熱賣挹注 前9月營收41.64億元超越去年全年",
-      "source": "鉅亨",
-      "time": "20:04",
-      "publishedAt": 1791633862000,
+      "headline": "高檔震盪消化雜音 法人：台股Q4重回獲利驅動 資金輪動「這些」族群",
+      "source": "台股",
+      "time": "11:10",
+      "publishedAt": 1791688202000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627318"
+      "link": "https://news.cnyes.com/news/id/6627489"
     },
     {
       "region": "TW",
       "feedRegion": "TW",
       "categories": [
-        "台灣政經"
+        "台股新聞"
       ],
-      "headline": "國慶演說 賴清德以打造「山巔之城」為題 期許科技帶百工百業向前行",
+      "headline": "台北101國慶煙火、無人機璀璨綻放夜空 台新新光金獨家贊助",
       "source": "台股",
-      "time": "19:58",
-      "publishedAt": 1791633522000,
+      "time": "10:31",
+      "publishedAt": 1791685861000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627310"
+      "link": "https://news.cnyes.com/news/id/6627494"
     },
     {
       "region": "TW",
       "feedRegion": "TW",
       "categories": [
-        "台灣政經"
+        "台股新聞"
       ],
-      "headline": "賴清德發表雙十國慶演說 國台辦回應！",
+      "headline": "電子五哥第三季股價三漲兩跌 最新伺服器展望一次看",
       "source": "台股",
-      "time": "18:20",
-      "publishedAt": 1791627641000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627325"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "台積領先優勢還能守幾年？傳輝達2028下半年評估採英特爾Foveros封裝",
-      "source": "台股",
-      "time": "12:00",
-      "publishedAt": 1791604806000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6625253"
+      "time": "10:24",
+      "publishedAt": 1791685452000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6626138"
     }
   ]
 }
