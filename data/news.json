@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-10-11T15:34:26.236768+00:00",
-  "generatedAt": "2026-10-11T15:34:26.236768+00:00",
+  "timestamp": "2026-10-11T20:11:12.833331+00:00",
+  "generatedAt": "2026-10-11T20:11:12.833331+00:00",
   "data": [
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "歐亞股"
+        "虛擬貨幣盤中"
       ],
-      "headline": "歐洲最大晶圓廠布局物理AI！格羅方德砸11億歐元擴建德國晶圓廠、2028年啟動生產",
+      "headline": "盤中速報 - NEAR大漲8.56%，報5.833美元",
       "source": "鉅亨",
-      "time": "22:00",
-      "publishedAt": 1791727205000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627514"
+      "time": "01:20",
+      "publishedAt": 1791739219000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6627676"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "虛擬貨幣盤中"
       ],
-      "headline": "本週操盤筆記：美CPI牽動升息預期！美股財報季開跑、台積電法說和ASML接力登場",
+      "headline": "盤中速報 - Ethena大漲8.21%，報0.24美元",
       "source": "鉅亨",
-      "time": "21:30",
-      "publishedAt": 1791725405000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626795"
+      "time": "00:50",
+      "publishedAt": 1791737418000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6627671"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "虛擬貨幣盤中"
       ],
-      "headline": "逾1400億美元交易+近千億股權投資！專家：輝達成「AI央行」　用資本綁定對沖客戶集中風險",
+      "headline": "盤中速報 - RLC大漲12.16%，報1.048美元",
       "source": "鉅亨",
-      "time": "21:30",
-      "publishedAt": 1791725405000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6624805"
+      "time": "00:05",
+      "publishedAt": 1791734720000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6627669"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "虛擬貨幣盤中"
       ],
-      "headline": "黃仁勳、蘇姿丰、馬斯克獲美國國家科學獎章  輝達、AMD、特斯拉科技實力受肯定",
+      "headline": "盤中速報 - Aptos大漲13.11%，報0.94美元",
       "source": "鉅亨",
-      "time": "21:00",
-      "publishedAt": 1791723606000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627512"
+      "time": "00:05",
+      "publishedAt": 1791734720000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6627668"
     },
     {
       "region": "TW",
