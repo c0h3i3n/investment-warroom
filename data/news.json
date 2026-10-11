@@ -1,58 +1,97 @@
 {
-  "timestamp": "2026-10-11T08:41:01.561248+00:00",
-  "generatedAt": "2026-10-11T08:41:01.561248+00:00",
+  "timestamp": "2026-10-11T15:34:26.236768+00:00",
+  "generatedAt": "2026-10-11T15:34:26.236768+00:00",
   "data": [
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "歐亞股"
       ],
-      "headline": "《黑天鵝》作者示警：AI前景好不等於值得買 更怕美國人自己撤出美債",
+      "headline": "歐洲最大晶圓廠布局物理AI！格羅方德砸11億歐元擴建德國晶圓廠、2028年啟動生產",
       "source": "鉅亨",
-      "time": "13:00",
-      "publishedAt": 1791694805000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6624469"
+      "time": "22:00",
+      "publishedAt": 1791727205000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627514"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "港股"
+        "美股雷達"
       ],
-      "headline": "立訊精密回應美337調查：涉案產品尚處客戶驗證階段 不影響營運",
+      "headline": "本週操盤筆記：美CPI牽動升息預期！美股財報季開跑、台積電法說和ASML接力登場",
       "source": "鉅亨",
-      "time": "12:00",
-      "publishedAt": 1791691206000,
+      "time": "21:30",
+      "publishedAt": 1791725405000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627523"
+      "link": "https://news.cnyes.com/news/id/6626795"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "逾1400億美元交易+近千億股權投資！專家：輝達成「AI央行」　用資本綁定對沖客戶集中風險",
+      "source": "鉅亨",
+      "time": "21:30",
+      "publishedAt": 1791725405000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6624805"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "黃仁勳、蘇姿丰、馬斯克獲美國國家科學獎章  輝達、AMD、特斯拉科技實力受肯定",
+      "source": "鉅亨",
+      "time": "21:00",
+      "publishedAt": 1791723606000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627512"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股新聞"
+      ],
+      "headline": "遞延訂單回補！裕慶-KY 9月營收月增75% 第4季營運有望回溫",
+      "source": "台股",
+      "time": "19:09",
+      "publishedAt": 1791716985000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627622"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股新聞"
+      ],
+      "headline": "鴻海及子公司遭美國337調查 強調營運出貨正常、已組團隊釐清因應",
+      "source": "台股",
+      "time": "18:39",
+      "publishedAt": 1791715170000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627599"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "ETF"
       ],
       "headline": "大盤創高後拉回 這12檔台股ETF規模仍創高 00927今年來漲幅翻倍居冠",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "11:40",
       "publishedAt": 1791690003000,
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6627497"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "看好開放模型！輝達洽談加碼投資Reflection AI、提供算力",
-      "source": "鉅亨",
-      "time": "11:30",
-      "publishedAt": 1791689404000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627479"
     },
     {
       "region": "TW",
@@ -66,32 +105,6 @@
       "publishedAt": 1791688202000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6627489"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "台北101國慶煙火、無人機璀璨綻放夜空 台新新光金獨家贊助",
-      "source": "台股",
-      "time": "10:31",
-      "publishedAt": 1791685861000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627494"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "電子五哥第三季股價三漲兩跌 最新伺服器展望一次看",
-      "source": "台股",
-      "time": "10:24",
-      "publishedAt": 1791685452000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6626138"
     }
   ]
 }
