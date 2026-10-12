@@ -1,84 +1,58 @@
 {
-  "timestamp": "2026-10-12T00:27:03.974792+00:00",
-  "generatedAt": "2026-10-12T00:27:03.974792+00:00",
+  "timestamp": "2026-10-12T07:16:04.965323+00:00",
+  "generatedAt": "2026-10-12T07:16:04.965323+00:00",
   "data": [
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "國際政經"
+        "外匯"
       ],
-      "headline": "美國警告烏克蘭：再炸俄羅斯煉油廠 援烏武器就別想要了",
+      "headline": "油價回落與出口商拋售 韓元飆升至兩年新高",
       "source": "鉅亨",
-      "time": "08:20",
-      "publishedAt": 1791764431000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6627728"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "港股"
-      ],
-      "headline": "吉利汽車正式進軍加拿大 首批車款2027年登場",
-      "source": "鉅亨",
-      "time": "08:10",
-      "publishedAt": 1791763817000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627677"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "美債殖利率難壓！黃金長期看漲情緒升溫  專家：指1年後必破「這一價位」",
-      "source": "鉅亨",
-      "time": "08:00",
-      "publishedAt": 1791763203000,
+      "time": "14:40",
+      "publishedAt": 1791787211000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6623470"
+      "link": "https://news.cnyes.com/news/id/6628039"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "歐亞股"
+        "台股新聞"
       ],
-      "headline": "外資持續撤出三星 持股降至17年低點 創紀錄獲利也難止賣壓",
+      "headline": "萬年清前9月營收2.32億元年減37% 手中訂單看到明年H2",
       "source": "鉅亨",
-      "time": "07:20",
-      "publishedAt": 1791760804000,
+      "time": "14:23",
+      "publishedAt": 1791786219000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627522"
+      "link": "https://news.cnyes.com/news/id/6628043"
     },
     {
       "region": "TW",
-      "feedRegion": "TW",
+      "feedRegion": "INTL",
       "categories": [
-        "歐亞股"
+        "台股新聞"
       ],
-      "headline": "AI伺服器類股今難逃跌勢？美發起337調查   立訊、富士康與廣達等廠商捲入",
-      "source": "台股",
-      "time": "05:40",
-      "publishedAt": 1791754808000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6627587"
+      "headline": "〈台股盤後〉金融海運聯手拉抬49000點失而復得 留逾500點下影線",
+      "source": "鉅亨",
+      "time": "14:19",
+      "publishedAt": 1791785943000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6628040"
     },
     {
       "region": "TW",
-      "feedRegion": "TW",
+      "feedRegion": "INTL",
       "categories": [
-        "台股盤勢"
+        "台股新聞"
       ],
-      "headline": "〈台股盤前要聞〉台積電Q3營收1.49兆元寫新猷、長榮法說釋利多貨櫃旺到明年春節",
-      "source": "台股",
-      "time": "05:10",
-      "publishedAt": 1791753003000,
+      "headline": "台智雲主權AI模型報捷 躋身數發部評測十強、打入五大產業場域",
+      "source": "鉅亨",
+      "time": "13:40",
+      "publishedAt": 1791783608000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6626116"
+      "link": "https://news.cnyes.com/news/id/6628019"
     },
     {
       "region": "TW",
@@ -86,25 +60,12 @@
       "categories": [
         "台股新聞"
       ],
-      "headline": "遞延訂單回補！裕慶-KY 9月營收月增75% 第4季營運有望回溫",
+      "headline": "東浦精密跨AI應用產品放量出貨 Q3營收11.41億元創新高年增81%",
       "source": "台股",
-      "time": "19:09",
-      "publishedAt": 1791716985000,
+      "time": "13:33",
+      "publishedAt": 1791783230000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627622"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "鴻海及子公司遭美國337調查 強調營運出貨正常、已組團隊釐清因應",
-      "source": "台股",
-      "time": "18:39",
-      "publishedAt": 1791715170000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627599"
+      "link": "https://news.cnyes.com/news/id/6628017"
     }
   ]
 }
