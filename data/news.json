@@ -1,71 +1,84 @@
 {
-  "timestamp": "2026-10-12T07:16:04.965323+00:00",
-  "generatedAt": "2026-10-12T07:16:04.965323+00:00",
+  "timestamp": "2026-10-12T17:45:48.794871+00:00",
+  "generatedAt": "2026-10-12T17:45:48.794871+00:00",
   "data": [
     {
       "region": "TW",
-      "feedRegion": "INTL",
+      "feedRegion": "TW",
       "categories": [
-        "外匯"
+        "台股預估"
       ],
-      "headline": "油價回落與出口商拋售 韓元飆升至兩年新高",
-      "source": "鉅亨",
-      "time": "14:40",
-      "publishedAt": 1791787211000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6628039"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "萬年清前9月營收2.32億元年減37% 手中訂單看到明年H2",
-      "source": "鉅亨",
-      "time": "14:23",
-      "publishedAt": 1791786219000,
+      "headline": "鉅亨速報 - Factset 最新調查：和碩(4938-TW)EPS預估上修至5.75元，預估目標價為95.5元",
+      "source": "台股",
+      "time": "22:11",
+      "publishedAt": 1791814282000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6628043"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "〈台股盤後〉金融海運聯手拉抬49000點失而復得 留逾500點下影線",
-      "source": "鉅亨",
-      "time": "14:19",
-      "publishedAt": 1791785943000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6628040"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "台智雲主權AI模型報捷 躋身數發部評測十強、打入五大產業場域",
-      "source": "鉅亨",
-      "time": "13:40",
-      "publishedAt": 1791783608000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6628019"
+      "link": "https://news.cnyes.com/news/id/6628850"
     },
     {
       "region": "TW",
       "feedRegion": "TW",
       "categories": [
+        "台股預估"
+      ],
+      "headline": "鉅亨速報 - Factset 最新調查：頎邦(6147-TW)目標價調升至280元，幅度約3.7%",
+      "source": "台股",
+      "time": "22:10",
+      "publishedAt": 1791814222000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6628849"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "晶片買得到、錢卻更難找！博通執行長點破AI擴張難題",
+      "source": "鉅亨",
+      "time": "21:00",
+      "publishedAt": 1791810006000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6628806"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
         "台股新聞"
       ],
-      "headline": "東浦精密跨AI應用產品放量出貨 Q3營收11.41億元創新高年增81%",
-      "source": "台股",
-      "time": "13:33",
-      "publishedAt": 1791783230000,
+      "headline": "水泥雙雄9月營收繳雙增 同步創近21個月新高",
+      "source": "鉅亨",
+      "time": "20:44",
+      "publishedAt": 1791809072000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6628017"
+      "link": "https://news.cnyes.com/news/id/6628802"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "headline": "〈台塑四寶業績〉Q4受惠需求旺季、電子業績攀升 兩公司看好業績優於Q3",
+      "source": "鉅亨",
+      "time": "20:42",
+      "publishedAt": 1791808953000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6628767"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "期貨"
+      ],
+      "headline": "淡季不淡！中國動力煤現貨價突破千元大關 創3年新高",
+      "source": "鉅亨",
+      "time": "20:40",
+      "publishedAt": 1791808807000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6628679"
     }
   ]
 }
