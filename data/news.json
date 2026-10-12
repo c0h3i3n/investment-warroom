@@ -1,58 +1,84 @@
 {
-  "timestamp": "2026-10-11T20:11:12.833331+00:00",
-  "generatedAt": "2026-10-11T20:11:12.833331+00:00",
+  "timestamp": "2026-10-12T00:27:03.974792+00:00",
+  "generatedAt": "2026-10-12T00:27:03.974792+00:00",
   "data": [
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "虛擬貨幣盤中"
+        "國際政經"
       ],
-      "headline": "盤中速報 - NEAR大漲8.56%，報5.833美元",
+      "headline": "美國警告烏克蘭：再炸俄羅斯煉油廠 援烏武器就別想要了",
       "source": "鉅亨",
-      "time": "01:20",
-      "publishedAt": 1791739219000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6627676"
+      "time": "08:20",
+      "publishedAt": 1791764431000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6627728"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "虛擬貨幣盤中"
+        "港股"
       ],
-      "headline": "盤中速報 - Ethena大漲8.21%，報0.24美元",
+      "headline": "吉利汽車正式進軍加拿大 首批車款2027年登場",
       "source": "鉅亨",
-      "time": "00:50",
-      "publishedAt": 1791737418000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6627671"
+      "time": "08:10",
+      "publishedAt": 1791763817000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627677"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "虛擬貨幣盤中"
+        "美股雷達"
       ],
-      "headline": "盤中速報 - RLC大漲12.16%，報1.048美元",
+      "headline": "美債殖利率難壓！黃金長期看漲情緒升溫  專家：指1年後必破「這一價位」",
       "source": "鉅亨",
-      "time": "00:05",
-      "publishedAt": 1791734720000,
+      "time": "08:00",
+      "publishedAt": 1791763203000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6627669"
+      "link": "https://news.cnyes.com/news/id/6623470"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "虛擬貨幣盤中"
+        "歐亞股"
       ],
-      "headline": "盤中速報 - Aptos大漲13.11%，報0.94美元",
+      "headline": "外資持續撤出三星 持股降至17年低點 創紀錄獲利也難止賣壓",
       "source": "鉅亨",
-      "time": "00:05",
-      "publishedAt": 1791734720000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6627668"
+      "time": "07:20",
+      "publishedAt": 1791760804000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627522"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "歐亞股"
+      ],
+      "headline": "AI伺服器類股今難逃跌勢？美發起337調查   立訊、富士康與廣達等廠商捲入",
+      "source": "台股",
+      "time": "05:40",
+      "publishedAt": 1791754808000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6627587"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股盤勢"
+      ],
+      "headline": "〈台股盤前要聞〉台積電Q3營收1.49兆元寫新猷、長榮法說釋利多貨櫃旺到明年春節",
+      "source": "台股",
+      "time": "05:10",
+      "publishedAt": 1791753003000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6626116"
     },
     {
       "region": "TW",
@@ -79,32 +105,6 @@
       "publishedAt": 1791715170000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6627599"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "ETF"
-      ],
-      "headline": "大盤創高後拉回 這12檔台股ETF規模仍創高 00927今年來漲幅翻倍居冠",
-      "source": "台股",
-      "time": "11:40",
-      "publishedAt": 1791690003000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6627497"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "高檔震盪消化雜音 法人：台股Q4重回獲利驅動 資金輪動「這些」族群",
-      "source": "台股",
-      "time": "11:10",
-      "publishedAt": 1791688202000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627489"
     }
   ]
 }
