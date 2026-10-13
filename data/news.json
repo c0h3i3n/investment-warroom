@@ -1,110 +1,97 @@
 {
-  "timestamp": "2026-10-13T00:32:27.724853+00:00",
-  "generatedAt": "2026-10-13T00:32:27.724853+00:00",
+  "timestamp": "2026-10-13T07:38:08.362531+00:00",
+  "generatedAt": "2026-10-13T07:38:08.362531+00:00",
   "data": [
     {
       "region": "TW",
-      "feedRegion": "TW",
+      "feedRegion": "INTL",
       "categories": [
-        "台股預估"
+        "虛擬貨幣盤中"
       ],
-      "headline": "鉅亨速報 - Factset 最新調查：日月光投控(3711-TW)EPS預估上修至18.98元，預估目標價為755元",
-      "source": "台股",
-      "time": "08:10",
-      "publishedAt": 1791850252000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629084"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股預估"
-      ],
-      "headline": "鉅亨速報 - Factset 最新調查：智邦(2345-TW)EPS預估上修至86.43元，預估目標價為3500元",
-      "source": "台股",
-      "time": "08:10",
-      "publishedAt": 1791850251000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629083"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股預估"
-      ],
-      "headline": "鉅亨速報 - Factset 最新調查：群聯(8299-TW)EPS預估上修至416.97元，預估目標價為2900元",
-      "source": "台股",
-      "time": "08:10",
-      "publishedAt": 1791850249000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629082"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股預估"
-      ],
-      "headline": "鉅亨速報 - Factset 最新調查：玉晶光(3406-TW)目標價調升至1050元，幅度約15.38%",
-      "source": "台股",
-      "time": "08:10",
-      "publishedAt": 1791850238000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629081"
+      "headline": "盤中速報 - OGN大漲30.47%，報0.0398美元",
+      "source": "鉅亨",
+      "time": "14:35",
+      "publishedAt": 1791873321000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6629384"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "大陸政經"
+        "歐亞股"
       ],
-      "headline": "人形機器人進廠潮來了！上海喊出8000台目標、AI全面導入產線",
+      "headline": "日銀總裁：潛在通膨相當接近2%目標 密切關注公債市場",
       "source": "鉅亨",
-      "time": "08:10",
-      "publishedAt": 1791850207000,
+      "time": "14:30",
+      "publishedAt": 1791873005000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629029"
+      "link": "https://news.cnyes.com/news/id/6629355"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "國際政經"
+        "外匯盤中"
       ],
-      "headline": "川普：普丁比澤倫斯基更想達成協議  兩人應當會面結束這場「荒謬的戰爭」",
+      "headline": "外匯速報 - 美元/韓元(USDKRW) 大漲0.83%，報1345.1元",
       "source": "鉅亨",
-      "time": "08:05",
-      "publishedAt": 1791849940000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629036"
+      "time": "14:20",
+      "publishedAt": 1791872422000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6629374"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "台股營收"
+        "台股新聞"
       ],
-      "headline": "營收速報 - 2026年10月13日台股大型公司9月營收一覽（新增175家）",
+      "headline": "〈台股盤後〉台積電領跌！股匯雙殺急挫960點 CCL、記憶體成重災區",
       "source": "鉅亨",
-      "time": "07:55",
-      "publishedAt": 1791849310000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629051"
+      "time": "14:18",
+      "publishedAt": 1791872285000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6629365"
     },
     {
       "region": "TW",
-      "feedRegion": "INTL",
+      "feedRegion": "TW",
       "categories": [
-        "國際政經"
+        "台股新聞"
       ],
-      "headline": "黃金最壞時刻已過？瑞銀：美債殖利率回落將讓黃金復甦",
-      "source": "鉅亨",
-      "time": "07:40",
-      "publishedAt": 1791848402000,
+      "headline": "中華電信竹林碳匯專案全台首例過關 預期今年綠電使用將逾1億度",
+      "source": "台股",
+      "time": "13:27",
+      "publishedAt": 1791869266000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6627880"
+      "link": "https://news.cnyes.com/news/id/6629343"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股盤中"
+      ],
+      "headline": "盤中速報 - 櫃買市場加權指數下跌-13.42點至414.48點，跌幅3.14%",
+      "source": "台股",
+      "time": "13:27",
+      "publishedAt": 1791869223000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6629358"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股新聞"
+      ],
+      "headline": "市場儲能需求升溫 電池協會攜產業鏈亮相能源展接軌國際技術",
+      "source": "台股",
+      "time": "13:20",
+      "publishedAt": 1791868804000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6629337"
     }
   ]
 }
