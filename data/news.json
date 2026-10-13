@@ -1,84 +1,71 @@
 {
-  "timestamp": "2026-10-13T07:38:08.362531+00:00",
-  "generatedAt": "2026-10-13T07:38:08.362531+00:00",
+  "timestamp": "2026-10-13T15:52:30.117216+00:00",
+  "generatedAt": "2026-10-13T15:52:30.117216+00:00",
   "data": [
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "虛擬貨幣盤中"
+        "美股盤中"
       ],
-      "headline": "盤中速報 - OGN大漲30.47%，報0.0398美元",
+      "headline": "盤中速報 - 邁威爾科技(MRVL-US)大跌5.01%，報252.53美元",
       "source": "鉅亨",
-      "time": "14:35",
-      "publishedAt": 1791873321000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6629384"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "歐亞股"
-      ],
-      "headline": "日銀總裁：潛在通膨相當接近2%目標 密切關注公債市場",
-      "source": "鉅亨",
-      "time": "14:30",
-      "publishedAt": 1791873005000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629355"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "外匯盤中"
-      ],
-      "headline": "外匯速報 - 美元/韓元(USDKRW) 大漲0.83%，報1345.1元",
-      "source": "鉅亨",
-      "time": "14:20",
-      "publishedAt": 1791872422000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6629374"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "〈台股盤後〉台積電領跌！股匯雙殺急挫960點 CCL、記憶體成重災區",
-      "source": "鉅亨",
-      "time": "14:18",
-      "publishedAt": 1791872285000,
+      "time": "21:45",
+      "publishedAt": 1791899131000,
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6629365"
+      "link": "https://news.cnyes.com/news/id/6629711"
     },
     {
       "region": "TW",
-      "feedRegion": "TW",
+      "feedRegion": "INTL",
       "categories": [
-        "台股新聞"
+        "美股盤中"
       ],
-      "headline": "中華電信竹林碳匯專案全台首例過關 預期今年綠電使用將逾1億度",
-      "source": "台股",
-      "time": "13:27",
-      "publishedAt": 1791869266000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629343"
+      "headline": "盤中速報 - 聯合健康保險(UNH-US)大漲5.15%，報398美元",
+      "source": "鉅亨",
+      "time": "21:45",
+      "publishedAt": 1791899113000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6629710"
     },
     {
       "region": "TW",
-      "feedRegion": "TW",
+      "feedRegion": "INTL",
       "categories": [
-        "台股盤中"
+        "美股盤中"
       ],
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-13.42點至414.48點，跌幅3.14%",
-      "source": "台股",
-      "time": "13:27",
-      "publishedAt": 1791869223000,
+      "headline": "盤中速報 - 美光科技(MU-US)大跌5.49%，報934.77美元",
+      "source": "鉅亨",
+      "time": "21:45",
+      "publishedAt": 1791899107000,
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6629358"
+      "link": "https://news.cnyes.com/news/id/6629709"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "〈美股早盤〉銀行財報喜憂參半、晶片股續挫 主要指數漲跌互現",
+      "source": "鉅亨",
+      "time": "21:45",
+      "publishedAt": 1791899101000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6629574"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "headline": "鉅亨速報 - Factset 最新調查：台塑化(6505-TW)EPS預估上修至9.01元，預估目標價為110元",
+      "source": "台股",
+      "time": "20:11",
+      "publishedAt": 1791893476000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6629643"
     },
     {
       "region": "TW",
@@ -86,12 +73,38 @@
       "categories": [
         "台股新聞"
       ],
-      "headline": "市場儲能需求升溫 電池協會攜產業鏈亮相能源展接軌國際技術",
+      "headline": "明起新增6檔股票抓去關 飆股冠西電近90個交易日漲幅高達4倍",
       "source": "台股",
-      "time": "13:20",
-      "publishedAt": 1791868804000,
+      "time": "20:06",
+      "publishedAt": 1791893184000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6629640"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股新聞"
+      ],
+      "headline": "華南金前3季賺263億元直逼去年全年 EPS 1.88元同創新高",
+      "source": "台股",
+      "time": "20:04",
+      "publishedAt": 1791893060000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629337"
+      "link": "https://news.cnyes.com/news/id/6629604"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股新聞"
+      ],
+      "headline": "AI Agent將走進LINE服務 目標明年Q1推出AI代理平台",
+      "source": "台股",
+      "time": "20:02",
+      "publishedAt": 1791892974000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6629593"
     }
   ]
 }
