@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-12T17:45:48.794871+00:00",
-  "generatedAt": "2026-10-12T17:45:48.794871+00:00",
+  "timestamp": "2026-10-13T00:32:27.724853+00:00",
+  "generatedAt": "2026-10-13T00:32:27.724853+00:00",
   "data": [
     {
       "region": "TW",
@@ -8,12 +8,12 @@
       "categories": [
         "台股預估"
       ],
-      "headline": "鉅亨速報 - Factset 最新調查：和碩(4938-TW)EPS預估上修至5.75元，預估目標價為95.5元",
+      "headline": "鉅亨速報 - Factset 最新調查：日月光投控(3711-TW)EPS預估上修至18.98元，預估目標價為755元",
       "source": "台股",
-      "time": "22:11",
-      "publishedAt": 1791814282000,
+      "time": "08:10",
+      "publishedAt": 1791850252000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6628850"
+      "link": "https://news.cnyes.com/news/id/6629084"
     },
     {
       "region": "TW",
@@ -21,64 +21,90 @@
       "categories": [
         "台股預估"
       ],
-      "headline": "鉅亨速報 - Factset 最新調查：頎邦(6147-TW)目標價調升至280元，幅度約3.7%",
+      "headline": "鉅亨速報 - Factset 最新調查：智邦(2345-TW)EPS預估上修至86.43元，預估目標價為3500元",
       "source": "台股",
-      "time": "22:10",
-      "publishedAt": 1791814222000,
+      "time": "08:10",
+      "publishedAt": 1791850251000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6628849"
+      "link": "https://news.cnyes.com/news/id/6629083"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "headline": "鉅亨速報 - Factset 最新調查：群聯(8299-TW)EPS預估上修至416.97元，預估目標價為2900元",
+      "source": "台股",
+      "time": "08:10",
+      "publishedAt": 1791850249000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6629082"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "headline": "鉅亨速報 - Factset 最新調查：玉晶光(3406-TW)目標價調升至1050元，幅度約15.38%",
+      "source": "台股",
+      "time": "08:10",
+      "publishedAt": 1791850238000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6629081"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "大陸政經"
       ],
-      "headline": "晶片買得到、錢卻更難找！博通執行長點破AI擴張難題",
+      "headline": "人形機器人進廠潮來了！上海喊出8000台目標、AI全面導入產線",
       "source": "鉅亨",
-      "time": "21:00",
-      "publishedAt": 1791810006000,
+      "time": "08:10",
+      "publishedAt": 1791850207000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6628806"
+      "link": "https://news.cnyes.com/news/id/6629029"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "台股新聞"
+        "國際政經"
       ],
-      "headline": "水泥雙雄9月營收繳雙增 同步創近21個月新高",
+      "headline": "川普：普丁比澤倫斯基更想達成協議  兩人應當會面結束這場「荒謬的戰爭」",
       "source": "鉅亨",
-      "time": "20:44",
-      "publishedAt": 1791809072000,
+      "time": "08:05",
+      "publishedAt": 1791849940000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6628802"
+      "link": "https://news.cnyes.com/news/id/6629036"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "台股新聞"
+        "台股營收"
       ],
-      "headline": "〈台塑四寶業績〉Q4受惠需求旺季、電子業績攀升 兩公司看好業績優於Q3",
+      "headline": "營收速報 - 2026年10月13日台股大型公司9月營收一覽（新增175家）",
       "source": "鉅亨",
-      "time": "20:42",
-      "publishedAt": 1791808953000,
+      "time": "07:55",
+      "publishedAt": 1791849310000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6628767"
+      "link": "https://news.cnyes.com/news/id/6629051"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "期貨"
+        "國際政經"
       ],
-      "headline": "淡季不淡！中國動力煤現貨價突破千元大關 創3年新高",
+      "headline": "黃金最壞時刻已過？瑞銀：美債殖利率回落將讓黃金復甦",
       "source": "鉅亨",
-      "time": "20:40",
-      "publishedAt": 1791808807000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6628679"
+      "time": "07:40",
+      "publishedAt": 1791848402000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6627880"
     }
   ]
 }
