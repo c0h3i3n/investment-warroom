@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-10-13T15:52:30.117216+00:00",
-  "generatedAt": "2026-10-13T15:52:30.117216+00:00",
+  "timestamp": "2026-10-13T21:10:25.368709+00:00",
+  "generatedAt": "2026-10-13T21:10:25.368709+00:00",
   "data": [
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "美股雷達"
       ],
-      "headline": "盤中速報 - 邁威爾科技(MRVL-US)大跌5.01%，報252.53美元",
+      "headline": "企業IT預算大洗牌！Adobe、Zoom、DocuSign恐成輸家 Salesforce反躍居受惠股",
       "source": "鉅亨",
-      "time": "21:45",
-      "publishedAt": 1791899131000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6629711"
+      "time": "04:10",
+      "publishedAt": 1791922202000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6628986"
     },
     {
       "region": "TW",
@@ -21,25 +21,12 @@
       "categories": [
         "美股盤中"
       ],
-      "headline": "盤中速報 - 聯合健康保險(UNH-US)大漲5.15%，報398美元",
+      "headline": "盤中速報 - 花旗集團(C-US)大跌5%，報125.32美元",
       "source": "鉅亨",
-      "time": "21:45",
-      "publishedAt": 1791899113000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6629710"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "headline": "盤中速報 - 美光科技(MU-US)大跌5.49%，報934.77美元",
-      "source": "鉅亨",
-      "time": "21:45",
-      "publishedAt": 1791899107000,
+      "time": "04:02",
+      "publishedAt": 1791921732000,
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6629709"
+      "link": "https://news.cnyes.com/news/id/6629816"
     },
     {
       "region": "TW",
@@ -47,12 +34,25 @@
       "categories": [
         "美股雷達"
       ],
-      "headline": "〈美股早盤〉銀行財報喜憂參半、晶片股續挫 主要指數漲跌互現",
+      "headline": "AI晶片變強不只靠製程！先進封裝成新關鍵 台積電布局受矚目",
       "source": "鉅亨",
-      "time": "21:45",
-      "publishedAt": 1791899101000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6629574"
+      "time": "03:40",
+      "publishedAt": 1791920403000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6629780"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "headline": "黑石集團總裁警告：英國、法國與歐洲面臨的財政風險比美國更嚴峻",
+      "source": "鉅亨",
+      "time": "03:30",
+      "publishedAt": 1791919803000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6629256"
     },
     {
       "region": "TW",
@@ -60,12 +60,12 @@
       "categories": [
         "台股預估"
       ],
-      "headline": "鉅亨速報 - Factset 最新調查：台塑化(6505-TW)EPS預估上修至9.01元，預估目標價為110元",
+      "headline": "鉅亨速報 - Factset 最新調查：台塑化(6505-TW)目標價調升至115元，幅度約6.48%",
       "source": "台股",
-      "time": "20:11",
-      "publishedAt": 1791893476000,
+      "time": "22:10",
+      "publishedAt": 1791900622000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629643"
+      "link": "https://news.cnyes.com/news/id/6629722"
     },
     {
       "region": "TW",
@@ -92,19 +92,6 @@
       "publishedAt": 1791893060000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6629604"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "AI Agent將走進LINE服務 目標明年Q1推出AI代理平台",
-      "source": "台股",
-      "time": "20:02",
-      "publishedAt": 1791892974000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629593"
     }
   ]
 }
