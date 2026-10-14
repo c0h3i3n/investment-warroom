@@ -1,58 +1,71 @@
 {
-  "timestamp": "2026-10-13T21:10:25.368709+00:00",
-  "generatedAt": "2026-10-13T21:10:25.368709+00:00",
+  "timestamp": "2026-10-14T01:07:51.765037+00:00",
+  "generatedAt": "2026-10-14T01:07:51.765037+00:00",
   "data": [
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "企業IT預算大洗牌！Adobe、Zoom、DocuSign恐成輸家 Salesforce反躍居受惠股",
-      "source": "鉅亨",
-      "time": "04:10",
-      "publishedAt": 1791922202000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6628986"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "headline": "盤中速報 - 花旗集團(C-US)大跌5%，報125.32美元",
-      "source": "鉅亨",
-      "time": "04:02",
-      "publishedAt": 1791921732000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6629816"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "AI晶片變強不只靠製程！先進封裝成新關鍵 台積電布局受矚目",
-      "source": "鉅亨",
-      "time": "03:40",
-      "publishedAt": 1791920403000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629780"
-    },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
         "國際政經"
       ],
-      "headline": "黑石集團總裁警告：英國、法國與歐洲面臨的財政風險比美國更嚴峻",
+      "headline": "AI記憶體再出新招！SK海力士MARS提速最高5倍、HBF容量達HBM的14倍",
       "source": "鉅亨",
-      "time": "03:30",
-      "publishedAt": 1791919803000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6629256"
+      "time": "07:20",
+      "publishedAt": 1791933603000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6629683"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "ASML財報登場 可能調漲設備售價成晶片股重要指標",
+      "source": "鉅亨",
+      "time": "06:58",
+      "publishedAt": 1791932332000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6629825"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "Siri AI 對決 Alexa+、Gemini！智慧家庭換機潮來了?三家產品大PK",
+      "source": "鉅亨",
+      "time": "06:50",
+      "publishedAt": 1791931804000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6629838"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "黃金"
+      ],
+      "headline": "〈貴金屬盤後〉金價走低 投資人觀望CPI報告和華許演說",
+      "source": "鉅亨",
+      "time": "06:38",
+      "publishedAt": 1791931134000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6629479"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "AI晶片變強不只靠製程！先進封裝成新關鍵 台積電布局受矚目",
+      "source": "台股",
+      "time": "03:40",
+      "publishedAt": 1791920403000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6629780"
     },
     {
       "region": "TW",
@@ -79,19 +92,6 @@
       "publishedAt": 1791893184000,
       "impact": "pos",
       "link": "https://news.cnyes.com/news/id/6629640"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "華南金前3季賺263億元直逼去年全年 EPS 1.88元同創新高",
-      "source": "台股",
-      "time": "20:04",
-      "publishedAt": 1791893060000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629604"
     }
   ]
 }
