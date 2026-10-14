@@ -1,84 +1,71 @@
 {
-  "timestamp": "2026-10-14T01:07:51.765037+00:00",
-  "generatedAt": "2026-10-14T01:07:51.765037+00:00",
+  "timestamp": "2026-10-14T07:28:32.649261+00:00",
+  "generatedAt": "2026-10-14T07:28:32.649261+00:00",
   "data": [
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "國際政經"
-      ],
-      "headline": "AI記憶體再出新招！SK海力士MARS提速最高5倍、HBF容量達HBM的14倍",
-      "source": "鉅亨",
-      "time": "07:20",
-      "publishedAt": 1791933603000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629683"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
         "美股雷達"
       ],
-      "headline": "ASML財報登場 可能調漲設備售價成晶片股重要指標",
+      "headline": "Muse Wonder搞砸會怎樣？Meta財務長私下警告恐釀財務危機",
       "source": "鉅亨",
-      "time": "06:58",
-      "publishedAt": 1791932332000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6629825"
+      "time": "13:30",
+      "publishedAt": 1791955807000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6629978"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "歐亞股"
       ],
-      "headline": "Siri AI 對決 Alexa+、Gemini！智慧家庭換機潮來了?三家產品大PK",
+      "headline": "SK集團會長崔泰源向戴爾家族基金出售SK Inc股權  籌4.06億美元付離婚補償金",
       "source": "鉅亨",
-      "time": "06:50",
-      "publishedAt": 1791931804000,
+      "time": "13:21",
+      "publishedAt": 1791955283000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629838"
+      "link": "https://news.cnyes.com/news/id/6630040"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "黃金"
+        "台股新聞"
       ],
-      "headline": "〈貴金屬盤後〉金價走低 投資人觀望CPI報告和華許演說",
+      "headline": "華航重啟直飛重慶航班 晶華搶搭高端商旅商機",
       "source": "鉅亨",
-      "time": "06:38",
-      "publishedAt": 1791931134000,
+      "time": "13:20",
+      "publishedAt": 1791955203000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629479"
+      "link": "https://news.cnyes.com/news/id/6630125"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "台灣政經"
+      ],
+      "headline": "每年採購600萬噸阿拉斯加天然氣 經濟部回應證實20年台美能源合作計畫",
+      "source": "鉅亨",
+      "time": "13:15",
+      "publishedAt": 1791954916000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6630121"
     },
     {
       "region": "TW",
       "feedRegion": "TW",
       "categories": [
-        "美股雷達"
+        "台灣房市"
       ],
-      "headline": "AI晶片變強不只靠製程！先進封裝成新關鍵 台積電布局受矚目",
+      "headline": "〈房產〉松山機場遷移話題再起 松南營區萬坪地上權案下月開標",
       "source": "台股",
-      "time": "03:40",
-      "publishedAt": 1791920403000,
+      "time": "13:11",
+      "publishedAt": 1791954701000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629780"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股預估"
-      ],
-      "headline": "鉅亨速報 - Factset 最新調查：台塑化(6505-TW)目標價調升至115元，幅度約6.48%",
-      "source": "台股",
-      "time": "22:10",
-      "publishedAt": 1791900622000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6629722"
+      "link": "https://news.cnyes.com/news/id/6630111"
     },
     {
       "region": "TW",
@@ -86,12 +73,12 @@
       "categories": [
         "台股新聞"
       ],
-      "headline": "明起新增6檔股票抓去關 飆股冠西電近90個交易日漲幅高達4倍",
+      "headline": "〈智慧能源週〉東元首個國產化表後儲能系統本月底併網 同步進軍澳洲、馬來西亞",
       "source": "台股",
-      "time": "20:06",
-      "publishedAt": 1791893184000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6629640"
+      "time": "13:08",
+      "publishedAt": 1791954523000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6630112"
     }
   ]
 }
