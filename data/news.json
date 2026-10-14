@@ -1,58 +1,71 @@
 {
-  "timestamp": "2026-10-14T07:28:32.649261+00:00",
-  "generatedAt": "2026-10-14T07:28:32.649261+00:00",
+  "timestamp": "2026-10-14T13:36:32.803415+00:00",
+  "generatedAt": "2026-10-14T13:36:32.803415+00:00",
   "data": [
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "美股預估"
       ],
-      "headline": "Muse Wonder搞砸會怎樣？Meta財務長私下警告恐釀財務危機",
+      "headline": "鉅亨速報 - Factset 最新調查：Snap公司SNAP-US的目標價調升至7元，幅度約3.7%",
       "source": "鉅亨",
-      "time": "13:30",
-      "publishedAt": 1791955807000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6629978"
+      "time": "20:15",
+      "publishedAt": 1791980149000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6630471"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "歐亞股"
+        "美股預估"
       ],
-      "headline": "SK集團會長崔泰源向戴爾家族基金出售SK Inc股權  籌4.06億美元付離婚補償金",
+      "headline": "鉅亨速報 - Factset 最新調查：Lennox International IncLII-US的目標價調降至424元，幅度約5.78%",
       "source": "鉅亨",
-      "time": "13:21",
-      "publishedAt": 1791955283000,
+      "time": "20:15",
+      "publishedAt": 1791980146000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6630040"
+      "link": "https://news.cnyes.com/news/id/6630470"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
+      "categories": [
+        "美股預估"
+      ],
+      "headline": "鉅亨速報 - Factset 最新調查：曼哈頓軟體MANH-US的目標價調升至239.5元，幅度約3.23%",
+      "source": "鉅亨",
+      "time": "20:15",
+      "publishedAt": 1791980145000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6630469"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股預估"
+      ],
+      "headline": "鉅亨速報 - Factset 最新調查：L3哈里斯科技LHX-US的目標價調降至325元，幅度約3.13%",
+      "source": "鉅亨",
+      "time": "20:15",
+      "publishedAt": 1791980144000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6630468"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股新聞"
       ],
-      "headline": "華航重啟直飛重慶航班 晶華搶搭高端商旅商機",
-      "source": "鉅亨",
-      "time": "13:20",
-      "publishedAt": 1791955203000,
+      "headline": "中信金前9月純益632億元 加計FVOCI股票狂賺1314億元超越歷年全年",
+      "source": "台股",
+      "time": "19:12",
+      "publishedAt": 1791976343000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6630125"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "台灣政經"
-      ],
-      "headline": "每年採購600萬噸阿拉斯加天然氣 經濟部回應證實20年台美能源合作計畫",
-      "source": "鉅亨",
-      "time": "13:15",
-      "publishedAt": 1791954916000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6630121"
+      "link": "https://news.cnyes.com/news/id/6630403"
     },
     {
       "region": "TW",
@@ -60,12 +73,12 @@
       "categories": [
         "台灣房市"
       ],
-      "headline": "〈房產〉松山機場遷移話題再起 松南營區萬坪地上權案下月開標",
+      "headline": "〈房產〉京懋建設范秉豐：南桃園大坪數住宅供給面臨真空狀態",
       "source": "台股",
-      "time": "13:11",
-      "publishedAt": 1791954701000,
+      "time": "18:42",
+      "publishedAt": 1791974528000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6630111"
+      "link": "https://news.cnyes.com/news/id/6630366"
     },
     {
       "region": "TW",
@@ -73,12 +86,25 @@
       "categories": [
         "台股新聞"
       ],
-      "headline": "〈智慧能源週〉東元首個國產化表後儲能系統本月底併網 同步進軍澳洲、馬來西亞",
+      "headline": "〈智慧能源週〉雲豹能源看好今年營運優於去年 AIDC已開始貢獻營收",
       "source": "台股",
-      "time": "13:08",
-      "publishedAt": 1791954523000,
+      "time": "18:38",
+      "publishedAt": 1791974329000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6630112"
+      "link": "https://news.cnyes.com/news/id/6630363"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股新聞"
+      ],
+      "headline": "台泥文山新焚化廠動土預計2030年完工 發電能力提升助AI發展",
+      "source": "台股",
+      "time": "18:38",
+      "publishedAt": 1791974281000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6630352"
     }
   ]
 }
