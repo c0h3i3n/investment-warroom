@@ -352,6 +352,10 @@ const IndicatorsService = (() => {
       return { error: 'API 逾時或代理失敗' };
     }
     const { rows, excludedIncomplete } = completedDailyData(data, symbol);
+    const missing = HistoryValidation.missingSessions(rows.slice(-60),symbol);
+    if (missing.length) {
+      return { error: `日線缺漏 ${missing.length} 個交易日（${missing.slice(0,3).join('、')}${missing.length > 3 ? '…' : ''}）。暫停計算，避免失真的均線與動能訊號；將自動重試，不以其他價格口徑拼補。` };
+    }
     if (rows.length < 60) {
       console.warn('[Indicators] Not enough completed daily data:', rows.length);
       return { error: `已完成日線不足 (${rows.length}筆，需60筆)` };

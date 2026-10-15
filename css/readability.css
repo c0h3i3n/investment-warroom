@@ -323,6 +323,18 @@ footer { flex-wrap:wrap; gap:10px 16px; font:11px var(--reading); letter-spacing
 .chart-svg { height:150px; min-height:150px; }
 .main-grid { align-items:start; }
 .night-details summary:focus-visible,.backup-menu summary:focus-visible { outline:2px solid var(--gold); outline-offset:3px; }
+/* Compact mobile chrome; keep source times and delay disclosures visible. */
+@media(max-width:640px) {
+  .hud-header { padding:12px 0; gap:10px; }
+  .reactor-icon { width:38px; height:38px; }
+  .status-panel { gap:4px; }
+  .status-item { padding:5px 6px; }
+  .data-toolbar { margin:10px 0; gap:8px; }
+  .data-timing { gap:2px; }
+  .data-caption { display:none; }
+  .quick-nav { padding:6px 0; margin-bottom:8px; }
+  .quick-nav a { min-height:44px; display:flex; align-items:center; justify-content:center; padding:4px; }
+}
 @media(max-width:640px) {
   .watch-tools .btn { min-height:40px; }
   .quote-meta { font-size:12px; }

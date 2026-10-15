@@ -741,10 +741,17 @@ const UI = (() => {
     const grid = document.getElementById('ind-grid');
     if (!grid) return;
     const symName = symbol.replace('.TW', '');
+    indicatorChartData = null;
+    const chart = document.getElementById('ind-chart');
+    if (chart) chart.innerHTML = '';
+    const detail = document.getElementById('chart-detail');
+    if (detail) detail.textContent = '資料完整後將自動恢復圖表與指標。';
+    const label = document.getElementById('ind-label');
+    if (label) label.textContent = `TECHNICAL · 技術指標 · ${symName}`;
     grid.innerHTML = `
       <div class="ind-cell" style="grid-column:1/-1;text-align:center;padding:20px">
         <div style="color:var(--warn);font-size:13px;margin-bottom:8px">⚠ 技術指標 · ${symName}</div>
-        <div style="color:var(--dim);font-size:10px;margin-bottom:8px">${message}</div>
+        <div role="status" style="color:var(--text-mid);font-size:13px;line-height:1.7;margin-bottom:12px">${escapeHtml(message)}</div>
         <button onclick="App.updateIndicators('${symbol}')" 
           style="background:rgba(255,119,68,0.12);border:1px solid var(--arc);color:var(--arc);
           padding:6px 20px;font-family:inherit;font-size:12px;cursor:pointer;letter-spacing:1px">

@@ -80,6 +80,28 @@ function dailyHistoryNeedsCloseRefresh(symbol, interval, cachedAt, nowMs = Date.
   return fetched.minutes < finalizedAfter && now.minutes >= finalizedAfter;
 }
 
+export function historyNeedsRepair(cached, symbol, interval, nowMs = Date.now()) {
+  if (interval !== '1d') return false;
+  const rows = cached?.data || [];
+  if (rows.length < 2 || HistoryValidation.missingSessions(rows.slice(-60),symbol).length) return true;
+  const region = yahooRegion(symbol);
+  const now = marketParts(region,nowMs);
+  let expected = now.dayNumber;
+  if (now.minutes < MarketCalendar.closeMinutes(region,expected) + 15) expected -= 86400000;
+  while (!MarketCalendar.tradingDay(region,expected)) expected -= 86400000;
+  const latest = marketParts(region,Number(rows.at(-1).time));
+  if (latest.dayNumber < expected) return true;
+  // Fetch time alone does not prove that the provider has finalized its candle.
+  if (latest.dayNumber === expected) {
+    const source = Number(cached.sourceAsOf);
+    if (!(source > 0)) return true;
+    const sourceTime = marketParts(region,source);
+    return sourceTime.dayNumber < expected || (sourceTime.dayNumber === expected
+      && sourceTime.minutes < MarketCalendar.closeMinutes(region,expected) - 1);
+  }
+  return false;
+}
+
 function marketParts(region, timestamp = Date.now()) {
   const session = MARKET_SESSIONS[region] || MARKET_SESSIONS.US;
   const values = Object.fromEntries(new Intl.DateTimeFormat('en-US', {
@@ -672,7 +694,7 @@ async function handleHistoryRequest(request, env, url) {
   const cachedAt = Date.parse(cached?.generatedAt || '');
   const cacheAgeMs = Number.isFinite(cachedAt) ? Math.max(0, Date.now() - cachedAt) : Infinity;
   if (cached && (interval !== '1d' || Number(cached.sourceAsOf) > 0)
-    && cacheAgeMs <= historyCacheMaxAge(symbol, range, interval)
+    && cacheAgeMs <= (historyNeedsRepair(cached,symbol,interval) ? 60000 : historyCacheMaxAge(symbol, range, interval))
     && !dailyHistoryNeedsCloseRefresh(symbol, interval, cachedAt)) {
     return jsonResponse({ ...cached, delivery: 'kv' }, 200, request);
   }

@@ -383,7 +383,10 @@ for source, rss_url, region in rss_feeds:
         published_at = None
         if published_raw:
             try:
-                published_at = int(datetime.fromisoformat(published_raw.replace('Z', '+00:00')).timestamp() * 1000)
+                published_date = datetime.fromisoformat(published_raw.replace('Z', '+00:00'))
+                if published_date.tzinfo is None:
+                    published_date = published_date.replace(tzinfo=timezone.utc)
+                published_at = int(published_date.timestamp() * 1000)
             except (TypeError, ValueError):
                 try:
                     published_at = int(datetime.strptime(published_raw, '%Y-%m-%d %H:%M:%S').replace(tzinfo=timezone.utc).timestamp() * 1000)

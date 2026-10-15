@@ -17,6 +17,7 @@ function indicatorContext(generatedAt, sourceAsOf = generatedAt) {
     console:{ log:() => {}, warn:() => {} },
   });
   vm.runInContext(fs.readFileSync(new URL('../../js/market-calendar.js', import.meta.url), 'utf8'), context);
+  vm.runInContext(fs.readFileSync(new URL('../../js/history-validation.js', import.meta.url), 'utf8'), context);
   vm.runInContext(fs.readFileSync(new URL('../../js/indicators.js', import.meta.url), 'utf8'), context);
   return { context, previous, current };
 }

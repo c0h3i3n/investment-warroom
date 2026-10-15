@@ -592,7 +592,7 @@ const DataService = (() => {
     const key = `hist:${symbol}:${range}:${interval}`;
     const historyTtl = range === '1d' && interval === '5m' ? 60 * 1000
       : range === '5d' && interval === '60m' ? 5 * 60 * 1000
-      : range === '3mo' && interval === '1d' ? 30 * 60 * 1000
+      : interval === '1d' ? 60 * 1000
       : 15 * 60 * 1000;
     const cached = getCached(key, historyTtl);
     if (cached) return cached;

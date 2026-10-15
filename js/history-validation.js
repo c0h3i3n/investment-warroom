@@ -1,5 +1,22 @@
 // Shared by Worker and browser fallback. All OHLC fields use one price basis.
 globalThis.HistoryValidation = {
+  // Do not compress missing sessions into a seemingly continuous MA/RSI series.
+  missingSessions(rows, symbol) {
+    const region = /\.TW(O)?$/.test(symbol) || /^\^TW/.test(symbol) ? 'TW' : 'US';
+    const zone = region === 'TW' ? 'Asia/Taipei' : 'America/New_York';
+    const days = new Set((rows || []).map(row => {
+      const p = Object.fromEntries(new Intl.DateTimeFormat('en-CA', {
+        timeZone:zone, year:'numeric', month:'2-digit', day:'2-digit',
+      }).formatToParts(new Date(row.time)).map(p => [p.type,p.value]));
+      return Date.UTC(+p.year,+p.month-1,+p.day);
+    }));
+    const missing = [];
+    if (days.size < 2) return missing;
+    for (let day = Math.min(...days); day <= Math.max(...days); day += 86400000) {
+      if (!days.has(day) && MarketCalendar.tradingDay(region,day)) missing.push(new Date(day).toISOString().slice(0,10));
+    }
+    return missing;
+  },
   normalize(rows, symbol, interval, now = Date.now()) {
     const region = /\.TW(O)?$/.test(symbol) || /^\^TW/.test(symbol) ? 'TW' : 'US';
     const zone = region === 'TW' ? 'Asia/Taipei' : 'America/New_York';

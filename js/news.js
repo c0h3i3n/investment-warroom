@@ -7,6 +7,16 @@ const NewsService = (() => {
 
   const RSS2JSON = 'https://api.rss2json.com/v1/api.json?rss_url=';
 
+  function parsePublishedAt(value) {
+    if (typeof value !== 'string' || !value.trim()) return null;
+    const raw = value.trim();
+    // rss2json's timezone-less timestamps are UTC, not the visitor's timezone.
+    const normalized = /^\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}:\d{2}(?:\.\d+)?$/.test(raw)
+      ? raw.replace(' ','T') + 'Z' : raw;
+    const ms = Date.parse(normalized);
+    return Number.isFinite(ms) ? ms : null;
+  }
+
   function truncate(str, len) {
     return str.length > len ? str.slice(0, len) + '…' : str;
   }
@@ -78,10 +88,9 @@ const NewsService = (() => {
       if (data.status !== 'ok' || !data.items) throw new Error('rss2json failed');
 
       return data.items.slice(0, 10).map(item => {
-        const pubDate = item.pubDate ? new Date(item.pubDate) : null;
-        const publishedAt = pubDate && Number.isFinite(pubDate.getTime()) ? pubDate.getTime() : null;
+        const publishedAt = parsePublishedAt(item.pubDate);
         const time = publishedAt
-          ? pubDate.toLocaleTimeString('zh-TW', { hour:'2-digit', minute:'2-digit', hour12:false })
+          ? new Date(publishedAt).toLocaleTimeString('zh-TW', { timeZone:'Asia/Taipei', hour:'2-digit', minute:'2-digit', hour12:false })
           : '--:--';
         const source = (item.author || feedConfig.name || '').replace(/\(.*\)/, '').trim().slice(0, 12);
 
@@ -143,5 +152,5 @@ const NewsService = (() => {
     return news;
   }
 
-  return { getNews, prepareNews };
+  return { getNews, prepareNews, parsePublishedAt };
 })();
