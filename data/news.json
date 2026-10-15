@@ -1,71 +1,58 @@
 {
-  "timestamp": "2026-10-14T22:13:20.603577+00:00",
-  "generatedAt": "2026-10-14T22:13:20.603577+00:00",
+  "timestamp": "2026-10-15T10:28:18.130965+00:00",
+  "generatedAt": "2026-10-15T10:28:18.130965+00:00",
   "data": [
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "外匯盤中"
       ],
-      "headline": "客戶開發不安全AI怎麼辦？黃仁勳：會斷供 但先談談",
+      "headline": "外匯速報 - 澳元/美元(AUDUSD) 大跌0.8%，報0.6916元",
       "source": "鉅亨",
-      "time": "02:20",
-      "publishedAt": 1792002003000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6630645"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "「替美國賺錢！」川普秀格芯投資政績 稱政府持股值逾20億美元",
-      "source": "鉅亨",
-      "time": "02:00",
-      "publishedAt": 1792000803000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6630642"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "跳槽還帶走逾百份檔案？OpenAI控前員工向蘋果高層簡報機密",
-      "source": "鉅亨",
-      "time": "01:30",
-      "publishedAt": 1791999003000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6630593"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "1兆美元恐蒸發！晶片股賣壓加劇 費半近六日跌一成",
-      "source": "鉅亨",
-      "time": "01:00",
-      "publishedAt": 1791997203000,
+      "time": "18:00",
+      "publishedAt": 1792058424000,
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6630617"
+      "link": "https://news.cnyes.com/news/id/6631339"
     },
     {
       "region": "TW",
-      "feedRegion": "TW",
+      "feedRegion": "INTL",
       "categories": [
-        "台股預估"
+        "台股新聞"
       ],
-      "headline": "鉅亨速報 - Factset 最新調查：聯茂(6213-TW)EPS預估上修至17.47元，預估目標價為660元",
-      "source": "台股",
-      "time": "22:11",
-      "publishedAt": 1791987080000,
+      "headline": "跨年機票價漲逾15% 10大熱門旅遊城市出爐由日本包辦5個",
+      "source": "鉅亨",
+      "time": "17:59",
+      "publishedAt": 1792058368000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6631236"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "基金"
+      ],
+      "headline": "記憶體、半導體重挫AI變天？ 鉅亨買基金揭三大原因籲分散布局有利抗震",
+      "source": "鉅亨",
+      "time": "17:51",
+      "publishedAt": 1792057876000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6630547"
+      "link": "https://news.cnyes.com/news/id/6631208"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "台灣政經"
+      ],
+      "headline": "半導體、風電助攻 前3季僑外投資年增119%逾192億美元 美光占近半",
+      "source": "鉅亨",
+      "time": "17:48",
+      "publishedAt": 1792057680000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6631204"
     },
     {
       "region": "TW",
@@ -73,12 +60,12 @@
       "categories": [
         "台股新聞"
       ],
-      "headline": "法盛投資管理：AI熱潮席捲亞洲 投資人期待高報酬卻面臨風險落差",
+      "headline": "〈毅嘉法說〉【毅嘉法說會AI摘要】2026/10/15",
       "source": "台股",
-      "time": "21:52",
-      "publishedAt": 1791985937000,
+      "time": "17:45",
+      "publishedAt": 1792057534000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6630524"
+      "link": "https://news.cnyes.com/news/id/6631129"
     },
     {
       "region": "TW",
@@ -86,12 +73,12 @@
       "categories": [
         "台股新聞"
       ],
-      "headline": "〈智慧能源週〉聯華林德最快2028引進氫能車 「富氧燃燒」助台廠減碳、降廢氣排放",
+      "headline": "〈毅嘉法說〉明年AI營收比重成長逾6倍衝上4成 光通訊打件、mSAP載板接力放量",
       "source": "台股",
-      "time": "21:10",
-      "publishedAt": 1791983445000,
+      "time": "17:45",
+      "publishedAt": 1792057509000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6630474"
+      "link": "https://news.cnyes.com/news/id/6631142"
     }
   ]
 }
