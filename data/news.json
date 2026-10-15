@@ -1,84 +1,97 @@
 {
-  "timestamp": "2026-10-15T13:19:48.392396+00:00",
-  "generatedAt": "2026-10-15T13:19:48.392396+00:00",
+  "timestamp": "2026-10-15T18:12:13.067808+00:00",
+  "generatedAt": "2026-10-15T18:12:13.067808+00:00",
   "data": [
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "外匯盤中"
+        "台股新聞"
       ],
-      "headline": "外匯速報 - 澳元/美元(AUDUSD) 大跌0.8%，報0.6916元",
+      "headline": "每天至少10通電話追產能！AI大廠搶台積電 擴張計畫恐受限",
       "source": "鉅亨",
-      "time": "18:00",
-      "publishedAt": 1792058424000,
+      "time": "00:30",
+      "publishedAt": 1792081810000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6631577"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "晶片股跌掉1兆美元散戶沒在怕 暴買3倍槓桿ETF押注反彈",
+      "source": "鉅亨",
+      "time": "00:00",
+      "publishedAt": 1792080009000,
       "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6631339"
+      "link": "https://news.cnyes.com/news/id/6631494"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "台股新聞"
+        "美股雷達"
       ],
-      "headline": "跨年機票價漲逾15% 10大熱門旅遊城市出爐由日本包辦5個",
+      "headline": "CoreWeave債券重挫敲警鐘！AI融資風險升溫 美國高收益債ETF今年績效轉負",
       "source": "鉅亨",
-      "time": "17:59",
-      "publishedAt": 1792058368000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6631236"
+      "time": "00:00",
+      "publishedAt": 1792080008000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6630724"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "基金"
+        "美股雷達"
       ],
-      "headline": "記憶體、半導體重挫AI變天？ 鉅亨買基金揭三大原因籲分散布局有利抗震",
+      "headline": "iPhone Duo預購倒數計時！京東預約超過200萬 代搶費炒到888元",
       "source": "鉅亨",
-      "time": "17:51",
-      "publishedAt": 1792057876000,
+      "time": "23:40",
+      "publishedAt": 1792078807000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6631208"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "台灣政經"
-      ],
-      "headline": "半導體、風電助攻 前3季僑外投資年增119%逾192億美元 美光占近半",
-      "source": "鉅亨",
-      "time": "17:48",
-      "publishedAt": 1792057680000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6631204"
+      "link": "https://news.cnyes.com/news/id/6631576"
     },
     {
       "region": "TW",
       "feedRegion": "TW",
       "categories": [
-        "台股新聞"
+        "台股預估"
       ],
-      "headline": "〈毅嘉法說〉【毅嘉法說會AI摘要】2026/10/15",
+      "headline": "鉅亨速報 - Factset 最新調查：臻鼎-KY(4958-TW)EPS預估上修至14.23元，預估目標價為671.5元",
       "source": "台股",
-      "time": "17:45",
-      "publishedAt": 1792057534000,
+      "time": "22:11",
+      "publishedAt": 1792073489000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6631129"
+      "link": "https://news.cnyes.com/news/id/6631542"
     },
     {
       "region": "TW",
       "feedRegion": "TW",
       "categories": [
-        "台股新聞"
+        "台股預估"
       ],
-      "headline": "〈毅嘉法說〉明年AI營收比重成長逾6倍衝上4成 光通訊打件、mSAP載板接力放量",
+      "headline": "鉅亨速報 - Factset 最新調查：台積電(2330-TW)EPS預估上修至109.21元，預估目標價為3220元",
       "source": "台股",
-      "time": "17:45",
-      "publishedAt": 1792057509000,
+      "time": "22:11",
+      "publishedAt": 1792073488000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6631142"
+      "link": "https://news.cnyes.com/news/id/6631541"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "ETF"
+      ],
+      "headline": "第四法人無懼外資殺紅眼 0050獲淨申購378億元創歷史新高",
+      "source": "台股",
+      "time": "20:24",
+      "publishedAt": 1792067059000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6631416"
     }
   ]
 }
