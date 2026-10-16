@@ -1,59 +1,7 @@
 {
-  "timestamp": "2026-10-16T20:57:38.974937+00:00",
-  "generatedAt": "2026-10-16T20:57:38.974937+00:00",
+  "timestamp": "2026-10-16T23:28:41.025617+00:00",
+  "generatedAt": "2026-10-16T23:28:41.025617+00:00",
   "data": [
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "20年期美債要停發？財政部沒給答案 長債先跌",
-      "source": "鉅亨",
-      "time": "01:10",
-      "publishedAt": 1792170637000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6632477"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "華許夜間談話說了什麼、又沒說什麼？一文掌握Fed政策線索",
-      "source": "鉅亨",
-      "time": "01:00",
-      "publishedAt": 1792170006000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6632284"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "電動車加火箭要合體？特斯拉、SpaceX合併押注衝上56%",
-      "source": "鉅亨",
-      "time": "00:30",
-      "publishedAt": 1792168203000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6632450"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股預估"
-      ],
-      "headline": "鉅亨速報 - Factset 最新調查：AGNC投資AGNC-US的目標價調降至10元，幅度約4.76%",
-      "source": "鉅亨",
-      "time": "00:15",
-      "publishedAt": 1792167329000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6632465"
-    },
     {
       "region": "TW",
       "feedRegion": "TW",
