@@ -1,58 +1,84 @@
 {
-  "timestamp": "2026-10-15T22:09:01.377584+00:00",
-  "generatedAt": "2026-10-15T22:09:01.377584+00:00",
+  "timestamp": "2026-10-16T01:11:52.604277+00:00",
+  "generatedAt": "2026-10-16T01:11:52.604277+00:00",
   "data": [
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
+        "黃金"
+      ],
+      "headline": "〈貴金屬盤後〉美元和美債殖利率下滑 金價反彈",
+      "source": "鉅亨",
+      "time": "07:05",
+      "publishedAt": 1792105512000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6631252"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "戴爾連兩日重挫18% AI支出疑慮引爆賣壓",
+      "source": "鉅亨",
+      "time": "07:00",
+      "publishedAt": 1792105205000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6631681"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "AI股跌深還沒超賣 小摩點出四大隱憂：這次反彈恐沒那麼快",
+      "source": "鉅亨",
+      "time": "06:50",
+      "publishedAt": 1792104604000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6631501"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "不只押注AI晶片 Bolt Graphics瞄準科學運算與專業繪圖 擬募資1億美元 估值上看7億美元",
+      "source": "鉅亨",
+      "time": "06:40",
+      "publishedAt": 1792104004000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6631682"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股盤勢"
+      ],
+      "headline": "〈台股盤前要聞〉台積電全年美元營收再上修至44%、外資爆砍3025億元創紀錄",
+      "source": "台股",
+      "time": "05:10",
+      "publishedAt": 1792098603000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6631568"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
         "台股新聞"
       ],
       "headline": "每天至少10通電話追產能！AI大廠搶台積電 擴張計畫恐受限",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "00:30",
       "publishedAt": 1792081810000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6631577"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "晶片股跌掉1兆美元散戶沒在怕 暴買3倍槓桿ETF押注反彈",
-      "source": "鉅亨",
-      "time": "00:00",
-      "publishedAt": 1792080009000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6631494"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "CoreWeave債券重挫敲警鐘！AI融資風險升溫 美國高收益債ETF今年績效轉負",
-      "source": "鉅亨",
-      "time": "00:00",
-      "publishedAt": 1792080008000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6630724"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "iPhone Duo預購倒數計時！京東預約超過200萬 代搶費炒到888元",
-      "source": "鉅亨",
-      "time": "23:40",
-      "publishedAt": 1792078807000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6631576"
     },
     {
       "region": "TW",
@@ -79,19 +105,6 @@
       "publishedAt": 1792073488000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6631541"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "ETF"
-      ],
-      "headline": "第四法人無懼外資殺紅眼 0050獲淨申購378億元創歷史新高",
-      "source": "台股",
-      "time": "20:24",
-      "publishedAt": 1792067059000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6631416"
     }
   ]
 }
