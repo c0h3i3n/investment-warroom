@@ -1,84 +1,110 @@
 {
-  "timestamp": "2026-10-16T12:17:42.286836+00:00",
-  "generatedAt": "2026-10-16T12:17:42.286836+00:00",
+  "timestamp": "2026-10-16T17:20:03.212455+00:00",
+  "generatedAt": "2026-10-16T17:20:03.212455+00:00",
   "data": [
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "台股新聞"
+        "美股雷達"
       ],
-      "headline": "光寶攜雲達亮相2026 OCP 共同展示輝達Vera Rubin NVL72機櫃級解決方案",
+      "headline": "20年期美債要停發？財政部沒給答案 長債先跌",
       "source": "鉅亨",
-      "time": "14:57",
-      "publishedAt": 1792133845000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6632029"
+      "time": "01:10",
+      "publishedAt": 1792170637000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6632477"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "科技"
+        "美股雷達"
       ],
-      "headline": "金屬中心整合氫能關鍵技術 推進高壓氫輸儲與混氫燃燒產業應用",
+      "headline": "華許夜間談話說了什麼、又沒說什麼？一文掌握Fed政策線索",
       "source": "鉅亨",
-      "time": "14:52",
-      "publishedAt": 1792133557000,
+      "time": "01:00",
+      "publishedAt": 1792170006000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6632027"
+      "link": "https://news.cnyes.com/news/id/6632284"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "台灣房市"
+        "美股雷達"
       ],
-      "headline": "〈房產〉同樣預算總價1500萬元買新北 房仲：買這區成屋比預售多出10坪",
+      "headline": "電動車加火箭要合體？特斯拉、SpaceX合併押注衝上56%",
       "source": "鉅亨",
-      "time": "14:51",
-      "publishedAt": 1792133485000,
+      "time": "00:30",
+      "publishedAt": 1792168203000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6632022"
+      "link": "https://news.cnyes.com/news/id/6632450"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "歐亞股"
+        "美股預估"
       ],
-      "headline": "AI熱潮與內需雙引擎 帶動馬來西亞第三季經濟成長優於預期",
+      "headline": "鉅亨速報 - Factset 最新調查：AGNC投資AGNC-US的目標價調降至10元，幅度約4.76%",
       "source": "鉅亨",
-      "time": "14:50",
-      "publishedAt": 1792133403000,
+      "time": "00:15",
+      "publishedAt": 1792167329000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6631999"
+      "link": "https://news.cnyes.com/news/id/6632465"
     },
     {
       "region": "TW",
       "feedRegion": "TW",
       "categories": [
-        "台股新聞"
+        "台股預估"
       ],
-      "headline": "〈台股盤後〉台積電休息 PCB、玻纖布題材強勁 終場漲141點站回4萬7",
+      "headline": "鉅亨速報 - Factset 最新調查：景碩(3189-TW)EPS預估下修至11.81元，預估目標價為1280元",
       "source": "台股",
-      "time": "14:45",
-      "publishedAt": 1792133119000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6631985"
+      "time": "22:11",
+      "publishedAt": 1792159895000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6632424"
     },
     {
       "region": "TW",
       "feedRegion": "TW",
       "categories": [
-        "台股新聞"
+        "台股預估"
       ],
-      "headline": "宏正發表首款工業級KVM延長器新品 鎖定極端環境關鍵任務應用",
+      "headline": "鉅亨速報 - Factset 最新調查：台積電(2330-TW)目標價調升至3300元，幅度約3.13%",
       "source": "台股",
-      "time": "14:38",
-      "publishedAt": 1792132727000,
+      "time": "22:10",
+      "publishedAt": 1792159836000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6632015"
+      "link": "https://news.cnyes.com/news/id/6632423"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台灣政經"
+      ],
+      "headline": "賴清德：台美關稅力保15％不疊加 301調查秉持台美貿易互惠",
+      "source": "台股",
+      "time": "20:53",
+      "publishedAt": 1792155180000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6632368"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台灣政經"
+      ],
+      "headline": "賴清德：2035年前穩定供電無虞 將助百萬家中小微企業導入AI",
+      "source": "台股",
+      "time": "20:52",
+      "publishedAt": 1792155139000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6632324"
     }
   ]
 }
