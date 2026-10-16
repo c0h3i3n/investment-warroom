@@ -1,71 +1,58 @@
 {
-  "timestamp": "2026-10-16T01:11:52.604277+00:00",
-  "generatedAt": "2026-10-16T01:11:52.604277+00:00",
+  "timestamp": "2026-10-16T07:02:46.215532+00:00",
+  "generatedAt": "2026-10-16T07:02:46.215532+00:00",
   "data": [
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "黃金"
+        "台股新聞"
       ],
-      "headline": "〈貴金屬盤後〉美元和美債殖利率下滑 金價反彈",
+      "headline": "光寶攜雲達亮相2026 OCP 共同展示輝達Vera Rubin NVL72機櫃級解決方案",
       "source": "鉅亨",
-      "time": "07:05",
-      "publishedAt": 1792105512000,
+      "time": "14:57",
+      "publishedAt": 1792133845000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6631252"
+      "link": "https://news.cnyes.com/news/id/6632029"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "科技"
       ],
-      "headline": "戴爾連兩日重挫18% AI支出疑慮引爆賣壓",
+      "headline": "金屬中心整合氫能關鍵技術 推進高壓氫輸儲與混氫燃燒產業應用",
       "source": "鉅亨",
-      "time": "07:00",
-      "publishedAt": 1792105205000,
+      "time": "14:52",
+      "publishedAt": 1792133557000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6631681"
+      "link": "https://news.cnyes.com/news/id/6632027"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "台灣房市"
       ],
-      "headline": "AI股跌深還沒超賣 小摩點出四大隱憂：這次反彈恐沒那麼快",
+      "headline": "〈房產〉同樣預算總價1500萬元買新北 房仲：買這區成屋比預售多出10坪",
       "source": "鉅亨",
-      "time": "06:50",
-      "publishedAt": 1792104604000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6631501"
+      "time": "14:51",
+      "publishedAt": 1792133485000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6632022"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "歐亞股"
       ],
-      "headline": "不只押注AI晶片 Bolt Graphics瞄準科學運算與專業繪圖 擬募資1億美元 估值上看7億美元",
+      "headline": "AI熱潮與內需雙引擎 帶動馬來西亞第三季經濟成長優於預期",
       "source": "鉅亨",
-      "time": "06:40",
-      "publishedAt": 1792104004000,
+      "time": "14:50",
+      "publishedAt": 1792133403000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6631682"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股盤勢"
-      ],
-      "headline": "〈台股盤前要聞〉台積電全年美元營收再上修至44%、外資爆砍3025億元創紀錄",
-      "source": "台股",
-      "time": "05:10",
-      "publishedAt": 1792098603000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6631568"
+      "link": "https://news.cnyes.com/news/id/6631999"
     },
     {
       "region": "TW",
@@ -73,38 +60,25 @@
       "categories": [
         "台股新聞"
       ],
-      "headline": "每天至少10通電話追產能！AI大廠搶台積電 擴張計畫恐受限",
+      "headline": "〈台股盤後〉台積電休息 PCB、玻纖布題材強勁 終場漲141點站回4萬7",
       "source": "台股",
-      "time": "00:30",
-      "publishedAt": 1792081810000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6631577"
+      "time": "14:45",
+      "publishedAt": 1792133119000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6631985"
     },
     {
       "region": "TW",
       "feedRegion": "TW",
       "categories": [
-        "台股預估"
+        "台股新聞"
       ],
-      "headline": "鉅亨速報 - Factset 最新調查：臻鼎-KY(4958-TW)EPS預估上修至14.23元，預估目標價為671.5元",
+      "headline": "宏正發表首款工業級KVM延長器新品 鎖定極端環境關鍵任務應用",
       "source": "台股",
-      "time": "22:11",
-      "publishedAt": 1792073489000,
+      "time": "14:38",
+      "publishedAt": 1792132727000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6631542"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股預估"
-      ],
-      "headline": "鉅亨速報 - Factset 最新調查：台積電(2330-TW)EPS預估上修至109.21元，預估目標價為3220元",
-      "source": "台股",
-      "time": "22:11",
-      "publishedAt": 1792073488000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6631541"
+      "link": "https://news.cnyes.com/news/id/6632015"
     }
   ]
 }
