@@ -1,15 +1,28 @@
 {
-  "timestamp": "2026-10-18T18:00:46.916441+00:00",
-  "generatedAt": "2026-10-18T18:00:46.916441+00:00",
+  "timestamp": "2026-10-18T20:32:04.613982+00:00",
+  "generatedAt": "2026-10-18T20:32:04.613982+00:00",
   "data": [
     {
       "region": "TW",
-      "feedRegion": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "「不是債市太悲觀就是股市太樂觀！」 高盛警告背離近臨界點：AI股恐再跌15%  點名對沖台灣半導體",
+      "source": "鉅亨",
+      "time": "04:10",
+      "publishedAt": 1792354202000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6631994"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
       "categories": [
         "歐亞股"
       ],
       "headline": "破天荒！韓媒：三星將採台積電3奈米製程  為輝達生產下一代HBM基底裸片",
-      "source": "台股",
+      "source": "鉅亨",
       "time": "01:20",
       "publishedAt": 1792344004000,
       "impact": "neu",
@@ -17,12 +30,12 @@
     },
     {
       "region": "TW",
-      "feedRegion": "TW",
+      "feedRegion": "INTL",
       "categories": [
         "台股新聞"
       ],
       "headline": "〈台股風向球〉AI供應鏈遭外資提款壓力驟增 等待摸底訊號",
-      "source": "台股",
+      "source": "鉅亨",
       "time": "23:19",
       "publishedAt": 1792336773000,
       "impact": "neu",
@@ -34,34 +47,21 @@
       "categories": [
         "國際政經"
       ],
-      "headline": "法國55萬人大遊行 1,200人被捕 馬克宏發聲",
+      "headline": "從聖彼得堡到莫斯科州 俄羅斯多地遭大規模無人機襲擊",
       "source": "鉅亨",
-      "time": "18:52",
-      "publishedAt": 1792320773000,
+      "time": "23:18",
+      "publishedAt": 1792336738000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6632979"
+      "link": "https://news.cnyes.com/news/id/6633026"
     },
     {
       "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "headline": "2029年現記憶體「紅海」？韓國財長：半導體繁榮至少持續至明年",
-      "source": "鉅亨",
-      "time": "13:44",
-      "publishedAt": 1792302255000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6632913"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
+      "feedRegion": "TW",
       "categories": [
         "台股新聞"
       ],
       "headline": "搶救荷包看這裡！營所稅暫繳還沒辦 最遲「這天」補繳省利息",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "12:50",
       "publishedAt": 1792299009000,
       "impact": "neu",
@@ -69,12 +69,12 @@
     },
     {
       "region": "TW",
-      "feedRegion": "INTL",
+      "feedRegion": "TW",
       "categories": [
         "台股新聞"
       ],
       "headline": "〈智慧能源週〉淨零展、智慧能源周3天吸引1.8萬專業買主 聚焦AI時代兼顧能源與減碳需求",
-      "source": "鉅亨",
+      "source": "台股",
       "time": "12:41",
       "publishedAt": 1792298462000,
       "impact": "neu",
