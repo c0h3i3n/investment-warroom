@@ -1,5 +1,7 @@
 // Progressive enhancement; stored display preferences never affect market data.
 (() => {
+  const newsFilter = document.getElementById('news-related-only');
+  if (newsFilter) newsFilter.addEventListener('change', () => UI.setNewsRelatedOnly(newsFilter.checked));
   const button = document.getElementById('ticker-toggle');
   const content = document.getElementById('ticker-content');
   let collapsed = false;

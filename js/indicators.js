@@ -344,21 +344,33 @@ const IndicatorsService = (() => {
     return { lagSessions, expectedSession: new Date(expected).toISOString().slice(0, 10) };
   }
 
+  const lastValid = new Map();
+  function previousResult(symbol, reason) {
+    const previous = lastValid.get(symbol);
+    return previous ? { ...previous, historyMeta:{ ...previous.historyMeta,
+      ...historyFreshness(previous.asOf,symbol), historicalReason:reason, historical:true } }
+      : { error:reason };
+  }
+
   async function calculateFor(symbol) {
     console.log('[Indicators] Fetching historical data for', symbol);
-    const data = await DataService.fetchHistorical(symbol, '6mo', '1d');
+    const data = await DataService.fetchHistorical(symbol, '6mo', '1d').catch(() => null);
     if (!data) {
       console.warn('[Indicators] fetchHistorical returned null');
-      return { error: 'API 逾時或代理失敗' };
+      return previousResult(symbol,'日線更新失敗，保留最後有效數值');
     }
-    const { rows, excludedIncomplete } = completedDailyData(data, symbol);
+    let { rows, excludedIncomplete } = completedDailyData(data, symbol);
     const missing = HistoryValidation.missingSessions(rows.slice(-60),symbol);
-    if (missing.length) {
-      return { error: `日線缺漏 ${missing.length} 個交易日（${missing.slice(0,3).join('、')}${missing.length > 3 ? '…' : ''}）。暫停計算，避免失真的均線與動能訊號；將自動重試，不以其他價格口徑拼補。` };
+    const reason = missing.length ? `日線缺漏 ${missing.slice(0,3).join('、')}，方向訊號暫停；自動重試中。` : '';
+    const zone = /\.TW$/i.test(symbol) ? 'Asia/Taipei' : 'America/New_York';
+    let gaps = missing;
+    while (gaps.length) {
+      rows = rows.filter(row => marketDateParts(row.time,zone).date < gaps[0]);
+      gaps = HistoryValidation.missingSessions(rows.slice(-60),symbol);
     }
     if (rows.length < 60) {
       console.warn('[Indicators] Not enough completed daily data:', rows.length);
-      return { error: `已完成日線不足 (${rows.length}筆，需60筆)` };
+      return previousResult(symbol,reason || `已完成日線不足 (${rows.length}筆，需60筆)`);
     }
     console.log('[Indicators] Got', rows.length, 'completed points, calculating...');
 
@@ -372,14 +384,17 @@ const IndicatorsService = (() => {
     const ma60 = calcSMA(closes, 60);
     const volumeIndicator = analyzeVolume(rows, symbol);
 
-    return {
+    const result = {
       symbol,
       asOf: rows.at(-1).time,
       calculatedAt: Date.now(),
-      historyMeta: { ...data.meta, excludedIncomplete, ...historyFreshness(rows.at(-1).time, symbol) },
+      historyMeta: { ...data.meta, excludedIncomplete, ...historyFreshness(rows.at(-1).time, symbol),
+        historical:Boolean(reason), historicalReason:reason },
       indicators: interpret(rsi, macd, stoch, ma20, ma60, rows.at(-1).close, volumeIndicator),
       chartData: rows.slice(-60),
     };
+    lastValid.set(symbol,result);
+    return result;
   }
 
   // ═══════════════════════════════════════

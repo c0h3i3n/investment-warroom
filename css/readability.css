@@ -324,6 +324,16 @@ footer { flex-wrap:wrap; gap:10px 16px; font:11px var(--reading); letter-spacing
 .main-grid { align-items:start; }
 .night-details summary:focus-visible,.backup-menu summary:focus-visible { outline:2px solid var(--gold); outline-offset:3px; }
 /* Compact mobile chrome; keep source times and delay disclosures visible. */
+.indicator-warning strong,.indicator-warning span { display:block; }
+.indicator-warning { font-size:13px; line-height:1.65; }
+.indicator-warning strong { font-weight:600; }
+.night-context,.night-metrics small { display:block; font-size:12px; line-height:1.65; color:var(--text-mid); }
+.night-context { margin:8px 0; }
+.news-filter { display:inline-flex; align-items:center; gap:8px; min-height:44px; margin-bottom:12px; color:var(--text-mid); font-size:13px; cursor:pointer; }
+.news-filter input { width:18px; height:18px; accent-color:var(--arc); }
+.news-empty { grid-column:1/-1; padding:20px 0; color:var(--text-mid); font-size:14px; }
+.refresh-result { font-size:12px; color:var(--text-mid); line-height:1.6; }
+.refresh-result:empty { display:none; }
 @media(max-width:640px) {
   .hud-header { padding:12px 0; gap:10px; }
   .reactor-icon { width:38px; height:38px; }

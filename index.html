@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;500&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css?v=3.9.0">
-<link rel="stylesheet" href="css/readability.css?v=3.13.0">
+<link rel="stylesheet" href="css/readability.css?v=3.14.0">
 </head>
 <body>
 
@@ -42,7 +42,7 @@
       </div>
       <div class="reactor-text">
         <h1>WARROOM</h1>
-        <div class="sub">INVESTMENT INTELLIGENCE · v3.13.0</div>
+        <div class="sub">INVESTMENT INTELLIGENCE · v3.14.0</div>
       </div>
     </div>
 
@@ -76,6 +76,7 @@
       <span class="data-caption">行情來源時間 · 台北時間</span>
       <span class="last-updated" id="last-updated" role="status">UPDATED --:--:--</span>
       <span class="data-note">美股為延遲行情；休市時保留最近有效收盤。</span>
+      <output id="refresh-result" class="refresh-result" aria-live="polite"></output>
     </div>
     <button class="refresh-btn" id="refresh-btn" onclick="App.refresh()" title="重新取得行情" aria-label="重新取得行情"><span aria-hidden="true">⟳</span> 更新行情</button>
   </div>
@@ -197,13 +198,14 @@
       <div class="sec-label-line"></div>
     </div>
     <p class="watch-hint">自選相關與市場重點優先；同標的重複速報僅保留最新一則。分類依標題與來源，並非情緒判斷。</p>
+    <label class="news-filter"><input type="checkbox" id="news-related-only">只看自選相關</label>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:0 32px" id="news-feed">
       <div><div class="loading-indicator">FETCHING INTELLIGENCE...</div></div>
     </div>
   </div>
 
   <footer>
-    <span>WARROOM · INVESTMENT INTELLIGENCE · v3.13.0</span>
+    <span>WARROOM · INVESTMENT INTELLIGENCE · v3.14.0</span>
     <span id="fdate"></span>
     <span class="latency-badge"><span class="dot live"></span> 台股 MIS 即時</span>
     <span class="latency-badge"><span class="dot delay"></span> 夜盤狀態見頁首</span>
@@ -251,13 +253,13 @@
 <script src="js/history-validation.js?v=3.13.0"></script>
 <script src="js/data.js?v=3.13.0"></script>
 <script>console.log("data.js loaded, CONFIG proxies:", CONFIG?.CORS_PROXIES?.length);</script>
-<script src="js/indicators.js?v=3.13.0"></script>
+<script src="js/indicators.js?v=3.14.0"></script>
 <script src="js/news.js?v=3.13.0"></script>
 <script src="js/night-analysis.js?v=3.12.2"></script>
-<script src="js/ui.js?v=3.13.0"></script>
+<script src="js/ui.js?v=3.14.0"></script>
 <script src="js/watchlist-tools.js?v=3.12.2"></script>
-<script src="js/main.js?v=3.12.2"></script>
-<script src="js/interactions.js?v=3.9.6"></script>
+<script src="js/main.js?v=3.14.0"></script>
+<script src="js/interactions.js?v=3.14.0"></script>
 
 
 </body>

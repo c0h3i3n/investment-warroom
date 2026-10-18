@@ -181,6 +181,12 @@ const UI = (() => {
     }
 
     const analysis = NightAnalysis.evaluate(data, indexes);
+    const spot = indexes.find(item => item.symbol === '^TWII' && isFiniteValue(item.price)
+      && isFiniteValue(data.spotReference) && Math.abs(Number(item.price)-Number(data.spotReference)) < 0.01);
+    const spotTime = spot && Number(spot.asOf) > 0 ? new Intl.DateTimeFormat('zh-TW', {
+      timeZone:'Asia/Taipei',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false,
+    }).format(new Date(Number(spot.asOf))) : '收盤時間未確認';
+    const scope = analysis.drivers.length > 1 ? '台指期＋同時段美股交叉確認' : '僅依台指期；美股尚無同時段有效資料';
     const cls = chgClass(data.changePct);
     const arrow = chgArrow(data.changePct);
     const drivers = analysis.drivers.map(driver =>
@@ -191,7 +197,10 @@ const UI = (() => {
       : refreshFailed || data.delivery === 'stale-kv'
         ? '<div class="night-warning">⚠ 即時更新失敗，顯示最近有效夜盤資料</div>' : '';
 
-    const detailsOpen = data.status === 'open' || container.querySelector?.('.night-details')?.open;
+    const previousDetails = container.querySelector?.('.night-details');
+    const sameState = container.dataset?.sessionState === data.status;
+    const detailsOpen = sameState && previousDetails ? previousDetails.open : data.status === 'open';
+    if (container.dataset) container.dataset.sessionState = data.status;
     container.innerHTML = `
       <div class="night-headline">
         <div>
@@ -201,6 +210,7 @@ const UI = (() => {
         <div class="night-asof">行情時間 ${asOf}</div>
       </div>
       ${warning}
+      <div class="night-context">${data.status === 'open' ? '夜盤交易中' : '最近夜盤收盤，非目前即時方向'} · ${escapeHtml(scope)}。</div>
       <details class="night-details" ${detailsOpen ? 'open' : ''}>
       <summary>${data.status === 'open' ? '夜盤行情' : '最近夜盤收盤'} · ${level(data.price)} 點 · ${arrow} ${Math.abs(Number(data.changePct)).toFixed(2)}% <span>展開／收合明細</span></summary>
       <div class="night-layout">
@@ -212,7 +222,7 @@ const UI = (() => {
         <div class="night-metrics">
           <div><span>最高／最低</span><b>${level(data.high)}／${level(data.low)}</b></div>
           <div><span>MIS 行情成交量</span><b>${isFiniteValue(data.volume) ? Math.round(Number(data.volume)).toLocaleString() + ' 口' : '--'}</b></div>
-          <div><span>相對現貨收盤價差</span><b class="${Number(data.basis) >= 0 ? 'up' : 'dn'}">${signedPoints(data.basis)}</b></div>
+          <div><span>相對現貨收盤價差</span><b class="${Number(data.basis) >= 0 ? 'up' : 'dn'}">${signedPoints(data.basis)}</b><small>現貨 ${level(data.spotReference)} · ${escapeHtml(spotTime)}</small></div>
         </div>
         <div class="night-risk ${analysis.tone}">
           <span>${data.status === 'open' ? '即時風險方向' : '最近夜盤方向'}</span>
@@ -438,11 +448,14 @@ const UI = (() => {
 
     if (grid && indData?.indicators) {
       const lag = Number(indData.historyMeta?.lagSessions) || 0;
-      grid.innerHTML = (lag > 0 ? `<div class="indicator-warning" role="status">日線落後 ${lag} 個交易日，應更新至 ${escapeHtml(indData.historyMeta.expectedSession)}。以下保留歷史數值，方向訊號暫停。</div>` : '') + indData.indicators.map(ind => `
+      const historical = lag > 0 || Boolean(indData.historyMeta?.historical);
+      const historicalDate = new Intl.DateTimeFormat('zh-TW',{timeZone:/\.TW$/i.test(indData.symbol)?'Asia/Taipei':'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(indData.asOf));
+      const reason = indData.historyMeta?.historicalReason || `日線落後 ${lag} 個交易日，方向訊號暫停。`;
+      grid.innerHTML = (historical ? `<div class="indicator-warning" role="status"><strong>歷史數值 · 截至 ${escapeHtml(historicalDate)}</strong><span>${escapeHtml(reason)}</span></div>` : '') + indData.indicators.map(ind => `
         <div class="ind-cell">
           <div class="ind-name">${ind.name}</div>
-          <div class="ind-val ${lag > 0 ? 'historical' : ind.color}">${ind.value}</div>
-          <div class="ind-sig ${lag > 0 ? 'historical' : ind.color}">${lag > 0 ? '歷史數值 · 訊號暫停' : ind.signal}</div>
+          <div class="ind-val ${historical ? 'historical' : ind.color}">${ind.value}</div>
+          <div class="ind-sig ${historical ? 'historical' : ind.color}">${historical ? '歷史數值 · 訊號暫停' : ind.signal}</div>
         </div>
       `).join('');
       const status = document.createElement('div');
@@ -534,7 +547,14 @@ const UI = (() => {
   // ═══════════════════════════════════════
   // NEWS FEED
   // ═══════════════════════════════════════
+  let lastNewsItems = [];
+  let relatedNewsOnly = false;
+  function setNewsRelatedOnly(value) {
+    relatedNewsOnly = Boolean(value);
+    renderNews(lastNewsItems);
+  }
   function renderNews(newsItems) {
+    if (Array.isArray(newsItems)) lastNewsItems = newsItems;
     const container = document.getElementById('news-feed');
     if (!container) return;
     if (!Array.isArray(newsItems) || newsItems.length === 0) {
@@ -552,6 +572,11 @@ const UI = (() => {
     newsItems = typeof NewsService !== 'undefined'
       ? NewsService.prepareNews(newsItems, typeof window !== 'undefined' ? window._watchlistQuotes || [] : [])
       : [...newsItems].sort((a, b) => Number(b.publishedAt || 0) - Number(a.publishedAt || 0));
+    if (relatedNewsOnly) newsItems = newsItems.filter(item => item.related);
+    if (!newsItems.length) {
+      container.innerHTML = '<div class="news-empty" role="status">目前沒有符合自選股的新聞，可關閉篩選查看市場情報。</div>';
+      return;
+    }
     const half = Math.ceil(newsItems.length / 2);
     const left = newsItems.slice(0, half);
     const right = newsItems.slice(half);
@@ -597,6 +622,7 @@ const UI = (() => {
     const toast = document.createElement('div');
     toast.className = `toast ${type}`;
     toast.textContent = msg;
+    toast.setAttribute('role','status');
     document.body.appendChild(toast);
 
     setTimeout(() => {
@@ -636,10 +662,24 @@ const UI = (() => {
       else btn.classList.remove('spinning');
       btn.disabled = isRefreshing;
       btn.setAttribute('aria-busy', String(isRefreshing));
+      btn.innerHTML = isRefreshing ? '<span aria-hidden="true">⟳</span> 更新中…' : '<span aria-hidden="true">⟳</span> 更新行情';
     }
     if (lbl && isRefreshing && /--:--|^UPDATED|^(DATA|QUOTES) UNAVAILABLE|^CONNECTING/.test(lbl.textContent)) {
       lbl.textContent = 'REFRESHING...';
     }
+  }
+
+  function refreshResult({fresh,total,cached,changed,failed,closed}) {
+    const warning = fresh < total || cached || failed;
+    const message = fresh === 0 ? '更新失敗，暫無有效行情，請稍後重試。'
+      : warning ? `部分更新完成：${fresh}/${total} 筆有效行情${cached ? '，含備援資料' : ''}。`
+      : changed ? `更新完成：${fresh}/${total} 筆行情已檢查。`
+      : closed ? '已檢查：台美股休市，股價維持最近收盤。'
+      : '已檢查：來源暫無新的報價。';
+    const output = document.getElementById('refresh-result');
+    if (output) output.textContent = message;
+    showToast(message,warning || fresh === 0 ? 'warn' : 'info');
+    return message;
   }
 
   function setConnecting() {
@@ -774,6 +814,8 @@ const UI = (() => {
     renderFeatured,
     renderIndicators,
     renderNews,
+    setNewsRelatedOnly,
+    refreshResult,
     renderSVGChart,
 
     showIndicatorLoading,

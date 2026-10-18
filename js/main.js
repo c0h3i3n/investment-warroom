@@ -131,6 +131,12 @@ const App = (() => {
     let indexFreshness = indexData.filter(x => DataService.isFreshRecord(x, x.region));
     let quoteFreshness = watchlistQuotes.filter(x => DataService.isFreshRecord(x));
     const currentFreshness = () => [...indexFreshness, ...quoteFreshness];
+    const before = new Map(currentFreshness().map(item => [item.symbol,`${item.asOf}:${item.price}`]));
+    let failedTasks = 0;
+    if (forceRefresh) {
+      const output = document.getElementById('refresh-result');
+      if (output) output.textContent = '正在重新取得行情…';
+    }
     const publishStatus = () => {
       if (generation !== refreshGeneration) return;
       const freshness = currentFreshness();
@@ -289,7 +295,9 @@ const App = (() => {
         const nightTask = DataService.fetchNightMarket().then(data => {
           if (generation !== refreshGeneration) return;
           nightMarketData = data;
+          if (!data || data.stale || data.warning) failedTasks++;
         }).catch(error => {
+          failedTasks++;
           console.warn('Night market data failed:', error.message);
           if (generation === refreshGeneration) nightMarketData = null;
         });
@@ -297,6 +305,7 @@ const App = (() => {
         updateNews(forceRefresh, generation);
         const outcomes = await Promise.allSettled([indexTask, quoteTask, nightTask]);
         outcomes.filter(outcome => outcome.status === 'rejected').forEach(outcome => {
+          failedTasks++;
           console.error('Market data task failed:', outcome.reason);
         });
         if (generation !== refreshGeneration) return false;
@@ -309,12 +318,20 @@ const App = (() => {
           queueMicrotask(() => updateIndicators(activeIndicatorSymbol, { automatic: true }));
         }
       } catch (e) {
+        failedTasks++;
         console.error('Data fetch error:', e);
         UI.showToast('資料擷取異常，顯示備用數據', 'warn');
       }
 
       if (generation !== refreshGeneration) return false;
       publishStatus();
+      if (forceRefresh) {
+        const records = currentFreshness();
+        UI.refreshResult({fresh:records.length,total:expectedQuotes,
+          cached:records.some(item=>item.deliveryMode === 'cache'),failed:failedTasks > 0,
+          changed:records.some(item=>before.get(item.symbol) !== `${item.asOf}:${item.price}`),
+          closed:!DataService.isMarketOpen('TW') && !DataService.isMarketOpen('US')});
+      }
       return currentFreshness().length > 0;
     } finally {
       clearTimeout(statusDeadline);
