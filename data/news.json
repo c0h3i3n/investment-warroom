@@ -1,84 +1,58 @@
 {
-  "timestamp": "2026-10-18T00:52:53.843728+00:00",
-  "generatedAt": "2026-10-18T00:52:53.843728+00:00",
+  "timestamp": "2026-10-18T10:54:33.071839+00:00",
+  "generatedAt": "2026-10-18T10:54:33.071839+00:00",
   "data": [
     {
       "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "美銀預測Fed 10月再升息！通膨升溫添變數",
-      "source": "鉅亨",
-      "time": "21:00",
-      "publishedAt": 1792242005000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6631672"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "鄉林賴正鎰：在台房市推案力道將循序加大 明年雙北總銷逾110億元",
-      "source": "鉅亨",
-      "time": "19:52",
-      "publishedAt": 1792237968000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6632721"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "AI陷入「疲勞交易」！投資人厭倦反覆爭論科技承諾 分析師：市場需要營收證明",
-      "source": "鉅亨",
-      "time": "19:00",
-      "publishedAt": 1792234805000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6632553"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "〈友達運動會〉彭双浪：集團朝「類控股」架構轉型 培養小老虎盼成大老虎",
-      "source": "鉅亨",
-      "time": "18:49",
-      "publishedAt": 1792234180000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6632739"
-    },
-    {
-      "region": "TW",
       "feedRegion": "TW",
       "categories": [
         "台股新聞"
       ],
-      "headline": "〈友達運動會〉彭双浪：AI成長率趨緩不代表泡沫 明年景氣不會差、台股5萬點以上可期",
-      "source": "台股",
-      "time": "15:03",
-      "publishedAt": 1792220586000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6632662"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "〈熱門股〉敬鵬獲新訂單挹注放量突破整理區 周漲近15%",
+      "headline": "搶救荷包看這裡！營所稅暫繳還沒辦 最遲「這天」補繳省利息",
       "source": "台股",
       "time": "12:50",
-      "publishedAt": 1792212603000,
+      "publishedAt": 1792299009000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6632798"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股新聞"
+      ],
+      "headline": "〈智慧能源週〉淨零展、智慧能源周3天吸引1.8萬專業買主 聚焦AI時代兼顧能源與減碳需求",
+      "source": "台股",
+      "time": "12:41",
+      "publishedAt": 1792298462000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6632884"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股新聞"
+      ],
+      "headline": "〈熱門股〉煉油利差維持高檔+荷姆茲商船遇襲 台塑化周漲10.86%",
+      "source": "台股",
+      "time": "12:37",
+      "publishedAt": 1792298253000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6632587"
+      "link": "https://news.cnyes.com/news/id/6632861"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股新聞"
+      ],
+      "headline": "〈友達運動會〉半導體領域相關業務成長快速 彭双浪：目標成為先進封裝重要夥伴",
+      "source": "台股",
+      "time": "12:36",
+      "publishedAt": 1792298205000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6632784"
     }
   ]
 }
