@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-18T23:00:44.973902+00:00",
-  "generatedAt": "2026-10-18T23:00:44.973902+00:00",
+  "timestamp": "2026-10-19T01:05:52.996833+00:00",
+  "generatedAt": "2026-10-19T01:05:52.996833+00:00",
   "data": [
     {
       "region": "TW",
@@ -53,32 +53,6 @@
       "publishedAt": 1792336738000,
       "impact": "neu",
       "link": "https://news.cnyes.com/news/id/6633026"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "搶救荷包看這裡！營所稅暫繳還沒辦 最遲「這天」補繳省利息",
-      "source": "台股",
-      "time": "12:50",
-      "publishedAt": 1792299009000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6632798"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "〈智慧能源週〉淨零展、智慧能源周3天吸引1.8萬專業買主 聚焦AI時代兼顧能源與減碳需求",
-      "source": "台股",
-      "time": "12:41",
-      "publishedAt": 1792298462000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6632884"
     }
   ]
 }
