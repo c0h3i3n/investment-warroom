@@ -1,45 +1,19 @@
 {
-  "timestamp": "2026-10-19T01:05:52.996833+00:00",
-  "generatedAt": "2026-10-19T01:05:52.996833+00:00",
+  "timestamp": "2026-10-19T06:06:52.030407+00:00",
+  "generatedAt": "2026-10-19T06:06:52.030407+00:00",
   "data": [
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "headline": "「不是債市太悲觀就是股市太樂觀！」 高盛警告背離近臨界點：AI股恐再跌15%  點名對沖台灣半導體",
-      "source": "鉅亨",
-      "time": "04:10",
-      "publishedAt": 1792354202000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6631994"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "歐亞股"
-      ],
-      "headline": "破天荒！韓媒：三星將採台積電3奈米製程  為輝達生產下一代HBM基底裸片",
-      "source": "鉅亨",
-      "time": "01:20",
-      "publishedAt": 1792344004000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6633024"
-    },
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
         "台股新聞"
       ],
-      "headline": "〈台股風向球〉AI供應鏈遭外資提款壓力驟增 等待摸底訊號",
+      "headline": "〈焦點股〉富喬泰國新廠動工 逆勢爆量攻漲停創天價",
       "source": "鉅亨",
-      "time": "23:19",
-      "publishedAt": 1792336773000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6632923"
+      "time": "10:54",
+      "publishedAt": 1792378485000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6633245"
     },
     {
       "region": "TW",
@@ -47,12 +21,90 @@
       "categories": [
         "國際政經"
       ],
-      "headline": "從聖彼得堡到莫斯科州 俄羅斯多地遭大規模無人機襲擊",
+      "headline": "「烏克蘭是美國盟友嗎？」貝森特三問不答　美媒：澤倫斯基決定「公開對抗川普」",
       "source": "鉅亨",
-      "time": "23:18",
-      "publishedAt": 1792336738000,
+      "time": "10:50",
+      "publishedAt": 1792378203000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6633026"
+      "link": "https://news.cnyes.com/news/id/6633204"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "headline": "自動化設備廠穎漢科技擬辦現增 籌資3.1億元",
+      "source": "鉅亨",
+      "time": "10:20",
+      "publishedAt": 1792376405000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6633235"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "headline": "Q4市場關注什麼？AI供應鏈、法人動向成焦點　元大「投資先生」助攻",
+      "source": "鉅亨",
+      "time": "10:20",
+      "publishedAt": 1792376405000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6630214"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股盤中"
+      ],
+      "headline": "盤中速報 - 櫃買市場加權指數下跌-12.26點至388點，跌幅3.06%",
+      "source": "台股",
+      "time": "09:03",
+      "publishedAt": 1792371800000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6633170"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股盤中"
+      ],
+      "headline": "盤中速報 - 櫃買市場加權指數下跌-10.45點至389.81點，跌幅2.61%",
+      "source": "台股",
+      "time": "09:00",
+      "publishedAt": 1792371645000,
+      "impact": "neg",
+      "link": "https://news.cnyes.com/news/id/6633169"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "外匯"
+      ],
+      "headline": "台幣逼近32.5元還會貶？外銀看好強勁出口支撐 年底反攻31.5元",
+      "source": "台股",
+      "time": "08:25",
+      "publishedAt": 1792369543000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6633090"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "headline": "鉅亨速報 - Factset 最新調查：川湖(2059-TW)EPS預估上修至345.71元，預估目標價為14944元",
+      "source": "台股",
+      "time": "08:12",
+      "publishedAt": 1792368776000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6633112"
     }
   ]
 }
