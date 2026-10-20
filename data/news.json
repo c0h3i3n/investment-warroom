@@ -1,97 +1,97 @@
 {
-  "timestamp": "2026-10-19T06:06:52.030407+00:00",
-  "generatedAt": "2026-10-19T06:06:52.030407+00:00",
+  "timestamp": "2026-10-20T04:38:54.391516+00:00",
+  "generatedAt": "2026-10-20T04:38:54.391516+00:00",
   "data": [
     {
       "region": "TW",
       "feedRegion": "INTL",
       "categories": [
-        "台股新聞"
+        "台股盤中"
       ],
-      "headline": "〈焦點股〉富喬泰國新廠動工 逆勢爆量攻漲停創天價",
+      "headline": "盤中速報 - 芯鼎(6695)股價拉至漲停，漲停價56.1元，成交1,428張",
       "source": "鉅亨",
-      "time": "10:54",
-      "publishedAt": 1792378485000,
+      "time": "09:40",
+      "publishedAt": 1792460419000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6633245"
+      "link": "https://news.cnyes.com/news/id/6633990"
     },
     {
       "region": "TW",
       "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "headline": "「烏克蘭是美國盟友嗎？」貝森特三問不答　美媒：澤倫斯基決定「公開對抗川普」",
-      "source": "鉅亨",
-      "time": "10:50",
-      "publishedAt": 1792378203000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6633204"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "自動化設備廠穎漢科技擬辦現增 籌資3.1億元",
-      "source": "鉅亨",
-      "time": "10:20",
-      "publishedAt": 1792376405000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6633235"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "headline": "Q4市場關注什麼？AI供應鏈、法人動向成焦點　元大「投資先生」助攻",
-      "source": "鉅亨",
-      "time": "10:20",
-      "publishedAt": 1792376405000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6630214"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-12.26點至388點，跌幅3.06%",
-      "source": "台股",
-      "time": "09:03",
-      "publishedAt": 1792371800000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6633170"
+      "headline": "盤中速報 - 中釉(1809)股價拉至漲停，漲停價48.1元，成交4,647張",
+      "source": "鉅亨",
+      "time": "09:37",
+      "publishedAt": 1792460222000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6633984"
     },
     {
       "region": "TW",
-      "feedRegion": "TW",
+      "feedRegion": "INTL",
       "categories": [
         "台股盤中"
       ],
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-10.45點至389.81點，跌幅2.61%",
-      "source": "台股",
-      "time": "09:00",
-      "publishedAt": 1792371645000,
-      "impact": "neg",
-      "link": "https://news.cnyes.com/news/id/6633169"
+      "headline": "盤中速報 - 玻璃陶瓷類股表現強勁，漲幅3.42%，總成交額32.85億",
+      "source": "鉅亨",
+      "time": "09:34",
+      "publishedAt": 1792460060000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6633982"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "headline": "盤中速報 - 塑膠工業類股表現強勁，漲幅2.4%，總成交額97.69億",
+      "source": "鉅亨",
+      "time": "09:34",
+      "publishedAt": 1792460060000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6633981"
     },
     {
       "region": "TW",
       "feedRegion": "TW",
       "categories": [
-        "外匯"
+        "台股新聞"
       ],
-      "headline": "台幣逼近32.5元還會貶？外銀看好強勁出口支撐 年底反攻31.5元",
+      "headline": "玉晶光拓光通信版圖 攜手美商3M推進擴束光學技術開發生產",
       "source": "台股",
-      "time": "08:25",
-      "publishedAt": 1792369543000,
+      "time": "09:07",
+      "publishedAt": 1792458421000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6633090"
+      "link": "https://news.cnyes.com/news/id/6633917"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股新聞"
+      ],
+      "headline": "仁新子公司Belite獲准升板那斯達克全球精選市場 有望躋身生技指數NBI成分股",
+      "source": "台股",
+      "time": "09:04",
+      "publishedAt": 1792458287000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6630276"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股新聞"
+      ],
+      "headline": "〈國泰金經濟調查〉10月景氣展望、薪資預期續升 台股樂觀指數同步刷新高",
+      "source": "台股",
+      "time": "09:02",
+      "publishedAt": 1792458155000,
+      "impact": "pos",
+      "link": "https://news.cnyes.com/news/id/6633935"
     },
     {
       "region": "TW",
@@ -99,12 +99,12 @@
       "categories": [
         "台股預估"
       ],
-      "headline": "鉅亨速報 - Factset 最新調查：川湖(2059-TW)EPS預估上修至345.71元，預估目標價為14944元",
+      "headline": "鉅亨速報 - Factset 最新調查：聯發科(2454-TW)EPS預估上修至69.4元，預估目標價為5922元",
       "source": "台股",
-      "time": "08:12",
-      "publishedAt": 1792368776000,
+      "time": "08:10",
+      "publishedAt": 1792455036000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6633112"
+      "link": "https://news.cnyes.com/news/id/6633902"
     }
   ]
 }
