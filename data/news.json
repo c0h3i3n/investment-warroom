@@ -1,58 +1,19 @@
 {
-  "timestamp": "2026-10-20T04:38:54.391516+00:00",
-  "generatedAt": "2026-10-20T04:38:54.391516+00:00",
+  "timestamp": "2026-10-20T09:57:24.870297+00:00",
+  "generatedAt": "2026-10-20T09:57:24.870297+00:00",
   "data": [
     {
       "region": "TW",
-      "feedRegion": "INTL",
+      "feedRegion": "TW",
       "categories": [
-        "台股盤中"
+        "台股新聞"
       ],
-      "headline": "盤中速報 - 芯鼎(6695)股價拉至漲停，漲停價56.1元，成交1,428張",
-      "source": "鉅亨",
-      "time": "09:40",
-      "publishedAt": 1792460419000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6633990"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "headline": "盤中速報 - 中釉(1809)股價拉至漲停，漲停價48.1元，成交4,647張",
-      "source": "鉅亨",
-      "time": "09:37",
-      "publishedAt": 1792460222000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6633984"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "headline": "盤中速報 - 玻璃陶瓷類股表現強勁，漲幅3.42%，總成交額32.85億",
-      "source": "鉅亨",
-      "time": "09:34",
-      "publishedAt": 1792460060000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6633982"
-    },
-    {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "headline": "盤中速報 - 塑膠工業類股表現強勁，漲幅2.4%，總成交額97.69億",
-      "source": "鉅亨",
-      "time": "09:34",
-      "publishedAt": 1792460060000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6633981"
+      "headline": "金管會：全台逾1.2萬人約定防詐「指定聯絡人」 玉山、北富銀推廣最積極",
+      "source": "台股",
+      "time": "17:21",
+      "publishedAt": 1792488100000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6634271"
     },
     {
       "region": "TW",
@@ -60,12 +21,12 @@
       "categories": [
         "台股新聞"
       ],
-      "headline": "玉晶光拓光通信版圖 攜手美商3M推進擴束光學技術開發生產",
+      "headline": "聯茂中長期擴產腳步不停歇 高階產品產能持續提升",
       "source": "台股",
-      "time": "09:07",
-      "publishedAt": 1792458421000,
+      "time": "16:52",
+      "publishedAt": 1792486329000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6633917"
+      "link": "https://news.cnyes.com/news/id/6634255"
     },
     {
       "region": "TW",
@@ -73,38 +34,77 @@
       "categories": [
         "台股新聞"
       ],
-      "headline": "仁新子公司Belite獲准升板那斯達克全球精選市場 有望躋身生技指數NBI成分股",
+      "headline": "〈外銷訂單〉連19紅！9月1142億美元年增62% 全年可望破兆",
       "source": "台股",
-      "time": "09:04",
-      "publishedAt": 1792458287000,
+      "time": "16:47",
+      "publishedAt": 1792486045000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6630276"
+      "link": "https://news.cnyes.com/news/id/6634243"
     },
     {
       "region": "TW",
       "feedRegion": "TW",
       "categories": [
+        "台灣房市"
+      ],
+      "headline": "〈房產〉台中十大熱門交易生活圈揭曉 太平新光特區年成交以638件奪冠",
+      "source": "台股",
+      "time": "16:39",
+      "publishedAt": 1792485594000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6634242"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "早期投資Anthropic迎暴利！Google前CEO身價可靠這筆投資衝上800億美元",
+      "source": "鉅亨",
+      "time": "15:50",
+      "publishedAt": 1792482603000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6633839"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
         "台股新聞"
       ],
-      "headline": "〈國泰金經濟調查〉10月景氣展望、薪資預期續升 台股樂觀指數同步刷新高",
-      "source": "台股",
-      "time": "09:02",
-      "publishedAt": 1792458155000,
+      "headline": "金居籌設在大馬檳城新建HVLP4高階銅箔 規劃年產3萬噸",
+      "source": "鉅亨",
+      "time": "15:40",
+      "publishedAt": 1792482044000,
+      "impact": "neu",
+      "link": "https://news.cnyes.com/news/id/6634187"
+    },
+    {
+      "region": "TW",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "headline": "CoreWeave債券利率飆至15%引發AI泡沫恐慌　三大投行聯手「滅火」：市場選錯晴雨表",
+      "source": "鉅亨",
+      "time": "15:40",
+      "publishedAt": 1792482007000,
       "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6633935"
+      "link": "https://news.cnyes.com/news/id/6634120"
     },
     {
       "region": "TW",
-      "feedRegion": "TW",
+      "feedRegion": "INTL",
       "categories": [
-        "台股預估"
+        "台股新聞"
       ],
-      "headline": "鉅亨速報 - Factset 最新調查：聯發科(2454-TW)EPS預估上修至69.4元，預估目標價為5922元",
-      "source": "台股",
-      "time": "08:10",
-      "publishedAt": 1792455036000,
+      "headline": "證交所推「Power Up Plan 2.0」 29家優質上市公司開放揭露中長期預測",
+      "source": "鉅亨",
+      "time": "15:37",
+      "publishedAt": 1792481874000,
       "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6633902"
+      "link": "https://news.cnyes.com/news/id/6634196"
     }
   ]
 }
