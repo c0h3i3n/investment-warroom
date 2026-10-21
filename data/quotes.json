@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-10-21T04:32:07.575396+00:00",
-  "generatedAt": "2026-10-21T04:32:07.575396+00:00",
+  "timestamp": "2026-10-21T10:01:13.550159+00:00",
+  "generatedAt": "2026-10-21T10:01:13.550159+00:00",
   "data": [
     {
       "symbol": "0050.TW",
       "name": "",
-      "price": 108.0,
-      "change": 0.75,
-      "changePct": 0.7,
-      "asOf": "2026-10-21T04:32:29+00:00",
+      "price": 108.15,
+      "change": 0.9,
+      "changePct": 0.84,
+      "asOf": "2026-10-21T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
       "symbol": "2330.TW",
       "name": "",
-      "price": 2412.5,
-      "change": 7.5,
-      "changePct": 0.31,
-      "asOf": "2026-10-21T04:32:10+00:00",
+      "price": 2420.0,
+      "change": 15.0,
+      "changePct": 0.62,
+      "asOf": "2026-10-21T06:30:00+00:00",
       "source": "TWSE MIS",
-      "priceType": "indicative"
+      "priceType": "trade"
     },
     {
       "symbol": "00679B.TW",
@@ -28,27 +28,27 @@
       "price": 25.77,
       "change": -0.02,
       "changePct": -0.08,
-      "asOf": "2026-10-21T04:32:29+00:00",
+      "asOf": "2026-10-21T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
       "symbol": "00878.TW",
       "name": "",
-      "price": 35.355,
-      "change": 0.47,
-      "changePct": 1.36,
-      "asOf": "2026-10-21T04:32:24+00:00",
+      "price": 35.39,
+      "change": 0.51,
+      "changePct": 1.46,
+      "asOf": "2026-10-21T06:30:00+00:00",
       "source": "TWSE MIS",
-      "priceType": "indicative"
+      "priceType": "trade"
     },
     {
       "symbol": "00929.TW",
       "name": "",
-      "price": 29.28,
-      "change": 0.4,
-      "changePct": 1.39,
-      "asOf": "2026-10-21T04:32:24+00:00",
+      "price": 29.29,
+      "change": 0.41,
+      "changePct": 1.42,
+      "asOf": "2026-10-21T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -58,29 +58,29 @@
       "price": 15.36,
       "change": -0.04,
       "changePct": -0.26,
-      "asOf": "2026-10-21T04:32:12+00:00",
+      "asOf": "2026-10-21T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
       "symbol": "00937B.TW",
       "name": "",
-      "price": 14.005,
-      "change": -0.02,
-      "changePct": -0.18,
-      "asOf": "2026-10-21T04:32:00+00:00",
+      "price": 14.02,
+      "change": -0.01,
+      "changePct": -0.07,
+      "asOf": "2026-10-21T06:30:00+00:00",
       "source": "TWSE MIS",
-      "priceType": "indicative"
+      "priceType": "trade"
     },
     {
       "symbol": "009800.TW",
       "name": "",
-      "price": 13.445,
-      "change": 0.11,
-      "changePct": 0.79,
-      "asOf": "2026-10-21T04:32:19+00:00",
+      "price": 13.42,
+      "change": 0.08,
+      "changePct": 0.6,
+      "asOf": "2026-10-21T06:30:00+00:00",
       "source": "TWSE MIS",
-      "priceType": "indicative"
+      "priceType": "trade"
     },
     {
       "symbol": "SPCX",
