@@ -52,6 +52,27 @@ test('news API serves original RSS via CORS, deduplicates and marks partial sour
   assert.equal(saved.data[0].headline,'台積電 & 晶片');
 });
 
+test('browser news falls back to dated static items and never revives expired memory',async()=>{
+  let clock=now;
+  class Clock extends Date { static now(){return clock;} }
+  const requests=[];
+  const ctx=vm.createContext({Date:Clock,console:{warn(){}},CONFIG:{MARKET_API:'https://worker.example',REFRESH_NEWS:300000},
+    requestTimeoutSignal:()=>undefined,fetch:async url=>{
+      requests.push(url);
+      return url.startsWith('data/') ? {ok:true,json:async()=>({generatedAt:new Date(now-3600000).toISOString(),data:[article]})}
+        : {ok:false,status:503};
+    }});
+  vm.runInContext(fs.readFileSync(new URL('../../js/news.js',import.meta.url),'utf8'),ctx);
+  const fallback=await vm.runInContext('NewsService.getNews(true)',ctx);
+  assert.equal(fallback.length,1);
+  assert.equal(fallback.meta.delivery,'static');
+  assert.equal(fallback.meta.generatedAt,new Date(now-3600000).toISOString());
+  assert.equal(requests.length,2);
+  clock+=73*3600000;
+  const expired=await vm.runInContext('NewsService.getNews(true)',ctx);
+  assert.equal(expired.length,0);
+});
+
 test('featured cards settle independently after missing/partial responses and label valid closes',()=>{
   const element={innerHTML:'',querySelector:()=>null};
   const ctx=vm.createContext({Intl,setTimeout:()=>{},window:{_featuredQuotes:[]},
