@@ -1,6 +1,8 @@
 import '../../js/market-calendar.js';
 import '../../js/history-validation.js';
 import { CALENDAR_KEY, refreshOfficialCalendar } from './official-calendar.mjs';
+import { getNewsSnapshot } from './news.mjs';
+import { repairTwseHistory } from './history-repair.mjs';
 const SNAPSHOT_KEY = 'market:snapshot:v1';
 const NIGHT_MARKET_KEY = 'market:night:v1';
 const SNAPSHOT_MAX_AGE_MS = 7 * 60 * 1000;
@@ -715,7 +717,11 @@ async function handleHistoryRequest(request, env, url) {
   }
 
   try {
-    const fresh = await fetchYahooHistory(symbol, range, interval);
+    let fresh = await fetchYahooHistory(symbol, range, interval);
+    if (interval === '1d' && historyNeedsRepair(fresh,symbol,interval)) {
+      try { fresh = await repairTwseHistory(fresh,env); }
+      catch (error) { fresh.repairWarning = String(error.message); }
+    }
     if (env?.MARKET_CACHE) {
       await safeCachePut(env, key, JSON.stringify(fresh), { expirationTtl: 86400 });
     }
@@ -799,6 +805,10 @@ async function handleMarketRequest(request, env) {
   if (request.method !== 'GET') return jsonResponse({ error: 'Method not allowed' }, 405, request);
 
   const url = new URL(request.url);
+  if (url.pathname === '/api/news') {
+    const snapshot = await getNewsSnapshot(env);
+    return jsonResponse(snapshot, snapshot.data.length ? 200 : 503, request);
+  }
   if (url.pathname === '/api/night-market') {
     return handleNightMarketRequest(request, env);
   }
@@ -887,7 +897,7 @@ async function handleMarketRequest(request, env) {
 
 export async function handleRequest(request, env) {
   const path = new URL(request.url).pathname;
-  if (request.method === 'GET' && (path.startsWith('/api/') || path === '/health')) {
+  if (request.method === 'GET' && path !== '/api/news' && (path.startsWith('/api/') || path === '/health')) {
     await loadOfficialCalendar(env).catch(error => console.warn('Official calendar check failed', error));
   }
   if (path === '/api/market-calendar' && request.method === 'GET') {
@@ -906,7 +916,9 @@ export async function handleRequest(request, env) {
 export default {
   fetch: handleRequest,
   async scheduled(_controller, env, ctx) {
-    ctx.waitUntil(loadOfficialCalendar(env, true).then(() => refreshAndStore(env))
+    ctx.waitUntil(Promise.allSettled([
+      loadOfficialCalendar(env, true).then(() => refreshAndStore(env)), getNewsSnapshot(env, true),
+    ])
       .catch(error => console.error('Scheduled refresh failed', error)));
   },
 };

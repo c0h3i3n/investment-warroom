@@ -14,6 +14,8 @@ on:
       - 'scripts/fetch_data.py'
       - 'scripts/check-official-calendar.mjs'
       - 'worker/src/official-calendar.mjs'
+      - 'scripts/fetch-news.mjs'
+      - 'worker/src/news.mjs'
       - 'js/market-calendar.js'
       - '.github/workflows/auto-refresh.yml'
 
@@ -37,6 +39,8 @@ jobs:
         run: node scripts/check-official-calendar.mjs
       - name: Fetch market data
         run: python3 scripts/fetch_data.py
+      - name: Fetch original news feeds
+        run: node scripts/fetch-news.mjs
       - name: Commit & push
         run: |
           git config user.name "warroom-bot"

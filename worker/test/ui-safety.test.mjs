@@ -88,15 +88,16 @@ test('RSS headlines decode entities without inserting markup into the UI', async
   const context = vm.createContext({
     CONFIG: { RSS_FEEDS:[{ name:'Test',url:'https://example.test/rss',region:'US' }], REFRESH_NEWS:300000 },
     requestTimeoutSignal: () => undefined,
-    fetch: async () => ({ ok:true, json:async () => ({ status:'ok',items:[{
-      title:'S&amp;amp;P 500 &lt;script&gt;alert(1)&lt;/script&gt;',
-      pubDate:'2026-10-01T02:00:00Z',link:'https://example.test/story',
+    fetch: async () => ({ ok:true, json:async () => ({ data:[{
+      headline:'S&amp;amp;P 500 &lt;script&gt;alert(1)&lt;/script&gt;',
+      publishedAt:Date.now(),link:'https://example.test/story',
     }] }) }),
     console,
   });
   vm.runInContext(fs.readFileSync(new URL('../../js/news.js', import.meta.url), 'utf8'), context);
   const news = await vm.runInContext('NewsService.getNews(true)', context);
-  assert.equal(news[0].headline, 'S&P 500 <script>alert(1)</script>');
+  context.news=news;
+  assert.equal(vm.runInContext('NewsService.prepareNews(news)[0].headline',context), 'S&P 500 <script>alert(1)</script>');
   const element = { innerHTML:'' };
   context.document = { getElementById: id => id === 'news-feed' ? element : null };
   context.news = news;

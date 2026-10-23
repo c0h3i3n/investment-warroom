@@ -393,57 +393,5 @@ if valid_indexes + valid_quotes == 0:
 atomic_json('indexes.json', {'timestamp': generated_at, 'generatedAt': generated_at, 'calendar': official_calendar, 'data': indexes})
 atomic_json('quotes.json', {'timestamp': generated_at, 'generatedAt': generated_at, 'calendar': official_calendar, 'data': quotes})
 
-rss_feeds = [
-    ('鉅亨', 'https://news.cnyes.com/rss/v1/news/category/headline', 'TW'),
-    ('台股', 'https://news.cnyes.com/rss/v1/news/category/tw_stock', 'TW'),
-    ('美股', 'https://news.cnyes.com/rss/v1/news/category/us_stock', 'US'),
-]
-news_items = []
-for source, rss_url, region in rss_feeds:
-    rss2json = f'https://api.rss2json.com/v1/api.json?rss_url={quote(rss_url)}'
-    data = get(rss2json, timeout=12)
-    if not data or data.get('status') != 'ok':
-        continue
-    for item in data.get('items', [])[:4]:
-        title = item.get('title', '')
-        published_raw = item.get('pubDate')
-        published_at = None
-        if published_raw:
-            try:
-                published_date = datetime.fromisoformat(published_raw.replace('Z', '+00:00'))
-                if published_date.tzinfo is None:
-                    published_date = published_date.replace(tzinfo=timezone.utc)
-                published_at = int(published_date.timestamp() * 1000)
-            except (TypeError, ValueError):
-                try:
-                    published_at = int(datetime.strptime(published_raw, '%Y-%m-%d %H:%M:%S').replace(tzinfo=timezone.utc).timestamp() * 1000)
-                except (TypeError, ValueError):
-                    published_at = None
-        lowered = title.lower()
-        positive = ['漲', '飆', '突破', '創高', '上調', '樂觀', 'surge', 'rally', 'record', 'upgrade']
-        negative = ['跌', '崩', '暴跌', '下修', '警', 'risk', 'crash', 'downgrade', 'plunge']
-        impact = 'pos' if any(word in lowered for word in positive) else 'neg' if any(word in lowered for word in negative) else 'neu'
-        news_items.append({
-            'region': region,
-            'feedRegion': region if rss_url.endswith(('tw_stock', 'us_stock')) else 'INTL',
-            'categories': item.get('categories', []) if isinstance(item.get('categories'), list) else [],
-            'headline': title[:80] + '…' if len(title) > 80 else title,
-            'source': source,
-            'time': datetime.fromtimestamp(published_at / 1000, TAIPEI).strftime('%H:%M') if published_at else '--:--',
-            'publishedAt': published_at,
-            'impact': impact,
-            'link': item.get('link', ''),
-        })
-
-seen = set()
-news = []
-for item in news_items:
-    key = item['headline'][:30]
-    if key not in seen:
-        seen.add(key)
-        news.append(item)
-if news:
-    news.sort(key=lambda item: item.get('publishedAt') or 0, reverse=True)
-    atomic_json('news.json', {'timestamp': generated_at, 'generatedAt': generated_at, 'data': news[:12]})
-
-print(f'✅ {datetime.now(TAIPEI).strftime("%H:%M:%S")}  Idx:{valid_indexes}/{len(indexes)}  Q:{valid_quotes}/{len(quotes)}  News:{len(news[:12])}')
+# News is fetched directly from the original RSS by scripts/fetch-news.mjs.
+print(f'✅ {datetime.now(TAIPEI).strftime("%H:%M:%S")}  Idx:{valid_indexes}/{len(indexes)}  Q:{valid_quotes}/{len(quotes)}')

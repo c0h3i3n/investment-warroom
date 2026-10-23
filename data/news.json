@@ -1,110 +1,489 @@
 {
-  "timestamp": "2026-10-20T14:57:33.508425+00:00",
-  "generatedAt": "2026-10-20T14:57:33.508425+00:00",
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-23T05:57:22.105Z",
+  "checkedAt": 1792735042105,
   "data": [
     {
-      "region": "TW",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股預估"
-      ],
-      "headline": "鉅亨速報 - Factset 最新調查：Mid-America Apartment Communities, Inc.MAA-US的目標價調降至134元，幅度約…",
-      "source": "鉅亨",
-      "time": "22:15",
-      "publishedAt": 1792505723000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6634511"
-    },
-    {
-      "region": "TW",
+      "headline": "Meta重挫逾6% 此前250億美元罰款背後 還有每年35億利息支出",
+      "link": "https://news.cnyes.com/news/id/6636545",
+      "publishedAt": 1792734005000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "headline": "百名經濟學家全押12月升息！Fed本月料先按兵不動",
-      "source": "鉅亨",
-      "time": "22:10",
-      "publishedAt": 1792505405000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6634486"
+      "fetchedAt": 1792735042105
     },
     {
-      "region": "TW",
+      "headline": "微軟研發AI診斷工具準確度超越醫師 研究登《Science》期刊",
+      "link": "https://news.cnyes.com/news/id/6636518",
+      "publishedAt": 1792734003000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "虛擬貨幣盤中"
+        "美股雷達"
       ],
-      "headline": "盤中速報 - 大零幣大漲8.77%，報1,215.2美元",
-      "source": "鉅亨",
-      "time": "22:05",
-      "publishedAt": 1792505120000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6634509"
+      "fetchedAt": 1792735042105
     },
     {
-      "region": "TW",
+      "headline": "Meta大跌7%能進場？「最純粹」AI贏家仍藏高風險",
+      "link": "https://news.cnyes.com/news/id/6636360",
+      "publishedAt": 1792733405000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "美股雷達"
       ],
-      "headline": "盤中速報 - 3M(MMM-US)大漲5.14%，報170.34美元",
-      "source": "鉅亨",
-      "time": "22:02",
-      "publishedAt": 1792504955000,
-      "impact": "pos",
-      "link": "https://news.cnyes.com/news/id/6634508"
+      "fetchedAt": 1792735042105
     },
     {
+      "headline": "二次暴倉在即？7月剛被強平 9月又押錯方向 華爾街「AI股神」再陷倉位危機",
+      "link": "https://news.cnyes.com/news/id/6636498",
+      "publishedAt": 1792731608000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "Meta財報亮眼卻遭股債雙殺！8250億美元承諾揭開AI投資真實代價",
+      "link": "https://news.cnyes.com/news/id/6636513",
+      "publishedAt": 1792731003000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：玉山金(2884-TW)EPS預估下修至2.49元，預估目標價為40元",
+      "link": "https://news.cnyes.com/news/id/6636531",
+      "publishedAt": 1792728634000,
+      "source": "鉅亨台股",
       "region": "TW",
       "feedRegion": "TW",
       "categories": [
-        "台灣政經"
+        "台股預估"
       ],
-      "headline": "蕭美琴：台灣PCB產業具兆元產值 政府續強化能源、人才協助產業升級",
-      "source": "台股",
-      "time": "21:38",
-      "publishedAt": 1792503506000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6634462"
+      "fetchedAt": 1792735042105
     },
     {
+      "headline": "鉅亨速報 - Factset 最新調查：中信金(2891-TW)EPS預估下修至4.28元，預估目標價為74元",
+      "link": "https://news.cnyes.com/news/id/6636530",
+      "publishedAt": 1792728633000,
+      "source": "鉅亨台股",
       "region": "TW",
       "feedRegion": "TW",
       "categories": [
-        "台灣政經"
+        "台股預估"
       ],
-      "headline": "AI神助攻中高齡！勞動部推「45+旅宿業指引」解鎖職涯第二春 紓解人力荒",
-      "source": "台股",
-      "time": "21:27",
-      "publishedAt": 1792502878000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6634413"
+      "fetchedAt": 1792735042105
     },
     {
+      "headline": "鉅亨速報 - Factset 最新調查：中砂(1560-TW)EPS預估上修至14.84元，預估目標價為900元",
+      "link": "https://news.cnyes.com/news/id/6636529",
+      "publishedAt": 1792728631000,
+      "source": "鉅亨台股",
       "region": "TW",
       "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：新日興(3376-TW)目標價調升至280元，幅度約5.66%",
+      "link": "https://news.cnyes.com/news/id/6636528",
+      "publishedAt": 1792728622000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "4000破了下一步看哪？金價今夏漲幅吐光 本周恐創7月來最慘 專家：走勢反常原因成謎",
+      "link": "https://news.cnyes.com/news/id/6636483",
+      "publishedAt": 1792727405000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "「像極了矽谷銀行那天！」 科技股血崩資金瘋搶美債 十年期殖利率摔破5% 黑天鵝序幕？",
+      "link": "https://news.cnyes.com/news/id/6636463",
+      "publishedAt": 1792724402000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "歐亞股"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "〈熱門股〉東台PCB鑽孔機接單滿載直達2027年底 周漲2成創近4個月新高",
+      "link": "https://news.cnyes.com/news/id/6636489",
+      "publishedAt": 1792723614000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
         "台股新聞"
       ],
-      "headline": "資本額20億以上非金融業注意 櫃買中心IFRS永續揭露專區改版上線",
-      "source": "台股",
-      "time": "21:27",
-      "publishedAt": 1792502846000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6634393"
+      "fetchedAt": 1792735042105
     },
     {
-      "region": "TW",
-      "feedRegion": "TW",
+      "headline": "今年首度突破央行2%目標！日本9月核心CPI年增2.1% 強化年底升息預期",
+      "link": "https://news.cnyes.com/news/id/6636419",
+      "publishedAt": 1792723202000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "歐亞股"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "沃爾瑪創1999年來最佳單月 必需消費股創紀錄大漲是警訊嗎？",
+      "link": "https://news.cnyes.com/news/id/6636466",
+      "publishedAt": 1792722604000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "艾克曼看好Meta「想融多少就融多少」 824億美元資產成底氣",
+      "link": "https://news.cnyes.com/news/id/6636472",
+      "publishedAt": 1792722003000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "美光台中工會協商成功！8成人員調薪近2.7倍 經部盼桃園廠跟進",
+      "link": "https://news.cnyes.com/news/id/6636455",
+      "publishedAt": 1792721706000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台灣政經"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "〈熱門股〉玉晶光攜手美商3M推進擴束光學技術生產 周漲6.91%",
+      "link": "https://news.cnyes.com/news/id/6636400",
+      "publishedAt": 1792721626000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
         "台股新聞"
       ],
-      "headline": "台積電高雄廠工安事故4人墜落送醫 相關工程已自主停工",
-      "source": "台股",
-      "time": "20:33",
-      "publishedAt": 1792499607000,
-      "impact": "neu",
-      "link": "https://news.cnyes.com/news/id/6634455"
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "一日反轉！SpaceX大跌9% 成市場AI資本支出焦慮犧牲品",
+      "link": "https://news.cnyes.com/news/id/6636475",
+      "publishedAt": 1792721404000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "CoreWeave債務壓力升溫 市值蒸發440億美元",
+      "link": "https://news.cnyes.com/news/id/6636362",
+      "publishedAt": 1792720859000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "長鑫4F²架構突破 美光爲何選擇不跟進？ 分析師：全球存儲市場步入分層博弈",
+      "link": "https://news.cnyes.com/news/id/6636469",
+      "publishedAt": 1792720203000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "AI交易風向球跌！南韓KOSPI率亞洲股市下挫 日元和美債成避風港",
+      "link": "https://news.cnyes.com/news/id/6636446",
+      "publishedAt": 1792719603000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "從「晶片荒」到「紅海」？ 輝達黃仁勳：2029年記憶體市場過剩可能性不大",
+      "link": "https://news.cnyes.com/news/id/6636454",
+      "publishedAt": 1792719004000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "下周觀盤重點、個股機會、以及該留意提防的風險",
+      "link": "https://news.cnyes.com/news/id/6635951",
+      "publishedAt": 1792717812000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "專家觀點"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "不只禁晶片出口！美國再從資金下手 AI、量子運算、極音速與生技都納管",
+      "link": "https://news.cnyes.com/news/id/6636450",
+      "publishedAt": 1792717242000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "看好2027年美股！避險基金大亨艾克曼：若戰爭與通膨降溫 市場將迎來強勁一年",
+      "link": "https://news.cnyes.com/news/id/6636437",
+      "publishedAt": 1792716604000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "輝達CUDA生態系遇挑戰！Google、亞馬遜從軟體下手 98%模型免大幅改寫",
+      "link": "https://news.cnyes.com/news/id/6636425",
+      "publishedAt": 1792716604000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "黃仁勳：美國必須「認真看待」中國 勿低估其AI與晶片製造實力",
+      "link": "https://news.cnyes.com/news/id/6636363",
+      "publishedAt": 1792715404000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "震撼反轉！SK海力士正式喊停Solidigm赴美IPO計畫 股價重摔逾4%",
+      "link": "https://news.cnyes.com/news/id/6636418",
+      "publishedAt": 1792714804000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "AI股震盪的避風港！蘋果今年大漲27%成標普最大後盾 高估值恐成隱憂",
+      "link": "https://news.cnyes.com/news/id/6635872",
+      "publishedAt": 1792714277000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：長榮航(2618-TW)EPS預估上修至4.19元，預估目標價為47.75元",
+      "link": "https://news.cnyes.com/news/id/6636424",
+      "publishedAt": 1792714247000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：致茂(2360-TW)EPS預估上修至45.93元，預估目標價為2800元",
+      "link": "https://news.cnyes.com/news/id/6636423",
+      "publishedAt": 1792714245000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "AI訂單不缺 缺的是錢！黃仁勳揭新雲端業者擴張困境",
+      "link": "https://news.cnyes.com/news/id/6636377",
+      "publishedAt": 1792713004000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "川普政府擬入股4家企業！砸3.89億美元支持功率半導體與關鍵材料研發",
+      "link": "https://news.cnyes.com/news/id/6636338",
+      "publishedAt": 1792712403000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "28億美元擴產計畫曝光！特斯拉、輝達據報聯手投資三星電機",
+      "link": "https://news.cnyes.com/news/id/6636376",
+      "publishedAt": 1792711803000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "莫德納崩跌逾17% 癌症疫苗試驗數據意外外流",
+      "link": "https://news.cnyes.com/news/id/6636393",
+      "publishedAt": 1792711202000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "別人退場他們掃貨 江蘇首富夫婦一路抄底買對了什麼？",
+      "link": "https://news.cnyes.com/news/id/6635776",
+      "publishedAt": 1792710602000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "A股"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "〈貴金屬盤後〉金價跌到逾兩個月低點 油價漲勢再度引發通膨焦慮",
+      "link": "https://news.cnyes.com/news/id/6635877",
+      "publishedAt": 1792709862000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "黃金"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "威騰電子盤後大跌 財報未能扭轉股價頹勢",
+      "link": "https://news.cnyes.com/news/id/6636359",
+      "publishedAt": 1792709402000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "馬斯克兩大事業有望合體？最大考驗在換股與估值 分析師：難創顯著上漲空間",
+      "link": "https://news.cnyes.com/news/id/6636378",
+      "publishedAt": 1792708802000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股"
+      ],
+      "fetchedAt": 1792735042105
+    },
+    {
+      "headline": "英特爾大跌8%美光挫逾6% 晶片股重挫3大原因解析",
+      "link": "https://news.cnyes.com/news/id/6636361",
+      "publishedAt": 1792708204000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1792735042105
     }
-  ]
+  ],
+  "failedSources": [],
+  "delivery": "live"
 }

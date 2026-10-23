@@ -383,6 +383,11 @@ const IndicatorsService = (() => {
     const ma20 = calcSMA(closes, 20);
     const ma60 = calcSMA(closes, 60);
     const volumeIndicator = analyzeVolume(rows, symbol);
+    const officialVolume = data.meta?.volumeSource === 'TWSE 全市場成交股數';
+    const interpreted = interpret(rsi, macd, stoch, ma20, ma60, rows.at(-1).close, volumeIndicator);
+    if (officialVolume) interpreted.filter(ind => ind.name.startsWith('日線成交量')).forEach(ind => {
+      ind.name='日線成交量 · TWSE（股）';
+    });
 
     const result = {
       symbol,
@@ -390,7 +395,7 @@ const IndicatorsService = (() => {
       calculatedAt: Date.now(),
       historyMeta: { ...data.meta, excludedIncomplete, ...historyFreshness(rows.at(-1).time, symbol),
         historical:Boolean(reason), historicalReason:reason },
-      indicators: interpret(rsi, macd, stoch, ma20, ma60, rows.at(-1).close, volumeIndicator),
+      indicators: interpreted,
       chartData: rows.slice(-60),
     };
     lastValid.set(symbol,result);

@@ -392,26 +392,28 @@ const UI = (() => {
   // ═══════════════════════════════════════
   // FEATURED · 重點關注
   // ═══════════════════════════════════════
-  function renderFeatured() {
+  function renderFeatured({ loading = false } = {}) {
     const container = document.getElementById('featured-row');
     if (!container) return;
     const featured = ['0050.TW', '2330.TW'];
     const quotes = window._featuredQuotes || window._watchlistQuotes || [];
-    const data = featured.map(sym => quotes.find(q => q.symbol === sym)).filter(Boolean);
-    if (!data.length) return;
+    const data = featured.map(symbol => quotes.find(q => q.symbol === symbol)
+      || {symbol,name:symbol === '0050.TW' ? '元大台灣50' : '台積電'});
 
     container.innerHTML = data.map(q => {
-      const hasData = isFiniteValue(q.price) && isFiniteValue(q.changePct);
+      const hasData = isFiniteValue(q.price) && isFiniteValue(q.changePct)
+        && (typeof DataService === 'undefined' || DataService.isFreshRecord(q,'TW'));
+      const closed = hasData && typeof DataService !== 'undefined' && !DataService.isMarketOpen('TW');
       const cls = chgClass(q.changePct);
       const arrow = chgArrow(q.changePct);
       const sym = q.symbol.replace('.TW', '');
       return `
-      <div class="featured-card">
+      <div class="featured-card" data-state="${hasData ? 'available' : loading ? 'loading' : 'unavailable'}" aria-busy="${!hasData && loading}">
         <div class="featured-sym">${sym}</div>
-        <div class="featured-name">${q.name || ''}</div>
+        <div class="featured-name">${escapeHtml(q.name || '')}</div>
         <div class="featured-price ${hasData ? cls : ''}" data-sym="${q.symbol}" title="${q.priceType === 'indicative' ? '≈ 代表買一／賣一中間報價，非最後成交價' : ''}">${hasData ? (q.priceType === 'indicative' ? '≈' : '') + Number(q.price).toFixed(2) : '--'}</div>
-        <div class="featured-chg ${hasData ? cls : ''}">${hasData ? arrow + ' ' + Math.abs(q.change || 0).toFixed(2) + ' (' + Math.abs(q.changePct).toFixed(2) + '%)' : '⚠ UNAVAILABLE'}</div>
-        <div class="featured-meta">${escapeHtml(quoteMeta(q))}</div>
+        <div class="featured-chg ${hasData ? cls : ''}">${hasData ? arrow + ' ' + Math.abs(q.change || 0).toFixed(2) + ' (' + Math.abs(q.changePct).toFixed(2) + '%)' : loading ? '載入中…' : '暫時無法取得'}</div>
+        <div class="featured-meta">${hasData ? escapeHtml((closed ? '最近收盤 · ' : '') + quoteMeta(q)) : loading ? '正在取得有效行情' : '本次請求已完成，尚無有效行情；可按更新行情重試'}</div>
       </div>`;
     }).join('');
 
@@ -476,7 +478,10 @@ const UI = (() => {
         + (indData.historyMeta?.excludedIncomplete ? ' · 盤中日線未納入' : '')
         + (indData.historyMeta?.delivery === 'stale-kv' ? ' · 更新失敗，使用快取' : '')
         + (indData.historyMeta?.rejectedRows ? ' · 已排除異常日線 ' + indData.historyMeta.rejectedRows + ' 筆' : '');
-      status.textContent += ' · 成交量及均量採同一 Yahoo 日線口徑，不等同交易所全市場日報總量';
+      status.textContent += indData.historyMeta?.volumeSource === 'TWSE 全市場成交股數'
+        ? ' · 成交量與20日均量均採 TWSE 全市場成交股數（含零股、盤後與鉅額）'
+        : ' · 成交量及均量採同一 Yahoo 日線口徑，不等同交易所全市場日報總量';
+      if (indData.historyMeta?.repairedDates?.length) status.textContent += ' · 官方補齊 ' + indData.historyMeta.repairedDates.join('、') + '，已核對價格基準';
       grid.appendChild(status);
     }
 
@@ -559,6 +564,16 @@ const UI = (() => {
     if (Array.isArray(newsItems)) lastNewsItems = newsItems;
     const container = document.getElementById('news-feed');
     if (!container) return;
+    const newsStatus = document.getElementById('news-status');
+    if (newsStatus) {
+      const meta = newsItems?.meta || {};
+      const acquired = Date.parse(meta.generatedAt || '');
+      const time = Number.isFinite(acquired) ? new Intl.DateTimeFormat('zh-TW', {timeZone:'Asia/Taipei',
+        month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(acquired)) : '時間未確認';
+      const backup = ['static','memory','stale-kv'].includes(meta.delivery);
+      newsStatus.textContent = newsItems?.length ? `${backup ? '備援新聞' : '來源新聞'} · 取得 ${time}${meta.failedSources?.length ? ' · 部分來源暫時無法更新' : ''} · 各則標示原始發布時間`
+        : '新聞目前無法取得；不顯示超過 72 小時或發布時間不明的資料。';
+    }
     if (!Array.isArray(newsItems) || newsItems.length === 0) {
       container.innerHTML = '<div class="loading-indicator" style="grid-column:1/-1">⚠ CURRENT NEWS UNAVAILABLE · 未顯示舊新聞</div>';
       return;

@@ -142,6 +142,7 @@ const App = (() => {
     const generation = ++refreshGeneration;
     if (forceRefresh) DataService.clearCache();
     UI.setRefreshing(true);
+    UI.renderFeatured({loading:true});
     usingFallback = false;
     const watchlist = loadWatchlist();
     const wSymbols = watchlist.map(w => w.symbol);
@@ -355,6 +356,7 @@ const App = (() => {
       return currentFreshness().length > 0;
     } finally {
       clearTimeout(statusDeadline);
+      if (generation === refreshGeneration) UI.renderFeatured();
       UI.setRefreshing(false);
       refreshInFlight = false;
       if (pendingForceRefresh) {
@@ -397,6 +399,7 @@ const App = (() => {
         ...quotes,
       ]);
       const news = Array.isArray(newsEnvelope?.data) ? newsEnvelope.data : null;
+      if (news) news.meta={generatedAt:newsEnvelope.generatedAt || newsEnvelope.timestamp,delivery:'static'};
       
       if (indexes.length > 0) {
         indexData = indexes;
@@ -684,9 +687,11 @@ const App = (() => {
     UI.renderIndexCards(indexData);
     UI.renderIndexSparklines({});
     UI.renderWatchlist(watchData);
-    UI.renderFeatured();
+    UI.renderFeatured({loading:true});
     UI.renderTicker(watchData);
     UI.renderNews([]);
+    const newsStatus = document.getElementById('news-status');
+    if (newsStatus) newsStatus.textContent = '正在取得有發布時間的新聞…';
     // Only the initial shell is pending; real responses retain unavailable labels.
     const pendingLabels = new Map([
       ['⚠ DATA UNAVAILABLE', '載入中…'], ['UNAVAILABLE', '載入中…'],

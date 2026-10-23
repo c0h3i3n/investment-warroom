@@ -1,11 +1,11 @@
 // ═══════════════════════════════════════
 // J.A.R.V.I.S · NEWS INTELLIGENCE FEED
-// RSS via rss2json.com (no CORS issues)
+// Original RSS is read by the Worker; dated snapshots provide an outage fallback.
 // ═══════════════════════════════════════
 
 const NewsService = (() => {
 
-  const RSS2JSON = 'https://api.rss2json.com/v1/api.json?rss_url=';
+  const MAX_NEWS_AGE = 72 * 3600000;
 
   function parsePublishedAt(value) {
     if (typeof value !== 'string' || !value.trim()) return null;
@@ -78,60 +78,23 @@ const NewsService = (() => {
     }).sort((a,b) => b.score - a.score || Number(b.publishedAt || 0) - Number(a.publishedAt || 0)).slice(0,10);
   }
 
-  // ── Fetch a single RSS feed via rss2json ──
-  async function fetchFeed(feedConfig) {
-    try {
-      const url = RSS2JSON + encodeURIComponent(feedConfig.url);
-      const resp = await fetch(url, { signal: requestTimeoutSignal(12000) });
-      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-      const data = await resp.json();
-      if (data.status !== 'ok' || !data.items) throw new Error('rss2json failed');
-
-      return data.items.slice(0, 10).map(item => {
-        const publishedAt = parsePublishedAt(item.pubDate);
-        const time = publishedAt
-          ? new Date(publishedAt).toLocaleTimeString('zh-TW', { timeZone:'Asia/Taipei', hour:'2-digit', minute:'2-digit', hour12:false })
-          : '--:--';
-        const source = (item.author || feedConfig.name || '').replace(/\(.*\)/, '').trim().slice(0, 12);
-
-        const headline = truncate(decodeHeadline(item.title), 80);
-        return {
-          region: feedConfig.region,
-          feedRegion: /\/(tw_stock|us_stock)$/.test(feedConfig.url) ? feedConfig.region : 'INTL',
-          categories: Array.isArray(item.categories) ? item.categories : [],
-          headline,
-          source: source || feedConfig.name,
-          time,
-          publishedAt,
-          link: item.link || '',
-        };
-      });
-    } catch (e) {
-      console.warn(`RSS ${feedConfig.name}:`, e.message);
-      return [];
-    }
+  function currentItems(items) {
+    return (Array.isArray(items) ? items : []).filter(item => {
+      const time = Number(item?.publishedAt);
+      return item && typeof item.headline === 'string' && Number.isFinite(time)
+        && time > 0 && time <= Date.now() + 300000 && Date.now() - time <= MAX_NEWS_AGE;
+    });
   }
 
-  // ── Fetch all feeds and merge ──
-  async function fetchAllFeeds() {
-    const results = await Promise.all(CONFIG.RSS_FEEDS.map(f => fetchFeed(f)));
-    const allNews = results.flat().sort((a, b) => Number(b.publishedAt || 0) - Number(a.publishedAt || 0));
-
-    if (allNews.length === 0) {
-      console.info('No current RSS feeds available');
-      return [];
-    }
-
-    // Deduplicate
-    const seen = new Set();
-    const deduped = allNews.filter(n => {
-      const k = n.headline.slice(0, 30);
-      if (seen.has(k)) return false;
-      seen.add(k);
-      return true;
-    });
-
-    return deduped.slice(0, 30);
+  async function readSnapshot(url, timeout) {
+    const response = await fetch(url, {cache:'no-store',signal:requestTimeoutSignal(timeout)});
+    if (!response.ok) throw new Error(`News HTTP ${response.status}`);
+    const payload = await response.json();
+    const items = currentItems(payload.data);
+    if (!items.length) throw new Error('No recent dated news');
+    items.meta = {generatedAt:payload.generatedAt || payload.timestamp,
+      delivery:payload.delivery || 'static', failedSources:payload.failedSources || []};
+    return items;
   }
 
   // ── Get news (cached or fresh) ──
@@ -141,10 +104,21 @@ const NewsService = (() => {
 
   async function getNews(forceRefresh = false) {
     if (!forceRefresh && cachedNews && (Date.now() - lastFetch) < CONFIG.REFRESH_NEWS) {
-      return cachedNews;
+      const retained = currentItems(cachedNews);
+      retained.meta = cachedNews.meta;
+      if (retained.length) return retained;
     }
     const requestId = ++requestEpoch;
-    const news = await fetchAllFeeds();
+    let news = null;
+    if (CONFIG.MARKET_API) {
+      try {
+        news = await readSnapshot(`${CONFIG.MARKET_API.replace(/\/$/, '')}/api/news?_wr=${Date.now()}`,7000);
+      } catch (error) { console.warn('News backend:',error.message); }
+    }
+    if (!news) {
+      try { news = await readSnapshot(`data/news.json?_wr=${Date.now()}`,3000); news.meta.delivery='static'; }
+      catch { news = currentItems(cachedNews); news.meta={...cachedNews?.meta,delivery:'memory'}; }
+    }
     if (requestId === requestEpoch) {
       cachedNews = news;
       lastFetch = Date.now();
@@ -152,5 +126,5 @@ const NewsService = (() => {
     return news;
   }
 
-  return { getNews, prepareNews, parsePublishedAt };
+  return { getNews, prepareNews, parsePublishedAt, currentItems };
 })();

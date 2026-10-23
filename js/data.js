@@ -618,6 +618,8 @@ const DataService = (() => {
           data.meta = { generatedAt:payload.generatedAt, sourceAsOf:payload.sourceAsOf,
             delivery:payload.delivery,
             rejectedRows:payload.rejectedRows || 0, source:payload.source };
+          Object.assign(data.meta,{volumeSource:payload.volumeSource,repairedDates:payload.repairedDates,
+            priceBasis:payload.priceBasis,repairWarning:payload.repairWarning});
           if (payload?.schemaVersion === 1 && data.length >= 2) {
             if (requestEpoch === cacheEpoch) setCache(key, data);
             return data;
