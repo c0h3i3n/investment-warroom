@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-23T03:07:17.033332+00:00",
-  "generatedAt": "2026-10-23T03:07:17.033332+00:00",
+  "timestamp": "2026-10-23T03:12:24.000611+00:00",
+  "generatedAt": "2026-10-23T03:12:24.000611+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-10-23",
-    "attemptedAt": 1792724824726,
+    "attemptedAt": 1792725142231,
     "annual": {
       "year": 2026,
       "closed": [
@@ -33,7 +33,7 @@
         "2026-10-26",
         "2026-12-25"
       ],
-      "checkedAt": 1792724824726,
+      "checkedAt": 1792725047539,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     },
     "closures": [
@@ -43,23 +43,29 @@
         "reason": "臺灣證券交易所集中交易市場115年10月23日休市一天",
         "source": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a0fa351b01a1638507a10203",
         "publishedAt": 1792671000000
+      },
+      {
+        "date": "2026-10-23",
+        "scope": "TAIFEX",
+        "reason": "因薔琵颱風來襲，115年10月23日(星期五)臺灣期貨交易所集中交易市場休市1日(包含一般交易時段及盤後交易時段)，店頭集中結算業務暫停營業1日",
+        "source": "https://www.taifex.com.tw/cht/index"
       }
     ],
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1792724824726,
+        "checkedAt": 1792725142231,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1792724824726,
+        "checkedAt": 1792725142231,
         "error": null
       },
       "futures": {
-        "ok": false,
-        "checkedAt": null,
-        "error": "The operation was aborted due to timeout"
+        "ok": true,
+        "checkedAt": 1792725142231,
+        "error": null
       }
     }
   },
