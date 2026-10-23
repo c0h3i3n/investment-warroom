@@ -1,6 +1,68 @@
 {
-  "timestamp": "2026-10-22T23:15:05.563665+00:00",
-  "generatedAt": "2026-10-22T23:15:05.563665+00:00",
+  "timestamp": "2026-10-23T03:07:17.033332+00:00",
+  "generatedAt": "2026-10-23T03:07:17.033332+00:00",
+  "calendar": {
+    "schemaVersion": 1,
+    "date": "2026-10-23",
+    "attemptedAt": 1792724824726,
+    "annual": {
+      "year": 2026,
+      "closed": [
+        "2026-01-01",
+        "2026-02-12",
+        "2026-02-13",
+        "2026-02-15",
+        "2026-02-16",
+        "2026-02-17",
+        "2026-02-18",
+        "2026-02-19",
+        "2026-02-20",
+        "2026-02-27",
+        "2026-02-28",
+        "2026-04-03",
+        "2026-04-04",
+        "2026-04-05",
+        "2026-04-06",
+        "2026-05-01",
+        "2026-06-19",
+        "2026-09-25",
+        "2026-09-28",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-12-25"
+      ],
+      "checkedAt": 1792724824726,
+      "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
+    },
+    "closures": [
+      {
+        "date": "2026-10-23",
+        "scope": "TW",
+        "reason": "臺灣證券交易所集中交易市場115年10月23日休市一天",
+        "source": "https://www.twse.com.tw/rwd/zh/news/newsDetail/8a8216d6a0fa351b01a1638507a10203",
+        "publishedAt": 1792671000000
+      }
+    ],
+    "checks": {
+      "annual": {
+        "ok": true,
+        "checkedAt": 1792724824726,
+        "error": null
+      },
+      "notices": {
+        "ok": true,
+        "checkedAt": 1792724824726,
+        "error": null
+      },
+      "futures": {
+        "ok": false,
+        "checkedAt": null,
+        "error": "The operation was aborted due to timeout"
+      }
+    }
+  },
   "data": [
     {
       "symbol": "0050.TW",
