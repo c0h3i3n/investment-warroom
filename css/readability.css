@@ -184,6 +184,9 @@ body { font-family:var(--reading); background:var(--void); }
 .data-timing { display:grid; gap:3px; min-width:0; }
 .data-caption { font-size:11px; color:var(--text-dim); }
 .data-note { font-size:11px; color:var(--text-dim); line-height:1.6; }
+#calendar-verification { display:block; max-width:1050px; overflow-wrap:anywhere; text-underline-offset:3px; }
+#calendar-verification[data-state="closed-announcement"],
+#calendar-verification[data-state="unverified"] { color:var(--yellow, #ffc857); }
 .quick-nav { display:none; }
 #index-cards,#night-section,#technical-section,#watch-section { scroll-margin-top:70px; }
 .watch-tools { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 14px; }

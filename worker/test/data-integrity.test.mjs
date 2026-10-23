@@ -53,7 +53,9 @@ test('actual history route refreshes a 13:45 cache whose source was still 13:25'
     }]}}));
   };
   const cached = {generatedAt:'2026-10-15T05:45:07Z',sourceAsOf:ms('2026-10-15T05:25:00Z'),data:[row('2026-10-14'),row('2026-10-15')]};
-  const response = await handleRequest(new Request('https://worker.example/api/history?symbol=0050.TW&range=6mo&interval=1d'),{MARKET_CACHE:{get:async()=>cached,put:async()=>{}}});
+  const calendar = {schemaVersion:1,attemptedAt:Date.now(),closures:[],checks:{}};
+  const response = await handleRequest(new Request('https://worker.example/api/history?symbol=0050.TW&range=6mo&interval=1d'),{MARKET_CACHE:{
+    get:async key=>key==='market:official-calendar:v1'?calendar:cached,put:async()=>{}}});
   assert.equal((await response.json()).delivery,'live');
   assert.equal(requests,1);
 });

@@ -56,8 +56,27 @@ const App = (() => {
     const twLabel = document.getElementById('twLabel');
     const usOrb = document.getElementById('usOrb');
     const usLabel = document.getElementById('usLabel');
+    const verification = MarketCalendar.verification(now.getTime());
+    const calendarNote = document.getElementById('calendar-verification');
+    if (calendarNote) {
+      const time = verification.checkedAt ? new Intl.DateTimeFormat('zh-TW', {
+        timeZone: 'Asia/Taipei', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false,
+      }).format(new Date(verification.checkedAt)) : '尚未完成';
+      const description = verification.status === 'closed-announcement' ? `台股臨時休市：${verification.reason}`
+        : verification.status === 'closed-calendar' ? '台股依日曆休市'
+        : verification.status === 'scheduled' ? '台股依年度日曆預定交易；截至查核未發現明確休市公告'
+        : '台股開休市官方查核尚未確認；交易時段僅供參考';
+      calendarNote.textContent = `${description} · 公告查核 ${time}${verification.checked ? '' : '（本次查核未完成或已逾時）'}`;
+      calendarNote.href = verification.source;
+      calendarNote.dataset.state = verification.status;
+      if (verification.futuresClosure) calendarNote.textContent += ' · 期交所已公告當日日盤及夜盤休市';
+      else if (!verification.futuresChecked) calendarNote.textContent += ' · 期交所公告待確認';
+    }
 
-    if (isWeekday(twTime) && twMinutes >= 540 && twMinutes < 810) {
+    if (verification.status === 'unverified') {
+      if (twOrb) twOrb.className = 'status-orb pre';
+      if (twLabel) twLabel.textContent = 'TW CHECK';
+    } else if (isWeekday(twTime) && twMinutes >= 540 && twMinutes < 810) {
       if (twOrb) twOrb.className = 'status-orb live';
       if (twLabel) twLabel.textContent = 'TW OPEN';
     } else {
@@ -163,6 +182,7 @@ const App = (() => {
           if (CONFIG.MARKET_API) console.warn('Market backend failed, using browser fallback:', error.message);
           return null;
         });
+        updateMarketStatus();
 
         if (!backend || backend.indexes.length < CONFIG.INDEXES.length
           || allQuoteSymbols.some(symbol => !backend.quotes.some(q => q.symbol === symbol))) {

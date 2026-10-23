@@ -1,5 +1,6 @@
 import '../../js/market-calendar.js';
 import '../../js/history-validation.js';
+import { CALENDAR_KEY, refreshOfficialCalendar } from './official-calendar.mjs';
 const SNAPSHOT_KEY = 'market:snapshot:v1';
 const NIGHT_MARKET_KEY = 'market:night:v1';
 const SNAPSHOT_MAX_AGE_MS = 7 * 60 * 1000;
@@ -247,7 +248,9 @@ function taipeiParts(timestamp = Date.now()) {
 
 function nextTwTradingDay(dayNumber) {
   for (let day = dayNumber + 86400000; day <= dayNumber + 31 * 86400000; day += 86400000) {
-    if (MarketCalendar.tradingDay('TW', day)) return day;
+    // Session labels use the announced annual schedule, not a later emergency
+    // closure; otherwise an already completed night session is relabelled.
+    if (MarketCalendar.scheduledTradingDay('TW', day)) return day;
   }
   return null;
 }
@@ -256,7 +259,7 @@ function latestNightSessionStart(nowMs = Date.now()) {
   const parts = taipeiParts(nowMs);
   let day = parts.dayNumber - (parts.minutes < 15 * 60 ? 86400000 : 0);
   for (let attempts = 0; attempts < 31; attempts += 1, day -= 86400000) {
-    if (MarketCalendar.tradingDay('TW', day)) return day;
+    if (MarketCalendar.nightStartDay(day)) return day;
   }
   return null;
 }
@@ -270,7 +273,7 @@ export function nightTradingDayForTimestamp(timestamp) {
   let sessionStart = parts.dayNumber;
   if (parts.minutes <= 5 * 60) sessionStart -= 86400000;
   else if (parts.minutes < 15 * 60) return null;
-  if (!MarketCalendar.tradingDay('TW', sessionStart)) return null;
+  if (!MarketCalendar.nightStartDay(sessionStart)) return null;
   return nextTwTradingDay(sessionStart);
 }
 
@@ -281,8 +284,8 @@ export function expectedNightTradingDay(nowMs = Date.now()) {
 
 export function isNightSessionOpen(nowMs = Date.now()) {
   const parts = taipeiParts(nowMs);
-  if (parts.minutes >= 15 * 60) return MarketCalendar.tradingDay('TW', parts.dayNumber);
-  if (parts.minutes < 5 * 60) return MarketCalendar.tradingDay('TW', parts.dayNumber - 86400000);
+  if (parts.minutes >= 15 * 60) return MarketCalendar.nightStartDay(parts.dayNumber);
+  if (parts.minutes < 5 * 60) return MarketCalendar.nightStartDay(parts.dayNumber - 86400000);
   return false;
 }
 
@@ -656,6 +659,18 @@ async function refreshAndStore(env) {
   return merged;
 }
 
+async function loadOfficialCalendar(env, refresh = false) {
+  if (!env?.MARKET_CACHE) return;
+  let state = await env.MARKET_CACHE.get(CALENDAR_KEY, { type: 'json' }).catch(() => null);
+  if (state?.schemaVersion !== 1 || !Array.isArray(state.closures)) state = null;
+  // The scheduled job does the external checks. Requests normally only read KV.
+  if (refresh || !state || Date.now() - state.attemptedAt > 10 * 60000) {
+    state = await refreshOfficialCalendar(state);
+    await safeCachePut(env, CALENDAR_KEY, JSON.stringify(state));
+  }
+  MarketCalendar.applyOfficial(state);
+}
+
 function corsHeaders(request) {
   const origin = request.headers.get('Origin') || '*';
   const allowed = origin === 'https://c0h3i3n.github.io'
@@ -779,7 +794,7 @@ async function handleNightMarketRequest(request, env) {
   }
 }
 
-export async function handleRequest(request, env) {
+async function handleMarketRequest(request, env) {
   if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: corsHeaders(request) });
   if (request.method !== 'GET') return jsonResponse({ error: 'Method not allowed' }, 405, request);
 
@@ -868,9 +883,26 @@ export async function handleRequest(request, env) {
   return jsonResponse({ error: 'Market data unavailable' }, 503, request);
 }
 
+export async function handleRequest(request, env) {
+  const path = new URL(request.url).pathname;
+  if (request.method === 'GET' && (path.startsWith('/api/') || path === '/health')) {
+    await loadOfficialCalendar(env).catch(error => console.warn('Official calendar check failed', error));
+  }
+  if (path === '/api/market-calendar' && request.method === 'GET') {
+    return jsonResponse({ calendar: MarketCalendar.officialState(), verification: MarketCalendar.verification() }, 200, request);
+  }
+  const response = await handleMarketRequest(request, env);
+  if (request.method === 'GET' && ['/api/market', '/api/night-market', '/health'].includes(path)) {
+    const payload = await response.json();
+    return jsonResponse({ ...payload, calendar: MarketCalendar.officialState() }, response.status, request);
+  }
+  return response;
+}
+
 export default {
   fetch: handleRequest,
   async scheduled(_controller, env, ctx) {
-    ctx.waitUntil(refreshAndStore(env).catch(error => console.error('Scheduled refresh failed', error)));
+    ctx.waitUntil(loadOfficialCalendar(env, true).then(() => refreshAndStore(env))
+      .catch(error => console.error('Scheduled refresh failed', error)));
   },
 };

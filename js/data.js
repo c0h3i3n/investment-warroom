@@ -123,6 +123,7 @@ const DataService = (() => {
     const generatedAt = Date.parse(envelope?.generatedAt || envelope?.timestamp || '');
     const age = Date.now() - generatedAt;
     if (!Number.isFinite(age) || age < -300000 || age > 30 * 86400000) return [];
+    MarketCalendar.applyOfficial(envelope.calendar);
     return (Array.isArray(envelope?.data) ? envelope.data : []).filter(record => {
       const region = record.region || (/\.TW$/i.test(record.symbol || '') ? 'TW' : 'US');
       // During a session both delivery and source must be fresh. After close,
@@ -218,6 +219,7 @@ const DataService = (() => {
       throw new Error('Invalid market backend response');
     }
 
+    MarketCalendar.applyOfficial(payload.calendar);
     const indexes = payload.indexes
       .map(record => {
         const config = CONFIG.INDEXES.find(index => index.id === record?.id || index.symbol === record?.symbol);
@@ -265,6 +267,7 @@ const DataService = (() => {
       || !Number.isFinite(Number(payload.price)) || !Number.isFinite(Number(payload.asOf))) {
       throw new Error('Invalid night market response');
     }
+    MarketCalendar.applyOfficial(payload.calendar);
     latestNightQuote = preferNightQuote(latestNightQuote, payload);
     return latestNightQuote;
   }

@@ -8,10 +8,45 @@ globalThis.MARKET_HOLIDAYS = /* calendar:start */ {
 } /* calendar:end */;
 globalThis.MarketCalendar = (() => {
   const dayMs = 86400000;
-  function tradingDay(region, day) {
+  let official = null;
+  function applyOfficial(state) {
+    if (state?.schemaVersion !== 1 || !Array.isArray(state.closures)
+      || !Number.isFinite(state.attemptedAt)) return false;
+    if (official && state.attemptedAt < official.attemptedAt) return false;
+    official = state;
+    return true;
+  }
+  function scheduledTradingDay(region, day) {
     const date = new Date(day);
+    const key = date.toISOString().slice(0, 10);
+    const holidays = region === 'TW' && official?.annual?.year === date.getUTCFullYear()
+      ? official.annual.closed : MARKET_HOLIDAYS[region] || [];
     return ![0, 6].includes(date.getUTCDay())
-      && !(MARKET_HOLIDAYS[region] || []).includes(date.toISOString().slice(0, 10));
+      && !holidays.includes(key);
+  }
+  function closure(scope, day) {
+    const key = new Date(day).toISOString().slice(0, 10);
+    return official?.closures.find(item => item.scope === scope && item.date === key);
+  }
+  function tradingDay(region, day) {
+    return scheduledTradingDay(region, day) && !(region === 'TW' && closure('TW', day));
+  }
+  function nightStartDay(day) {
+    return scheduledTradingDay('TW', day) && !closure('TAIFEX', day);
+  }
+  function verification(now = Date.now()) {
+    const date = new Date(now + 8 * 3600000).toISOString().slice(0, 10);
+    const day = Date.parse(date);
+    const notice = closure('TW', day);
+    const fresh = official?.date === date && now >= official.attemptedAt
+      && now - official.attemptedAt <= 10 * 60000;
+    const checked = Boolean(fresh && official.checks?.annual?.ok && official.checks?.notices?.ok);
+    return { date, status: notice ? 'closed-announcement' : !scheduledTradingDay('TW', day)
+      ? 'closed-calendar' : checked ? 'scheduled' : 'unverified',
+      checked, checkedAt: official?.checks?.notices?.checkedAt || null,
+      reason: notice?.reason || null, source: notice?.source || 'https://www.twse.com.tw/zh/terms/rss.html',
+      futuresChecked: Boolean(fresh && official.checks?.futures?.ok),
+      futuresClosure: closure('TAIFEX', day) || null };
   }
   function closeMinutes(region, day) {
     if (region === 'TW') return 810;
@@ -25,5 +60,6 @@ globalThis.MarketCalendar = (() => {
     }
     return NaN;
   }
-  return { tradingDay, closeMinutes, latestSession };
+  return { tradingDay, scheduledTradingDay, nightStartDay, closeMinutes, latestSession,
+    applyOfficial, verification, officialState: () => official };
 })();

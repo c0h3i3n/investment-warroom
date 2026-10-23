@@ -310,6 +310,26 @@ def atomic_json(filename, payload):
             os.unlink(temp_name)
 
 
+# Use the same official calendar as the Worker/browser, including emergency
+# closures. If the service is down, retain previously confirmed closures only;
+# its old checkedAt is deliberately not advanced.
+calendar_response = get('https://investment-warroom-market.investment-warroom.workers.dev/api/market-calendar', timeout=10) or {}
+official_calendar = calendar_response.get('calendar')
+if not isinstance(official_calendar, dict) or official_calendar.get('schemaVersion') != 1:
+    try:
+        with open(os.path.join(DATA_DIR, 'indexes.json'), encoding='utf-8') as saved:
+            official_calendar = json.load(saved).get('calendar')
+    except (OSError, ValueError):
+        official_calendar = None
+if isinstance(official_calendar, dict):
+    annual = official_calendar.get('annual') or {}
+    if isinstance(annual.get('closed'), list) and isinstance(annual.get('year'), int):
+        prefix = str(annual['year']) + '-'
+        HOLIDAYS['TW'] = [day for day in HOLIDAYS['TW'] if not day.startswith(prefix)] + annual['closed']
+    for closure in official_calendar.get('closures', []):
+        if closure.get('scope') == 'TW' and isinstance(closure.get('date'), str):
+            HOLIDAYS['TW'].append(closure['date'])
+
 generated_at = datetime.now(timezone.utc).isoformat()
 
 index_config = [
@@ -363,8 +383,8 @@ if valid_indexes + valid_quotes == 0:
     print('   Missing quotes: ' + ', '.join(item['symbol'] for item in quotes if not item.get('price')), file=sys.stderr)
     sys.exit(1)
 
-atomic_json('indexes.json', {'timestamp': generated_at, 'generatedAt': generated_at, 'data': indexes})
-atomic_json('quotes.json', {'timestamp': generated_at, 'generatedAt': generated_at, 'data': quotes})
+atomic_json('indexes.json', {'timestamp': generated_at, 'generatedAt': generated_at, 'calendar': official_calendar, 'data': indexes})
+atomic_json('quotes.json', {'timestamp': generated_at, 'generatedAt': generated_at, 'calendar': official_calendar, 'data': quotes})
 
 rss_feeds = [
     ('鉅亨', 'https://news.cnyes.com/rss/v1/news/category/headline', 'TW'),

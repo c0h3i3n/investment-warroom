@@ -9,7 +9,8 @@ test('index series uses official data, normalizes seconds and reuses fresh cache
   t.after(() => { globalThis.fetch = oldFetch; Date.now = oldNow; });
   let saved = null, requests = 0;
   const env = { MARKET_CACHE: {
-    get: async () => saved,
+    get: async key => key === 'market:official-calendar:v1'
+      ? {schemaVersion:1,attemptedAt:now,closures:[],checks:{}} : saved,
     put: async (key, value) => { saved = JSON.parse(value); },
   }};
   globalThis.fetch = async url => {
