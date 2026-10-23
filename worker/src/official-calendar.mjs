@@ -94,7 +94,7 @@ async function get(url) {
   return response;
 }
 
-export async function refreshOfficialCalendar(previous = null, now = Date.now()) {
+export async function refreshOfficialCalendar(previous = null, now = Date.now(), allowBackup = true) {
   const date = new Date(now + 8 * 3600000).toISOString().slice(0, 10);
   const year = Number(date.slice(0, 4));
   const prior = previous?.schemaVersion === 1 ? previous : {};
@@ -117,6 +117,31 @@ export async function refreshOfficialCalendar(previous = null, now = Date.now())
       error: result.status === 'rejected' ? String(result.reason?.message || 'Official check failed')
         : result.value.unresolved?.length ? 'Announcement requires manual review' : null };
     if (result.status === 'fulfilled') for (const item of result.value.closures || []) merged.set(`${item.scope}:${item.date}`, item);
+  }
+  // A second execution network reads the SAME official sources. Preserve the
+  // original verification time; fetching a backup does not make it current.
+  if (allowBackup && [notices, futures].some(result => result.status === 'rejected')) {
+    try {
+      const backup = await (await get('https://c0h3i3n.github.io/investment-warroom/data/calendar.json')).json();
+      if (backup?.schemaVersion === 1 && Array.isArray(backup.closures)) {
+        for (const item of backup.closures) {
+          const source = new URL(item.source);
+          const trusted = item.scope === 'TW' ? source.origin === 'https://www.twse.com.tw'
+            && source.pathname.startsWith('/rwd/zh/news/newsDetail/')
+            : item.scope === 'TAIFEX' && item.source === SOURCES.futures;
+          if (trusted && validDate(item.date) && Date.parse(item.date) > now - 400 * DAY) {
+            merged.set(`${item.scope}:${item.date}`, item);
+          }
+        }
+        for (const name of ['notices', 'futures']) {
+          const check = backup.checks?.[name];
+          if (!state.checks[name].ok && check?.ok && check.checkedAt <= now
+            && now - check.checkedAt <= 10 * 60000) {
+            state.checks[name] = {...check, delivery:'github-official-check', directError:state.checks[name].error};
+          }
+        }
+      }
+    } catch { /* Keep explicit failed-check state and previously known closures. */ }
   }
   state.closures = [...merged.values()];
   return state;

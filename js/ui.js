@@ -157,7 +157,7 @@ const UI = (() => {
 
     setNightStatus(data);
 
-    const state = data.status === 'open' ? '夜盤交易中' : '夜盤已收盤';
+    const state = data.calendarUnverified ? '夜盤開休市待確認' : data.status === 'open' ? '夜盤交易中' : '夜盤已收盤';
     const stateClass = data.status === 'open' ? 'live' : 'closed';
     const asOf = isFiniteValue(data.asOf) ? new Intl.DateTimeFormat('zh-TW', {
       timeZone:'Asia/Taipei', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', second:'2-digit', hour12:false,
@@ -192,7 +192,9 @@ const UI = (() => {
     const drivers = analysis.drivers.map(driver =>
       `<span class="night-driver"><b>${escapeHtml(driver.label)}</b> ${escapeHtml(driver.value)}</span>`).join('');
     const refreshFailed = Boolean(data.warning);
-    const warning = data.delayed
+    const warning = data.calendarUnverified
+        ? '<div class="night-warning">⚠ 期交所官方開休市查核未完成或已逾時，方向判斷暫停；下列僅為最後取得行情。</div>'
+      : data.delayed
         ? '<div class="night-warning">⚠ 行情延遲 3–5 分鐘，方向僅供參考</div>'
       : refreshFailed || data.delivery === 'stale-kv'
         ? '<div class="night-warning">⚠ 即時更新失敗，顯示最近有效夜盤資料</div>' : '';
@@ -210,7 +212,7 @@ const UI = (() => {
         <div class="night-asof">行情時間 ${asOf}</div>
       </div>
       ${warning}
-      <div class="night-context">${data.status === 'open' ? '夜盤交易中' : '最近夜盤收盤，非目前即時方向'} · ${escapeHtml(scope)}。</div>
+      <div class="night-context">${data.calendarUnverified ? '官方開休市待確認，非已確認交易中訊號' : data.status === 'open' ? '夜盤交易中' : '最近夜盤收盤，非目前即時方向'} · ${escapeHtml(scope)}。</div>
       <details class="night-details" ${detailsOpen ? 'open' : ''}>
       <summary>${data.status === 'open' ? '夜盤行情' : '最近夜盤收盤'} · ${level(data.price)} 點 · ${arrow} ${Math.abs(Number(data.changePct)).toFixed(2)}% <span>展開／收合明細</span></summary>
       <div class="night-layout">
@@ -747,6 +749,9 @@ const UI = (() => {
     if (!data) {
       orb.className = 'status-orb off';
       label.textContent = 'NIGHT OFFLINE';
+    } else if (data.calendarUnverified) {
+      orb.className = 'status-orb pre';
+      label.textContent = 'NIGHT CHECK';
     } else if (data.stale) {
       orb.className = 'status-orb off';
       label.textContent = 'NIGHT STALE';

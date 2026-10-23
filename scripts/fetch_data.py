@@ -315,6 +315,13 @@ def atomic_json(filename, payload):
 # its old checkedAt is deliberately not advanced.
 calendar_response = get('https://investment-warroom-market.investment-warroom.workers.dev/api/market-calendar', timeout=10) or {}
 official_calendar = calendar_response.get('calendar')
+try:
+    with open(os.path.join(DATA_DIR, 'calendar.json'), encoding='utf-8') as checked:
+        local_calendar = json.load(checked)
+    if local_calendar.get('schemaVersion') == 1 and local_calendar.get('attemptedAt', 0) > (official_calendar or {}).get('attemptedAt', 0):
+        official_calendar = local_calendar
+except (OSError, ValueError):
+    pass
 if not isinstance(official_calendar, dict) or official_calendar.get('schemaVersion') != 1:
     try:
         with open(os.path.join(DATA_DIR, 'indexes.json'), encoding='utf-8') as saved:

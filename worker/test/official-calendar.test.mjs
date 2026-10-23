@@ -89,3 +89,28 @@ test('browser consumes the same dated calendar and rejects an older snapshot rol
   assert.equal(vm.runInContext('MarketCalendar.applyOfficial({...state, attemptedAt:state.attemptedAt-1, closures:[]})',context),false);
   assert.equal(vm.runInContext('MarketCalendar.verification(Date.now()).status',context),'closed-announcement');
 });
+
+test('backup retains official timestamps, confirmed closures, and direct-source failure transparency', async t => {
+  const original = globalThis.fetch;
+  t.after(() => { globalThis.fetch = original; });
+  const checkedAt = now - 60000;
+  globalThis.fetch = async url => {
+    if (!String(url).includes('github.io')) throw new Error('official network unavailable');
+    return Response.json({schemaVersion:1,closures:[{date:'2026-10-23',scope:'TAIFEX',source:'https://www.taifex.com.tw/cht/index'}],
+      checks:{futures:{ok:true,checkedAt,error:null}}});
+  };
+  const state = await refreshOfficialCalendar(null,now);
+  assert.equal(state.closures.length,1);
+  assert.equal(state.checks.futures.checkedAt,checkedAt);
+  assert.equal(state.checks.futures.delivery,'github-official-check');
+  assert.equal(state.checks.notices.ok,false);
+  const older = await refreshOfficialCalendar(null,now+15*60000);
+  assert.equal(older.closures.length,1);
+  assert.equal(older.checks.futures.ok,false);
+});
+
+test('night direction is disabled while official session verification is unavailable', () => {
+  const context = vm.createContext({Intl});
+  vm.runInContext(fs.readFileSync(new URL('../../js/night-analysis.js',import.meta.url),'utf8'),context);
+  assert.equal(vm.runInContext('NightAnalysis.evaluate({price:48000,changePct:1,status:"open",calendarUnverified:true}).usable',context),false);
+});

@@ -852,7 +852,9 @@ async function handleMarketRequest(request, env) {
   }
 
   if (cached && acceptableSnapshot(cached) && cacheAgeMs <= SNAPSHOT_MAX_AGE_MS) {
-    if (marketOpen('TW', Date.now()) && cacheAgeMs > TW_QUOTE_REFRESH_AGE_MS) {
+    const missingTw = INDEXES.some(index => index.region === 'TW' && !cached.indexes.some(item => item.symbol === index.symbol))
+      || QUOTE_SYMBOLS.some(symbol => symbol.endsWith('.TW') && !cached.quotes.some(item => item.symbol === symbol));
+    if (missingTw || (marketOpen('TW', Date.now()) && cacheAgeMs > TW_QUOTE_REFRESH_AGE_MS)) {
       try {
         const mis = await fetchMisBatch(QUOTE_SYMBOLS);
         if (mis.indexes.length || mis.quotes.length) {
@@ -894,6 +896,8 @@ export async function handleRequest(request, env) {
   const response = await handleMarketRequest(request, env);
   if (request.method === 'GET' && ['/api/market', '/api/night-market', '/health'].includes(path)) {
     const payload = await response.json();
+    if (path === '/api/night-market' && payload.status === 'open'
+      && !MarketCalendar.verification().futuresChecked) payload.calendarUnverified = true;
     return jsonResponse({ ...payload, calendar: MarketCalendar.officialState() }, response.status, request);
   }
   return response;

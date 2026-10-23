@@ -5,11 +5,15 @@ on:
     # Hourly emergency snapshot. Live data is refreshed every 5 minutes by
     # Cloudflare Worker; avoid GitHub's busiest top-of-hour window.
     - cron: '7 * * * *'
+    # Extra official-source checks before Taiwan day/night sessions (UTC).
+    - cron: '25,55 0,6 * * 1-5'
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - 'scripts/fetch_data.py'
+      - 'scripts/check-official-calendar.mjs'
+      - 'worker/src/official-calendar.mjs'
       - 'js/market-calendar.js'
       - '.github/workflows/auto-refresh.yml'
 
@@ -26,6 +30,11 @@ jobs:
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check official exchange calendars
+        run: node scripts/check-official-calendar.mjs
       - name: Fetch market data
         run: python3 scripts/fetch_data.py
       - name: Commit & push

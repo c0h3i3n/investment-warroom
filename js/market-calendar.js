@@ -40,12 +40,14 @@ globalThis.MarketCalendar = (() => {
     const notice = closure('TW', day);
     const fresh = official?.date === date && now >= official.attemptedAt
       && now - official.attemptedAt <= 10 * 60000;
-    const checked = Boolean(fresh && official.checks?.annual?.ok && official.checks?.notices?.ok);
+    const recentCheck = name => fresh && official.checks?.[name]?.ok
+      && now >= official.checks[name].checkedAt && now - official.checks[name].checkedAt <= 10 * 60000;
+    const checked = Boolean(fresh && official.checks?.annual?.ok && recentCheck('notices'));
     return { date, status: notice ? 'closed-announcement' : !scheduledTradingDay('TW', day)
       ? 'closed-calendar' : checked ? 'scheduled' : 'unverified',
       checked, checkedAt: official?.checks?.notices?.checkedAt || null,
       reason: notice?.reason || null, source: notice?.source || 'https://www.twse.com.tw/zh/terms/rss.html',
-      futuresChecked: Boolean(fresh && official.checks?.futures?.ok),
+      futuresChecked: Boolean(recentCheck('futures')),
       futuresClosure: closure('TAIFEX', day) || null };
   }
   function closeMinutes(region, day) {

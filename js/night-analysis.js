@@ -36,7 +36,7 @@ globalThis.NightAnalysis = (() => {
   }
 
   function evaluate(night, indexes = []) {
-    if (!night || night.stale || !finite(night.price) || !finite(night.changePct)) {
+    if (!night || night.stale || night.calendarUnverified || !finite(night.price) || !finite(night.changePct)) {
       return { label: '資料不足', tone: 'unknown', score: null, drivers: [], usable: false };
     }
 
