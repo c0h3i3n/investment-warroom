@@ -4,6 +4,18 @@ const DAY=86400000;
 const dayOf=time=>new Date(Number(time)+8*3600000).toISOString().slice(0,10);
 const dayTime=date=>Date.parse(`${date}T09:00:00+08:00`);
 const closeEnough=(a,b)=>Math.abs(a-b)<=Math.max(.011,Math.abs(b)*.00001);
+export const OFFICIAL_VOLUME_SOURCE='TWSE 全市場成交股數';
+
+export function applyOfficialVolumes(history, official, now=Date.now(), warning=null) {
+  const expected=completedTwSession(now);
+  const map=new Map(official.map(row=>[dayOf(row.time),row]));
+  const completed=history.data.filter(row=>dayOf(row.time)<=expected);
+  const baseline=completed.slice(-21);
+  const verified=baseline.length===21 && baseline.every(row=>Number.isFinite(map.get(dayOf(row.time))?.volume));
+  return {...history,volumeSource:OFFICIAL_VOLUME_SOURCE,volumeStatus:verified?'verified':'unavailable',
+    volumeWarning:warning || (verified?null:'官方成交量尚未齊全，量能指標暫停；價格指標仍可查看。'),
+    data:history.data.map(row=>({...row,volume:verified ? map.get(dayOf(row.time))?.volume ?? null : null}))};
+}
 
 export function completedTwSession(now = Date.now()) {
   const local=new Date(now+8*3600000);
@@ -72,7 +84,7 @@ export function reconcileDailyHistory(history, official, now = Date.now()) {
   const data=joined.map(row=>({time:row.time,open:row.open,high:row.high,low:row.low,close:row.close,
     volume:map.get(dayOf(row.time))?.volume ?? null}));
   return {...history,data,source:'Yahoo Finance＋TWSE 官方補值',priceBasis:'adjusted-verified',
-    volumeSource:'TWSE 全市場成交股數', repairedDates:additions.map(row=>dayOf(row.time)),
+    volumeSource:OFFICIAL_VOLUME_SOURCE, repairedDates:additions.map(row=>dayOf(row.time)),
     sourceAsOf:Date.parse(`${expected}T13:30:00+08:00`),generatedAt:new Date(now).toISOString()};
 }
 
@@ -80,17 +92,17 @@ export async function repairTwseHistory(history, env, now=Date.now()) {
   if (!['0050.TW','2330.TW'].includes(history.symbol) || history.interval!=='1d') return history;
   const latest=history.data.at(-1);
   const expected=completedTwSession(now);
-  if (!latest || dayOf(latest.time)>expected) return history;
-  if (dayOf(latest.time)===expected && Number(history.sourceAsOf)>=Date.parse(`${expected}T13:29:00+08:00`)) return history;
+  if (!latest) return history;
   const code=history.symbol.replace('.TW','');
   const date=new Date(expected);
   const months=[0,1].map(offset=>new Date(Date.UTC(date.getUTCFullYear(),date.getUTCMonth()-offset,1)).toISOString().slice(0,7));
-  const results=await Promise.all(months.map(async month=>{
+  const results=await Promise.allSettled(months.map(async month=>{
     const key=`market:twse-month:v1:${code}:${month}`;
     const cached=await env?.MARKET_CACHE?.get(key,{type:'json'}).catch(()=>null);
     if (cached?.code===code && cached.month===month && now-cached.fetchedAt<300000 && now>=cached.fetchedAt) {
       return parseTwseMonth(cached.payload,code,month,now);
     }
+    try {
     const response=await fetch(`https://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=${month.replace('-','')}01&stockNo=${code}`,
       {signal:AbortSignal.timeout(5000),cache:'no-store',headers:{Accept:'application/json'}});
     if (!response.ok) throw new Error(`TWSE daily HTTP ${response.status}`);
@@ -98,6 +110,17 @@ export async function repairTwseHistory(history, env, now=Date.now()) {
     const rows=parseTwseMonth(payload,code,month,now);
     await env?.MARKET_CACHE?.put(key,JSON.stringify({code,month,fetchedAt:now,payload}),{expirationTtl:86400}).catch(()=>{});
     return rows;
+    } catch (error) {
+      // Historical rows keep their exchange dates. Reusing them does not
+      // advance a candle or substitute another provider's volume definition.
+      if (cached?.code===code && cached.month===month && now>=cached.fetchedAt
+        && now-cached.fetchedAt<=30*DAY) return parseTwseMonth(cached.payload,code,month,now);
+      throw error;
+    }
   }));
-  return reconcileDailyHistory(history,results.flat(),now);
+  const official=results.flatMap(result=>result.status==='fulfilled'?result.value:[]);
+  let repaired=history;
+  try { repaired=reconcileDailyHistory(history,official,now); }
+  catch(error) { repaired={...history,repairWarning:error.message}; }
+  return applyOfficialVolumes(repaired,official,now);
 }

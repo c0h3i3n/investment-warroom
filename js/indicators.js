@@ -388,6 +388,9 @@ const IndicatorsService = (() => {
     if (officialVolume) interpreted.filter(ind => ind.name.startsWith('日線成交量')).forEach(ind => {
       ind.name='日線成交量 · TWSE（股）';
     });
+    if (officialVolume && data.meta?.volumeStatus==='unavailable') {
+      interpreted.push({name:'日線成交量 · TWSE（股）',value:'--',signal:'官方成交量待更新',color:'arc'});
+    }
 
     const result = {
       symbol,

@@ -2,16 +2,15 @@ import '../../js/market-calendar.js';
 import '../../js/history-validation.js';
 import { CALENDAR_KEY, refreshOfficialCalendar } from './official-calendar.mjs';
 import { getNewsSnapshot } from './news.mjs';
-import { repairTwseHistory } from './history-repair.mjs';
+import { repairTwseHistory, applyOfficialVolumes, OFFICIAL_VOLUME_SOURCE } from './history-repair.mjs';
 const SNAPSHOT_KEY = 'market:snapshot:v1';
-const NIGHT_MARKET_KEY = 'market:night:v1';
+const NIGHT_MARKET_KEY = 'market:night:v2';
 const SNAPSHOT_MAX_AGE_MS = 7 * 60 * 1000;
 const HISTORY_FALLBACK_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 const CLOSED_MARKET_MAX_AGE_MS = 4 * 24 * 60 * 60 * 1000;
 const REQUEST_TIMEOUT_MS = 8000;
 const NIGHT_DELAYED_AFTER_MS = 3 * 60 * 1000;
 const NIGHT_OPEN_MAX_AGE_MS = 5 * 60 * 1000;
-const NIGHT_CLOSED_MAX_AGE_MS = 4 * 24 * 60 * 60 * 1000;
 const NIGHT_CACHE_WRITE_INTERVAL_MS = 5 * 60 * 1000;
 const MIS_RECENT_TRADE_MAX_AGE_MS = 5 * 60 * 1000;
 const TW_QUOTE_REFRESH_AGE_MS = 60 * 1000;
@@ -291,6 +290,34 @@ export function isNightSessionOpen(nowMs = Date.now()) {
   return false;
 }
 
+export function nightQuoteFreshness(asOf, nowMs=Date.now()) {
+  const open=isNightSessionOpen(nowMs);
+  const source=Number(asOf);
+  const ageMs=nowMs-source;
+  const sourceParts=Number.isFinite(source)&&source>0?taipeiParts(source):null;
+  const start=sourceParts?sourceParts.dayNumber-(sourceParts.minutes<=300?86400000:0):null;
+  const expectedStart=latestNightSessionStart(nowMs);
+  const sessionTradingDay=sourceParts?nightTradingDayForTimestamp(source):null;
+  const expectedTradingDay=expectedNightTradingDay(nowMs);
+  const aligned=Number.isFinite(start)&&start===expectedStart&&Number.isFinite(sessionTradingDay)
+    && sessionTradingDay===expectedTradingDay;
+  // A closed-session reference must actually reach the last five minutes of
+  // that night. Its age alone is not a fault while the exchange stays closed.
+  const closeTime=Number.isFinite(start)?start+21*3600000:NaN;
+  const closedFinal=source>=closeTime-NIGHT_OPEN_MAX_AGE_MS && source<=closeTime;
+  const stale=!(source>0)||source>nowMs+300000||!aligned
+    ||(open?ageMs>NIGHT_OPEN_MAX_AGE_MS:!closedFinal);
+  const parts=taipeiParts(nowMs);
+  let nextSessionAt=null;
+  for(let day=parts.dayNumber;day<=parts.dayNumber+31*86400000;day+=86400000){
+    const at=day+7*3600000; // 15:00 Asia/Taipei
+    if(at>nowMs&&MarketCalendar.nightStartDay(day)){nextSessionAt=at;break;}
+  }
+  return {stale,delayed:open&&!stale&&ageMs>NIGHT_DELAYED_AFTER_MS,
+    status:open?'open':'closed',sessionTradingDay:dayKey(sessionTradingDay),
+    expectedTradingDay:dayKey(expectedTradingDay),nextSessionAt};
+}
+
 function taifexTimestamp(row) {
   const date = String(row?.CDate || '');
   const time = String(row?.CTime || '').padStart(6, '0');
@@ -343,21 +370,12 @@ export function parseTaifexNightQuotes(payload, nowMs = Date.now()) {
   const asOf = taifexTimestamp(row);
   if (!price || !referencePrice || !asOf) throw new Error('Invalid TX night quote');
 
-  const ageMs = Math.max(0, nowMs - asOf);
-  const sessionTradingDayNumber = nightTradingDayForTimestamp(asOf);
-  const expectedTradingDayNumber = expectedNightTradingDay(nowMs);
-  const sessionAligned = Number.isFinite(sessionTradingDayNumber)
-    && sessionTradingDayNumber === expectedTradingDayNumber;
-  const stale = asOf > nowMs + 5 * 60 * 1000
-    || ageMs > (open ? NIGHT_OPEN_MAX_AGE_MS : NIGHT_CLOSED_MAX_AGE_MS)
-    || !sessionAligned;
-  const delayed = open && !stale && ageMs > NIGHT_DELAYED_AFTER_MS;
+  const freshness=nightQuoteFreshness(asOf,nowMs);
   return {
     schemaVersion: 1,
     session: 'after-hours',
     status: open ? 'open' : 'closed',
-    stale,
-    delayed,
+    ...freshness,
     contract: String(selected.contract),
     symbol: row.SymbolID,
     name: '臺股期貨近月',
@@ -374,8 +392,6 @@ export function parseTaifexNightQuotes(payload, nowMs = Date.now()) {
     spotReference,
     basis: spotReference ? price - spotReference : null,
     asOf,
-    sessionTradingDay: dayKey(sessionTradingDayNumber),
-    expectedTradingDay: dayKey(expectedTradingDayNumber),
     source: 'TAIFEX MIS',
     priceType: 'trade',
   };
@@ -704,23 +720,28 @@ async function handleHistoryRequest(request, env, url) {
     return jsonResponse({ error: 'Unsupported history query' }, 400, request);
   }
 
-  const key = `market:history:v2:${symbol}:${range}:${interval}`;
+  const key = `market:history:v3:${symbol}:${range}:${interval}`;
   const cached = env?.MARKET_CACHE
     ? await env.MARKET_CACHE.get(key, { type: 'json' }).catch(() => null)
     : null;
   const cachedAt = Date.parse(cached?.generatedAt || '');
   const cacheAgeMs = Number.isFinite(cachedAt) ? Math.max(0, Date.now() - cachedAt) : Infinity;
+  const needsOfficialVolume=interval==='1d'&&['0050.TW','2330.TW'].includes(symbol);
   if (cached && (interval !== '1d' || Number(cached.sourceAsOf) > 0)
-    && cacheAgeMs <= (historyNeedsRepair(cached,symbol,interval) ? 60000 : historyCacheMaxAge(symbol, range, interval))
+    && (!needsOfficialVolume || cached.volumeSource===OFFICIAL_VOLUME_SOURCE)
+    && cacheAgeMs <= (historyNeedsRepair(cached,symbol,interval) || cached.volumeWarning ? 60000 : historyCacheMaxAge(symbol, range, interval))
     && !dailyHistoryNeedsCloseRefresh(symbol, interval, cachedAt)) {
     return jsonResponse({ ...cached, delivery: 'kv' }, 200, request);
   }
 
   try {
     let fresh = await fetchYahooHistory(symbol, range, interval);
-    if (interval === '1d' && historyNeedsRepair(fresh,symbol,interval)) {
+    if (interval === '1d') {
       try { fresh = await repairTwseHistory(fresh,env); }
-      catch (error) { fresh.repairWarning = String(error.message); }
+      catch (error) {
+        fresh.repairWarning = String(error.message);
+        if (['0050.TW','2330.TW'].includes(symbol)) fresh=applyOfficialVolumes(fresh,[]);
+      }
     }
     if (env?.MARKET_CACHE) {
       await safeCachePut(env, key, JSON.stringify(fresh), { expirationTtl: 86400 });
@@ -769,30 +790,18 @@ async function handleNightMarketRequest(request, env) {
     if (!fresh.stale && env?.MARKET_CACHE
       && (!Number.isFinite(cachedAsOf) || fresh.asOf - cachedAsOf >= NIGHT_CACHE_WRITE_INTERVAL_MS
         || (fresh.status === 'closed' && fresh.asOf > cachedAsOf))) {
-      await safeCachePut(env, NIGHT_MARKET_KEY, JSON.stringify(fresh), { expirationTtl: 604800 });
+      await safeCachePut(env, NIGHT_MARKET_KEY, JSON.stringify(fresh), { expirationTtl: 45*86400 });
     }
     return jsonResponse({ ...fresh, delivery: 'live' }, 200, request);
   } catch (error) {
     console.error('Night market refresh failed', error);
     if (cached) {
-      const open = isNightSessionOpen();
       const asOf = Number(cached.asOf);
-      const ageMs = Number.isFinite(asOf) ? Math.max(0, Date.now() - asOf) : Infinity;
-      const sessionTradingDayNumber = Number.isFinite(asOf) ? nightTradingDayForTimestamp(asOf) : null;
-      const expectedTradingDayNumber = expectedNightTradingDay();
-      const stale = asOf > Date.now() + 5 * 60 * 1000
-        || ageMs > (open ? NIGHT_OPEN_MAX_AGE_MS : NIGHT_CLOSED_MAX_AGE_MS)
-        || !Number.isFinite(sessionTradingDayNumber)
-        || sessionTradingDayNumber !== expectedTradingDayNumber;
-      const delayed = open && !stale && ageMs > NIGHT_DELAYED_AFTER_MS;
+      const freshness=nightQuoteFreshness(asOf);
       return jsonResponse({
         ...cached,
-        status: open ? 'open' : 'closed',
-        stale,
-        delayed,
-        sessionTradingDay: dayKey(sessionTradingDayNumber),
-        expectedTradingDay: dayKey(expectedTradingDayNumber),
-        delivery: stale ? 'stale-kv' : 'kv',
+        ...freshness,
+        delivery: freshness.stale ? 'stale-kv' : 'kv',
         warning: 'Live refresh failed',
       }, 200, request);
     }

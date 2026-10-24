@@ -44,7 +44,8 @@ test('actual history route refreshes a 13:45 cache whose source was still 13:25'
   Date.now = ()=>ms('2026-10-15T10:00:00Z');
   t.after(()=>{Date.now=originalNow;globalThis.fetch=originalFetch;});
   let requests = 0;
-  globalThis.fetch = async ()=>{
+  globalThis.fetch = async url=>{
+    if (!String(url).includes('finance.yahoo.com')) throw new Error('Official volume temporarily unavailable');
     requests++;
     return new Response(JSON.stringify({chart:{result:[{
       meta:{regularMarketTime:ms('2026-10-15T05:30:00Z')/1000},

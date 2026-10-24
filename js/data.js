@@ -246,6 +246,7 @@ const DataService = (() => {
       && incoming.sessionTradingDay === incoming.expectedTradingDay
       && Number(previous.asOf) > Number(incoming.asOf)) {
       return { ...incoming, ...previous, status:incoming.status,
+        nextSessionAt:incoming.nextSessionAt,
         stale:false, delayed:incoming.status === 'open' && Date.now() - Number(previous.asOf) > 180000,
         delivery:'memory', warning:incoming.warning || 'Older source response ignored',
       };
@@ -619,7 +620,8 @@ const DataService = (() => {
             delivery:payload.delivery,
             rejectedRows:payload.rejectedRows || 0, source:payload.source };
           Object.assign(data.meta,{volumeSource:payload.volumeSource,repairedDates:payload.repairedDates,
-            priceBasis:payload.priceBasis,repairWarning:payload.repairWarning});
+            priceBasis:payload.priceBasis,repairWarning:payload.repairWarning,
+            volumeStatus:payload.volumeStatus,volumeWarning:payload.volumeWarning});
           if (payload?.schemaVersion === 1 && data.length >= 2) {
             if (requestEpoch === cacheEpoch) setCache(key, data);
             return data;
@@ -643,6 +645,11 @@ const DataService = (() => {
         sourceAsOf:Number.isFinite(Number(result.meta?.regularMarketTime))
           ? Number(result.meta.regularMarketTime) * 1000 : null,
       };
+      if (interval==='1d' && ['0050.TW','2330.TW'].includes(symbol)) {
+        data.forEach(row=>{row.volume=null;});
+        Object.assign(data.meta,{volumeSource:'TWSE 全市場成交股數',volumeStatus:'unavailable',
+          volumeWarning:'官方成交量服務暫時無法取得，量能指標暫停；價格指標仍可查看。'});
+      }
 
       if (requestEpoch === cacheEpoch) setCache(key, data);
       return data;

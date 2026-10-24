@@ -192,6 +192,9 @@ const UI = (() => {
     const drivers = analysis.drivers.map(driver =>
       `<span class="night-driver"><b>${escapeHtml(driver.label)}</b> ${escapeHtml(driver.value)}</span>`).join('');
     const refreshFailed = Boolean(data.warning);
+    const nextSession = Number.isFinite(data.nextSessionAt) ? new Intl.DateTimeFormat('zh-TW',{
+      timeZone:'Asia/Taipei',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false,
+    }).format(new Date(data.nextSessionAt)) : null;
     const warning = data.calendarUnverified
         ? '<div class="night-warning">⚠ 期交所官方開休市查核未完成或已逾時，方向判斷暫停；下列僅為最後取得行情。</div>'
       : data.delayed
@@ -212,7 +215,7 @@ const UI = (() => {
         <div class="night-asof">行情時間 ${asOf}</div>
       </div>
       ${warning}
-      <div class="night-context">${data.calendarUnverified ? '官方開休市待確認，非已確認交易中訊號' : data.status === 'open' ? '夜盤交易中' : '最近夜盤收盤，非目前即時方向'} · ${escapeHtml(scope)}。</div>
+      <div class="night-context">${data.calendarUnverified ? '官方開休市待確認，非已確認交易中訊號' : data.status === 'open' ? '夜盤交易中' : '最近夜盤收盤，非目前即時方向'} · ${escapeHtml(scope)}。${data.status==='closed'&&nextSession ? ' 下次預定夜盤 '+escapeHtml(nextSession)+'。' : ''}</div>
       <details class="night-details" ${detailsOpen ? 'open' : ''}>
       <summary>${data.status === 'open' ? '夜盤行情' : '最近夜盤收盤'} · ${level(data.price)} 點 · ${arrow} ${Math.abs(Number(data.changePct)).toFixed(2)}% <span>展開／收合明細</span></summary>
       <div class="night-layout">
@@ -482,6 +485,7 @@ const UI = (() => {
         ? ' · 成交量與20日均量均採 TWSE 全市場成交股數（含零股、盤後與鉅額）'
         : ' · 成交量及均量採同一 Yahoo 日線口徑，不等同交易所全市場日報總量';
       if (indData.historyMeta?.repairedDates?.length) status.textContent += ' · 官方補齊 ' + indData.historyMeta.repairedDates.join('、') + '，已核對價格基準';
+      if (indData.historyMeta?.volumeWarning) status.textContent += ' · ' + indData.historyMeta.volumeWarning;
       grid.appendChild(status);
     }
 

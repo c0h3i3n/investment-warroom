@@ -192,11 +192,14 @@ test('history API serves a cached 0050 series without an upstream request', asyn
       { time: Date.now(), close: 101 },
     ],
     source: 'Yahoo Finance',
+    volumeSource:'TWSE 全市場成交股數',
+    volumeStatus:'verified',
   };
   const env = {
     MARKET_CACHE: {
       get: async key => {
-        assert.equal(key, 'market:history:v2:0050.TW:6mo:1d');
+        if (key === 'market:official-calendar:v1') return {schemaVersion:1,attemptedAt:Date.now(),closures:[],checks:{}};
+        assert.equal(key, 'market:history:v3:0050.TW:6mo:1d');
         return history;
       },
       put: async () => assert.fail('fresh history KV should not be rewritten'),
