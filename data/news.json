@@ -1,8 +1,68 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T16:02:31.208Z",
-  "checkedAt": 1792944151208,
+  "generatedAt": "2026-10-25T18:56:02.437Z",
+  "checkedAt": 1792954562437,
   "data": [
+    {
+      "headline": "盤中速報 - Quant大漲8.85%，報192.59美元",
+      "link": "https://news.cnyes.com/news/id/6637503",
+      "publishedAt": 1792950615000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1792954562437
+    },
+    {
+      "headline": "盤中速報 - Ethena大漲8.14%，報0.2美元",
+      "link": "https://news.cnyes.com/news/id/6637500",
+      "publishedAt": 1792945217000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1792954562437
+    },
+    {
+      "headline": "盤中速報 - Threshold大漲21.02%，報0.01美元",
+      "link": "https://news.cnyes.com/news/id/6637499",
+      "publishedAt": 1792944317000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1792954562437
+    },
+    {
+      "headline": "盤中速報 - 大零幣大漲8.04%，報1,219美元",
+      "link": "https://news.cnyes.com/news/id/6637498",
+      "publishedAt": 1792942517000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1792954562437
+    },
+    {
+      "headline": "盤中速報 - Ethena大漲9.09%，報0.2美元",
+      "link": "https://news.cnyes.com/news/id/6637497",
+      "publishedAt": 1792941617000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1792954562437
+    },
     {
       "headline": "iPhone Duo「未通過」暴力測試！IP68防塵仍進灰塵、反向彎折致內螢幕失靈",
       "link": "https://news.cnyes.com/news/id/6637386",
@@ -13,7 +73,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "本週操盤筆記：Fed議息會議、歐加日紐泰央行利率決議、谷歌微軟英特爾財報",
@@ -25,7 +85,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "現貨黃金跌穿4000美元！瑞銀：可視為加倉機會",
@@ -37,7 +97,7 @@
       "categories": [
         "黃金"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "亞馬遜砸2200億美元投資AI仍遠不夠！CEO：AI業務年化收入超250億美元、2027算力幾乎售罄",
@@ -49,7 +109,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "誤會一場 潤泰新：「松濤苑」5樓戶坪價實爲254萬元優於上筆成交",
@@ -61,7 +121,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "鉅亨買幣速報 - 比特幣(BTC)24小時成交量超過7.91億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
@@ -73,7 +133,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1792926895152
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "AI崩盤終極推演：泡沫在2028年初破裂 美科技股斷崖式崩跌40%",
@@ -85,7 +145,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "英特爾2045年3D晶片布局曝光！高層示警先進晶圓產能難增10倍",
@@ -97,7 +157,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "盤中速報 - Threshold大漲38.31%，報0.01美元",
@@ -109,7 +169,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1792926895152
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "馬斯克再對烏克蘭開砲！稱烏軍違規將星鏈用於攻擊無人機、「漏洞」已堵上",
@@ -121,7 +181,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "澤倫斯基改口了？願凍結俄烏戰線又拒絕割地、美施壓和平談判",
@@ -133,7 +193,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "避險潮來了黃金卻跌破4000美元、日元走強 資金開始挑剔避險資產",
@@ -145,7 +205,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "馬斯克再批澤倫斯基該下台！控烏克蘭菁英靠戰爭獲利、民眾孩子上戰場送命",
@@ -157,7 +217,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "一場IPO喊卡牽動記憶體市場！美光Sandisk受惠、英特爾失潛在大單",
@@ -169,7 +229,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "法國爆發大規模示威 41萬人再上街 近千人被捕",
@@ -181,7 +241,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "盤中速報 - Threshold大漲50.85%，報0.01美元",
@@ -193,7 +253,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1792926895152
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "美期中選舉前大盤加速趕底 8檔台股搶手型ETF戰力猛",
@@ -205,7 +265,7 @@
       "categories": [
         "ETF"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "鉅亨買幣速報 - 比特幣(BTC)24小時成交量超過9.25億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
@@ -217,7 +277,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1792926895152
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "房子只買負擔得起的一半！《大賣空》貝瑞奉勸Z世代：避開沉重房貸、公開10條人生生存建言",
@@ -229,7 +289,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "胡連斥2.5億元收購LA PUNTA 8成股權 跨足高端重機與頂級超跑供應鏈",
@@ -241,7 +301,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "旅遊業衝刺線上旅展買氣 這些航點和機票都有優惠",
@@ -253,7 +313,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "十月累漲4.6%！瑞士股市成為市場AI恐慌下的避風港",
@@ -265,7 +325,7 @@
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "盤中速報 - GTC大跌11.24%，報0.248美元",
@@ -277,7 +337,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1792926895152
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "006208擬分割一拆八！12/18開受益人會議 入手一張只要3萬元",
@@ -289,7 +349,7 @@
       "categories": [
         "ETF"
       ],
-      "fetchedAt": 1792944151208
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "盤中速報 - GTC大跌8.47%，報0.254美元",
@@ -301,7 +361,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1792926895152
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "盤中速報 - 波卡幣大跌8.38%，報1.03美元",
@@ -313,7 +373,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1792926895152
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "盤中速報 - Arbitrum大跌8.38%，報0.16美元",
@@ -325,7 +385,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1792926895152
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "盤中速報 - UNI大跌8.27%，報6.57美元",
@@ -337,7 +397,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1792926895152
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "盤中速報 - 大零幣大跌8.57%，報1,138.2美元",
@@ -349,7 +409,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1792926895152
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "盤中速報 - FET大跌8.02%，報0.172美元",
@@ -361,7 +421,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1792926895152
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "盤中速報 - AAVE大跌8.38%，報135.1美元",
@@ -373,7 +433,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1792926895152
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "盤中速報 - Ethena大跌9.55%，報0.19美元",
@@ -385,7 +445,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1792926895152
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "盤中速報 - Worldcoin大跌13.76%，報0.46美元",
@@ -397,7 +457,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1792926895152
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "盤中速報 - NEAR大跌9.27%，報4.405美元",
@@ -409,7 +469,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1792926895152
+      "fetchedAt": 1792954562437
     },
     {
       "headline": "盤中速報 - Arbitrum大跌8.37%，報0.16美元",
@@ -422,66 +482,6 @@
         "虛擬貨幣盤中"
       ],
       "fetchedAt": 1792926895152
-    },
-    {
-      "headline": "盤中速報 - FET大跌8.01%，報0.1711美元",
-      "link": "https://news.cnyes.com/news/id/6637251",
-      "publishedAt": 1792855218000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1792926895152
-    },
-    {
-      "headline": "盤中速報 - AAVE大跌8.61%，報134.5美元",
-      "link": "https://news.cnyes.com/news/id/6637250",
-      "publishedAt": 1792855218000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1792926895152
-    },
-    {
-      "headline": "盤中速報 - 大零幣大跌8.4%，報1,137.3美元",
-      "link": "https://news.cnyes.com/news/id/6637243",
-      "publishedAt": 1792853418000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1792926895152
-    },
-    {
-      "headline": "盤中速報 - Ethena大跌8.64%，報0.19美元",
-      "link": "https://news.cnyes.com/news/id/6637233",
-      "publishedAt": 1792849819000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1792926895152
-    },
-    {
-      "headline": "〈熱門股〉防詐業務需求強勁 GOGOLOOK股價周漲2成",
-      "link": "https://news.cnyes.com/news/id/6637127",
-      "publishedAt": 1792847933000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1792944151208
     }
   ],
   "failedSources": [],
