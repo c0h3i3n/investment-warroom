@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-25T06:00:15.181871+00:00",
-  "generatedAt": "2026-10-25T06:00:15.181871+00:00",
+  "timestamp": "2026-10-25T11:14:33.367167+00:00",
+  "generatedAt": "2026-10-25T11:14:33.367167+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-10-25",
-    "attemptedAt": 1792908012401,
+    "attemptedAt": 1792926870637,
     "annual": {
       "year": 2026,
       "closed": [
@@ -54,17 +54,17 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1792908012401,
+        "checkedAt": 1792926870637,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1792908012401,
+        "checkedAt": 1792926870637,
         "error": null
       },
       "futures": {
         "ok": true,
-        "checkedAt": 1792908012401,
+        "checkedAt": 1792926870637,
         "error": null
       }
     }
