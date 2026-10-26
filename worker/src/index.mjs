@@ -684,7 +684,9 @@ async function loadOfficialCalendar(env, refresh = false, ctx = null) {
   if (state?.schemaVersion !== 1 || !Array.isArray(state.closures)) state = null;
   // The scheduled job does the external checks. Requests normally only read KV.
   const failed=state && ['annual','notices','futures'].some(name=>!state.checks?.[name]?.ok);
-  if (refresh || !state || Date.now() - state.attemptedAt > (failed?60000:10*60000)) {
+  const nextYear=new Date(Date.now()+8*3600000).getUTCFullYear()+1;
+  const needsPreload=ctx?.waitUntil&&state&&(!state.annuals||state.preload?.year!==nextYear);
+  if (refresh || needsPreload || !state || Date.now() - state.attemptedAt > (failed?60000:10*60000)) {
     let work=calendarRefreshes.get(env);
     if(!work) {
       work=refreshOfficialCalendar(state).then(async updated=>{

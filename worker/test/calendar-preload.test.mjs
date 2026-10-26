@@ -121,16 +121,15 @@ test('bad future schemas are rejected and a later wrong-year response never over
   assert.deepEqual(later.annuals[2027],valid.annuals[2027]);
 });
 
-test('an existing snapshot can be returned while official retry work runs in the request background',async t=>{
+test('a fresh legacy snapshot can be returned while its preload upgrade runs in the request background',async t=>{
   const original=globalThis.fetch,oldNow=Date.now;
   t.after(()=>{globalThis.fetch=original;Date.now=oldNow;});Date.now=()=>now;
   let release;
   const gate=new Promise(resolve=>{release=resolve;});
   globalThis.fetch=async url=>String(url)===SOURCES.futures?gate:sources(url);
-  const state={schemaVersion:1,date:'2026-10-26',attemptedAt:now-120000,closures:[],
+  const state={schemaVersion:1,date:'2026-10-26',attemptedAt:now,closures:[],
     annual:{year:2026,closed:['2026-10-26'],checkedAt:now,source:SOURCES.annual},
-    preload:{year:2027,status:'pending-publication',attemptedAt:now},
-    checks:{annual:{ok:true},notices:{ok:true},futures:{ok:false}}};
+    checks:{annual:{ok:true},notices:{ok:true},futures:{ok:true}}};
   let writes=0;const pending=[];
   const env={MARKET_CACHE:{get:async()=>state,put:async()=>{writes++;}}};
   const response=await handleRequest(new Request('https://worker.example/api/market-calendar'),env,{waitUntil:work=>pending.push(work)});
