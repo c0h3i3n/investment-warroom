@@ -1,8 +1,380 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T13:18:51.649Z",
-  "checkedAt": 1793020731649,
+  "generatedAt": "2026-10-26T19:10:55.244Z",
+  "checkedAt": 1793041855244,
   "data": [
+    {
+      "headline": "盤中速報 - 特許通訊(CHTR-US)大跌5.09%，報103.09美元",
+      "link": "https://news.cnyes.com/news/id/6637939",
+      "publishedAt": 1793041472000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "美債殖利率回落！Fed暫停升息理由受考驗 華許如何說服市場？",
+      "link": "https://news.cnyes.com/news/id/6637870",
+      "publishedAt": 1793041206000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "盤中速報 - 數據狗(DDOG-US)大漲5.07%，報283.31美元",
+      "link": "https://news.cnyes.com/news/id/6637933",
+      "publishedAt": 1793039996000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "AI投資回報惹疑慮！高盛：趨勢型避險基金創2024年來最差一周",
+      "link": "https://news.cnyes.com/news/id/6637798",
+      "publishedAt": 1793039409000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "盤中速報 - 連貫(COHR-US)大漲7.24%，報224.45美元",
+      "link": "https://news.cnyes.com/news/id/6637924",
+      "publishedAt": 1793035886000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "上市才幾天螢幕就裂！部分iPhone Duo用戶反映災情 蘋果展開調查",
+      "link": "https://news.cnyes.com/news/id/6637917",
+      "publishedAt": 1793035804000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "盤中速報 - 英特格(ENTG-US)大漲5.06%，報141.33美元",
+      "link": "https://news.cnyes.com/news/id/6637922",
+      "publishedAt": 1793035778000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "盤中速報 - 英特爾(INTC-US)大漲5.01%，報91.32美元",
+      "link": "https://news.cnyes.com/news/id/6637918",
+      "publishedAt": 1793034874000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "從最高加碼退到中立！匯豐看股市信心降溫 點名中東與AI風險",
+      "link": "https://news.cnyes.com/news/id/6637886",
+      "publishedAt": 1793034004000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "盤中速報 - 恩智浦半導體(NXPI-US)大漲5.3%，報247.36美元",
+      "link": "https://news.cnyes.com/news/id/6637912",
+      "publishedAt": 1793033632000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Woori Financial Group Inc - ADR(WF-US)EPS預估上修至9.82元，預估目標價為95.13元",
+      "link": "https://news.cnyes.com/news/id/6637905",
+      "publishedAt": 1793031377000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：超捷國際MCHP-US的目標價調降至108元，幅度約3.57%",
+      "link": "https://news.cnyes.com/news/id/6637904",
+      "publishedAt": 1793031337000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：艾利科技ALGN-US的目標價調降至188元，幅度約5.53%",
+      "link": "https://news.cnyes.com/news/id/6637903",
+      "publishedAt": 1793031333000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "6萬人可申請！微軟推自願離職 副總裁也適用",
+      "link": "https://news.cnyes.com/news/id/6637900",
+      "publishedAt": 1793031303000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "通膨升溫為何不升息？Fed傳聲筒揭本周料按兵不動原因",
+      "link": "https://news.cnyes.com/news/id/6637869",
+      "publishedAt": 1793029203000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "看好Claude也不急著買！華爾街為Anthropic上市算三筆帳",
+      "link": "https://news.cnyes.com/news/id/6637875",
+      "publishedAt": 1793027405000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "盤中速報 - 安謀控股公司(ARM-US)大漲5.01%，報220.86美元",
+      "link": "https://news.cnyes.com/news/id/6637882",
+      "publishedAt": 1793027263000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "盤中速報 - 新思科技(SNPS-US)大漲5.03%，報451.79美元",
+      "link": "https://news.cnyes.com/news/id/6637881",
+      "publishedAt": 1793027259000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "iPad mini終於換OLED！首度支援防水 台灣售價22900元起",
+      "link": "https://news.cnyes.com/news/id/6637850",
+      "publishedAt": 1793025604000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "〈熱門股〉中釉憑轉型新材料事業力拚轉機 周漲12.44%站回所有均線",
+      "link": "https://news.cnyes.com/news/id/6637846",
+      "publishedAt": 1793025342000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "盤中速報 - 安可(AMKR-US)大跌5.04%，報37.32美元",
+      "link": "https://news.cnyes.com/news/id/6637868",
+      "publishedAt": 1793024525000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Celestica, Inc.CLS-US的目標價調降至455元，幅度約4.21%",
+      "link": "https://news.cnyes.com/news/id/6637867",
+      "publishedAt": 1793024136000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "算力沒用也得付錢！Anthropic上市文件揭長期支出壓力",
+      "link": "https://news.cnyes.com/news/id/6637853",
+      "publishedAt": 1793023823000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "多家機構示警美股風險！貝萊德降至中性、AI仍獲看好、美銀警告估值偏高",
+      "link": "https://news.cnyes.com/news/id/6637645",
+      "publishedAt": 1793023804000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "盤中速報 - 露露檸檬(LULU-US)大漲5.1%，報104.06美元",
+      "link": "https://news.cnyes.com/news/id/6637864",
+      "publishedAt": 1793023558000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "盤中速報 - 特斯拉(TSLA-US)大漲5.11%，報391.24美元",
+      "link": "https://news.cnyes.com/news/id/6637857",
+      "publishedAt": 1793022783000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "盤中速報 - 莫德納(MRNA-US)大跌6.8%，報186.5美元",
+      "link": "https://news.cnyes.com/news/id/6637856",
+      "publishedAt": 1793022307000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "盤中速報 - 美卡多(MELI-US)大跌12.14%，報1590.36美元",
+      "link": "https://news.cnyes.com/news/id/6637855",
+      "publishedAt": 1793022306000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "這個國家充滿憤怒 將繼續抗議 馬克宏陷入死結",
+      "link": "https://news.cnyes.com/news/id/6637848",
+      "publishedAt": 1793022219000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "〈美股早盤〉Anthropic搶上市點燃AI熱情！晶片股帶頭反彈 主要指數開高",
+      "link": "https://news.cnyes.com/news/id/6637786",
+      "publishedAt": 1793022046000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "〈新股IPO〉AI模型巨頭搶上市！Anthropic公開遞件 募資規模挑戰SpaceX紀錄",
+      "link": "https://news.cnyes.com/news/id/6637842",
+      "publishedAt": 1793020970000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793041855244
+    },
     {
       "headline": "iPhone Duo螢幕出包 鴻海人士：實際生產未受影響",
       "link": "https://news.cnyes.com/news/id/6637815",
@@ -13,7 +385,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793020731649
+      "fetchedAt": 1793041855244
     },
     {
       "headline": "AI浪潮也會翻船！Citadel投資長警告信用市場考驗還沒完",
@@ -25,7 +397,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793020731649
+      "fetchedAt": 1793041855244
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：Comfort Systems USA, Inc.(FIX-US)EPS預估上修至50.75元，預估目標價為1,944.50元",
@@ -37,7 +409,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793020731649
+      "fetchedAt": 1793041855244
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：Comfort Systems USA, Inc.FIX-US的目標價調降至1944.5元，幅度約9.49%",
@@ -49,7 +421,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793020731649
+      "fetchedAt": 1793041855244
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：第一國民銀行控股(FCNCA-US)EPS預估上修至205.03元，預估目標價為2,475.00元",
@@ -61,7 +433,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793020731649
+      "fetchedAt": 1793041855244
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：Life Time Group Holdings IncLTH-US的目標價調降至53元，幅度約3.64%",
@@ -73,19 +445,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：DraftKings公司(DKNG-US)EPS預估上修至-0.16元，預估目標價為30.00元",
-      "link": "https://news.cnyes.com/news/id/6637817",
-      "publishedAt": 1793016936000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793020731649
+      "fetchedAt": 1793041855244
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：NRG能源公司NRG-US的目標價調降至173元，幅度約3.35%",
@@ -97,7 +457,19 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793020731649
+      "fetchedAt": 1793041855244
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：DraftKings公司(DKNG-US)EPS預估上修至-0.16元，預估目標價為30.00元",
+      "link": "https://news.cnyes.com/news/id/6637817",
+      "publishedAt": 1793016936000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793041855244
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：洛克希德馬丁LMT-US的目標價調升至654元，幅度約3.89%",
@@ -109,379 +481,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：直覺INTU-US的目標價調升至400元，幅度約3.9%",
-      "link": "https://news.cnyes.com/news/id/6637814",
-      "publishedAt": 1793016934000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：第一國民銀行控股FCNCA-US的目標價調升至2475元，幅度約7.61%",
-      "link": "https://news.cnyes.com/news/id/6637812",
-      "publishedAt": 1793016931000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：哈莫尼黃金(HMY-US)EPS預估下修至2.94元，預估目標價為21.38元",
-      "link": "https://news.cnyes.com/news/id/6637813",
-      "publishedAt": 1793016931000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Paycom軟體PAYC-US的目標價調升至240元，幅度約3.23%",
-      "link": "https://news.cnyes.com/news/id/6637811",
-      "publishedAt": 1793016930000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：印孚瑟斯INFY-US的目標價調升至12.46元，幅度約3.85%",
-      "link": "https://news.cnyes.com/news/id/6637810",
-      "publishedAt": 1793016929000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：如瑞迪博士 ADRRDY-US的目標價調升至13.48元，幅度約4.23%",
-      "link": "https://news.cnyes.com/news/id/6637809",
-      "publishedAt": 1793016928000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Fair Isaac公司FICO-US的目標價調降至900元，幅度約15.33%",
-      "link": "https://news.cnyes.com/news/id/6637808",
-      "publishedAt": 1793016927000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Westlake Corporation(WLK-US)EPS預估下修至1.8元，預估目標價為75.50元",
-      "link": "https://news.cnyes.com/news/id/6637807",
-      "publishedAt": 1793016925000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：環球人壽GL-US的目標價調降至183.5元，幅度約3.67%",
-      "link": "https://news.cnyes.com/news/id/6637806",
-      "publishedAt": 1793016923000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "AI太燒錢！Meta擬籌950億美元 輝達等三巨頭有意買單",
-      "link": "https://news.cnyes.com/news/id/6637788",
-      "publishedAt": 1793016685000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：信邦(3023-TW)目標價調降至375元，幅度約3.85%",
-      "link": "https://news.cnyes.com/news/id/6637805",
-      "publishedAt": 1793016627000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股預估"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "不只油電車！歐盟最快明年初擴大進口限制 瞄準中國家具機械",
-      "link": "https://news.cnyes.com/news/id/6637789",
-      "publishedAt": 1793014803000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "油價突然下跌！伊朗將與沙國、土耳其、巴基斯坦會談 川普保留攻伊選項",
-      "link": "https://news.cnyes.com/news/id/6637775",
-      "publishedAt": 1793013153000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "比亞迪9月出口18萬輛、年增1.5倍！「這國」成最大市場",
-      "link": "https://news.cnyes.com/news/id/6637694",
-      "publishedAt": 1793009403000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "A股"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "AI新創淘汰潮來襲！Character.AI聲請破產、OpenAI砍產品 42%企業AI專案遭放棄",
-      "link": "https://news.cnyes.com/news/id/6637572",
-      "publishedAt": 1793005803000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "銘福開發與大馬Naza集團簽MOU 合攻城市採礦商機",
-      "link": "https://news.cnyes.com/news/id/6637664",
-      "publishedAt": 1793005335000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "CCL廠騰輝電子泰國新廠今開幕 昆山同步投資15億元擴產",
-      "link": "https://news.cnyes.com/news/id/6637671",
-      "publishedAt": 1793004646000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "iPhone Duo剛開賣就出問題！螢幕爆裂痕、軟體相容挨批、價格跌破原價",
-      "link": "https://news.cnyes.com/news/id/6637660",
-      "publishedAt": 1793002226000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "AI資料中心成美國大選最新政治炸彈！川普力挺建設、州級暫停令機率升至27%",
-      "link": "https://news.cnyes.com/news/id/6637606",
-      "publishedAt": 1792998602000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "塞爾維亞議會選舉變天？武契奇坦言恐落敗、學生陣營宣布勝選",
-      "link": "https://news.cnyes.com/news/id/6637661",
-      "publishedAt": 1792995005000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "盤中速報 - Ethena大漲8.62%，報0.21美元",
-      "link": "https://news.cnyes.com/news/id/6637678",
-      "publishedAt": 1792993820000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1793000479020
-    },
-    {
-      "headline": "大規模草原火災 蒙古：考慮向涉事日本企業索賠",
-      "link": "https://news.cnyes.com/news/id/6637613",
-      "publishedAt": 1792993007000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "炒貨退潮！iPhone Duo回收價、售價在中國雙雙「破發」",
-      "link": "https://news.cnyes.com/news/id/6637608",
-      "publishedAt": 1792992109000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "鴻海旗下Fii發布責任供應鏈戰略白皮書 提「RISE」藍圖未來5年聚焦四大面向",
-      "link": "https://news.cnyes.com/news/id/6637504",
-      "publishedAt": 1792981805000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "鉅亨買幣速報 - 比特幣(BTC)24小時成交量超過5.84億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
-      "link": "https://news.cnyes.com/news/id/6637607",
-      "publishedAt": 1792980919000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1793000479020
-    },
-    {
-      "headline": "巴西總統大選結果出爐！魯拉擊敗波索納洛之子連任、面臨保守派國會與債務挑戰",
-      "link": "https://news.cnyes.com/news/id/6637599",
-      "publishedAt": 1792980600000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "金價4000美元關卡難守？富坦：央行連16年買入成最強後盾 中長期多頭",
-      "link": "https://news.cnyes.com/news/id/6637267",
-      "publishedAt": 1792978804000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "基金"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "主動式ETF規模逼近兆元！績效驗收差距拉開 00400A黑馬突圍",
-      "link": "https://news.cnyes.com/news/id/6637591",
-      "publishedAt": 1792978118000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "ETF"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "AI基建商機、台電強韌電網計畫雙重助攻 重電四雄營運可期",
-      "link": "https://news.cnyes.com/news/id/6637130",
-      "publishedAt": 1792977249000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "穆迪未降評法國國債 為什麼歐元空頭部位仍升至逾6年高位？",
-      "link": "https://news.cnyes.com/news/id/6636584",
-      "publishedAt": 1792977004000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1793020731649
-    },
-    {
-      "headline": "盤中速報 - GTC大跌9.23%，報0.231美元",
-      "link": "https://news.cnyes.com/news/id/6637583",
-      "publishedAt": 1792975819000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1793000479020
+      "fetchedAt": 1793041855244
     }
   ],
   "failedSources": [],
