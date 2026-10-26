@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T12:48:22.160Z",
-  "checkedAt": 1793018902160,
+  "generatedAt": "2026-10-26T13:18:51.649Z",
+  "checkedAt": 1793020731649,
   "data": [
+    {
+      "headline": "iPhone Duo螢幕出包 鴻海人士：實際生產未受影響",
+      "link": "https://news.cnyes.com/news/id/6637815",
+      "publishedAt": 1793019576000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1793020731649
+    },
     {
       "headline": "AI浪潮也會翻船！Citadel投資長警告信用市場考驗還沒完",
       "link": "https://news.cnyes.com/news/id/6637795",
@@ -13,7 +25,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：Comfort Systems USA, Inc.(FIX-US)EPS預估上修至50.75元，預估目標價為1,944.50元",
@@ -25,7 +37,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：Comfort Systems USA, Inc.FIX-US的目標價調降至1944.5元，幅度約9.49%",
@@ -37,7 +49,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：第一國民銀行控股(FCNCA-US)EPS預估上修至205.03元，預估目標價為2,475.00元",
@@ -49,7 +61,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：Life Time Group Holdings IncLTH-US的目標價調降至53元，幅度約3.64%",
@@ -61,7 +73,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：DraftKings公司(DKNG-US)EPS預估上修至-0.16元，預估目標價為30.00元",
@@ -73,7 +85,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：NRG能源公司NRG-US的目標價調降至173元，幅度約3.35%",
@@ -85,7 +97,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：洛克希德馬丁LMT-US的目標價調升至654元，幅度約3.89%",
@@ -97,7 +109,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：直覺INTU-US的目標價調升至400元，幅度約3.9%",
@@ -109,7 +121,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：第一國民銀行控股FCNCA-US的目標價調升至2475元，幅度約7.61%",
@@ -121,7 +133,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：哈莫尼黃金(HMY-US)EPS預估下修至2.94元，預估目標價為21.38元",
@@ -133,7 +145,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：Paycom軟體PAYC-US的目標價調升至240元，幅度約3.23%",
@@ -145,7 +157,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：印孚瑟斯INFY-US的目標價調升至12.46元，幅度約3.85%",
@@ -157,7 +169,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：如瑞迪博士 ADRRDY-US的目標價調升至13.48元，幅度約4.23%",
@@ -169,7 +181,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：Fair Isaac公司FICO-US的目標價調降至900元，幅度約15.33%",
@@ -181,7 +193,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：Westlake Corporation(WLK-US)EPS預估下修至1.8元，預估目標價為75.50元",
@@ -193,7 +205,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：環球人壽GL-US的目標價調降至183.5元，幅度約3.67%",
@@ -205,7 +217,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "AI太燒錢！Meta擬籌950億美元 輝達等三巨頭有意買單",
@@ -217,7 +229,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：信邦(3023-TW)目標價調降至375元，幅度約3.85%",
@@ -229,7 +241,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "不只油電車！歐盟最快明年初擴大進口限制 瞄準中國家具機械",
@@ -241,7 +253,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "油價突然下跌！伊朗將與沙國、土耳其、巴基斯坦會談 川普保留攻伊選項",
@@ -253,7 +265,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "比亞迪9月出口18萬輛、年增1.5倍！「這國」成最大市場",
@@ -265,7 +277,7 @@
       "categories": [
         "A股"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "AI新創淘汰潮來襲！Character.AI聲請破產、OpenAI砍產品 42%企業AI專案遭放棄",
@@ -277,7 +289,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "銘福開發與大馬Naza集團簽MOU 合攻城市採礦商機",
@@ -289,7 +301,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "CCL廠騰輝電子泰國新廠今開幕 昆山同步投資15億元擴產",
@@ -301,7 +313,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "iPhone Duo剛開賣就出問題！螢幕爆裂痕、軟體相容挨批、價格跌破原價",
@@ -313,7 +325,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "AI資料中心成美國大選最新政治炸彈！川普力挺建設、州級暫停令機率升至27%",
@@ -325,7 +337,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "塞爾維亞議會選舉變天？武契奇坦言恐落敗、學生陣營宣布勝選",
@@ -337,7 +349,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "盤中速報 - Ethena大漲8.62%，報0.21美元",
@@ -361,7 +373,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "炒貨退潮！iPhone Duo回收價、售價在中國雙雙「破發」",
@@ -373,7 +385,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鴻海旗下Fii發布責任供應鏈戰略白皮書 提「RISE」藍圖未來5年聚焦四大面向",
@@ -385,7 +397,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "鉅亨買幣速報 - 比特幣(BTC)24小時成交量超過5.84億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
@@ -409,7 +421,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "金價4000美元關卡難守？富坦：央行連16年買入成最強後盾 中長期多頭",
@@ -421,7 +433,7 @@
       "categories": [
         "基金"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "主動式ETF規模逼近兆元！績效驗收差距拉開 00400A黑馬突圍",
@@ -433,7 +445,7 @@
       "categories": [
         "ETF"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "AI基建商機、台電強韌電網計畫雙重助攻 重電四雄營運可期",
@@ -445,7 +457,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "穆迪未降評法國國債 為什麼歐元空頭部位仍升至逾6年高位？",
@@ -457,24 +469,12 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793018902160
+      "fetchedAt": 1793020731649
     },
     {
       "headline": "盤中速報 - GTC大跌9.23%，報0.231美元",
       "link": "https://news.cnyes.com/news/id/6637583",
       "publishedAt": 1792975819000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1793000479020
-    },
-    {
-      "headline": "盤中速報 - Threshold大跌25.84%，報0.01美元",
-      "link": "https://news.cnyes.com/news/id/6637571",
-      "publishedAt": 1792974017000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
