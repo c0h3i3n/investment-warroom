@@ -677,14 +677,25 @@ async function refreshAndStore(env) {
   return merged;
 }
 
-async function loadOfficialCalendar(env, refresh = false) {
+const calendarRefreshes=new WeakMap();
+async function loadOfficialCalendar(env, refresh = false, ctx = null) {
   if (!env?.MARKET_CACHE) return;
   let state = await env.MARKET_CACHE.get(CALENDAR_KEY, { type: 'json' }).catch(() => null);
   if (state?.schemaVersion !== 1 || !Array.isArray(state.closures)) state = null;
   // The scheduled job does the external checks. Requests normally only read KV.
-  if (refresh || !state || Date.now() - state.attemptedAt > 10 * 60000) {
-    state = await refreshOfficialCalendar(state);
-    await safeCachePut(env, CALENDAR_KEY, JSON.stringify(state));
+  const failed=state && ['annual','notices','futures'].some(name=>!state.checks?.[name]?.ok);
+  if (refresh || !state || Date.now() - state.attemptedAt > (failed?60000:10*60000)) {
+    let work=calendarRefreshes.get(env);
+    if(!work) {
+      work=refreshOfficialCalendar(state).then(async updated=>{
+        await safeCachePut(env,CALENDAR_KEY,JSON.stringify(updated));
+        MarketCalendar.applyOfficial(updated);
+        return updated;
+      }).finally(()=>calendarRefreshes.delete(env));
+      calendarRefreshes.set(env,work);
+    }
+    if(state&&ctx?.waitUntil) ctx.waitUntil(work.catch(error=>console.warn('Background calendar refresh failed',error)));
+    else state=await work;
   }
   MarketCalendar.applyOfficial(state);
 }
@@ -904,10 +915,10 @@ async function handleMarketRequest(request, env) {
   return jsonResponse({ error: 'Market data unavailable' }, 503, request);
 }
 
-export async function handleRequest(request, env) {
+export async function handleRequest(request, env, ctx) {
   const path = new URL(request.url).pathname;
   if (request.method === 'GET' && path !== '/api/news' && (path.startsWith('/api/') || path === '/health')) {
-    await loadOfficialCalendar(env).catch(error => console.warn('Official calendar check failed', error));
+    await loadOfficialCalendar(env,false,ctx).catch(error => console.warn('Official calendar check failed', error));
   }
   if (path === '/api/market-calendar' && request.method === 'GET') {
     return jsonResponse({ calendar: MarketCalendar.officialState(), verification: MarketCalendar.verification() }, 200, request);

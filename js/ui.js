@@ -454,6 +454,8 @@ const UI = (() => {
     }
 
     if (grid && indData?.indicators) {
+      const priorDetails=grid.querySelector?.('.indicator-details');
+      const keepDetailsOpen=priorDetails?.dataset?.symbol===indData.symbol && priorDetails.open;
       const lag = Number(indData.historyMeta?.lagSessions) || 0;
       const historical = lag > 0 || Boolean(indData.historyMeta?.historical);
       const historicalDate = new Intl.DateTimeFormat('zh-TW',{timeZone:/\.TW$/i.test(indData.symbol)?'Asia/Taipei':'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(indData.asOf));
@@ -475,17 +477,24 @@ const UI = (() => {
         timeZone:zone, month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', hour12:false,
       }).format(new Date(time));
       const generatedAt = Date.parse(indData.historyMeta?.generatedAt || '');
-      status.textContent = '技術指標截至 ' + asDate(indData.asOf) + ' 完整日線'
-        + (indData.historyMeta?.source ? ' · ' + indData.historyMeta.source : '')
+      const visible = '技術指標截至 ' + asDate(indData.asOf) + ' 完整日線'
         + (Number.isFinite(generatedAt) ? ' · 資料取得 ' + asTime(generatedAt) : ' · 資料取得時間不明')
         + (indData.historyMeta?.excludedIncomplete ? ' · 盤中日線未納入' : '')
         + (indData.historyMeta?.delivery === 'stale-kv' ? ' · 更新失敗，使用快取' : '')
-        + (indData.historyMeta?.rejectedRows ? ' · 已排除異常日線 ' + indData.historyMeta.rejectedRows + ' 筆' : '');
-      status.textContent += indData.historyMeta?.volumeSource === 'TWSE 全市場成交股數'
-        ? ' · 成交量與20日均量均採 TWSE 全市場成交股數（含零股、盤後與鉅額）'
-        : ' · 成交量及均量採同一 Yahoo 日線口徑，不等同交易所全市場日報總量';
-      if (indData.historyMeta?.repairedDates?.length) status.textContent += ' · 官方補齊 ' + indData.historyMeta.repairedDates.join('、') + '，已核對價格基準';
-      if (indData.historyMeta?.volumeWarning) status.textContent += ' · ' + indData.historyMeta.volumeWarning;
+        + (indData.historyMeta?.volumeWarning ? ' · '+indData.historyMeta.volumeWarning : '');
+      const details=[
+        '價格來源：'+(indData.historyMeta?.source || '來源未確認'),
+        indData.historyMeta?.volumeSource === 'TWSE 全市場成交股數'
+          ? '成交量與20日均量均採 TWSE 全市場成交股數（含零股、盤後與鉅額）'
+          : '成交量及均量採同一 Yahoo 日線口徑，不等同交易所全市場日報總量',
+        indData.historyMeta?.rejectedRows ? '已排除異常日線 '+indData.historyMeta.rejectedRows+' 筆' : null,
+        indData.historyMeta?.repairedDates?.length ? '官方補齊 '+indData.historyMeta.repairedDates.join('、')+'，已核對價格基準' : null,
+      ].filter(Boolean);
+      status.innerHTML=`<div class="indicator-summary" role="status">${escapeHtml(visible)}</div>
+        <details class="indicator-details" data-symbol="${escapeHtml(indData.symbol)}" ${keepDetailsOpen?'open':''}>
+          <summary>資料來源與計算說明</summary>
+          <div class="indicator-detail-body">${details.map(line=>`<p>${escapeHtml(line)}</p>`).join('')}</div>
+        </details>`;
       grid.appendChild(status);
     }
 

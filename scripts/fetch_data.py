@@ -329,10 +329,14 @@ if not isinstance(official_calendar, dict) or official_calendar.get('schemaVersi
     except (OSError, ValueError):
         official_calendar = None
 if isinstance(official_calendar, dict):
+    published = dict(official_calendar.get('annuals') or {})
     annual = official_calendar.get('annual') or {}
-    if isinstance(annual.get('closed'), list) and isinstance(annual.get('year'), int):
-        prefix = str(annual['year']) + '-'
-        HOLIDAYS['TW'] = [day for day in HOLIDAYS['TW'] if not day.startswith(prefix)] + annual['closed']
+    if isinstance(annual.get('year'), int):
+        published[str(annual['year'])] = annual
+    for annual in published.values():
+        if isinstance(annual, dict) and isinstance(annual.get('closed'), list) and isinstance(annual.get('year'), int):
+            prefix = str(annual['year']) + '-'
+            HOLIDAYS['TW'] = [day for day in HOLIDAYS['TW'] if not day.startswith(prefix)] + annual['closed']
     for closure in official_calendar.get('closures', []):
         if closure.get('scope') == 'TW' and isinstance(closure.get('date'), str):
             HOLIDAYS['TW'].append(closure['date'])

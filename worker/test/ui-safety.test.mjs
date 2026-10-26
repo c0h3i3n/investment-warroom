@@ -56,7 +56,10 @@ test('featured quotes show their source time and distinguish an indicative price
 });
 
 test('technical indicators identify the completed session and actual retrieval time', () => {
-  const grid = { innerHTML:'', appendChild(node) { this.status = node.textContent; } };
+  const grid = { innerHTML:'', appendChild(node) {
+    this.status = node.innerHTML.match(/<div class="indicator-summary"[^>]*>([\s\S]*?)<\/div>/)?.[1] || '';
+    this.details=node.innerHTML;
+  } };
   const label = { textContent:'' };
   const context = vm.createContext({
     document:{
@@ -75,6 +78,7 @@ test('technical indicators identify the completed session and actual retrieval t
   assert.match(grid.status, /資料取得 10\/01\s+10:27/);
   assert.match(grid.status, /盤中日線未納入/);
   assert.doesNotMatch(grid.status, /計算/);
+  assert.match(grid.details,/價格來源：Yahoo Finance/);
   context.data.historyMeta.lagSessions = 1;
   context.data.historyMeta.expectedSession = '2026-10-01';
   vm.runInContext('UI.renderIndicators(data)', context);

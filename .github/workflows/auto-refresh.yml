@@ -21,7 +21,7 @@ on:
 
 concurrency:
   group: auto-refresh-static-data
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -32,6 +32,8 @@ jobs:
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
+      - name: Sync latest snapshots
+        run: git pull --ff-only origin main
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -50,5 +52,6 @@ jobs:
             echo "No changes"
           else
             git commit -m "📊 auto refresh [skip ci]"
+            git pull --rebase origin main
             git push
           fi

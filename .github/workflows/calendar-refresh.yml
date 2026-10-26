@@ -1,0 +1,35 @@
+name: Official Calendar Backup
+on:
+  schedule:
+    # Every ten minutes around TW day/night opening (07–09 and 14–16 Taipei).
+    # The Worker continues to check every five minutes throughout the day.
+    - cron: '*/10 23,0,1,6,7,8 * * *'
+  workflow_dispatch:
+concurrency:
+  group: auto-refresh-static-data
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  calendar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sync latest snapshots
+        run: git pull --ff-only origin main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Read and verify original exchange sources
+        run: node scripts/check-official-calendar.mjs
+      - name: Publish dated calendar backup
+        run: |
+          git config user.name "warroom-bot"
+          git config user.email "bot@warroom.local"
+          git add data/calendar.json
+          if ! git diff --cached --quiet; then
+            git commit -m "📅 official calendar check [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi

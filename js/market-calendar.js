@@ -19,8 +19,10 @@ globalThis.MarketCalendar = (() => {
   function scheduledTradingDay(region, day) {
     const date = new Date(day);
     const key = date.toISOString().slice(0, 10);
-    const holidays = region === 'TW' && official?.annual?.year === date.getUTCFullYear()
-      ? official.annual.closed : MARKET_HOLIDAYS[region] || [];
+    const year=date.getUTCFullYear();
+    const published=official?.annuals?.[year] || (official?.annual?.year===year?official.annual:null);
+    const holidays = region === 'TW' && published && Array.isArray(published.closed)
+      ? published.closed : MARKET_HOLIDAYS[region] || [];
     return ![0, 6].includes(date.getUTCDay())
       && !holidays.includes(key);
   }
