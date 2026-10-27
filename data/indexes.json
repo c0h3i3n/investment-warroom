@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-27T04:51:38.829363+00:00",
-  "generatedAt": "2026-10-27T04:51:38.829363+00:00",
+  "timestamp": "2026-10-27T05:16:35.158225+00:00",
+  "generatedAt": "2026-10-27T05:16:35.158225+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-10-27",
-    "attemptedAt": 1793076697102,
+    "attemptedAt": 1793078193420,
     "annual": {
       "year": 2026,
       "closed": [
@@ -87,12 +87,12 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1793076697102,
+        "checkedAt": 1793078193420,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1793076697102,
+        "checkedAt": 1793078193420,
         "error": null
       },
       "futures": {
@@ -116,10 +116,10 @@
       "name": "加權指數 TAIEX",
       "region": "TW",
       "currency": "NT$",
-      "price": 45988.03,
-      "change": -53.4,
-      "changePct": -0.12,
-      "asOf": "2026-10-27T04:50:20+00:00",
+      "price": 46149.79,
+      "change": 108.36,
+      "changePct": 0.24,
+      "asOf": "2026-10-27T05:16:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -129,10 +129,10 @@
       "name": "OTC 櫃買指數",
       "region": "TW",
       "currency": "NT$",
-      "price": 380.58,
-      "change": -1.11,
-      "changePct": -0.29,
-      "asOf": "2026-10-27T04:51:25+00:00",
+      "price": 380.63,
+      "change": -1.06,
+      "changePct": -0.28,
+      "asOf": "2026-10-27T05:16:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
