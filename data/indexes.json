@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-28T15:55:43.828244+00:00",
-  "generatedAt": "2026-10-28T15:55:43.828244+00:00",
+  "timestamp": "2026-10-28T20:57:39.364376+00:00",
+  "generatedAt": "2026-10-28T20:57:39.364376+00:00",
   "calendar": {
     "schemaVersion": 1,
-    "date": "2026-10-28",
-    "attemptedAt": 1793202941699,
+    "date": "2026-10-29",
+    "attemptedAt": 1793221057021,
     "annual": {
       "year": 2026,
       "closed": [
@@ -87,12 +87,12 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1793202941699,
+        "checkedAt": 1793221057021,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1793202941699,
+        "checkedAt": 1793221057021,
         "error": null
       },
       "futures": {
@@ -142,10 +142,10 @@
       "name": "S&P 500",
       "region": "US",
       "currency": "$",
-      "price": 7736.32,
-      "change": 13.72,
-      "changePct": 0.18,
-      "asOf": "2026-10-28T15:55:43+00:00",
+      "price": 7743.98,
+      "change": 21.38,
+      "changePct": 0.28,
+      "asOf": "2026-10-28T20:20:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -155,10 +155,10 @@
       "name": "NASDAQ",
       "region": "US",
       "currency": "$",
-      "price": 26456.34,
-      "change": -21.47,
-      "changePct": -0.08,
-      "asOf": "2026-10-28T15:55:40+00:00",
+      "price": 26549.852,
+      "change": 72.04,
+      "changePct": 0.27,
+      "asOf": "2026-10-28T20:57:38+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -168,10 +168,10 @@
       "name": "費城半導體 SOX",
       "region": "US",
       "currency": "$",
-      "price": 11572.603,
-      "change": 90.1,
-      "changePct": 0.78,
-      "asOf": "2026-10-28T15:55:43+00:00",
+      "price": 11684.0,
+      "change": 201.5,
+      "changePct": 1.75,
+      "asOf": "2026-10-28T20:57:39+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
