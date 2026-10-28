@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-28T13:12:57.373164+00:00",
-  "generatedAt": "2026-10-28T13:12:57.373164+00:00",
+  "timestamp": "2026-10-28T15:55:43.828244+00:00",
+  "generatedAt": "2026-10-28T15:55:43.828244+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-10-28",
-    "attemptedAt": 1793193175513,
+    "attemptedAt": 1793202941699,
     "annual": {
       "year": 2026,
       "closed": [
@@ -87,12 +87,12 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1793193175513,
+        "checkedAt": 1793202941699,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1793193175513,
+        "checkedAt": 1793202941699,
         "error": null
       },
       "futures": {
@@ -193,30 +193,30 @@
     {
       "symbol": "SPCX",
       "name": "",
-      "price": 148.58,
-      "change": 1.68,
-      "changePct": 1.14,
-      "asOf": "2026-10-27T20:00:00+00:00",
+      "price": 144.81,
+      "change": -3.77,
+      "changePct": -2.54,
+      "asOf": "2026-10-28T15:56:03+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "NVDA",
       "name": "",
-      "price": 217.94,
-      "change": 1.94,
-      "changePct": 0.9,
-      "asOf": "2026-10-27T20:00:01+00:00",
+      "price": 217.25,
+      "change": -0.69,
+      "changePct": -0.32,
+      "asOf": "2026-10-28T15:56:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "TSLA",
       "name": "",
-      "price": 407.46,
-      "change": 15.84,
-      "changePct": 4.04,
-      "asOf": "2026-10-27T20:00:00+00:00",
+      "price": 401.42,
+      "change": -6.04,
+      "changePct": -1.48,
+      "asOf": "2026-10-28T15:56:02+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }

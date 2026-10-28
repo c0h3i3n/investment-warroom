@@ -1,19 +1,391 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T13:13:18.712Z",
-  "checkedAt": 1793193198712,
+  "generatedAt": "2026-10-28T15:56:06.436Z",
+  "checkedAt": 1793202966436,
   "data": [
+    {
+      "headline": "盤中速報 - 伊魯米納(ILMN-US)大漲5.08%，報293.67美元",
+      "link": "https://news.cnyes.com/news/id/6639983",
+      "publishedAt": 1793201805000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "盤中速報 - 科林研發(LRCX-US)大漲5%，報252.9美元",
+      "link": "https://news.cnyes.com/news/id/6639982",
+      "publishedAt": 1793201703000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "能源補助來了！英國預算案出爐 通膨降溫還得等",
+      "link": "https://news.cnyes.com/news/id/6639943",
+      "publishedAt": 1793201403000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "油價居高不下的代價！加拿大央行升息1碼 可能還得再升",
+      "link": "https://news.cnyes.com/news/id/6639818",
+      "publishedAt": 1793199609000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "民生用品又要漲？聯合利華預告明年漲價力道更大",
+      "link": "https://news.cnyes.com/news/id/6639916",
+      "publishedAt": 1793198407000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "歐亞股"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "盤中速報 - 貝克休斯(BKR-US)大跌5.57%，報55.72美元",
+      "link": "https://news.cnyes.com/news/id/6639966",
+      "publishedAt": 1793198261000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "盤中速報 - Old Dominion Freight Line公司(ODFL-US)大跌7.24%，報173.49美元",
+      "link": "https://news.cnyes.com/news/id/6639965",
+      "publishedAt": 1793198101000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：SpaceX(SPCX-US)EPS預估上修至0.3元，預估目標價為245.00元",
+      "link": "https://news.cnyes.com/news/id/6639960",
+      "publishedAt": 1793196952000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：國民油井華高(NOV-US)EPS預估上修至0.92元，預估目標價為22.00元",
+      "link": "https://news.cnyes.com/news/id/6639959",
+      "publishedAt": 1793196951000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：RenaissanceRe Holdings Ltd(RNR-US)EPS預估上修至47.79元，預估目標價為340.00元",
+      "link": "https://news.cnyes.com/news/id/6639958",
+      "publishedAt": 1793196949000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Logitech International S.A.(LOGI-US)EPS預估上修至5.86元，預估目標價為110.81元",
+      "link": "https://news.cnyes.com/news/id/6639957",
+      "publishedAt": 1793196947000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Robinhood Markets Inc - Class A(HOOD-US)EPS預估下修至2.14元，預估目標價為134.00元",
+      "link": "https://news.cnyes.com/news/id/6639956",
+      "publishedAt": 1793196946000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：EQT公司(EQT-US)EPS預估下修至3.8元，預估目標價為66.50元",
+      "link": "https://news.cnyes.com/news/id/6639955",
+      "publishedAt": 1793196944000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Ambev S.A. - ADR(ABEV-US)EPS預估上修至0.2元，預估目標價為3.11元",
+      "link": "https://news.cnyes.com/news/id/6639954",
+      "publishedAt": 1793196943000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：天狼星XM控股SIRI-US的目標價調升至33元，幅度約3.13%",
+      "link": "https://news.cnyes.com/news/id/6639953",
+      "publishedAt": 1793196938000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Talen Energy Corp(TLN-US)EPS預估下修至16.77元，預估目標價為475.00元",
+      "link": "https://news.cnyes.com/news/id/6639952",
+      "publishedAt": 1793196934000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：希捷科技STX-US的目標價調降至1050元，幅度約3.23%",
+      "link": "https://news.cnyes.com/news/id/6639951",
+      "publishedAt": 1793196931000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：帕卡PCAR-US的目標價調降至125元，幅度約5.3%",
+      "link": "https://news.cnyes.com/news/id/6639950",
+      "publishedAt": 1793196929000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：聯合包裹服務UPS-US的目標價調升至119元，幅度約3.48%",
+      "link": "https://news.cnyes.com/news/id/6639949",
+      "publishedAt": 1793196928000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：威士卡V-US的目標價調升至445元，幅度約3.49%",
+      "link": "https://news.cnyes.com/news/id/6639948",
+      "publishedAt": 1793196925000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：雙鴻(3324-TW)目標價調升至1700元，幅度約5.1%",
+      "link": "https://news.cnyes.com/news/id/6639945",
+      "publishedAt": 1793196628000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股預估"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "溫蒂漢堡要下市了？獲14億美元收購提案 盤中股價飆近17%",
+      "link": "https://news.cnyes.com/news/id/6639889",
+      "publishedAt": 1793196620000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "中國基因科技大廠遭封堵！美國指華大系三企業涉及強迫勞動",
+      "link": "https://news.cnyes.com/news/id/6639890",
+      "publishedAt": 1793195404000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "盤中速報 - 美光科技(MU-US)大漲5%，報975.24美元",
+      "link": "https://news.cnyes.com/news/id/6639915",
+      "publishedAt": 1793195339000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "盤中速報 - 泰瑞達(TER-US)大跌7.01%，報301美元",
+      "link": "https://news.cnyes.com/news/id/6639914",
+      "publishedAt": 1793195111000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "盤中速報 - 科斯塔集團(CSGP-US)大跌6.69%，報29.87美元",
+      "link": "https://news.cnyes.com/news/id/6639913",
+      "publishedAt": 1793195105000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "盤中速報 - GE 醫療(GEHC-US)大漲6.88%，報76美元",
+      "link": "https://news.cnyes.com/news/id/6639912",
+      "publishedAt": 1793195105000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "盤中速報 - 恩智浦半導體(NXPI-US)大跌6.08%，報238.09美元",
+      "link": "https://news.cnyes.com/news/id/6639911",
+      "publishedAt": 1793195104000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "〈美股早盤〉SK海力士財報點火！主要指數開高 市場聚焦Fed決策與科技巨頭財報",
+      "link": "https://news.cnyes.com/news/id/6639724",
+      "publishedAt": 1793194719000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "穩懋光學、基建營收Q3營收占比已過半 看好2027年低軌衛星及航太產品發展",
+      "link": "https://news.cnyes.com/news/id/6639862",
+      "publishedAt": 1793193609000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1793202966436
+    },
+    {
+      "headline": "不只賣自家雲端！Google找上甲骨文 搶輝達AI晶片生意",
+      "link": "https://news.cnyes.com/news/id/6639794",
+      "publishedAt": 1793193605000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793202966436
+    },
     {
       "headline": "台虹財報出爐 前三季稅後純益6.15億元年增79.93% EPS2.33元",
       "link": "https://news.cnyes.com/news/id/6639854",
       "publishedAt": 1793193036000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793193198712
+      "fetchedAt": 1793202966436
     },
     {
       "headline": "盟友轉向？美國緊密夥伴大幅減購美債 亞洲資金轉投股市與日債",
@@ -25,7 +397,7 @@
       "categories": [
         "債券"
       ],
-      "fetchedAt": 1793193198712
+      "fetchedAt": 1793202966436
     },
     {
       "headline": "台鐵與JR東日本簽署MOU 攜手深化台日鐵道交流共創永續與觀光發展",
@@ -37,7 +409,7 @@
       "categories": [
         "台灣政經"
       ],
-      "fetchedAt": 1793193198712
+      "fetchedAt": 1793202966436
     },
     {
       "headline": "美光勞資協議爆無效？勞部：一般契約不受3年限制 若不服可循司法途徑",
@@ -49,7 +421,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793193198712
+      "fetchedAt": 1793202966436
     },
     {
       "headline": "聯亞Q3每股賺6.12元寫單季新高 明年產能續擴增營運優於今年",
@@ -61,7 +433,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793193198712
+      "fetchedAt": 1793202966436
     },
     {
       "headline": "台虹董事會通過與元太合作意向 攜手布局AI高速傳輸材料市場",
@@ -73,7 +445,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793193198712
+      "fetchedAt": 1793202966436
     },
     {
       "headline": "穩定幣商機爆發 奧丁丁攜Decaf助境外企業開立美元帳戶 搶1.18兆美元跨境金流",
@@ -85,7 +457,7 @@
       "categories": [
         "銀行"
       ],
-      "fetchedAt": 1793193198712
+      "fetchedAt": 1793202966436
     },
     {
       "headline": "美股季節性「黃金半年」將啟動 投資人該準備進場了嗎？",
@@ -97,7 +469,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793193198712
+      "fetchedAt": 1793202966436
     },
     {
       "headline": "台新新光金及旗下子公司評等展望全面改善 新壽由「負向」調升為「穩定」",
@@ -109,379 +481,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：諾可(NUE-US)EPS預估上修至19.61元，預估目標價為300.00元",
-      "link": "https://news.cnyes.com/news/id/6639849",
-      "publishedAt": 1793189768000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：亞歷山卓不動產股份(ARE-US)EPS預估下修至1.44元，預估目標價為52.50元",
-      "link": "https://news.cnyes.com/news/id/6639848",
-      "publishedAt": 1793189766000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：酷澎(CPNG-US)EPS預估上修至-0.5元，預估目標價為24.00元",
-      "link": "https://news.cnyes.com/news/id/6639847",
-      "publishedAt": 1793189763000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：波音(BA-US)EPS預估下修至-1.58元，預估目標價為245.00元",
-      "link": "https://news.cnyes.com/news/id/6639846",
-      "publishedAt": 1793189759000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：歐特培(UGP-US)EPS預估下修至0.89元，預估目標價為7.76元",
-      "link": "https://news.cnyes.com/news/id/6639845",
-      "publishedAt": 1793189758000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：HCA醫療保健(HCA-US)EPS預估上修至30.06元，預估目標價為486.00元",
-      "link": "https://news.cnyes.com/news/id/6639844",
-      "publishedAt": 1793189756000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Xylem公司(XYL-US)EPS預估下修至5.45元，預估目標價為135.00元",
-      "link": "https://news.cnyes.com/news/id/6639843",
-      "publishedAt": 1793189752000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：科斯塔集團(CSGP-US)EPS預估上修至1.39元，預估目標價為34.00元",
-      "link": "https://news.cnyes.com/news/id/6639842",
-      "publishedAt": 1793189751000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：聖丁(CNC-US)EPS預估上修至5.2元，預估目標價為75.00元",
-      "link": "https://news.cnyes.com/news/id/6639841",
-      "publishedAt": 1793189749000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：信安金融保險集團(PFG-US)EPS預估下修至9.25元，預估目標價為111.50元",
-      "link": "https://news.cnyes.com/news/id/6639840",
-      "publishedAt": 1793189747000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Celestica, Inc.(CLS-US)EPS預估上修至11.46元，預估目標價為450.46元",
-      "link": "https://news.cnyes.com/news/id/6639839",
-      "publishedAt": 1793189746000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：WATSCO INC(WSO.B-US)EPS預估下修至11.68元，預估目標價為335.00元",
-      "link": "https://news.cnyes.com/news/id/6639838",
-      "publishedAt": 1793189743000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Jazz Pharmaceuticals plc(JAZZ-US)EPS預估下修至15.05元，預估目標價為300.00元",
-      "link": "https://news.cnyes.com/news/id/6639837",
-      "publishedAt": 1793189742000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Grab控股(GRAB-US)EPS預估下修至0.14元，預估目標價為5.55元",
-      "link": "https://news.cnyes.com/news/id/6639836",
-      "publishedAt": 1793189740000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：希捷科技(STX-US)EPS預估上修至39.81元，預估目標價為1,075.00元",
-      "link": "https://news.cnyes.com/news/id/6639835",
-      "publishedAt": 1793189738000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Watsco Inc. - Class A(WSO-US)EPS預估下修至11.68元，預估目標價為335.00元",
-      "link": "https://news.cnyes.com/news/id/6639833",
-      "publishedAt": 1793189736000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：曼哈頓軟體MANH-US的目標價調升至255元，幅度約5.15%",
-      "link": "https://news.cnyes.com/news/id/6639834",
-      "publishedAt": 1793189736000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Xylem公司XYL-US的目標價調降至135元，幅度約6.9%",
-      "link": "https://news.cnyes.com/news/id/6639831",
-      "publishedAt": 1793189734000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：艾奇資本集團(ACGL-US)EPS預估上修至9.94元，預估目標價為106.50元",
-      "link": "https://news.cnyes.com/news/id/6639832",
-      "publishedAt": 1793189734000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Robinhood Markets Inc - Class AHOOD-US的目標價調降至135元，幅度約3.57%",
-      "link": "https://news.cnyes.com/news/id/6639830",
-      "publishedAt": 1793189733000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：聖丁CNC-US的目標價調升至75元，幅度約6.38%",
-      "link": "https://news.cnyes.com/news/id/6639828",
-      "publishedAt": 1793189731000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Smithfield Foods, Inc.(SFD-US)EPS預估下修至1.88元，預估目標價為22.50元",
-      "link": "https://news.cnyes.com/news/id/6639829",
-      "publishedAt": 1793189731000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Ambev S.A. - ADRABEV-US的目標價調降至3.11元，幅度約6.75%",
-      "link": "https://news.cnyes.com/news/id/6639827",
-      "publishedAt": 1793189730000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：繽趣PINS-US的目標價調降至29元，幅度約3.33%",
-      "link": "https://news.cnyes.com/news/id/6639826",
-      "publishedAt": 1793189726000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Smithfield Foods, Inc.SFD-US的目標價調降至22.5元，幅度約6.25%",
-      "link": "https://news.cnyes.com/news/id/6639825",
-      "publishedAt": 1793189724000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：波音BA-US的目標價調降至245元，幅度約8.92%",
-      "link": "https://news.cnyes.com/news/id/6639824",
-      "publishedAt": 1793189723000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：YPF有限責任YPF-US的目標價調升至62元，幅度約3.33%",
-      "link": "https://news.cnyes.com/news/id/6639823",
-      "publishedAt": 1793189721000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "〈房產〉AI紅利勁道強 國城建設洪平森：房市最壞市況將過 還有新投資規劃中",
-      "link": "https://news.cnyes.com/news/id/6639732",
-      "publishedAt": 1793189485000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台灣房市"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "〈財報〉Q3營收暴增近1800%！摩爾線程搭上中國AI硬體需求潮",
-      "link": "https://news.cnyes.com/news/id/6639725",
-      "publishedAt": 1793188802000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "A股"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "官股銀全面揮軍財管2.0 土銀「一站式」高資產財管業務推富豪專屬保險",
-      "link": "https://news.cnyes.com/news/id/6639671",
-      "publishedAt": 1793188773000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "銀行"
-      ],
-      "fetchedAt": 1793193198712
-    },
-    {
-      "headline": "投審會拍板12案 酷澎在台砸255億、環球晶10億美元赴美增資雙雙奪冠",
-      "link": "https://news.cnyes.com/news/id/6639720",
-      "publishedAt": 1793188614000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1793193198712
+      "fetchedAt": 1793202966436
     }
   ],
   "failedSources": [],
