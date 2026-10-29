@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-28T20:57:39.364376+00:00",
-  "generatedAt": "2026-10-28T20:57:39.364376+00:00",
+  "timestamp": "2026-10-29T00:47:41.392263+00:00",
+  "generatedAt": "2026-10-29T00:47:41.392263+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-10-29",
-    "attemptedAt": 1793221057021,
+    "attemptedAt": 1793234859924,
     "annual": {
       "year": 2026,
       "closed": [
@@ -87,12 +87,12 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1793221057021,
+        "checkedAt": 1793234859924,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1793221057021,
+        "checkedAt": 1793234859924,
         "error": null
       },
       "futures": {
@@ -117,10 +117,10 @@
       "region": "TW",
       "currency": "NT$",
       "price": 47035.58,
-      "change": 939.35,
-      "changePct": 2.04,
-      "asOf": "2026-10-28T05:33:00+00:00",
-      "source": "TWSE MIS",
+      "change": 994.18,
+      "changePct": 2.16,
+      "asOf": "2026-10-28T05:33:15+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -129,12 +129,12 @@
       "name": "OTC 櫃買指數",
       "region": "TW",
       "currency": "NT$",
-      "price": 394.61,
-      "change": 15.41,
-      "changePct": 4.06,
-      "asOf": "2026-10-28T05:33:00+00:00",
-      "source": "TWSE MIS",
-      "priceType": "trade"
+      "price": null,
+      "change": null,
+      "changePct": null,
+      "asOf": null,
+      "source": null,
+      "priceType": null
     },
     {
       "id": "spx",
@@ -145,7 +145,7 @@
       "price": 7743.98,
       "change": 21.38,
       "changePct": 0.28,
-      "asOf": "2026-10-28T20:20:01+00:00",
+      "asOf": "2026-10-28T21:18:42+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -158,7 +158,7 @@
       "price": 26549.852,
       "change": 72.04,
       "changePct": 0.27,
-      "asOf": "2026-10-28T20:57:38+00:00",
+      "asOf": "2026-10-28T21:15:59+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -171,7 +171,7 @@
       "price": 11684.0,
       "change": 201.5,
       "changePct": 1.75,
-      "asOf": "2026-10-28T20:57:39+00:00",
+      "asOf": "2026-10-28T21:15:59+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
