@@ -1,8 +1,68 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T06:00:06.665Z",
-  "checkedAt": 1793253606665,
+  "generatedAt": "2026-10-29T06:57:38.580Z",
+  "checkedAt": 1793257058580,
   "data": [
+    {
+      "headline": "東南亞不香了？惠普、華碩、宏碁想將產線搬回中國 專家：AI推高記憶體等成本",
+      "link": "https://news.cnyes.com/news/id/6640220",
+      "publishedAt": 1793256603000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "歐亞股"
+      ],
+      "fetchedAt": 1793257058580
+    },
+    {
+      "headline": "三星警告記憶體短缺加劇 股東回報仍待明年敲定",
+      "link": "https://news.cnyes.com/news/id/6640465",
+      "publishedAt": 1793256002000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "歐亞股"
+      ],
+      "fetchedAt": 1793257058580
+    },
+    {
+      "headline": "花旗：2027年北上深等核心城市二手房價格或迎拐點",
+      "link": "https://news.cnyes.com/news/id/6640459",
+      "publishedAt": 1793254204000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "大陸房市"
+      ],
+      "fetchedAt": 1793257058580
+    },
+    {
+      "headline": "國泰世華銀看Fed「鷹派暫停」、保留後續緊縮空間 股市震盪恐加劇",
+      "link": "https://news.cnyes.com/news/id/6640483",
+      "publishedAt": 1793254198000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1793257058580
+    },
+    {
+      "headline": "聯準會按兵不動、Google 財報分歧，資金為何悄悄流向 Lumentum 和穩懋？",
+      "link": "https://news.cnyes.com/news/id/6640482",
+      "publishedAt": 1793253610000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1793257058580
+    },
     {
       "headline": "Fed主席重申抗通膨決心！富達料升息還有戲 12月與明年3月各升1碼",
       "link": "https://news.cnyes.com/news/id/6640444",
@@ -13,7 +73,7 @@
       "categories": [
         "基金"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "〈焦點股〉Q3財報亮眼 穩懋連2日亮燈攻上漲停板",
@@ -25,7 +85,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "掛牌滿三個月 長鑫科技正式被納為上證指數第一大權重股",
@@ -37,7 +97,7 @@
       "categories": [
         "A股"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "盤中速報 - 達運光電(8045)股價殺至跌停，跌停價53.0元，成交310張",
@@ -61,7 +121,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "盤中速報 - 德淵(4720)股價殺至跌停，跌停價29.25元，成交19,280張",
@@ -97,7 +157,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：聯電(2303-TW)目標價調升至153元，幅度約5.52%",
@@ -109,7 +169,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "百容半導體接單續強、漲價效益發酵 Q4毛利率看升",
@@ -121,7 +181,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "陸國產GPU實測硬撼輝達H200！天數智芯天垓300跨過「高質量算力」門檻",
@@ -133,7 +193,7 @@
       "categories": [
         "A股"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "盤中速報 - 松崗(6240)股價拉至漲停，漲停價37.0元，成交362張",
@@ -181,7 +241,7 @@
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "盤中速報 - 集中市場加權指數下跌-964.55點至46071.03點，跌幅2.05%",
@@ -193,7 +253,7 @@
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "盤中速報 - 集中市場加權指數下跌-938.37點至46097.21點，跌幅2%",
@@ -205,7 +265,7 @@
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "盤中速報 - 競國(6108)股價殺至跌停，跌停價30.6元，成交4,784張",
@@ -229,7 +289,7 @@
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "盤中速報 - 電子零組件類指數類股表現疲軟，跌幅2.15%，總成交額309.14億",
@@ -253,7 +313,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "盤中速報 - 頎邦(6147)股價殺至跌停，跌停價200.5元，成交26,286張",
@@ -277,7 +337,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "巴西總統大選敗選者「人間蒸發」24小時後 抵達美國佛州邁阿密",
@@ -289,7 +349,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "日股ETF氣勢強今年來皆大賺二位數 00951受益人激增奪雙冠王",
@@ -301,7 +361,7 @@
       "categories": [
         "ETF"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "市場快訊》聯準會升息近尾聲，股市投資機會來了嗎？",
@@ -313,7 +373,7 @@
       "categories": [
         "基金"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "〈房產〉北北桃預售屋新案最低單價門檻向上走 市調：蛋殼區遭棄守",
@@ -325,7 +385,7 @@
       "categories": [
         "台灣房市"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "2027年上路！普丁：馬斯克是天才 俄版「星鏈」正與其保持技術聯繫",
@@ -337,7 +397,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "騏億鑫上櫃前現增承銷價暫定252元 競拍10/30起跑",
@@ -349,7 +409,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "104示警：逾5成中高齡退休準備停在「起步」 這2件事成最大缺口",
@@ -361,7 +421,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "〈焦點股〉科妍玻尿酸產品於中國取證 股價亮燈飆漲停",
@@ -373,7 +433,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "〈房產〉台積電效應發酵！高雄租屋熱區三民區連4年稱冠 楠梓區升至第二",
@@ -385,7 +445,7 @@
       "categories": [
         "台灣房市"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "華爾街投資焦點轉向自由現金流！AI支出飆升逼科技巨頭縮編",
@@ -397,7 +457,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "盤中速報 - 櫃買市場加權指數下跌-7.88點至386.73點，跌幅2%",
@@ -409,7 +469,7 @@
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793253606665
+      "fetchedAt": 1793257058580
     },
     {
       "headline": "盤中速報 - 瀚宇博(5469)股價殺至跌停，跌停價74.0元，成交5,651張",
@@ -422,66 +482,6 @@
         "台股盤中"
       ],
       "fetchedAt": 1793251787237
-    },
-    {
-      "headline": "盤中速報 - 其他電子類股表現疲軟，跌幅2.02%，總成交額98.03億",
-      "link": "https://news.cnyes.com/news/id/6640369",
-      "publishedAt": 1793241263000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1793251787237
-    },
-    {
-      "headline": "盤中速報 - 電子通路類股表現疲軟，跌幅2%，總成交額18.58億",
-      "link": "https://news.cnyes.com/news/id/6640368",
-      "publishedAt": 1793241262000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1793251787237
-    },
-    {
-      "headline": "外匯速報 - 美元/台幣(USDTWD) 大漲0.31%，報32.517元",
-      "link": "https://news.cnyes.com/news/id/6640365",
-      "publishedAt": 1793241023000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "外匯盤中"
-      ],
-      "fetchedAt": 1793251787237
-    },
-    {
-      "headline": "高鐵追撞細節曝光 西班牙大臣直言「令人費解」",
-      "link": "https://news.cnyes.com/news/id/6640280",
-      "publishedAt": 1793240335000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1793253606665
-    },
-    {
-      "headline": "力晶投控庫藏股引爆未上市流動性 每股42元已成功回購逾440萬股",
-      "link": "https://news.cnyes.com/news/id/6622785",
-      "publishedAt": 1793240293000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1793253606665
     }
   ],
   "failedSources": [],
