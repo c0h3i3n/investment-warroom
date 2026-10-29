@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;500&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css?v=3.9.0">
-<link rel="stylesheet" href="css/readability.css?v=3.18.0">
+<link rel="stylesheet" href="css/readability.css?v=3.20.0">
 </head>
 <body>
 
@@ -42,7 +42,7 @@
       </div>
       <div class="reactor-text">
         <h1>WARROOM</h1>
-        <div class="sub">INVESTMENT INTELLIGENCE · v3.19.0</div>
+        <div class="sub">INVESTMENT INTELLIGENCE · v3.20.0</div>
       </div>
     </div>
 
@@ -77,9 +77,11 @@
       <span class="last-updated" id="last-updated" role="status">UPDATED --:--:--</span>
       <span class="data-note">美股為延遲行情；休市時保留最近有效收盤。</span>
       <a class="data-note" id="calendar-verification" href="https://www.twse.com.tw/zh/terms/rss.html" target="_blank" rel="noopener noreferrer">正在查核官方開休市公告…</a>
-      <output id="refresh-result" class="refresh-result" aria-live="polite"></output>
     </div>
+    <div class="refresh-controls">
     <button class="refresh-btn" id="refresh-btn" onclick="App.refresh()" title="重新取得行情" aria-label="重新取得行情"><span aria-hidden="true">⟳</span> 更新行情</button>
+    <output id="refresh-result" class="refresh-result" aria-live="polite" aria-atomic="true">尚未手動更新；自動行情來源時間見左側。</output>
+    </div>
   </div>
 
   <nav class="quick-nav" aria-label="區塊快捷導覽">
@@ -207,7 +209,7 @@
   </div>
 
   <footer>
-    <span>WARROOM · INVESTMENT INTELLIGENCE · v3.19.0</span>
+    <span>WARROOM · INVESTMENT INTELLIGENCE · v3.20.0</span>
     <span id="fdate"></span>
     <span class="latency-badge"><span class="dot live"></span> 台股 MIS 即時</span>
     <span class="latency-badge"><span class="dot delay"></span> 夜盤狀態見頁首</span>
@@ -255,10 +257,10 @@
 <script src="js/history-validation.js?v=3.13.0"></script>
 <script src="js/data.js?v=3.19.0"></script>
 <script>console.log("data.js loaded, CONFIG proxies:", CONFIG?.CORS_PROXIES?.length);</script>
-<script src="js/indicators.js?v=3.19.0"></script>
+<script src="js/indicators.js?v=3.20.0"></script>
 <script src="js/news.js?v=3.16.0"></script>
 <script src="js/night-analysis.js?v=3.15.1"></script>
-<script src="js/ui.js?v=3.18.0"></script>
+<script src="js/ui.js?v=3.20.0"></script>
 <script src="js/watchlist-tools.js?v=3.12.2"></script>
 <script src="js/main.js?v=3.16.0"></script>
 <script src="js/interactions.js?v=3.14.0"></script>

@@ -80,6 +80,8 @@ test('night explanations identify cash reference time and preserve a user-collap
   ctx.indexes=[{symbol:'^TWII',price:47000,asOf:Date.parse('2026-10-15T05:30:00Z')}];
   vm.runInContext('UI.renderNightMarket(night,indexes)',ctx);
   assert.match(element.innerHTML,/僅依台指期/);
+  assert.match(element.innerHTML,/下方日線另以完整收盤資料計算，不含夜盤/);
+  assert.match(element.innerHTML,/非隔日開盤預測/);
   assert.match(element.innerHTML,/10\/15\s+13:30/);
   assert.doesNotMatch(element.innerHTML,/<details class="night-details" open/);
   ctx.night.status='closed';

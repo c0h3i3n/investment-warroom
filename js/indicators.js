@@ -345,6 +345,21 @@ const IndicatorsService = (() => {
   }
 
   const lastValid = new Map();
+  // Describe independent observations; do not turn correlated indicators into
+  // a buy/sell score or a prediction of the next session.
+  function summarizeDaily({price,ma20,ma60,rsi,macd,stoch,volume}) {
+    if (![price,ma20,ma60,rsi,macd?.histogram,stoch?.k,stoch?.d]
+      .every(value=>typeof value==='number' && Number.isFinite(value))) return null;
+    const trend=price>ma20&&price>ma60?'趨勢偏強':price<ma20&&price<ma60?'趨勢偏弱':'均線位置分歧';
+    const signs=[Math.sign(rsi-50),Math.sign(macd.histogram),Math.sign(stoch.k-stoch.d)];
+    const positive=signs.some(value=>value>0),negative=signs.some(value=>value<0);
+    const momentum=positive&&negative?'動能訊號分歧':positive?'動能偏強':negative?'動能偏弱':'動能中性';
+    const ratio=volume?.ratio;
+    return {headline:`${trend}；${momentum}`,
+      volume:typeof ratio==='number'&&Number.isFinite(ratio)
+        ? `成交量為同口徑20日均量 ${Math.round(ratio*100)}%（非方向訊號）`:'量能資料不足，不納入摘要',
+      explanation:'趨勢比較收盤價與 MA20／MA60；動能比較 RSI 與 50、MACD 柱值與 0、K 與 D。動能方向不一致即標示分歧，不加權評分。'};
+  }
   function previousResult(symbol, reason) {
     const previous = lastValid.get(symbol);
     return previous ? { ...previous, historyMeta:{ ...previous.historyMeta,
@@ -396,6 +411,7 @@ const IndicatorsService = (() => {
       symbol,
       asOf: rows.at(-1).time,
       calculatedAt: Date.now(),
+      summary:summarizeDaily({price:rows.at(-1).close,ma20,ma60,rsi,macd,stoch,volume:volumeIndicator}),
       historyMeta: { ...data.meta, excludedIncomplete, ...historyFreshness(rows.at(-1).time, symbol),
         historical:Boolean(reason || data.meta?.historical),
         historicalReason:reason || data.meta?.historicalReason || '' },
@@ -409,5 +425,5 @@ const IndicatorsService = (() => {
   // ═══════════════════════════════════════
   // Public API
   // ═══════════════════════════════════════
-  return { calculateFor, calcSMA, calcMACD, analyzeVolume, historyFreshness };
+  return { calculateFor, calcSMA, calcMACD, analyzeVolume, historyFreshness, summarizeDaily };
 })();

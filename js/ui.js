@@ -216,6 +216,7 @@ const UI = (() => {
       </div>
       ${warning}
       <div class="night-context">${data.calendarUnverified ? '官方開休市待確認，非已確認交易中訊號' : data.status === 'open' ? '夜盤交易中' : '最近夜盤收盤，非目前即時方向'} · ${escapeHtml(scope)}。${data.status==='closed'&&nextSession ? ' 下次預定夜盤 '+escapeHtml(nextSession)+'。' : ''}</div>
+      <div class="session-timeline">夜盤觀察｜${escapeHtml(data.sessionTradingDay ? '期交所交易日 '+data.sessionTradingDay : '交易日未確認')} · 現貨參考 ${escapeHtml(spotTime)}；下方日線另以完整收盤資料計算，不含夜盤，亦非隔日開盤預測。</div>
       <details class="night-details" ${detailsOpen ? 'open' : ''}>
       <summary>${data.status === 'open' ? '夜盤行情' : '最近夜盤收盤'} · ${level(data.price)} 點 · ${arrow} ${Math.abs(Number(data.changePct)).toFixed(2)}% <span>展開／收合明細</span></summary>
       <div class="night-layout">
@@ -460,7 +461,10 @@ const UI = (() => {
       const historical = lag > 0 || Boolean(indData.historyMeta?.historical);
       const historicalDate = new Intl.DateTimeFormat('zh-TW',{timeZone:/\.TW$/i.test(indData.symbol)?'Asia/Taipei':'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(indData.asOf));
       const reason = indData.historyMeta?.historicalReason || `日線落後 ${lag} 個交易日，方向訊號暫停。`;
-      grid.innerHTML = (historical ? `<div class="indicator-warning" role="status"><strong>歷史數值 · 截至 ${escapeHtml(historicalDate)}</strong><span>${escapeHtml(reason)}</span></div>` : '') + indData.indicators.map(ind => `
+      const overview = historical
+        ? `<div class="indicator-warning" role="status"><strong>歷史數值 · 截至 ${escapeHtml(historicalDate)}</strong><span>${escapeHtml(reason)} 摘要判斷暫停。</span></div>`
+        : `<div class="daily-overview"><span class="session-timeline">日線觀察｜截至 ${escapeHtml(historicalDate)} 完整收盤 · 不含夜盤行情</span><strong>${escapeHtml(indData.summary?.headline || '摘要資料不足，請查看各項指標')}</strong><span>${escapeHtml(indData.summary?.volume || '量能未納入摘要')}</span><small>描述已完成日線，不構成買賣建議或開盤預測。</small></div>`;
+      grid.innerHTML = overview + indData.indicators.map(ind => `
         <div class="ind-cell">
           <div class="ind-name">${ind.name}</div>
           <div class="ind-val ${historical ? 'historical' : ind.color}">${ind.value}</div>
@@ -483,6 +487,7 @@ const UI = (() => {
         + (indData.historyMeta?.delivery === 'stale-kv' ? ' · 更新失敗，使用快取' : '')
         + (indData.historyMeta?.volumeWarning ? ' · '+indData.historyMeta.volumeWarning : '');
       const details=[
+        indData.summary?.explanation,
         '價格來源：'+(indData.historyMeta?.source || '來源未確認'),
         indData.historyMeta?.volumeSource === 'TWSE 全市場成交股數'
           ? '成交量與20日均量均採 TWSE 全市場成交股數（含零股、盤後與鉅額）'
@@ -687,6 +692,11 @@ const UI = (() => {
   function setRefreshing(isRefreshing) {
     const btn = document.getElementById('refresh-btn');
     const lbl = document.getElementById('last-updated');
+    const output = document.getElementById('refresh-result');
+    if (isRefreshing && output) {
+      output.textContent='正在檢查行情來源…';
+      if (output.dataset) output.dataset.state='loading';
+    }
     if (btn) {
       if (isRefreshing) btn.classList.add('spinning');
       else btn.classList.remove('spinning');
@@ -703,11 +713,15 @@ const UI = (() => {
     const warning = fresh < total || cached || failed;
     const message = fresh === 0 ? '更新失敗，暫無有效行情，請稍後重試。'
       : warning ? `部分更新完成：${fresh}/${total} 筆有效行情${cached ? '，含備援資料' : ''}。`
-      : changed ? `更新完成：${fresh}/${total} 筆行情已檢查。`
+      : changed ? `更新完成：已取得新的報價資料（${fresh}/${total} 筆有效行情）。`
       : closed ? '已檢查：台美股休市，股價維持最近收盤。'
       : '已檢查：來源暫無新的報價。';
     const output = document.getElementById('refresh-result');
-    if (output) output.textContent = message;
+    if (output) {
+      const checkedAt=new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(new Date());
+      output.textContent=`檢查時間 ${checkedAt}（台北）｜${fresh}/${total} 筆有效行情 · ${message} 此時間不是報價成交時間；新聞與技術指標另行更新。`;
+      if (output.dataset) output.dataset.state=fresh===0?'error':warning?'warning':'success';
+    }
     showToast(message,warning || fresh === 0 ? 'warn' : 'info');
     return message;
   }
@@ -761,7 +775,7 @@ const UI = (() => {
     if (sysLabel) {
       sysLabel.textContent = mode === 'cache' && fresh > 0
         ? 'QUOTES CACHED'
-        : complete ? '行情齊全 ≠ 全部即時' : fresh > 0 ? '部分行情缺漏' : '行情無法取得';
+        : complete ? '行情已齊全｜含延遲／收盤資料' : fresh > 0 ? '部分行情缺漏' : '行情無法取得';
     }
     if (tickerMode) {
       tickerMode.textContent = mode === 'cache' && fresh > 0
