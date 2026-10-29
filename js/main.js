@@ -141,7 +141,7 @@ const App = (() => {
     refreshInFlight = true;
     const generation = ++refreshGeneration;
     if (forceRefresh) DataService.clearCache();
-    UI.setRefreshing(true);
+    UI.setRefreshing(true, forceRefresh);
     UI.renderFeatured({loading:true});
     usingFallback = false;
     const watchlist = loadWatchlist();

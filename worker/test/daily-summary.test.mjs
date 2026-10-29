@@ -50,6 +50,10 @@ test('refresh feedback persists with time, counts, loading and partial/error dis
   assert.equal(output.dataset.state,'success');
   assert.match(output.textContent,/16\/16.*來源暫無新的報價/);
   assert.match(output.textContent,/此時間不是報價成交時間/);
+  const lastResult=output.textContent;
+  vm.runInContext('UI.setRefreshing(true,false); UI.setRefreshing(false)',context);
+  assert.equal(output.textContent,lastResult);
+  assert.equal(output.dataset.state,'success');
   vm.runInContext('UI.refreshResult({fresh:12,total:16,failed:true})',context);
   assert.equal(output.dataset.state,'warning');
   vm.runInContext('UI.refreshResult({fresh:0,total:16})',context);

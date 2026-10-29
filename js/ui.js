@@ -689,11 +689,11 @@ const UI = (() => {
   // ═══════════════════════════════════════
   // REFRESH BUTTON
   // ═══════════════════════════════════════
-  function setRefreshing(isRefreshing) {
+  function setRefreshing(isRefreshing, manual = true) {
     const btn = document.getElementById('refresh-btn');
     const lbl = document.getElementById('last-updated');
     const output = document.getElementById('refresh-result');
-    if (isRefreshing && output) {
+    if (isRefreshing && manual && output) {
       output.textContent='正在檢查行情來源…';
       if (output.dataset) output.dataset.state='loading';
     }
