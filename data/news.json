@@ -1,8 +1,44 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T05:29:47.237Z",
-  "checkedAt": 1793251787237,
+  "generatedAt": "2026-10-29T06:00:06.665Z",
+  "checkedAt": 1793253606665,
   "data": [
+    {
+      "headline": "Fed主席重申抗通膨決心！富達料升息還有戲 12月與明年3月各升1碼",
+      "link": "https://news.cnyes.com/news/id/6640444",
+      "publishedAt": 1793253373000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "基金"
+      ],
+      "fetchedAt": 1793253606665
+    },
+    {
+      "headline": "〈焦點股〉Q3財報亮眼 穩懋連2日亮燈攻上漲停板",
+      "link": "https://news.cnyes.com/news/id/6640453",
+      "publishedAt": 1793253266000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1793253606665
+    },
+    {
+      "headline": "掛牌滿三個月 長鑫科技正式被納為上證指數第一大權重股",
+      "link": "https://news.cnyes.com/news/id/6640458",
+      "publishedAt": 1793252403000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "A股"
+      ],
+      "fetchedAt": 1793253606665
+    },
     {
       "headline": "盤中速報 - 達運光電(8045)股價殺至跌停，跌停價53.0元，成交310張",
       "link": "https://news.cnyes.com/news/id/6640463",
@@ -25,7 +61,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "盤中速報 - 德淵(4720)股價殺至跌停，跌停價29.25元，成交19,280張",
@@ -55,25 +91,25 @@
       "headline": "鉅亨速報 - Factset 最新調查：聯電(2303-TW)EPS預估下修至7.42元，預估目標價為153元",
       "link": "https://news.cnyes.com/news/id/6640442",
       "publishedAt": 1793247033000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：聯電(2303-TW)目標價調升至153元，幅度約5.52%",
       "link": "https://news.cnyes.com/news/id/6640441",
       "publishedAt": 1793247021000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "百容半導體接單續強、漲價效益發酵 Q4毛利率看升",
@@ -85,7 +121,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "陸國產GPU實測硬撼輝達H200！天數智芯天垓300跨過「高質量算力」門檻",
@@ -97,7 +133,7 @@
       "categories": [
         "A股"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "盤中速報 - 松崗(6240)股價拉至漲停，漲停價37.0元，成交362張",
@@ -139,37 +175,37 @@
       "headline": "盤中速報 - 櫃買市場加權指數下跌-9.28點至385.33點，跌幅2.35%",
       "link": "https://news.cnyes.com/news/id/6640400",
       "publishedAt": 1793244407000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "盤中速報 - 集中市場加權指數下跌-964.55點至46071.03點，跌幅2.05%",
       "link": "https://news.cnyes.com/news/id/6640399",
       "publishedAt": 1793244404000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "盤中速報 - 集中市場加權指數下跌-938.37點至46097.21點，跌幅2%",
       "link": "https://news.cnyes.com/news/id/6640398",
       "publishedAt": 1793244324000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "盤中速報 - 競國(6108)股價殺至跌停，跌停價30.6元，成交4,784張",
@@ -187,13 +223,13 @@
       "headline": "盤中速報 - 櫃買市場加權指數下跌-8.33點至386.28點，跌幅2.11%",
       "link": "https://news.cnyes.com/news/id/6640394",
       "publishedAt": 1793243999000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "盤中速報 - 電子零組件類指數類股表現疲軟，跌幅2.15%，總成交額309.14億",
@@ -217,7 +253,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "盤中速報 - 頎邦(6147)股價殺至跌停，跌停價200.5元，成交26,286張",
@@ -241,7 +277,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "巴西總統大選敗選者「人間蒸發」24小時後 抵達美國佛州邁阿密",
@@ -253,7 +289,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "日股ETF氣勢強今年來皆大賺二位數 00951受益人激增奪雙冠王",
@@ -265,7 +301,7 @@
       "categories": [
         "ETF"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "市場快訊》聯準會升息近尾聲，股市投資機會來了嗎？",
@@ -277,7 +313,7 @@
       "categories": [
         "基金"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "〈房產〉北北桃預售屋新案最低單價門檻向上走 市調：蛋殼區遭棄守",
@@ -289,7 +325,7 @@
       "categories": [
         "台灣房市"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "2027年上路！普丁：馬斯克是天才 俄版「星鏈」正與其保持技術聯繫",
@@ -301,7 +337,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "騏億鑫上櫃前現增承銷價暫定252元 競拍10/30起跑",
@@ -313,7 +349,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "104示警：逾5成中高齡退休準備停在「起步」 這2件事成最大缺口",
@@ -325,7 +361,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "〈焦點股〉科妍玻尿酸產品於中國取證 股價亮燈飆漲停",
@@ -337,7 +373,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "〈房產〉台積電效應發酵！高雄租屋熱區三民區連4年稱冠 楠梓區升至第二",
@@ -349,7 +385,7 @@
       "categories": [
         "台灣房市"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "華爾街投資焦點轉向自由現金流！AI支出飆升逼科技巨頭縮編",
@@ -361,19 +397,19 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "盤中速報 - 櫃買市場加權指數下跌-7.88點至386.73點，跌幅2%",
       "link": "https://news.cnyes.com/news/id/6640372",
       "publishedAt": 1793241402000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "盤中速報 - 瀚宇博(5469)股價殺至跌停，跌停價74.0元，成交5,651張",
@@ -433,7 +469,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     },
     {
       "headline": "力晶投控庫藏股引爆未上市流動性 每股42元已成功回購逾440萬股",
@@ -445,43 +481,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793251787237
-    },
-    {
-      "headline": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過16.7億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
-      "link": "https://news.cnyes.com/news/id/6640352",
-      "publishedAt": 1793240120000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1793251787237
-    },
-    {
-      "headline": "〈財報〉三星Q3營收、營業利潤連四季創史高 惟淨利遜預期 早盤跌逾5%",
-      "link": "https://news.cnyes.com/news/id/6640279",
-      "publishedAt": 1793239511000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "歐亞股"
-      ],
-      "fetchedAt": 1793251787237
-    },
-    {
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-7.98點至386.63點，跌幅2.02%",
-      "link": "https://news.cnyes.com/news/id/6640316",
-      "publishedAt": 1793239491000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1793251787237
+      "fetchedAt": 1793253606665
     }
   ],
   "failedSources": [],
