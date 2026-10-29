@@ -357,7 +357,7 @@ const IndicatorsService = (() => {
     const data = await DataService.fetchHistorical(symbol, '6mo', '1d').catch(() => null);
     if (!data) {
       console.warn('[Indicators] fetchHistorical returned null');
-      return previousResult(symbol,'日線更新失敗，保留最後有效數值');
+      return previousResult(symbol,'日線暫時無法取得，請稍後重試。');
     }
     let { rows, excludedIncomplete } = completedDailyData(data, symbol);
     const missing = HistoryValidation.missingSessions(rows.slice(-60),symbol);
@@ -397,7 +397,8 @@ const IndicatorsService = (() => {
       asOf: rows.at(-1).time,
       calculatedAt: Date.now(),
       historyMeta: { ...data.meta, excludedIncomplete, ...historyFreshness(rows.at(-1).time, symbol),
-        historical:Boolean(reason), historicalReason:reason },
+        historical:Boolean(reason || data.meta?.historical),
+        historicalReason:reason || data.meta?.historicalReason || '' },
       indicators: interpreted,
       chartData: rows.slice(-60),
     };

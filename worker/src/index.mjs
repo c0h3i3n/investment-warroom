@@ -2,7 +2,7 @@ import '../../js/market-calendar.js';
 import '../../js/history-validation.js';
 import { CALENDAR_KEY, refreshOfficialCalendar } from './official-calendar.mjs';
 import { getNewsSnapshot } from './news.mjs';
-import { repairTwseHistory, applyOfficialVolumes, OFFICIAL_VOLUME_SOURCE } from './history-repair.mjs';
+import { repairTwseHistory, applyOfficialVolumes, OFFICIAL_VOLUME_SOURCE, completedTwSession } from './history-repair.mjs';
 const SNAPSHOT_KEY = 'market:snapshot:v1';
 const NIGHT_MARKET_KEY = 'market:night:v2';
 const SNAPSHOT_MAX_AGE_MS = 7 * 60 * 1000;
@@ -873,14 +873,28 @@ async function handleMarketRequest(request, env) {
   const cachedAt = Date.parse(cached?.generatedAt || '');
   const cacheAgeMs = Number.isFinite(cachedAt) ? Math.max(0, Date.now() - cachedAt) : null;
   if (url.pathname === '/health') {
+    const quotesOk = Boolean(cached && cacheAgeMs <= SNAPSHOT_MAX_AGE_MS
+      && cached.valid.indexes === INDEXES.length && cached.valid.quotes === QUOTE_SYMBOLS.length);
+    const verification = MarketCalendar.verification();
+    const calendarOk = verification.checked && verification.futuresChecked;
+    // Diagnostic reads only: missing history is unknown, not a fabricated pass
+    // or a reason to fan out new upstream requests on every health probe.
+    const indicators = Object.fromEntries(await Promise.all(['0050.TW','2330.TW'].map(async symbol => {
+      const history = await env?.MARKET_CACHE?.get(`market:history:v3:${symbol}:6mo:1d`, {type:'json'}).catch(() => null);
+      return [symbol, historyHealth(history, symbol)];
+    })));
+    const ok = quotesOk && calendarOk && Object.values(indicators).every(item => item.status === 'ok');
     return jsonResponse({
-      ok: Boolean(cached && cacheAgeMs <= SNAPSHOT_MAX_AGE_MS
-        && cached.valid.indexes === INDEXES.length && cached.valid.quotes === QUOTE_SYMBOLS.length),
+      ok,
+      status:ok ? 'ok' : quotesOk ? 'degraded' : 'unhealthy',
+      scope:'報價、官方公告查核與 0050/2330 快取日線；不代表每個瀏覽器的網路或其他功能皆正常',
+      components:{quotes:{status:quotesOk?'ok':'unavailable'},
+        calendar:{status:calendarOk?'ok':'unverified', twChecked:verification.checked,
+          futuresChecked:verification.futuresChecked}, indicators},
       cacheAgeMs,
       generatedAt: cached?.generatedAt || null,
       valid: cached?.valid || null,
-    }, cached && cacheAgeMs <= SNAPSHOT_MAX_AGE_MS
-      && cached.valid.indexes === INDEXES.length && cached.valid.quotes === QUOTE_SYMBOLS.length ? 200 : 503, request);
+    }, ok ? 200 : 503, request);
   }
 
   if (cached && acceptableSnapshot(cached) && cacheAgeMs <= SNAPSHOT_MAX_AGE_MS) {
@@ -915,6 +929,25 @@ async function handleMarketRequest(request, env) {
     return jsonResponse({ ...cached, delivery: 'stale-kv', warning: 'Refresh failed' }, 200, request);
   }
   return jsonResponse({ error: 'Market data unavailable' }, 503, request);
+}
+
+export function historyHealth(history, symbol, now = Date.now()) {
+  if (!history) return {status:'unknown', reason:'尚無快取日線，未驗證'};
+  if (history.schemaVersion !== 1 || history.symbol !== symbol || history.interval !== '1d'
+    || !Array.isArray(history.data)) return {status:'unavailable', reason:'日線格式無效'};
+  const expectedSession = completedTwSession(now);
+  const rows = HistoryValidation.normalize(history.data, symbol, '1d', now)
+    .filter(row => new Date(row.time + 8 * 3600000).toISOString().slice(0,10) <= expectedSession);
+  const generatedAt = Date.parse(history.generatedAt || '');
+  const valid = rows.length >= 60 && Number.isFinite(generatedAt) && generatedAt <= now
+    && now - generatedAt <= HISTORY_FALLBACK_MAX_AGE_MS
+    && !historyNeedsRepair({...history, data:rows}, symbol, '1d', now)
+    && !dailyHistoryNeedsCloseRefresh(symbol, '1d', generatedAt, now);
+  const volumeOk = history.volumeSource === OFFICIAL_VOLUME_SOURCE && history.volumeStatus === 'verified'
+    && rows.length >= 21 && rows.slice(-21).every(row => Number.isFinite(row.volume) && row.volume >= 0);
+  return {status:valid && volumeOk ? 'ok' : 'degraded', expectedSession,
+    asOf:rows.at(-1)?.time || null, generatedAt:history.generatedAt || null,
+    priceHistory:valid?'ok':'incomplete-or-stale', volume:volumeOk?'verified':'unavailable'};
 }
 
 export async function handleRequest(request, env, ctx) {

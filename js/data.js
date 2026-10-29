@@ -592,6 +592,37 @@ const DataService = (() => {
   // ═══════════════════════════════════════
   // FETCH HISTORICAL
   // ═══════════════════════════════════════
+  const HISTORY_STORAGE_PREFIX = 'warroom:daily-history:v1:';
+  const HISTORY_STORAGE_MAX_AGE = 7 * 86400000;
+  function savedDailyHistory(symbol, range) {
+    try {
+      const saved = JSON.parse(localStorage.getItem(HISTORY_STORAGE_PREFIX + symbol + ':' + range));
+      const acquired = Date.parse(saved?.meta?.generatedAt || '');
+      if (saved?.schemaVersion !== 1 || saved.symbol !== symbol || saved.range !== range
+        || !Number.isFinite(acquired) || acquired > Date.now()
+        || Date.now() - acquired > HISTORY_STORAGE_MAX_AGE
+        || !Array.isArray(saved.data) || saved.data.length > 300) return null;
+      const rows = HistoryValidation.normalize(saved.data, symbol, '1d');
+      if (rows.length < 60 || rows.length !== saved.data.length
+        || Date.now() - rows.at(-1).time > HISTORY_STORAGE_MAX_AGE
+        || HistoryValidation.missingSessions(rows.slice(-60), symbol).length) return null;
+      rows.meta = { ...saved.meta, delivery:'local-history', historical:true,
+        historicalReason:'日線更新暫時失敗，顯示本機歷史備援；方向訊號暫停。' };
+      return rows;
+    } catch { return null; } // Storage may be disabled, full or corrupted.
+  }
+  function saveDailyHistory(symbol, range, data) {
+    try {
+      if (data.length < 60 || data.meta?.historical || data.meta?.delivery === 'stale-kv'
+        || HistoryValidation.missingSessions(data.slice(-60), symbol).length) return;
+      const previous = savedDailyHistory(symbol, range);
+      if (previous && (previous.at(-1).time > data.at(-1).time
+        || Date.parse(previous.meta.generatedAt) > Date.parse(data.meta.generatedAt))) return;
+      localStorage.setItem(HISTORY_STORAGE_PREFIX + symbol + ':' + range, JSON.stringify({
+        schemaVersion:1, symbol, range, data:data.slice(-300), meta:data.meta,
+      }));
+    } catch { /* A storage failure must not break live indicators. */ }
+  }
   async function fetchHistorical(symbol, range = '3mo', interval = '1d') {
     const key = `hist:${symbol}:${range}:${interval}`;
     const historyTtl = range === '1d' && interval === '5m' ? 60 * 1000
@@ -603,34 +634,45 @@ const DataService = (() => {
     const requestEpoch = cacheEpoch;
 
     if (CONFIG.MARKET_API) {
-      try {
-        const params = new URLSearchParams({ symbol, range, interval });
-        const backendUrl = addCacheBuster(
-          `${CONFIG.MARKET_API.replace(/\/$/, '')}/api/history?${params.toString()}`,
-        );
-        const response = await fetch(backendUrl, {
-          cache: 'no-store',
-          headers: { Accept: 'application/json' },
-          signal: requestTimeoutSignal(8000),
-        });
-        if (response.ok) {
-          const payload = await response.json();
-          const data = HistoryValidation.normalize(payload?.data, symbol, interval);
-          data.meta = { generatedAt:payload.generatedAt, sourceAsOf:payload.sourceAsOf,
-            delivery:payload.delivery,
-            rejectedRows:payload.rejectedRows || 0, source:payload.source };
-          Object.assign(data.meta,{volumeSource:payload.volumeSource,repairedDates:payload.repairedDates,
-            priceBasis:payload.priceBasis,repairWarning:payload.repairWarning,
-            volumeStatus:payload.volumeStatus,volumeWarning:payload.volumeWarning});
-          if (payload?.schemaVersion === 1 && data.length >= 2) {
-            if (requestEpoch === cacheEpoch) setCache(key, data);
-            return data;
+      for (let attempt = 0; attempt < 2; attempt++) {
+        try {
+          const params = new URLSearchParams({ symbol, range, interval });
+          const backendUrl = addCacheBuster(
+            `${CONFIG.MARKET_API.replace(/\/$/, '')}/api/history?${params.toString()}`,
+          );
+          const response = await fetch(backendUrl, {
+            cache: 'no-store',
+            headers: { Accept: 'application/json' },
+            signal: requestTimeoutSignal(8000),
+          });
+          if (response.ok) {
+            const payload = await response.json();
+            const data = HistoryValidation.normalize(payload?.data, symbol, interval);
+            data.meta = { generatedAt:payload.generatedAt, sourceAsOf:payload.sourceAsOf,
+              delivery:payload.delivery,
+              historical:payload.delivery === 'stale-kv',
+              historicalReason:payload.delivery === 'stale-kv' ? '來源更新失敗，顯示歷史備援；方向訊號暫停。' : '',
+              rejectedRows:payload.rejectedRows || 0, source:payload.source };
+            Object.assign(data.meta,{volumeSource:payload.volumeSource,repairedDates:payload.repairedDates,
+              priceBasis:payload.priceBasis,repairWarning:payload.repairWarning,
+              volumeStatus:payload.volumeStatus,volumeWarning:payload.volumeWarning});
+            if (payload?.schemaVersion === 1 && data.length >= 2) {
+              if (requestEpoch === cacheEpoch) setCache(key, data);
+              if (interval === '1d') saveDailyHistory(symbol, range, data);
+              return data;
+            }
           }
+          if (!response.ok && response.status !== 429 && response.status < 500) break;
+        } catch (error) {
+          console.warn(`History backend ${symbol} attempt ${attempt + 1} failed:`, error.message);
         }
-      } catch (error) {
-        console.warn(`History backend ${symbol} failed, using browser fallback:`, error.message);
       }
     }
+
+    // Prefer known, explicitly historical data over slow third-party proxies.
+    // Never refresh its acquisition timestamp or put it in the live memory cache.
+    const saved = interval === '1d' ? savedDailyHistory(symbol, range) : null;
+    if (saved) return saved;
 
     const encodedSymbol = encodeURIComponent(symbol);
     const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodedSymbol}?range=${range}&interval=${interval}`;
@@ -652,6 +694,7 @@ const DataService = (() => {
       }
 
       if (requestEpoch === cacheEpoch) setCache(key, data);
+      if (interval === '1d') saveDailyHistory(symbol, range, data);
       return data;
     } catch (e) {
       console.warn('fetchHistorical failed:', e.message);

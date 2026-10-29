@@ -72,6 +72,10 @@ export function parseTwseNotices(xml, now = Date.now()) {
 }
 
 export function parseTaifexEmergency(html) {
+  // A removed banner leaves its section label in a comment. Inert markup is
+  // not an announcement; visible but unrecognized banners must still fail shut.
+  html = html.replace(/<!--[\s\S]*?-->/g, '')
+    .replace(/<(script|style|template)\b[^>]*>[\s\S]*?<\/\1\s*>/gi, '');
   if (!html.includes('臺灣期貨交易所') || !/<header\b/.test(html) || !/<\/html>/i.test(html)) {
     throw new Error('Invalid TAIFEX homepage');
   }
