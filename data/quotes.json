@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-29T14:08:16.968773+00:00",
-  "generatedAt": "2026-10-29T14:08:16.968773+00:00",
+  "timestamp": "2026-10-29T20:12:22.108379+00:00",
+  "generatedAt": "2026-10-29T20:12:22.108379+00:00",
   "calendar": {
     "schemaVersion": 1,
-    "date": "2026-10-29",
-    "attemptedAt": 1793282894577,
+    "date": "2026-10-30",
+    "attemptedAt": 1793304738131,
     "annual": {
       "year": 2026,
       "closed": [
@@ -87,18 +87,18 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1793282894577,
+        "checkedAt": 1793304738131,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1793282894577,
+        "checkedAt": 1793304738131,
         "error": null
       },
       "futures": {
-        "ok": true,
+        "ok": false,
         "checkedAt": 1793282894577,
-        "error": null
+        "error": "The operation was aborted due to timeout"
       }
     },
     "preload": {
@@ -193,30 +193,30 @@
     {
       "symbol": "SPCX",
       "name": "",
-      "price": 144.13,
-      "change": -1.1,
-      "changePct": -0.76,
-      "asOf": "2026-10-29T14:08:37+00:00",
+      "price": 143.89,
+      "change": -1.34,
+      "changePct": -0.92,
+      "asOf": "2026-10-29T20:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "NVDA",
       "name": "",
-      "price": 213.28,
-      "change": -2.1,
-      "changePct": -0.98,
-      "asOf": "2026-10-29T14:08:37+00:00",
+      "price": 213.66,
+      "change": -1.72,
+      "changePct": -0.8,
+      "asOf": "2026-10-29T20:00:00+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "TSLA",
       "name": "",
-      "price": 403.27,
-      "change": -0.95,
-      "changePct": -0.24,
-      "asOf": "2026-10-29T14:08:37+00:00",
+      "price": 403.3,
+      "change": -0.92,
+      "changePct": -0.23,
+      "asOf": "2026-10-29T20:00:00+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
