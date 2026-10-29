@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-29",
-  "attemptedAt": 1793276756967,
+  "attemptedAt": 1793279987768,
   "annual": {
     "year": 2026,
     "closed": [
@@ -84,25 +84,25 @@
   "checks": {
     "annual": {
       "ok": true,
-      "checkedAt": 1793276756967,
+      "checkedAt": 1793279987768,
       "error": null
     },
     "notices": {
       "ok": true,
-      "checkedAt": 1793276756967,
+      "checkedAt": 1793279987768,
       "error": null
     },
     "futures": {
       "ok": true,
-      "checkedAt": 1793276756967,
+      "checkedAt": 1793279987768,
       "error": null
     }
   },
   "preload": {
     "year": 2027,
-    "status": "unavailable",
-    "attemptedAt": 1793276756967,
-    "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json",
-    "error": "The operation was aborted due to timeout"
+    "status": "pending-publication",
+    "attemptedAt": 1793279987768,
+    "providerYear": 2026,
+    "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
   }
 }
