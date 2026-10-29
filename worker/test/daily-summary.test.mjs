@@ -16,6 +16,7 @@ test('daily summary describes trend, momentum and volume independently',()=>{
   assert.equal(summary({...base,price:120,rsi:55,macd:{histogram:.2},stoch:{k:40,d:35}}).headline,'趨勢偏強；動能偏強');
   assert.equal(summary({...base,stoch:{k:40,d:35}}).headline,'趨勢偏弱；動能訊號分歧');
   assert.equal(summary({...base,price:107}).headline,'均線位置分歧；動能偏弱');
+  assert.equal(summary({...base,ma20:100,ma60:100}).headline,'收盤位於兩條均線；動能偏弱');
   assert.equal(summary({...base,rsi:50,macd:{histogram:0},stoch:{k:35,d:35}}).headline,'趨勢偏弱；動能中性');
 });
 test('summary never coerces missing values or counts absent volume',()=>{

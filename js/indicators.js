@@ -350,7 +350,7 @@ const IndicatorsService = (() => {
   function summarizeDaily({price,ma20,ma60,rsi,macd,stoch,volume}) {
     if (![price,ma20,ma60,rsi,macd?.histogram,stoch?.k,stoch?.d]
       .every(value=>typeof value==='number' && Number.isFinite(value))) return null;
-    const trend=price>ma20&&price>ma60?'趨勢偏強':price<ma20&&price<ma60?'趨勢偏弱':'均線位置分歧';
+    const trend=price===ma20&&price===ma60?'收盤位於兩條均線':price>ma20&&price>ma60?'趨勢偏強':price<ma20&&price<ma60?'趨勢偏弱':'均線位置分歧';
     const signs=[Math.sign(rsi-50),Math.sign(macd.histogram),Math.sign(stoch.k-stoch.d)];
     const positive=signs.some(value=>value>0),negative=signs.some(value=>value<0);
     const momentum=positive&&negative?'動能訊號分歧':positive?'動能偏強':negative?'動能偏弱':'動能中性';
