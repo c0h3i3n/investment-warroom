@@ -1,19 +1,139 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T06:01:49.953Z",
-  "checkedAt": 1793340109953,
+  "generatedAt": "2026-10-30T06:59:59.235Z",
+  "checkedAt": 1793343599235,
   "data": [
+    {
+      "headline": "台股大跌逾千點，股票該賣還是撿便宜？關鍵5步驟自救法搶先看！",
+      "link": "https://news.cnyes.com/news/id/6641837",
+      "publishedAt": 1793343270000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1793343599235
+    },
+    {
+      "headline": "谷歌財報炸出第一槍！港股AI周四迎最狠估值清洗 專家：投資邏輯轉向 會賺錢才配高估值",
+      "link": "https://news.cnyes.com/news/id/6641770",
+      "publishedAt": 1793342407000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "歐亞股"
+      ],
+      "fetchedAt": 1793343599235
+    },
+    {
+      "headline": "AI、半導體需求強勁 國科會：全國研發經費連2年突破兆元",
+      "link": "https://news.cnyes.com/news/id/6641783",
+      "publishedAt": 1793341610000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台灣政經"
+      ],
+      "fetchedAt": 1793343599235
+    },
+    {
+      "headline": "〈鴻海科技日〉東元與鴻海展出模組化資料中心 一站式整合交付攻AI基建商機",
+      "link": "https://news.cnyes.com/news/id/6641818",
+      "publishedAt": 1793341146000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1793343599235
+    },
+    {
+      "headline": "〈台股盤後〉美企AI疑雲攪局 收跌1156點摜破半年線 艱苦守住45K",
+      "link": "https://news.cnyes.com/news/id/6641797",
+      "publishedAt": 1793340760000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤勢"
+      ],
+      "fetchedAt": 1793343599235
+    },
+    {
+      "headline": "廣達攜MIT舉辦2026年科技論壇 聚焦AI驅動醫療創新與變革",
+      "link": "https://news.cnyes.com/news/id/6641753",
+      "publishedAt": 1793340569000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1793343599235
+    },
+    {
+      "headline": "廣達成立智慧醫療新公司「達穎智能」 實現AI醫療落地、邁向市場",
+      "link": "https://news.cnyes.com/news/id/6641749",
+      "publishedAt": 1793340446000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1793343599235
+    },
+    {
+      "headline": "AI需求顯現 華通規劃連續3年每年資本支出皆維持200億元以上",
+      "link": "https://news.cnyes.com/news/id/6641724",
+      "publishedAt": 1793340396000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1793343599235
+    },
+    {
+      "headline": "商發署：今年培育2萬人次運用AI技術已達標 瞄準AI普及率達過半",
+      "link": "https://news.cnyes.com/news/id/6641682",
+      "publishedAt": 1793340235000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台灣政經"
+      ],
+      "fetchedAt": 1793343599235
+    },
+    {
+      "headline": "〈鴻海科技日〉劉揚偉：今年展現集團加乘力與垂直整合力 AI伺服器機架產能已較去年翻倍",
+      "link": "https://news.cnyes.com/news/id/6641741",
+      "publishedAt": 1793340035000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1793343599235
+    },
     {
       "headline": "日系車在中國大退潮 產量剩高峰不到4成、豐田銷量也掉25%",
       "link": "https://news.cnyes.com/news/id/6641789",
       "publishedAt": 1793340004000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "友達（2409）帳上賺185億元，為何股價不漲反跌停？",
@@ -25,7 +145,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "期中選舉倒數 AI巨頭申報文件揭露政策成本 資料中心稅負與監管風險升高",
@@ -37,7 +157,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "特斯拉中國再調購車優惠：首付3.99萬元人民幣起 享5年0息",
@@ -49,7 +169,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "盤中速報 - 幸康(3332)股價拉至漲停，漲停價80.4元，成交980張",
@@ -73,7 +193,7 @@
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "盤中速報 - 玉晶光(3406)股價殺至跌停，跌停價1080.0元，成交5,615張",
@@ -127,13 +247,13 @@
       "headline": "盤中速報 - 櫃買市場加權指數下跌-15.51點至371.86點，跌幅4%",
       "link": "https://news.cnyes.com/news/id/6641767",
       "publishedAt": 1793336672000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "盤中速報 - 冠西電(2466)股價拉至漲停，漲停價354.0元，成交1,042張",
@@ -151,37 +271,37 @@
       "headline": "盤中速報 - 集中市場加權指數下跌-1003.41點至45364.92點，跌幅2.16%",
       "link": "https://news.cnyes.com/news/id/6641751",
       "publishedAt": 1793336253000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "盤中速報 - 櫃買市場加權指數下跌-14.25點至373.12點，跌幅3.68%",
       "link": "https://news.cnyes.com/news/id/6641750",
       "publishedAt": 1793336251000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "盤中速報 - 櫃買市場加權指數下跌-14.09點至373.28點，跌幅3.64%",
       "link": "https://news.cnyes.com/news/id/6641747",
       "publishedAt": 1793335951000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "AI產業罩烏雲 國泰金李長庚：僅是大浪中的小波折 算力稀缺下「AI絕不會死」",
@@ -193,55 +313,55 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "盤中速報 - 集中市場加權指數下跌-945.34點至45422.99點，跌幅2.04%",
       "link": "https://news.cnyes.com/news/id/6641746",
       "publishedAt": 1793335835000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "盤中速報 - 櫃買市場加權指數下跌-14.31點至373.06點，跌幅3.69%",
       "link": "https://news.cnyes.com/news/id/6641745",
       "publishedAt": 1793335833000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "盤中速報 - 櫃買市場加權指數下跌-14.47點至372.9點，跌幅3.74%",
       "link": "https://news.cnyes.com/news/id/6641744",
       "publishedAt": 1793335775000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "盤中速報 - 集中市場加權指數下跌-994.8點至45373.53點，跌幅2.15%",
       "link": "https://news.cnyes.com/news/id/6641743",
       "publishedAt": 1793335773000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "盤中速報 - 訊達電腦(6140)股價拉至漲停，漲停價22.7元，成交1,051張",
@@ -265,7 +385,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "盤中速報 - 納維康(8472)股價殺至跌停，跌停價59.8元，成交200張",
@@ -289,7 +409,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "盤中速報 - 科際精密(4568)股價拉至漲停，漲停價51.8元，成交275張",
@@ -313,7 +433,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "日銀按兵不動、首度認定通膨「達標」！為12月升息鋪路 日元兌美元應聲漲",
@@ -325,163 +445,43 @@
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "盤中速報 - 櫃買市場加權指數下跌-17.63點至369.74點，跌幅4.55%",
       "link": "https://news.cnyes.com/news/id/6641722",
       "publishedAt": 1793333786000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "盤中速報 - 櫃買市場加權指數下跌-17.88點至369.49點，跌幅4.62%",
       "link": "https://news.cnyes.com/news/id/6641721",
       "publishedAt": 1793333728000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     },
     {
       "headline": "盤中速報 - 櫃買市場加權指數下跌-18.09點至369.28點，跌幅4.67%",
       "link": "https://news.cnyes.com/news/id/6641720",
       "publishedAt": 1793333678000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793340109953
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：致茂(2360-TW)EPS預估上修至48.3元，預估目標價為2800元",
-      "link": "https://news.cnyes.com/news/id/6641719",
-      "publishedAt": 1793333430000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股預估"
-      ],
-      "fetchedAt": 1793340109953
-    },
-    {
-      "headline": "強通膨+鷹派央行+AI資金撐腰！美元將創近一年半最佳月度表現 分析師：美大選難改強勢邏輯",
-      "link": "https://news.cnyes.com/news/id/6641561",
-      "publishedAt": 1793333404000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "外匯"
-      ],
-      "fetchedAt": 1793340109953
-    },
-    {
-      "headline": "盤中速報 - 大恭(4706)股價殺至跌停，跌停價49.0元，成交786張",
-      "link": "https://news.cnyes.com/news/id/6641696",
-      "publishedAt": 1793333090000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1793340109953
-    },
-    {
-      "headline": "盤中速報 - 強新(5013)股價拉至漲停，漲停價55.1元，成交2,649張",
-      "link": "https://news.cnyes.com/news/id/6641695",
-      "publishedAt": 1793333002000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1793340109953
-    },
-    {
-      "headline": "盤中速報 - 集中市場加權指數下跌-1140.44點至45227.89點，跌幅2.46%",
-      "link": "https://news.cnyes.com/news/id/6641681",
-      "publishedAt": 1793332347000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1793340109953
-    },
-    {
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-15.98點至371.39點，跌幅4.13%",
-      "link": "https://news.cnyes.com/news/id/6641680",
-      "publishedAt": 1793332332000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1793340109953
-    },
-    {
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-16.06點至371.31點，跌幅4.15%",
-      "link": "https://news.cnyes.com/news/id/6641679",
-      "publishedAt": 1793332277000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1793340109953
-    },
-    {
-      "headline": "〈房產〉台灣央行鬆綁第二戶房貸限制 中信房屋：轉化成交的量體上仍不明顯",
-      "link": "https://news.cnyes.com/news/id/6641647",
-      "publishedAt": 1793332005000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台灣房市"
-      ],
-      "fetchedAt": 1793340109953
-    },
-    {
-      "headline": "唯一非銀行獲獎！期交所「風控模擬平台」幫忙踩煞車 奪金融教育貢獻銀質獎",
-      "link": "https://news.cnyes.com/news/id/6641650",
-      "publishedAt": 1793331920000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "銀行"
-      ],
-      "fetchedAt": 1793340109953
-    },
-    {
-      "headline": "盤中速報 - 萬國通(9950)股價拉至漲停，漲停價11.7元，成交589張",
-      "link": "https://news.cnyes.com/news/id/6641668",
-      "publishedAt": 1793331477000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1793340109953
+      "fetchedAt": 1793343599235
     }
   ],
   "failedSources": [],
