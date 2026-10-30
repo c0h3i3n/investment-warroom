@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-30T13:11:19.520014+00:00",
-  "generatedAt": "2026-10-30T13:11:19.520014+00:00",
+  "timestamp": "2026-10-30T14:00:21.377797+00:00",
+  "generatedAt": "2026-10-30T14:00:21.377797+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-10-30",
-    "attemptedAt": 1793365877840,
+    "attemptedAt": 1793368816157,
     "annual": {
       "year": 2026,
       "closed": [
@@ -87,24 +87,24 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1793365877840,
+        "checkedAt": 1793368816157,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1793365877840,
+        "checkedAt": 1793368816157,
         "error": null
       },
       "futures": {
         "ok": true,
-        "checkedAt": 1793365877840,
+        "checkedAt": 1793368816157,
         "error": null
       }
     },
     "preload": {
       "year": 2027,
       "status": "pending-publication",
-      "attemptedAt": 1793279987768,
+      "attemptedAt": 1793368816157,
       "providerYear": 2026,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     }
@@ -142,10 +142,10 @@
       "name": "S&P 500",
       "region": "US",
       "currency": "$",
-      "price": 7720.39,
-      "change": -23.59,
-      "changePct": -0.3,
-      "asOf": "2026-10-29T20:32:46+00:00",
+      "price": 7635.58,
+      "change": -84.81,
+      "changePct": -1.1,
+      "asOf": "2026-10-30T14:00:21+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -155,10 +155,10 @@
       "name": "NASDAQ",
       "region": "US",
       "currency": "$",
-      "price": 26184.725,
-      "change": -365.13,
-      "changePct": -1.38,
-      "asOf": "2026-10-29T21:15:59+00:00",
+      "price": 25658.775,
+      "change": -525.95,
+      "changePct": -2.01,
+      "asOf": "2026-10-30T14:00:19+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -168,10 +168,10 @@
       "name": "費城半導體 SOX",
       "region": "US",
       "currency": "$",
-      "price": 11518.199,
-      "change": -165.8,
-      "changePct": -1.42,
-      "asOf": "2026-10-29T21:15:59+00:00",
+      "price": 10910.3125,
+      "change": -607.89,
+      "changePct": -5.28,
+      "asOf": "2026-10-30T14:00:19+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }

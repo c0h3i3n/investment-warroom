@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "date": "2026-10-30",
-  "attemptedAt": 1793365877840,
+  "attemptedAt": 1793368816157,
   "annual": {
     "year": 2026,
     "closed": [
@@ -84,24 +84,24 @@
   "checks": {
     "annual": {
       "ok": true,
-      "checkedAt": 1793365877840,
+      "checkedAt": 1793368816157,
       "error": null
     },
     "notices": {
       "ok": true,
-      "checkedAt": 1793365877840,
+      "checkedAt": 1793368816157,
       "error": null
     },
     "futures": {
       "ok": true,
-      "checkedAt": 1793365877840,
+      "checkedAt": 1793368816157,
       "error": null
     }
   },
   "preload": {
     "year": 2027,
     "status": "pending-publication",
-    "attemptedAt": 1793279987768,
+    "attemptedAt": 1793368816157,
     "providerYear": 2026,
     "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
   }
