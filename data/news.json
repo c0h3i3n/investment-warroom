@@ -1,8 +1,68 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T12:12:06.666Z",
-  "checkedAt": 1793448726666,
+  "generatedAt": "2026-10-31T17:38:57.115Z",
+  "checkedAt": 1793468337115,
   "data": [
+    {
+      "headline": "jpp-KY深耕泰國舉辦自動化比賽 獲皇室肯定御賜獎盃",
+      "link": "https://news.cnyes.com/news/id/6642887",
+      "publishedAt": 1793462745000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1793468337115
+    },
+    {
+      "headline": "大陸海警宣布：在台灣以東海域依法展開常態化執法巡查",
+      "link": "https://news.cnyes.com/news/id/6643054",
+      "publishedAt": 1793460308000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台灣政經"
+      ],
+      "fetchedAt": 1793468337115
+    },
+    {
+      "headline": "俄羅斯外長：澤倫斯基想見普丁 就來莫斯科",
+      "link": "https://news.cnyes.com/news/id/6643042",
+      "publishedAt": 1793452376000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1793468337115
+    },
+    {
+      "headline": "Anthropic總裁：Claude永遠不會成為你的伴侶或心理師！AI時代人類更要持續進化",
+      "link": "https://news.cnyes.com/news/id/6642934",
+      "publishedAt": 1793452206000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793468337115
+    },
+    {
+      "headline": "親歷者口述驚魂十餘秒 西班牙高鐵追撞慘劇背後",
+      "link": "https://news.cnyes.com/news/id/6643043",
+      "publishedAt": 1793451629000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1793468337115
+    },
     {
       "headline": "軟銀傳砸500億美元布局馬來西亞AI！孫正義投資意向曝光、資料中心與就業機會成焦點",
       "link": "https://news.cnyes.com/news/id/6642935",
@@ -13,7 +73,7 @@
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "AI晶片需求推升韓元！第三季狂升13%創近28年新高、南韓央行示警",
@@ -25,7 +85,7 @@
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "Alphabet黑色10月！單月市值蒸發7580億美元、創上市以來最慘表現 本益比降至十年新低",
@@ -37,7 +97,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "砸錢拚AI不再加分？雲端大廠股價劇烈分化 市場獎勵克制、懲罰開支",
@@ -49,7 +109,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "Google跨足川普「金穹」計畫？傳洽談資料安全合作 搶攻1850億美元商機",
@@ -61,7 +121,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "科技債成「待發掘鑽石」！策略師：AI巨頭舉債之際投資人迎來機會",
@@ -73,7 +133,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "川普暫緩機器人關稅 180天談判牽動美國製造業與台灣供應鏈",
@@ -85,7 +145,7 @@
       "categories": [
         "美股"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "記憶體漲價成雙面刃！美光坐享高利潤卻埋下景氣反轉隱憂",
@@ -97,7 +157,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "川普辱罵挪威是「糞坑」 官方秀絕美公廁當觀光廣告、173國網友朝聖",
@@ -109,7 +169,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "科技股重挫、石油雙雄逆勢創高 煉油利差成能源股新引擎",
@@ -121,7 +181,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "〈熱門股〉研華Q3獲利創高、展望正向 無懼大盤跌千點逆勢收紅",
@@ -133,7 +193,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "嫌吵就買你房！SpaceX擬收購418戶 「土豪解法」資料中心噪音抗議",
@@ -145,7 +205,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "惠譽砍法國信評展望至「負向」！債務惡化、政局分裂加深財政風險",
@@ -157,7 +217,7 @@
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "亞馬遜未來支出承諾飆至8836億美元 新增800億美元融資額度支援AI擴張",
@@ -169,7 +229,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "OpenAI大砍募資目標100億美元！估值降至1.25兆美元、投資人縮減認購",
@@ -181,7 +241,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "〈熱門股〉東捷資訊搭資安題材 逆勢續漲近2成創近1年新高價",
@@ -193,7 +253,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "標普砍Meta信評展望至「負向」！AI支出失與現金流惡化引發擔憂",
@@ -205,7 +265,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "國內銀行「第一」槍！一銀粉獅幣點數可兌換USDT 攜手HOYA BIT跨幣圈",
@@ -217,7 +277,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "〈熱門股〉麗臺輝達工作站新品與獲利爆發加持 無懼大盤回檔獲外資逆勢買超",
@@ -229,7 +289,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "馬斯克豪砸逾4.45億美元挺共和黨 傳記作者：期中選舉成個人政治十字軍東征",
@@ -241,7 +301,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "〈熱門股〉科妍玻尿酸產品有望攻千億人民幣醫美市場 喜迎兩根漲停周漲近2成",
@@ -253,7 +313,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "鴻海科技日登場、電子權值股法說周、景氣燈號連10紅 本周大事回顧",
@@ -265,7 +325,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "晶片股提前迎「黑色星期五」英特爾等11個股10月跌逾20%",
@@ -277,7 +337,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "Siri終於有AI外援！蘋果牽手阿里千問 中國用戶11月搶先體驗",
@@ -289,7 +349,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "〈分析〉Anthropic IPO前景蒙陰 黑石為何不再看好投資級評等？",
@@ -301,7 +361,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "Alphabet財報被SpaceX紙上虧損拖累！《巴隆》建議學波克夏揭露核心獲利",
@@ -313,7 +373,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "星巴克擬測試AI「快速通關」得來速服務",
@@ -325,7 +385,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "幣安遭駭63億美元天價竊案！川普：正調查是否為北韓駭客所為",
@@ -337,7 +397,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "〈熱門股〉欣興旗下同泰電子結束連19季虧損Q3轉盈 周漲24%",
@@ -349,7 +409,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "超微單日重挫11%！英特爾崩近30%揭兩大警訊 下周財報能否突圍？",
@@ -361,19 +421,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：統一超(2912-TW)目標價調降至262.5元，幅度約3.67%",
-      "link": "https://news.cnyes.com/news/id/6642792",
-      "publishedAt": 1793405423000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股預估"
-      ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：晶碩(6491-TW)目標價調升至455元，幅度約7.06%",
@@ -385,7 +433,19 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：統一超(2912-TW)目標價調降至262.5元，幅度約3.67%",
+      "link": "https://news.cnyes.com/news/id/6642792",
+      "publishedAt": 1793405423000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "〈熱門股〉00987D逆勢領漲躍主動式ETF漲幅王 債券與息收型成資金避風港",
@@ -397,7 +457,7 @@
       "categories": [
         "ETF"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "Alphabet蠟燭兩頭燒：AI砸錢停不了 搜尋生意卻先受衝擊",
@@ -409,7 +469,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     },
     {
       "headline": "蘋果重奪全球市值王！AI支出疑慮升溫 投資人轉向現金流避風港",
@@ -421,67 +481,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793448726666
-    },
-    {
-      "headline": "〈分析〉輝達傳洽談數十億美元信用擔保 AI融資風險究竟誰買單？",
-      "link": "https://news.cnyes.com/news/id/6642764",
-      "publishedAt": 1793403003000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1793448726666
-    },
-    {
-      "headline": "科技股財報拖累SpaceX跌破IPO價 沒有公司達到馬斯克的高標準",
-      "link": "https://news.cnyes.com/news/id/6642745",
-      "publishedAt": 1793401587000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1793448726666
-    },
-    {
-      "headline": "〈貴金屬盤後〉黃金重摔至一年低點、創2008年來最差10月表現 「白色貴金屬」全面下殺",
-      "link": "https://news.cnyes.com/news/id/6641918",
-      "publishedAt": 1793399623000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "黃金"
-      ],
-      "fetchedAt": 1793448726666
-    },
-    {
-      "headline": "英特爾暴跌近29%淪1974年來最慘 川普政府持股蒸發百億美元",
-      "link": "https://news.cnyes.com/news/id/6642749",
-      "publishedAt": 1793399508000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1793448726666
-    },
-    {
-      "headline": "〈能源盤後〉美伊衝突升級風險升高 原油漲逾2%收半年高點 布油月漲13.6%",
-      "link": "https://news.cnyes.com/news/id/6642677",
-      "publishedAt": 1793399216000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股"
-      ],
-      "fetchedAt": 1793448726666
+      "fetchedAt": 1793468337115
     }
   ],
   "failedSources": [],
