@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T19:31:52.577Z",
-  "checkedAt": 1793561512577,
+  "generatedAt": "2026-11-01T23:30:03.326Z",
+  "checkedAt": 1793575803326,
   "data": [
+    {
+      "headline": "〈台股盤前要聞〉鴻海AI伺服器機架產能翻倍、聯發科ASIC Q4營收上修至25億美元",
+      "link": "https://news.cnyes.com/news/id/6643408",
+      "publishedAt": 1793567403000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤勢"
+      ],
+      "fetchedAt": 1793575803326
+    },
+    {
+      "headline": "無人自助KTV 開遍中國縣城",
+      "link": "https://news.cnyes.com/news/id/6643399",
+      "publishedAt": 1793563203000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "鉅亨新視界"
+      ],
+      "fetchedAt": 1793575803326
+    },
     {
       "headline": "〈熱門股〉穩懋Q3財報佳績+AI光通訊大廠收購題材 周漲19%站上所有均線",
       "link": "https://news.cnyes.com/news/id/6643433",
@@ -13,7 +37,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "伊朗與卡達連續3天談判！擬美伊達成協議後48小時內重開荷姆茲海峽",
@@ -25,7 +49,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "步法國後塵 德國多地示威引發暴力騷亂",
@@ -37,7 +61,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "黑海戰事激烈 俄羅斯糧食出口被迫繞道北極",
@@ -49,7 +73,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "美方報告：美軍基地損失嚴重",
@@ -61,7 +85,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "本週操盤筆記：美國期中選舉、蘋果財報、非農就業報告",
@@ -73,7 +97,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "盤中速報 - Reserve Rights大漲8.51%，報0美元",
@@ -109,7 +133,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "蘋果iPhone Duo暫無召回計畫！緊急下發售後指引、但換機仍面臨缺貨",
@@ -121,7 +145,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "鉅亨買幣速報 - 比特幣(BTC)24小時成交量超過4.81億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
@@ -145,7 +169,7 @@
       "categories": [
         "A股"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "盼追加預算11月順利過關 卓揆：讓普發1萬最快春節前發錢 行政準備絕不拖延",
@@ -157,7 +181,7 @@
       "categories": [
         "台灣政經"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "國1五堵至汐止段不再「打結」！卓揆：基北往返尖峰省15分鐘 車速升至80公里",
@@ -169,7 +193,7 @@
       "categories": [
         "台灣政經"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "〈台股風向球〉融資恐殺出引爆補跌壓力 台股走勢可能有2種情境",
@@ -181,7 +205,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "盤中速報 - 拳王幣大漲8.62%，報0.328美元",
@@ -229,7 +253,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "iPhone Duo螢幕裂開原因已找到？iFixit拆機揭「這一點」成關鍵",
@@ -241,7 +265,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "盤中速報 - AAVE大漲8.57%，報140.7美元",
@@ -265,7 +289,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "伊朗正研究范斯提議！但外長稱暫無會談計劃、軍方：將「高強度且不受地理限制」對抗美以",
@@ -277,7 +301,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "鉅亨買幣速報 - 比特幣(BTC)24小時成交量超過4.6億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
@@ -313,7 +337,7 @@
       "categories": [
         "ETF"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "「AI支出義警」時代到來？微軟靠正自由現金流躍居華爾街新寵",
@@ -325,7 +349,7 @@
       "categories": [
         "科技"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "金居啟動大馬建廠計畫 高階銅箔新廠落腳居林、取得3.12萬坪土地",
@@ -337,7 +361,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "盤中速報 - RUNE大跌8.64%，報0.603美元",
@@ -361,7 +385,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "高通膨與高殖利率拉鋸！PIMCO解析Fed：12月升息1碼機率高 長期維持高利率",
@@ -373,7 +397,7 @@
       "categories": [
         "基金"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "中東緊張局勢再起 黃金為何仍暴跌至一年來最低價？",
@@ -385,7 +409,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "盤中速報 - LayerZero大漲8.15%，報1.85美元",
@@ -409,7 +433,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793561512577
+      "fetchedAt": 1793575803326
     },
     {
       "headline": "盤中速報 - 拳王幣大漲12.78%，報0.325美元",
@@ -458,32 +482,10 @@
         "虛擬貨幣盤中"
       ],
       "fetchedAt": 1793545098831
-    },
-    {
-      "headline": "jpp-KY深耕泰國舉辦自動化比賽 獲皇室肯定御賜獎盃",
-      "link": "https://news.cnyes.com/news/id/6642887",
-      "publishedAt": 1793462745000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1793561512577
-    },
-    {
-      "headline": "盤中速報 - 拳王幣大漲12.73%，報0.321美元",
-      "link": "https://news.cnyes.com/news/id/6643095",
-      "publishedAt": 1793462719000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1793545098831
     }
   ],
-  "failedSources": [],
+  "failedSources": [
+    "鉅亨美股"
+  ],
   "delivery": "live"
 }
