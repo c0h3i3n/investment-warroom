@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-03T14:59:20.680016+00:00",
-  "generatedAt": "2026-11-03T14:59:20.680016+00:00",
+  "timestamp": "2026-11-03T20:54:29.604424+00:00",
+  "generatedAt": "2026-11-03T20:54:29.604424+00:00",
   "calendar": {
     "schemaVersion": 1,
-    "date": "2026-11-03",
-    "attemptedAt": 1793717958875,
+    "date": "2026-11-04",
+    "attemptedAt": 1793739267721,
     "annual": {
       "year": 2026,
       "closed": [
@@ -87,17 +87,17 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1793717958875,
+        "checkedAt": 1793739267721,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1793717958875,
+        "checkedAt": 1793739267721,
         "error": null
       },
       "futures": {
         "ok": true,
-        "checkedAt": 1793717958875,
+        "checkedAt": 1793739267721,
         "error": null
       }
     },
@@ -142,10 +142,10 @@
       "name": "S&P 500",
       "region": "US",
       "currency": "$",
-      "price": 7561.08,
-      "change": 19.68,
-      "changePct": 0.26,
-      "asOf": "2026-11-03T14:59:19+00:00",
+      "price": 7564.65,
+      "change": 23.25,
+      "changePct": 0.31,
+      "asOf": "2026-11-03T20:54:28+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -155,10 +155,10 @@
       "name": "NASDAQ",
       "region": "US",
       "currency": "$",
-      "price": 25311.285,
-      "change": 146.92,
-      "changePct": 0.58,
-      "asOf": "2026-11-03T14:59:15+00:00",
+      "price": 25367.035,
+      "change": 202.67,
+      "changePct": 0.81,
+      "asOf": "2026-11-03T20:54:27+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -168,10 +168,10 @@
       "name": "費城半導體 SOX",
       "region": "US",
       "currency": "$",
-      "price": 10624.6,
-      "change": 296.27,
-      "changePct": 2.87,
-      "asOf": "2026-11-03T14:59:20+00:00",
+      "price": 10591.453,
+      "change": 263.12,
+      "changePct": 2.55,
+      "asOf": "2026-11-03T20:54:29+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
