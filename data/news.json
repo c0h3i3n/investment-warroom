@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T06:33:39.851Z",
-  "checkedAt": 1793687619851,
+  "generatedAt": "2026-11-03T06:59:03.495Z",
+  "checkedAt": 1793689143495,
   "data": [
+    {
+      "headline": "摩根士丹利CEO：AI未來十年發展恐需15兆美元 算力需求仍大於供給",
+      "link": "https://news.cnyes.com/news/id/6644995",
+      "publishedAt": 1793688002000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "科技"
+      ],
+      "fetchedAt": 1793689143495
+    },
     {
       "headline": "澳洲今年第五度升息！利率升至18年高點 澳幣仍走軟",
       "link": "https://news.cnyes.com/news/id/6644859",
@@ -13,7 +25,7 @@
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "前3季重大職災降9%！勞部公布新北31死登榜首 營造業成工安重災區",
@@ -25,7 +37,7 @@
       "categories": [
         "台灣政經"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "外匯速報 - 美元/人民幣(USDCNY) 大漲0.36%，報6.6719元",
@@ -61,7 +73,7 @@
       "categories": [
         "台股盤勢"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "市場快訊》財報季引爆賣壓！科技股為何慘遭血洗？",
@@ -73,7 +85,7 @@
       "categories": [
         "基金"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "〈美國期中選舉〉開票恐等數週 華爾街為何不怕？大摩看好選後美股成大贏家",
@@ -85,19 +97,19 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "〈ESG狂潮〉為雷公蛙打造高雄新家 生合攜手產官學推進蛙房與濕地建置",
       "link": "https://news.cnyes.com/news/id/6644941",
       "publishedAt": 1793684882000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "00403A 宣布「不配息」原因？00403A還值得投資嗎？00403A與00981A 差異懶人包！",
@@ -109,7 +121,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "宏碁前10月台灣消費性筆電出貨年增15% 全年ASP看增近3成",
@@ -121,7 +133,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "八大工商團體呼籲立院 支持編列預算撥補中油、台電以維護產業競爭力",
@@ -133,7 +145,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "00878績效逆襲 0050！Q4配息創高還能存嗎？成分股與除息攻略一次看",
@@ -145,7 +157,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "全民瘋當E人！貝萊德調查：74%台灣人未來1年想買ETF 85%最愛股票型",
@@ -157,7 +169,7 @@
       "categories": [
         "ETF"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "Palantir Q3營收翻倍 全年指引上調 但股價盤後仍下跌",
@@ -169,7 +181,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "美股下一個轉折點？美國期中選舉牽動AI資料中心命運、2028年建設面臨審批風暴",
@@ -181,31 +193,31 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "盤中速報 - 集中市場加權指數下跌-1719.81點至43200.33點，跌幅3.83%",
       "link": "https://news.cnyes.com/news/id/6644989",
       "publishedAt": 1793683987000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "盤中速報 - 櫃買市場加權指數下跌-23.82點至345.42點，跌幅6.45%",
       "link": "https://news.cnyes.com/news/id/6644988",
       "publishedAt": 1793683986000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "盤中速報 - 科際精密(4568)股價殺至跌停，跌停價51.3元，成交485張",
@@ -277,43 +289,43 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "盤中速報 - 集中市場加權指數下跌-1719.9點至43200.24點，跌幅3.83%",
       "link": "https://news.cnyes.com/news/id/6644979",
       "publishedAt": 1793683548000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "盤中速報 - 櫃買市場加權指數下跌-23.82點至345.42點，跌幅6.45%",
       "link": "https://news.cnyes.com/news/id/6644978",
       "publishedAt": 1793683542000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "盤中速報 - 櫃買市場加權指數下跌-23.81點至345.43點，跌幅6.45%",
       "link": "https://news.cnyes.com/news/id/6644976",
       "publishedAt": 1793683496000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "盤中速報 - 欣興(3037)股價殺至跌停，跌停價898.0元，成交26,653張",
@@ -343,25 +355,25 @@
       "headline": "盤中速報 - 集中市場加權指數下跌-1633.61點至43286.53點，跌幅3.64%",
       "link": "https://news.cnyes.com/news/id/6644973",
       "publishedAt": 1793683310000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "盤中速報 - 櫃買市場加權指數下跌-23.39點至345.85點，跌幅6.33%",
       "link": "https://news.cnyes.com/news/id/6644972",
       "publishedAt": 1793683292000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "〈焦點股〉台玻前3季獲利亮眼、啟動73億元擴產 一度亮燈漲停",
@@ -373,7 +385,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793687619851
+      "fetchedAt": 1793689143495
     },
     {
       "headline": "盤中速報 - 冠西電(2466)股價殺至跌停，跌停價342.0元，成交980張",
@@ -463,18 +475,6 @@
       "headline": "盤中速報 - 鼎元(2426)股價殺至跌停，跌停價78.3元，成交13,067張",
       "link": "https://news.cnyes.com/news/id/6644962",
       "publishedAt": 1793682772000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1793687619851
-    },
-    {
-      "headline": "盤中速報 - 環球晶(6488)股價殺至跌停，跌停價684.0元，成交9,736張",
-      "link": "https://news.cnyes.com/news/id/6644961",
-      "publishedAt": 1793682767000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
