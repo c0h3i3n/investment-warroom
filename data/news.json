@@ -1,487 +1,487 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T23:25:53.273Z",
-  "checkedAt": 1793661953273,
+  "generatedAt": "2026-11-03T06:33:39.851Z",
+  "checkedAt": 1793687619851,
   "data": [
     {
-      "headline": "鎧俠財測遜拖累記憶體股！美光跌破840美元 本週將迎三大考驗",
-      "link": "https://news.cnyes.com/news/id/6644532",
-      "publishedAt": 1793660062000,
+      "headline": "澳洲今年第五度升息！利率升至18年高點 澳幣仍走軟",
+      "link": "https://news.cnyes.com/news/id/6644859",
+      "publishedAt": 1793687415000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "歐亞股"
       ],
-      "fetchedAt": 1793661953273
+      "fetchedAt": 1793687619851
     },
     {
-      "headline": "英特爾10月暴跌45%、11月開局再挫超8% 晶圓代工轉型迎關鍵考驗",
-      "link": "https://news.cnyes.com/news/id/6644531",
-      "publishedAt": 1793658608000,
+      "headline": "前3季重大職災降9%！勞部公布新北31死登榜首 營造業成工安重災區",
+      "link": "https://news.cnyes.com/news/id/6644922",
+      "publishedAt": 1793686804000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "台灣政經"
       ],
-      "fetchedAt": 1793661953273
+      "fetchedAt": 1793687619851
     },
     {
-      "headline": "鉅亨速報 - Factset 最新調查：Coinbase Global Inc - Class ACOIN-US的目標價調降至197.5元，幅度約3.19%",
-      "link": "https://news.cnyes.com/news/id/6644562",
-      "publishedAt": 1793657726000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：TPG Inc - Class ATPG-US的目標價調升至60元，幅度約3.45%",
-      "link": "https://news.cnyes.com/news/id/6644561",
-      "publishedAt": 1793657724000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "〈貴金屬盤後〉黃金從一年低點反彈逾2% 油價重挫通膨升溫疑慮",
-      "link": "https://news.cnyes.com/news/id/6644137",
-      "publishedAt": 1793657298000,
+      "headline": "外匯速報 - 美元/人民幣(USDCNY) 大漲0.36%，報6.6719元",
+      "link": "https://news.cnyes.com/news/id/6645031",
+      "publishedAt": 1793686221000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "黃金"
+        "外匯盤中"
       ],
-      "fetchedAt": 1793661953273
+      "fetchedAt": 1793687619851
     },
     {
-      "headline": "甲骨文重挫近9% 為AI支出再借款100億美元",
-      "link": "https://news.cnyes.com/news/id/6644543",
-      "publishedAt": 1793657010000,
+      "headline": "外匯速報 - 美元/台幣(USDTWD) 大漲0.69%，報32.816元",
+      "link": "https://news.cnyes.com/news/id/6645030",
+      "publishedAt": 1793686219000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "外匯盤中"
       ],
-      "fetchedAt": 1793661953273
+      "fetchedAt": 1793687619851
     },
     {
-      "headline": "〈美股盤後〉川普稱不急於再打伊朗、鎧俠財測拖累記憶體股 費半11月首日挫逾3%",
-      "link": "https://news.cnyes.com/news/id/6644206",
-      "publishedAt": 1793656601000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "〈能源盤後〉伊朗釋出和平談判訊號 油價挫逾7% Brent跌破105美元",
-      "link": "https://news.cnyes.com/news/id/6644497",
-      "publishedAt": 1793654403000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "能源"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "〈台股盤前要聞〉大同華映案和解露曙光、勞動基金前9月賺2.44兆元、10月製造業PMI下滑",
-      "link": "https://news.cnyes.com/news/id/6644307",
-      "publishedAt": 1793653803000,
+      "headline": "〈台股盤後〉電子、傳產全面下殺 重摔1612點收43307點失守4萬4",
+      "link": "https://news.cnyes.com/news/id/6645012",
+      "publishedAt": 1793686077000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "台股盤勢"
       ],
-      "fetchedAt": 1793661953273
+      "fetchedAt": 1793687619851
     },
     {
-      "headline": "川普稱不急於再轟炸伊朗 白宮三派分歧、卡達提談判草案",
-      "link": "https://news.cnyes.com/news/id/6644528",
-      "publishedAt": 1793652603000,
+      "headline": "市場快訊》財報季引爆賣壓！科技股為何慘遭血洗？",
+      "link": "https://news.cnyes.com/news/id/6645003",
+      "publishedAt": 1793685950000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "基金"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "〈美國期中選舉〉開票恐等數週 華爾街為何不怕？大摩看好選後美股成大贏家",
+      "link": "https://news.cnyes.com/news/id/6644215",
+      "publishedAt": 1793685003000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793661953273
+      "fetchedAt": 1793687619851
     },
     {
-      "headline": "盤中速報 - 伊魯米納(ILMN-US)大跌5.07%，報224.03美元",
-      "link": "https://news.cnyes.com/news/id/6644534",
-      "publishedAt": 1793652478000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "〈ESG狂潮〉為雷公蛙打造高雄新家 生合攜手產官學推進蛙房與濕地建置",
+      "link": "https://news.cnyes.com/news/id/6644941",
+      "publishedAt": 1793684882000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股新聞"
       ],
-      "fetchedAt": 1793661953273
+      "fetchedAt": 1793687619851
     },
     {
-      "headline": "盤中速報 - 萊迪思半導體(LSCC-US)大漲5%，報97.62美元",
-      "link": "https://news.cnyes.com/news/id/6644526",
-      "publishedAt": 1793650844000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "00403A 宣布「不配息」原因？00403A還值得投資嗎？00403A與00981A 差異懶人包！",
+      "link": "https://news.cnyes.com/news/id/6644996",
+      "publishedAt": 1793684858000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股新聞"
       ],
-      "fetchedAt": 1793661953273
+      "fetchedAt": 1793687619851
     },
     {
-      "headline": "鉅亨速報 - Factset 最新調查：諾布爾公司(NE-US)EPS預估下修至-0.24元，預估目標價為45.00元",
-      "link": "https://news.cnyes.com/news/id/6644524",
-      "publishedAt": 1793650535000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "宏碁前10月台灣消費性筆電出貨年增15% 全年ASP看增近3成",
+      "link": "https://news.cnyes.com/news/id/6644873",
+      "publishedAt": 1793684819000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股預估"
+        "台股新聞"
       ],
-      "fetchedAt": 1793661953273
+      "fetchedAt": 1793687619851
     },
     {
-      "headline": "鉅亨速報 - Factset 最新調查：Krystal Biotech Inc(KRYS-US)EPS預估上修至7.64元，預估目標價為401.50元",
-      "link": "https://news.cnyes.com/news/id/6644523",
-      "publishedAt": 1793650532000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "八大工商團體呼籲立院 支持編列預算撥補中油、台電以維護產業競爭力",
+      "link": "https://news.cnyes.com/news/id/6644831",
+      "publishedAt": 1793684589000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股預估"
+        "台股新聞"
       ],
-      "fetchedAt": 1793661953273
+      "fetchedAt": 1793687619851
     },
     {
-      "headline": "鉅亨速報 - Factset 最新調查：Tempus AI, Inc. Class A(TEM-US)EPS預估上修至-0.19元，預估目標價為78.00元",
-      "link": "https://news.cnyes.com/news/id/6644522",
-      "publishedAt": 1793650528000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "00878績效逆襲 0050！Q4配息創高還能存嗎？成分股與除息攻略一次看",
+      "link": "https://news.cnyes.com/news/id/6644990",
+      "publishedAt": 1793684510000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股預估"
+        "台股新聞"
       ],
-      "fetchedAt": 1793661953273
+      "fetchedAt": 1793687619851
     },
     {
-      "headline": "鉅亨速報 - Factset 最新調查：華美銀行集團EWBC-US的目標價調升至155元，幅度約3.33%",
-      "link": "https://news.cnyes.com/news/id/6644521",
-      "publishedAt": 1793650526000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "全民瘋當E人！貝萊德調查：74%台灣人未來1年想買ETF 85%最愛股票型",
+      "link": "https://news.cnyes.com/news/id/6644796",
+      "publishedAt": 1793684461000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股預估"
+        "ETF"
       ],
-      "fetchedAt": 1793661953273
+      "fetchedAt": 1793687619851
     },
     {
-      "headline": "鉅亨速報 - Factset 最新調查：Axsome治療(AXSM-US)EPS預估上修至-2.71元，預估目標價為275.00元",
-      "link": "https://news.cnyes.com/news/id/6644520",
-      "publishedAt": 1793650525000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Tempus AI, Inc. Class ATEM-US的目標價調升至78元，幅度約4%",
-      "link": "https://news.cnyes.com/news/id/6644519",
-      "publishedAt": 1793650524000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "盤中速報 - Zscaler公司(ZS-US)大跌5.02%，報225.89美元",
-      "link": "https://news.cnyes.com/news/id/6644514",
-      "publishedAt": 1793649190000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "盤中速報 - Onto Innovation Inc.(ONTO-US)大跌5%，報191.49美元",
-      "link": "https://news.cnyes.com/news/id/6644512",
-      "publishedAt": 1793648540000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "盤中速報 - 科林研發(LRCX-US)大跌5%，報227.15美元",
-      "link": "https://news.cnyes.com/news/id/6644511",
-      "publishedAt": 1793648455000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "盤中速報 - 和康電訊(MTSI-US)大跌5%，報222.67美元",
-      "link": "https://news.cnyes.com/news/id/6644510",
-      "publishedAt": 1793648423000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "盤中速報 - MongoDB公司(MDB-US)大跌5.03%，報335.22美元",
-      "link": "https://news.cnyes.com/news/id/6644508",
-      "publishedAt": 1793648214000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "盤中速報 - 連貫(COHR-US)大跌5.06%，報199.67美元",
-      "link": "https://news.cnyes.com/news/id/6644507",
-      "publishedAt": 1793648181000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "盤中速報 - 美光科技(MU-US)大跌5.02%，報840.32美元",
-      "link": "https://news.cnyes.com/news/id/6644506",
-      "publishedAt": 1793648170000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "盤中速報 - 泰瑞達(TER-US)大跌5%，報260.65美元",
-      "link": "https://news.cnyes.com/news/id/6644505",
-      "publishedAt": 1793648051000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "盤中速報 - 防特網(FTNT-US)大跌5.01%，報129.27美元",
-      "link": "https://news.cnyes.com/news/id/6644501",
-      "publishedAt": 1793646982000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "盤中速報 - 安可(AMKR-US)大跌5.01%，報37.52美元",
-      "link": "https://news.cnyes.com/news/id/6644496",
-      "publishedAt": 1793645792000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "盤中速報 - 超微電腦(SMCI-US)大跌5.01%，報31.3美元",
-      "link": "https://news.cnyes.com/news/id/6644495",
-      "publishedAt": 1793645722000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "盤中速報 - 超微半導體(AMD-US)大跌5%，報479.55美元",
-      "link": "https://news.cnyes.com/news/id/6644493",
-      "publishedAt": 1793645218000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "盤中速報 - 美卡多(MELI-US)大漲5.03%，報1706.29美元",
-      "link": "https://news.cnyes.com/news/id/6644491",
-      "publishedAt": 1793645032000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "AI燒錢再找債市！Meta擬籌至少200億美元 投資人還買單嗎？",
-      "link": "https://news.cnyes.com/news/id/6644480",
-      "publishedAt": 1793644202000,
+      "headline": "Palantir Q3營收翻倍 全年指引上調 但股價盤後仍下跌",
+      "link": "https://news.cnyes.com/news/id/6644951",
+      "publishedAt": 1793684409000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793661953273
+      "fetchedAt": 1793687619851
     },
     {
-      "headline": "盤中速報 - 響尾蛇能源(FANG-US)大跌5.03%，報201.41美元",
-      "link": "https://news.cnyes.com/news/id/6644487",
-      "publishedAt": 1793643823000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Tower Semiconductor Ltd.(TSEM-US)EPS預估上修至3.96元，預估目標價為313.00元",
-      "link": "https://news.cnyes.com/news/id/6644486",
-      "publishedAt": 1793643342000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：DraftKings公司(DKNG-US)EPS預估下修至-0.17元，預估目標價為30.00元",
-      "link": "https://news.cnyes.com/news/id/6644485",
-      "publishedAt": 1793643339000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：浦項鋼鐵控股(PKX-US)EPS預估下修至4.43元，預估目標價為83.97元",
-      "link": "https://news.cnyes.com/news/id/6644484",
-      "publishedAt": 1793643333000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：L3哈里斯科技LHX-US的目標價調升至342.5元，幅度約3.79%",
-      "link": "https://news.cnyes.com/news/id/6644483",
-      "publishedAt": 1793643326000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Sterling Infrastructure IncSTRL-US的目標價調降至717.5元，幅度約4.14%",
-      "link": "https://news.cnyes.com/news/id/6644482",
-      "publishedAt": 1793643319000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1793661953273
-    },
-    {
-      "headline": "美股這波快跌完了？大摩：這個指數六成股票已跌過兩成",
-      "link": "https://news.cnyes.com/news/id/6644459",
-      "publishedAt": 1793642404000,
+      "headline": "美股下一個轉折點？美國期中選舉牽動AI資料中心命運、2028年建設面臨審批風暴",
+      "link": "https://news.cnyes.com/news/id/6644812",
+      "publishedAt": 1793684408000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793661953273
+      "fetchedAt": 1793687619851
     },
     {
-      "headline": "盤中速報 - 英特爾(INTC-US)大跌5.01%，報62.47美元",
-      "link": "https://news.cnyes.com/news/id/6644471",
-      "publishedAt": 1793641342000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "盤中速報 - 集中市場加權指數下跌-1719.81點至43200.33點，跌幅3.83%",
+      "link": "https://news.cnyes.com/news/id/6644989",
+      "publishedAt": 1793683987000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股盤中"
       ],
-      "fetchedAt": 1793661953273
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 櫃買市場加權指數下跌-23.82點至345.42點，跌幅6.45%",
+      "link": "https://news.cnyes.com/news/id/6644988",
+      "publishedAt": 1793683986000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 科際精密(4568)股價殺至跌停，跌停價51.3元，成交485張",
+      "link": "https://news.cnyes.com/news/id/6644987",
+      "publishedAt": 1793683899000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 寶綠特-KY(6887)股價殺至跌停，跌停價30.55元，成交303張",
+      "link": "https://news.cnyes.com/news/id/6644986",
+      "publishedAt": 1793683897000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 泰詠(6266)股價殺至跌停，跌停價21.55元，成交695張",
+      "link": "https://news.cnyes.com/news/id/6644984",
+      "publishedAt": 1793683816000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 今國光(6209)股價殺至跌停，跌停價76.7元，成交15,512張",
+      "link": "https://news.cnyes.com/news/id/6644983",
+      "publishedAt": 1793683814000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 邁科(6831)股價殺至跌停，跌停價327.5元，成交651張",
+      "link": "https://news.cnyes.com/news/id/6644981",
+      "publishedAt": 1793683809000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "晶片股陷入「信心危機」但AI前景其實沒有看起來那麼悲觀",
+      "link": "https://news.cnyes.com/news/id/6644568",
+      "publishedAt": 1793683804000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 集中市場加權指數下跌-1719.9點至43200.24點，跌幅3.83%",
+      "link": "https://news.cnyes.com/news/id/6644979",
+      "publishedAt": 1793683548000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 櫃買市場加權指數下跌-23.82點至345.42點，跌幅6.45%",
+      "link": "https://news.cnyes.com/news/id/6644978",
+      "publishedAt": 1793683542000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 櫃買市場加權指數下跌-23.81點至345.43點，跌幅6.45%",
+      "link": "https://news.cnyes.com/news/id/6644976",
+      "publishedAt": 1793683496000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 欣興(3037)股價殺至跌停，跌停價898.0元，成交26,653張",
+      "link": "https://news.cnyes.com/news/id/6644975",
+      "publishedAt": 1793683372000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 大立光(3008)股價殺至跌停，跌停價4945.0元，成交2,552張",
+      "link": "https://news.cnyes.com/news/id/6644974",
+      "publishedAt": 1793683339000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 集中市場加權指數下跌-1633.61點至43286.53點，跌幅3.64%",
+      "link": "https://news.cnyes.com/news/id/6644973",
+      "publishedAt": 1793683310000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 櫃買市場加權指數下跌-23.39點至345.85點，跌幅6.33%",
+      "link": "https://news.cnyes.com/news/id/6644972",
+      "publishedAt": 1793683292000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "〈焦點股〉台玻前3季獲利亮眼、啟動73億元擴產 一度亮燈漲停",
+      "link": "https://news.cnyes.com/news/id/6644931",
+      "publishedAt": 1793683243000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 冠西電(2466)股價殺至跌停，跌停價342.0元，成交980張",
+      "link": "https://news.cnyes.com/news/id/6644970",
+      "publishedAt": 1793683069000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 竑騰(7751)股價殺至跌停，跌停價1125.0元，成交272張",
+      "link": "https://news.cnyes.com/news/id/6644969",
+      "publishedAt": 1793682946000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 欣銓(3264)股價殺至跌停，跌停價195.0元，成交11,645張",
+      "link": "https://news.cnyes.com/news/id/6644967",
+      "publishedAt": 1793682898000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 嘉基(6715)股價殺至跌停，跌停價387.0元，成交1,079張",
+      "link": "https://news.cnyes.com/news/id/6644966",
+      "publishedAt": 1793682894000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 景碩(3189)股價殺至跌停，跌停價819.0元，成交16,363張",
+      "link": "https://news.cnyes.com/news/id/6644965",
+      "publishedAt": 1793682888000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - jpp-KY(5284)股價殺至跌停，跌停價241.5元，成交665張",
+      "link": "https://news.cnyes.com/news/id/6644964",
+      "publishedAt": 1793682881000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 中砂(1560)股價殺至跌停，跌停價778.0元，成交1,988張",
+      "link": "https://news.cnyes.com/news/id/6644963",
+      "publishedAt": 1793682799000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 鼎元(2426)股價殺至跌停，跌停價78.3元，成交13,067張",
+      "link": "https://news.cnyes.com/news/id/6644962",
+      "publishedAt": 1793682772000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
+    },
+    {
+      "headline": "盤中速報 - 環球晶(6488)股價殺至跌停，跌停價684.0元，成交9,736張",
+      "link": "https://news.cnyes.com/news/id/6644961",
+      "publishedAt": 1793682767000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1793687619851
     }
   ],
   "failedSources": [],
