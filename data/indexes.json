@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-03T20:54:29.604424+00:00",
-  "generatedAt": "2026-11-03T20:54:29.604424+00:00",
+  "timestamp": "2026-11-04T01:13:57.399456+00:00",
+  "generatedAt": "2026-11-04T01:13:57.399456+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-11-04",
-    "attemptedAt": 1793739267721,
+    "attemptedAt": 1793754833636,
     "annual": {
       "year": 2026,
       "closed": [
@@ -33,7 +33,7 @@
         "2026-10-26",
         "2026-12-25"
       ],
-      "checkedAt": 1793661935635,
+      "checkedAt": 1793754833636,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     },
     "annuals": {
@@ -65,7 +65,7 @@
           "2026-10-26",
           "2026-12-25"
         ],
-        "checkedAt": 1793661935635,
+        "checkedAt": 1793754833636,
         "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
       }
     },
@@ -87,24 +87,24 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1793739267721,
+        "checkedAt": 1793754833636,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1793739267721,
+        "checkedAt": 1793754833636,
         "error": null
       },
       "futures": {
         "ok": true,
-        "checkedAt": 1793739267721,
+        "checkedAt": 1793754833636,
         "error": null
       }
     },
     "preload": {
       "year": 2027,
       "status": "pending-publication",
-      "attemptedAt": 1793661935635,
+      "attemptedAt": 1793754833636,
       "providerYear": 2026,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     }
@@ -116,10 +116,10 @@
       "name": "加權指數 TAIEX",
       "region": "TW",
       "currency": "NT$",
-      "price": 43307.54,
-      "change": -1612.6,
-      "changePct": -3.59,
-      "asOf": "2026-11-03T05:33:00+00:00",
+      "price": 43359.8,
+      "change": 52.26,
+      "changePct": 0.12,
+      "asOf": "2026-11-04T01:14:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -129,10 +129,10 @@
       "name": "OTC 櫃買指數",
       "region": "TW",
       "currency": "NT$",
-      "price": 345.52,
-      "change": -23.72,
-      "changePct": -6.42,
-      "asOf": "2026-11-03T05:33:00+00:00",
+      "price": 344.49,
+      "change": -1.03,
+      "changePct": -0.3,
+      "asOf": "2026-11-04T01:14:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -142,10 +142,10 @@
       "name": "S&P 500",
       "region": "US",
       "currency": "$",
-      "price": 7564.65,
-      "change": 23.25,
-      "changePct": 0.31,
-      "asOf": "2026-11-03T20:54:28+00:00",
+      "price": 7568.92,
+      "change": 27.52,
+      "changePct": 0.36,
+      "asOf": "2026-11-03T21:30:13+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -155,10 +155,10 @@
       "name": "NASDAQ",
       "region": "US",
       "currency": "$",
-      "price": 25367.035,
-      "change": 202.67,
-      "changePct": 0.81,
-      "asOf": "2026-11-03T20:54:27+00:00",
+      "price": 25372.01,
+      "change": 207.65,
+      "changePct": 0.83,
+      "asOf": "2026-11-03T22:15:59+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -168,10 +168,10 @@
       "name": "費城半導體 SOX",
       "region": "US",
       "currency": "$",
-      "price": 10591.453,
-      "change": 263.12,
-      "changePct": 2.55,
-      "asOf": "2026-11-03T20:54:29+00:00",
+      "price": 10600.396,
+      "change": 272.07,
+      "changePct": 2.63,
+      "asOf": "2026-11-03T22:15:59+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
