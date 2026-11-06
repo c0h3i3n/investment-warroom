@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-06T01:28:55.908096+00:00",
-  "generatedAt": "2026-11-06T01:28:55.908096+00:00",
+  "timestamp": "2026-11-06T07:00:10.142881+00:00",
+  "generatedAt": "2026-11-06T07:00:10.142881+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-11-06",
-    "attemptedAt": 1793928533731,
+    "attemptedAt": 1793948400172,
     "annual": {
       "year": 2026,
       "closed": [
@@ -33,7 +33,7 @@
         "2026-10-26",
         "2026-12-25"
       ],
-      "checkedAt": 1793848497228,
+      "checkedAt": 1793934901021,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     },
     "annuals": {
@@ -65,7 +65,7 @@
           "2026-10-26",
           "2026-12-25"
         ],
-        "checkedAt": 1793848497228,
+        "checkedAt": 1793934901021,
         "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
       }
     },
@@ -87,24 +87,24 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1793928533731,
+        "checkedAt": 1793948400172,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1793928533731,
+        "checkedAt": 1793948400172,
         "error": null
       },
       "futures": {
-        "ok": true,
-        "checkedAt": 1793928533731,
-        "error": null
+        "ok": false,
+        "checkedAt": 1793934901021,
+        "error": "The operation was aborted due to timeout"
       }
     },
     "preload": {
       "year": 2027,
       "status": "pending-publication",
-      "attemptedAt": 1793848497228,
+      "attemptedAt": 1793934901021,
       "providerYear": 2026,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     }
@@ -116,10 +116,10 @@
       "name": "加權指數 TAIEX",
       "region": "TW",
       "currency": "NT$",
-      "price": 38139.25,
-      "change": -3435.47,
-      "changePct": -8.26,
-      "asOf": "2026-11-06T01:28:25+00:00",
+      "price": 39690.74,
+      "change": -1883.98,
+      "changePct": -4.53,
+      "asOf": "2026-11-06T05:19:50+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -129,10 +129,10 @@
       "name": "OTC 櫃買指數",
       "region": "TW",
       "currency": "NT$",
-      "price": 295.37,
-      "change": -26.1,
-      "changePct": -8.12,
-      "asOf": "2026-11-06T01:28:20+00:00",
+      "price": 303.78,
+      "change": -17.69,
+      "changePct": -5.5,
+      "asOf": "2026-11-06T05:19:50+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
