@@ -1,487 +1,487 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T09:16:25.119Z",
-  "checkedAt": 1793956585119,
+  "generatedAt": "2026-11-06T17:24:45.938Z",
+  "checkedAt": 1793985885938,
   "data": [
     {
-      "headline": "宏達電10月營收2.3億元年增2成 AI產品VIVEE年底前台、日陸續上市",
-      "link": "https://news.cnyes.com/news/id/6650316",
-      "publishedAt": 1793956203000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "美股暴跌與監管疑慮夾擊 Anthropic IPO 1.5兆美元估值恐遭大幅砍價",
-      "link": "https://news.cnyes.com/news/id/6650118",
-      "publishedAt": 1793956202000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "〈勤誠法說〉勤誠陳亞男：AI產業不會泡沫化 明年機櫃營收比重可望達2成",
-      "link": "https://news.cnyes.com/news/id/6650270",
-      "publishedAt": 1793956193000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "〈尖點法說〉看營運正向擴張 今、明年資本支出各達36億元 泰國廠將獲改善",
-      "link": "https://news.cnyes.com/news/id/6650240",
-      "publishedAt": 1793956136000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "15美元轉走25億美元！幣安遇駭細節曝光：駭客利用新功能 三分半完成「完美犯罪」",
-      "link": "https://news.cnyes.com/news/id/6649974",
-      "publishedAt": 1793955612000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 巨有科技(8227)10月營收1.81億元年增率高達111.77％",
-      "link": "https://news.cnyes.com/news/id/6650313",
-      "publishedAt": 1793955042000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 福懋科(8131)10月營收11.67億元年增率高達30.24％",
-      "link": "https://news.cnyes.com/news/id/6650312",
-      "publishedAt": 1793955041000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 緯穎(6669)10月營收1,651.32億元年增率高達80.94％",
-      "link": "https://news.cnyes.com/news/id/6650311",
-      "publishedAt": 1793955040000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 台塑化(6505)10月營收775.51億元年增率高達76％",
-      "link": "https://news.cnyes.com/news/id/6650310",
-      "publishedAt": 1793955039000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 頎邦(6147)10月營收24.37億元年增率高達33.04％",
-      "link": "https://news.cnyes.com/news/id/6650309",
-      "publishedAt": 1793955037000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 群益期(6024)10月營收2.97億元年增率高達36.13％",
-      "link": "https://news.cnyes.com/news/id/6650308",
-      "publishedAt": 1793955036000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 聯光通(4903)10月營收1.44億元年增率高達66.67％",
-      "link": "https://news.cnyes.com/news/id/6650307",
-      "publishedAt": 1793955035000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 時碩工業(4566)10月營收6.75億元年增率高達61.7％",
-      "link": "https://news.cnyes.com/news/id/6650306",
-      "publishedAt": 1793955034000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 東洋(4105)10月營收7.28億元年增率高達36.48％",
-      "link": "https://news.cnyes.com/news/id/6650305",
-      "publishedAt": 1793955033000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 健策(3653)10月營收30.73億元年增率高達80.68％",
-      "link": "https://news.cnyes.com/news/id/6650304",
-      "publishedAt": 1793955032000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 怡利電(2497)10月營收4.75億元年增率高達31.26％",
-      "link": "https://news.cnyes.com/news/id/6650303",
-      "publishedAt": 1793955030000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 鉅祥(2476)10月營收10.13億元年增率高達62.52％",
-      "link": "https://news.cnyes.com/news/id/6650302",
-      "publishedAt": 1793955029000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 研華(2395)10月營收113.36億元年增率高達88.42％",
-      "link": "https://news.cnyes.com/news/id/6650301",
-      "publishedAt": 1793955028000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 聯強(2347)10月營收591.96億元年增率高達59.51％",
-      "link": "https://news.cnyes.com/news/id/6650300",
-      "publishedAt": 1793955026000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 智邦(2345)10月營收446.63億元年增率高達91.16％",
-      "link": "https://news.cnyes.com/news/id/6650299",
-      "publishedAt": 1793955025000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 旺宏(2337)10月營收84.13億元年增率高達217.19％",
-      "link": "https://news.cnyes.com/news/id/6650298",
-      "publishedAt": 1793955024000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 彰源(2030)10月營收11.28億元年增率高達44.66％",
-      "link": "https://news.cnyes.com/news/id/6650297",
-      "publishedAt": 1793955023000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 勝一(1773)10月營收13.63億元年增率高達41.15％",
-      "link": "https://news.cnyes.com/news/id/6650296",
-      "publishedAt": 1793955022000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 台化(1326)10月營收358.32億元年增率高達61.79％",
-      "link": "https://news.cnyes.com/news/id/6650295",
-      "publishedAt": 1793955020000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "營收速報 - 南亞(1303)10月營收349.42億元年增率高達64.6％",
-      "link": "https://news.cnyes.com/news/id/6650292",
-      "publishedAt": 1793955018000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "遭美國國會盯上！黃仁勳捲共諜案 眾議員要求11/18赴國會說明 輝達發聲明自清",
-      "link": "https://news.cnyes.com/news/id/6649345",
-      "publishedAt": 1793955003000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "汎瑋搭上AI伺服器+機器人獲新單加持 2027業績、利基商品毛利率有望達三成以上",
-      "link": "https://news.cnyes.com/news/id/6650275",
-      "publishedAt": 1793954013000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "〈港股盤後〉 科技與AI概念股重挫 恒指跌1.27% 資金轉向防禦性板塊",
-      "link": "https://news.cnyes.com/news/id/6650271",
-      "publishedAt": 1793953909000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "港股"
-      ],
-      "fetchedAt": 1793956585119
-    },
-    {
-      "headline": "〈陸股盤後〉創業板指領跌 滬指連二漲止步 惟周線仍漲1.39%",
-      "link": "https://news.cnyes.com/news/id/6650038",
-      "publishedAt": 1793953805000,
+      "headline": "AI股震盪掀避險潮！日元重拾傳統避風港魅力 分析師看好長線升至148",
+      "link": "https://news.cnyes.com/news/id/6649351",
+      "publishedAt": 1793984403000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1793956585119
+      "fetchedAt": 1793985885938
     },
     {
-      "headline": "押注逾800億美元後踩煞車 微軟嚴審新雲端夥伴、退出部分資料中心案",
-      "link": "https://news.cnyes.com/news/id/6649856",
-      "publishedAt": 1793953804000,
+      "headline": "密大11月消費者信心意外升至51 一年期通膨預期降至4.3%",
+      "link": "https://news.cnyes.com/news/id/6651659",
+      "publishedAt": 1793982095000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793956585119
+      "fetchedAt": 1793985885938
     },
     {
-      "headline": "展碁10月營收36億元創單月歷史新高 持續擴大商用AI、家電多元化佈局",
-      "link": "https://news.cnyes.com/news/id/6650268",
-      "publishedAt": 1793953203000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "鉅亨速報 - Factset 最新調查：Targa Resources Corp(TRGP-US)EPS預估上修至11.57元，預估目標價為335.00元",
+      "link": "https://news.cnyes.com/news/id/6651707",
+      "publishedAt": 1793981777000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
-        "台股新聞"
+        "美股預估"
       ],
-      "fetchedAt": 1793956585119
+      "fetchedAt": 1793985885938
     },
     {
-      "headline": "台供應鏈如何擺脫過度集中風險？PwC全球專家揭3大心法 調降財務曝險",
-      "link": "https://news.cnyes.com/news/id/6650224",
-      "publishedAt": 1793952808000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "鉅亨速報 - Factset 最新調查：理想國演藝(LYV-US)EPS預估下修至-0.38元，預估目標價為210.00元",
+      "link": "https://news.cnyes.com/news/id/6651706",
+      "publishedAt": 1793981774000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
-        "台股新聞"
+        "美股預估"
       ],
-      "fetchedAt": 1793956585119
+      "fetchedAt": 1793985885938
     },
     {
-      "headline": "智邦10月營收446.6億元月年雙增 再創歷史新高",
-      "link": "https://news.cnyes.com/news/id/6650228",
-      "publishedAt": 1793952604000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "鉅亨速報 - Factset 最新調查：多寶箱(DBX-US)EPS預估上修至3.12元，預估目標價為34.50元",
+      "link": "https://news.cnyes.com/news/id/6651705",
+      "publishedAt": 1793981772000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
-        "台股新聞"
+        "美股預估"
       ],
-      "fetchedAt": 1793956585119
+      "fetchedAt": 1793985885938
     },
     {
-      "headline": "10月受挫的避險基金慌亂逃跑 蜂湧擠向出口帶來進一步賣壓",
-      "link": "https://news.cnyes.com/news/id/6650075",
-      "publishedAt": 1793952604000,
+      "headline": "鉅亨速報 - Factset 最新調查：Viasat公司(VSAT-US)EPS預估下修至-1.78元，預估目標價為105.00元",
+      "link": "https://news.cnyes.com/news/id/6651704",
+      "publishedAt": 1793981771000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：康明斯(CMI-US)EPS預估下修至28.91元，預估目標價為689.00元",
+      "link": "https://news.cnyes.com/news/id/6651703",
+      "publishedAt": 1793981767000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Summit Therapeutics IncSMMT-US的目標價調升至32元，幅度約4.92%",
+      "link": "https://news.cnyes.com/news/id/6651702",
+      "publishedAt": 1793981740000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Protagonist Therapeutics IncPTGX-US的目標價調升至180元，幅度約4.05%",
+      "link": "https://news.cnyes.com/news/id/6651701",
+      "publishedAt": 1793981734000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Halozyme治療HALO-US的目標價調升至115元，幅度約4.55%",
+      "link": "https://news.cnyes.com/news/id/6651700",
+      "publishedAt": 1793981730000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "輝達、AMD強彈！兩大利多帶動晶片股反攻 分析師提醒「繫好安全帶」",
+      "link": "https://news.cnyes.com/news/id/6651674",
+      "publishedAt": 1793981413000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793956585119
+      "fetchedAt": 1793985885938
     },
     {
-      "headline": "反AI浪潮為何未必是壞事？科技評論員：替產業爭取時間消化泡沫",
-      "link": "https://news.cnyes.com/news/id/6649858",
-      "publishedAt": 1793952603000,
+      "headline": "美國10月非農超預期！Fed下月升息機率約八成 美債殖利率為何衝高又回落？",
+      "link": "https://news.cnyes.com/news/id/6651538",
+      "publishedAt": 1793981402000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1793956585119
+      "fetchedAt": 1793985885938
     },
     {
-      "headline": "創見董座：記憶體進一步漲價空間有限 模組廠營運回歸穩定常態",
-      "link": "https://news.cnyes.com/news/id/6650122",
-      "publishedAt": 1793951809000,
+      "headline": "美股才剛大跌 投行已看標普9000點「兩黨合作可能點燃追漲潮」",
+      "link": "https://news.cnyes.com/news/id/6649953",
+      "publishedAt": 1793980803000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 賽富時(CRM-US)大跌5.01%，報211.27美元",
+      "link": "https://news.cnyes.com/news/id/6651673",
+      "publishedAt": 1793979975000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "Google母公司買進高通！持股價值近5.48億美元",
+      "link": "https://news.cnyes.com/news/id/6651143",
+      "publishedAt": 1793979925000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 直覺(INTU-US)大跌5.03%，報336.98美元",
+      "link": "https://news.cnyes.com/news/id/6651670",
+      "publishedAt": 1793979580000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 星座能源(CEG-US)大漲5.01%，報251.65美元",
+      "link": "https://news.cnyes.com/news/id/6651669",
+      "publishedAt": 1793979546000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 特斯拉(TSLA-US)大漲5.02%，報360.95美元",
+      "link": "https://news.cnyes.com/news/id/6651665",
+      "publishedAt": 1793979037000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "美國會換人掌權 輝達AI晶片出口將成審查焦點、對中生意再添變數",
+      "link": "https://news.cnyes.com/news/id/6651657",
+      "publishedAt": 1793979001000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "台積電要做AI記憶體？傳應輝達要求研擬生產3D DRAM",
+      "link": "https://news.cnyes.com/news/id/6651567",
+      "publishedAt": 1793978013000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1793956585119
+      "fetchedAt": 1793985885938
     },
     {
-      "headline": "強勁避險買盤湧入 日本公債殖利率急跌 至6月以來新低",
-      "link": "https://news.cnyes.com/news/id/6650108",
-      "publishedAt": 1793951402000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "盤中速報 - Applovin Corp - Class A(APP-US)大漲5.17%，報374.51美元",
+      "link": "https://news.cnyes.com/news/id/6651656",
+      "publishedAt": 1793977691000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
-        "債券"
+        "美股盤中"
       ],
-      "fetchedAt": 1793956585119
+      "fetchedAt": 1793985885938
     },
     {
-      "headline": "台灣大收購精誠達陣總持股61.02% 企業服務營收目標3年突破千億元",
-      "link": "https://news.cnyes.com/news/id/6650121",
-      "publishedAt": 1793950377000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "盤中速報 - 數據狗(DDOG-US)大漲5.1%，報183.51美元",
+      "link": "https://news.cnyes.com/news/id/6651655",
+      "publishedAt": 1793977671000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
-        "台股新聞"
+        "美股盤中"
       ],
-      "fetchedAt": 1793956585119
+      "fetchedAt": 1793985885938
     },
     {
-      "headline": "聯發國際旗下UG全球將達百店 續推鍋物新品牌拓餐飲版圖",
-      "link": "https://news.cnyes.com/news/id/6650109",
-      "publishedAt": 1793950333000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "盤中速報 - 高通(QCOM-US)大漲5.33%，報165.11美元",
+      "link": "https://news.cnyes.com/news/id/6651644",
+      "publishedAt": 1793977243000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
-        "台股新聞"
+        "美股盤中"
       ],
-      "fetchedAt": 1793956585119
+      "fetchedAt": 1793985885938
     },
     {
-      "headline": "第四法人出手承接！0050成交784億元、00631L達340億元雙創新高",
-      "link": "https://news.cnyes.com/news/id/6650126",
-      "publishedAt": 1793950307000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "盤中速報 - MongoDB公司(MDB-US)大漲5.34%，報320.86美元",
+      "link": "https://news.cnyes.com/news/id/6651643",
+      "publishedAt": 1793977233000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
-        "ETF"
+        "美股盤中"
       ],
-      "fetchedAt": 1793956585119
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 超捷國際(MCHP-US)大跌5.29%，報61.42美元",
+      "link": "https://news.cnyes.com/news/id/6651640",
+      "publishedAt": 1793976479000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 格羅方德(GFS-US)大漲5.03%，報38.19美元",
+      "link": "https://news.cnyes.com/news/id/6651639",
+      "publishedAt": 1793976359000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 莫德納(MRNA-US)大漲5.6%，報254.98美元",
+      "link": "https://news.cnyes.com/news/id/6651638",
+      "publishedAt": 1793976355000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 英特格(ENTG-US)大漲5.12%，報131.14美元",
+      "link": "https://news.cnyes.com/news/id/6651637",
+      "publishedAt": 1793976352000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - Verisk Analytics Inc(VRSK-US)大跌5.11%，報200.66美元",
+      "link": "https://news.cnyes.com/news/id/6651636",
+      "publishedAt": 1793976338000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 邁威爾科技(MRVL-US)大漲7.69%，報143.82美元",
+      "link": "https://news.cnyes.com/news/id/6651635",
+      "publishedAt": 1793976331000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 超微半導體(AMD-US)大漲9.32%，報442.1美元",
+      "link": "https://news.cnyes.com/news/id/6651633",
+      "publishedAt": 1793976330000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 安謀控股公司(ARM-US)大漲5.61%，報176.08美元",
+      "link": "https://news.cnyes.com/news/id/6651634",
+      "publishedAt": 1793976330000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - Atlassian Corporation - Class A(TEAM-US)大跌15.69%，報154.53美元",
+      "link": "https://news.cnyes.com/news/id/6651631",
+      "publishedAt": 1793976329000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 科磊(KLAC-US)大漲8.4%，報140.7美元",
+      "link": "https://news.cnyes.com/news/id/6651632",
+      "publishedAt": 1793976329000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 芯源系統(MPWR-US)大漲5.41%，報1192.63美元",
+      "link": "https://news.cnyes.com/news/id/6651630",
+      "publishedAt": 1793976328000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 應用材料(AMAT-US)大漲8.34%，報345.89美元",
+      "link": "https://news.cnyes.com/news/id/6651628",
+      "publishedAt": 1793976327000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 安可(AMKR-US)大漲9.51%，報33.39美元",
+      "link": "https://news.cnyes.com/news/id/6651629",
+      "publishedAt": 1793976327000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - Crowdstrike控股(CRWD-US)大漲5.85%，報229.92美元",
+      "link": "https://news.cnyes.com/news/id/6651627",
+      "publishedAt": 1793976326000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 怪獸飲料(MNST-US)大跌6.15%，報44.89美元",
+      "link": "https://news.cnyes.com/news/id/6651626",
+      "publishedAt": 1793976326000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
+    },
+    {
+      "headline": "盤中速報 - 連貫(COHR-US)大漲11.73%，報189.68美元",
+      "link": "https://news.cnyes.com/news/id/6651625",
+      "publishedAt": 1793976325000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1793985885938
     }
   ],
   "failedSources": [],
