@@ -1,8 +1,224 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T02:42:27.406Z",
-  "checkedAt": 1794019347406,
+  "generatedAt": "2026-11-07T09:55:39.976Z",
+  "checkedAt": 1794045339976,
   "data": [
+    {
+      "headline": "馬斯克不排除收購美國大型電信商！SpaceX瞄準AT&T、Verizon、T-Mobile",
+      "link": "https://news.cnyes.com/news/id/6651940",
+      "publishedAt": 1794042603000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "宏致前三季EPS 3.31元 看好AI營收逐季增擬斥14億元購地擴產",
+      "link": "https://news.cnyes.com/news/id/6652063",
+      "publishedAt": 1794042146000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "SpaceX愈來愈少靠政府 馬斯克估本季營收占比跌破一成",
+      "link": "https://news.cnyes.com/news/id/6651738",
+      "publishedAt": 1794042007000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "美伊談判傳進展！川普稱伊朗有意達成協議、荷姆茲海峽接連遇襲升高緊張",
+      "link": "https://news.cnyes.com/news/id/6651999",
+      "publishedAt": 1794034584000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "〈華邦電展望〉AI一枝獨秀！擴產效益明年顯現 焦佑鈞示警「擔心下一個不景氣太晚來」",
+      "link": "https://news.cnyes.com/news/id/6652015",
+      "publishedAt": 1794033617000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "搶美股反彈先別急！美銀Hartnett不改避險立場 三大條件到齊再進場",
+      "link": "https://news.cnyes.com/news/id/6651668",
+      "publishedAt": 1794031202000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "〈華邦電展望〉焦佑鈞證實員工分紅30個月 談營運「賠錢很煩、賺錢很累」",
+      "link": "https://news.cnyes.com/news/id/6651987",
+      "publishedAt": 1794030489000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "AI製藥也要搶猴子！中國實驗猴一隻喊到26萬人民幣 部分猴場已售罄",
+      "link": "https://news.cnyes.com/news/id/6650043",
+      "publishedAt": 1794028202000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "A股"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "〈華邦電展望〉晶圓龍頭傳跨足3D DRAM 焦佑鈞：台積追求卓越 不會做半調子",
+      "link": "https://news.cnyes.com/news/id/6651973",
+      "publishedAt": 1794027659000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "〈熱門股〉華航客貨運業績暢旺 股價創3個月來新高",
+      "link": "https://news.cnyes.com/news/id/6651662",
+      "publishedAt": 1794026868000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "來高雄金融展抽東京機票！公股銀搶進高資產專區 各家專屬優惠一表看",
+      "link": "https://news.cnyes.com/news/id/6651963",
+      "publishedAt": 1794026528000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "特斯拉Cybertruck將逐步停產！馬斯克押注AI轉型 背後是電動皮卡銷售困境",
+      "link": "https://news.cnyes.com/news/id/6651843",
+      "publishedAt": 1794026404000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "AI支出疑慮升高之際 Google現金流連兩季轉負 仍砸170億美元建資料中心",
+      "link": "https://news.cnyes.com/news/id/6651952",
+      "publishedAt": 1794025857000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "Google斥資170億美元布局AI！收購Crusoe懷俄明州資料中心基地",
+      "link": "https://news.cnyes.com/news/id/6651929",
+      "publishedAt": 1794025269000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "美股震盪還沒完？VIX維持高檔 銅價成AI行情關鍵指標",
+      "link": "https://news.cnyes.com/news/id/6651789",
+      "publishedAt": 1794025203000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "美國期中選舉民主黨大勝、金管會祭出限空令、永豐銀行爆資安事件 本周大事回顧",
+      "link": "https://news.cnyes.com/news/id/6651676",
+      "publishedAt": 1794024607000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "川普稱美方對伊朗實施「小型打擊」！兩枚飛彈擊中格什姆島",
+      "link": "https://news.cnyes.com/news/id/6651931",
+      "publishedAt": 1794022803000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "馬斯克昔日大金主出清特斯拉持股！13年投資回報達原始資金13倍 同步減碼SpaceX",
+      "link": "https://news.cnyes.com/news/id/6651849",
+      "publishedAt": 1794021931000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794045339976
+    },
     {
       "headline": "鉅亨速報 - Factset 最新調查：世芯-KY(3661-TW)EPS預估下修至139.83元，預估目標價為6000元",
       "link": "https://news.cnyes.com/news/id/6651913",
@@ -13,7 +229,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：環宇-KY(4991-TW)目標價調降至580.5元，幅度約12.44%",
@@ -25,7 +241,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "AI熱潮退燒？傳OpenAI募資首筆110億美元到位 估值縮水至1.25兆美元",
@@ -37,7 +253,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "〈熱門股〉華碩力扛大盤逆風獲法人買超 11/12召開法說",
@@ -49,7 +265,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "費半跌掉近4成、獲利預估卻大增155% 想撿便宜先過「這一關」",
@@ -61,7 +277,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "晶片股遭遇2020年來最慘一日！30大龍頭28檔陷熊市 CoreWeave信用風險竄高",
@@ -73,7 +289,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "1998還是2000？高盛：AI股暴跌更像LTCM危機而非網路泡沫化 但最大疑問仍是投資回報",
@@ -85,7 +301,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "民主黨橫掃國會後 微軟出售Xbox可能性擴大",
@@ -97,7 +313,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "敗選未撼動川普經濟路線 哈塞特強調「政策奏效、無須調整」",
@@ -109,7 +325,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "美股重點新聞摘要2026年11月7日",
@@ -121,7 +337,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：穎崴(6515-TW)EPS預估下修至91.34元，預估目標價為8175元",
@@ -133,7 +349,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：世界(5347-TW)EPS預估上修至6.09元，預估目標價為194元",
@@ -145,7 +361,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：緯穎(6669-TW)EPS預估上修至127.64元，預估目標價為2600元",
@@ -157,7 +373,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：穎崴(6515-TW)目標價調降至8175元，幅度約4.66%",
@@ -169,19 +385,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "AI反成利多!！Airbnb自造AI旅遊助理 一站式規劃旅程 客服成本年減17%",
-      "link": "https://news.cnyes.com/news/id/6651848",
-      "publishedAt": 1794010206000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "〈熱門股〉東友無人機取得臺銀共同供應契約 周漲逾1成",
@@ -193,7 +397,19 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
+    },
+    {
+      "headline": "AI反成利多!！Airbnb自造AI旅遊助理 一站式規劃旅程 客服成本年減17%",
+      "link": "https://news.cnyes.com/news/id/6651848",
+      "publishedAt": 1794010206000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "美股恐慌衝上極端、反彈有跡可循 高盛統計過往半年平均漲9%",
@@ -205,7 +421,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "營收速報 - 2026年11月7日台股中小型公司10月營收一覽（新增573家）",
@@ -217,7 +433,7 @@
       "categories": [
         "台股營收"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "營收速報 - 2026年11月7日台股大型公司10月營收一覽（新增62家）",
@@ -229,10 +445,10 @@
       "categories": [
         "台股營收"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
-      "headline": "AI賣壓重創對沖基金 老虎環球10月跌8.5% Lone Pine全年轉負",
+      "headline": "AI賣壓重創避險基金 老虎環球10月跌8.5% Lone Pine全年轉負",
       "link": "https://news.cnyes.com/news/id/6651826",
       "publishedAt": 1794009003000,
       "source": "鉅亨頭條",
@@ -241,7 +457,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "AI資料中心熱潮出現裂縫？微軟不續租甲骨文AI算力 6640億美元合約積壓曝險 兩檔ETF成觀察焦點",
@@ -253,7 +469,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     },
     {
       "headline": "歐洲航空一週三波「詐彈」威脅！多國戰機升空護航 專家憂藉機測試應變能力",
@@ -265,223 +481,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "〈紐約匯市〉強勁非農撐起美元 周線收紅",
-      "link": "https://news.cnyes.com/news/id/6650226",
-      "publishedAt": 1794006265000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "〈貴金屬盤後〉金價本周大漲5.2% 創8月來最佳單周",
-      "link": "https://news.cnyes.com/news/id/6650225",
-      "publishedAt": 1794005594000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "黃金"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "敗選3天換幕僚長!川普拔擢強硬派米勒 威爾斯轉任",
-      "link": "https://news.cnyes.com/news/id/6651821",
-      "publishedAt": 1794004204000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "Fed戴莉：科技股暴跌雖痛苦 Fed仍可能升息",
-      "link": "https://news.cnyes.com/news/id/6651786",
-      "publishedAt": 1794003603000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：StandardAero, Inc.(SARO-US)EPS預估上修至1.58元，預估目標價為34.00元",
-      "link": "https://news.cnyes.com/news/id/6651824",
-      "publishedAt": 1794003339000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：莫爾森庫爾斯(TAP-US)EPS預估下修至4.52元，預估目標價為43.00元",
-      "link": "https://news.cnyes.com/news/id/6651823",
-      "publishedAt": 1794003332000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "波音現金回收受挫 737 MAX上月交付估創近一年新低、僅32架",
-      "link": "https://news.cnyes.com/news/id/6651728",
-      "publishedAt": 1794003003000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "〈能源盤後〉 油價本周挫約13%！美伊戰事降溫押注壓低油市 中東油輪遇襲限制跌幅",
-      "link": "https://news.cnyes.com/news/id/6651815",
-      "publishedAt": 1794002887000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "能源"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "〈美股盤後〉晶片股反彈！費半勁揚逾4.2% 台積電ADR升超6% 那指標普周線四連黑",
-      "link": "https://news.cnyes.com/news/id/6651785",
-      "publishedAt": 1794001944000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：BioNTech SE - ADR(BNTX-US)EPS預估下修至-5.81元，預估目標價為107.02元",
-      "link": "https://news.cnyes.com/news/id/6651798",
-      "publishedAt": 1793996144000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：碩騰(ZTS-US)EPS預估上修至6.3元，預估目標價為85.00元",
-      "link": "https://news.cnyes.com/news/id/6651797",
-      "publishedAt": 1793996138000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Solstice Advanced Materials, Inc.SOLS-US的目標價調降至78元，幅度約3.11%",
-      "link": "https://news.cnyes.com/news/id/6651796",
-      "publishedAt": 1793996127000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "AI股跌夠了嗎？美股下周兩大考驗：CPI看升息、CoreWeave看資金",
-      "link": "https://news.cnyes.com/news/id/6651165",
-      "publishedAt": 1793995204000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "美國選民踩煞車 OpenAI還會蓋資料中心？財務長：會繼續投資",
-      "link": "https://news.cnyes.com/news/id/6651732",
-      "publishedAt": 1793993406000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "AI股大跌燒到Claude開發商！Anthropic上市前 買家估值最低僅1.1兆美元",
-      "link": "https://news.cnyes.com/news/id/6651530",
-      "publishedAt": 1793991602000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "微軟傳不再續約 逐步停用向甲骨文租用的AI算力",
-      "link": "https://news.cnyes.com/news/id/6651736",
-      "publishedAt": 1793989805000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "輝達哪些AI晶片還能賣中國？美國會擬設「落後兩代」門檻 H200剛好踩線",
-      "link": "https://news.cnyes.com/news/id/6651713",
-      "publishedAt": 1793988008000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794019347406
-    },
-    {
-      "headline": "盤中速報 - 甲骨文(ORCL-US)大跌5.11%，報109.28美元",
-      "link": "https://news.cnyes.com/news/id/6651739",
-      "publishedAt": 1793987598000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794019347406
+      "fetchedAt": 1794045339976
     }
   ],
   "failedSources": [],
