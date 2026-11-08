@@ -1,8 +1,44 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T19:31:59.910Z",
-  "checkedAt": 1794166319910,
+  "generatedAt": "2026-11-08T23:38:22.846Z",
+  "checkedAt": 1794181102846,
   "data": [
+    {
+      "headline": "日台股跌入熊市還沒喘口氣 輝達又爆間諜疑雲、亞股信心再受考驗",
+      "link": "https://news.cnyes.com/news/id/6652529",
+      "publishedAt": 1794180572000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794181102846
+    },
+    {
+      "headline": "〈台股盤前要聞〉金管會祭限空令、國安基金本周進場護盤、台塑四寶10月營收全面翻紅",
+      "link": "https://news.cnyes.com/news/id/6652465",
+      "publishedAt": 1794172203000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤勢"
+      ],
+      "fetchedAt": 1794181102846
+    },
+    {
+      "headline": "〈走進中國〉多個小城長滿外國人 越來越多外國人來中國買買買",
+      "link": "https://news.cnyes.com/news/id/6652408",
+      "publishedAt": 1794170403000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "鉅亨新視界"
+      ],
+      "fetchedAt": 1794181102846
+    },
     {
       "headline": "八貫10月受軍工產品 年增290％亮眼佳績 單月營收年增53％創同期新高",
       "link": "https://news.cnyes.com/news/id/6652496",
@@ -13,7 +49,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "盤中速報 - Reserve Rights大漲8.3%，報0美元",
@@ -61,7 +97,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "〈熱門股〉華星光Q3獲利創單季新高 外資連5買先行布局",
@@ -73,7 +109,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "盤中速報 - Reserve Rights大漲8.81%，報0美元",
@@ -97,7 +133,7 @@
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "美國債務警報拉響！華爾街估恐觸發「非常規措施」 債限上限最快提前至明年2月觸頂",
@@ -109,7 +145,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "本週操盤筆記：美國CPI、PPI、英國GDP與中國通膨數據",
@@ -121,7 +157,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "高市早苗：我十分想見金正恩",
@@ -133,7 +169,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "黃仁勳之女突然取消訪韓 理由是「家庭因素」",
@@ -145,7 +181,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "馬斯克揭特斯拉、SpaceX未來布局！太空AI資料中心、Terafab晶圓廠與Optimus機器人全曝光",
@@ -157,7 +193,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "沙烏地阿拉伯首都金融區遭襲 石油巨頭Saudi Aramco大樓受損",
@@ -169,7 +205,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "AIDC審查恐拉高成本、美股急洩別慌？摩根解析：標普500回檔仍在歷史常態範圍",
@@ -181,7 +217,7 @@
       "categories": [
         "基金"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "川普：命令司法部調查民主黨威脅行徑",
@@ -193,7 +229,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "盤中速報 - HOT大漲32.32%，報0.000479美元",
@@ -217,7 +253,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "鉅亨買幣速報 - 比特幣(BTC)24小時成交量超過3.84億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
@@ -241,7 +277,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "盤中速報 - Cyber大跌12.27%，報0.29美元",
@@ -265,7 +301,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "AI震撼回檔！全球股票ETF受益人不減反增「這檔」定期定額單月暴增1600人",
@@ -277,7 +313,7 @@
       "categories": [
         "ETF"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "美以伊局勢：川普證實再襲伊朗、美軍派特遣隊阻止伊跨境運輸先進武器",
@@ -289,7 +325,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "以色列總統授權反對派領袖組閣！納坦雅胡政權面臨挑戰",
@@ -301,7 +337,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "法人：台股短線沉澱不改AI長期動能 宜採「多策略配置」迎戰高波動",
@@ -313,7 +349,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "力晶投控爭取股東支持出招 庫藏股每股42元、股東會送1088元商品券",
@@ -325,7 +361,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "網路正在「死亡」！AI吞噬搜尋流量 這些知名企業商業模式面臨崩解",
@@ -337,7 +373,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "盤中速報 - 大零幣大跌8.57%，報1,242美元",
@@ -373,7 +409,7 @@
       "categories": [
         "台灣政經"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "盤中速報 - Cyber大跌8.08%，報0.3美元",
@@ -397,7 +433,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "頻率元件廠營運及獲利改善 繼安碁後台嘉碩及泰藝都將發CB籌資",
@@ -409,7 +445,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "川湖迎Vera Rubin量產與周邊機櫃導入導軌 2027年獲利動能看俏",
@@ -421,7 +457,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794181102846
     },
     {
       "headline": "盤中速報 - GTC大跌9.2%，報0.164美元",
@@ -446,42 +482,6 @@
         "虛擬貨幣盤中"
       ],
       "fetchedAt": 1794166319910
-    },
-    {
-      "headline": "盤中速報 - Cyber大跌10.77%，報0.32美元",
-      "link": "https://news.cnyes.com/news/id/6652160",
-      "publishedAt": 1794067523000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794166319910
-    },
-    {
-      "headline": "SpaceX董事會重大異動！Google高層哈里森任職逾10年請辭、馬斯克曝Alphabet利益衝突",
-      "link": "https://news.cnyes.com/news/id/6652013",
-      "publishedAt": 1794060603000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794150086392
-    },
-    {
-      "headline": "美民主黨掌控國會難撼川普關稅政策！電動車補貼、AI監管成新焦點",
-      "link": "https://news.cnyes.com/news/id/6652060",
-      "publishedAt": 1794057002000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "歐亞股"
-      ],
-      "fetchedAt": 1794150086392
     }
   ],
   "failedSources": [],
