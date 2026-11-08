@@ -1,8 +1,152 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T07:12:21.471Z",
-  "checkedAt": 1794121941471,
+  "generatedAt": "2026-11-08T15:01:26.392Z",
+  "checkedAt": 1794150086392,
   "data": [
+    {
+      "headline": "記憶體股基本面強卻遭低估？高盛估鎧俠本益比僅2.1倍、AI需求能否撐起長期獲利成關鍵",
+      "link": "https://news.cnyes.com/news/id/6652072",
+      "publishedAt": 1794147012000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "歐亞股"
+      ],
+      "fetchedAt": 1794150086392
+    },
+    {
+      "headline": "美國債務警報拉響！華爾街估恐觸發「非常規措施」 債限上限最快提前至明年2月觸頂",
+      "link": "https://news.cnyes.com/news/id/6652276",
+      "publishedAt": 1794146405000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794150086392
+    },
+    {
+      "headline": "本週操盤筆記：美國CPI、PPI、英國GDP與中國通膨數據",
+      "link": "https://news.cnyes.com/news/id/6652199",
+      "publishedAt": 1794145802000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794150086392
+    },
+    {
+      "headline": "高市早苗：我十分想見金正恩",
+      "link": "https://news.cnyes.com/news/id/6652446",
+      "publishedAt": 1794145738000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1794150086392
+    },
+    {
+      "headline": "黃仁勳之女突然取消訪韓 理由是「家庭因素」",
+      "link": "https://news.cnyes.com/news/id/6652440",
+      "publishedAt": 1794143740000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794150086392
+    },
+    {
+      "headline": "馬斯克揭特斯拉、SpaceX未來布局！太空AI資料中心、Terafab晶圓廠與Optimus機器人全曝光",
+      "link": "https://news.cnyes.com/news/id/6652258",
+      "publishedAt": 1794142805000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794150086392
+    },
+    {
+      "headline": "沙烏地阿拉伯首都金融區遭襲 石油巨頭Saudi Aramco大樓受損",
+      "link": "https://news.cnyes.com/news/id/6652426",
+      "publishedAt": 1794140414000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1794150086392
+    },
+    {
+      "headline": "AIDC審查恐拉高成本、美股急洩別慌？摩根解析：標普500回檔仍在歷史常態範圍",
+      "link": "https://news.cnyes.com/news/id/6652324",
+      "publishedAt": 1794140404000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "基金"
+      ],
+      "fetchedAt": 1794150086392
+    },
+    {
+      "headline": "川普：命令司法部調查民主黨威脅行徑",
+      "link": "https://news.cnyes.com/news/id/6652416",
+      "publishedAt": 1794139419000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1794150086392
+    },
+    {
+      "headline": "6140億美元！傳OpenAI企業收入首超消費端 2027叩關IPO倒數啟動",
+      "link": "https://news.cnyes.com/news/id/6652266",
+      "publishedAt": 1794135605000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794150086392
+    },
+    {
+      "headline": "巴菲特波克夏Q3獲利年減28%！單季回購近百億美元、現金儲備升至3774億美元",
+      "link": "https://news.cnyes.com/news/id/6652257",
+      "publishedAt": 1794125403000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794150086392
+    },
+    {
+      "headline": "鴻海參展TASTI 2026 攜集團夥伴展現低軌衛星端到端布局",
+      "link": "https://news.cnyes.com/news/id/6652342",
+      "publishedAt": 1794123889000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794150086392
+    },
     {
       "headline": "AI震撼回檔！全球股票ETF受益人不減反增「這檔」定期定額單月暴增1600人",
       "link": "https://news.cnyes.com/news/id/6652312",
@@ -13,7 +157,7 @@
       "categories": [
         "ETF"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "美以伊局勢：川普證實再襲伊朗、美軍派特遣隊阻止伊跨境運輸先進武器",
@@ -25,7 +169,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "以色列總統授權反對派領袖組閣！納坦雅胡政權面臨挑戰",
@@ -37,7 +181,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "法人：台股短線沉澱不改AI長期動能 宜採「多策略配置」迎戰高波動",
@@ -49,7 +193,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "力晶投控爭取股東支持出招 庫藏股每股42元、股東會送1088元商品券",
@@ -61,7 +205,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "網路正在「死亡」！AI吞噬搜尋流量 這些知名企業商業模式面臨崩解",
@@ -73,7 +217,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "盤中速報 - 大零幣大跌8.57%，報1,242美元",
@@ -109,7 +253,7 @@
       "categories": [
         "台灣政經"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "盤中速報 - Cyber大跌8.08%，報0.3美元",
@@ -133,7 +277,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "頻率元件廠營運及獲利改善 繼安碁後台嘉碩及泰藝都將發CB籌資",
@@ -145,7 +289,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "川湖迎Vera Rubin量產與周邊機櫃導入導軌 2027年獲利動能看俏",
@@ -157,7 +301,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "盤中速報 - GTC大跌9.2%，報0.164美元",
@@ -205,7 +349,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "美民主黨掌控國會難撼川普關稅政策！電動車補貼、AI監管成新焦點",
@@ -217,7 +361,7 @@
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "特斯拉AI晶片藍圖曝光！Dojo D3導入HBM、SI6效能拚提升80倍、採2奈米製程",
@@ -229,7 +373,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "反彈恐是死貓跳？財經名嘴示警AI融資疑慮未除 CoreWeave、Nebius下周財報是關鍵考驗",
@@ -241,7 +385,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "美期中選舉重塑Fed政策空間！華許升息阻力降低 但經濟可能不再需要更高利率",
@@ -253,7 +397,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "AI模型也能驗明正身！Anthropic推FlashProve 防止旗艦模型遭偷換",
@@ -265,7 +409,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過11.46億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
@@ -289,7 +433,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "宏致前三季EPS 3.31元 看好AI營收逐季增擬斥14億元購地擴產",
@@ -301,7 +445,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "SpaceX愈來愈少靠政府 馬斯克估本季營收占比跌破一成",
@@ -313,7 +457,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794150086392
     },
     {
       "headline": "盤中速報 - GTC大跌17.61%，報0.177美元",
@@ -336,150 +480,6 @@
       "feedRegion": "INTL",
       "categories": [
         "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794121941471
-    },
-    {
-      "headline": "美伊談判傳進展！川普稱伊朗有意達成協議、荷姆茲海峽接連遇襲升高緊張",
-      "link": "https://news.cnyes.com/news/id/6651999",
-      "publishedAt": 1794034584000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1794121941471
-    },
-    {
-      "headline": "〈華邦電展望〉AI一枝獨秀！擴產效益明年顯現 焦佑鈞示警「擔心下一個不景氣太晚來」",
-      "link": "https://news.cnyes.com/news/id/6652015",
-      "publishedAt": 1794033617000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1794121941471
-    },
-    {
-      "headline": "搶美股反彈先別急！美銀Hartnett不改避險立場 三大條件到齊再進場",
-      "link": "https://news.cnyes.com/news/id/6651668",
-      "publishedAt": 1794031202000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794121941471
-    },
-    {
-      "headline": "〈華邦電展望〉焦佑鈞證實員工分紅30個月 談營運「賠錢很煩、賺錢很累」",
-      "link": "https://news.cnyes.com/news/id/6651987",
-      "publishedAt": 1794030489000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1794121941471
-    },
-    {
-      "headline": "AI製藥也要搶猴子！中國實驗猴一隻喊到26萬人民幣 部分猴場已售罄",
-      "link": "https://news.cnyes.com/news/id/6650043",
-      "publishedAt": 1794028202000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "A股"
-      ],
-      "fetchedAt": 1794121941471
-    },
-    {
-      "headline": "〈華邦電展望〉晶圓龍頭傳跨足3D DRAM 焦佑鈞：台積追求卓越 不會做半調子",
-      "link": "https://news.cnyes.com/news/id/6651973",
-      "publishedAt": 1794027659000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1794121941471
-    },
-    {
-      "headline": "〈熱門股〉華航客貨運業績暢旺 股價創3個月來新高",
-      "link": "https://news.cnyes.com/news/id/6651662",
-      "publishedAt": 1794026868000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1794121941471
-    },
-    {
-      "headline": "來高雄金融展抽東京機票！公股銀搶進高資產專區 各家專屬優惠一表看",
-      "link": "https://news.cnyes.com/news/id/6651963",
-      "publishedAt": 1794026528000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1794121941471
-    },
-    {
-      "headline": "特斯拉Cybertruck將逐步停產！馬斯克押注AI轉型 背後是電動皮卡銷售困境",
-      "link": "https://news.cnyes.com/news/id/6651843",
-      "publishedAt": 1794026404000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794121941471
-    },
-    {
-      "headline": "AI支出疑慮升高之際 Google現金流連兩季轉負 仍砸170億美元建資料中心",
-      "link": "https://news.cnyes.com/news/id/6651952",
-      "publishedAt": 1794025857000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794121941471
-    },
-    {
-      "headline": "Google斥資170億美元布局AI！收購Crusoe懷俄明州資料中心基地",
-      "link": "https://news.cnyes.com/news/id/6651929",
-      "publishedAt": 1794025269000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794121941471
-    },
-    {
-      "headline": "美股震盪還沒完？VIX維持高檔 銅價成AI行情關鍵指標",
-      "link": "https://news.cnyes.com/news/id/6651789",
-      "publishedAt": 1794025203000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
       ],
       "fetchedAt": 1794121941471
     }
