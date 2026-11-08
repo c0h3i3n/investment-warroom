@@ -1,8 +1,92 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T15:01:26.392Z",
-  "checkedAt": 1794150086392,
+  "generatedAt": "2026-11-08T19:31:59.910Z",
+  "checkedAt": 1794166319910,
   "data": [
+    {
+      "headline": "八貫10月受軍工產品 年增290％亮眼佳績 單月營收年增53％創同期新高",
+      "link": "https://news.cnyes.com/news/id/6652496",
+      "publishedAt": 1794156197000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794166319910
+    },
+    {
+      "headline": "盤中速報 - Reserve Rights大漲8.3%，報0美元",
+      "link": "https://news.cnyes.com/news/id/6652486",
+      "publishedAt": 1794153920000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1794166319910
+    },
+    {
+      "headline": "盤中速報 - Cyber大跌10.76%，報0.28美元",
+      "link": "https://news.cnyes.com/news/id/6652485",
+      "publishedAt": 1794153919000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1794166319910
+    },
+    {
+      "headline": "盤中速報 - HOT大漲23.46%，報0.000442美元",
+      "link": "https://news.cnyes.com/news/id/6652484",
+      "publishedAt": 1794153919000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1794166319910
+    },
+    {
+      "headline": "史上最大GPU竊盜案！加州奧克蘭發生特大貨運搶劫案 價值1140萬美元輝達硬體失蹤",
+      "link": "https://news.cnyes.com/news/id/6652378",
+      "publishedAt": 1794153604000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794166319910
+    },
+    {
+      "headline": "〈熱門股〉華星光Q3獲利創單季新高 外資連5買先行布局",
+      "link": "https://news.cnyes.com/news/id/6652470",
+      "publishedAt": 1794153019000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794166319910
+    },
+    {
+      "headline": "盤中速報 - Reserve Rights大漲8.81%，報0美元",
+      "link": "https://news.cnyes.com/news/id/6652469",
+      "publishedAt": 1794152121000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1794166319910
+    },
     {
       "headline": "記憶體股基本面強卻遭低估？高盛估鎧俠本益比僅2.1倍、AI需求能否撐起長期獲利成關鍵",
       "link": "https://news.cnyes.com/news/id/6652072",
@@ -13,7 +97,7 @@
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "美國債務警報拉響！華爾街估恐觸發「非常規措施」 債限上限最快提前至明年2月觸頂",
@@ -25,7 +109,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "本週操盤筆記：美國CPI、PPI、英國GDP與中國通膨數據",
@@ -37,7 +121,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "高市早苗：我十分想見金正恩",
@@ -49,7 +133,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "黃仁勳之女突然取消訪韓 理由是「家庭因素」",
@@ -61,7 +145,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "馬斯克揭特斯拉、SpaceX未來布局！太空AI資料中心、Terafab晶圓廠與Optimus機器人全曝光",
@@ -73,7 +157,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "沙烏地阿拉伯首都金融區遭襲 石油巨頭Saudi Aramco大樓受損",
@@ -85,7 +169,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "AIDC審查恐拉高成本、美股急洩別慌？摩根解析：標普500回檔仍在歷史常態範圍",
@@ -97,7 +181,7 @@
       "categories": [
         "基金"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "川普：命令司法部調查民主黨威脅行徑",
@@ -109,7 +193,19 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
+    },
+    {
+      "headline": "盤中速報 - HOT大漲32.32%，報0.000479美元",
+      "link": "https://news.cnyes.com/news/id/6652411",
+      "publishedAt": 1794135919000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "6140億美元！傳OpenAI企業收入首超消費端 2027叩關IPO倒數啟動",
@@ -121,7 +217,19 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
+    },
+    {
+      "headline": "鉅亨買幣速報 - 比特幣(BTC)24小時成交量超過3.84億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
+      "link": "https://news.cnyes.com/news/id/6652373",
+      "publishedAt": 1794129319000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "巴菲特波克夏Q3獲利年減28%！單季回購近百億美元、現金儲備升至3774億美元",
@@ -133,7 +241,19 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
+    },
+    {
+      "headline": "盤中速報 - Cyber大跌12.27%，報0.29美元",
+      "link": "https://news.cnyes.com/news/id/6652360",
+      "publishedAt": 1794125119000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "鴻海參展TASTI 2026 攜集團夥伴展現低軌衛星端到端布局",
@@ -145,7 +265,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "AI震撼回檔！全球股票ETF受益人不減反增「這檔」定期定額單月暴增1600人",
@@ -157,7 +277,7 @@
       "categories": [
         "ETF"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "美以伊局勢：川普證實再襲伊朗、美軍派特遣隊阻止伊跨境運輸先進武器",
@@ -169,7 +289,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "以色列總統授權反對派領袖組閣！納坦雅胡政權面臨挑戰",
@@ -181,7 +301,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "法人：台股短線沉澱不改AI長期動能 宜採「多策略配置」迎戰高波動",
@@ -193,7 +313,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "力晶投控爭取股東支持出招 庫藏股每股42元、股東會送1088元商品券",
@@ -205,7 +325,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "網路正在「死亡」！AI吞噬搜尋流量 這些知名企業商業模式面臨崩解",
@@ -217,7 +337,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "盤中速報 - 大零幣大跌8.57%，報1,242美元",
@@ -229,7 +349,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "鉅亨買幣速報 - 比特幣(BTC)24小時成交量超過4.01億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
@@ -241,7 +361,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "彰化等待20年！台76線全線通車 卓揆：打造「中部精密智慧新核心」關鍵拼圖",
@@ -253,7 +373,7 @@
       "categories": [
         "台灣政經"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "盤中速報 - Cyber大跌8.08%，報0.3美元",
@@ -265,7 +385,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "美光預估本益比僅3.8倍！標普倒數第三 多空激辯：撿便宜還是景氣循環陷阱？",
@@ -277,7 +397,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "頻率元件廠營運及獲利改善 繼安碁後台嘉碩及泰藝都將發CB籌資",
@@ -289,7 +409,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "川湖迎Vera Rubin量產與周邊機櫃導入導軌 2027年獲利動能看俏",
@@ -301,7 +421,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794150086392
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "盤中速報 - GTC大跌9.2%，報0.164美元",
@@ -313,7 +433,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "盤中速報 - GTC大跌11.92%，報0.173美元",
@@ -325,7 +445,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "盤中速報 - Cyber大跌10.77%，報0.32美元",
@@ -337,7 +457,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1794121941471
+      "fetchedAt": 1794166319910
     },
     {
       "headline": "SpaceX董事會重大異動！Google高層哈里森任職逾10年請辭、馬斯克曝Alphabet利益衝突",
@@ -362,126 +482,6 @@
         "歐亞股"
       ],
       "fetchedAt": 1794150086392
-    },
-    {
-      "headline": "特斯拉AI晶片藍圖曝光！Dojo D3導入HBM、SI6效能拚提升80倍、採2奈米製程",
-      "link": "https://news.cnyes.com/news/id/6652054",
-      "publishedAt": 1794053403000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794150086392
-    },
-    {
-      "headline": "反彈恐是死貓跳？財經名嘴示警AI融資疑慮未除 CoreWeave、Nebius下周財報是關鍵考驗",
-      "link": "https://news.cnyes.com/news/id/6651844",
-      "publishedAt": 1794051603000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794150086392
-    },
-    {
-      "headline": "美期中選舉重塑Fed政策空間！華許升息阻力降低 但經濟可能不再需要更高利率",
-      "link": "https://news.cnyes.com/news/id/6651852",
-      "publishedAt": 1794048003000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794150086392
-    },
-    {
-      "headline": "AI模型也能驗明正身！Anthropic推FlashProve 防止旗艦模型遭偷換",
-      "link": "https://news.cnyes.com/news/id/6651948",
-      "publishedAt": 1794045607000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794150086392
-    },
-    {
-      "headline": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過11.46億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
-      "link": "https://news.cnyes.com/news/id/6652067",
-      "publishedAt": 1794042917000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794121941471
-    },
-    {
-      "headline": "馬斯克不排除收購美國大型電信商！SpaceX瞄準AT&T、Verizon、T-Mobile",
-      "link": "https://news.cnyes.com/news/id/6651940",
-      "publishedAt": 1794042603000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794150086392
-    },
-    {
-      "headline": "宏致前三季EPS 3.31元 看好AI營收逐季增擬斥14億元購地擴產",
-      "link": "https://news.cnyes.com/news/id/6652063",
-      "publishedAt": 1794042146000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1794150086392
-    },
-    {
-      "headline": "SpaceX愈來愈少靠政府 馬斯克估本季營收占比跌破一成",
-      "link": "https://news.cnyes.com/news/id/6651738",
-      "publishedAt": 1794042007000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794150086392
-    },
-    {
-      "headline": "盤中速報 - GTC大跌17.61%，報0.177美元",
-      "link": "https://news.cnyes.com/news/id/6652050",
-      "publishedAt": 1794038721000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794121941471
-    },
-    {
-      "headline": "盤中速報 - Cyber大跌10.87%，報0.33美元",
-      "link": "https://news.cnyes.com/news/id/6652049",
-      "publishedAt": 1794038721000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794121941471
     }
   ],
   "failedSources": [],
