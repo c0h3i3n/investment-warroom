@@ -1,8 +1,92 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T06:04:26.601Z",
-  "checkedAt": 1794204266601,
+  "generatedAt": "2026-11-09T06:52:33.569Z",
+  "checkedAt": 1794207153569,
   "data": [
+    {
+      "headline": "瑞銀CEO：投資人對AI一直採用「完美計價」 才造成劇烈修正",
+      "link": "https://news.cnyes.com/news/id/6653124",
+      "publishedAt": 1794206404000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794207153569
+    },
+    {
+      "headline": "上市櫃企業與醫院注意！勞部明年1/1全面開罰少給薪或超時5萬起跳",
+      "link": "https://news.cnyes.com/news/id/6653165",
+      "publishedAt": 1794205808000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台灣政經"
+      ],
+      "fetchedAt": 1794207153569
+    },
+    {
+      "headline": "從否認、離婚到請辭：黃仁勳選了最誠實那條路 盤點6場矽谷大咖私德地震怎麼收場",
+      "link": "https://news.cnyes.com/news/id/6653120",
+      "publishedAt": 1794205806000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794207153569
+    },
+    {
+      "headline": "以色列極右翼時代即將終結？納坦雅胡執政19年面臨最大危機 阿拉伯裔政黨倒戈成關鍵",
+      "link": "https://news.cnyes.com/news/id/6652907",
+      "publishedAt": 1794205203000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1794207153569
+    },
+    {
+      "headline": "黃仁勳爆出軌 作家分析共諜小三動機：中方恐有更勁爆照片",
+      "link": "https://news.cnyes.com/news/id/6653061",
+      "publishedAt": 1794204844000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794207153569
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：台塑化(6505-TW)目標價調降至115元，幅度約4.17%",
+      "link": "https://news.cnyes.com/news/id/6653160",
+      "publishedAt": 1794204619000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "fetchedAt": 1794207153569
+    },
+    {
+      "headline": "延續反彈動能 金價升至每盎司4120美元上方",
+      "link": "https://news.cnyes.com/news/id/6653112",
+      "publishedAt": 1794204605000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "黃金"
+      ],
+      "fetchedAt": 1794207153569
+    },
     {
       "headline": "〈焦點股〉國安基金護盤必青睞股！ 台塑四寶中三寶亮燈漲停板",
       "link": "https://news.cnyes.com/news/id/6653119",
@@ -13,7 +97,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "〈焦點股〉台康生技10月營收年增逾2倍 紅燈高掛同步收復月線及季線",
@@ -25,7 +109,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "輝達GPU交貨不受黃仁勳出軌風波影響！南韓：1萬顆已到貨、2026年合約照常履行",
@@ -37,7 +121,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "改劇名反覆上架！中國嚴查AI短劇「盜臉偷聲」 演算法全納管",
@@ -49,7 +133,7 @@
       "categories": [
         "大陸政經"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "〈焦點股〉台股逆襲大反攻！ 光通訊族群臉紅超過10檔亮燈衝上漲停板",
@@ -61,7 +145,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "星艦第15次試飛前夕！馬斯克拋SpaceX營收狂飆預言+百億買盤支撐 股價行情下月迎轉折？",
@@ -73,7 +157,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "國際小鋼胚行情回落 豐興鋼筋近3個月來首度下跌",
@@ -85,7 +169,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：川湖(2059-TW)EPS預估上修至352.18元，預估目標價為15000元",
@@ -97,7 +181,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：智原(3035-TW)EPS預估下修至3.36元，預估目標價為200元",
@@ -109,7 +193,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：世芯-KY(3661-TW)EPS預估下修至132.79元，預估目標價為6000元",
@@ -121,7 +205,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：創意(3443-TW)EPS預估上修至59.45元，預估目標價為9000元",
@@ -133,7 +217,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：世界(5347-TW)目標價調降至187元，幅度約3.61%",
@@ -145,7 +229,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：創意(3443-TW)目標價調升至9000元，幅度約4.65%",
@@ -157,7 +241,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "黃仁勳出軌事件會讓輝達受多大的影響？分析師：公司治理將陷入三線作戰局面",
@@ -169,7 +253,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "川普下周赴中出席APEC 預告與習近平、普丁談結束伊朗戰事",
@@ -181,7 +265,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "營收速報 - 寬魚國際(6101)10月營收8,483萬元年增率高達95.06％",
@@ -193,7 +277,7 @@
       "categories": [
         "台股營收"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "營收速報 - 富宇(4907)10月營收1,426萬元年增率高達444.01％",
@@ -205,7 +289,7 @@
       "categories": [
         "台股營收"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "營收速報 - 燁興(2007)10月營收4.10億元年增率高達45.04％",
@@ -217,7 +301,7 @@
       "categories": [
         "台股營收"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "〈電商備戰雙11〉掀流量戰！104：電商徵才創同期市場2.2倍 倉儲人力攀全年頂峰",
@@ -229,7 +313,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "方舟不怕AI泡沫逆勢加碼「這一股」！木頭姐：市場越擔憂我越樂觀、牛市未完",
@@ -241,7 +325,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "財報過關卻少了驚喜 美企獲利超預期幅度恐創近4年最小",
@@ -253,7 +337,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "台經院看台灣經濟維持強勁成長 估明年GDP仍達6.45%",
@@ -265,7 +349,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "奇鋐10月營收221億元年增逾3成 連四月刷新單月歷史新高",
@@ -277,7 +361,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "美中貿易休戰再延長2個月 中國保留10%對美加徵關稅",
@@ -289,7 +373,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "82%德國人對總理梅爾茨執政不滿 執政以來新高",
@@ -301,7 +385,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "黃金漲不停、AI又開始搶金屬？009834、009835一次卡位黃金與全球礦業，現在還能追？",
@@ -313,7 +397,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "AI「沉船」警鐘響起 美元跟著翻船？巴克萊拆解AI資本開支三道裂縫",
@@ -325,7 +409,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "巴菲特和阿克曼發出相似警告！投資者現在該做什麼？",
@@ -337,7 +421,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "黃仁勳爆婚外情 共諜小三背後勢力直通中南海",
@@ -349,7 +433,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "營收速報 - 均華(6640)10月營收5.71億元年增率高達280.14％",
@@ -361,7 +445,7 @@
       "categories": [
         "台股營收"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "營收速報 - 台康生技(6589)10月營收2.72億元年增率高達287.88％",
@@ -373,7 +457,7 @@
       "categories": [
         "台股營收"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "營收速報 - 今國光(6209)10月營收6.04億元年增率高達48.87％",
@@ -385,7 +469,7 @@
       "categories": [
         "台股營收"
       ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     },
     {
       "headline": "營收速報 - 幃翔(6185)10月營收7,090萬元年增率高達107.5％",
@@ -397,91 +481,7 @@
       "categories": [
         "台股營收"
       ],
-      "fetchedAt": 1794204266601
-    },
-    {
-      "headline": "營收速報 - 均豪(5443)10月營收7.16億元年增率高達126.02％",
-      "link": "https://news.cnyes.com/news/id/6652971",
-      "publishedAt": 1794192640000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1794204266601
-    },
-    {
-      "headline": "營收速報 - 青雲(5386)10月營收24.76億元年增率高達201.83％",
-      "link": "https://news.cnyes.com/news/id/6652970",
-      "publishedAt": 1794192639000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1794204266601
-    },
-    {
-      "headline": "營收速報 - 地心引力(3629)10月營收320萬元年增率高達1502％",
-      "link": "https://news.cnyes.com/news/id/6652969",
-      "publishedAt": 1794192636000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1794204266601
-    },
-    {
-      "headline": "營收速報 - 奇鋐(3017)10月營收221.03億元年增率高達34.35％",
-      "link": "https://news.cnyes.com/news/id/6652968",
-      "publishedAt": 1794192632000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1794204266601
-    },
-    {
-      "headline": "營收速報 - 志聖(2467)10月營收10.13億元年增率高達80.68％",
-      "link": "https://news.cnyes.com/news/id/6652967",
-      "publishedAt": 1794192630000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1794204266601
-    },
-    {
-      "headline": "營收速報 - 元禎(1725)10月營收7.41億元年增率高達39.6％",
-      "link": "https://news.cnyes.com/news/id/6652966",
-      "publishedAt": 1794192625000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1794204266601
-    },
-    {
-      "headline": "巨鎧開發CAPA認證產品 本季起出貨予美大型客戶",
-      "link": "https://news.cnyes.com/news/id/6652933",
-      "publishedAt": 1794191636000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1794204266601
+      "fetchedAt": 1794207153569
     }
   ],
   "failedSources": [],

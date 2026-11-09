@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-09T06:04:06.403615+00:00",
-  "generatedAt": "2026-11-09T06:04:06.403615+00:00",
+  "timestamp": "2026-11-09T06:52:10.869413+00:00",
+  "generatedAt": "2026-11-09T06:52:10.869413+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-11-09",
-    "attemptedAt": 1794204242480,
+    "attemptedAt": 1794207127380,
     "annual": {
       "year": 2026,
       "closed": [
@@ -87,18 +87,18 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1794204242480,
+        "checkedAt": 1794207127380,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1794204242480,
+        "checkedAt": 1794207127380,
         "error": null
       },
       "futures": {
-        "ok": false,
-        "checkedAt": 1794191159057,
-        "error": "The operation was aborted due to timeout"
+        "ok": true,
+        "checkedAt": 1794207127380,
+        "error": null
       }
     },
     "preload": {
