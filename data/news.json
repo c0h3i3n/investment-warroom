@@ -1,487 +1,487 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T23:38:22.846Z",
-  "checkedAt": 1794181102846,
+  "generatedAt": "2026-11-09T06:04:26.601Z",
+  "checkedAt": 1794204266601,
   "data": [
     {
-      "headline": "日台股跌入熊市還沒喘口氣 輝達又爆間諜疑雲、亞股信心再受考驗",
-      "link": "https://news.cnyes.com/news/id/6652529",
-      "publishedAt": 1794180572000,
+      "headline": "〈焦點股〉國安基金護盤必青睞股！ 台塑四寶中三寶亮燈漲停板",
+      "link": "https://news.cnyes.com/news/id/6653119",
+      "publishedAt": 1794202295000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794181102846
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "〈台股盤前要聞〉金管會祭限空令、國安基金本周進場護盤、台塑四寶10月營收全面翻紅",
-      "link": "https://news.cnyes.com/news/id/6652465",
-      "publishedAt": 1794172203000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤勢"
-      ],
-      "fetchedAt": 1794181102846
-    },
-    {
-      "headline": "〈走進中國〉多個小城長滿外國人 越來越多外國人來中國買買買",
-      "link": "https://news.cnyes.com/news/id/6652408",
-      "publishedAt": 1794170403000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "鉅亨新視界"
-      ],
-      "fetchedAt": 1794181102846
-    },
-    {
-      "headline": "八貫10月受軍工產品 年增290％亮眼佳績 單月營收年增53％創同期新高",
-      "link": "https://news.cnyes.com/news/id/6652496",
-      "publishedAt": 1794156197000,
+      "headline": "〈焦點股〉台康生技10月營收年增逾2倍 紅燈高掛同步收復月線及季線",
+      "link": "https://news.cnyes.com/news/id/6653109",
+      "publishedAt": 1794201363000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794181102846
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "盤中速報 - Reserve Rights大漲8.3%，報0美元",
-      "link": "https://news.cnyes.com/news/id/6652486",
-      "publishedAt": 1794153920000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794166319910
-    },
-    {
-      "headline": "盤中速報 - Cyber大跌10.76%，報0.28美元",
-      "link": "https://news.cnyes.com/news/id/6652485",
-      "publishedAt": 1794153919000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794166319910
-    },
-    {
-      "headline": "盤中速報 - HOT大漲23.46%，報0.000442美元",
-      "link": "https://news.cnyes.com/news/id/6652484",
-      "publishedAt": 1794153919000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794166319910
-    },
-    {
-      "headline": "史上最大GPU竊盜案！加州奧克蘭發生特大貨運搶劫案 價值1140萬美元輝達硬體失蹤",
-      "link": "https://news.cnyes.com/news/id/6652378",
-      "publishedAt": 1794153604000,
+      "headline": "輝達GPU交貨不受黃仁勳出軌風波影響！南韓：1萬顆已到貨、2026年合約照常履行",
+      "link": "https://news.cnyes.com/news/id/6653060",
+      "publishedAt": 1794201004000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794181102846
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "〈熱門股〉華星光Q3獲利創單季新高 外資連5買先行布局",
-      "link": "https://news.cnyes.com/news/id/6652470",
-      "publishedAt": 1794153019000,
+      "headline": "改劇名反覆上架！中國嚴查AI短劇「盜臉偷聲」 演算法全納管",
+      "link": "https://news.cnyes.com/news/id/6653007",
+      "publishedAt": 1794200405000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "大陸政經"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "〈焦點股〉台股逆襲大反攻！ 光通訊族群臉紅超過10檔亮燈衝上漲停板",
+      "link": "https://news.cnyes.com/news/id/6653095",
+      "publishedAt": 1794200217000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794181102846
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "盤中速報 - Reserve Rights大漲8.81%，報0美元",
-      "link": "https://news.cnyes.com/news/id/6652469",
-      "publishedAt": 1794152121000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794166319910
-    },
-    {
-      "headline": "記憶體股基本面強卻遭低估？高盛估鎧俠本益比僅2.1倍、AI需求能否撐起長期獲利成關鍵",
-      "link": "https://news.cnyes.com/news/id/6652072",
-      "publishedAt": 1794147012000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "歐亞股"
-      ],
-      "fetchedAt": 1794181102846
-    },
-    {
-      "headline": "美國債務警報拉響！華爾街估恐觸發「非常規措施」 債限上限最快提前至明年2月觸頂",
-      "link": "https://news.cnyes.com/news/id/6652276",
-      "publishedAt": 1794146405000,
+      "headline": "星艦第15次試飛前夕！馬斯克拋SpaceX營收狂飆預言+百億買盤支撐 股價行情下月迎轉折？",
+      "link": "https://news.cnyes.com/news/id/6653014",
+      "publishedAt": 1794199805000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794181102846
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "本週操盤筆記：美國CPI、PPI、英國GDP與中國通膨數據",
-      "link": "https://news.cnyes.com/news/id/6652199",
-      "publishedAt": 1794145802000,
+      "headline": "國際小鋼胚行情回落 豐興鋼筋近3個月來首度下跌",
+      "link": "https://news.cnyes.com/news/id/6653057",
+      "publishedAt": 1794197839000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：川湖(2059-TW)EPS預估上修至352.18元，預估目標價為15000元",
+      "link": "https://news.cnyes.com/news/id/6653056",
+      "publishedAt": 1794197439000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：智原(3035-TW)EPS預估下修至3.36元，預估目標價為200元",
+      "link": "https://news.cnyes.com/news/id/6653055",
+      "publishedAt": 1794197436000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：世芯-KY(3661-TW)EPS預估下修至132.79元，預估目標價為6000元",
+      "link": "https://news.cnyes.com/news/id/6653054",
+      "publishedAt": 1794197435000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：創意(3443-TW)EPS預估上修至59.45元，預估目標價為9000元",
+      "link": "https://news.cnyes.com/news/id/6653053",
+      "publishedAt": 1794197433000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：世界(5347-TW)目標價調降至187元，幅度約3.61%",
+      "link": "https://news.cnyes.com/news/id/6653052",
+      "publishedAt": 1794197424000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：創意(3443-TW)目標價調升至9000元，幅度約4.65%",
+      "link": "https://news.cnyes.com/news/id/6653051",
+      "publishedAt": 1794197422000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "黃仁勳出軌事件會讓輝達受多大的影響？分析師：公司治理將陷入三線作戰局面",
+      "link": "https://news.cnyes.com/news/id/6652986",
+      "publishedAt": 1794196805000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794181102846
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "高市早苗：我十分想見金正恩",
-      "link": "https://news.cnyes.com/news/id/6652446",
-      "publishedAt": 1794145738000,
+      "headline": "川普下周赴中出席APEC 預告與習近平、普丁談結束伊朗戰事",
+      "link": "https://news.cnyes.com/news/id/6653018",
+      "publishedAt": 1794196265000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794181102846
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "黃仁勳之女突然取消訪韓 理由是「家庭因素」",
-      "link": "https://news.cnyes.com/news/id/6652440",
-      "publishedAt": 1794143740000,
+      "headline": "營收速報 - 寬魚國際(6101)10月營收8,483萬元年增率高達95.06％",
+      "link": "https://news.cnyes.com/news/id/6653023",
+      "publishedAt": 1794196217000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股營收"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "營收速報 - 富宇(4907)10月營收1,426萬元年增率高達444.01％",
+      "link": "https://news.cnyes.com/news/id/6653022",
+      "publishedAt": 1794196216000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股營收"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "營收速報 - 燁興(2007)10月營收4.10億元年增率高達45.04％",
+      "link": "https://news.cnyes.com/news/id/6653021",
+      "publishedAt": 1794196213000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股營收"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "〈電商備戰雙11〉掀流量戰！104：電商徵才創同期市場2.2倍 倉儲人力攀全年頂峰",
+      "link": "https://news.cnyes.com/news/id/6653004",
+      "publishedAt": 1794195391000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "方舟不怕AI泡沫逆勢加碼「這一股」！木頭姐：市場越擔憂我越樂觀、牛市未完",
+      "link": "https://news.cnyes.com/news/id/6652398",
+      "publishedAt": 1794194616000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794181102846
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "馬斯克揭特斯拉、SpaceX未來布局！太空AI資料中心、Terafab晶圓廠與Optimus機器人全曝光",
-      "link": "https://news.cnyes.com/news/id/6652258",
-      "publishedAt": 1794142805000,
+      "headline": "財報過關卻少了驚喜 美企獲利超預期幅度恐創近4年最小",
+      "link": "https://news.cnyes.com/news/id/6652533",
+      "publishedAt": 1794194403000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794181102846
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "沙烏地阿拉伯首都金融區遭襲 石油巨頭Saudi Aramco大樓受損",
-      "link": "https://news.cnyes.com/news/id/6652426",
-      "publishedAt": 1794140414000,
+      "headline": "台經院看台灣經濟維持強勁成長 估明年GDP仍達6.45%",
+      "link": "https://news.cnyes.com/news/id/6652997",
+      "publishedAt": 1794193900000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "奇鋐10月營收221億元年增逾3成 連四月刷新單月歷史新高",
+      "link": "https://news.cnyes.com/news/id/6652996",
+      "publishedAt": 1794193619000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "美中貿易休戰再延長2個月 中國保留10%對美加徵關稅",
+      "link": "https://news.cnyes.com/news/id/6652984",
+      "publishedAt": 1794193605000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794181102846
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "AIDC審查恐拉高成本、美股急洩別慌？摩根解析：標普500回檔仍在歷史常態範圍",
-      "link": "https://news.cnyes.com/news/id/6652324",
-      "publishedAt": 1794140404000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "基金"
-      ],
-      "fetchedAt": 1794181102846
-    },
-    {
-      "headline": "川普：命令司法部調查民主黨威脅行徑",
-      "link": "https://news.cnyes.com/news/id/6652416",
-      "publishedAt": 1794139419000,
+      "headline": "82%德國人對總理梅爾茨執政不滿 執政以來新高",
+      "link": "https://news.cnyes.com/news/id/6652468",
+      "publishedAt": 1794193485000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794181102846
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "盤中速報 - HOT大漲32.32%，報0.000479美元",
-      "link": "https://news.cnyes.com/news/id/6652411",
-      "publishedAt": 1794135919000,
+      "headline": "黃金漲不停、AI又開始搶金屬？009834、009835一次卡位黃金與全球礦業，現在還能追？",
+      "link": "https://news.cnyes.com/news/id/6652993",
+      "publishedAt": 1794193368000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "虛擬貨幣盤中"
+        "台股新聞"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "6140億美元！傳OpenAI企業收入首超消費端 2027叩關IPO倒數啟動",
-      "link": "https://news.cnyes.com/news/id/6652266",
-      "publishedAt": 1794135605000,
+      "headline": "AI「沉船」警鐘響起 美元跟著翻船？巴克萊拆解AI資本開支三道裂縫",
+      "link": "https://news.cnyes.com/news/id/6652945",
+      "publishedAt": 1794193206000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794181102846
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "鉅亨買幣速報 - 比特幣(BTC)24小時成交量超過3.84億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
-      "link": "https://news.cnyes.com/news/id/6652373",
-      "publishedAt": 1794129319000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794166319910
-    },
-    {
-      "headline": "巴菲特波克夏Q3獲利年減28%！單季回購近百億美元、現金儲備升至3774億美元",
-      "link": "https://news.cnyes.com/news/id/6652257",
-      "publishedAt": 1794125403000,
+      "headline": "巴菲特和阿克曼發出相似警告！投資者現在該做什麼？",
+      "link": "https://news.cnyes.com/news/id/6652473",
+      "publishedAt": 1794193206000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794181102846
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "盤中速報 - Cyber大跌12.27%，報0.29美元",
-      "link": "https://news.cnyes.com/news/id/6652360",
-      "publishedAt": 1794125119000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794166319910
-    },
-    {
-      "headline": "鴻海參展TASTI 2026 攜集團夥伴展現低軌衛星端到端布局",
-      "link": "https://news.cnyes.com/news/id/6652342",
-      "publishedAt": 1794123889000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1794181102846
-    },
-    {
-      "headline": "AI震撼回檔！全球股票ETF受益人不減反增「這檔」定期定額單月暴增1600人",
-      "link": "https://news.cnyes.com/news/id/6652312",
-      "publishedAt": 1794116780000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "ETF"
-      ],
-      "fetchedAt": 1794181102846
-    },
-    {
-      "headline": "美以伊局勢：川普證實再襲伊朗、美軍派特遣隊阻止伊跨境運輸先進武器",
-      "link": "https://news.cnyes.com/news/id/6652263",
-      "publishedAt": 1794114602000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1794181102846
-    },
-    {
-      "headline": "以色列總統授權反對派領袖組閣！納坦雅胡政權面臨挑戰",
-      "link": "https://news.cnyes.com/news/id/6652255",
-      "publishedAt": 1794111002000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1794181102846
-    },
-    {
-      "headline": "法人：台股短線沉澱不改AI長期動能 宜採「多策略配置」迎戰高波動",
-      "link": "https://news.cnyes.com/news/id/6652243",
-      "publishedAt": 1794108003000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1794181102846
-    },
-    {
-      "headline": "力晶投控爭取股東支持出招 庫藏股每股42元、股東會送1088元商品券",
-      "link": "https://news.cnyes.com/news/id/6652248",
-      "publishedAt": 1794105441000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1794181102846
-    },
-    {
-      "headline": "網路正在「死亡」！AI吞噬搜尋流量 這些知名企業商業模式面臨崩解",
-      "link": "https://news.cnyes.com/news/id/6645817",
-      "publishedAt": 1794105003000,
+      "headline": "黃仁勳爆婚外情 共諜小三背後勢力直通中南海",
+      "link": "https://news.cnyes.com/news/id/6652930",
+      "publishedAt": 1794192773000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794181102846
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "盤中速報 - 大零幣大跌8.57%，報1,242美元",
-      "link": "https://news.cnyes.com/news/id/6652245",
-      "publishedAt": 1794104419000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "營收速報 - 均華(6640)10月營收5.71億元年增率高達280.14％",
+      "link": "https://news.cnyes.com/news/id/6652975",
+      "publishedAt": 1794192648000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
-        "虛擬貨幣盤中"
+        "台股營收"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "鉅亨買幣速報 - 比特幣(BTC)24小時成交量超過4.01億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
-      "link": "https://news.cnyes.com/news/id/6652242",
-      "publishedAt": 1794104118000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "營收速報 - 台康生技(6589)10月營收2.72億元年增率高達287.88％",
+      "link": "https://news.cnyes.com/news/id/6652974",
+      "publishedAt": 1794192647000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
-        "虛擬貨幣盤中"
+        "台股營收"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "彰化等待20年！台76線全線通車 卓揆：打造「中部精密智慧新核心」關鍵拼圖",
-      "link": "https://news.cnyes.com/news/id/6652210",
-      "publishedAt": 1794102847000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "營收速報 - 今國光(6209)10月營收6.04億元年增率高達48.87％",
+      "link": "https://news.cnyes.com/news/id/6652973",
+      "publishedAt": 1794192643000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
-        "台灣政經"
+        "台股營收"
       ],
-      "fetchedAt": 1794181102846
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "盤中速報 - Cyber大跌8.08%，報0.3美元",
-      "link": "https://news.cnyes.com/news/id/6652223",
-      "publishedAt": 1794102620000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "營收速報 - 幃翔(6185)10月營收7,090萬元年增率高達107.5％",
+      "link": "https://news.cnyes.com/news/id/6652972",
+      "publishedAt": 1794192642000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
-        "虛擬貨幣盤中"
+        "台股營收"
       ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "美光預估本益比僅3.8倍！標普倒數第三 多空激辯：撿便宜還是景氣循環陷阱？",
-      "link": "https://news.cnyes.com/news/id/6651840",
-      "publishedAt": 1794101404000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "營收速報 - 均豪(5443)10月營收7.16億元年增率高達126.02％",
+      "link": "https://news.cnyes.com/news/id/6652971",
+      "publishedAt": 1794192640000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
       "categories": [
-        "美股雷達"
+        "台股營收"
       ],
-      "fetchedAt": 1794181102846
+      "fetchedAt": 1794204266601
     },
     {
-      "headline": "頻率元件廠營運及獲利改善 繼安碁後台嘉碩及泰藝都將發CB籌資",
-      "link": "https://news.cnyes.com/news/id/6652098",
-      "publishedAt": 1794099603000,
+      "headline": "營收速報 - 青雲(5386)10月營收24.76億元年增率高達201.83％",
+      "link": "https://news.cnyes.com/news/id/6652970",
+      "publishedAt": 1794192639000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股營收"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "營收速報 - 地心引力(3629)10月營收320萬元年增率高達1502％",
+      "link": "https://news.cnyes.com/news/id/6652969",
+      "publishedAt": 1794192636000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股營收"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "營收速報 - 奇鋐(3017)10月營收221.03億元年增率高達34.35％",
+      "link": "https://news.cnyes.com/news/id/6652968",
+      "publishedAt": 1794192632000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股營收"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "營收速報 - 志聖(2467)10月營收10.13億元年增率高達80.68％",
+      "link": "https://news.cnyes.com/news/id/6652967",
+      "publishedAt": 1794192630000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股營收"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "營收速報 - 元禎(1725)10月營收7.41億元年增率高達39.6％",
+      "link": "https://news.cnyes.com/news/id/6652966",
+      "publishedAt": 1794192625000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股營收"
+      ],
+      "fetchedAt": 1794204266601
+    },
+    {
+      "headline": "巨鎧開發CAPA認證產品 本季起出貨予美大型客戶",
+      "link": "https://news.cnyes.com/news/id/6652933",
+      "publishedAt": 1794191636000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794181102846
-    },
-    {
-      "headline": "川湖迎Vera Rubin量產與周邊機櫃導入導軌 2027年獲利動能看俏",
-      "link": "https://news.cnyes.com/news/id/6651767",
-      "publishedAt": 1794099003000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1794181102846
-    },
-    {
-      "headline": "盤中速報 - GTC大跌9.2%，報0.164美元",
-      "link": "https://news.cnyes.com/news/id/6652202",
-      "publishedAt": 1794096320000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794166319910
-    },
-    {
-      "headline": "盤中速報 - GTC大跌11.92%，報0.173美元",
-      "link": "https://news.cnyes.com/news/id/6652161",
-      "publishedAt": 1794067523000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794166319910
+      "fetchedAt": 1794204266601
     }
   ],
   "failedSources": [],
