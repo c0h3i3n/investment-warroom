@@ -123,14 +123,21 @@ test('health cannot report ok for 16/16 quotes with failed official checks or ab
     :key.includes('history')?(includeHistory?{...history,symbol:key.split(':')[3]}:null):snapshot}};
   const check=async()=>{
     const response=await handleRequest(new Request('https://worker.example/health'),env,{waitUntil(){}});
-    return {status:response.status,...await response.json()};
+    return {httpStatus:response.status,...await response.json()};
   };
   const failed=await check();
   assert.equal(failed.valid.quotes,QUOTE_SYMBOLS.length);assert.equal(failed.valid.indexes,5);
   assert.equal(failed.ok,false);assert.equal(failed.components.calendar.status,'unverified');
+  assert.equal(failed.httpStatus,503);assert.equal(failed.available,false);
   futuresOk=true;
-  assert.equal((await check()).ok,true);
+  const full=await check();
+  assert.equal(full.ok,true);assert.equal(full.status,'ok');assert.equal(full.httpStatus,200);
   includeHistory=false;
   const absent=await check();
   assert.equal(absent.ok,false);assert.equal(absent.components.indicators['0050.TW'].status,'unknown');
+  assert.equal(absent.available,true);assert.equal(absent.status,'unverified');assert.equal(absent.httpStatus,200);
+  assert.equal(absent.coverage.checked,0);assert.equal(absent.coverage.unknown,2);
+  includeHistory=true; futuresOk=false;
+  const failedAgain=await check();
+  assert.equal(failedAgain.httpStatus,503);assert.equal(failedAgain.status,'degraded');
 });

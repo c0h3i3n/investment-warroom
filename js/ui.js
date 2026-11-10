@@ -478,16 +478,17 @@ const UI = (() => {
         timeZone:zone, year:'numeric', month:'2-digit', day:'2-digit',
       }).format(new Date(time));
       const asTime = time => new Intl.DateTimeFormat('zh-TW', {
-        timeZone:zone, month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', hour12:false,
+        timeZone:'Asia/Taipei', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', hour12:false,
       }).format(new Date(time));
       const generatedAt = Date.parse(indData.historyMeta?.generatedAt || '');
       const visible = '技術指標截至 ' + asDate(indData.asOf) + ' 完整日線'
-        + (Number.isFinite(generatedAt) ? ' · 資料取得 ' + asTime(generatedAt) : ' · 資料取得時間不明')
+        + (Number.isFinite(generatedAt) ? ' · 資料取得 ' + asTime(generatedAt) + '（台北時間）' : ' · 資料取得時間不明')
         + (indData.historyMeta?.excludedIncomplete ? ' · 盤中日線未納入' : '')
         + (indData.historyMeta?.delivery === 'stale-kv' ? ' · 更新失敗，使用快取' : '')
         + (indData.historyMeta?.volumeWarning ? ' · '+indData.historyMeta.volumeWarning : '');
       const details=[
         indData.summary?.explanation,
+        '日線日期依'+(zone === 'Asia/Taipei' ? '台灣' : '美東')+'交易日；資料取得時間統一使用台北時間',
         '價格來源：'+(indData.historyMeta?.source || '來源未確認'),
         indData.historyMeta?.volumeSource === 'TWSE 全市場成交股數'
           ? '成交量與20日均量均採 TWSE 全市場成交股數（含零股、盤後與鉅額）'

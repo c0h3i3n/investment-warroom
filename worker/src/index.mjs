@@ -884,18 +884,17 @@ async function handleMarketRequest(request, env) {
       const history = await env?.MARKET_CACHE?.get(`market:history:v3:${symbol}:6mo:1d`, {type:'json'}).catch(() => null);
       return [symbol, historyHealth(history, symbol)];
     })));
-    const ok = quotesOk && calendarOk && Object.values(indicators).every(item => item.status === 'ok');
+    const health = summarizeHealth(quotesOk,calendarOk,indicators);
     return jsonResponse({
-      ok,
-      status:ok ? 'ok' : quotesOk ? 'degraded' : 'unhealthy',
-      scope:'報價、官方公告查核與 0050/2330 快取日線；不代表每個瀏覽器的網路或其他功能皆正常',
+      ...health,
+      scope:'報價、官方公告查核與 0050/2330 快取日線；unknown 代表未檢查，不等於故障，也不代表已驗證正常',
       components:{quotes:{status:quotesOk?'ok':'unavailable'},
         calendar:{status:calendarOk?'ok':'unverified', twChecked:verification.checked,
           futuresChecked:verification.futuresChecked}, indicators},
       cacheAgeMs,
       generatedAt: cached?.generatedAt || null,
       valid: cached?.valid || null,
-    }, ok ? 200 : 503, request);
+    }, health.available ? 200 : 503, request);
   }
 
   if (cached && acceptableSnapshot(cached) && cacheAgeMs <= SNAPSHOT_MAX_AGE_MS) {
@@ -930,6 +929,16 @@ async function handleMarketRequest(request, env) {
     return jsonResponse({ ...cached, delivery: 'stale-kv', warning: 'Refresh failed' }, 200, request);
   }
   return jsonResponse({ error: 'Market data unavailable' }, 503, request);
+}
+
+export function summarizeHealth(quotesOk,calendarOk,indicators) {
+  const states = Object.values(indicators);
+  const unknown = states.filter(item => item.status === 'unknown').length;
+  const failures = states.filter(item => !['ok','unknown'].includes(item.status)).length;
+  const available = quotesOk && calendarOk && !failures;
+  return {ok:available && !unknown,available,
+    status:!quotesOk?'unhealthy':!calendarOk||failures?'degraded':unknown?'unverified':'ok',
+    coverage:{checked:states.length-unknown,total:states.length,unknown,failed:failures}};
 }
 
 export function historyHealth(history, symbol, now = Date.now()) {

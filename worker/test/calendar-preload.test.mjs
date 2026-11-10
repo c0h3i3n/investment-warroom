@@ -140,6 +140,22 @@ test('a fresh legacy snapshot can be returned while its preload upgrade runs in 
   assert.equal(writes,1);
 });
 
+test('US history keeps its exchange date while acquisition time uses explicitly labeled Taipei time across DST',()=>{
+  const grid={innerHTML:'',querySelector:()=>null,appendChild:node=>{grid.metadata=node.innerHTML;}};
+  const ctx=vm.createContext({document:{getElementById:id=>id==='ind-grid'?grid:null,createElement:()=>({})},Intl});
+  vm.runInContext(fs.readFileSync(new URL('../../js/ui.js',import.meta.url),'utf8'),ctx);
+  for(const [asOf,generatedAt,session,acquired] of [
+    ['2026-11-09T14:30:00Z','2026-11-10T05:27:00Z','2026/11/09','11/10 13:27'],
+    ['2026-07-06T13:30:00Z','2026-07-07T04:27:00Z','2026/07/06','07/07 12:27'],
+  ]) {
+    ctx.data={symbol:'NVDA',asOf:Date.parse(asOf),indicators:[],historyMeta:{generatedAt}};
+    vm.runInContext('UI.renderIndicators(data)',ctx);
+    assert.ok(grid.metadata.includes('技術指標截至 '+session+' 完整日線'));
+    assert.ok(grid.metadata.replace(/\s/g,' ').includes('資料取得 '+acquired+'（台北時間）'));
+    assert.ok(grid.metadata.includes('日線日期依美東交易日'));
+  }
+});
+
 test('indicator details start folded, retain user expansion for the same stock, and keep warnings visible',()=>{
   let previous=null;
   const grid={innerHTML:'',querySelector:()=>previous,appendChild:node=>{grid.metadata=node.innerHTML;}};
