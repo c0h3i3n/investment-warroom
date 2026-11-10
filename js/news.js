@@ -41,6 +41,8 @@ const NewsService = (() => {
     const aliases = {
       '2330.TW':['台積電','TSMC'], '0050.TW':['0050','台灣50'],
       NVDA:['輝達','NVIDIA'], TSLA:['特斯拉','TESLA'], SPCX:['SPACEX','太空探索'],
+      MSFT:['微軟','MICROSOFT'], GOOGL:['谷歌','GOOGLE','ALPHABET'],
+      AMZN:['亞馬遜','AMAZON'], AAPL:['蘋果','APPLE'], AMD:['超微','AMD'],
     };
     const matches = (title, term) => {
       if (/^[A-Z0-9.]+$/i.test(term)) {

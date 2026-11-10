@@ -1,4 +1,12 @@
 const WatchlistTools = (() => {
+  function addTechDefaults(existing, defaults, savedVersion) {
+    if (savedVersion >= 5) return existing;
+    const symbols = new Set(['MSFT','GOOGL','AMZN','AAPL','AMD']);
+    const additions = defaults.filter(item => symbols.has(item.symbol)
+      && !existing.some(old => old.symbol === item.symbol));
+    // Preserve custom lists and their order; never evict a user's selection.
+    return [...existing, ...additions.slice(0, Math.max(0, 25-existing.length))];
+  }
   function validateBackup(value) {
     if (!value || value.type !== 'warroom-watchlist' || value.version !== 1 || !Array.isArray(value.items)
       || value.items.length > 25) throw new Error('不是支援的自選股備份（最多 25 檔）');
@@ -25,5 +33,5 @@ const WatchlistTools = (() => {
     result.splice(Math.min(removed.index, result.length), 0, removed.item);
     return result;
   }
-  return { validateBackup, combine, restoreRemoved };
+  return { validateBackup, combine, restoreRemoved, addTechDefaults };
 })();

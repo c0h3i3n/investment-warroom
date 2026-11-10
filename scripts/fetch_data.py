@@ -369,7 +369,7 @@ for identifier, symbol, name, region, currency in index_config:
         'priceType': market.get('priceType'),
     })
 
-watch_symbols = ['0050.TW', '2330.TW', '00679B.TW', '00878.TW', '00929.TW', '00933B.TW', '00937B.TW', '009800.TW', 'SPCX', 'NVDA', 'TSLA']
+watch_symbols = ['0050.TW', '2330.TW', '00679B.TW', '00878.TW', '00929.TW', '00933B.TW', '00937B.TW', '009800.TW', 'SPCX', 'NVDA', 'TSLA', 'MSFT', 'GOOGL', 'AMZN', 'AAPL', 'AMD']
 yahoo_data = yahoo_quotes(watch_symbols)
 tw_data = mis_quotes([symbol for symbol in watch_symbols if symbol.endswith('.TW')])
 quotes = []

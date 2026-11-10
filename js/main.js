@@ -490,7 +490,7 @@ const App = (() => {
   // WATCHLIST MANAGEMENT
   // ═══════════════════════════════════════
   const WATCHLIST_KEY = 'warroom_watchlist';
-  const WATCHLIST_VERSION = 4;
+  const WATCHLIST_VERSION = 5;
   let removedWatchItem = null;
   let pendingWatchImport = null;
 
@@ -503,11 +503,12 @@ const App = (() => {
       if (raw) {
         const data = JSON.parse(raw);
         if (Array.isArray(data)) {
-          const normalized = data.filter(item => item && typeof item.symbol === 'string').map(item => ({
+          let normalized = data.filter(item => item && typeof item.symbol === 'string').map(item => ({
             symbol: item.symbol.toUpperCase(),
             name: String(item.name || item.symbol.replace(/\.TW$/i, '')).slice(0, 30),
             region: item.region === 'TW' || item.symbol.toUpperCase().endsWith('.TW') ? 'TW' : 'US',
           }));
+          normalized = WatchlistTools.addTechDefaults(normalized, CONFIG.DEFAULT_WATCHLIST, savedVer);
           if (savedVer !== WATCHLIST_VERSION) {
             saveWatchlist(normalized);
             localStorage.setItem(verKey, WATCHLIST_VERSION);

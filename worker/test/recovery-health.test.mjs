@@ -126,7 +126,7 @@ test('health cannot report ok for 16/16 quotes with failed official checks or ab
     return {status:response.status,...await response.json()};
   };
   const failed=await check();
-  assert.equal(failed.valid.quotes,11);assert.equal(failed.valid.indexes,5);
+  assert.equal(failed.valid.quotes,QUOTE_SYMBOLS.length);assert.equal(failed.valid.indexes,5);
   assert.equal(failed.ok,false);assert.equal(failed.components.calendar.status,'unverified');
   futuresOk=true;
   assert.equal((await check()).ok,true);

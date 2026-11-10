@@ -56,6 +56,11 @@ const CONFIG = {
     { symbol: 'SPCX',      name: 'SpaceX',              region: 'US' },
     { symbol: 'NVDA',      name: '輝達',                region: 'US' },
     { symbol: 'TSLA',      name: '特斯拉',              region: 'US' },
+    { symbol: 'MSFT',      name: 'Microsoft 微軟',      region: 'US' },
+    { symbol: 'GOOGL',     name: 'Google（Alphabet A）', region: 'US' },
+    { symbol: 'AMZN',      name: 'Amazon 亞馬遜',       region: 'US' },
+    { symbol: 'AAPL',      name: 'Apple 蘋果',          region: 'US' },
+    { symbol: 'AMD',       name: 'AMD 超微',            region: 'US' },
   ],
 
   // ── Default Portfolio Holdings ──
