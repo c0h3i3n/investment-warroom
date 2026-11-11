@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-11T14:45:25.224267+00:00",
-  "generatedAt": "2026-11-11T14:45:25.224267+00:00",
+  "timestamp": "2026-11-11T18:36:48.541071+00:00",
+  "generatedAt": "2026-11-11T18:36:48.541071+00:00",
   "calendar": {
     "schemaVersion": 1,
-    "date": "2026-11-11",
-    "attemptedAt": 1794408321281,
+    "date": "2026-11-12",
+    "attemptedAt": 1794422206101,
     "annual": {
       "year": 2026,
       "closed": [
@@ -33,7 +33,7 @@
         "2026-10-26",
         "2026-12-25"
       ],
-      "checkedAt": 1794329896567,
+      "checkedAt": 1794422206101,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     },
     "annuals": {
@@ -65,7 +65,7 @@
           "2026-10-26",
           "2026-12-25"
         ],
-        "checkedAt": 1794329896567,
+        "checkedAt": 1794422206101,
         "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
       }
     },
@@ -87,24 +87,24 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1794408321281,
+        "checkedAt": 1794422206101,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1794408321281,
+        "checkedAt": 1794422206101,
         "error": null
       },
       "futures": {
-        "ok": false,
-        "checkedAt": 1794404488391,
-        "error": "The operation was aborted due to timeout"
+        "ok": true,
+        "checkedAt": 1794422206101,
+        "error": null
       }
     },
     "preload": {
       "year": 2027,
       "status": "pending-publication",
-      "attemptedAt": 1794329896567,
+      "attemptedAt": 1794422206101,
       "providerYear": 2026,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     }
@@ -193,80 +193,80 @@
     {
       "symbol": "SPCX",
       "name": "",
-      "price": 140.0,
-      "change": -3.09,
-      "changePct": -2.16,
-      "asOf": "2026-11-11T14:45:44+00:00",
+      "price": 142.35,
+      "change": -0.74,
+      "changePct": -0.52,
+      "asOf": "2026-11-11T18:36:51+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "NVDA",
       "name": "",
-      "price": 171.475,
-      "change": 2.68,
-      "changePct": 1.59,
-      "asOf": "2026-11-11T14:45:44+00:00",
+      "price": 177.19,
+      "change": 8.39,
+      "changePct": 4.97,
+      "asOf": "2026-11-11T18:36:52+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "TSLA",
       "name": "",
-      "price": 387.8,
-      "change": 8.02,
-      "changePct": 2.11,
-      "asOf": "2026-11-11T14:45:44+00:00",
+      "price": 393.8,
+      "change": 14.02,
+      "changePct": 3.69,
+      "asOf": "2026-11-11T18:36:48+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "MSFT",
       "name": "",
-      "price": 530.45,
-      "change": -2.71,
-      "changePct": -0.51,
-      "asOf": "2026-11-11T14:45:44+00:00",
+      "price": 521.59,
+      "change": -11.57,
+      "changePct": -2.17,
+      "asOf": "2026-11-11T18:36:50+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "GOOGL",
       "name": "",
-      "price": 290.29,
-      "change": 2.91,
-      "changePct": 1.01,
-      "asOf": "2026-11-11T14:45:44+00:00",
+      "price": 295.2587,
+      "change": 7.88,
+      "changePct": 2.74,
+      "asOf": "2026-11-11T18:36:51+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AMZN",
       "name": "",
-      "price": 269.22,
-      "change": -1.65,
-      "changePct": -0.61,
-      "asOf": "2026-11-11T14:45:44+00:00",
+      "price": 266.52,
+      "change": -4.35,
+      "changePct": -1.61,
+      "asOf": "2026-11-11T18:36:50+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AAPL",
       "name": "",
-      "price": 353.9201,
-      "change": 5.41,
-      "changePct": 1.55,
-      "asOf": "2026-11-11T14:45:44+00:00",
+      "price": 355.15,
+      "change": 6.64,
+      "changePct": 1.91,
+      "asOf": "2026-11-11T18:36:51+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AMD",
       "name": "",
-      "price": 526.14,
-      "change": 10.93,
-      "changePct": 2.12,
-      "asOf": "2026-11-11T14:45:44+00:00",
+      "price": 564.8001,
+      "change": 49.59,
+      "changePct": 9.63,
+      "asOf": "2026-11-11T18:36:50+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
