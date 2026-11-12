@@ -43,6 +43,9 @@ const NewsService = (() => {
       NVDA:['輝達','NVIDIA'], TSLA:['特斯拉','TESLA'], SPCX:['SPACEX','太空探索'],
       MSFT:['微軟','MICROSOFT'], GOOGL:['谷歌','GOOGLE','ALPHABET'],
       AMZN:['亞馬遜','AMAZON'], AAPL:['蘋果','APPLE'], AMD:['超微','AMD'],
+      AVGO:['博通','BROADCOM'], META:['META','臉書','FACEBOOK'], MU:['美光','MICRON'],
+      ANET:['ARISTA'], VRT:['VERTIV','維諦'], ASML:['ASML','艾司摩爾'],
+      ORCL:['甲骨文','ORACLE'], PLTR:['PALANTIR','帕蘭提爾'],
     };
     const matches = (title, term) => {
       if (/^[A-Z0-9.]+$/i.test(term)) {

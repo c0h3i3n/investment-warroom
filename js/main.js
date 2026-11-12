@@ -497,7 +497,7 @@ const App = (() => {
   // WATCHLIST MANAGEMENT
   // ═══════════════════════════════════════
   const WATCHLIST_KEY = 'warroom_watchlist';
-  const WATCHLIST_VERSION = 6;
+  const WATCHLIST_VERSION = 7;
   let removedWatchItem = null;
   let pendingWatchImport = null;
 

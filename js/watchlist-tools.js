@@ -1,7 +1,9 @@
 const WatchlistTools = (() => {
   function addTechDefaults(existing, defaults, savedVersion) {
-    if (savedVersion >= 6) return existing;
-    const symbols = new Set(savedVersion < 5 ? ['MSFT','GOOGL','AMZN','AAPL','AMD','TSM'] : ['TSM']);
+    if (savedVersion >= 7) return existing;
+    const symbols = new Set(['AVGO','META','MU','ANET','VRT','ASML','ORCL','PLTR']);
+    if (savedVersion < 6) symbols.add('TSM');
+    if (savedVersion < 5) ['MSFT','GOOGL','AMZN','AAPL','AMD'].forEach(symbol => symbols.add(symbol));
     const additions = defaults.filter(item => symbols.has(item.symbol)
       && !existing.some(old => old.symbol === item.symbol));
     // Preserve custom lists and their order; never evict a user's selection.

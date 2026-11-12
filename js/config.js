@@ -62,6 +62,14 @@ const CONFIG = {
     { symbol: 'AMZN',      name: 'Amazon 亞馬遜',       region: 'US' },
     { symbol: 'AAPL',      name: 'Apple 蘋果',          region: 'US' },
     { symbol: 'AMD',       name: 'AMD 超微',            region: 'US' },
+    { symbol: 'AVGO', name: 'Broadcom 博通', region: 'US' },
+    { symbol: 'META', name: 'Meta Platforms', region: 'US' },
+    { symbol: 'MU', name: 'Micron 美光', region: 'US' },
+    { symbol: 'ANET', name: 'Arista Networks', region: 'US' },
+    { symbol: 'VRT', name: 'Vertiv', region: 'US' },
+    { symbol: 'ASML', name: 'ASML 艾司摩爾', region: 'US' },
+    { symbol: 'ORCL', name: 'Oracle 甲骨文', region: 'US' },
+    { symbol: 'PLTR', name: 'Palantir', region: 'US' },
   ],
 
   // ── Default Portfolio Holdings ──
