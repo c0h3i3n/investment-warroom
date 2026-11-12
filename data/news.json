@@ -1,8 +1,272 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T07:25:21.776Z",
-  "checkedAt": 1794468321776,
+  "generatedAt": "2026-11-12T09:42:54.389Z",
+  "checkedAt": 1794476574389,
   "data": [
+    {
+      "headline": "電商運營三大動能齊發 欣新網Q3獲利年增近4成",
+      "link": "https://news.cnyes.com/news/id/6660649",
+      "publishedAt": 1794476092000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "〈鴻海法說〉劉揚偉：明年AI機櫃出貨高雙位數成長、市占率提升 將新增更多NeoCloud客戶",
+      "link": "https://news.cnyes.com/news/id/6660642",
+      "publishedAt": 1794475981000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "〈華碩法說〉第三季賺近賺近三個股本創新高 伺服器與AI PC營收皆翻倍成長",
+      "link": "https://news.cnyes.com/news/id/6660467",
+      "publishedAt": 1794475808000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "「AI領域的央行」風險擴散？監管機構警惕連鎖風險 輝達「大到不能倒」地位面臨嚴苛考驗",
+      "link": "https://news.cnyes.com/news/id/6660211",
+      "publishedAt": 1794475807000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "CoreWeave報喜、OpenAI營收衝百億！美光與Lumentum大漲 AI硬體鏈反彈能走多遠？",
+      "link": "https://news.cnyes.com/news/id/6660104",
+      "publishedAt": 1794474004000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "〈港股盤後〉恒科指數跌逾2% 恒指二連黑 險守二萬四大關",
+      "link": "https://news.cnyes.com/news/id/6660366",
+      "publishedAt": 1794473739000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "歐亞股"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "〈雙11新趨勢〉PChome 24h購物熱銷榜 由3C和民生快銷品拿下",
+      "link": "https://news.cnyes.com/news/id/6660617",
+      "publishedAt": 1794473375000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "鉅亨投資雷達》美股大跌是衰退使然還是股市錯殺？手中股票該賣嗎？",
+      "link": "https://news.cnyes.com/news/id/6660626",
+      "publishedAt": 1794473106000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "基金"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "中租-KY中國資產品質回穩、台灣資金緊俏近滿足點 陳鳳龍正向看待2027",
+      "link": "https://news.cnyes.com/news/id/6660614",
+      "publishedAt": 1794472882000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "投資雷達》台股重挫又反彈，AI行情回來了？還是只是「逃命反彈」？",
+      "link": "https://news.cnyes.com/news/id/6660615",
+      "publishedAt": 1794472551000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "基金"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "基金專訪》科技股越跌越能買？操盤科技基金逾10年老將揭「超底」關鍵",
+      "link": "https://news.cnyes.com/news/id/6660616",
+      "publishedAt": 1794472387000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "基金"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "〈陸股盤後〉尾盤跌幅重新擴大 三大指數同步走低",
+      "link": "https://news.cnyes.com/news/id/6659620",
+      "publishedAt": 1794472208000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "A股"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "Gogolook Q3獲利創單季新高 年增近7.5倍 上半年賺半個股本",
+      "link": "https://news.cnyes.com/news/id/6660476",
+      "publishedAt": 1794471397000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "證交所：全球永續基金砸近780億美元布局台股 760家上市公司獲青睞",
+      "link": "https://news.cnyes.com/news/id/6660475",
+      "publishedAt": 1794471068000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "奧特曼密會三星高層 坦言算力存在「重複計算」問題、真正大買家僅2家",
+      "link": "https://news.cnyes.com/news/id/6660190",
+      "publishedAt": 1794471003000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "〈鴻海法說〉劉揚偉：四大產品表現均優於預期 Q4估強勁成長、上修全年展望",
+      "link": "https://news.cnyes.com/news/id/6660465",
+      "publishedAt": 1794470619000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "〈和碩法說〉明年伺服器業務數倍成長 目標打入Hyperscale CSP",
+      "link": "https://news.cnyes.com/news/id/6660466",
+      "publishedAt": 1794470438000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "吳昕陽示警零售競爭規則遭AI改寫 代理交易時代來臨",
+      "link": "https://news.cnyes.com/news/id/6660461",
+      "publishedAt": 1794470208000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "立凱電攜手北美夥伴投入2.5萬噸生產設備 建置台灣試產線同步推進北美廠",
+      "link": "https://news.cnyes.com/news/id/6660459",
+      "publishedAt": 1794469807000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "旺旺保前3季賺22.6億元EPS 10.12元 超越歷年全年",
+      "link": "https://news.cnyes.com/news/id/6660451",
+      "publishedAt": 1794469693000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "MSCI將Strategy踢出全球指數！認定更像基金 恐掀最高88億美元賣壓",
+      "link": "https://news.cnyes.com/news/id/6659938",
+      "publishedAt": 1794469205000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794476574389
+    },
+    {
+      "headline": "黃仁勳再爆偷吃恐下台 華爾街到底慌不慌？各大機構最新看法彙總",
+      "link": "https://news.cnyes.com/news/id/6660374",
+      "publishedAt": 1794468611000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794476574389
+    },
     {
       "headline": "黃仁勳接班人選引熱議 賭盤赫見蘋果庫克、機率一度達91%",
       "link": "https://news.cnyes.com/news/id/6660381",
@@ -13,7 +277,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "外資狂買台灣破紀錄！國際大廠對台採購首越3000億美元 輝達蘋果全上榜",
@@ -25,7 +289,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "〈鴻海法說〉Q3純益775億元季增近3成EPS5.51元創新高 前三季每股賺13.35元",
@@ -37,7 +301,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "盤中賣壓出籠台股急跌逾千點翻黑 三大法人買超51.6億元",
@@ -49,7 +313,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "宏碁發表未來教室AI+解決方案 AI助教率先導入苗栗157校",
@@ -61,7 +325,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "〈台股收盤〉電子權值賣壓沉重、盤中大怒神影響 終場重挫1165點險守4萬3千點",
@@ -73,7 +337,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：萬潤(6187-TW)EPS預估上修至28.77元，預估目標價為1500元",
@@ -85,7 +349,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：智易(3596-TW)目標價調降至200元，幅度約9.09%",
@@ -97,7 +361,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "日元逼近160關卡！日本匯率主管再警告市場勿忘夏季干預 暗示可能單獨出手",
@@ -109,7 +373,7 @@
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "中國微短劇模式輸出全球！美傳媒巨頭NBC環球加碼押注旗下串流平台Peacock",
@@ -121,7 +385,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "2000億美元晶片滯流倉庫！私募信貸巨頭Sixth Street警告：AI基建充斥投機行為",
@@ -133,7 +397,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "〈焦點股〉台玻受惠玻纖布暢旺 盤中連拉4根漲停一度衝上波段新高",
@@ -145,7 +409,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "盤中速報 - 櫃買市場加權指數下跌-6.9點至337.21點，跌幅2.01%",
@@ -157,7 +421,7 @@
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "上櫃10月營收狂飆47%！AI液冷散熱與記憶體發威 半導體暴增96%領衝",
@@ -169,7 +433,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "盤中速報 - 集中市場加權指數下跌-884.18點至43372.97點，跌幅2%",
@@ -181,7 +445,7 @@
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "工總呼籲維持現有空汙管理方案 勿以供電穩定及產業競爭力為代價",
@@ -193,7 +457,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "黃仁勳若走，誰能接班？盤點輝達四位潛在繼任人選",
@@ -205,7 +469,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     },
     {
       "headline": "股市一跌就停扣？報酬率差逾18個百分點 鉅亨買基金：善用TISA紀律投資別中斷",
@@ -217,271 +481,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：健策(3653-TW)EPS預估下修至67.53元，預估目標價為9450元",
-      "link": "https://news.cnyes.com/news/id/6660278",
-      "publishedAt": 1794456638000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股預估"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：勤誠(8210-TW)EPS預估下修至38.09元，預估目標價為630元",
-      "link": "https://news.cnyes.com/news/id/6660277",
-      "publishedAt": 1794456637000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股預估"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：達發(6526-TW)目標價調升至900元，幅度約8.43%",
-      "link": "https://news.cnyes.com/news/id/6660275",
-      "publishedAt": 1794456627000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股預估"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：全新(2455-TW)目標價調升至710元，幅度約12.25%",
-      "link": "https://news.cnyes.com/news/id/6660276",
-      "publishedAt": 1794456627000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股預估"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：健策(3653-TW)目標價調升至9450元，幅度約3.85%",
-      "link": "https://news.cnyes.com/news/id/6660274",
-      "publishedAt": 1794456624000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股預估"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "〈焦點股〉勤誠機櫃業務展望正面 逆風上揚力守紅盤",
-      "link": "https://news.cnyes.com/news/id/6660250",
-      "publishedAt": 1794456396000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "「趕走讓我們變百萬富翁的人太離譜！」 最新調查顯示88%輝達員工希望黃仁勳留下",
-      "link": "https://news.cnyes.com/news/id/6660225",
-      "publishedAt": 1794456007000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "400萬人大罷工 西班牙居住危機引爆全國",
-      "link": "https://news.cnyes.com/news/id/6660119",
-      "publishedAt": 1794455813000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "黃仁勳恐遭撤換誰受惠？超微、博通搶市占 台灣3檔個股跟著漲",
-      "link": "https://news.cnyes.com/news/id/6660217",
-      "publishedAt": 1794455482000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "國泰金控攜手彭博簽署MOU 拓展三大領域合作",
-      "link": "https://news.cnyes.com/news/id/6660230",
-      "publishedAt": 1794455198000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "黃仁勳可能離開輝達 馬斯克公開招手：我會聘任他",
-      "link": "https://news.cnyes.com/news/id/6660228",
-      "publishedAt": 1794455044000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "黃仁勳恐遭輝達撤換！WSJ：外遇風波升級白宮政治噩夢 川普AI政策遭兩黨追問",
-      "link": "https://news.cnyes.com/news/id/6660103",
-      "publishedAt": 1794454804000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "輝達跌速連《大賣空》貝瑞都震驚！警告未來5年優勢縮水、黃仁勳醜聞加速危機",
-      "link": "https://news.cnyes.com/news/id/6660200",
-      "publishedAt": 1794454477000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "半年前神準預警！做空機構5月發黃仁勳外遇警告 點名阿里援助黃樂背後Megaspeed",
-      "link": "https://news.cnyes.com/news/id/6660189",
-      "publishedAt": 1794454212000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "含息報酬吃甜頭！00981A今年來賺近6成居冠 成唯一百萬人氣主動式ETF",
-      "link": "https://news.cnyes.com/news/id/6660216",
-      "publishedAt": 1794453976000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "ETF"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "〈分析〉黃仁勳若被撤換 輝達還會跌多少？預測市場猜離職率超七成",
-      "link": "https://news.cnyes.com/news/id/6660194",
-      "publishedAt": 1794453603000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "美元飆上19個月高點！全球市場迎新風暴 聯準會12月升息幾無懸念",
-      "link": "https://news.cnyes.com/news/id/6660175",
-      "publishedAt": 1794453561000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "遭伊朗盯上！美財長貝森特搬離1250萬美元豪宅 轉住軍事基地",
-      "link": "https://news.cnyes.com/news/id/6660176",
-      "publishedAt": 1794452954000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "接班風險遽升！華爾街示警：黃仁勳若被迫離職 輝達股價恐暴跌至少20%",
-      "link": "https://news.cnyes.com/news/id/6660172",
-      "publishedAt": 1794452409000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "才說要停產、5天後又改口 馬斯克宣布Cybertruck延後退場",
-      "link": "https://news.cnyes.com/news/id/6660179",
-      "publishedAt": 1794451977000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "青壯年最愛自己來！台灣45至54歲自主投資ETF飆96.9% Z世代卻最常找「顧問」",
-      "link": "https://news.cnyes.com/news/id/6660178",
-      "publishedAt": 1794451689000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "ETF"
-      ],
-      "fetchedAt": 1794468321776
-    },
-    {
-      "headline": "黃仁勳再爆與副總裁有染！隨扈扣留目擊者 要求簽保密協議",
-      "link": "https://news.cnyes.com/news/id/6660069",
-      "publishedAt": 1794451169000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794468321776
+      "fetchedAt": 1794476574389
     }
   ],
   "failedSources": [],
