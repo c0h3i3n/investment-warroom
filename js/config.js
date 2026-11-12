@@ -55,6 +55,7 @@ const CONFIG = {
     { symbol: '009800.TW', name: '中信NASDAQ',          region: 'TW' },
     { symbol: 'SPCX',      name: 'SpaceX',              region: 'US' },
     { symbol: 'NVDA',      name: '輝達',                region: 'US' },
+    { symbol: 'TSM',       name: '台積電 ADR',          region: 'US' },
     { symbol: 'TSLA',      name: '特斯拉',              region: 'US' },
     { symbol: 'MSFT',      name: 'Microsoft 微軟',      region: 'US' },
     { symbol: 'GOOGL',     name: 'Google（Alphabet A）', region: 'US' },

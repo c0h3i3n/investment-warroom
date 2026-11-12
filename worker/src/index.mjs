@@ -32,7 +32,7 @@ export const INDEXES = [
 
 export const QUOTE_SYMBOLS = [
   '0050.TW', '2330.TW', '00679B.TW', '00878.TW', '00929.TW',
-  '00933B.TW', '00937B.TW', '009800.TW', 'SPCX', 'NVDA', 'TSLA',
+  '00933B.TW', '00937B.TW', '009800.TW', 'SPCX', 'NVDA', 'TSM', 'TSLA',
   'MSFT', 'GOOGL', 'AMZN', 'AAPL', 'AMD',
 ];
 
