@@ -27,7 +27,8 @@ const UsSessionsUI = (() => {
     if(!container) return;
     const now=Date.now(),clock=S.context(now);
     const age=now-Date.parse(snapshot?.generatedAt||'');
-    const usable=snapshot?.symbol===selected&&age>=0&&age<=(clock.phase==='closed'?4*86400000:15*60000);
+    // Match the acquisition-time tolerance used when accepting a response; quote times remain strict.
+    const usable=snapshot?.symbol===selected&&age>=-60000&&age<=(clock.phase==='closed'?4*86400000:15*60000);
     const data=S.view(usable?snapshot:null,now);
     document.getElementById('us-session-phase').textContent=`目前美東時段：${S.names[data.phase]}`;
     document.getElementById('us-session-date').textContent=`美東交易日 ${data.sessionDay}${data.phase==='closed'?' · 最近交易日':''}${data.earlyClose?' · 提早收盤日':''} · 下列時間為台北時間`;

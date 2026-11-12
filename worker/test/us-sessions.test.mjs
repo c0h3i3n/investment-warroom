@@ -103,7 +103,7 @@ test('a provider without extended-hours support cannot create a post-market quot
   assert.equal(data.sessions.regular.price,110);
 });
 
-test('a slower prior symbol request cannot overwrite the currently selected symbol',async()=>{
+test('a slower prior symbol request cannot overwrite the current symbol; small acquisition clock skew preserves quotes',async()=>{
   const now=stamp('2026-11-12T02:00Z'),listeners={},resolvers=[];
   const nodes=new Map();
   const node=id=>nodes.get(id)||nodes.set(id,{id,dataset:{},textContent:'',innerHTML:'',value:'',
@@ -119,10 +119,11 @@ test('a slower prior symbol request cannot overwrite the currently selected symb
   listeners.DOMContentLoaded();
   node('us-session-symbol').value='TSLA';node('us-session-symbol').change({target:node('us-session-symbol')});
   const data=parseUsSessions(fixture(),'NVDA',now);
-  resolvers[1](Response.json({...data,symbol:'TSLA'}));
+  resolvers[1](Response.json({...data,symbol:'TSLA',generatedAt:new Date(now+1000).toISOString()}));
   await new Promise(setImmediate);
   assert.match(node('us-session-status').textContent,/^TSLA/);
   resolvers[0](Response.json(data));await new Promise(setImmediate);
   assert.match(node('us-session-status').textContent,/^TSLA/);
   assert.equal(node('us-session-refresh').disabled,false);
+  assert.match(node('us-session-cards').innerHTML,/\$110\.00/);
 });
