@@ -77,10 +77,21 @@ const UsSessionsUI = (() => {
       if(ticket===generation) {loading=false;render();}
     }
   }
+  function selectSymbol(symbol) {
+    syncSymbols();
+    const select=document.getElementById('us-session-symbol');
+    if(!S.validSymbol(symbol)||!Array.from(select.options).some(option=>option.value===symbol)) return false;
+    selected=symbol;snapshot=null;
+    refresh();
+    return true;
+  }
   function init() {
     if(!document.getElementById('us-session-cards')) return;
     started=true;
-    document.getElementById('us-session-symbol').addEventListener('change',event=>{selected=event.target.value;snapshot=null;refresh();});
+    document.getElementById('us-session-symbol').addEventListener('change',event=>selectSymbol(event.target.value));
+    document.getElementById('watch-us-sessions-link')?.addEventListener('click',event=>{
+      if(!selectSymbol(event.currentTarget.dataset.symbol)) event.preventDefault();
+    });
     document.getElementById('us-session-refresh').addEventListener('click',refresh);
     refresh();
     setInterval(()=>{if(!document.hidden) refresh();},60000);

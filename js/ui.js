@@ -387,6 +387,13 @@ const UI = (() => {
     renderWatchlist.activeSymbol = symbol;
     const link = document.getElementById('watch-indicator-link');
     if (link) link.textContent = `查看 ${symbol.replace('.TW', '')} 技術指標 ↓`;
+    const sessionsLink = document.getElementById('watch-us-sessions-link');
+    if (sessionsLink) {
+      const isUS = (window._watchlistQuotes || []).some(item => item.symbol === symbol && item.region === 'US');
+      sessionsLink.hidden = !isUS;
+      sessionsLink.dataset.symbol = isUS ? symbol : '';
+      sessionsLink.textContent = isUS ? `查看 ${symbol} 三時段 ↑` : '查看此股三時段 ↑';
+    }
     document.querySelectorAll('[data-watch-symbol]').forEach(item => {
       item.classList.toggle('selected', item.dataset.watchSymbol === symbol);
     });

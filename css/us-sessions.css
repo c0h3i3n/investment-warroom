@@ -1,4 +1,5 @@
 .us-sessions-panel { margin-bottom:16px; scroll-margin-top:70px; }
+#watch-us-sessions-link { color:var(--arc); min-height:44px; }
 .us-session-toolbar { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin:12px 0; }
 .us-session-toolbar label { color:var(--text-mid); font-size:13px; }
 .us-session-toolbar select { min-width:200px; max-width:100%; min-height:44px; background:var(--panel); color:var(--text); border:1px solid var(--border); border-radius:6px; padding:8px 10px; font:inherit; font-size:13px; }
