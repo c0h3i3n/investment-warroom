@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-11T18:36:48.541071+00:00",
-  "generatedAt": "2026-11-11T18:36:48.541071+00:00",
+  "timestamp": "2026-11-12T01:28:10.137210+00:00",
+  "generatedAt": "2026-11-12T01:28:10.137210+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-11-12",
-    "attemptedAt": 1794422206101,
+    "attemptedAt": 1794446887640,
     "annual": {
       "year": 2026,
       "closed": [
@@ -87,17 +87,17 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1794422206101,
+        "checkedAt": 1794446887640,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1794422206101,
+        "checkedAt": 1794446887640,
         "error": null
       },
       "futures": {
         "ok": true,
-        "checkedAt": 1794422206101,
+        "checkedAt": 1794446887640,
         "error": null
       }
     },
@@ -113,160 +113,160 @@
     {
       "symbol": "0050.TW",
       "name": "",
-      "price": 103.2,
-      "change": 3.5,
-      "changePct": 3.51,
-      "asOf": "2026-11-11T06:30:00+00:00",
+      "price": 103.125,
+      "change": -0.08,
+      "changePct": -0.07,
+      "asOf": "2026-11-12T01:28:09+00:00",
       "source": "TWSE MIS",
-      "priceType": "trade"
+      "priceType": "indicative"
     },
     {
       "symbol": "2330.TW",
       "name": "",
-      "price": 2395.0,
-      "change": 110.0,
-      "changePct": 4.81,
-      "asOf": "2026-11-11T06:30:00+00:00",
+      "price": 2367.5,
+      "change": -27.5,
+      "changePct": -1.15,
+      "asOf": "2026-11-12T01:28:25+00:00",
       "source": "TWSE MIS",
-      "priceType": "trade"
+      "priceType": "indicative"
     },
     {
       "symbol": "00679B.TW",
       "name": "",
-      "price": 26.39,
-      "change": -0.37,
-      "changePct": -1.38,
-      "asOf": "2026-11-11T06:30:00+00:00",
+      "price": 26.55,
+      "change": 0.16,
+      "changePct": 0.61,
+      "asOf": "2026-11-12T01:28:04+00:00",
       "source": "TWSE MIS",
-      "priceType": "trade"
+      "priceType": "indicative"
     },
     {
       "symbol": "00878.TW",
       "name": "",
-      "price": 33.5,
-      "change": 0.55,
-      "changePct": 1.67,
-      "asOf": "2026-11-11T06:30:00+00:00",
+      "price": 33.455,
+      "change": -0.05,
+      "changePct": -0.13,
+      "asOf": "2026-11-12T01:28:04+00:00",
       "source": "TWSE MIS",
-      "priceType": "trade"
+      "priceType": "indicative"
     },
     {
       "symbol": "00929.TW",
       "name": "",
-      "price": 25.82,
-      "change": 0.48,
-      "changePct": 1.89,
-      "asOf": "2026-11-11T06:30:00+00:00",
+      "price": 25.97,
+      "change": 0.15,
+      "changePct": 0.58,
+      "asOf": "2026-11-12T01:27:59+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
       "symbol": "00933B.TW",
       "name": "",
-      "price": 15.76,
-      "change": -0.16,
-      "changePct": -1.01,
-      "asOf": "2026-11-11T06:30:00+00:00",
+      "price": 15.83,
+      "change": 0.07,
+      "changePct": 0.44,
+      "asOf": "2026-11-12T01:28:03+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
       "symbol": "00937B.TW",
       "name": "",
-      "price": 14.35,
-      "change": -0.15,
-      "changePct": -1.03,
-      "asOf": "2026-11-11T06:30:00+00:00",
+      "price": 14.415,
+      "change": 0.06,
+      "changePct": 0.45,
+      "asOf": "2026-11-12T01:28:09+00:00",
       "source": "TWSE MIS",
-      "priceType": "trade"
+      "priceType": "indicative"
     },
     {
       "symbol": "009800.TW",
       "name": "",
-      "price": 12.84,
-      "change": 0.09,
-      "changePct": 0.71,
-      "asOf": "2026-11-11T06:30:00+00:00",
+      "price": 12.865,
+      "change": 0.03,
+      "changePct": 0.19,
+      "asOf": "2026-11-12T01:28:03+00:00",
       "source": "TWSE MIS",
-      "priceType": "trade"
+      "priceType": "indicative"
     },
     {
       "symbol": "SPCX",
       "name": "",
-      "price": 142.35,
-      "change": -0.74,
-      "changePct": -0.52,
-      "asOf": "2026-11-11T18:36:51+00:00",
+      "price": 139.75,
+      "change": -3.34,
+      "changePct": -2.33,
+      "asOf": "2026-11-11T21:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "NVDA",
       "name": "",
-      "price": 177.19,
-      "change": 8.39,
-      "changePct": 4.97,
-      "asOf": "2026-11-11T18:36:52+00:00",
+      "price": 173.73,
+      "change": 4.93,
+      "changePct": 2.92,
+      "asOf": "2026-11-11T21:00:00+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "TSLA",
       "name": "",
-      "price": 393.8,
-      "change": 14.02,
-      "changePct": 3.69,
-      "asOf": "2026-11-11T18:36:48+00:00",
+      "price": 390.84,
+      "change": 11.06,
+      "changePct": 2.91,
+      "asOf": "2026-11-11T21:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "MSFT",
       "name": "",
-      "price": 521.59,
-      "change": -11.57,
-      "changePct": -2.17,
-      "asOf": "2026-11-11T18:36:50+00:00",
+      "price": 521.125,
+      "change": -12.04,
+      "changePct": -2.26,
+      "asOf": "2026-11-11T21:00:00+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "GOOGL",
       "name": "",
-      "price": 295.2587,
-      "change": 7.88,
-      "changePct": 2.74,
-      "asOf": "2026-11-11T18:36:51+00:00",
+      "price": 293.45,
+      "change": 6.07,
+      "changePct": 2.11,
+      "asOf": "2026-11-11T21:00:00+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AMZN",
       "name": "",
-      "price": 266.52,
-      "change": -4.35,
-      "changePct": -1.61,
-      "asOf": "2026-11-11T18:36:50+00:00",
+      "price": 266.17,
+      "change": -4.7,
+      "changePct": -1.74,
+      "asOf": "2026-11-11T21:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AAPL",
       "name": "",
-      "price": 355.15,
-      "change": 6.64,
-      "changePct": 1.91,
-      "asOf": "2026-11-11T18:36:51+00:00",
+      "price": 355.63,
+      "change": 7.12,
+      "changePct": 2.04,
+      "asOf": "2026-11-11T21:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AMD",
       "name": "",
-      "price": 564.8001,
-      "change": 49.59,
-      "changePct": 9.63,
-      "asOf": "2026-11-11T18:36:50+00:00",
+      "price": 552.9,
+      "change": 37.69,
+      "changePct": 7.32,
+      "asOf": "2026-11-11T21:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }

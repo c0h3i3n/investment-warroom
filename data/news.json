@@ -1,487 +1,487 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T18:36:53.942Z",
-  "checkedAt": 1794422213942,
+  "generatedAt": "2026-11-12T01:28:34.549Z",
+  "checkedAt": 1794446914549,
   "data": [
     {
-      "headline": "蘋果AI眼鏡添新線索！供應商透露參與專案 新款智慧耳機也在列",
-      "link": "https://news.cnyes.com/news/id/6659802",
-      "publishedAt": 1794421803000,
+      "headline": "盤中速報 - 冠西電(2466)股價拉至漲停，漲停價436.5元，成交1,718張",
+      "link": "https://news.cnyes.com/news/id/6660073",
+      "publishedAt": 1794446813000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 大眾控(3701)股價拉至漲停，漲停價69.5元，成交13,824張",
+      "link": "https://news.cnyes.com/news/id/6660072",
+      "publishedAt": 1794446749000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 昇達科(3491)股價拉至漲停，漲停價1575.0元，成交1,504張",
+      "link": "https://news.cnyes.com/news/id/6660070",
+      "publishedAt": 1794446709000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "詩肯看好預售屋交屋高峰潮湧現 推升居家市場需求",
+      "link": "https://news.cnyes.com/news/id/6660056",
+      "publishedAt": 1794446467000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 萬泰科(6190)股價拉至漲停，漲停價62.5元，成交950張",
+      "link": "https://news.cnyes.com/news/id/6660067",
+      "publishedAt": 1794446454000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 智聯服務(6751)股價拉至漲停，漲停價105.5元，成交253張",
+      "link": "https://news.cnyes.com/news/id/6660064",
+      "publishedAt": 1794446398000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 電子通路類指數類股表現強勁，漲幅2.68%，總成交額0.63億",
+      "link": "https://news.cnyes.com/news/id/6660063",
+      "publishedAt": 1794446360000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 通信網路類指數類股表現強勁，漲幅3.95%，總成交額13.68億",
+      "link": "https://news.cnyes.com/news/id/6660062",
+      "publishedAt": 1794446359000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 半導體類指數類股表現強勁，漲幅2.64%，總成交額68.56億",
+      "link": "https://news.cnyes.com/news/id/6660061",
+      "publishedAt": 1794446359000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 化學股價指數類股表現強勁，漲幅3.45%，總成交額0.63億",
+      "link": "https://news.cnyes.com/news/id/6660060",
+      "publishedAt": 1794446358000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 三福化(4755)股價拉至漲停，漲停價133.5元，成交670張",
+      "link": "https://news.cnyes.com/news/id/6660059",
+      "publishedAt": 1794446354000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 萬旭(6134)股價拉至漲停，漲停價23.9元，成交219張",
+      "link": "https://news.cnyes.com/news/id/6660058",
+      "publishedAt": 1794446306000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 大立(4716)股價拉至漲停，漲停價20.55元，成交1,720張",
+      "link": "https://news.cnyes.com/news/id/6660057",
+      "publishedAt": 1794446216000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 萊德光電-KY(7717)股價拉至漲停，漲停價473.0元，成交571張",
+      "link": "https://news.cnyes.com/news/id/6660055",
+      "publishedAt": 1794446175000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 鴻碩(3092)股價拉至漲停，漲停價18.55元，成交280張",
+      "link": "https://news.cnyes.com/news/id/6660053",
+      "publishedAt": 1794446104000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 新復興(4909)股價拉至漲停，漲停價33.1元，成交233張",
+      "link": "https://news.cnyes.com/news/id/6660052",
+      "publishedAt": 1794446068000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 彬台(3379)股價拉至漲停，漲停價36.3元，成交1,983張",
+      "link": "https://news.cnyes.com/news/id/6660051",
+      "publishedAt": 1794446042000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 精材(3374)股價拉至漲停，漲停價513.0元，成交7,233張",
+      "link": "https://news.cnyes.com/news/id/6660050",
+      "publishedAt": 1794446005000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 耀勝(3207)股價拉至漲停，漲停價31.8元，成交249張",
+      "link": "https://news.cnyes.com/news/id/6660048",
+      "publishedAt": 1794445804000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 方土昶(6265)股價拉至漲停，漲停價38.0元，成交1,317張",
+      "link": "https://news.cnyes.com/news/id/6660047",
+      "publishedAt": 1794445767000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "再爆偷吃！黃仁勳回《紐時》記者一句秒掛電話",
+      "link": "https://news.cnyes.com/news/id/6660002",
+      "publishedAt": 1794445740000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794422213942
+      "fetchedAt": 1794446914549
     },
     {
-      "headline": "目標價500砍到200美元！輝達遭罕見降評 大摩也撤首選",
-      "link": "https://news.cnyes.com/news/id/6659672",
-      "publishedAt": 1794420004000,
+      "headline": "盤中速報 - 漢達(6620)股價殺至跌停，跌停價123.0元，成交1,530張",
+      "link": "https://news.cnyes.com/news/id/6660046",
+      "publishedAt": 1794445703000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - Quant大跌8.43%，報165.78美元",
+      "link": "https://news.cnyes.com/news/id/6660045",
+      "publishedAt": 1794445670000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - GIS-KY(6456)股價拉至漲停，漲停價101.5元，成交15,351張",
+      "link": "https://news.cnyes.com/news/id/6660044",
+      "publishedAt": 1794445613000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "盤中速報 - 詠昇(6418)股價拉至漲停，漲停價38.95元，成交201張",
+      "link": "https://news.cnyes.com/news/id/6660043",
+      "publishedAt": 1794445588000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1794446914549
+    },
+    {
+      "headline": "輝達盤後暴跌10%！黃仁勳再傳偷吃恐遭解職 日韓晶片股走勢分化 SK海力士死裡逃生翻紅 揖斐電跌近8%",
+      "link": "https://news.cnyes.com/news/id/6660009",
+      "publishedAt": 1794445527000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794422213942
+      "fetchedAt": 1794446914549
     },
     {
-      "headline": "盤中速報 - 交易台(TTD-US)大漲5.06%，報16.2美元",
-      "link": "https://news.cnyes.com/news/id/6659789",
-      "publishedAt": 1794419660000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 防特網(FTNT-US)大漲5%，報129.75美元",
-      "link": "https://news.cnyes.com/news/id/6659786",
-      "publishedAt": 1794418914000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 亞德諾(ADI-US)大漲5.03%，報413.08美元",
-      "link": "https://news.cnyes.com/news/id/6659784",
-      "publishedAt": 1794418636000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "美股最壞時刻過了？四大指標檢驗反彈 分析師仍不敢喊底",
-      "link": "https://news.cnyes.com/news/id/6659121",
-      "publishedAt": 1794418204000,
+      "headline": "盤中速報 - 玻璃陶瓷類股表現強勁，漲幅4.13%，總成交額46.67億",
+      "link": "https://news.cnyes.com/news/id/6660042",
+      "publishedAt": 1794445495000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "台股盤中"
       ],
-      "fetchedAt": 1794422213942
+      "fetchedAt": 1794446914549
     },
     {
-      "headline": "盤中速報 - 思佳訊半導體(SWKS-US)大漲5.04%，報86.88美元",
-      "link": "https://news.cnyes.com/news/id/6659773",
-      "publishedAt": 1794417990000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - Take-Two互動軟體(TTWO-US)大漲5.06%，報236美元",
-      "link": "https://news.cnyes.com/news/id/6659771",
-      "publishedAt": 1794417832000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 台積電ADR(TSM-US)大漲5%，報416.31美元",
-      "link": "https://news.cnyes.com/news/id/6659769",
-      "publishedAt": 1794417200000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 超捷國際(MCHP-US)大漲5.04%，報63.37美元",
-      "link": "https://news.cnyes.com/news/id/6659753",
-      "publishedAt": 1794415001000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "英美歐央行官員齊放鷹！華勒示警下月恐升2碼 智庫估英國利率升至5%",
-      "link": "https://news.cnyes.com/news/id/6658019",
-      "publishedAt": 1794414610000,
+      "headline": "盤中速報 - 塑膠工業類股表現強勁，漲幅2.25%，總成交額54.41億",
+      "link": "https://news.cnyes.com/news/id/6660041",
+      "publishedAt": 1794445495000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "台股盤中"
       ],
-      "fetchedAt": 1794422213942
+      "fetchedAt": 1794446914549
     },
     {
-      "headline": "鉅亨速報 - Factset 最新調查：瓦萊羅能源(VLO-US)EPS預估下修至59.01元，預估目標價為435.50元",
-      "link": "https://news.cnyes.com/news/id/6659745",
-      "publishedAt": 1794413771000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "AI雲端股回神！CoreWeave股價飆逾20% 執行長曝需求有多旺",
-      "link": "https://news.cnyes.com/news/id/6659671",
-      "publishedAt": 1794413496000,
+      "headline": "盤中速報 - 資訊服務類指數類股表現強勁，漲幅2.27%，總成交額3.74億",
+      "link": "https://news.cnyes.com/news/id/6660040",
+      "publishedAt": 1794445494000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "台股盤中"
       ],
-      "fetchedAt": 1794422213942
+      "fetchedAt": 1794446914549
     },
     {
-      "headline": "盤中速報 - 格羅方德(GFS-US)大漲5.02%，報42.66美元",
-      "link": "https://news.cnyes.com/news/id/6659741",
-      "publishedAt": 1794413202000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 科磊(KLAC-US)大漲5%，報160.64美元",
-      "link": "https://news.cnyes.com/news/id/6659740",
-      "publishedAt": 1794413148000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 安森美半導體(ON-US)大漲5.01%，報73.1美元",
-      "link": "https://news.cnyes.com/news/id/6659717",
-      "publishedAt": 1794413094000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "費半一個月跌掉21% 高盛喊超賣、點名3檔AI晶片股值得買",
-      "link": "https://news.cnyes.com/news/id/6657918",
-      "publishedAt": 1794412805000,
+      "headline": "盤中速報 - 健鼎(3044)股價拉至漲停，漲停價572.0元，成交2,432張",
+      "link": "https://news.cnyes.com/news/id/6660039",
+      "publishedAt": 1794445450000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "台股盤中"
       ],
-      "fetchedAt": 1794422213942
+      "fetchedAt": 1794446914549
     },
     {
-      "headline": "盤中速報 - Onto Innovation Inc.(ONTO-US)大漲9.27%，報215.82美元",
-      "link": "https://news.cnyes.com/news/id/6659715",
-      "publishedAt": 1794412419000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "盤中速報 - 大塚(3570)股價拉至漲停，漲停價186.0元，成交240張",
+      "link": "https://news.cnyes.com/news/id/6660038",
+      "publishedAt": 1794445403000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股盤中"
       ],
-      "fetchedAt": 1794422213942
+      "fetchedAt": 1794446914549
     },
     {
-      "headline": "盤中速報 - 安謀控股公司(ARM-US)大漲9.35%，報198.46美元",
-      "link": "https://news.cnyes.com/news/id/6659714",
-      "publishedAt": 1794412419000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "盤中速報 - 雷笛克光學(5230)股價拉至漲停，漲停價37.25元，成交1,618張",
+      "link": "https://news.cnyes.com/news/id/6660037",
+      "publishedAt": 1794445259000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股盤中"
       ],
-      "fetchedAt": 1794422213942
+      "fetchedAt": 1794446914549
     },
     {
-      "headline": "盤中速報 - 數據狗(DDOG-US)大漲5.18%，報187.65美元",
-      "link": "https://news.cnyes.com/news/id/6659713",
-      "publishedAt": 1794412418000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "盤中速報 - 敬鵬(2355)股價拉至漲停，漲停價60.7元，成交7,147張",
+      "link": "https://news.cnyes.com/news/id/6660036",
+      "publishedAt": 1794445232000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股盤中"
       ],
-      "fetchedAt": 1794422213942
+      "fetchedAt": 1794446914549
     },
     {
-      "headline": "盤中速報 - 英特爾(INTC-US)大漲7.49%，報62.49美元",
-      "link": "https://news.cnyes.com/news/id/6659712",
-      "publishedAt": 1794412418000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "盤中速報 - 瀧澤科(6609)股價拉至漲停，漲停價59.4元，成交399張",
+      "link": "https://news.cnyes.com/news/id/6660035",
+      "publishedAt": 1794445230000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股盤中"
       ],
-      "fetchedAt": 1794422213942
+      "fetchedAt": 1794446914549
     },
     {
-      "headline": "盤中速報 - 科林研發(LRCX-US)大漲5.82%，報235.33美元",
-      "link": "https://news.cnyes.com/news/id/6659710",
-      "publishedAt": 1794412417000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "盤中速報 - 強生(4747)股價殺至跌停，跌停價14.25元，成交303張",
+      "link": "https://news.cnyes.com/news/id/6660034",
+      "publishedAt": 1794445225000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股盤中"
       ],
-      "fetchedAt": 1794422213942
+      "fetchedAt": 1794446914549
     },
     {
-      "headline": "盤中速報 - 萊迪思半導體(LSCC-US)大漲5.24%，報117.09美元",
-      "link": "https://news.cnyes.com/news/id/6659711",
-      "publishedAt": 1794412417000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "盤中速報 - 大世科(8099)股價拉至漲停，漲停價165.5元，成交441張",
+      "link": "https://news.cnyes.com/news/id/6660033",
+      "publishedAt": 1794445222000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股盤中"
       ],
-      "fetchedAt": 1794422213942
+      "fetchedAt": 1794446914549
     },
     {
-      "headline": "盤中速報 - 芯源系統(MPWR-US)大漲6.41%，報1444.64美元",
-      "link": "https://news.cnyes.com/news/id/6659708",
-      "publishedAt": 1794412416000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "盤中速報 - 訊達電腦(6140)股價拉至漲停，漲停價28.85元，成交596張",
+      "link": "https://news.cnyes.com/news/id/6660032",
+      "publishedAt": 1794445221000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股盤中"
       ],
-      "fetchedAt": 1794422213942
+      "fetchedAt": 1794446914549
     },
     {
-      "headline": "盤中速報 - 泰瑞達(TER-US)大漲6.86%，報262.24美元",
-      "link": "https://news.cnyes.com/news/id/6659709",
-      "publishedAt": 1794412416000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "盤中速報 - 易發(6425)股價拉至漲停，漲停價85.4元，成交810張",
+      "link": "https://news.cnyes.com/news/id/6660030",
+      "publishedAt": 1794445217000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股盤中"
       ],
-      "fetchedAt": 1794422213942
+      "fetchedAt": 1794446914549
     },
     {
-      "headline": "盤中速報 - 連貫(COHR-US)大漲11.01%，報238.29美元",
-      "link": "https://news.cnyes.com/news/id/6659706",
-      "publishedAt": 1794412415000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "盤中速報 - 天擎(6708)股價拉至漲停，漲停價99.7元，成交316張",
+      "link": "https://news.cnyes.com/news/id/6660029",
+      "publishedAt": 1794445215000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股盤中"
       ],
-      "fetchedAt": 1794422213942
+      "fetchedAt": 1794446914549
     },
     {
-      "headline": "盤中速報 - 安可(AMKR-US)大漲10.98%，報38.26美元",
-      "link": "https://news.cnyes.com/news/id/6659707",
-      "publishedAt": 1794412415000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "headline": "盤中速報 - 沛爾生醫-創(6949)股價拉至漲停，漲停價49.2元，成交2,872張",
+      "link": "https://news.cnyes.com/news/id/6660025",
+      "publishedAt": 1794445210000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股盤中"
       ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 博通(AVGO-US)大漲5.35%，報349.75美元",
-      "link": "https://news.cnyes.com/news/id/6659704",
-      "publishedAt": 1794412414000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 超微電腦(SMCI-US)大漲8.92%，報30.27美元",
-      "link": "https://news.cnyes.com/news/id/6659705",
-      "publishedAt": 1794412414000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 美光科技(MU-US)大漲11.44%，報808.09美元",
-      "link": "https://news.cnyes.com/news/id/6659702",
-      "publishedAt": 1794412413000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 英特格(ENTG-US)大漲6.36%，報147.38美元",
-      "link": "https://news.cnyes.com/news/id/6659703",
-      "publishedAt": 1794412413000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 邁威爾科技(MRVL-US)大漲9.71%，報169.38美元",
-      "link": "https://news.cnyes.com/news/id/6659701",
-      "publishedAt": 1794412412000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 超微半導體(AMD-US)大漲5.48%，報543.46美元",
-      "link": "https://news.cnyes.com/news/id/6659700",
-      "publishedAt": 1794412411000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 應用材料(AMAT-US)大漲5.72%，報393.85美元",
-      "link": "https://news.cnyes.com/news/id/6659699",
-      "publishedAt": 1794412411000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 甲骨文(ORCL-US)大漲7.36%，報126.67美元",
-      "link": "https://news.cnyes.com/news/id/6659698",
-      "publishedAt": 1794412410000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 和康電訊(MTSI-US)大漲9.78%，報248.64美元",
-      "link": "https://news.cnyes.com/news/id/6659697",
-      "publishedAt": 1794412410000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 萊迪思半導體(LSCC-US)大漲5.25%，報117.09美元",
-      "link": "https://news.cnyes.com/news/id/6659696",
-      "publishedAt": 1794412370000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 科林研發(LRCX-US)大漲5.9%，報235.51美元",
-      "link": "https://news.cnyes.com/news/id/6659695",
-      "publishedAt": 1794412369000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 英特爾(INTC-US)大漲7.52%，報62.5美元",
-      "link": "https://news.cnyes.com/news/id/6659694",
-      "publishedAt": 1794412369000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
-    },
-    {
-      "headline": "盤中速報 - 超微半導體(AMD-US)大漲5.52%，報543.64美元",
-      "link": "https://news.cnyes.com/news/id/6659692",
-      "publishedAt": 1794412368000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794422213942
+      "fetchedAt": 1794446914549
     }
   ],
   "failedSources": [],
