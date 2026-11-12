@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-12T09:42:28.215739+00:00",
-  "generatedAt": "2026-11-12T09:42:28.215739+00:00",
+  "timestamp": "2026-11-12T14:37:40.488597+00:00",
+  "generatedAt": "2026-11-12T14:37:40.488597+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-11-12",
-    "attemptedAt": 1794476546885,
+    "attemptedAt": 1794494258996,
     "annual": {
       "year": 2026,
       "closed": [
@@ -87,17 +87,17 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1794476546885,
+        "checkedAt": 1794494258996,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1794476546885,
+        "checkedAt": 1794494258996,
         "error": null
       },
       "futures": {
         "ok": true,
-        "checkedAt": 1794476546885,
+        "checkedAt": 1794494258996,
         "error": null
       }
     },
@@ -116,8 +116,8 @@
       "price": 100.95,
       "change": -2.25,
       "changePct": -2.18,
-      "asOf": "2026-11-12T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-12T05:30:02+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -126,8 +126,8 @@
       "price": 2340.0,
       "change": -55.0,
       "changePct": -2.3,
-      "asOf": "2026-11-12T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-12T05:30:01+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -136,8 +136,8 @@
       "price": 26.61,
       "change": 0.22,
       "changePct": 0.83,
-      "asOf": "2026-11-12T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-12T05:30:01+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -146,8 +146,8 @@
       "price": 33.0,
       "change": -0.5,
       "changePct": -1.49,
-      "asOf": "2026-11-12T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-12T05:30:02+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -156,8 +156,8 @@
       "price": 25.21,
       "change": -0.61,
       "changePct": -2.36,
-      "asOf": "2026-11-12T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-12T05:30:08+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -166,8 +166,8 @@
       "price": 15.85,
       "change": 0.09,
       "changePct": 0.57,
-      "asOf": "2026-11-12T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-12T05:30:26+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -176,97 +176,107 @@
       "price": 14.44,
       "change": 0.09,
       "changePct": 0.63,
-      "asOf": "2026-11-12T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-12T05:30:26+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "009800.TW",
       "name": "",
       "price": 12.84,
-      "change": 0.0,
-      "changePct": 0.0,
-      "asOf": "2026-11-12T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "change": 0,
+      "changePct": 0,
+      "asOf": "2026-11-12T05:30:16+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "SPCX",
       "name": "",
-      "price": 139.75,
-      "change": -3.34,
-      "changePct": -2.33,
-      "asOf": "2026-11-11T21:00:01+00:00",
+      "price": 147.3,
+      "change": 7.55,
+      "changePct": 5.4,
+      "asOf": "2026-11-12T14:38:00+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "NVDA",
       "name": "",
-      "price": 173.73,
-      "change": 4.93,
-      "changePct": 2.92,
-      "asOf": "2026-11-11T21:00:00+00:00",
+      "price": 158.92,
+      "change": -14.81,
+      "changePct": -8.52,
+      "asOf": "2026-11-12T14:38:00+00:00",
+      "source": "Yahoo Finance",
+      "priceType": "trade"
+    },
+    {
+      "symbol": "TSM",
+      "name": "",
+      "price": 406.985,
+      "change": -6.28,
+      "changePct": -1.52,
+      "asOf": "2026-11-12T14:37:59+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "TSLA",
       "name": "",
-      "price": 390.84,
-      "change": 11.06,
-      "changePct": 2.91,
-      "asOf": "2026-11-11T21:00:01+00:00",
+      "price": 394.8,
+      "change": 3.98,
+      "changePct": 1.02,
+      "asOf": "2026-11-12T14:38:00+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "MSFT",
       "name": "",
-      "price": 521.125,
-      "change": -12.04,
-      "changePct": -2.26,
-      "asOf": "2026-11-11T21:00:00+00:00",
+      "price": 522.55,
+      "change": 1.42,
+      "changePct": 0.27,
+      "asOf": "2026-11-12T14:37:56+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "GOOGL",
       "name": "",
-      "price": 293.45,
-      "change": 6.07,
-      "changePct": 2.11,
-      "asOf": "2026-11-11T21:00:00+00:00",
+      "price": 295.68,
+      "change": 2.23,
+      "changePct": 0.76,
+      "asOf": "2026-11-12T14:38:00+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AMZN",
       "name": "",
-      "price": 266.17,
-      "change": -4.7,
-      "changePct": -1.74,
-      "asOf": "2026-11-11T21:00:01+00:00",
+      "price": 270.53,
+      "change": 4.36,
+      "changePct": 1.64,
+      "asOf": "2026-11-12T14:37:59+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AAPL",
       "name": "",
-      "price": 355.63,
-      "change": 7.12,
-      "changePct": 2.04,
-      "asOf": "2026-11-11T21:00:01+00:00",
+      "price": 356.785,
+      "change": 1.43,
+      "changePct": 0.4,
+      "asOf": "2026-11-12T14:38:00+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AMD",
       "name": "",
-      "price": 552.9,
-      "change": 37.69,
-      "changePct": 7.32,
-      "asOf": "2026-11-11T21:00:01+00:00",
+      "price": 567.07,
+      "change": 14.17,
+      "changePct": 2.56,
+      "asOf": "2026-11-12T14:38:00+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
