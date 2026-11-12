@@ -8,6 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;500&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css?v=3.9.0">
 <link rel="stylesheet" href="css/readability.css?v=3.20.0">
+<link rel="stylesheet" href="css/us-sessions.css?v=3.23.0">
 </head>
 <body>
 
@@ -42,7 +43,7 @@
       </div>
       <div class="reactor-text">
         <h1>WARROOM</h1>
-        <div class="sub">INVESTMENT INTELLIGENCE · v3.21.1</div>
+        <div class="sub">INVESTMENT INTELLIGENCE · v3.23.0</div>
       </div>
     </div>
 
@@ -57,8 +58,8 @@
         <div class="status-label" id="twLabel">TW CHECK</div>
       </div>
       <div class="status-item">
-        <div class="status-orb pre" id="usOrb"></div>
-        <div class="status-label" id="usLabel">US PRE-MKT</div>
+        <div class="status-orb off" id="usOrb"></div>
+        <div class="status-label" id="usLabel">US CHECK</div>
       </div>
       <div class="status-item">
         <div class="status-orb off" id="nightOrb"></div>
@@ -86,6 +87,7 @@
 
   <nav class="quick-nav" aria-label="區塊快捷導覽">
     <a href="#index-cards">總覽</a><a href="#night-section">夜盤</a>
+    <a href="#us-sessions-section">美股</a>
     <a href="#technical-section">技術</a><a href="#watch-section">自選股</a>
   </nav>
 
@@ -133,6 +135,24 @@
       <div class="loading-indicator">LOADING TAIFEX NIGHT SESSION...</div>
     </div>
   </div>
+
+  <section class="hud-panel us-sessions-panel" id="us-sessions-section" aria-labelledby="us-sessions-title">
+    <div class="sec-label">
+      <div class="sec-label-dot"></div>
+      <h2 class="sec-label-text" id="us-sessions-title">US SESSIONS · 美股盤前／盤中／盤後</h2>
+      <div class="sec-label-line"></div>
+    </div>
+    <div class="us-session-toolbar">
+      <label for="us-session-symbol">美股自選標的</label>
+      <select id="us-session-symbol" aria-label="美股時段標的"></select>
+      <button class="btn" id="us-session-refresh" type="button">更新美股</button>
+      <span class="us-session-phase" id="us-session-phase">正在確認美東時段…</span>
+    </div>
+    <p class="us-session-date" id="us-session-date"></p>
+    <div class="us-session-cards" id="us-session-cards"></div>
+    <output class="us-session-status" id="us-session-status" aria-live="polite">正在取得美股時段資料…</output>
+    <p class="us-session-note">Yahoo 延遲資料，每分鐘嘗試更新。盤前／盤後採5分鐘分時參考價，不代表逐筆成交；正常盤報價與原自選股分開顯示。缺少來源資料時保留空值。<a href="https://www.nasdaq.com/market-activity/stock-market-holiday-schedule" target="_blank" rel="noopener noreferrer">美東交易時段說明</a></p>
+  </section>
 
   <!-- ═══ MAIN GRID ═══ -->
   <div class="main-grid">
@@ -209,7 +229,7 @@
   </div>
 
   <footer>
-    <span>WARROOM · INVESTMENT INTELLIGENCE · v3.21.1</span>
+    <span>WARROOM · INVESTMENT INTELLIGENCE · v3.23.0</span>
     <span id="fdate"></span>
     <span class="latency-badge"><span class="dot live"></span> 台股 MIS 即時</span>
     <span class="latency-badge"><span class="dot delay"></span> 夜盤狀態見頁首</span>
@@ -254,15 +274,17 @@
 <script>document.querySelector(".hud-time").textContent="JS OK"; console.log("Script loader: starting...");</script>
 <script src="js/config.js?v=3.21.0"></script>
 <script src="js/market-calendar.js?v=3.18.0"></script>
+<script src="js/us-market-sessions.js?v=3.23.0"></script>
 <script src="js/history-validation.js?v=3.13.0"></script>
 <script src="js/data.js?v=3.19.0"></script>
 <script>console.log("data.js loaded, CONFIG proxies:", CONFIG?.CORS_PROXIES?.length);</script>
 <script src="js/indicators.js?v=3.20.0"></script>
 <script src="js/news.js?v=3.21.0"></script>
 <script src="js/night-analysis.js?v=3.15.1"></script>
-<script src="js/ui.js?v=3.21.1"></script>
+<script src="js/ui.js?v=3.23.0"></script>
 <script src="js/watchlist-tools.js?v=3.21.0"></script>
-<script src="js/main.js?v=3.21.0"></script>
+<script src="js/main.js?v=3.23.0"></script>
+<script src="js/us-sessions-ui.js?v=3.23.0"></script>
 <script src="js/interactions.js?v=3.14.0"></script>
 
 

@@ -87,6 +87,8 @@ const App = (() => {
     const isPreMarket = isWeekday(usTime) && usMinutes >= 240 && usMinutes < 570;
     const isMarketOpen = isWeekday(usTime) && usMinutes >= 570
       && usMinutes < MarketCalendar.closeMinutes('US', dayNumber(usTime));
+    const usClose = MarketCalendar.closeMinutes('US', dayNumber(usTime));
+    const isPostMarket = isWeekday(usTime) && usMinutes >= usClose && usMinutes < (usClose < 960 ? 1020 : 1200);
 
     if (usOrb && usLabel) {
       if (isMarketOpen) {
@@ -95,6 +97,9 @@ const App = (() => {
       } else if (isPreMarket) {
         usOrb.className = 'status-orb pre';
         usLabel.textContent = 'US PRE-MKT';
+      } else if (isPostMarket) {
+        usOrb.className = 'status-orb pre';
+        usLabel.textContent = 'US POST-MKT';
       } else {
         usOrb.className = 'status-orb off';
         usLabel.textContent = 'US CLOSED';
@@ -139,6 +144,7 @@ const App = (() => {
       newsGeneration += 1;
     }
     refreshInFlight = true;
+    window.UsSessionsUI?.refresh();
     const generation = ++refreshGeneration;
     if (forceRefresh) DataService.clearCache();
     UI.setRefreshing(true, forceRefresh);
@@ -269,6 +275,7 @@ const App = (() => {
             });
             watchlistQuotes = watchData;
             window._watchlistQuotes = watchData;
+            if (window.UsSessionsUI?.syncSymbols()) window.UsSessionsUI.refresh();
             window._featuredQuotes = FEATURED_SYMBOLS.map(symbol => currentQuotes.find(item => item.symbol === symbol)).filter(Boolean);
             UI.renderWatchlist(watchData);
             UI.renderFeatured();

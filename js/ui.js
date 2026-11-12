@@ -715,7 +715,7 @@ const UI = (() => {
     const message = fresh === 0 ? '更新失敗，暫無有效行情，請稍後重試。'
       : warning ? `部分更新完成：${fresh}/${total} 筆有效行情${cached ? '，含備援資料' : ''}。`
       : changed ? `更新完成：已取得新的報價資料（${fresh}/${total} 筆有效行情）。`
-      : closed ? '已檢查：台美股休市，股價維持最近收盤。'
+      : closed ? '目前非台美股正常交易時段，正常盤報價保留最近收盤；美股盤前／盤後另見美股區。'
       : '已檢查：來源暫無新的報價。';
     const output = document.getElementById('refresh-result');
     if (output) {

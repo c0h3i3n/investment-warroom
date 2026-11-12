@@ -2,6 +2,8 @@ import '../../js/market-calendar.js';
 import '../../js/history-validation.js';
 import { CALENDAR_KEY, refreshOfficialCalendar } from './official-calendar.mjs';
 import { getNewsSnapshot } from './news.mjs';
+import { createUsSessionService } from './us-sessions.mjs';
+const getUsSessions = createUsSessionService();
 import { repairTwseHistory, applyOfficialVolumes, OFFICIAL_VOLUME_SOURCE, completedTwSession } from './history-repair.mjs';
 const SNAPSHOT_KEY = 'market:snapshot:v1';
 const NIGHT_MARKET_KEY = 'market:night:v2';
@@ -962,6 +964,12 @@ export function historyHealth(history, symbol, now = Date.now()) {
 
 export async function handleRequest(request, env, ctx) {
   const path = new URL(request.url).pathname;
+  if (path === '/api/us-sessions' && request.method === 'GET') {
+    const symbol=String(new URL(request.url).searchParams.get('symbol')||'').toUpperCase();
+    if (!UsMarketSessions.validSymbol(symbol)) return jsonResponse({error:'Unsupported US symbol'},400,request);
+    try { return jsonResponse(await getUsSessions(symbol,env),200,request); }
+    catch { return jsonResponse({error:'US session data unavailable'},503,request); }
+  }
   if (request.method === 'GET' && path !== '/api/news' && (path.startsWith('/api/') || path === '/health')) {
     await loadOfficialCalendar(env,false,ctx).catch(error => console.warn('Official calendar check failed', error));
   }

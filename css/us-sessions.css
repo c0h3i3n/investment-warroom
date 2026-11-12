@@ -1,0 +1,33 @@
+.us-sessions-panel { margin-bottom:16px; scroll-margin-top:70px; }
+.us-session-toolbar { display:flex; align-items:center; flex-wrap:wrap; gap:10px; margin:12px 0; }
+.us-session-toolbar label { color:var(--text-mid); font-size:13px; }
+.us-session-toolbar select { min-width:200px; max-width:100%; min-height:44px; background:var(--panel); color:var(--text); border:1px solid var(--border); border-radius:6px; padding:8px 10px; font:inherit; font-size:13px; }
+.us-session-toolbar button { min-height:44px; }
+.us-session-phase { margin-left:auto; color:var(--gold); font-size:13px; }
+.us-session-date,.us-session-note,.us-session-source,.us-session-kind { color:var(--text-mid); font-size:12px; line-height:1.7; overflow-wrap:anywhere; }
+.us-session-cards { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin:12px 0; }
+.us-session-card { min-width:0; padding:16px; background:var(--panel); border:1px solid var(--border); border-radius:8px; }
+.us-session-card.current { border-color:var(--gold); }
+.us-session-card-head { display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; align-items:center; }
+.us-session-card h3 { margin:0; font-size:16px; color:var(--text); }
+.us-session-card-head span { font-size:11px; color:var(--text-mid); }
+.us-session-hours { margin:10px 0; font-size:12px; color:var(--text-mid); line-height:1.8; }
+.us-session-price { font-family:monospace; font-size:30px; font-weight:700; line-height:1.4; overflow-wrap:anywhere; }
+.us-session-change { margin:8px 0; font-size:16px; }
+.us-session-change.up { color:var(--pos); }
+.us-session-change.down { color:var(--neg); }
+.us-session-change small { display:block; font-size:11px; color:var(--text-mid); }
+.us-session-source { margin-top:14px; }
+.us-session-kind { font-size:11px; }
+.us-session-status { display:block; color:var(--text-mid); font-size:12px; line-height:1.8; overflow-wrap:anywhere; }
+.us-session-status[data-state="warning"] { color:var(--gold); }
+.us-session-note { margin:10px 0 0; }
+.us-session-note a { color:var(--text-mid); text-underline-offset:3px; }
+@media(max-width:640px) {
+  .us-session-cards { grid-template-columns:1fr; }
+  .us-session-toolbar select { flex:1; min-width:0; width:100%; }
+  .us-session-toolbar label { width:100%; }
+  .us-session-phase { flex-basis:100%; margin-left:0; }
+  .us-session-card { padding:14px; }
+  .quick-nav a { font-size:12px; }
+}

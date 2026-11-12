@@ -64,7 +64,8 @@ test('manual refresh reports complete, unchanged, partial, backup and failed sta
   const report=vm.runInContext('UI.refreshResult',ctx);
   const valid={fresh:16,total:16,changed:true};
   assert.match(report(valid),/更新完成/);
-  assert.match(report({...valid,changed:false,closed:true}),/台美股休市/);
+  assert.match(report({...valid,changed:false,closed:true}),/非台美股正常交易時段/);
+  assert.match(report({...valid,changed:false,closed:true}),/盤前／盤後另見美股區/);
   assert.match(report({...valid,changed:false,closed:false}),/暫無新的報價/);
   assert.match(report({...valid,fresh:12}),/部分更新完成/);
   assert.match(report({...valid,cached:true}),/備援/);
