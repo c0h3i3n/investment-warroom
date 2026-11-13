@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "date": "2026-11-13",
-  "attemptedAt": 1794539518446,
+  "attemptedAt": 1794552996113,
   "annual": {
     "year": 2026,
     "closed": [
@@ -118,17 +118,17 @@
   "checks": {
     "annual": {
       "ok": true,
-      "checkedAt": 1794539518446,
+      "checkedAt": 1794552996113,
       "error": null
     },
     "notices": {
       "ok": true,
-      "checkedAt": 1794539518446,
+      "checkedAt": 1794552996113,
       "error": null
     },
     "futures": {
       "ok": true,
-      "checkedAt": 1794539518446,
+      "checkedAt": 1794552996113,
       "error": null
     }
   },
