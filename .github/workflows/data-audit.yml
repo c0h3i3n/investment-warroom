@@ -4,7 +4,7 @@ on:
     - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
   workflow_run:
-    workflows: ['pages build and deployment']
+    workflows: ['pages-build-deployment']
     types: [completed]
 permissions:
   contents: write
