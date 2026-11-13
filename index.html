@@ -7,8 +7,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;500&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css?v=3.9.0">
-<link rel="stylesheet" href="css/readability.css?v=3.20.0">
-<link rel="stylesheet" href="css/us-sessions.css?v=3.23.1">
+<link rel="stylesheet" href="css/readability.css?v=3.25.0">
+<link rel="stylesheet" href="css/us-sessions.css?v=3.25.0">
+<link rel="stylesheet" href="css/data-audit.css?v=3.25.0">
 </head>
 <body>
 
@@ -43,7 +44,7 @@
       </div>
       <div class="reactor-text">
         <h1>WARROOM</h1>
-        <div class="sub">INVESTMENT INTELLIGENCE · v3.24.2</div>
+        <div class="sub">INVESTMENT INTELLIGENCE · v3.25.0</div>
       </div>
     </div>
 
@@ -84,6 +85,11 @@
     <output id="refresh-result" class="refresh-result" aria-live="polite" aria-atomic="true">尚未手動更新；自動行情來源時間見左側。</output>
     </div>
   </div>
+
+  <details class="data-audit" id="data-audit" data-state="unavailable">
+    <summary><span>資料巡檢：</span><strong id="data-audit-status">正在讀取報告…</strong><span class="data-audit-time" id="data-audit-time"></span><span class="data-audit-hint">查看詳情</span></summary>
+    <div class="data-audit-detail" id="data-audit-detail"></div>
+  </details>
 
   <nav class="quick-nav" aria-label="區塊快捷導覽">
     <a href="#index-cards">總覽</a><a href="#night-section">夜盤</a>
@@ -230,7 +236,7 @@
   </div>
 
   <footer>
-    <span>WARROOM · INVESTMENT INTELLIGENCE · v3.24.2</span>
+    <span>WARROOM · INVESTMENT INTELLIGENCE · v3.25.0</span>
     <span id="fdate"></span>
     <span class="latency-badge"><span class="dot live"></span> 台股 MIS 即時</span>
     <span class="latency-badge"><span class="dot delay"></span> 夜盤狀態見頁首</span>
@@ -287,6 +293,7 @@
 <script src="js/main.js?v=3.24.2"></script>
 <script src="js/us-sessions-ui.js?v=3.24.1"></script>
 <script src="js/interactions.js?v=3.14.0"></script>
+<script src="js/data-audit.js?v=3.25.0"></script>
 
 
 </body>

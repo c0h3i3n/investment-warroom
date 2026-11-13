@@ -1,0 +1,45 @@
+name: Data consistency audit
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['pages build and deployment']
+    types: [completed]
+permissions:
+  contents: write
+concurrency:
+  group: data-consistency-audit
+  cancel-in-progress: false
+jobs:
+  audit:
+    # A report publication also deploys Pages. Do not recursively audit its own commit.
+    if: >-
+      github.event_name != 'workflow_run' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_branch == 'main' &&
+       !startsWith(github.event.workflow_run.head_commit.message, '🔎 data audit'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Inspect production market data
+        run: node scripts/run-data-audit.mjs
+      - name: Publish dated inspection report
+        run: |
+          git config user.name "warroom-bot"
+          git config user.email "bot@warroom.local"
+          git add data/audit.json
+          if ! git diff --cached --quiet; then
+            git commit -m "🔎 data audit [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          fi
+      - name: Flag persistent anomalies
+        run: |
+          node --input-type=module -e "import fs from 'node:fs'; const r=JSON.parse(fs.readFileSync('data/audit.json')); if(r.counts.warning>0) process.exitCode=1;"

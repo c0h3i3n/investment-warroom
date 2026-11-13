@@ -206,7 +206,8 @@ body { font-family:var(--reading); background:var(--void); }
 .refresh-btn span { font-size:20px; line-height:1; }
 .refresh-btn:hover { color:var(--arc); box-shadow:none; border-color:var(--arc); }
 .refresh-btn.spinning { animation:none; }
-.refresh-btn.spinning span { animation:spinCW 1s linear infinite; }
+.refresh-btn.spinning span { display:inline-block; animation:refreshRotate 1s linear infinite; }
+@keyframes refreshRotate { to { transform:rotate(360deg); } }
 .ticker-bar { background:transparent; border:0; padding:0 0 12px; margin-bottom:12px; }
 .ticker-bar.is-collapsed { padding:0; margin:0 0 14px; }
 .ticker-label { border:0; color:var(--text-dim); }
@@ -362,8 +363,9 @@ footer { flex-wrap:wrap; gap:10px 16px; font:11px var(--reading); letter-spacing
 @media(max-width:640px) {
   .hud-header { padding:12px 0; gap:10px; }
   .reactor-icon { width:38px; height:38px; }
-  .status-panel { gap:4px; }
+  .status-panel { gap:4px; align-items:stretch; }
   .status-item { padding:5px 6px; }
+  .status-label { white-space:normal; overflow-wrap:anywhere; text-align:center; line-height:1.4; }
   .data-toolbar { margin:10px 0; gap:8px; }
   .data-timing { gap:2px; }
   .data-caption { display:none; }

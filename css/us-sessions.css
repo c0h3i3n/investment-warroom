@@ -13,7 +13,7 @@
 .us-session-card h3 { margin:0; font-size:16px; color:var(--text); }
 .us-session-card-head span { font-size:11px; color:var(--text-mid); }
 .us-session-hours { margin:10px 0; font-size:12px; color:var(--text-mid); line-height:1.8; }
-.us-session-price { font-family:monospace; font-size:30px; font-weight:700; line-height:1.4; overflow-wrap:anywhere; }
+.us-session-price { font-family:var(--numeric); font-variant-numeric:tabular-nums; font-size:30px; font-weight:700; line-height:1.4; overflow-wrap:anywhere; }
 .us-session-change { margin:8px 0; font-size:16px; }
 .us-session-change.up { color:var(--pos); }
 .us-session-change.down { color:var(--neg); }
