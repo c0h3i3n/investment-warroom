@@ -365,7 +365,7 @@ footer { flex-wrap:wrap; gap:10px 16px; font:11px var(--reading); letter-spacing
   .reactor-icon { width:38px; height:38px; }
   .status-panel { gap:4px; align-items:stretch; }
   .status-item { padding:5px 6px; }
-  .status-label { white-space:normal; overflow-wrap:anywhere; text-align:center; line-height:1.4; }
+  .status-label { white-space:normal; overflow-wrap:anywhere; text-wrap:balance; text-align:center; line-height:1.4; }
   .data-toolbar { margin:10px 0; gap:8px; }
   .data-timing { gap:2px; }
   .data-caption { display:none; }
