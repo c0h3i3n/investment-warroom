@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-13T00:09:15.946003+00:00",
-  "generatedAt": "2026-11-13T00:09:15.946003+00:00",
+  "timestamp": "2026-11-13T02:54:53.622655+00:00",
+  "generatedAt": "2026-11-13T02:54:53.622655+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-11-13",
-    "attemptedAt": 1794528553685,
+    "attemptedAt": 1794538491281,
     "annual": {
       "year": 2026,
       "closed": [
@@ -33,7 +33,7 @@
         "2026-10-26",
         "2026-12-25"
       ],
-      "checkedAt": 1794422206101,
+      "checkedAt": 1794538491281,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     },
     "annuals": {
@@ -65,7 +65,7 @@
           "2026-10-26",
           "2026-12-25"
         ],
-        "checkedAt": 1794422206101,
+        "checkedAt": 1794538491281,
         "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
       },
       "2027": {
@@ -120,18 +120,18 @@
     ],
     "checks": {
       "annual": {
-        "ok": false,
-        "checkedAt": 1794506991279,
-        "error": "Official calendar year/shape mismatch"
+        "ok": true,
+        "checkedAt": 1794538491281,
+        "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1794528553685,
+        "checkedAt": 1794538491281,
         "error": null
       },
       "futures": {
         "ok": true,
-        "checkedAt": 1794528553685,
+        "checkedAt": 1794538491281,
         "error": null
       }
     },
@@ -150,11 +150,11 @@
       "name": "加權指數 TAIEX",
       "region": "TW",
       "currency": "NT$",
-      "price": 43091.87,
-      "change": -1165.28,
-      "changePct": -2.63,
-      "asOf": "2026-11-12T05:33:15+00:00",
-      "source": "Yahoo Finance",
+      "price": 43946.7,
+      "change": 854.83,
+      "changePct": 1.98,
+      "asOf": "2026-11-13T02:54:00+00:00",
+      "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
@@ -163,12 +163,12 @@
       "name": "OTC 櫃買指數",
       "region": "TW",
       "currency": "NT$",
-      "price": null,
-      "change": null,
-      "changePct": null,
-      "asOf": null,
-      "source": null,
-      "priceType": null
+      "price": 344.42,
+      "change": 8.69,
+      "changePct": 2.59,
+      "asOf": "2026-11-13T02:54:00+00:00",
+      "source": "TWSE MIS",
+      "priceType": "trade"
     },
     {
       "id": "spx",
