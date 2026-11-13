@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-12T18:09:53.989986+00:00",
-  "generatedAt": "2026-11-12T18:09:53.989986+00:00",
+  "timestamp": "2026-11-13T00:09:15.946003+00:00",
+  "generatedAt": "2026-11-13T00:09:15.946003+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-11-13",
-    "attemptedAt": 1794506991279,
+    "attemptedAt": 1794528553685,
     "annual": {
       "year": 2026,
       "closed": [
@@ -67,6 +67,40 @@
         ],
         "checkedAt": 1794422206101,
         "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
+      },
+      "2027": {
+        "year": 2027,
+        "closed": [
+          "2027-01-01",
+          "2027-02-01",
+          "2027-02-02",
+          "2027-02-03",
+          "2027-02-04",
+          "2027-02-05",
+          "2027-02-06",
+          "2027-02-07",
+          "2027-02-08",
+          "2027-02-09",
+          "2027-02-10",
+          "2027-02-28",
+          "2027-03-01",
+          "2027-04-04",
+          "2027-04-05",
+          "2027-04-06",
+          "2027-04-30",
+          "2027-05-01",
+          "2027-06-09",
+          "2027-09-15",
+          "2027-09-28",
+          "2027-10-10",
+          "2027-10-11",
+          "2027-10-25",
+          "2027-12-24",
+          "2027-12-25",
+          "2027-12-31"
+        ],
+        "checkedAt": 1794528553685,
+        "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
       }
     },
     "closures": [
@@ -86,26 +120,26 @@
     ],
     "checks": {
       "annual": {
-        "ok": true,
+        "ok": false,
         "checkedAt": 1794506991279,
-        "error": null
+        "error": "Official calendar year/shape mismatch"
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1794506991279,
+        "checkedAt": 1794528553685,
         "error": null
       },
       "futures": {
         "ok": true,
-        "checkedAt": 1794506991279,
+        "checkedAt": 1794528553685,
         "error": null
       }
     },
     "preload": {
       "year": 2027,
-      "status": "pending-publication",
-      "attemptedAt": 1794422206101,
-      "providerYear": 2026,
+      "status": "ready",
+      "attemptedAt": 1794528553685,
+      "verifiedAt": 1794528553685,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     }
   },
@@ -119,8 +153,8 @@
       "price": 43091.87,
       "change": -1165.28,
       "changePct": -2.63,
-      "asOf": "2026-11-12T05:33:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-12T05:33:15+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -129,12 +163,12 @@
       "name": "OTC 櫃買指數",
       "region": "TW",
       "currency": "NT$",
-      "price": 335.73,
-      "change": -8.38,
-      "changePct": -2.44,
-      "asOf": "2026-11-12T05:33:00+00:00",
-      "source": "TWSE MIS",
-      "priceType": "trade"
+      "price": null,
+      "change": null,
+      "changePct": null,
+      "asOf": null,
+      "source": null,
+      "priceType": null
     },
     {
       "id": "spx",
@@ -142,10 +176,10 @@
       "name": "S&P 500",
       "region": "US",
       "currency": "$",
-      "price": 7626.23,
-      "change": 6.85,
-      "changePct": 0.09,
-      "asOf": "2026-11-12T18:09:53+00:00",
+      "price": 7592.4,
+      "change": -26.98,
+      "changePct": -0.35,
+      "asOf": "2026-11-12T21:58:23+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -155,10 +189,10 @@
       "name": "NASDAQ",
       "region": "US",
       "currency": "$",
-      "price": 25457.834,
-      "change": -8.36,
-      "changePct": -0.03,
-      "asOf": "2026-11-12T18:09:51+00:00",
+      "price": 25366.094,
+      "change": -100.1,
+      "changePct": -0.39,
+      "asOf": "2026-11-12T22:15:59+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -168,10 +202,10 @@
       "name": "費城半導體 SOX",
       "region": "US",
       "currency": "$",
-      "price": 10511.879,
-      "change": -52.23,
-      "changePct": -0.49,
-      "asOf": "2026-11-12T18:09:50+00:00",
+      "price": 10506.674,
+      "change": -57.44,
+      "changePct": -0.54,
+      "asOf": "2026-11-12T22:15:59+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }

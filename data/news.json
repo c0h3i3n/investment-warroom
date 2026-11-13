@@ -1,487 +1,487 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T18:09:59.032Z",
-  "checkedAt": 1794506999032,
+  "generatedAt": "2026-11-13T00:09:18.761Z",
+  "checkedAt": 1794528558761,
   "data": [
     {
-      "headline": "黃仁勳卸任後再爆新調查！美方追查黃樂與美超微產品走私關聯",
-      "link": "https://news.cnyes.com/news/id/6661057",
-      "publishedAt": 1794505851000,
+      "headline": "晟德受惠子公司豐華生技ODM訂單挹注 Q3轉盈EPS 0.02元",
+      "link": "https://news.cnyes.com/news/id/6660950",
+      "publishedAt": 1794528111000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "黃仁勳風暴燒向川習會？分析師：中國明年恐連海外AI算力都難租",
+      "link": "https://news.cnyes.com/news/id/6661067",
+      "publishedAt": 1794528035000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "營收速報 - 2026年11月13日台股中小型公司10月營收一覽（新增822家）",
+      "link": "https://news.cnyes.com/news/id/6661199",
+      "publishedAt": 1794527711000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股營收"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "營收速報 - 2026年11月13日台股大型公司10月營收一覽（新增128家）",
+      "link": "https://news.cnyes.com/news/id/6661198",
+      "publishedAt": 1794527710000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股營收"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "黃仁勳請辭恐波及美開源AI SemiAnalysis揭輝達供應鏈與新創兩大考驗",
+      "link": "https://news.cnyes.com/news/id/6661112",
+      "publishedAt": 1794527403000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "輝達風險不只在股價！4000億美元承諾如何牽動AI資金鏈",
-      "link": "https://news.cnyes.com/news/id/6660966",
-      "publishedAt": 1794504603000,
+      "headline": "黃仁勳身家降至1,437億美元 跌出富豪榜前十、馬斯克資產為其6.3倍",
+      "link": "https://news.cnyes.com/news/id/6661191",
+      "publishedAt": 1794526807000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "盤中速報 - INJ大跌9.27%，報7.333美元",
-      "link": "https://news.cnyes.com/news/id/6661042",
-      "publishedAt": 1794504018000,
+      "headline": "〈貴金屬盤後〉川普宣稱不需要與伊朗達成協議 黃金下挫3%觸逾一年低點",
+      "link": "https://news.cnyes.com/news/id/6660387",
+      "publishedAt": 1794524353000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "虛擬貨幣盤中"
+        "黃金"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "輝達新加坡百億美元營收一夕消失！WSJ曝財報揭露方式突變更 Megaspeed疑雲再升高",
-      "link": "https://news.cnyes.com/news/id/6660386",
-      "publishedAt": 1794502803000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "外匯速報 - 美元/泰銖(USDTHB) 大漲0.47%，報33.9元",
-      "link": "https://news.cnyes.com/news/id/6661033",
-      "publishedAt": 1794501618000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "外匯盤中"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "盤中速報 - 達世幣大跌8.07%，報40.8美元",
-      "link": "https://news.cnyes.com/news/id/6661031",
-      "publishedAt": 1794501321000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "卸任還沒完！黃仁勳同意赴美國會作證 晶片出口爭議成焦點",
-      "link": "https://news.cnyes.com/news/id/6661003",
-      "publishedAt": 1794500878000,
+      "headline": "美司法部傳分案追查美超微走私疑雲、輝達反壟斷 兩檔股價雙雙重挫",
+      "link": "https://news.cnyes.com/news/id/6661132",
+      "publishedAt": 1794523841000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "鉅亨速報 - Factset 最新調查：吉利德科學(GILD-US)EPS預估下修至-0.99元，預估目標價為175.00元",
-      "link": "https://news.cnyes.com/news/id/6661002",
-      "publishedAt": 1794500132000,
+      "headline": "英特爾單日暴跌29%後 CEO火速斥資970萬美元加碼自家股票",
+      "link": "https://news.cnyes.com/news/id/6661136",
+      "publishedAt": 1794523202000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "華爾街如何看待黃仁勳辭職？",
+      "link": "https://news.cnyes.com/news/id/6661142",
+      "publishedAt": 1794522606000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "融資縮水新證？OpenAI據報新一輪募資約150億美元 僅達最初目標一半",
+      "link": "https://news.cnyes.com/news/id/6661046",
+      "publishedAt": 1794522606000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "川普首談黃仁勳請辭「看到這樣的事很難過」憂美國失去AI優勢",
+      "link": "https://news.cnyes.com/news/id/6661157",
+      "publishedAt": 1794522066000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "馬斯克手腳這麼快？網傳Terafab急徵CEO「立即上任」條件為黃仁勳量身打造",
+      "link": "https://news.cnyes.com/news/id/6661126",
+      "publishedAt": 1794522005000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Genmab - ADR(GMAB-US)EPS預估下修至1.24元，預估目標價為65.78元",
+      "link": "https://news.cnyes.com/news/id/6661165",
+      "publishedAt": 1794521740000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "盤中速報 - 超微半導體(AMD-US)大漲5.18%，報581.52美元",
-      "link": "https://news.cnyes.com/news/id/6661000",
-      "publishedAt": 1794499979000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "鉅亨速報 - Factset 最新調查：TIM SA - ADR(TIMB-US)EPS預估下修至1.68元，預估目標價為20.51元",
+      "link": "https://news.cnyes.com/news/id/6661164",
+      "publishedAt": 1794521737000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
-        "美股盤中"
+        "美股預估"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "盤中速報 - Quant大跌8.63%，報163.75美元",
-      "link": "https://news.cnyes.com/news/id/6660998",
-      "publishedAt": 1794499524000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "鉅亨速報 - Factset 最新調查：Nebius Group N.V. Class A(NBIS-US)EPS預估上修至-1.8元，預估目標價為275.00元",
+      "link": "https://news.cnyes.com/news/id/6661163",
+      "publishedAt": 1794521732000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
-        "虛擬貨幣盤中"
+        "美股預估"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "盤中速報 - Arbitrum大跌9.86%，報0.15美元",
-      "link": "https://news.cnyes.com/news/id/6660997",
-      "publishedAt": 1794499523000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "鉅亨速報 - Factset 最新調查：Bancolombia S.A. - ADR(CIB-US)EPS預估下修至11.32元，預估目標價為105.00元",
+      "link": "https://news.cnyes.com/news/id/6661162",
+      "publishedAt": 1794521730000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
-        "虛擬貨幣盤中"
+        "美股預估"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "盤中速報 - AAVE大跌8.58%，報113.3美元",
-      "link": "https://news.cnyes.com/news/id/6660996",
-      "publishedAt": 1794499523000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "鉅亨速報 - Factset 最新調查：Twist Bioscience Corp(TWST-US)EPS預估下修至-1.39元，預估目標價為170.00元",
+      "link": "https://news.cnyes.com/news/id/6661161",
+      "publishedAt": 1794521725000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
-        "虛擬貨幣盤中"
+        "美股預估"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "盤中速報 - Ethena大跌9.83%，報0.14美元",
-      "link": "https://news.cnyes.com/news/id/6660995",
-      "publishedAt": 1794499522000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "headline": "鉅亨速報 - Factset 最新調查：Twist Bioscience CorpTWST-US的目標價調降至170元，幅度約9.81%",
+      "link": "https://news.cnyes.com/news/id/6661160",
+      "publishedAt": 1794521722000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
-        "虛擬貨幣盤中"
+        "美股預估"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "盤中速報 - UNI大跌8.14%，報6.03美元",
-      "link": "https://news.cnyes.com/news/id/6660994",
-      "publishedAt": 1794499522000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "盤中速報 - NEAR大跌9.14%，報3.411美元",
-      "link": "https://news.cnyes.com/news/id/6660993",
-      "publishedAt": 1794499521000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "黃仁勳辭職後管制恐再收緊！美眾院議長：對中國晶片出口限制共識升溫",
-      "link": "https://news.cnyes.com/news/id/6660946",
-      "publishedAt": 1794499205000,
+      "headline": "〈美股盤後〉黃仁勳閃辭後 輝達市值一夕蒸發超1800億美元 四大指數全黑",
+      "link": "https://news.cnyes.com/news/id/6660716",
+      "publishedAt": 1794521033000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "盤中速報 - 思佳訊半導體(SWKS-US)大漲5.39%，報92.37美元",
-      "link": "https://news.cnyes.com/news/id/6660971",
-      "publishedAt": 1794498856000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "盤中速報 - 博通(AVGO-US)大漲5.02%，報362.56美元",
-      "link": "https://news.cnyes.com/news/id/6660969",
-      "publishedAt": 1794498618000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "盤中速報 - UNI大跌8.92%，報5.95美元",
-      "link": "https://news.cnyes.com/news/id/6660968",
-      "publishedAt": 1794498617000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "盤中速報 - 芯源系統(MPWR-US)大跌5.05%，報1404.09美元",
-      "link": "https://news.cnyes.com/news/id/6660967",
-      "publishedAt": 1794498497000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "盤中速報 - 萊迪思半導體(LSCC-US)大跌5.37%，報116.18美元",
-      "link": "https://news.cnyes.com/news/id/6660965",
-      "publishedAt": 1794498453000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "盤中速報 - 超微電腦(SMCI-US)大跌8.33%，報27.9美元",
-      "link": "https://news.cnyes.com/news/id/6660964",
-      "publishedAt": 1794498451000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "盤中速報 - 胡椒博士集團(KDP-US)大跌5.24%，報36.25美元",
-      "link": "https://news.cnyes.com/news/id/6660963",
-      "publishedAt": 1794498450000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "盤中速報 - Palo Alto Networks Inc(PANW-US)大跌5.22%，報317美元",
-      "link": "https://news.cnyes.com/news/id/6660962",
-      "publishedAt": 1794498449000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "盤中速報 - 輝達(NVDA-US)大跌5.83%，報163.61美元",
-      "link": "https://news.cnyes.com/news/id/6660961",
-      "publishedAt": 1794498449000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "黃仁勳閃辭！川普建議庫克接輝達執行長",
-      "link": "https://news.cnyes.com/news/id/6660957",
-      "publishedAt": 1794498276000,
+      "headline": "黃仁勳離場 AI算力週期面臨重定價？市場焦點轉向融資與資本支出",
+      "link": "https://news.cnyes.com/news/id/6661045",
+      "publishedAt": 1794520203000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "黃仁勳辭職震撼彈！輝達市值跌破4兆美元 數周蒸發2兆",
-      "link": "https://news.cnyes.com/news/id/6660953",
-      "publishedAt": 1794498193000,
+      "headline": "《CNBC》揭小三黃樂與輝達對手「華為雲」商業關聯！牽出深圳資料中心",
+      "link": "https://news.cnyes.com/news/id/6661127",
+      "publishedAt": 1794518408000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "外匯速報 - 美元/南非蘭特(USDZAR) 大漲1.03%，報16.7614元",
-      "link": "https://news.cnyes.com/news/id/6660956",
-      "publishedAt": 1794497424000,
+      "headline": "〈台股盤前要聞〉MSCI調整PCB獲青睞、鴻海上修全年展望、黃仁勳辭輝達執行長",
+      "link": "https://news.cnyes.com/news/id/6660917",
+      "publishedAt": 1794517804000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "外匯盤中"
+        "台股盤勢"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "從管錢到掌舵！克瑞斯如何接下黃仁勳留下的大局？",
-      "link": "https://news.cnyes.com/news/id/6660903",
-      "publishedAt": 1794497405000,
+      "headline": "【袁志峰專欄】港股調整已近尾聲",
+      "link": "https://news.cnyes.com/news/id/6660945",
+      "publishedAt": 1794516603000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股雷達"
+        "鉅亨新視界"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "盤中速報 - 思佳訊半導體(SWKS-US)大漲5.02%，報92.04美元",
-      "link": "https://news.cnyes.com/news/id/6660954",
-      "publishedAt": 1794497284000,
+      "headline": "〈能源盤後〉沙國能源設施遇襲、荷莫茲海峽航運受阻 油價反彈逾2美元",
+      "link": "https://news.cnyes.com/news/id/6661043",
+      "publishedAt": 1794516112000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "能源"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "AI資金鏈少了黃仁勳怎麼辦？分析師點出兩大考驗",
-      "link": "https://news.cnyes.com/news/id/6660881",
-      "publishedAt": 1794495789000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "盤中速報 - 博通(AVGO-US)大漲5.14%，報362.98美元",
-      "link": "https://news.cnyes.com/news/id/6660935",
-      "publishedAt": 1794495116000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "盤中速報 - Palo Alto Networks Inc(PANW-US)大跌5.24%，報316.94美元",
-      "link": "https://news.cnyes.com/news/id/6660934",
-      "publishedAt": 1794495029000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "盤中速報 - 萊迪思半導體(LSCC-US)大跌5.07%，報116.54美元",
-      "link": "https://news.cnyes.com/news/id/6660933",
-      "publishedAt": 1794495028000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794506999032
-    },
-    {
-      "headline": "黃仁勳下台！輝達股價開盤暴跌13% 市值蒸發5,000億美元",
-      "link": "https://news.cnyes.com/news/id/6660919",
-      "publishedAt": 1794494811000,
+      "headline": "新加坡出手了！黃仁勳「小三」黃樂遭禁再入境",
+      "link": "https://news.cnyes.com/news/id/6655909",
+      "publishedAt": 1794516003000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "盤中速報 - 英特格(ENTG-US)大跌5.15%，報146.29美元",
-      "link": "https://news.cnyes.com/news/id/6660932",
-      "publishedAt": 1794494753000,
+      "headline": "鉅亨速報 - Factset 最新調查：聯營投資管理集團(AMG-US)EPS預估上修至38.18元，預估目標價為456.00元",
+      "link": "https://news.cnyes.com/news/id/6661125",
+      "publishedAt": 1794514540000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Enlight Renewable Energy Ltd(ENLT-US)EPS預估上修至0.6元，預估目標價為77.50元",
+      "link": "https://news.cnyes.com/news/id/6661124",
+      "publishedAt": 1794514538000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Immunovant Inc(IMVT-US)EPS預估上修至-2.32元，預估目標價為48.00元",
+      "link": "https://news.cnyes.com/news/id/6661123",
+      "publishedAt": 1794514537000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Coinbase Global Inc - Class A(COIN-US)EPS預估上修至-0.31元，預估目標價為197.50元",
+      "link": "https://news.cnyes.com/news/id/6661122",
+      "publishedAt": 1794514532000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：怡安集團AON-US的目標價調升至375元，幅度約3.02%",
+      "link": "https://news.cnyes.com/news/id/6661121",
+      "publishedAt": 1794514530000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Tempus AI, Inc. Class A(TEM-US)EPS預估上修至-0.04元，預估目標價為89.50元",
+      "link": "https://news.cnyes.com/news/id/6661120",
+      "publishedAt": 1794514529000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：美高梅度假村國際MGM-US的目標價調降至36元，幅度約7.69%",
+      "link": "https://news.cnyes.com/news/id/6661119",
+      "publishedAt": 1794514525000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "黃仁勳請辭輝達利空出盡？郭明錤點名Google TPU最大受惠 接班影響最快2028年浮現",
+      "link": "https://news.cnyes.com/news/id/6660721",
+      "publishedAt": 1794514203000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "美股雷達"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "盤中速報 - 莫德納(MRNA-US)大跌5.3%，報235.5美元",
-      "link": "https://news.cnyes.com/news/id/6660931",
-      "publishedAt": 1794494737000,
+      "headline": "黃仁勳離開輝達 最痛的卻是中國？外媒專欄揭兩大衝擊",
+      "link": "https://news.cnyes.com/news/id/6660951",
+      "publishedAt": 1794513605000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "美股雷達"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "盤中速報 - 伊魯米納(ILMN-US)大跌5.56%，報201.1美元",
-      "link": "https://news.cnyes.com/news/id/6660930",
-      "publishedAt": 1794494734000,
+      "headline": "輝達剛換帥又爆新料！《路透》：黃仁勳傳與另一名員工有親密關係",
+      "link": "https://news.cnyes.com/news/id/6661114",
+      "publishedAt": 1794512962000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "美股雷達"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "盤中速報 - Onto Innovation Inc.(ONTO-US)大跌6.15%，報201.83美元",
-      "link": "https://news.cnyes.com/news/id/6660929",
-      "publishedAt": 1794494726000,
+      "headline": "黃仁勳下台同日！Megaspeed打破沉默 曝美方查核進展",
+      "link": "https://news.cnyes.com/news/id/6657861",
+      "publishedAt": 1794512403000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "美股雷達"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
     },
     {
-      "headline": "盤中速報 - 胡椒博士集團(KDP-US)大跌5.02%，報36.33美元",
-      "link": "https://news.cnyes.com/news/id/6660928",
-      "publishedAt": 1794494719000,
+      "headline": "黃仁勳離職代價多大？放棄1.08億美元獎酬 身家盤中縮水68億美元",
+      "link": "https://news.cnyes.com/news/id/6661034",
+      "publishedAt": 1794511804000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "盤中速報 - 莫德納(MRNA-US)大跌5%，報236.25美元",
+      "link": "https://news.cnyes.com/news/id/6661101",
+      "publishedAt": 1794510326000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794506999032
+      "fetchedAt": 1794528558761
+    },
+    {
+      "headline": "黃仁勳風暴延燒！傳白宮討論是否撤換商務部長盧特尼克",
+      "link": "https://news.cnyes.com/news/id/6661080",
+      "publishedAt": 1794510025000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794528558761
     }
   ],
   "failedSources": [],

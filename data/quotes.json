@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-12T18:09:53.989986+00:00",
-  "generatedAt": "2026-11-12T18:09:53.989986+00:00",
+  "timestamp": "2026-11-13T00:09:15.946003+00:00",
+  "generatedAt": "2026-11-13T00:09:15.946003+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-11-13",
-    "attemptedAt": 1794506991279,
+    "attemptedAt": 1794528553685,
     "annual": {
       "year": 2026,
       "closed": [
@@ -67,6 +67,40 @@
         ],
         "checkedAt": 1794422206101,
         "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
+      },
+      "2027": {
+        "year": 2027,
+        "closed": [
+          "2027-01-01",
+          "2027-02-01",
+          "2027-02-02",
+          "2027-02-03",
+          "2027-02-04",
+          "2027-02-05",
+          "2027-02-06",
+          "2027-02-07",
+          "2027-02-08",
+          "2027-02-09",
+          "2027-02-10",
+          "2027-02-28",
+          "2027-03-01",
+          "2027-04-04",
+          "2027-04-05",
+          "2027-04-06",
+          "2027-04-30",
+          "2027-05-01",
+          "2027-06-09",
+          "2027-09-15",
+          "2027-09-28",
+          "2027-10-10",
+          "2027-10-11",
+          "2027-10-25",
+          "2027-12-24",
+          "2027-12-25",
+          "2027-12-31"
+        ],
+        "checkedAt": 1794528553685,
+        "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
       }
     },
     "closures": [
@@ -86,26 +120,26 @@
     ],
     "checks": {
       "annual": {
-        "ok": true,
+        "ok": false,
         "checkedAt": 1794506991279,
-        "error": null
+        "error": "Official calendar year/shape mismatch"
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1794506991279,
+        "checkedAt": 1794528553685,
         "error": null
       },
       "futures": {
         "ok": true,
-        "checkedAt": 1794506991279,
+        "checkedAt": 1794528553685,
         "error": null
       }
     },
     "preload": {
       "year": 2027,
-      "status": "pending-publication",
-      "attemptedAt": 1794422206101,
-      "providerYear": 2026,
+      "status": "ready",
+      "attemptedAt": 1794528553685,
+      "verifiedAt": 1794528553685,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     }
   },
@@ -116,8 +150,8 @@
       "price": 100.95,
       "change": -2.25,
       "changePct": -2.18,
-      "asOf": "2026-11-12T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-12T05:30:02+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -126,8 +160,8 @@
       "price": 2340.0,
       "change": -55.0,
       "changePct": -2.3,
-      "asOf": "2026-11-12T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-12T05:30:01+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -136,8 +170,8 @@
       "price": 26.61,
       "change": 0.22,
       "changePct": 0.83,
-      "asOf": "2026-11-12T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-12T05:30:01+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -146,8 +180,8 @@
       "price": 33.0,
       "change": -0.5,
       "changePct": -1.49,
-      "asOf": "2026-11-12T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-12T05:30:02+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -156,8 +190,8 @@
       "price": 25.21,
       "change": -0.61,
       "changePct": -2.36,
-      "asOf": "2026-11-12T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-12T05:30:08+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -166,8 +200,8 @@
       "price": 15.85,
       "change": 0.09,
       "changePct": 0.57,
-      "asOf": "2026-11-12T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-12T05:30:26+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -176,187 +210,187 @@
       "price": 14.44,
       "change": 0.09,
       "changePct": 0.63,
-      "asOf": "2026-11-12T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-12T05:30:26+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "009800.TW",
       "name": "",
       "price": 12.84,
-      "change": 0.0,
-      "changePct": 0.0,
-      "asOf": "2026-11-12T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "change": 0,
+      "changePct": 0,
+      "asOf": "2026-11-12T05:30:16+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "SPCX",
       "name": "",
-      "price": 142.58,
-      "change": 2.83,
-      "changePct": 2.03,
-      "asOf": "2026-11-12T18:09:56+00:00",
+      "price": 139.94,
+      "change": 0.19,
+      "changePct": 0.14,
+      "asOf": "2026-11-12T21:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "NVDA",
       "name": "",
-      "price": 165.435,
-      "change": -8.29,
-      "changePct": -4.77,
-      "asOf": "2026-11-12T18:09:56+00:00",
+      "price": 166.19,
+      "change": -7.54,
+      "changePct": -4.34,
+      "asOf": "2026-11-12T21:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "TSM",
       "name": "",
-      "price": 407.025,
-      "change": -6.33,
-      "changePct": -1.53,
-      "asOf": "2026-11-12T18:09:56+00:00",
+      "price": 405.49,
+      "change": -7.86,
+      "changePct": -1.9,
+      "asOf": "2026-11-12T21:00:02+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "TSLA",
       "name": "",
-      "price": 391.49,
-      "change": 0.67,
-      "changePct": 0.17,
-      "asOf": "2026-11-12T18:09:53+00:00",
+      "price": 397.45,
+      "change": 6.63,
+      "changePct": 1.7,
+      "asOf": "2026-11-12T21:00:00+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "MSFT",
       "name": "",
-      "price": 528.5,
-      "change": 7.38,
-      "changePct": 1.42,
-      "asOf": "2026-11-12T18:09:55+00:00",
+      "price": 523.0,
+      "change": 1.88,
+      "changePct": 0.36,
+      "asOf": "2026-11-12T21:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "GOOGL",
       "name": "",
-      "price": 301.815,
-      "change": 8.36,
-      "changePct": 2.85,
-      "asOf": "2026-11-12T18:09:56+00:00",
+      "price": 298.7,
+      "change": 5.25,
+      "changePct": 1.79,
+      "asOf": "2026-11-12T21:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AMZN",
       "name": "",
-      "price": 268.965,
-      "change": 2.79,
-      "changePct": 1.05,
-      "asOf": "2026-11-12T18:09:57+00:00",
+      "price": 267.44,
+      "change": 1.27,
+      "changePct": 0.48,
+      "asOf": "2026-11-12T21:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AAPL",
       "name": "",
-      "price": 355.56,
-      "change": 0.2,
-      "changePct": 0.06,
-      "asOf": "2026-11-12T18:09:56+00:00",
+      "price": 354.88,
+      "change": -0.48,
+      "changePct": -0.14,
+      "asOf": "2026-11-12T21:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AMD",
       "name": "",
-      "price": 578.35,
-      "change": 25.45,
-      "changePct": 4.6,
-      "asOf": "2026-11-12T18:09:56+00:00",
+      "price": 585.3,
+      "change": 32.4,
+      "changePct": 5.86,
+      "asOf": "2026-11-12T21:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AVGO",
       "name": "",
-      "price": 363.27,
-      "change": 18.05,
-      "changePct": 5.23,
-      "asOf": "2026-11-12T18:09:56+00:00",
+      "price": 364.36,
+      "change": 19.14,
+      "changePct": 5.54,
+      "asOf": "2026-11-12T21:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "META",
       "name": "",
-      "price": 625.0,
-      "change": -3.77,
-      "changePct": -0.6,
-      "asOf": "2026-11-12T18:09:56+00:00",
+      "price": 623.61,
+      "change": -5.16,
+      "changePct": -0.82,
+      "asOf": "2026-11-12T21:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "MU",
       "name": "",
-      "price": 792.12,
-      "change": -19.18,
-      "changePct": -2.36,
-      "asOf": "2026-11-12T18:09:56+00:00",
+      "price": 798.44,
+      "change": -12.86,
+      "changePct": -1.59,
+      "asOf": "2026-11-12T21:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "ANET",
       "name": "",
-      "price": 204.41,
-      "change": 7.73,
-      "changePct": 3.93,
-      "asOf": "2026-11-12T18:09:49+00:00",
+      "price": 206.63,
+      "change": 9.95,
+      "changePct": 5.06,
+      "asOf": "2026-11-12T21:00:02+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "VRT",
       "name": "",
-      "price": 211.9,
-      "change": 5.39,
-      "changePct": 2.61,
-      "asOf": "2026-11-12T18:09:55+00:00",
+      "price": 209.64,
+      "change": 3.13,
+      "changePct": 1.52,
+      "asOf": "2026-11-12T21:00:03+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "ASML",
       "name": "",
-      "price": 1513.435,
-      "change": -20.98,
-      "changePct": -1.37,
-      "asOf": "2026-11-12T18:09:55+00:00",
+      "price": 1497.12,
+      "change": -37.3,
+      "changePct": -2.43,
+      "asOf": "2026-11-12T21:00:01+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "ORCL",
       "name": "",
-      "price": 127.3,
-      "change": -1.08,
-      "changePct": -0.84,
-      "asOf": "2026-11-12T18:09:53+00:00",
+      "price": 127.11,
+      "change": -1.27,
+      "changePct": -0.99,
+      "asOf": "2026-11-12T21:04:03+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "PLTR",
       "name": "",
-      "price": 172.075,
-      "change": -0.32,
-      "changePct": -0.19,
-      "asOf": "2026-11-12T18:09:49+00:00",
+      "price": 171.58,
+      "change": -0.82,
+      "changePct": -0.48,
+      "asOf": "2026-11-12T21:00:00+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
