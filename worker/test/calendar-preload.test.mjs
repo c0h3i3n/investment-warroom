@@ -15,9 +15,39 @@ const rss=at=>`<rss><channel><title>TSEC FEED</title><item><title>市場消息</
 const html='<html><header>臺灣期貨交易所</header></html>';
 function sources(url,at=now) {
   const u=String(url);
-  if(u.includes('holidaySchedule')) return Response.json(annual(Number(new URL(u).searchParams.get('queryYear'))));
+  // TWSE reads date=YYYYMMDD; queryYear is response metadata, not a query parameter.
+  if(u.includes('holidaySchedule')) return Response.json(annual(Number(new URL(u).searchParams.get('date')?.slice(0,4)||2027)));
   return new Response(u.includes('twse.com.tw')?rss(at):html);
 }
+
+test('annual requests select this year even when the provider default has rolled to next year',async t=>{
+  const original=globalThis.fetch;t.after(()=>{globalThis.fetch=original;});
+  const urls=[];
+  globalThis.fetch=async url=>{urls.push(String(url));return sources(url);};
+  const state=await refreshOfficialCalendar(null,now,false);
+  assert.equal(state.checks.annual.ok,true);
+  assert.equal(state.annual.year,2026);
+  assert.equal(state.annuals[2027].year,2027);
+  assert.ok(urls.includes(`${SOURCES.annual}&date=20260101`));
+  assert.ok(urls.includes(`${SOURCES.annual}&date=20270101`));
+});
+
+test('annual and notice verification retain independent failure states',()=>{
+  const ctx=vm.createContext({Date,Intl,now});
+  vm.runInContext(fs.readFileSync(new URL('../../js/market-calendar.js',import.meta.url),'utf8'),ctx);
+  ctx.state={schemaVersion:1,date:'2026-10-26',attemptedAt:now,closures:[],
+    annual:{year:2026,closed:[]},checks:{annual:{ok:false},notices:{ok:true,checkedAt:now}}};
+  vm.runInContext('MarketCalendar.applyOfficial(state)',ctx);
+  let v=vm.runInContext('MarketCalendar.verification(now)',ctx);
+  assert.equal(v.checked,false);assert.equal(v.annualChecked,false);assert.equal(v.noticesChecked,true);
+  assert.equal(v.status,'unverified');assert.equal(v.checkedAt,now);
+  ctx.state.checks={annual:{ok:true},notices:{ok:false,checkedAt:now}};
+  v=vm.runInContext('MarketCalendar.verification(now)',ctx);
+  assert.equal(v.checked,false);assert.equal(v.annualChecked,true);assert.equal(v.noticesChecked,false);
+  ctx.state.checks.notices.ok=true;
+  assert.equal(vm.runInContext('MarketCalendar.verification(now).status',ctx),'scheduled');
+  assert.equal(vm.runInContext('MarketCalendar.verification(now+11*60000).noticesChecked',ctx),false);
+});
 
 test('transient official network failure is retried once and a permanent HTTP error is not hammered',async t=>{
   const original=globalThis.fetch;t.after(()=>{globalThis.fetch=original;});
@@ -59,7 +89,7 @@ test('independent backup starts before primary retries and keeps its original ve
 test('unpublished next-year response is recorded as pending without importing another year and is retried daily',async t=>{
   const original=globalThis.fetch;t.after(()=>{globalThis.fetch=original;});let futureRequests=0;
   globalThis.fetch=async url=>{
-    if(String(url).includes('queryYear=2027')) {futureRequests++;return Response.json(annual(2026));}
+    if(String(url).includes('date=20270101')) {futureRequests++;return Response.json(annual(2026));}
     return sources(url);
   };
   const first=await refreshOfficialCalendar(null,now,false);
@@ -95,7 +125,7 @@ test('year rollover uses verified prefetched dates when the current-year endpoin
   const prior=await refreshOfficialCalendar(null,fetched,false);
   const rolled=Date.parse('2027-01-01T01:00:00Z');let currentRequests=0;
   globalThis.fetch=async url=>{
-    if(String(url).includes('queryYear=2027')){currentRequests++;throw new Error('offline');}
+    if(String(url).includes('date=20270101')){currentRequests++;throw new Error('offline');}
     return sources(url,rolled);
   };
   const result=await refreshOfficialCalendar(prior,rolled,false);
@@ -108,14 +138,14 @@ test('year rollover uses verified prefetched dates when the current-year endpoin
 
 test('bad future schemas are rejected and a later wrong-year response never overwrites verified dates',async t=>{
   const original=globalThis.fetch;t.after(()=>{globalThis.fetch=original;});
-  globalThis.fetch=async url=>String(url).includes('queryYear=2027')
+  globalThis.fetch=async url=>String(url).includes('date=20270101')
     ? Response.json({...annual(2027),data:[['bad']]}) : sources(url);
   const bad=await refreshOfficialCalendar(null,now,false);
   assert.equal(bad.preload.status,'unavailable');
   assert.equal(bad.annuals[2027],undefined);
   globalThis.fetch=async url=>sources(url);
   const valid=await refreshOfficialCalendar(null,now,false);
-  globalThis.fetch=async url=>String(url).includes('queryYear=2027')?Response.json(annual(2026)):sources(url,now+86400001);
+  globalThis.fetch=async url=>String(url).includes('date=20270101')?Response.json(annual(2026)):sources(url,now+86400001);
   const later=await refreshOfficialCalendar(valid,now+86400001,false);
   assert.equal(later.preload.status,'ready');
   assert.deepEqual(later.annuals[2027],valid.annuals[2027]);

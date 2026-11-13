@@ -66,7 +66,7 @@ const App = (() => {
         : verification.status === 'closed-calendar' ? '台股依日曆休市'
         : verification.status === 'scheduled' ? '台股依年度日曆預定交易；截至查核未發現明確休市公告'
         : '台股開休市官方查核尚未確認；交易時段僅供參考';
-      calendarNote.textContent = `${description} · 公告查核 ${time}${verification.checked ? '' : '（本次查核未完成或已逾時）'}`;
+      calendarNote.textContent = `${description} · 年度日曆${verification.annualChecked ? '已確認' : '待確認'} · 公告查核 ${time}${verification.noticesChecked ? '' : '（本次查核未完成或已逾時）'}`;
       calendarNote.href = verification.source;
       calendarNote.dataset.state = verification.status;
       if (verification.futuresClosure) calendarNote.textContent += ' · 期交所已公告當日日盤及夜盤休市';

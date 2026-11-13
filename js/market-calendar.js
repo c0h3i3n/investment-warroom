@@ -1,6 +1,6 @@
 // Sources: https://www.nyse.com/trade/hours-calendars (2026–2027)
 // https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json (TW: 2026)
-// Checked 2026-09-20: requesting TW 2027 still returns queryYear:2026. Do not infer it.
+// TW年度資料以官方 date=YYYYMMDD 查詢並逐年驗證，不以端點預設年份推定。
 // Update the published exchange calendar annually, including exceptional closures.
 globalThis.MARKET_HOLIDAYS = /* calendar:start */ {
   "US": ["2026-01-01","2026-01-19","2026-02-16","2026-04-03","2026-05-25","2026-06-19","2026-07-03","2026-09-07","2026-11-26","2026-12-25","2027-01-01","2027-01-18","2027-02-15","2027-03-26","2027-05-31","2027-06-18","2027-07-05","2027-09-06","2027-11-25","2027-12-24"],
@@ -44,10 +44,12 @@ globalThis.MarketCalendar = (() => {
       && now - official.attemptedAt <= 10 * 60000;
     const recentCheck = name => fresh && official.checks?.[name]?.ok
       && now >= official.checks[name].checkedAt && now - official.checks[name].checkedAt <= 10 * 60000;
-    const checked = Boolean(fresh && official.checks?.annual?.ok && recentCheck('notices'));
+    const annualChecked = Boolean(fresh && official.checks?.annual?.ok);
+    const noticesChecked = Boolean(recentCheck('notices'));
+    const checked = annualChecked && noticesChecked;
     return { date, status: notice ? 'closed-announcement' : !scheduledTradingDay('TW', day)
       ? 'closed-calendar' : checked ? 'scheduled' : 'unverified',
-      checked, checkedAt: official?.checks?.notices?.checkedAt || null,
+      checked, annualChecked, noticesChecked, checkedAt: official?.checks?.notices?.checkedAt || null,
       reason: notice?.reason || null, source: notice?.source || 'https://www.twse.com.tw/zh/terms/rss.html',
       futuresChecked: Boolean(recentCheck('futures')),
       futuresClosure: closure('TAIFEX', day) || null };

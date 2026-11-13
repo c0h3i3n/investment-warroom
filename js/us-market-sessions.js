@@ -34,6 +34,13 @@ globalThis.UsMarketSessions = (() => {
   }
   const validSymbol = value => typeof value==='string'&&/^[A-Z][A-Z0-9.-]{0,14}$/.test(value)&&! /\.(TW|TWO)$/.test(value);
   const positive = value => typeof value==='number'&&Number.isFinite(value)&&value>0;
+  // Explicit regularMarket* quotes can be reported after the closing auction.
+  // Allow their reporting time through the same day's extended session only;
+  // intraday candles continue to use strict, non-overlapping session bounds.
+  function regularQuoteTime(time,day,now) {
+    const hours=schedule(day);
+    return Number.isFinite(time)&&time>=hours.regular.start&&time<=hours.post.end&&time<=now;
+  }
   function view(snapshot,now=Date.now()) {
     const clock=context(now);
     const usable=snapshot?.schemaVersion===1&&snapshot.sessionDay===clock.sessionDay;
@@ -42,7 +49,7 @@ globalThis.UsMarketSessions = (() => {
       const bounds=clock.schedule[key], candidate=usable?snapshot.sessions?.[key]:null;
       const quote=candidate&&positive(candidate.price)&&Number.isFinite(candidate.asOf)
         &&candidate.asOf>=bounds.start&&candidate.asOf<=now
-        &&(candidate.asOf<bounds.end||(key==='regular'&&candidate.kind==='regular-quote'&&candidate.asOf<=bounds.end+60000)) ? candidate:null;
+        &&(candidate.asOf<bounds.end||(key==='regular'&&candidate.kind==='regular-quote'&&regularQuoteTime(candidate.asOf,clock.sessionDay,now))) ? candidate:null;
       const reference=quote&&positive(quote.reference)?quote.reference:null;
       slots[key]={...bounds,quote,reference,
         change:quote&&reference?quote.price-reference:null,
@@ -51,5 +58,5 @@ globalThis.UsMarketSessions = (() => {
     }
     return {...clock,slots};
   }
-  return {names,parts,at,schedule,context,validSymbol,positive,view};
+  return {names,parts,at,schedule,context,validSymbol,positive,regularQuoteTime,view};
 })();

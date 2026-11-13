@@ -63,11 +63,39 @@ test('invalid prices and future bars are omitted, and mismatched symbols, curren
   assert.equal(S.validSymbol('../NVDA'),false);assert.equal(S.validSymbol('2330.TW'),false);
 });
 
-test('normal closing prints up to one minute after the boundary remain regular quotes, not aftermarket candles',()=>{
-  const f=fixture();f.chart.result[0].meta.regularMarketTime+=1;
+test('explicit regular-market quotes reported after the close keep the normal price and post-market baseline',()=>{
+  const f=fixture();f.chart.result[0].meta.regularMarketTime+=243;
+  f.chart.result[0].meta.regularMarketPrice=127.11;
   const now=stamp('2026-11-12T02:00Z'),data=parseUsSessions(f,'NVDA',now);
+  assert.equal(S.view(data,now).slots.regular.quote.price,127.11);
+  assert.equal(data.sessions.regular.kind,'regular-quote');
+  assert.equal(data.sessions.post.reference,127.11);
+});
+
+test('late normal quotes also respect early closes; after-hours candles never become the normal closing baseline',()=>{
+  const day='2026-11-27',now=S.at(day,1100),f=fixture(day),meta=f.chart.result[0].meta;
+  meta.regularMarketTime=S.at(day,784)/1000;
+  const data=parseUsSessions(f,'NVDA',now);
   assert.equal(S.view(data,now).slots.regular.quote.price,110);
   assert.equal(data.sessions.post.reference,110);
+  delete meta.regularMarketPrice;
+  const missing=parseUsSessions(f,'NVDA',now);
+  assert.equal(missing.sessions.post.reference,null);
+  const forged={...missing,sessions:{...missing.sessions,regular:{price:999,asOf:S.at(day,784),kind:'5m-close'}}};
+  assert.equal(S.view(forged,now).slots.regular.quote,null);
+});
+
+test('future and out-of-session normal quote timestamps cannot establish a closing baseline',()=>{
+  for(const minute of [239,1201]) {
+    const f=fixture();f.chart.result[0].meta.regularMarketTime=S.at('2026-11-11',minute)/1000;
+    const data=parseUsSessions(f,'NVDA',stamp('2026-11-12T02:00Z'));
+    assert.equal(data.sessions.regular.kind,'5m-close');
+    assert.equal(data.sessions.post.reference,null);
+  }
+  const f=fixture();f.chart.result[0].meta.regularMarketTime=S.at('2026-11-11',965)/1000;
+  const now=S.at('2026-11-11',964),data=parseUsSessions(f,'NVDA',now);
+  assert.equal(data.sessions.post.reference,null);
+  assert.equal(S.view({...data,sessions:{regular:{price:999,kind:'regular-quote',asOf:now+1}}},now).slots.regular.quote,null);
 });
 
 test('previous-day data disappears at the next premarket; delayed active bars are not called live',()=>{

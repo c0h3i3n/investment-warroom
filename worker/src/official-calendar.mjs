@@ -6,6 +6,8 @@ export const SOURCES = {
   futures: 'https://www.taifex.com.tw/cht/index',
 };
 const DAY = 86400000;
+// Matches the exchange's holiday form: queryYear is only a response field.
+const annualUrl = year => `${SOURCES.annual}&date=${year}0101`;
 const BACKUP_URL='https://c0h3i3n.github.io/investment-warroom/data/calendar.json';
 const text = value => String(value || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
   .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
@@ -122,7 +124,7 @@ async function preloadYear(prior,year,now) {
   if(attempt && now>=attempt.attemptedAt && now-attempt.attemptedAt<retryAfter
     && (attempt.status!=='ready'||validAnnualSnapshot(saved,year,now))) return {...attempt,calendar:saved};
   try {
-    const payload=await (await get(`${SOURCES.annual}&queryYear=${year}`,false)).json();
+    const payload=await (await get(annualUrl(year),false)).json();
     if(payload?.stat==='ok' && Number.isInteger(Number(payload.queryYear)) && Number(payload.queryYear)!==year) {
       return {year,status:validAnnualSnapshot(saved,year,now)?'ready':'pending-publication',
         attemptedAt:now,providerYear:Number(payload.queryYear),source:SOURCES.annual,calendar:saved};
@@ -149,7 +151,7 @@ export async function refreshOfficialCalendar(previous = null, now = Date.now(),
   const [annual, notices, futures, preload] = await Promise.allSettled([
     current?.year === year && now>=current.checkedAt && now - current.checkedAt < DAY
       ? current
-      : get(`${SOURCES.annual}&queryYear=${year}`).then(r => r.json())
+      : get(annualUrl(year)).then(r => r.json())
         .then(data => ({ ...parseAnnualCalendar(data, year), checkedAt: now, source: SOURCES.annual })),
     get(SOURCES.notices).then(r => r.text()).then(xml => parseTwseNotices(xml, now)),
     get(SOURCES.futures).then(r => r.text()).then(parseTaifexEmergency),

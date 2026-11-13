@@ -19,16 +19,15 @@ export function parseUsSessions(payload,symbol,now=Date.now()) {
       sessions[key]={price,asOf,kind:'5m-close',reference:null};
   });
   const regularTime=Number(meta.regularMarketTime)*1000;
-  const sameDay=Number.isFinite(regularTime)&&S.parts(regularTime).day===clock.sessionDay;
-  if(sameDay&&S.positive(meta.regularMarketPrice)&&regularTime<=now
-    &&regularTime>=clock.schedule.regular.start&&regularTime<=clock.schedule.regular.end+60000
+  const sameDay=S.regularQuoteTime(regularTime,clock.sessionDay,now);
+  if(sameDay&&S.positive(meta.regularMarketPrice)
     &&(!sessions.regular||regularTime>=sessions.regular.asOf)) {
     sessions.regular={price:meta.regularMarketPrice,asOf:regularTime,kind:'regular-quote',reference:null};
   }
   // chartPreviousClose belongs to the beginning of the multi-day chart, not yesterday.
   const previousDay=new Date(MarketCalendar.latestSession('US',Date.parse(clock.sessionDay)-86400000,1440)).toISOString().slice(0,10);
   const previousClose=sameDay&&S.positive(meta.previousClose)?meta.previousClose
-    :Number.isFinite(regularTime)&&S.parts(regularTime).day===previousDay
+    :S.regularQuoteTime(regularTime,previousDay,now)
       &&regularTime>=S.schedule(previousDay).regular.end-60000&&S.positive(meta.regularMarketPrice)?meta.regularMarketPrice:null;
   if(sessions.pre) sessions.pre.reference=previousClose;
   if(sessions.regular) sessions.regular.reference=previousClose;
@@ -55,7 +54,7 @@ export function createUsSessionService(fetcher=(...args)=>globalThis.fetch(...ar
   }
   return async function get(symbol,env,now=Date.now()) {
     if(!S.validSymbol(symbol)) throw new Error('Unsupported US symbol');
-    const key=`market:us-sessions:v1:${symbol}`,clock=S.context(now);
+    const key=`market:us-sessions:v2:${symbol}`,clock=S.context(now);
     const stored=memory.get(symbol)||await env?.MARKET_CACHE?.get(key,{type:'json'}).catch(()=>null);
     const age=now-Date.parse(stored?.generatedAt||'');
     const valid=stored?.schemaVersion===1&&stored.symbol===symbol&&stored.sessionDay===clock.sessionDay&&age>=0;
