@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-13T22:30:33.932685+00:00",
-  "generatedAt": "2026-11-13T22:30:33.932685+00:00",
+  "timestamp": "2026-11-14T03:03:43.697052+00:00",
+  "generatedAt": "2026-11-14T03:03:43.697052+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-11-14",
-    "attemptedAt": 1794609032371,
+    "attemptedAt": 1794625422175,
     "annual": {
       "year": 2026,
       "closed": [
@@ -33,7 +33,7 @@
         "2026-10-26",
         "2026-12-25"
       ],
-      "checkedAt": 1794538491281,
+      "checkedAt": 1794624919115,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     },
     "annuals": {
@@ -65,7 +65,7 @@
           "2026-10-26",
           "2026-12-25"
         ],
-        "checkedAt": 1794538491281,
+        "checkedAt": 1794624919115,
         "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
       },
       "2027": {
@@ -99,7 +99,7 @@
           "2027-12-25",
           "2027-12-31"
         ],
-        "checkedAt": 1794528553685,
+        "checkedAt": 1794624919115,
         "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
       }
     },
@@ -121,25 +121,25 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1794609032371,
+        "checkedAt": 1794625422175,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1794609032371,
+        "checkedAt": 1794625422175,
         "error": null
       },
       "futures": {
         "ok": true,
-        "checkedAt": 1794609032371,
+        "checkedAt": 1794625422175,
         "error": null
       }
     },
     "preload": {
       "year": 2027,
       "status": "ready",
-      "attemptedAt": 1794528553685,
-      "verifiedAt": 1794528553685,
+      "attemptedAt": 1794624919115,
+      "verifiedAt": 1794624919115,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     }
   },
