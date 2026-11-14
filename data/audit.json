@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-13T22:31:55.424Z",
-  "expiresAt": "2026-11-13T23:16:55.424Z",
-  "status": "pending",
+  "checkedAt": "2026-11-14T01:04:47.848Z",
+  "expiresAt": "2026-11-14T01:49:47.848Z",
+  "status": "ok",
   "scope": {
     "quotes": [
       "0050.TW",
@@ -40,9 +40,9 @@
     ]
   },
   "counts": {
-    "pass": 182,
+    "pass": 183,
     "skip": 0,
-    "pending": 1,
+    "pending": 0,
     "warning": 0
   },
   "checks": [
@@ -838,9 +838,8 @@
     },
     {
       "id": "sessions:VRT:post",
-      "status": "pending",
-      "message": "VRT 盤後報價類型、時間與時段邊界",
-      "occurrences": 1
+      "status": "pass",
+      "message": "VRT 盤後報價類型、時間與時段邊界"
     },
     {
       "id": "sessions:VRT:baseline",
