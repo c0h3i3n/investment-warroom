@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-14T07:32:18.893Z",
-  "expiresAt": "2026-11-14T08:17:18.893Z",
-  "status": "ok",
+  "checkedAt": "2026-11-14T10:12:28.352Z",
+  "expiresAt": "2026-11-14T10:57:28.352Z",
+  "status": "pending",
   "scope": {
     "quotes": [
       "0050.TW",
@@ -40,9 +40,9 @@
     ]
   },
   "counts": {
-    "pass": 183,
+    "pass": 182,
     "skip": 0,
-    "pending": 0,
+    "pending": 1,
     "warning": 0
   },
   "checks": [
@@ -58,8 +58,9 @@
     },
     {
       "id": "calendar:futures",
-      "status": "pass",
-      "message": "期交所公告查核結果與時間"
+      "status": "pending",
+      "message": "期交所公告查核結果與時間",
+      "occurrences": 1
     },
     {
       "id": "market:response",
