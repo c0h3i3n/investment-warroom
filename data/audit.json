@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-14T01:04:47.848Z",
-  "expiresAt": "2026-11-14T01:49:47.848Z",
-  "status": "ok",
+  "checkedAt": "2026-11-14T02:56:17.646Z",
+  "expiresAt": "2026-11-14T03:41:17.646Z",
+  "status": "pending",
   "scope": {
     "quotes": [
       "0050.TW",
@@ -40,16 +40,17 @@
     ]
   },
   "counts": {
-    "pass": 183,
-    "skip": 0,
-    "pending": 0,
+    "pass": 172,
+    "skip": 10,
+    "pending": 1,
     "warning": 0
   },
   "checks": [
     {
       "id": "calendar:annual",
-      "status": "pass",
-      "message": "2026 年官方日曆已確認"
+      "status": "pending",
+      "message": "2026 年官方日曆年份、格式或查核時間待確認",
+      "occurrences": 1
     },
     {
       "id": "calendar:notices",
@@ -68,8 +69,8 @@
     },
     {
       "id": "quote:0050.TW:time",
-      "status": "pass",
-      "message": "0050.TW 來源時間 2026-11-13T05:30:00.000Z／交易日檢查"
+      "status": "skip",
+      "message": "0050.TW：年度日曆未確認，暫不判定交易日新鮮度"
     },
     {
       "id": "quote:0050.TW:change",
@@ -78,8 +79,8 @@
     },
     {
       "id": "quote:2330.TW:time",
-      "status": "pass",
-      "message": "2330.TW 來源時間 2026-11-13T05:30:00.000Z／交易日檢查"
+      "status": "skip",
+      "message": "2330.TW：年度日曆未確認，暫不判定交易日新鮮度"
     },
     {
       "id": "quote:2330.TW:change",
@@ -88,8 +89,8 @@
     },
     {
       "id": "quote:00679B.TW:time",
-      "status": "pass",
-      "message": "00679B.TW 來源時間 2026-11-13T05:30:00.000Z／交易日檢查"
+      "status": "skip",
+      "message": "00679B.TW：年度日曆未確認，暫不判定交易日新鮮度"
     },
     {
       "id": "quote:00679B.TW:change",
@@ -98,8 +99,8 @@
     },
     {
       "id": "quote:00878.TW:time",
-      "status": "pass",
-      "message": "00878.TW 來源時間 2026-11-13T05:30:00.000Z／交易日檢查"
+      "status": "skip",
+      "message": "00878.TW：年度日曆未確認，暫不判定交易日新鮮度"
     },
     {
       "id": "quote:00878.TW:change",
@@ -108,8 +109,8 @@
     },
     {
       "id": "quote:00929.TW:time",
-      "status": "pass",
-      "message": "00929.TW 來源時間 2026-11-13T05:30:00.000Z／交易日檢查"
+      "status": "skip",
+      "message": "00929.TW：年度日曆未確認，暫不判定交易日新鮮度"
     },
     {
       "id": "quote:00929.TW:change",
@@ -118,8 +119,8 @@
     },
     {
       "id": "quote:00933B.TW:time",
-      "status": "pass",
-      "message": "00933B.TW 來源時間 2026-11-13T05:30:00.000Z／交易日檢查"
+      "status": "skip",
+      "message": "00933B.TW：年度日曆未確認，暫不判定交易日新鮮度"
     },
     {
       "id": "quote:00933B.TW:change",
@@ -128,8 +129,8 @@
     },
     {
       "id": "quote:00937B.TW:time",
-      "status": "pass",
-      "message": "00937B.TW 來源時間 2026-11-13T05:30:00.000Z／交易日檢查"
+      "status": "skip",
+      "message": "00937B.TW：年度日曆未確認，暫不判定交易日新鮮度"
     },
     {
       "id": "quote:00937B.TW:change",
@@ -138,8 +139,8 @@
     },
     {
       "id": "quote:009800.TW:time",
-      "status": "pass",
-      "message": "009800.TW 來源時間 2026-11-13T05:30:00.000Z／交易日檢查"
+      "status": "skip",
+      "message": "009800.TW：年度日曆未確認，暫不判定交易日新鮮度"
     },
     {
       "id": "quote:009800.TW:change",
@@ -318,8 +319,8 @@
     },
     {
       "id": "quote:^TWII:time",
-      "status": "pass",
-      "message": "^TWII 來源時間 2026-11-13T05:33:00.000Z／交易日檢查"
+      "status": "skip",
+      "message": "^TWII：年度日曆未確認，暫不判定交易日新鮮度"
     },
     {
       "id": "quote:^TWII:change",
@@ -328,8 +329,8 @@
     },
     {
       "id": "quote:^TWOII:time",
-      "status": "pass",
-      "message": "^TWOII 來源時間 2026-11-13T05:33:00.000Z／交易日檢查"
+      "status": "skip",
+      "message": "^TWOII：年度日曆未確認，暫不判定交易日新鮮度"
     },
     {
       "id": "quote:^TWOII:change",
