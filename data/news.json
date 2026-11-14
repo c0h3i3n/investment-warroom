@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T16:58:54.479Z",
-  "checkedAt": 1794675534479,
+  "generatedAt": "2026-11-14T21:21:56.989Z",
+  "checkedAt": 1794691316989,
   "data": [
     {
       "headline": "盤中速報 - 哈希圖大跌8.19%，報0.0576美元",
@@ -229,7 +229,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794675534479
+      "fetchedAt": 1794691316989
     },
     {
       "headline": "盤中速報 - Arbitrum大跌8.26%，報0.14美元",
@@ -301,7 +301,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794675534479
+      "fetchedAt": 1794691316989
     },
     {
       "headline": "DeepSeek全面開放App API！搜尋、文件解析、語音功能全解鎖 開發者可複製官方App",
@@ -313,7 +313,7 @@
       "categories": [
         "A股"
       ],
-      "fetchedAt": 1794675534479
+      "fetchedAt": 1794691316989
     },
     {
       "headline": "盤中速報 - 文件幣大跌8.72%，報0.67美元",
@@ -385,7 +385,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794675534479
+      "fetchedAt": 1794691316989
     },
     {
       "headline": "盤中速報 - Worldcoin大跌9.7%，報0.28美元",
@@ -445,7 +445,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794675534479
+      "fetchedAt": 1794691316989
     },
     {
       "headline": "黃仁勳卸任前專訪曝！《彭博》紀錄片談AI安全、對中晶片與輝達接班布局",
@@ -457,7 +457,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794675534479
+      "fetchedAt": 1794691316989
     },
     {
       "headline": "盤中速報 - KAVA大跌33.09%，報0.046美元",
