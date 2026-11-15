@@ -1,8 +1,56 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T01:46:36.191Z",
-  "checkedAt": 1794707196191,
+  "generatedAt": "2026-11-15T09:11:54.323Z",
+  "checkedAt": 1794733914323,
   "data": [
+    {
+      "headline": "黃仁勳辭任後摩根士丹利下修輝達目標價！2028會計年度營收成長預測從70%砍至53.5%",
+      "link": "https://news.cnyes.com/news/id/6662877",
+      "publishedAt": 1794733802000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794733914323
+    },
+    {
+      "headline": "黃仁勳復職聯署破13萬人！逾7.1萬名股東聲援 馬斯克、張一鳴都在列",
+      "link": "https://news.cnyes.com/news/id/6662879",
+      "publishedAt": 1794723006000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794733914323
+    },
+    {
+      "headline": "亞資助攻資本市場躍升！2026公司治理評鑑台灣、新加坡並列亞洲第3",
+      "link": "https://news.cnyes.com/news/id/6662930",
+      "publishedAt": 1794720603000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794733914323
+    },
+    {
+      "headline": "輝達員工聯名信要求黃仁勳回歸：否則就集體離職加入SpaceX、Terafab",
+      "link": "https://news.cnyes.com/news/id/6662876",
+      "publishedAt": 1794719402000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794733914323
+    },
     {
       "headline": "台股震盪、企業獲利卻創高！AI三雄營收破紀錄 00961掌握科技金融雙引擎",
       "link": "https://news.cnyes.com/news/id/6662565",
@@ -13,7 +61,7 @@
       "categories": [
         "ETF"
       ],
-      "fetchedAt": 1794707196191
+      "fetchedAt": 1794733914323
     },
     {
       "headline": "AI伺服器成PC大廠2027年成長動能 華碩拚高雙位數增長、技嘉擴產搶市",
@@ -25,7 +73,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794707196191
+      "fetchedAt": 1794733914323
     },
     {
       "headline": "馬斯克力挺黃仁勳！稱輝達少了他恐失「關鍵交易」：許多合作只靠握手承諾",
@@ -37,7 +85,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794707196191
+      "fetchedAt": 1794733914323
     },
     {
       "headline": "00981A定期定額扣款衝破百億超車00919 展現存股吸金新戰力",
@@ -49,7 +97,7 @@
       "categories": [
         "ETF"
       ],
-      "fetchedAt": 1794707196191
+      "fetchedAt": 1794733914323
     },
     {
       "headline": "輝達間諜風暴敲響警鐘！AI圈重金延攬前情報官 頂尖資安主管薪酬上看400萬美元",
@@ -61,7 +109,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794707196191
+      "fetchedAt": 1794733914323
     },
     {
       "headline": "黃仁勳走後誰來當「AI央行」？逾5,300億美元承諾與擔保面臨考驗",
@@ -73,7 +121,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794707196191
+      "fetchedAt": 1794733914323
     },
     {
       "headline": "NVIDIA管理層大地震！研調揭AI供應鏈六大觀察 ASIC競爭升溫",
@@ -85,7 +133,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794707196191
+      "fetchedAt": 1794733914323
     },
     {
       "headline": "盤中速報 - 哈希圖大跌8.19%，報0.0576美元",
@@ -313,7 +361,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794707196191
+      "fetchedAt": 1794733914323
     },
     {
       "headline": "盤中速報 - Arbitrum大跌8.26%，報0.14美元",
@@ -385,7 +433,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794707196191
+      "fetchedAt": 1794733914323
     },
     {
       "headline": "DeepSeek全面開放App API！搜尋、文件解析、語音功能全解鎖 開發者可複製官方App",
@@ -397,7 +445,7 @@
       "categories": [
         "A股"
       ],
-      "fetchedAt": 1794707196191
+      "fetchedAt": 1794733914323
     },
     {
       "headline": "盤中速報 - 文件幣大跌8.72%，報0.67美元",
@@ -427,54 +475,6 @@
       "headline": "盤中速報 - 艾達幣大跌8.07%，報0.1594美元",
       "link": "https://news.cnyes.com/news/id/6662703",
       "publishedAt": 1794665123000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794675534479
-    },
-    {
-      "headline": "盤中速報 - 雪崩代幣大跌8.34%，報7.83美元",
-      "link": "https://news.cnyes.com/news/id/6662702",
-      "publishedAt": 1794665122000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794675534479
-    },
-    {
-      "headline": "盤中速報 - NEAR大跌8.09%，報3.282美元",
-      "link": "https://news.cnyes.com/news/id/6662701",
-      "publishedAt": 1794665122000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794675534479
-    },
-    {
-      "headline": "美國問烏克蘭：願放棄頓巴斯換加入北約嗎？",
-      "link": "https://news.cnyes.com/news/id/6662674",
-      "publishedAt": 1794665093000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1794707196191
-    },
-    {
-      "headline": "盤中速報 - Worldcoin大跌9.7%，報0.28美元",
-      "link": "https://news.cnyes.com/news/id/6662686",
-      "publishedAt": 1794663321000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
