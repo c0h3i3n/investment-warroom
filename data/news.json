@@ -1,19 +1,139 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T09:11:54.323Z",
-  "checkedAt": 1794733914323,
+  "generatedAt": "2026-11-15T16:59:03.157Z",
+  "checkedAt": 1794761943157,
   "data": [
+    {
+      "headline": "伊朗：兩艘油輪在荷姆茲海峽觸雷 引發劇烈爆炸",
+      "link": "https://news.cnyes.com/news/id/6663099",
+      "publishedAt": 1794754644000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1794761943157
+    },
+    {
+      "headline": "Megaspeed發佈聲明！證實黃樂去年8月離職 黃仁勳緋聞牽出國安疑慮",
+      "link": "https://news.cnyes.com/news/id/6663081",
+      "publishedAt": 1794751802000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794761943157
+    },
+    {
+      "headline": "本週操盤筆記：AI交易關鍵時刻！輝達首份無黃仁勳財報、Anthropic重磅IPO 「川習普」三方會議登場",
+      "link": "https://news.cnyes.com/news/id/6662400",
+      "publishedAt": 1794749404000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794761943157
+    },
+    {
+      "headline": "矽谷科技巨頭押注川普恐踢鐵板！OpenAI、Meta政治豪賭埋下AI產業隱憂",
+      "link": "https://news.cnyes.com/news/id/6662917",
+      "publishedAt": 1794746678000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794761943157
+    },
+    {
+      "headline": "伊朗利用美國士兵跑步App蒐集情報 炸出90億美元損失",
+      "link": "https://news.cnyes.com/news/id/6663040",
+      "publishedAt": 1794744709000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1794761943157
+    },
+    {
+      "headline": "OpenAI測試ChatGPT商家功能！導入AI導購代理 商家可上架商品、掌握推薦流量",
+      "link": "https://news.cnyes.com/news/id/6662928",
+      "publishedAt": 1794744602000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794761943157
+    },
+    {
+      "headline": "誰能駕馭這頭巨獸？哈佛教授：黃仁勳辭職後 輝達面臨「20年最難接班」問題",
+      "link": "https://news.cnyes.com/news/id/6663048",
+      "publishedAt": 1794743403000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794761943157
+    },
+    {
+      "headline": "黃仁勳辭任獲矽谷大咖聲援！馬斯克、Gavin Baker、Epic Games執行長批輝達董事會",
+      "link": "https://news.cnyes.com/news/id/6662926",
+      "publishedAt": 1794741013000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794761943157
+    },
+    {
+      "headline": "中國中專生拍出爆火AI短片 海外播放百萬級 單集成本千元",
+      "link": "https://news.cnyes.com/news/id/6663029",
+      "publishedAt": 1794739784000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "大陸政經"
+      ],
+      "fetchedAt": 1794761943157
+    },
+    {
+      "headline": "《金融時報》黃仁勳辭任牽動AI資金鏈！輝達投資逾千億美元、深度綁定新創與雲端業者",
+      "link": "https://news.cnyes.com/news/id/6662878",
+      "publishedAt": 1794737403000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794761943157
+    },
     {
       "headline": "黃仁勳辭任後摩根士丹利下修輝達目標價！2028會計年度營收成長預測從70%砍至53.5%",
       "link": "https://news.cnyes.com/news/id/6662877",
       "publishedAt": 1794733802000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794733914323
+      "fetchedAt": 1794761943157
     },
     {
       "headline": "黃仁勳復職聯署破13萬人！逾7.1萬名股東聲援 馬斯克、張一鳴都在列",
@@ -25,7 +145,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794733914323
+      "fetchedAt": 1794761943157
     },
     {
       "headline": "亞資助攻資本市場躍升！2026公司治理評鑑台灣、新加坡並列亞洲第3",
@@ -37,7 +157,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794733914323
+      "fetchedAt": 1794761943157
     },
     {
       "headline": "輝達員工聯名信要求黃仁勳回歸：否則就集體離職加入SpaceX、Terafab",
@@ -49,7 +169,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794733914323
+      "fetchedAt": 1794761943157
     },
     {
       "headline": "台股震盪、企業獲利卻創高！AI三雄營收破紀錄 00961掌握科技金融雙引擎",
@@ -61,7 +181,7 @@
       "categories": [
         "ETF"
       ],
-      "fetchedAt": 1794733914323
+      "fetchedAt": 1794761943157
     },
     {
       "headline": "AI伺服器成PC大廠2027年成長動能 華碩拚高雙位數增長、技嘉擴產搶市",
@@ -73,7 +193,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794733914323
+      "fetchedAt": 1794761943157
     },
     {
       "headline": "馬斯克力挺黃仁勳！稱輝達少了他恐失「關鍵交易」：許多合作只靠握手承諾",
@@ -85,7 +205,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794733914323
+      "fetchedAt": 1794761943157
     },
     {
       "headline": "00981A定期定額扣款衝破百億超車00919 展現存股吸金新戰力",
@@ -97,7 +217,7 @@
       "categories": [
         "ETF"
       ],
-      "fetchedAt": 1794733914323
+      "fetchedAt": 1794761943157
     },
     {
       "headline": "輝達間諜風暴敲響警鐘！AI圈重金延攬前情報官 頂尖資安主管薪酬上看400萬美元",
@@ -109,7 +229,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794733914323
+      "fetchedAt": 1794761943157
     },
     {
       "headline": "黃仁勳走後誰來當「AI央行」？逾5,300億美元承諾與擔保面臨考驗",
@@ -121,7 +241,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794733914323
+      "fetchedAt": 1794761943157
     },
     {
       "headline": "NVIDIA管理層大地震！研調揭AI供應鏈六大觀察 ASIC競爭升溫",
@@ -133,7 +253,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794733914323
+      "fetchedAt": 1794761943157
     },
     {
       "headline": "盤中速報 - 哈希圖大跌8.19%，報0.0576美元",
@@ -362,126 +482,6 @@
         "台股新聞"
       ],
       "fetchedAt": 1794733914323
-    },
-    {
-      "headline": "盤中速報 - Arbitrum大跌8.26%，報0.14美元",
-      "link": "https://news.cnyes.com/news/id/6662714",
-      "publishedAt": 1794666922000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794675534479
-    },
-    {
-      "headline": "盤中速報 - INJ大跌8.22%，報7.534美元",
-      "link": "https://news.cnyes.com/news/id/6662713",
-      "publishedAt": 1794666922000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794675534479
-    },
-    {
-      "headline": "盤中速報 - LINK大跌8.11%，報9.32美元",
-      "link": "https://news.cnyes.com/news/id/6662712",
-      "publishedAt": 1794666921000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794675534479
-    },
-    {
-      "headline": "盤中速報 - Sui大跌9.13%，報0.75美元",
-      "link": "https://news.cnyes.com/news/id/6662711",
-      "publishedAt": 1794666921000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794675534479
-    },
-    {
-      "headline": "盤中速報 - AAVE大跌8.16%，報105.2美元",
-      "link": "https://news.cnyes.com/news/id/6662708",
-      "publishedAt": 1794666024000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794675534479
-    },
-    {
-      "headline": "特斯拉Cybercab開放個人訂購 售價3萬美元",
-      "link": "https://news.cnyes.com/news/id/6662671",
-      "publishedAt": 1794665990000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794733914323
-    },
-    {
-      "headline": "DeepSeek全面開放App API！搜尋、文件解析、語音功能全解鎖 開發者可複製官方App",
-      "link": "https://news.cnyes.com/news/id/6662546",
-      "publishedAt": 1794665403000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "A股"
-      ],
-      "fetchedAt": 1794733914323
-    },
-    {
-      "headline": "盤中速報 - 文件幣大跌8.72%，報0.67美元",
-      "link": "https://news.cnyes.com/news/id/6662705",
-      "publishedAt": 1794665124000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794675534479
-    },
-    {
-      "headline": "盤中速報 - FET大跌8.18%，報0.1369美元",
-      "link": "https://news.cnyes.com/news/id/6662704",
-      "publishedAt": 1794665124000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794675534479
-    },
-    {
-      "headline": "盤中速報 - 艾達幣大跌8.07%，報0.1594美元",
-      "link": "https://news.cnyes.com/news/id/6662703",
-      "publishedAt": 1794665123000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794675534479
     }
   ],
   "failedSources": [],
