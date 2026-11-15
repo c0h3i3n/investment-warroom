@@ -1,8 +1,92 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T21:21:56.989Z",
-  "checkedAt": 1794691316989,
+  "generatedAt": "2026-11-15T01:46:36.191Z",
+  "checkedAt": 1794707196191,
   "data": [
+    {
+      "headline": "台股震盪、企業獲利卻創高！AI三雄營收破紀錄 00961掌握科技金融雙引擎",
+      "link": "https://news.cnyes.com/news/id/6662565",
+      "publishedAt": 1794706205000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "ETF"
+      ],
+      "fetchedAt": 1794707196191
+    },
+    {
+      "headline": "AI伺服器成PC大廠2027年成長動能 華碩拚高雙位數增長、技嘉擴產搶市",
+      "link": "https://news.cnyes.com/news/id/6661406",
+      "publishedAt": 1794703204000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794707196191
+    },
+    {
+      "headline": "馬斯克力挺黃仁勳！稱輝達少了他恐失「關鍵交易」：許多合作只靠握手承諾",
+      "link": "https://news.cnyes.com/news/id/6662742",
+      "publishedAt": 1794700807000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794707196191
+    },
+    {
+      "headline": "00981A定期定額扣款衝破百億超車00919 展現存股吸金新戰力",
+      "link": "https://news.cnyes.com/news/id/6662750",
+      "publishedAt": 1794699602000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "ETF"
+      ],
+      "fetchedAt": 1794707196191
+    },
+    {
+      "headline": "輝達間諜風暴敲響警鐘！AI圈重金延攬前情報官 頂尖資安主管薪酬上看400萬美元",
+      "link": "https://news.cnyes.com/news/id/6662369",
+      "publishedAt": 1794698405000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794707196191
+    },
+    {
+      "headline": "黃仁勳走後誰來當「AI央行」？逾5,300億美元承諾與擔保面臨考驗",
+      "link": "https://news.cnyes.com/news/id/6662467",
+      "publishedAt": 1794697204000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794707196191
+    },
+    {
+      "headline": "NVIDIA管理層大地震！研調揭AI供應鏈六大觀察 ASIC競爭升溫",
+      "link": "https://news.cnyes.com/news/id/6660140",
+      "publishedAt": 1794696605000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1794707196191
+    },
     {
       "headline": "盤中速報 - 哈希圖大跌8.19%，報0.0576美元",
       "link": "https://news.cnyes.com/news/id/6662751",
@@ -229,7 +313,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1794691316989
+      "fetchedAt": 1794707196191
     },
     {
       "headline": "盤中速報 - Arbitrum大跌8.26%，報0.14美元",
@@ -301,7 +385,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794691316989
+      "fetchedAt": 1794707196191
     },
     {
       "headline": "DeepSeek全面開放App API！搜尋、文件解析、語音功能全解鎖 開發者可複製官方App",
@@ -313,7 +397,7 @@
       "categories": [
         "A股"
       ],
-      "fetchedAt": 1794691316989
+      "fetchedAt": 1794707196191
     },
     {
       "headline": "盤中速報 - 文件幣大跌8.72%，報0.67美元",
@@ -385,96 +469,12 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794691316989
+      "fetchedAt": 1794707196191
     },
     {
       "headline": "盤中速報 - Worldcoin大跌9.7%，報0.28美元",
       "link": "https://news.cnyes.com/news/id/6662686",
       "publishedAt": 1794663321000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794675534479
-    },
-    {
-      "headline": "盤中速報 - UNI大跌9.65%，報5.4美元",
-      "link": "https://news.cnyes.com/news/id/6662685",
-      "publishedAt": 1794663320000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794675534479
-    },
-    {
-      "headline": "盤中速報 - SOL大跌8.03%，報75.35美元",
-      "link": "https://news.cnyes.com/news/id/6662684",
-      "publishedAt": 1794663320000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794675534479
-    },
-    {
-      "headline": "盤中速報 - 大零幣大跌8.96%，報882.6美元",
-      "link": "https://news.cnyes.com/news/id/6662681",
-      "publishedAt": 1794662421000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794675534479
-    },
-    {
-      "headline": "Anthropic推Claude自託管代理！企業可將AI管理系統部署內部、降低雲端調度資安疑慮",
-      "link": "https://news.cnyes.com/news/id/6662533",
-      "publishedAt": 1794658205000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794691316989
-    },
-    {
-      "headline": "黃仁勳卸任前專訪曝！《彭博》紀錄片談AI安全、對中晶片與輝達接班布局",
-      "link": "https://news.cnyes.com/news/id/6662535",
-      "publishedAt": 1794654604000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794691316989
-    },
-    {
-      "headline": "盤中速報 - KAVA大跌33.09%，報0.046美元",
-      "link": "https://news.cnyes.com/news/id/6662647",
-      "publishedAt": 1794654319000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794675534479
-    },
-    {
-      "headline": "盤中速報 - Ethena大跌8.03%，報0.13美元",
-      "link": "https://news.cnyes.com/news/id/6662646",
-      "publishedAt": 1794654318000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
