@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-16T06:48:38.265971+00:00",
-  "generatedAt": "2026-11-16T06:48:38.265971+00:00",
+  "timestamp": "2026-11-16T09:28:00.621434+00:00",
+  "generatedAt": "2026-11-16T09:28:00.621434+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-11-16",
-    "attemptedAt": 1794811714419,
+    "attemptedAt": 1794821277860,
     "annual": {
       "year": 2026,
       "closed": [
@@ -33,7 +33,7 @@
         "2026-10-26",
         "2026-12-25"
       ],
-      "checkedAt": 1794733892791,
+      "checkedAt": 1794821277860,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     },
     "annuals": {
@@ -65,7 +65,7 @@
           "2026-10-26",
           "2026-12-25"
         ],
-        "checkedAt": 1794733892791,
+        "checkedAt": 1794821277860,
         "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
       },
       "2027": {
@@ -99,7 +99,7 @@
           "2027-12-25",
           "2027-12-31"
         ],
-        "checkedAt": 1794733892791,
+        "checkedAt": 1794821277860,
         "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
       }
     },
@@ -121,25 +121,25 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1794811714419,
+        "checkedAt": 1794821277860,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1794811714419,
+        "checkedAt": 1794821277860,
         "error": null
       },
       "futures": {
-        "ok": false,
-        "checkedAt": 1794796575047,
-        "error": "The operation was aborted due to timeout"
+        "ok": true,
+        "checkedAt": 1794821277860,
+        "error": null
       }
     },
     "preload": {
       "year": 2027,
       "status": "ready",
-      "attemptedAt": 1794733892791,
-      "verifiedAt": 1794733892791,
+      "attemptedAt": 1794821277860,
+      "verifiedAt": 1794821277860,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     }
   },
@@ -150,8 +150,8 @@
       "price": 96.45,
       "change": -6.05,
       "changePct": -5.9,
-      "asOf": "2026-11-16T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-16T05:30:01+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -160,8 +160,8 @@
       "price": 2215.0,
       "change": -135.0,
       "changePct": -5.74,
-      "asOf": "2026-11-16T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-16T05:30:04+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -170,8 +170,8 @@
       "price": 26.08,
       "change": -0.02,
       "changePct": -0.08,
-      "asOf": "2026-11-16T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-16T05:30:02+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -180,8 +180,8 @@
       "price": 32.43,
       "change": -1.17,
       "changePct": -3.48,
-      "asOf": "2026-11-16T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-16T05:30:02+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -190,8 +190,8 @@
       "price": 24.25,
       "change": -1.28,
       "changePct": -5.01,
-      "asOf": "2026-11-16T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-16T05:30:06+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -200,8 +200,8 @@
       "price": 15.64,
       "change": -0.02,
       "changePct": -0.13,
-      "asOf": "2026-11-16T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-16T05:30:27+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -210,8 +210,8 @@
       "price": 14.22,
       "change": -0.04,
       "changePct": -0.28,
-      "asOf": "2026-11-16T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-16T05:30:26+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
@@ -220,8 +220,8 @@
       "price": 12.7,
       "change": -0.22,
       "changePct": -1.7,
-      "asOf": "2026-11-16T06:30:00+00:00",
-      "source": "TWSE MIS",
+      "asOf": "2026-11-16T05:30:17+00:00",
+      "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
