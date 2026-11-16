@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "date": "2026-11-16",
-  "attemptedAt": 1794796575047,
+  "attemptedAt": 1794811714419,
   "annual": {
     "year": 2026,
     "closed": [
@@ -118,18 +118,18 @@
   "checks": {
     "annual": {
       "ok": true,
-      "checkedAt": 1794796575047,
+      "checkedAt": 1794811714419,
       "error": null
     },
     "notices": {
       "ok": true,
-      "checkedAt": 1794796575047,
+      "checkedAt": 1794811714419,
       "error": null
     },
     "futures": {
-      "ok": true,
+      "ok": false,
       "checkedAt": 1794796575047,
-      "error": null
+      "error": "The operation was aborted due to timeout"
     }
   },
   "preload": {

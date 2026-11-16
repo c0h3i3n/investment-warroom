@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-16T01:52:39.845712+00:00",
-  "generatedAt": "2026-11-16T01:52:39.845712+00:00",
+  "timestamp": "2026-11-16T06:48:38.265971+00:00",
+  "generatedAt": "2026-11-16T06:48:38.265971+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-11-16",
-    "attemptedAt": 1794793957169,
+    "attemptedAt": 1794811714419,
     "annual": {
       "year": 2026,
       "closed": [
@@ -121,18 +121,18 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1794793957169,
+        "checkedAt": 1794811714419,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1794793957169,
+        "checkedAt": 1794811714419,
         "error": null
       },
       "futures": {
-        "ok": true,
-        "checkedAt": 1794793957169,
-        "error": null
+        "ok": false,
+        "checkedAt": 1794796575047,
+        "error": "The operation was aborted due to timeout"
       }
     },
     "preload": {
@@ -147,82 +147,82 @@
     {
       "symbol": "0050.TW",
       "name": "",
-      "price": 99.575,
-      "change": -2.92,
-      "changePct": -2.85,
-      "asOf": "2026-11-16T01:52:14+00:00",
+      "price": 96.45,
+      "change": -6.05,
+      "changePct": -5.9,
+      "asOf": "2026-11-16T06:30:00+00:00",
       "source": "TWSE MIS",
-      "priceType": "indicative"
+      "priceType": "trade"
     },
     {
       "symbol": "2330.TW",
       "name": "",
-      "price": 2307.5,
-      "change": -42.5,
-      "changePct": -1.81,
-      "asOf": "2026-11-16T01:52:44+00:00",
+      "price": 2215.0,
+      "change": -135.0,
+      "changePct": -5.74,
+      "asOf": "2026-11-16T06:30:00+00:00",
       "source": "TWSE MIS",
-      "priceType": "indicative"
+      "priceType": "trade"
     },
     {
       "symbol": "00679B.TW",
       "name": "",
-      "price": 26.065,
-      "change": -0.04,
-      "changePct": -0.13,
-      "asOf": "2026-11-16T01:51:58+00:00",
+      "price": 26.08,
+      "change": -0.02,
+      "changePct": -0.08,
+      "asOf": "2026-11-16T06:30:00+00:00",
       "source": "TWSE MIS",
-      "priceType": "indicative"
+      "priceType": "trade"
     },
     {
       "symbol": "00878.TW",
       "name": "",
-      "price": 33.305,
-      "change": -0.3,
-      "changePct": -0.88,
-      "asOf": "2026-11-16T01:52:09+00:00",
+      "price": 32.43,
+      "change": -1.17,
+      "changePct": -3.48,
+      "asOf": "2026-11-16T06:30:00+00:00",
       "source": "TWSE MIS",
-      "priceType": "indicative"
+      "priceType": "trade"
     },
     {
       "symbol": "00929.TW",
       "name": "",
-      "price": 24.95,
-      "change": -0.58,
-      "changePct": -2.27,
-      "asOf": "2026-11-16T01:52:09+00:00",
+      "price": 24.25,
+      "change": -1.28,
+      "changePct": -5.01,
+      "asOf": "2026-11-16T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
       "symbol": "00933B.TW",
       "name": "",
-      "price": 15.66,
-      "change": 0.0,
-      "changePct": 0.0,
-      "asOf": "2026-11-16T01:53:12+00:00",
+      "price": 15.64,
+      "change": -0.02,
+      "changePct": -0.13,
+      "asOf": "2026-11-16T06:30:00+00:00",
       "source": "TWSE MIS",
-      "priceType": "indicative"
+      "priceType": "trade"
     },
     {
       "symbol": "00937B.TW",
       "name": "",
-      "price": 14.25,
-      "change": -0.01,
-      "changePct": -0.07,
-      "asOf": "2026-11-16T01:51:52+00:00",
+      "price": 14.22,
+      "change": -0.04,
+      "changePct": -0.28,
+      "asOf": "2026-11-16T06:30:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
     {
       "symbol": "009800.TW",
       "name": "",
-      "price": 12.715,
-      "change": -0.21,
-      "changePct": -1.59,
-      "asOf": "2026-11-16T01:52:04+00:00",
+      "price": 12.7,
+      "change": -0.22,
+      "changePct": -1.7,
+      "asOf": "2026-11-16T06:30:00+00:00",
       "source": "TWSE MIS",
-      "priceType": "indicative"
+      "priceType": "trade"
     },
     {
       "symbol": "SPCX",
