@@ -1,43 +1,139 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T16:29:55.319Z",
-  "checkedAt": 1794846595319,
+  "generatedAt": "2026-11-16T20:19:13.815Z",
+  "checkedAt": 1794860353815,
   "data": [
     {
-      "headline": "鉅亨速報 - Factset 最新調查：英賽德(INCY-US)EPS預估上修至3.23元，預估目標價為130.00元",
-      "link": "https://news.cnyes.com/news/id/6664416",
-      "publishedAt": 1794845768000,
+      "headline": "盤中速報 - Take-Two互動軟體(TTWO-US)大跌5%，報216.43美元",
+      "link": "https://news.cnyes.com/news/id/6664462",
+      "publishedAt": 1794857022000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1794860353815
+    },
+    {
+      "headline": "美光還能翻倍？13檔美股目標價曝光 威騰電子、希捷也入列",
+      "link": "https://news.cnyes.com/news/id/6664430",
+      "publishedAt": 1794855605000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794860353815
+    },
+    {
+      "headline": "Apple Pay傳換帥！蘋果26年老將接棒 推進Apple Card銀行交接",
+      "link": "https://news.cnyes.com/news/id/6664443",
+      "publishedAt": 1794853860000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794860353815
+    },
+    {
+      "headline": "盤中速報 - MongoDB公司(MDB-US)大跌5.02%，報317.41美元",
+      "link": "https://news.cnyes.com/news/id/6664453",
+      "publishedAt": 1794853477000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1794860353815
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：小鵬汽車(XPEV-US)EPS預估上修至-0.35元，預估目標價為15.91元",
+      "link": "https://news.cnyes.com/news/id/6664452",
+      "publishedAt": 1794852938000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
+    },
+    {
+      "headline": "盤中速報 - 道瓊指數大跌1%，報51826.03點",
+      "link": "https://news.cnyes.com/news/id/6664450",
+      "publishedAt": 1794852679000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股盤中"
+      ],
+      "fetchedAt": 1794860353815
+    },
+    {
+      "headline": "黃仁勳回歸遭潑冷水！輝達董事會傳未考慮讓他回任",
+      "link": "https://news.cnyes.com/news/id/6664440",
+      "publishedAt": 1794851105000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794860353815
+    },
+    {
+      "headline": "川投顧買了多少輝達？《華郵》估持股最高6200萬美元",
+      "link": "https://news.cnyes.com/news/id/6664345",
+      "publishedAt": 1794848405000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1794860353815
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：英賽德(INCY-US)EPS預估上修至3.23元，預估目標價為130.00元",
+      "link": "https://news.cnyes.com/news/id/6664416",
+      "publishedAt": 1794845768000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：安賽樂米塔爾(MT-US)EPS預估下修至2.23元，預估目標價為77.33元",
       "link": "https://news.cnyes.com/news/id/6664415",
       "publishedAt": 1794845762000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：Permian Resources Corp - Class APR-US的目標價調降至28元，幅度約3.45%",
       "link": "https://news.cnyes.com/news/id/6664414",
       "publishedAt": 1794845731000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - ZIL大跌20.32%，報0.00096美元",
@@ -97,55 +193,55 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 甲骨文(ORCL-US)大跌5.03%，報119.04美元",
       "link": "https://news.cnyes.com/news/id/6664384",
       "publishedAt": 1794843615000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 數據狗(DDOG-US)大跌5.05%，報174.86美元",
       "link": "https://news.cnyes.com/news/id/6664382",
       "publishedAt": 1794843096000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 交易台(TTD-US)大跌5.01%，報14.9美元",
       "link": "https://news.cnyes.com/news/id/6664380",
       "publishedAt": 1794842931000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 艾司摩爾(ASML-US)大跌5.01%，報1420.19美元",
       "link": "https://news.cnyes.com/news/id/6664378",
       "publishedAt": 1794842484000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "黃仁勳重掌輝達？川普表態支持：不是壞主意",
@@ -157,7 +253,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "川金會要回來了？川普稱訪中可能見金正恩",
@@ -169,319 +265,223 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 台積電ADR(TSM-US)大跌5.01%，報378.77美元",
       "link": "https://news.cnyes.com/news/id/6664366",
       "publishedAt": 1794840573000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 博通(AVGO-US)大跌5.02%，報329.58美元",
       "link": "https://news.cnyes.com/news/id/6664365",
       "publishedAt": 1794840565000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 英特格(ENTG-US)大跌5.96%，報138.63美元",
       "link": "https://news.cnyes.com/news/id/6664364",
       "publishedAt": 1794840363000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 和康電訊(MTSI-US)大跌5.5%，報219.3美元",
       "link": "https://news.cnyes.com/news/id/6664363",
       "publishedAt": 1794840361000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 超微電腦(SMCI-US)大跌5.19%，報25.47美元",
       "link": "https://news.cnyes.com/news/id/6664362",
       "publishedAt": 1794840355000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 萊迪思半導體(LSCC-US)大跌5.36%，報106.33美元",
       "link": "https://news.cnyes.com/news/id/6664361",
       "publishedAt": 1794840350000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 安可(AMKR-US)大跌5.48%，報34.13美元",
       "link": "https://news.cnyes.com/news/id/6664360",
       "publishedAt": 1794840348000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 芯源系統(MPWR-US)大跌5.09%，報1319.71美元",
       "link": "https://news.cnyes.com/news/id/6664359",
       "publishedAt": 1794840342000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 科磊(KLAC-US)大跌5.06%，報144.4美元",
       "link": "https://news.cnyes.com/news/id/6664358",
       "publishedAt": 1794840340000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 科林研發(LRCX-US)大跌5.16%，報214.27美元",
       "link": "https://news.cnyes.com/news/id/6664357",
       "publishedAt": 1794840337000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 泰瑞達(TER-US)大跌5.25%，報236.45美元",
       "link": "https://news.cnyes.com/news/id/6664356",
       "publishedAt": 1794840334000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - Onto Innovation Inc.(ONTO-US)大跌6.76%，報189.85美元",
       "link": "https://news.cnyes.com/news/id/6664355",
       "publishedAt": 1794840330000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 美光科技(MU-US)大跌5.48%，報735.67美元",
       "link": "https://news.cnyes.com/news/id/6664354",
       "publishedAt": 1794840327000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 安謀控股公司(ARM-US)大跌5.1%，報180.81美元",
       "link": "https://news.cnyes.com/news/id/6664353",
       "publishedAt": 1794840324000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 超微半導體(AMD-US)大跌5.73%，報503.46美元",
       "link": "https://news.cnyes.com/news/id/6664352",
       "publishedAt": 1794840321000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 英特爾(INTC-US)大跌5.03%，報56.66美元",
       "link": "https://news.cnyes.com/news/id/6664351",
       "publishedAt": 1794840319000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 邁威爾科技(MRVL-US)大跌5.7%，報147.82美元",
       "link": "https://news.cnyes.com/news/id/6664350",
       "publishedAt": 1794840316000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     },
     {
       "headline": "盤中速報 - 應用材料(AMAT-US)大跌5.87%，報348.76美元",
       "link": "https://news.cnyes.com/news/id/6664349",
       "publishedAt": 1794840311000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1794846595319
-    },
-    {
-      "headline": "盤中速報 - 連貫(COHR-US)大跌8.17%，報200.33美元",
-      "link": "https://news.cnyes.com/news/id/6664348",
-      "publishedAt": 1794840305000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1794846595319
-    },
-    {
-      "headline": "〈美股早盤〉AI股又被砍！那指跌逾1% 輝達財報與Anthropic上市成焦點",
-      "link": "https://news.cnyes.com/news/id/6664138",
-      "publishedAt": 1794840117000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1794846595319
-    },
-    {
-      "headline": "顯卡價格跳水？秋葉原RTX 5090出現22%急速降價 NAND也見價格下修",
-      "link": "https://news.cnyes.com/news/id/6664296",
-      "publishedAt": 1794840004000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "科技"
-      ],
-      "fetchedAt": 1794846595319
-    },
-    {
-      "headline": "盤中速報 - 數位代幣大漲9.92%，報2.43美元",
-      "link": "https://news.cnyes.com/news/id/6664344",
-      "publishedAt": 1794839909000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794846595319
-    },
-    {
-      "headline": "盤中速報 - GLMR大跌9.64%，報0.0068美元",
-      "link": "https://news.cnyes.com/news/id/6664343",
-      "publishedAt": 1794839908000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1794846595319
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：奧克美斯(ALKS-US)EPS預估上修至-0.52元，預估目標價為60.00元",
-      "link": "https://news.cnyes.com/news/id/6664339",
-      "publishedAt": 1794838535000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1794846595319
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：NU控股有限公司(開曼群島)(NU-US)EPS預估上修至0.86元，預估目標價為18.95元",
-      "link": "https://news.cnyes.com/news/id/6664338",
-      "publishedAt": 1794838533000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1794846595319
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：泛美銀礦(PAAS-US)EPS預估下修至3.23元，預估目標價為54.94元",
-      "link": "https://news.cnyes.com/news/id/6664337",
-      "publishedAt": 1794838531000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1794846595319
+      "fetchedAt": 1794860353815
     }
   ],
   "failedSources": [],
