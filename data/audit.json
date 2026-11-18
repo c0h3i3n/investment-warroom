@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-18T09:15:55.957Z",
-  "expiresAt": "2026-11-18T10:00:55.957Z",
+  "checkedAt": "2026-11-18T13:50:01.628Z",
+  "expiresAt": "2026-11-18T14:35:01.628Z",
   "status": "pending",
   "scope": {
     "quotes": [
@@ -58,9 +58,8 @@
     },
     {
       "id": "calendar:futures",
-      "status": "pending",
-      "message": "期交所公告查核結果與時間",
-      "occurrences": 1
+      "status": "pass",
+      "message": "期交所公告查核結果與時間"
     },
     {
       "id": "market:response",
@@ -554,8 +553,9 @@
     },
     {
       "id": "sessions:ANET:pre",
-      "status": "pass",
-      "message": "ANET 盤前報價類型、時間與時段邊界"
+      "status": "pending",
+      "message": "ANET 盤前報價類型、時間與時段邊界",
+      "occurrences": 1
     },
     {
       "id": "sessions:ANET:compare",
