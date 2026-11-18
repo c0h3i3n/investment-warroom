@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 import {parseTaifexEmergency} from '../src/official-calendar.mjs';
-import {historyHealth,handleRequest,INDEXES,QUOTE_SYMBOLS} from '../src/index.mjs';
+import {historyHealth,handleRequest,warmIndicatorHistory,INDEXES,QUOTE_SYMBOLS} from '../src/index.mjs';
 import {OFFICIAL_VOLUME_SOURCE} from '../src/history-repair.mjs';
 
 const now=Date.parse('2026-10-29T05:00:00Z');
@@ -109,6 +109,56 @@ test('indicator health validates completed session, continuity, age and official
     {generatedAt:'2026-10-29T10:00:00Z'}, {sourceAsOf:Date.parse('2026-10-28T04:00:00Z')}]) {
     assert.notEqual(historyHealth({...history,...changed},'0050.TW',now).status,'ok');
   }
+});
+
+test('background warming alternates key Taiwan histories and reuses verified data',async t=>{
+  t.mock.method(Date,'now',()=>now);
+  const reads=[];
+  const env={MARKET_CACHE:{get:async key=>{
+    reads.push(key);
+    return {...history,symbol:key.split(':')[3]};
+  },put:async()=>assert.fail('Verified data should not be written again')}};
+  const a=await warmIndicatorHistory(env,now);
+  const b=await warmIndicatorHistory(env,now+300000);
+  assert.equal((await a.json()).delivery,'kv');
+  assert.equal((await b.json()).delivery,'kv');
+  assert.deepEqual(new Set(reads),new Set(['market:history:v3:0050.TW:6mo:1d','market:history:v3:2330.TW:6mo:1d']));
+});
+
+test('background warming writes a completed daily series only once official volume is verified',async t=>{
+  const afterClose=Date.parse('2026-10-29T06:00:00Z');
+  t.mock.timers.enable({apis:['Date'],now:afterClose});
+  const completed=[...rows,{...rows.at(-1),time:Date.parse('2026-10-29T01:00:00Z')}];
+  const fields=['日期','成交股數','開盤價','最高價','最低價','收盤價','漲跌價差','註記'];
+  let volumeAvailable=false;
+  t.mock.method(globalThis,'fetch',async input=>{
+    const url=new URL(input);
+    if(url.hostname.endsWith('yahoo.com')) {
+      return Response.json({chart:{result:[{
+        meta:{regularMarketTime:Date.parse('2026-10-29T05:30:00Z')/1000},
+        timestamp:completed.map(row=>row.time/1000),
+        indicators:{quote:[Object.fromEntries(['open','high','low','close','volume']
+          .map(field=>[field,completed.map(row=>row[field])]))]},
+      }]}});
+    }
+    if(!volumeAvailable) return new Response('',{status:503});
+    const month=url.searchParams.get('date').slice(0,6);
+    const code=url.searchParams.get('stockNo');
+    const data=completed.map(row=>new Date(row.time).toISOString().slice(0,10))
+      .filter(d=>d.replaceAll('-','').startsWith(month))
+      .map(d=>[`115/${d.slice(5,7)}/${d.slice(8)}`,'1000','100','101','99','100','0','']);
+    return Response.json({stat:'OK',title:`115年 ${code} 各日成交資訊`,fields,data});
+  });
+  const saved=new Map();
+  const env={MARKET_CACHE:{get:async key=>saved.get(key),put:async(key,value)=>saved.set(key,JSON.parse(value))}};
+  const prewarm=()=>warmIndicatorHistory(env,0);
+  const historyKey='market:history:v3:0050.TW:6mo:1d';
+  await prewarm();
+  assert.equal(saved.has(historyKey),false);
+  volumeAvailable=true;
+  await prewarm();
+  assert.equal(historyHealth(saved.get(historyKey),'0050.TW',afterClose).status,'ok');
+  assert.equal(saved.get(historyKey).data.at(-1).time,completed.at(-1).time);
 });
 
 test('health cannot report ok for 16/16 quotes with failed official checks or absent history',async t=>{

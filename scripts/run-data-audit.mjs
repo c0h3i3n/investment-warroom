@@ -24,7 +24,7 @@ export async function readJson(url,fetcher=fetch,pause=ms=>new Promise(r=>setTim
 export async function collectData(base,scope,fetcher=fetch) {
   const data={scope,sessions:{},errors:{}};
   const tasks=[['market','/api/market'],['calendar','/api/market-calendar'],
-    ...scope.quotes.filter(q=>q.region==='US').map(q=>[q.symbol,`/api/us-sessions?symbol=${encodeURIComponent(q.symbol)}`])];
+    ...scope.quotes.filter(q=>q.region==='US').map(q=>[q.symbol,`/api/us-sessions?symbol=${encodeURIComponent(q.symbol)}&persist=0`])];
   // Three requests at a time; inspect the public API, never fan out directly to exchanges.
   let cursor=0;
   await Promise.all(Array.from({length:3},async()=>{

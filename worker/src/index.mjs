@@ -9,6 +9,7 @@ const SNAPSHOT_KEY = 'market:snapshot:v1';
 const NIGHT_MARKET_KEY = 'market:night:v2';
 const SNAPSHOT_MAX_AGE_MS = 7 * 60 * 1000;
 const HISTORY_FALLBACK_MAX_AGE_MS = 24 * 60 * 60 * 1000;
+const HISTORY_HEALTH_SYMBOLS = ['0050.TW', '2330.TW'];
 const CLOSED_MARKET_MAX_AGE_MS = 4 * 24 * 60 * 60 * 1000;
 const REQUEST_TIMEOUT_MS = 8000;
 const NIGHT_DELAYED_AFTER_MS = 3 * 60 * 1000;
@@ -728,7 +729,7 @@ function jsonResponse(data, status, request) {
   });
 }
 
-async function handleHistoryRequest(request, env, url) {
+async function handleHistoryRequest(request, env, url, { verifiedOnly = false } = {}) {
   const symbol = String(url.searchParams.get('symbol') || '').toUpperCase();
   const range = String(url.searchParams.get('range') || '');
   const interval = String(url.searchParams.get('interval') || '');
@@ -743,8 +744,11 @@ async function handleHistoryRequest(request, env, url) {
     : null;
   const cachedAt = Date.parse(cached?.generatedAt || '');
   const cacheAgeMs = Number.isFinite(cachedAt) ? Math.max(0, Date.now() - cachedAt) : Infinity;
-  const needsOfficialVolume=interval==='1d'&&['0050.TW','2330.TW'].includes(symbol);
-  if (cached && (interval !== '1d' || Number(cached.sourceAsOf) > 0)
+  const needsOfficialVolume=interval==='1d'&&HISTORY_HEALTH_SYMBOLS.includes(symbol);
+  if (verifiedOnly && historyHealth(cached, symbol).status === 'ok') {
+    return jsonResponse({ ...cached, delivery: 'kv' }, 200, request);
+  }
+  if (!verifiedOnly && cached && (interval !== '1d' || Number(cached.sourceAsOf) > 0)
     && (!needsOfficialVolume || cached.volumeSource===OFFICIAL_VOLUME_SOURCE)
     && cacheAgeMs <= (historyNeedsRepair(cached,symbol,interval) || cached.volumeWarning ? 60000 : historyCacheMaxAge(symbol, range, interval))
     && !dailyHistoryNeedsCloseRefresh(symbol, interval, cachedAt)) {
@@ -757,10 +761,14 @@ async function handleHistoryRequest(request, env, url) {
       try { fresh = await repairTwseHistory(fresh,env); }
       catch (error) {
         fresh.repairWarning = String(error.message);
-        if (['0050.TW','2330.TW'].includes(symbol)) fresh=applyOfficialVolumes(fresh,[]);
+        if (needsOfficialVolume) fresh=applyOfficialVolumes(fresh,[]);
       }
     }
-    if (env?.MARKET_CACHE) {
+    const verified = needsOfficialVolume && historyHealth(fresh, symbol).status === 'ok';
+    if (needsOfficialVolume && !verified && historyHealth(cached, symbol).status === 'ok') {
+      return jsonResponse({ ...cached, delivery: 'kv' }, 200, request);
+    }
+    if (env?.MARKET_CACHE && (!verifiedOnly || verified)) {
       await safeCachePut(env, key, JSON.stringify(fresh), { expirationTtl: 86400 });
     }
     return jsonResponse({ ...fresh, delivery: 'live' }, 200, request);
@@ -883,7 +891,7 @@ async function handleMarketRequest(request, env) {
     const calendarOk = verification.checked && verification.futuresChecked;
     // Diagnostic reads only: missing history is unknown, not a fabricated pass
     // or a reason to fan out new upstream requests on every health probe.
-    const indicators = Object.fromEntries(await Promise.all(['0050.TW','2330.TW'].map(async symbol => {
+    const indicators = Object.fromEntries(await Promise.all(HISTORY_HEALTH_SYMBOLS.map(async symbol => {
       const history = await env?.MARKET_CACHE?.get(`market:history:v3:${symbol}:6mo:1d`, {type:'json'}).catch(() => null);
       return [symbol, historyHealth(history, symbol)];
     })));
@@ -964,11 +972,12 @@ export function historyHealth(history, symbol, now = Date.now()) {
 }
 
 export async function handleRequest(request, env, ctx) {
-  const path = new URL(request.url).pathname;
+  const url = new URL(request.url);
+  const path = url.pathname;
   if (path === '/api/us-sessions' && request.method === 'GET') {
-    const symbol=String(new URL(request.url).searchParams.get('symbol')||'').toUpperCase();
+    const symbol=String(url.searchParams.get('symbol')||'').toUpperCase();
     if (!UsMarketSessions.validSymbol(symbol)) return jsonResponse({error:'Unsupported US symbol'},400,request);
-    try { return jsonResponse(await getUsSessions(symbol,env),200,request); }
+    try { return jsonResponse(await getUsSessions(symbol,env,Date.now(),{persist:url.searchParams.get('persist')!=='0'}),200,request); }
     catch { return jsonResponse({error:'US session data unavailable'},503,request); }
   }
   if (request.method === 'GET' && path !== '/api/news' && (path.startsWith('/api/') || path === '/health')) {
@@ -987,11 +996,23 @@ export async function handleRequest(request, env, ctx) {
   return response;
 }
 
+export function warmIndicatorHistory(env, scheduledTime = Date.now()) {
+  if (!env?.MARKET_CACHE) return;
+  // Refresh one instrument per existing five-minute tick. Verified history is reused.
+  const slot = Math.floor(scheduledTime / 300000) % HISTORY_HEALTH_SYMBOLS.length;
+  const symbol = HISTORY_HEALTH_SYMBOLS[slot];
+  const url = new URL(`https://worker.internal/api/history?symbol=${symbol}&range=6mo&interval=1d`);
+  return handleHistoryRequest(new Request(url), env, url, { verifiedOnly: true });
+}
+
 export default {
   fetch: handleRequest,
-  async scheduled(_controller, env, ctx) {
+  async scheduled(controller, env, ctx) {
+    const calendar = loadOfficialCalendar(env, true);
     ctx.waitUntil(Promise.allSettled([
-      loadOfficialCalendar(env, true).then(() => refreshAndStore(env)), getNewsSnapshot(env, true),
+      calendar.then(() => refreshAndStore(env)),
+      calendar.then(() => warmIndicatorHistory(env, controller.scheduledTime)),
+      getNewsSnapshot(env, true),
     ])
       .catch(error => console.error('Scheduled refresh failed', error)));
   },

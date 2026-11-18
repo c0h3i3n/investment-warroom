@@ -52,7 +52,7 @@ export function createUsSessionService(fetcher=(...args)=>globalThis.fetch(...ar
     }
     throw failure;
   }
-  return async function get(symbol,env,now=Date.now()) {
+  return async function get(symbol,env,now=Date.now(),{persist=true}={}) {
     if(!S.validSymbol(symbol)) throw new Error('Unsupported US symbol');
     const key=`market:us-sessions:v2:${symbol}`,clock=S.context(now);
     const stored=memory.get(symbol)||await env?.MARKET_CACHE?.get(key,{type:'json'}).catch(()=>null);
@@ -66,10 +66,15 @@ export function createUsSessionService(fetcher=(...args)=>globalThis.fetch(...ar
         const fresh=await upstream(symbol,now);
         memory.set(symbol,fresh);
         if(memory.size>32) memory.delete(memory.keys().next().value);
-        // Persist at most every five minutes per symbol; memory still refreshes each minute.
-        const persisted=await env?.MARKET_CACHE?.get(key,{type:'json'}).catch(()=>null);
-        if(!persisted||persisted.sessionDay!==fresh.sessionDay||now-Date.parse(persisted.generatedAt)>=300000) {
-          await env?.MARKET_CACHE?.put(key,JSON.stringify(fresh),{expirationTtl:604800}).catch(()=>{});
+        // Automated checks fetch the same data without consuming persistent writes.
+        if(persist&&env?.MARKET_CACHE) {
+          const saved=await env.MARKET_CACHE.get(key,{type:'json'}).catch(()=>null);
+          const elapsed=now-Date.parse(saved?.generatedAt||'');
+          const unchanged=JSON.stringify(saved?.sessions)===JSON.stringify(fresh.sessions);
+          const writeInterval=clock.phase==='closed'&&unchanged?12*3600000:300000;
+          if(saved?.sessionDay!==fresh.sessionDay||!Number.isFinite(elapsed)||elapsed>=writeInterval) {
+            await env.MARKET_CACHE.put(key,JSON.stringify(fresh),{expirationTtl:604800}).catch(()=>{});
+          }
         }
         return {...fresh,delivery:'source'};
       } catch(error) {

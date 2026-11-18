@@ -124,6 +124,31 @@ test('API rejects non-US symbols without upstream requests and has its own CORS 
   assert.equal(r.status,400);assert.equal(r.headers.get('Access-Control-Allow-Origin'),'*');
 });
 
+test('audit session requests return the normal payload without consuming persistent writes',async t=>{
+  const now=stamp('2026-11-12T02:00Z');
+  t.mock.method(Date,'now',()=>now);
+  t.mock.method(globalThis,'fetch',async()=>Response.json(fixture()));
+  const writes=[];
+  const env={MARKET_CACHE:{get:async()=>null,put:async(...args)=>writes.push(args)}};
+  const response=await handleRequest(new Request('https://worker.example/api/us-sessions?symbol=NVDA&persist=0'),env);
+  assert.equal(response.status,200);
+  const data=await response.json();
+  assert.equal(data.sessions.regular.price,110);
+  assert.equal(data.sessions.post.reference,110);
+  assert.equal(writes.length,0);
+});
+
+test('regular requests keep an outage backup without repeatedly storing identical closed sessions',async()=>{
+  const service=createUsSessionService(async()=>Response.json(fixture()));
+  const stored=new Map();let writes=0;
+  const env={MARKET_CACHE:{get:async key=>stored.get(key),put:async(key,value)=>{writes++;stored.set(key,JSON.parse(value));}}};
+  const now=stamp('2026-11-12T02:00Z');
+  await service('NVDA',env,now);
+  assert.equal(writes,1);
+  await service('NVDA',env,now+15*60000);
+  assert.equal(writes,1);
+});
+
 test('a provider without extended-hours support cannot create a post-market quote from its closing sentinel',()=>{
   const f=fixture();f.chart.result[0].meta.hasPrePostMarketData=false;
   const data=parseUsSessions(f,'NVDA',stamp('2026-11-12T02:00Z'));
