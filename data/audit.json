@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-19T21:24:47.426Z",
-  "expiresAt": "2026-11-19T22:09:47.426Z",
-  "status": "ok",
+  "checkedAt": "2026-11-19T23:16:18.175Z",
+  "expiresAt": "2026-11-20T00:01:18.175Z",
+  "status": "pending",
   "scope": {
     "quotes": [
       "0050.TW",
@@ -40,9 +40,9 @@
     ]
   },
   "counts": {
-    "pass": 183,
+    "pass": 182,
     "skip": 0,
-    "pending": 0,
+    "pending": 1,
     "warning": 0
   },
   "checks": [
@@ -58,8 +58,9 @@
     },
     {
       "id": "calendar:futures",
-      "status": "pass",
-      "message": "期交所公告查核結果與時間"
+      "status": "pending",
+      "message": "期交所公告查核結果與時間",
+      "occurrences": 1
     },
     {
       "id": "market:response",
@@ -339,7 +340,7 @@
     {
       "id": "quote:^GSPC:time",
       "status": "pass",
-      "message": "^GSPC 來源時間 2026-11-19T21:20:01.000Z／交易日檢查"
+      "message": "^GSPC 來源時間 2026-11-19T21:59:18.000Z／交易日檢查"
     },
     {
       "id": "quote:^GSPC:change",
@@ -349,7 +350,7 @@
     {
       "id": "quote:^IXIC:time",
       "status": "pass",
-      "message": "^IXIC 來源時間 2026-11-19T21:20:44.000Z／交易日檢查"
+      "message": "^IXIC 來源時間 2026-11-19T22:15:59.000Z／交易日檢查"
     },
     {
       "id": "quote:^IXIC:change",
@@ -359,7 +360,7 @@
     {
       "id": "quote:^SOX:time",
       "status": "pass",
-      "message": "^SOX 來源時間 2026-11-19T21:20:43.000Z／交易日檢查"
+      "message": "^SOX 來源時間 2026-11-19T22:15:59.000Z／交易日檢查"
     },
     {
       "id": "quote:^SOX:change",
