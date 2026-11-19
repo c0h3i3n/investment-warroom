@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-19T15:23:16.188Z",
-  "expiresAt": "2026-11-19T16:08:16.188Z",
-  "status": "partial",
+  "checkedAt": "2026-11-19T16:50:36.528Z",
+  "expiresAt": "2026-11-19T17:35:36.528Z",
+  "status": "pending",
   "scope": {
     "quotes": [
       "0050.TW",
@@ -40,9 +40,9 @@
     ]
   },
   "counts": {
-    "pass": 115,
+    "pass": 114,
     "skip": 17,
-    "pending": 0,
+    "pending": 1,
     "warning": 0
   },
   "checks": [
@@ -58,8 +58,9 @@
     },
     {
       "id": "calendar:futures",
-      "status": "pass",
-      "message": "期交所公告查核結果與時間"
+      "status": "pending",
+      "message": "期交所公告查核結果與時間",
+      "occurrences": 1
     },
     {
       "id": "market:response",
@@ -149,7 +150,7 @@
     {
       "id": "quote:SPCX:time",
       "status": "pass",
-      "message": "SPCX 來源時間 2026-11-19T15:20:45.000Z／交易日檢查"
+      "message": "SPCX 來源時間 2026-11-19T16:45:47.000Z／交易日檢查"
     },
     {
       "id": "quote:SPCX:change",
@@ -159,7 +160,7 @@
     {
       "id": "quote:NVDA:time",
       "status": "pass",
-      "message": "NVDA 來源時間 2026-11-19T15:20:45.000Z／交易日檢查"
+      "message": "NVDA 來源時間 2026-11-19T16:45:47.000Z／交易日檢查"
     },
     {
       "id": "quote:NVDA:change",
@@ -169,7 +170,7 @@
     {
       "id": "quote:TSM:time",
       "status": "pass",
-      "message": "TSM 來源時間 2026-11-19T15:20:44.000Z／交易日檢查"
+      "message": "TSM 來源時間 2026-11-19T16:45:47.000Z／交易日檢查"
     },
     {
       "id": "quote:TSM:change",
@@ -179,7 +180,7 @@
     {
       "id": "quote:TSLA:time",
       "status": "pass",
-      "message": "TSLA 來源時間 2026-11-19T15:20:43.000Z／交易日檢查"
+      "message": "TSLA 來源時間 2026-11-19T16:45:47.000Z／交易日檢查"
     },
     {
       "id": "quote:TSLA:change",
@@ -189,7 +190,7 @@
     {
       "id": "quote:MSFT:time",
       "status": "pass",
-      "message": "MSFT 來源時間 2026-11-19T15:20:37.000Z／交易日檢查"
+      "message": "MSFT 來源時間 2026-11-19T16:45:47.000Z／交易日檢查"
     },
     {
       "id": "quote:MSFT:change",
@@ -199,7 +200,7 @@
     {
       "id": "quote:GOOGL:time",
       "status": "pass",
-      "message": "GOOGL 來源時間 2026-11-19T15:20:45.000Z／交易日檢查"
+      "message": "GOOGL 來源時間 2026-11-19T16:45:46.000Z／交易日檢查"
     },
     {
       "id": "quote:GOOGL:change",
@@ -209,7 +210,7 @@
     {
       "id": "quote:AMZN:time",
       "status": "pass",
-      "message": "AMZN 來源時間 2026-11-19T15:20:45.000Z／交易日檢查"
+      "message": "AMZN 來源時間 2026-11-19T16:45:47.000Z／交易日檢查"
     },
     {
       "id": "quote:AMZN:change",
@@ -219,7 +220,7 @@
     {
       "id": "quote:AAPL:time",
       "status": "pass",
-      "message": "AAPL 來源時間 2026-11-19T15:20:44.000Z／交易日檢查"
+      "message": "AAPL 來源時間 2026-11-19T16:45:47.000Z／交易日檢查"
     },
     {
       "id": "quote:AAPL:change",
@@ -229,7 +230,7 @@
     {
       "id": "quote:AMD:time",
       "status": "pass",
-      "message": "AMD 來源時間 2026-11-19T15:20:45.000Z／交易日檢查"
+      "message": "AMD 來源時間 2026-11-19T16:45:47.000Z／交易日檢查"
     },
     {
       "id": "quote:AMD:change",
@@ -239,7 +240,7 @@
     {
       "id": "quote:AVGO:time",
       "status": "pass",
-      "message": "AVGO 來源時間 2026-11-19T15:20:45.000Z／交易日檢查"
+      "message": "AVGO 來源時間 2026-11-19T16:45:44.000Z／交易日檢查"
     },
     {
       "id": "quote:AVGO:change",
@@ -249,7 +250,7 @@
     {
       "id": "quote:META:time",
       "status": "pass",
-      "message": "META 來源時間 2026-11-19T15:20:45.000Z／交易日檢查"
+      "message": "META 來源時間 2026-11-19T16:45:45.000Z／交易日檢查"
     },
     {
       "id": "quote:META:change",
@@ -259,7 +260,7 @@
     {
       "id": "quote:MU:time",
       "status": "pass",
-      "message": "MU 來源時間 2026-11-19T15:20:39.000Z／交易日檢查"
+      "message": "MU 來源時間 2026-11-19T16:45:47.000Z／交易日檢查"
     },
     {
       "id": "quote:MU:change",
@@ -269,7 +270,7 @@
     {
       "id": "quote:ANET:time",
       "status": "pass",
-      "message": "ANET 來源時間 2026-11-19T15:20:44.000Z／交易日檢查"
+      "message": "ANET 來源時間 2026-11-19T16:45:47.000Z／交易日檢查"
     },
     {
       "id": "quote:ANET:change",
@@ -279,7 +280,7 @@
     {
       "id": "quote:VRT:time",
       "status": "pass",
-      "message": "VRT 來源時間 2026-11-19T15:20:45.000Z／交易日檢查"
+      "message": "VRT 來源時間 2026-11-19T16:45:47.000Z／交易日檢查"
     },
     {
       "id": "quote:VRT:change",
@@ -289,7 +290,7 @@
     {
       "id": "quote:ASML:time",
       "status": "pass",
-      "message": "ASML 來源時間 2026-11-19T15:20:45.000Z／交易日檢查"
+      "message": "ASML 來源時間 2026-11-19T16:45:43.000Z／交易日檢查"
     },
     {
       "id": "quote:ASML:change",
@@ -299,7 +300,7 @@
     {
       "id": "quote:ORCL:time",
       "status": "pass",
-      "message": "ORCL 來源時間 2026-11-19T15:20:39.000Z／交易日檢查"
+      "message": "ORCL 來源時間 2026-11-19T16:45:44.000Z／交易日檢查"
     },
     {
       "id": "quote:ORCL:change",
@@ -309,7 +310,7 @@
     {
       "id": "quote:PLTR:time",
       "status": "pass",
-      "message": "PLTR 來源時間 2026-11-19T15:20:45.000Z／交易日檢查"
+      "message": "PLTR 來源時間 2026-11-19T16:45:45.000Z／交易日檢查"
     },
     {
       "id": "quote:PLTR:change",
@@ -339,7 +340,7 @@
     {
       "id": "quote:^GSPC:time",
       "status": "pass",
-      "message": "^GSPC 來源時間 2026-11-19T15:20:44.000Z／交易日檢查"
+      "message": "^GSPC 來源時間 2026-11-19T16:45:47.000Z／交易日檢查"
     },
     {
       "id": "quote:^GSPC:change",
@@ -349,7 +350,7 @@
     {
       "id": "quote:^IXIC:time",
       "status": "pass",
-      "message": "^IXIC 來源時間 2026-11-19T15:20:35.000Z／交易日檢查"
+      "message": "^IXIC 來源時間 2026-11-19T16:45:46.000Z／交易日檢查"
     },
     {
       "id": "quote:^IXIC:change",
@@ -359,7 +360,7 @@
     {
       "id": "quote:^SOX:time",
       "status": "pass",
-      "message": "^SOX 來源時間 2026-11-19T15:20:44.000Z／交易日檢查"
+      "message": "^SOX 來源時間 2026-11-19T16:45:43.000Z／交易日檢查"
     },
     {
       "id": "quote:^SOX:change",
