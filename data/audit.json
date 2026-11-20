@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-20T12:42:26.441Z",
-  "expiresAt": "2026-11-20T13:27:26.441Z",
-  "status": "pending",
+  "checkedAt": "2026-11-20T15:00:05.481Z",
+  "expiresAt": "2026-11-20T15:45:05.481Z",
+  "status": "partial",
   "scope": {
     "quotes": [
       "0050.TW",
@@ -40,9 +40,9 @@
     ]
   },
   "counts": {
-    "pass": 97,
+    "pass": 115,
     "skip": 17,
-    "pending": 1,
+    "pending": 0,
     "warning": 0
   },
   "checks": [
@@ -58,9 +58,8 @@
     },
     {
       "id": "calendar:futures",
-      "status": "pending",
-      "message": "期交所公告查核結果與時間",
-      "occurrences": 1
+      "status": "pass",
+      "message": "期交所公告查核結果與時間"
     },
     {
       "id": "market:response",
@@ -150,7 +149,7 @@
     {
       "id": "quote:SPCX:time",
       "status": "pass",
-      "message": "SPCX 來源時間 2026-11-19T21:00:01.000Z／交易日檢查"
+      "message": "SPCX 來源時間 2026-11-20T14:55:46.000Z／交易日檢查"
     },
     {
       "id": "quote:SPCX:change",
@@ -160,7 +159,7 @@
     {
       "id": "quote:NVDA:time",
       "status": "pass",
-      "message": "NVDA 來源時間 2026-11-19T21:00:01.000Z／交易日檢查"
+      "message": "NVDA 來源時間 2026-11-20T14:55:45.000Z／交易日檢查"
     },
     {
       "id": "quote:NVDA:change",
@@ -170,7 +169,7 @@
     {
       "id": "quote:TSM:time",
       "status": "pass",
-      "message": "TSM 來源時間 2026-11-19T21:00:02.000Z／交易日檢查"
+      "message": "TSM 來源時間 2026-11-20T14:55:43.000Z／交易日檢查"
     },
     {
       "id": "quote:TSM:change",
@@ -180,7 +179,7 @@
     {
       "id": "quote:TSLA:time",
       "status": "pass",
-      "message": "TSLA 來源時間 2026-11-19T21:00:01.000Z／交易日檢查"
+      "message": "TSLA 來源時間 2026-11-20T14:55:45.000Z／交易日檢查"
     },
     {
       "id": "quote:TSLA:change",
@@ -190,7 +189,7 @@
     {
       "id": "quote:MSFT:time",
       "status": "pass",
-      "message": "MSFT 來源時間 2026-11-19T21:00:01.000Z／交易日檢查"
+      "message": "MSFT 來源時間 2026-11-20T14:55:44.000Z／交易日檢查"
     },
     {
       "id": "quote:MSFT:change",
@@ -200,7 +199,7 @@
     {
       "id": "quote:GOOGL:time",
       "status": "pass",
-      "message": "GOOGL 來源時間 2026-11-19T21:00:00.000Z／交易日檢查"
+      "message": "GOOGL 來源時間 2026-11-20T14:55:46.000Z／交易日檢查"
     },
     {
       "id": "quote:GOOGL:change",
@@ -210,7 +209,7 @@
     {
       "id": "quote:AMZN:time",
       "status": "pass",
-      "message": "AMZN 來源時間 2026-11-19T21:00:01.000Z／交易日檢查"
+      "message": "AMZN 來源時間 2026-11-20T14:55:46.000Z／交易日檢查"
     },
     {
       "id": "quote:AMZN:change",
@@ -220,7 +219,7 @@
     {
       "id": "quote:AAPL:time",
       "status": "pass",
-      "message": "AAPL 來源時間 2026-11-19T21:00:01.000Z／交易日檢查"
+      "message": "AAPL 來源時間 2026-11-20T14:55:45.000Z／交易日檢查"
     },
     {
       "id": "quote:AAPL:change",
@@ -230,7 +229,7 @@
     {
       "id": "quote:AMD:time",
       "status": "pass",
-      "message": "AMD 來源時間 2026-11-19T21:00:01.000Z／交易日檢查"
+      "message": "AMD 來源時間 2026-11-20T14:55:45.000Z／交易日檢查"
     },
     {
       "id": "quote:AMD:change",
@@ -240,7 +239,7 @@
     {
       "id": "quote:AVGO:time",
       "status": "pass",
-      "message": "AVGO 來源時間 2026-11-19T21:00:00.000Z／交易日檢查"
+      "message": "AVGO 來源時間 2026-11-20T14:55:46.000Z／交易日檢查"
     },
     {
       "id": "quote:AVGO:change",
@@ -250,7 +249,7 @@
     {
       "id": "quote:META:time",
       "status": "pass",
-      "message": "META 來源時間 2026-11-19T21:00:01.000Z／交易日檢查"
+      "message": "META 來源時間 2026-11-20T14:55:45.000Z／交易日檢查"
     },
     {
       "id": "quote:META:change",
@@ -260,7 +259,7 @@
     {
       "id": "quote:MU:time",
       "status": "pass",
-      "message": "MU 來源時間 2026-11-19T21:00:01.000Z／交易日檢查"
+      "message": "MU 來源時間 2026-11-20T14:55:46.000Z／交易日檢查"
     },
     {
       "id": "quote:MU:change",
@@ -270,7 +269,7 @@
     {
       "id": "quote:ANET:time",
       "status": "pass",
-      "message": "ANET 來源時間 2026-11-19T21:00:03.000Z／交易日檢查"
+      "message": "ANET 來源時間 2026-11-20T14:55:45.000Z／交易日檢查"
     },
     {
       "id": "quote:ANET:change",
@@ -280,7 +279,7 @@
     {
       "id": "quote:VRT:time",
       "status": "pass",
-      "message": "VRT 來源時間 2026-11-19T21:00:02.000Z／交易日檢查"
+      "message": "VRT 來源時間 2026-11-20T14:55:46.000Z／交易日檢查"
     },
     {
       "id": "quote:VRT:change",
@@ -290,7 +289,7 @@
     {
       "id": "quote:ASML:time",
       "status": "pass",
-      "message": "ASML 來源時間 2026-11-19T21:00:00.000Z／交易日檢查"
+      "message": "ASML 來源時間 2026-11-20T14:55:44.000Z／交易日檢查"
     },
     {
       "id": "quote:ASML:change",
@@ -300,7 +299,7 @@
     {
       "id": "quote:ORCL:time",
       "status": "pass",
-      "message": "ORCL 來源時間 2026-11-19T21:03:39.000Z／交易日檢查"
+      "message": "ORCL 來源時間 2026-11-20T14:55:45.000Z／交易日檢查"
     },
     {
       "id": "quote:ORCL:change",
@@ -310,7 +309,7 @@
     {
       "id": "quote:PLTR:time",
       "status": "pass",
-      "message": "PLTR 來源時間 2026-11-19T21:00:00.000Z／交易日檢查"
+      "message": "PLTR 來源時間 2026-11-20T14:55:45.000Z／交易日檢查"
     },
     {
       "id": "quote:PLTR:change",
@@ -340,7 +339,7 @@
     {
       "id": "quote:^GSPC:time",
       "status": "pass",
-      "message": "^GSPC 來源時間 2026-11-19T21:59:18.000Z／交易日檢查"
+      "message": "^GSPC 來源時間 2026-11-20T14:55:45.000Z／交易日檢查"
     },
     {
       "id": "quote:^GSPC:change",
@@ -350,7 +349,7 @@
     {
       "id": "quote:^IXIC:time",
       "status": "pass",
-      "message": "^IXIC 來源時間 2026-11-19T22:15:59.000Z／交易日檢查"
+      "message": "^IXIC 來源時間 2026-11-20T14:55:40.000Z／交易日檢查"
     },
     {
       "id": "quote:^IXIC:change",
@@ -360,7 +359,7 @@
     {
       "id": "quote:^SOX:time",
       "status": "pass",
-      "message": "^SOX 來源時間 2026-11-19T22:15:59.000Z／交易日檢查"
+      "message": "^SOX 來源時間 2026-11-20T14:55:44.000Z／交易日檢查"
     },
     {
       "id": "quote:^SOX:change",
@@ -378,6 +377,11 @@
       "message": "SPCX 盤前報價類型、時間與時段邊界"
     },
     {
+      "id": "sessions:SPCX:regular",
+      "status": "pass",
+      "message": "SPCX 盤中報價類型、時間與時段邊界"
+    },
+    {
       "id": "sessions:SPCX:compare",
       "status": "skip",
       "message": "SPCX 報價時間或類型不同，未直接比價"
@@ -391,6 +395,11 @@
       "id": "sessions:NVDA:pre",
       "status": "pass",
       "message": "NVDA 盤前報價類型、時間與時段邊界"
+    },
+    {
+      "id": "sessions:NVDA:regular",
+      "status": "pass",
+      "message": "NVDA 盤中報價類型、時間與時段邊界"
     },
     {
       "id": "sessions:NVDA:compare",
@@ -408,6 +417,11 @@
       "message": "TSM 盤前報價類型、時間與時段邊界"
     },
     {
+      "id": "sessions:TSM:regular",
+      "status": "pass",
+      "message": "TSM 盤中報價類型、時間與時段邊界"
+    },
+    {
       "id": "sessions:TSM:compare",
       "status": "skip",
       "message": "TSM 報價時間或類型不同，未直接比價"
@@ -421,6 +435,11 @@
       "id": "sessions:TSLA:pre",
       "status": "pass",
       "message": "TSLA 盤前報價類型、時間與時段邊界"
+    },
+    {
+      "id": "sessions:TSLA:regular",
+      "status": "pass",
+      "message": "TSLA 盤中報價類型、時間與時段邊界"
     },
     {
       "id": "sessions:TSLA:compare",
@@ -438,6 +457,11 @@
       "message": "MSFT 盤前報價類型、時間與時段邊界"
     },
     {
+      "id": "sessions:MSFT:regular",
+      "status": "pass",
+      "message": "MSFT 盤中報價類型、時間與時段邊界"
+    },
+    {
       "id": "sessions:MSFT:compare",
       "status": "skip",
       "message": "MSFT 報價時間或類型不同，未直接比價"
@@ -451,6 +475,11 @@
       "id": "sessions:GOOGL:pre",
       "status": "pass",
       "message": "GOOGL 盤前報價類型、時間與時段邊界"
+    },
+    {
+      "id": "sessions:GOOGL:regular",
+      "status": "pass",
+      "message": "GOOGL 盤中報價類型、時間與時段邊界"
     },
     {
       "id": "sessions:GOOGL:compare",
@@ -468,6 +497,11 @@
       "message": "AMZN 盤前報價類型、時間與時段邊界"
     },
     {
+      "id": "sessions:AMZN:regular",
+      "status": "pass",
+      "message": "AMZN 盤中報價類型、時間與時段邊界"
+    },
+    {
       "id": "sessions:AMZN:compare",
       "status": "skip",
       "message": "AMZN 報價時間或類型不同，未直接比價"
@@ -481,6 +515,11 @@
       "id": "sessions:AAPL:pre",
       "status": "pass",
       "message": "AAPL 盤前報價類型、時間與時段邊界"
+    },
+    {
+      "id": "sessions:AAPL:regular",
+      "status": "pass",
+      "message": "AAPL 盤中報價類型、時間與時段邊界"
     },
     {
       "id": "sessions:AAPL:compare",
@@ -498,6 +537,11 @@
       "message": "AMD 盤前報價類型、時間與時段邊界"
     },
     {
+      "id": "sessions:AMD:regular",
+      "status": "pass",
+      "message": "AMD 盤中報價類型、時間與時段邊界"
+    },
+    {
       "id": "sessions:AMD:compare",
       "status": "skip",
       "message": "AMD 報價時間或類型不同，未直接比價"
@@ -511,6 +555,11 @@
       "id": "sessions:AVGO:pre",
       "status": "pass",
       "message": "AVGO 盤前報價類型、時間與時段邊界"
+    },
+    {
+      "id": "sessions:AVGO:regular",
+      "status": "pass",
+      "message": "AVGO 盤中報價類型、時間與時段邊界"
     },
     {
       "id": "sessions:AVGO:compare",
@@ -528,6 +577,11 @@
       "message": "META 盤前報價類型、時間與時段邊界"
     },
     {
+      "id": "sessions:META:regular",
+      "status": "pass",
+      "message": "META 盤中報價類型、時間與時段邊界"
+    },
+    {
       "id": "sessions:META:compare",
       "status": "skip",
       "message": "META 報價時間或類型不同，未直接比價"
@@ -541,6 +595,11 @@
       "id": "sessions:MU:pre",
       "status": "pass",
       "message": "MU 盤前報價類型、時間與時段邊界"
+    },
+    {
+      "id": "sessions:MU:regular",
+      "status": "pass",
+      "message": "MU 盤中報價類型、時間與時段邊界"
     },
     {
       "id": "sessions:MU:compare",
@@ -558,6 +617,11 @@
       "message": "ANET 盤前報價類型、時間與時段邊界"
     },
     {
+      "id": "sessions:ANET:regular",
+      "status": "pass",
+      "message": "ANET 盤中報價類型、時間與時段邊界"
+    },
+    {
       "id": "sessions:ANET:compare",
       "status": "skip",
       "message": "ANET 報價時間或類型不同，未直接比價"
@@ -571,6 +635,11 @@
       "id": "sessions:VRT:pre",
       "status": "pass",
       "message": "VRT 盤前報價類型、時間與時段邊界"
+    },
+    {
+      "id": "sessions:VRT:regular",
+      "status": "pass",
+      "message": "VRT 盤中報價類型、時間與時段邊界"
     },
     {
       "id": "sessions:VRT:compare",
@@ -588,6 +657,11 @@
       "message": "ASML 盤前報價類型、時間與時段邊界"
     },
     {
+      "id": "sessions:ASML:regular",
+      "status": "pass",
+      "message": "ASML 盤中報價類型、時間與時段邊界"
+    },
+    {
       "id": "sessions:ASML:compare",
       "status": "skip",
       "message": "ASML 報價時間或類型不同，未直接比價"
@@ -603,6 +677,11 @@
       "message": "ORCL 盤前報價類型、時間與時段邊界"
     },
     {
+      "id": "sessions:ORCL:regular",
+      "status": "pass",
+      "message": "ORCL 盤中報價類型、時間與時段邊界"
+    },
+    {
       "id": "sessions:ORCL:compare",
       "status": "skip",
       "message": "ORCL 報價時間或類型不同，未直接比價"
@@ -616,6 +695,11 @@
       "id": "sessions:PLTR:pre",
       "status": "pass",
       "message": "PLTR 盤前報價類型、時間與時段邊界"
+    },
+    {
+      "id": "sessions:PLTR:regular",
+      "status": "pass",
+      "message": "PLTR 盤中報價類型、時間與時段邊界"
     },
     {
       "id": "sessions:PLTR:compare",
