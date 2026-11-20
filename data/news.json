@@ -1,8 +1,380 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T07:30:42.904Z",
-  "checkedAt": 1795159842904,
+  "generatedAt": "2026-11-20T11:22:24.233Z",
+  "checkedAt": 1795173744233,
   "data": [
+    {
+      "headline": "脫歐十年破冰：英歐敲定《關係重置協議》 聚焦貿易、氣候與移民合作",
+      "link": "https://news.cnyes.com/news/id/6669223",
+      "publishedAt": 1795173007000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "中國交出2026 APEC東道主成績單！75項成果與互聯互通藍圖勾勒亞太共同體路線圖",
+      "link": "https://news.cnyes.com/news/id/6669150",
+      "publishedAt": 1795172403000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "台股跌跌不休 林修銘信心喊話：基本面穩健、AI中長期仍看俏",
+      "link": "https://news.cnyes.com/news/id/6669315",
+      "publishedAt": 1795172392000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "〈數位至匯登興櫃〉從半導體、創投轉戰移工匯兌 引進台達電等長線資金打造服務生態圈",
+      "link": "https://news.cnyes.com/news/id/6669300",
+      "publishedAt": 1795171516000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "群聯推太空專用SSD搶攻軌道資料中心市場 攜手Lonestar明年上半年發射升空",
+      "link": "https://news.cnyes.com/news/id/6669305",
+      "publishedAt": 1795171420000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "〈數位至匯登興櫃〉今年跨境匯款將衝破500億元 三大引擎驅動明年營收看增逾5成",
+      "link": "https://news.cnyes.com/news/id/6669231",
+      "publishedAt": 1795170480000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "網易Q3財報不佳引發港股股價暴跌 丁磊：短劇短期對遊戲帶來影響",
+      "link": "https://news.cnyes.com/news/id/6669221",
+      "publishedAt": 1795170005000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "港股"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "雙11價格戰提前開打 台灣10月手機加速降價 iPhone 18 Pro大容量版單月下殺逾4千元",
+      "link": "https://news.cnyes.com/news/id/6669260",
+      "publishedAt": 1795170005000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "神基三款強固型裝置通過Red Hat認證 擴大高度監管產業應用",
+      "link": "https://news.cnyes.com/news/id/6669259",
+      "publishedAt": 1795169834000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "外資再提款94億元續砍0050本周大賣逾30萬張 聯電與面板雙虎反獲青睞",
+      "link": "https://news.cnyes.com/news/id/6669255",
+      "publishedAt": 1795169469000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤勢"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "央行外匯局出面信心喊話 出口大廠在賣匯 匯市供需趨平衡了",
+      "link": "https://news.cnyes.com/news/id/6669218",
+      "publishedAt": 1795168277000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "研調：三大應用面板Q4需求同步轉弱 11月價格估全面持平",
+      "link": "https://news.cnyes.com/news/id/6669213",
+      "publishedAt": 1795168070000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "長榮航在APEX拿下2027全球五星級航空 還拿一項區域冠軍",
+      "link": "https://news.cnyes.com/news/id/6669153",
+      "publishedAt": 1795167990000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "一詮激勵員工向心力 擬砸最高3億元買回庫藏股",
+      "link": "https://news.cnyes.com/news/id/6669190",
+      "publishedAt": 1795167614000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "中華電信進駐KidZania Taipei 董事長簡志誠揭合作目的",
+      "link": "https://news.cnyes.com/news/id/6669211",
+      "publishedAt": 1795167400000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "綠白聯手也擋不住！普發2萬條例三讀過關 最快預算生效3個月發放",
+      "link": "https://news.cnyes.com/news/id/6669152",
+      "publishedAt": 1795165892000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台灣政經"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "矽谷開始變臉！馬斯克悔捐共和黨4億美元 Palantir執行長自爆「終身民主黨人」",
+      "link": "https://news.cnyes.com/news/id/6669117",
+      "publishedAt": 1795165804000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "〈台幣〉央行強力穩盤 收32.936元升值0.6分",
+      "link": "https://news.cnyes.com/news/id/6669140",
+      "publishedAt": 1795165463000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "信紘科攜手中工搶攻台塑大樓都更 統包訂單營收占比已達50%",
+      "link": "https://news.cnyes.com/news/id/6669132",
+      "publishedAt": 1795164604000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "〈港股盤後〉科網晶片股走低 主要指數承壓 恒指跌1.89%",
+      "link": "https://news.cnyes.com/news/id/6669119",
+      "publishedAt": 1795163983000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "港股"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "〈外銷訂單〉21紅！10月外銷訂單1238億美元連3月破千億 續創單月新高",
+      "link": "https://news.cnyes.com/news/id/6663480",
+      "publishedAt": 1795163665000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台灣政經"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "〈陸股盤後〉半導體股領跌 滬指險守3500點大關 連二日收黑",
+      "link": "https://news.cnyes.com/news/id/6668956",
+      "publishedAt": 1795163402000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "方舟「木頭姐」砸9000萬美元搶進Anthropic 減持輝達因應監管風暴",
+      "link": "https://news.cnyes.com/news/id/6669035",
+      "publishedAt": 1795163396000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "阿里巴巴遭股東提起集體訴訟 稱公司隱瞞與Megaspeed密切關係",
+      "link": "https://news.cnyes.com/news/id/6668997",
+      "publishedAt": 1795162804000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "港股"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "2支手機就能3D揮棒分析！經部攜28家新創搶攻5.4億商機 專利佈局助攻國際",
+      "link": "https://news.cnyes.com/news/id/6668841",
+      "publishedAt": 1795162670000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台灣政經"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：玉山金(2884-TW)EPS預估下修至2.52元，預估目標價為47元",
+      "link": "https://news.cnyes.com/news/id/6669075",
+      "publishedAt": 1795162274000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：富邦金(2881-TW)EPS預估下修至11.04元，預估目標價為155.3元",
+      "link": "https://news.cnyes.com/news/id/6669074",
+      "publishedAt": 1795162272000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：富邦金(2881-TW)目標價調升至155.3元，幅度約5%",
+      "link": "https://news.cnyes.com/news/id/6669073",
+      "publishedAt": 1795162220000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股預估"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "〈航運指數〉SCFI連3跌反映傳統淡季 恐修正至12月中旬",
+      "link": "https://news.cnyes.com/news/id/6669047",
+      "publishedAt": 1795161094000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "不甩升息預期！美債連漲5天將創今年最長紀錄 誰在逆勢買？",
+      "link": "https://news.cnyes.com/news/id/6669006",
+      "publishedAt": 1795161004000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795173744233
+    },
+    {
+      "headline": "Anthropic 上市未能扭轉賣壓，美股回檔後該如何投資？",
+      "link": "https://news.cnyes.com/news/id/6669038",
+      "publishedAt": 1795160252000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "基金"
+      ],
+      "fetchedAt": 1795173744233
+    },
     {
       "headline": "輝達股價恐暴跌至100美元？機構提出看空的主要理由",
       "link": "https://news.cnyes.com/news/id/6668993",
@@ -13,7 +385,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795159842904
+      "fetchedAt": 1795173744233
     },
     {
       "headline": "台股跌 2393.6 點，收 36033.29 點，三大法人賣超 522.46 億元",
@@ -25,7 +397,7 @@
       "categories": [
         "台股盤勢"
       ],
-      "fetchedAt": 1795159842904
+      "fetchedAt": 1795173744233
     },
     {
       "headline": "多空大分裂！投機客在COMEX銅市狂賣超108億美元 實體買家卻在逆勢抄底",
@@ -37,7 +409,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1795159842904
+      "fetchedAt": 1795173744233
     },
     {
       "headline": "永昕董座異動由晟德王素琦出任 強化CDMO布局",
@@ -49,7 +421,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795159842904
+      "fetchedAt": 1795173744233
     },
     {
       "headline": "全球AI與半導體需求強勁 馬來西亞10月出口暴增61%創歷史新高",
@@ -61,7 +433,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1795159842904
+      "fetchedAt": 1795173744233
     },
     {
       "headline": "亞洲晶片股拋售演變為恐慌性踩踏 台韓股市成重災區",
@@ -73,7 +445,7 @@
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1795159842904
+      "fetchedAt": 1795173744233
     },
     {
       "headline": "〈台股盤後〉限空令2.0擋不住賣壓狂瀉2393點創史上第三大跌點 本周跌逾7000點跌幅17.5%",
@@ -85,7 +457,7 @@
       "categories": [
         "台股盤勢"
       ],
-      "fetchedAt": 1795159842904
+      "fetchedAt": 1795173744233
     },
     {
       "headline": "黃仁勳離職第7天！穆迪將輝達信評展望降至「穩定」：未來18個月「不可能上調」",
@@ -97,7 +469,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795159842904
+      "fetchedAt": 1795173744233
     },
     {
       "headline": "拼多多逆勢大漲11%：收縮行銷開支 流量補貼時代正式告終",
@@ -109,379 +481,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "〈焦點股〉台股狂殺2400點 光通訊一片哀號超過10檔亮燈跌停",
-      "link": "https://news.cnyes.com/news/id/6668916",
-      "publishedAt": 1795151725000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "美中俄史上首次三方峰會！普丁高度評價、川普親打12分 專家：為新型大國關係提供明確路徑",
-      "link": "https://news.cnyes.com/news/id/6668810",
-      "publishedAt": 1795150807000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "〈焦點股〉視陽矽水膠產品需求強勁積極擴產展望正面 逆風守紅盤",
-      "link": "https://news.cnyes.com/news/id/6640784",
-      "publishedAt": 1795150117000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "ETF吸金破紀錄！全球10月淨流入3931億美元 台灣奪亞太吸金王",
-      "link": "https://news.cnyes.com/news/id/6663761",
-      "publishedAt": 1795149742000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "ETF"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "AI下一棒誰接？國泰投信攜手大和國泰證券揭台韓半導體新商機",
-      "link": "https://news.cnyes.com/news/id/6663468",
-      "publishedAt": 1795148126000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "基金"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "華航連11年獲頒APEX五星航空 首度拿最佳座椅舒適度獎",
-      "link": "https://news.cnyes.com/news/id/6668814",
-      "publishedAt": 1795147966000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：長榮(2603-TW)EPS預估上修至45.31元，預估目標價為271.5元",
-      "link": "https://news.cnyes.com/news/id/6668817",
-      "publishedAt": 1795147863000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股預估"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：創意(3443-TW)EPS預估下修至62.05元，預估目標價為9150元",
-      "link": "https://news.cnyes.com/news/id/6668816",
-      "publishedAt": 1795147854000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股預估"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：和碩(4938-TW)EPS預估上修至5.83元，預估目標價為99元",
-      "link": "https://news.cnyes.com/news/id/6668815",
-      "publishedAt": 1795147845000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股預估"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "〈分析〉川習會未解晶片僵局 北京反制牌如何牽動貿易休戰？",
-      "link": "https://news.cnyes.com/news/id/6668709",
-      "publishedAt": 1795147206000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "黑色星期五！Anthropic IPO不夠力衝擊AI信仰 全球股災將創近三年最長跌勢紀錄",
-      "link": "https://news.cnyes.com/news/id/6668566",
-      "publishedAt": 1795146606000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "盤中速報 - 集中市場加權指數下跌-2222.53點至36204.36點，跌幅5.78%",
-      "link": "https://news.cnyes.com/news/id/6668759",
-      "publishedAt": 1795146119000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-21.13點至264.2點，跌幅7.41%",
-      "link": "https://news.cnyes.com/news/id/6668758",
-      "publishedAt": 1795146117000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "盤中速報 - 集中市場加權指數下跌-2250.63點至36176.26點，跌幅5.86%",
-      "link": "https://news.cnyes.com/news/id/6668756",
-      "publishedAt": 1795146059000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-21.37點至263.96點，跌幅7.49%",
-      "link": "https://news.cnyes.com/news/id/6668755",
-      "publishedAt": 1795146055000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "龍山寺和紅樓都裝光電板、故宮不行？經部次長親上火線還原始末",
-      "link": "https://news.cnyes.com/news/id/6668704",
-      "publishedAt": 1795143815000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台灣政經"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "史上最尷尬IPO？Anthropic上市首日大漲17% 卻遭矽谷聯合抵制",
-      "link": "https://news.cnyes.com/news/id/6668235",
-      "publishedAt": 1795143661000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "台電中油追加預算卡關？藍委傳喊電價凍漲2年 經濟部給答案了",
-      "link": "https://news.cnyes.com/news/id/6668691",
-      "publishedAt": 1795143412000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台灣政經"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "〈國泰金經濟調查〉通膨升溫+AI疑慮再起 11月景氣、股市樂觀指數同步回落",
-      "link": "https://news.cnyes.com/news/id/6668589",
-      "publishedAt": 1795142965000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "微型金融違約增加 裕融：增提備抵 資產品質穩健可控",
-      "link": "https://news.cnyes.com/news/id/6668632",
-      "publishedAt": 1795142802000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "盤中速報 - 集中市場加權指數下跌-2270.5點至36156.39點，跌幅5.91%",
-      "link": "https://news.cnyes.com/news/id/6668594",
-      "publishedAt": 1795142395000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-21.97點至263.36點，跌幅7.7%",
-      "link": "https://news.cnyes.com/news/id/6668593",
-      "publishedAt": 1795142393000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "台股湧多殺多無差別賣壓 國家隊死守台積電2000元、台幣33元防線",
-      "link": "https://news.cnyes.com/news/id/6668587",
-      "publishedAt": 1795142253000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-20.44點至264.89點，跌幅7.16%",
-      "link": "https://news.cnyes.com/news/id/6668585",
-      "publishedAt": 1795142056000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "〈分析〉14.5倍明年營收估值貴過SpaceX Anthropic上市狂歡能撐多久？",
-      "link": "https://news.cnyes.com/news/id/6668447",
-      "publishedAt": 1795141804000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-20.78點至264.55點，跌幅7.28%",
-      "link": "https://news.cnyes.com/news/id/6668573",
-      "publishedAt": 1795141071000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "盤中速報 - 集中市場加權指數下跌-1941.04點至36485.85點，跌幅5.05%",
-      "link": "https://news.cnyes.com/news/id/6668571",
-      "publishedAt": 1795141066000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "外資撤離1152億美元創紀錄！AI晶片雙雄獲利創紀錄 韓股卻深陷「賣出韓國」風暴",
-      "link": "https://news.cnyes.com/news/id/6668445",
-      "publishedAt": 1795140960000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "歐亞股"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-21.66點至263.67點，跌幅7.59%",
-      "link": "https://news.cnyes.com/news/id/6668559",
-      "publishedAt": 1795140418000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "盤中速報 - 集中市場加權指數下跌-1977.84點至36449.05點，跌幅5.15%",
-      "link": "https://news.cnyes.com/news/id/6668455",
-      "publishedAt": 1795139501000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795159842904
-    },
-    {
-      "headline": "盤中速報 - 櫃買市場加權指數下跌-21.04點至264.29點，跌幅7.37%",
-      "link": "https://news.cnyes.com/news/id/6668452",
-      "publishedAt": 1795139495000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795159842904
+      "fetchedAt": 1795173744233
     }
   ],
   "failedSources": [],
