@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-20T07:31:47.192Z",
-  "expiresAt": "2026-11-20T08:16:47.192Z",
-  "status": "ok",
+  "checkedAt": "2026-11-20T11:23:20.360Z",
+  "expiresAt": "2026-11-20T12:08:20.360Z",
+  "status": "pending",
   "scope": {
     "quotes": [
       "0050.TW",
@@ -40,9 +40,9 @@
     ]
   },
   "counts": {
-    "pass": 183,
-    "skip": 0,
-    "pending": 0,
+    "pass": 97,
+    "skip": 17,
+    "pending": 1,
     "warning": 0
   },
   "checks": [
@@ -377,29 +377,9 @@
       "message": "SPCX 盤前報價類型、時間與時段邊界"
     },
     {
-      "id": "sessions:SPCX:regular",
-      "status": "pass",
-      "message": "SPCX 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:SPCX:post",
-      "status": "pass",
-      "message": "SPCX 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:SPCX:baseline",
-      "status": "pass",
-      "message": "SPCX 盤後基準應為正常盤 138.43，實際 138.43"
-    },
-    {
       "id": "sessions:SPCX:compare",
-      "status": "pass",
-      "message": "SPCX 同來源時間：自選股 138.43／正常盤 138.43"
-    },
-    {
-      "id": "sessions:SPCX:previous-close",
-      "status": "pass",
-      "message": "SPCX 盤前及正常盤漲跌基準應為前收 143.5"
+      "status": "skip",
+      "message": "SPCX 報價時間或類型不同，未直接比價"
     },
     {
       "id": "sessions:NVDA",
@@ -412,29 +392,9 @@
       "message": "NVDA 盤前報價類型、時間與時段邊界"
     },
     {
-      "id": "sessions:NVDA:regular",
-      "status": "pass",
-      "message": "NVDA 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:NVDA:post",
-      "status": "pass",
-      "message": "NVDA 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:NVDA:baseline",
-      "status": "pass",
-      "message": "NVDA 盤後基準應為正常盤 145.98，實際 145.98"
-    },
-    {
       "id": "sessions:NVDA:compare",
-      "status": "pass",
-      "message": "NVDA 同來源時間：自選股 145.98／正常盤 145.98"
-    },
-    {
-      "id": "sessions:NVDA:previous-close",
-      "status": "pass",
-      "message": "NVDA 盤前及正常盤漲跌基準應為前收 150.96"
+      "status": "skip",
+      "message": "NVDA 報價時間或類型不同，未直接比價"
     },
     {
       "id": "sessions:TSM",
@@ -447,29 +407,9 @@
       "message": "TSM 盤前報價類型、時間與時段邊界"
     },
     {
-      "id": "sessions:TSM:regular",
-      "status": "pass",
-      "message": "TSM 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:TSM:post",
-      "status": "pass",
-      "message": "TSM 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:TSM:baseline",
-      "status": "pass",
-      "message": "TSM 盤後基準應為正常盤 352.09，實際 352.09"
-    },
-    {
       "id": "sessions:TSM:compare",
-      "status": "pass",
-      "message": "TSM 同來源時間：自選股 352.09／正常盤 352.09"
-    },
-    {
-      "id": "sessions:TSM:previous-close",
-      "status": "pass",
-      "message": "TSM 盤前及正常盤漲跌基準應為前收 362.62"
+      "status": "skip",
+      "message": "TSM 報價時間或類型不同，未直接比價"
     },
     {
       "id": "sessions:TSLA",
@@ -482,29 +422,9 @@
       "message": "TSLA 盤前報價類型、時間與時段邊界"
     },
     {
-      "id": "sessions:TSLA:regular",
-      "status": "pass",
-      "message": "TSLA 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:TSLA:post",
-      "status": "pass",
-      "message": "TSLA 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:TSLA:baseline",
-      "status": "pass",
-      "message": "TSLA 盤後基準應為正常盤 374.41，實際 374.41"
-    },
-    {
       "id": "sessions:TSLA:compare",
-      "status": "pass",
-      "message": "TSLA 同來源時間：自選股 374.41／正常盤 374.41"
-    },
-    {
-      "id": "sessions:TSLA:previous-close",
-      "status": "pass",
-      "message": "TSLA 盤前及正常盤漲跌基準應為前收 383.72"
+      "status": "skip",
+      "message": "TSLA 報價時間或類型不同，未直接比價"
     },
     {
       "id": "sessions:MSFT",
@@ -517,29 +437,9 @@
       "message": "MSFT 盤前報價類型、時間與時段邊界"
     },
     {
-      "id": "sessions:MSFT:regular",
-      "status": "pass",
-      "message": "MSFT 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:MSFT:post",
-      "status": "pass",
-      "message": "MSFT 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:MSFT:baseline",
-      "status": "pass",
-      "message": "MSFT 盤後基準應為正常盤 498.3，實際 498.3"
-    },
-    {
       "id": "sessions:MSFT:compare",
-      "status": "pass",
-      "message": "MSFT 同來源時間：自選股 498.3／正常盤 498.3"
-    },
-    {
-      "id": "sessions:MSFT:previous-close",
-      "status": "pass",
-      "message": "MSFT 盤前及正常盤漲跌基準應為前收 507.31"
+      "status": "skip",
+      "message": "MSFT 報價時間或類型不同，未直接比價"
     },
     {
       "id": "sessions:GOOGL",
@@ -552,29 +452,9 @@
       "message": "GOOGL 盤前報價類型、時間與時段邊界"
     },
     {
-      "id": "sessions:GOOGL:regular",
-      "status": "pass",
-      "message": "GOOGL 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:GOOGL:post",
-      "status": "pass",
-      "message": "GOOGL 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:GOOGL:baseline",
-      "status": "pass",
-      "message": "GOOGL 盤後基準應為正常盤 272.66，實際 272.66"
-    },
-    {
       "id": "sessions:GOOGL:compare",
-      "status": "pass",
-      "message": "GOOGL 同來源時間：自選股 272.66／正常盤 272.66"
-    },
-    {
-      "id": "sessions:GOOGL:previous-close",
-      "status": "pass",
-      "message": "GOOGL 盤前及正常盤漲跌基準應為前收 282.44"
+      "status": "skip",
+      "message": "GOOGL 報價時間或類型不同，未直接比價"
     },
     {
       "id": "sessions:AMZN",
@@ -587,29 +467,9 @@
       "message": "AMZN 盤前報價類型、時間與時段邊界"
     },
     {
-      "id": "sessions:AMZN:regular",
-      "status": "pass",
-      "message": "AMZN 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:AMZN:post",
-      "status": "pass",
-      "message": "AMZN 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:AMZN:baseline",
-      "status": "pass",
-      "message": "AMZN 盤後基準應為正常盤 257.37，實際 257.37"
-    },
-    {
       "id": "sessions:AMZN:compare",
-      "status": "pass",
-      "message": "AMZN 同來源時間：自選股 257.37／正常盤 257.37"
-    },
-    {
-      "id": "sessions:AMZN:previous-close",
-      "status": "pass",
-      "message": "AMZN 盤前及正常盤漲跌基準應為前收 267.74"
+      "status": "skip",
+      "message": "AMZN 報價時間或類型不同，未直接比價"
     },
     {
       "id": "sessions:AAPL",
@@ -622,29 +482,9 @@
       "message": "AAPL 盤前報價類型、時間與時段邊界"
     },
     {
-      "id": "sessions:AAPL:regular",
-      "status": "pass",
-      "message": "AAPL 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:AAPL:post",
-      "status": "pass",
-      "message": "AAPL 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:AAPL:baseline",
-      "status": "pass",
-      "message": "AAPL 盤後基準應為正常盤 349.21，實際 349.21"
-    },
-    {
       "id": "sessions:AAPL:compare",
-      "status": "pass",
-      "message": "AAPL 同來源時間：自選股 349.21／正常盤 349.21"
-    },
-    {
-      "id": "sessions:AAPL:previous-close",
-      "status": "pass",
-      "message": "AAPL 盤前及正常盤漲跌基準應為前收 352.45"
+      "status": "skip",
+      "message": "AAPL 報價時間或類型不同，未直接比價"
     },
     {
       "id": "sessions:AMD",
@@ -657,29 +497,9 @@
       "message": "AMD 盤前報價類型、時間與時段邊界"
     },
     {
-      "id": "sessions:AMD:regular",
-      "status": "pass",
-      "message": "AMD 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:AMD:post",
-      "status": "pass",
-      "message": "AMD 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:AMD:baseline",
-      "status": "pass",
-      "message": "AMD 盤後基準應為正常盤 489.19，實際 489.19"
-    },
-    {
       "id": "sessions:AMD:compare",
-      "status": "pass",
-      "message": "AMD 同來源時間：自選股 489.19／正常盤 489.19"
-    },
-    {
-      "id": "sessions:AMD:previous-close",
-      "status": "pass",
-      "message": "AMD 盤前及正常盤漲跌基準應為前收 530.14"
+      "status": "skip",
+      "message": "AMD 報價時間或類型不同，未直接比價"
     },
     {
       "id": "sessions:AVGO",
@@ -692,29 +512,9 @@
       "message": "AVGO 盤前報價類型、時間與時段邊界"
     },
     {
-      "id": "sessions:AVGO:regular",
-      "status": "pass",
-      "message": "AVGO 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:AVGO:post",
-      "status": "pass",
-      "message": "AVGO 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:AVGO:baseline",
-      "status": "pass",
-      "message": "AVGO 盤後基準應為正常盤 346.65，實際 346.65"
-    },
-    {
       "id": "sessions:AVGO:compare",
-      "status": "pass",
-      "message": "AVGO 同來源時間：自選股 346.65／正常盤 346.65"
-    },
-    {
-      "id": "sessions:AVGO:previous-close",
-      "status": "pass",
-      "message": "AVGO 盤前及正常盤漲跌基準應為前收 354.05"
+      "status": "skip",
+      "message": "AVGO 報價時間或類型不同，未直接比價"
     },
     {
       "id": "sessions:META",
@@ -727,29 +527,9 @@
       "message": "META 盤前報價類型、時間與時段邊界"
     },
     {
-      "id": "sessions:META:regular",
-      "status": "pass",
-      "message": "META 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:META:post",
-      "status": "pass",
-      "message": "META 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:META:baseline",
-      "status": "pass",
-      "message": "META 盤後基準應為正常盤 596.22，實際 596.22"
-    },
-    {
       "id": "sessions:META:compare",
-      "status": "pass",
-      "message": "META 同來源時間：自選股 596.22／正常盤 596.22"
-    },
-    {
-      "id": "sessions:META:previous-close",
-      "status": "pass",
-      "message": "META 盤前及正常盤漲跌基準應為前收 616.38"
+      "status": "skip",
+      "message": "META 報價時間或類型不同，未直接比價"
     },
     {
       "id": "sessions:MU",
@@ -762,29 +542,9 @@
       "message": "MU 盤前報價類型、時間與時段邊界"
     },
     {
-      "id": "sessions:MU:regular",
-      "status": "pass",
-      "message": "MU 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:MU:post",
-      "status": "pass",
-      "message": "MU 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:MU:baseline",
-      "status": "pass",
-      "message": "MU 盤後基準應為正常盤 690.44，實際 690.44"
-    },
-    {
       "id": "sessions:MU:compare",
-      "status": "pass",
-      "message": "MU 同來源時間：自選股 690.44／正常盤 690.44"
-    },
-    {
-      "id": "sessions:MU:previous-close",
-      "status": "pass",
-      "message": "MU 盤前及正常盤漲跌基準應為前收 705.27"
+      "status": "skip",
+      "message": "MU 報價時間或類型不同，未直接比價"
     },
     {
       "id": "sessions:ANET",
@@ -793,33 +553,14 @@
     },
     {
       "id": "sessions:ANET:pre",
-      "status": "pass",
-      "message": "ANET 盤前報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:ANET:regular",
-      "status": "pass",
-      "message": "ANET 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:ANET:post",
-      "status": "pass",
-      "message": "ANET 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:ANET:baseline",
-      "status": "pass",
-      "message": "ANET 盤後基準應為正常盤 189.59，實際 189.59"
+      "status": "pending",
+      "message": "ANET 盤前報價類型、時間與時段邊界",
+      "occurrences": 1
     },
     {
       "id": "sessions:ANET:compare",
-      "status": "pass",
-      "message": "ANET 同來源時間：自選股 189.59／正常盤 189.59"
-    },
-    {
-      "id": "sessions:ANET:previous-close",
-      "status": "pass",
-      "message": "ANET 盤前及正常盤漲跌基準應為前收 193.94"
+      "status": "skip",
+      "message": "ANET 報價時間或類型不同，未直接比價"
     },
     {
       "id": "sessions:VRT",
@@ -832,29 +573,9 @@
       "message": "VRT 盤前報價類型、時間與時段邊界"
     },
     {
-      "id": "sessions:VRT:regular",
-      "status": "pass",
-      "message": "VRT 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:VRT:post",
-      "status": "pass",
-      "message": "VRT 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:VRT:baseline",
-      "status": "pass",
-      "message": "VRT 盤後基準應為正常盤 184.99，實際 184.99"
-    },
-    {
       "id": "sessions:VRT:compare",
-      "status": "pass",
-      "message": "VRT 同來源時間：自選股 184.99／正常盤 184.99"
-    },
-    {
-      "id": "sessions:VRT:previous-close",
-      "status": "pass",
-      "message": "VRT 盤前及正常盤漲跌基準應為前收 194.48"
+      "status": "skip",
+      "message": "VRT 報價時間或類型不同，未直接比價"
     },
     {
       "id": "sessions:ASML",
@@ -867,29 +588,9 @@
       "message": "ASML 盤前報價類型、時間與時段邊界"
     },
     {
-      "id": "sessions:ASML:regular",
-      "status": "pass",
-      "message": "ASML 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:ASML:post",
-      "status": "pass",
-      "message": "ASML 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:ASML:baseline",
-      "status": "pass",
-      "message": "ASML 盤後基準應為正常盤 1356.2，實際 1356.2"
-    },
-    {
       "id": "sessions:ASML:compare",
-      "status": "pass",
-      "message": "ASML 同來源時間：自選股 1356.2／正常盤 1356.2"
-    },
-    {
-      "id": "sessions:ASML:previous-close",
-      "status": "pass",
-      "message": "ASML 盤前及正常盤漲跌基準應為前收 1395.27"
+      "status": "skip",
+      "message": "ASML 報價時間或類型不同，未直接比價"
     },
     {
       "id": "sessions:ORCL",
@@ -902,29 +603,9 @@
       "message": "ORCL 盤前報價類型、時間與時段邊界"
     },
     {
-      "id": "sessions:ORCL:regular",
-      "status": "pass",
-      "message": "ORCL 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:ORCL:post",
-      "status": "pass",
-      "message": "ORCL 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:ORCL:baseline",
-      "status": "pass",
-      "message": "ORCL 盤後基準應為正常盤 110.57，實際 110.57"
-    },
-    {
       "id": "sessions:ORCL:compare",
-      "status": "pass",
-      "message": "ORCL 同來源時間：自選股 110.57／正常盤 110.57"
-    },
-    {
-      "id": "sessions:ORCL:previous-close",
-      "status": "pass",
-      "message": "ORCL 盤前及正常盤漲跌基準應為前收 113.89"
+      "status": "skip",
+      "message": "ORCL 報價時間或類型不同，未直接比價"
     },
     {
       "id": "sessions:PLTR",
@@ -937,29 +618,9 @@
       "message": "PLTR 盤前報價類型、時間與時段邊界"
     },
     {
-      "id": "sessions:PLTR:regular",
-      "status": "pass",
-      "message": "PLTR 盤中報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:PLTR:post",
-      "status": "pass",
-      "message": "PLTR 盤後報價類型、時間與時段邊界"
-    },
-    {
-      "id": "sessions:PLTR:baseline",
-      "status": "pass",
-      "message": "PLTR 盤後基準應為正常盤 153.68，實際 153.68"
-    },
-    {
       "id": "sessions:PLTR:compare",
-      "status": "pass",
-      "message": "PLTR 同來源時間：自選股 153.68／正常盤 153.68"
-    },
-    {
-      "id": "sessions:PLTR:previous-close",
-      "status": "pass",
-      "message": "PLTR 盤前及正常盤漲跌基準應為前收 156.67"
+      "status": "skip",
+      "message": "PLTR 報價時間或類型不同，未直接比價"
     }
   ]
 }
