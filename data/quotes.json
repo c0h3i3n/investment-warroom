@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-20T11:22:10.525926+00:00",
-  "generatedAt": "2026-11-20T11:22:10.525926+00:00",
+  "timestamp": "2026-11-20T19:59:19.320383+00:00",
+  "generatedAt": "2026-11-20T19:59:19.320383+00:00",
   "calendar": {
     "schemaVersion": 1,
-    "date": "2026-11-20",
-    "attemptedAt": 1795173728737,
+    "date": "2026-11-21",
+    "attemptedAt": 1795204756982,
     "annual": {
       "year": 2026,
       "closed": [
@@ -33,7 +33,7 @@
         "2026-10-26",
         "2026-12-25"
       ],
-      "checkedAt": 1795101738288,
+      "checkedAt": 1795204756982,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     },
     "annuals": {
@@ -65,7 +65,7 @@
           "2026-10-26",
           "2026-12-25"
         ],
-        "checkedAt": 1795101738288,
+        "checkedAt": 1795204756982,
         "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
       },
       "2027": {
@@ -99,7 +99,7 @@
           "2027-12-25",
           "2027-12-31"
         ],
-        "checkedAt": 1795101738288,
+        "checkedAt": 1795204756982,
         "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
       }
     },
@@ -121,25 +121,25 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1795173728737,
+        "checkedAt": 1795204756982,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1795173728737,
+        "checkedAt": 1795204756982,
         "error": null
       },
       "futures": {
         "ok": true,
-        "checkedAt": 1795173728737,
+        "checkedAt": 1795204756982,
         "error": null
       }
     },
     "preload": {
       "year": 2027,
       "status": "ready",
-      "attemptedAt": 1795101738288,
-      "verifiedAt": 1795101738288,
+      "attemptedAt": 1795204756982,
+      "verifiedAt": 1795204756982,
       "source": "https://www.twse.com.tw/holidaySchedule/holidaySchedule?response=json"
     }
   },
@@ -227,170 +227,170 @@
     {
       "symbol": "SPCX",
       "name": "",
-      "price": 138.43,
-      "change": -5.07,
-      "changePct": -3.53,
-      "asOf": "2026-11-19T21:00:01+00:00",
+      "price": 129.315,
+      "change": -9.11,
+      "changePct": -6.58,
+      "asOf": "2026-11-20T19:59:38+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "NVDA",
       "name": "",
-      "price": 145.98,
-      "change": -4.98,
-      "changePct": -3.3,
-      "asOf": "2026-11-19T21:00:01+00:00",
+      "price": 128.8801,
+      "change": -17.1,
+      "changePct": -11.71,
+      "asOf": "2026-11-20T19:59:39+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "TSM",
       "name": "",
-      "price": 352.09,
-      "change": -10.53,
-      "changePct": -2.9,
-      "asOf": "2026-11-19T21:00:02+00:00",
+      "price": 321.03,
+      "change": -31.06,
+      "changePct": -8.82,
+      "asOf": "2026-11-20T19:59:37+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "TSLA",
       "name": "",
-      "price": 374.41,
-      "change": -9.31,
-      "changePct": -2.43,
-      "asOf": "2026-11-19T21:00:01+00:00",
+      "price": 347.8904,
+      "change": -26.52,
+      "changePct": -7.08,
+      "asOf": "2026-11-20T19:59:38+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "MSFT",
       "name": "",
-      "price": 498.3,
-      "change": -9.01,
-      "changePct": -1.78,
-      "asOf": "2026-11-19T21:00:01+00:00",
+      "price": 487.57,
+      "change": -10.73,
+      "changePct": -2.15,
+      "asOf": "2026-11-20T19:59:38+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "GOOGL",
       "name": "",
-      "price": 272.66,
-      "change": -9.78,
-      "changePct": -3.46,
-      "asOf": "2026-11-19T21:00:00+00:00",
+      "price": 270.52,
+      "change": -2.14,
+      "changePct": -0.78,
+      "asOf": "2026-11-20T19:59:38+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AMZN",
       "name": "",
-      "price": 257.37,
-      "change": -10.37,
-      "changePct": -3.87,
-      "asOf": "2026-11-19T21:00:01+00:00",
+      "price": 248.54,
+      "change": -8.83,
+      "changePct": -3.43,
+      "asOf": "2026-11-20T19:59:38+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AAPL",
       "name": "",
-      "price": 349.21,
-      "change": -3.24,
-      "changePct": -0.92,
-      "asOf": "2026-11-19T21:00:01+00:00",
+      "price": 344.835,
+      "change": -4.38,
+      "changePct": -1.25,
+      "asOf": "2026-11-20T19:59:38+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AMD",
       "name": "",
-      "price": 489.19,
-      "change": -40.95,
-      "changePct": -7.72,
-      "asOf": "2026-11-19T21:00:01+00:00",
+      "price": 430.82,
+      "change": -58.37,
+      "changePct": -11.93,
+      "asOf": "2026-11-20T19:59:38+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "AVGO",
       "name": "",
-      "price": 346.65,
-      "change": -7.4,
-      "changePct": -2.09,
-      "asOf": "2026-11-19T21:00:00+00:00",
+      "price": 305.49,
+      "change": -41.16,
+      "changePct": -11.87,
+      "asOf": "2026-11-20T19:59:37+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "META",
       "name": "",
-      "price": 596.22,
-      "change": -20.16,
-      "changePct": -3.27,
-      "asOf": "2026-11-19T21:00:01+00:00",
+      "price": 564.955,
+      "change": -31.26,
+      "changePct": -5.24,
+      "asOf": "2026-11-20T19:59:34+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "MU",
       "name": "",
-      "price": 690.44,
-      "change": -14.83,
-      "changePct": -2.1,
-      "asOf": "2026-11-19T21:00:01+00:00",
+      "price": 599.29,
+      "change": -91.15,
+      "changePct": -13.21,
+      "asOf": "2026-11-20T19:59:39+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "ANET",
       "name": "",
-      "price": 189.59,
-      "change": -4.35,
-      "changePct": -2.24,
-      "asOf": "2026-11-19T21:00:03+00:00",
+      "price": 167.27,
+      "change": -22.32,
+      "changePct": -11.77,
+      "asOf": "2026-11-20T19:59:37+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "VRT",
       "name": "",
-      "price": 184.99,
-      "change": -9.49,
-      "changePct": -4.88,
-      "asOf": "2026-11-19T21:00:02+00:00",
+      "price": 165.625,
+      "change": -19.37,
+      "changePct": -10.47,
+      "asOf": "2026-11-20T19:59:38+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "ASML",
       "name": "",
-      "price": 1356.2,
-      "change": -39.07,
-      "changePct": -2.8,
-      "asOf": "2026-11-19T21:00:00+00:00",
+      "price": 1272.7914,
+      "change": -83.41,
+      "changePct": -6.15,
+      "asOf": "2026-11-20T19:59:37+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "ORCL",
       "name": "",
-      "price": 110.57,
-      "change": -3.32,
-      "changePct": -2.92,
-      "asOf": "2026-11-19T21:03:39+00:00",
+      "price": 101.855,
+      "change": -8.71,
+      "changePct": -7.88,
+      "asOf": "2026-11-20T19:59:38+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
     {
       "symbol": "PLTR",
       "name": "",
-      "price": 153.68,
-      "change": -2.99,
-      "changePct": -1.91,
-      "asOf": "2026-11-19T21:00:00+00:00",
+      "price": 144.7,
+      "change": -8.98,
+      "changePct": -5.84,
+      "asOf": "2026-11-20T19:59:36+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
