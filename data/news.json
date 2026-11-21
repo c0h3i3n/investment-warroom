@@ -1,8 +1,44 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T09:38:16.115Z",
-  "checkedAt": 1795253896115,
+  "generatedAt": "2026-11-21T17:22:11.680Z",
+  "checkedAt": 1795281731680,
   "data": [
+    {
+      "headline": "第三波救市來了！金管會：23日起全面禁平盤下放空、籲法人停止出借股票",
+      "link": "https://news.cnyes.com/news/id/6669819",
+      "publishedAt": 1795276015000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795281731680
+    },
+    {
+      "headline": "SK海力士取得鎧俠14.1%股權成最大間接股東！八年投資獲利逾20兆韓元",
+      "link": "https://news.cnyes.com/news/id/6669710",
+      "publishedAt": 1795259405000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "歐亞股"
+      ],
+      "fetchedAt": 1795281731680
+    },
+    {
+      "headline": "台積電周線重挫15.8%！台股創36年最慘單周紀錄、美收緊AI晶片出口管制添壓",
+      "link": "https://news.cnyes.com/news/id/6669709",
+      "publishedAt": 1795255946000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795281731680
+    },
     {
       "headline": "AI破解「黎曼猜想」！Anthropic數學家宣稱與Claude合作、公開14份Lean程式碼供全球驗證",
       "link": "https://news.cnyes.com/news/id/6669739",
@@ -13,7 +49,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "超29萬人爆倉！比特幣跌破5.9萬美元、以太坊重挫8% 「數位黃金」失靈？",
@@ -25,7 +61,7 @@
       "categories": [
         "幣圈"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "台股血崩7641點下周守住35000！國安基金急派「定心丸」喊話4大撐盤亮點",
@@ -37,7 +73,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "SpaceX 500億美元亞利桑那資料中心遇阻！總檢察長要求暫緩審查",
@@ -49,7 +85,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "ABB機器人出售案遭北京封殺 分拆上市重回選項 軟銀恐付分手費",
@@ -61,7 +97,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "台股本周跌7641點35年來最慘、金管會祭「有條件禁空令」、外銷訂單連21紅 本周大事回顧",
@@ -73,7 +109,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "郭明錤：Google明年下修博通TPU出貨約百萬顆 「聯發科」可望受惠",
@@ -85,7 +121,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "CrowdStrike洽購Zscaler ZS盤後飆18% 資安整併潮延燒",
@@ -97,7 +133,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "美國公開中國AI晶片採購清單！344萬顆輝達、AMD晶片申請僅88萬顆獲准",
@@ -109,7 +145,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "全球公債殖利率急跌！AI股重挫掀避險潮 美債連五日走低",
@@ -121,7 +157,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "AI泡沫年底前要破了？Polymarket機率急升至35% 但合約規則藏重大爭議",
@@ -133,7 +169,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "川普盛讚中俄美元首會晤「史無前例」！三國達成共識：絕不能讓核戰發生",
@@ -145,7 +181,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "川普按讚深圳「一塵不染」！反觀美國城市髒亂、道路破損 直呼令人作嘔",
@@ -157,7 +193,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "月之暗面傳取消輝達B300印尼租約 阿里騰訊表態轉用國產晶片",
@@ -169,7 +205,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "〈熱門股〉資安股接棒成大盤中流砥柱 中華資安周漲逾9% 創1年來新高價",
@@ -181,7 +217,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "台股單周重挫7641點！上市櫃市值蒸發逾27兆元 全球市值排名退居第7",
@@ -193,7 +229,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "川普：普丁親口告訴我 若當年由我執政 俄烏戰爭根本不會爆發",
@@ -205,7 +241,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "440億美元史上最大GPU融資！就算是SpaceX也得支付「AI溢價」",
@@ -217,7 +253,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "高盛恐慌指標飆至9分！高盛：美股未跌完 系統化資金撤退 下波賣壓恐更猛烈",
@@ -229,7 +265,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "〈熱門股〉視陽矽水膠產品展望正面 外資連4買本周抗跌",
@@ -241,7 +277,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "AI疑慮引爆美股重挫！標普、道瓊雙雙陷入修正區間 那斯達克抹去全年漲幅",
@@ -253,7 +289,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "〈熱門股〉川湖股價拉回修正仍獲外資承接 前3季狂賺逾23個股本",
@@ -265,7 +301,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "SEC執法盯上輝達會計 新加坡營收揭露方式再受檢視 輝達跌幅擴大至約13%",
@@ -277,7 +313,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "波蘭指控：俄製Kh-101飛彈又來 可能不只一枚",
@@ -289,7 +325,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "盤中速報 - Aptos大跌10.82%，報0.37美元",
@@ -409,7 +445,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：文曄(3036-TW)目標價調降至248元，幅度約4.62%",
@@ -421,7 +457,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "加密私訊仍怕AI看螢幕！Signal推預設封鎖截圖 批Siri與Gemini「尤其令人擔心」",
@@ -433,7 +469,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795253896115
+      "fetchedAt": 1795281731680
     },
     {
       "headline": "盤中速報 - 大零幣大跌15.33%，報758美元",
@@ -446,42 +482,6 @@
         "虛擬貨幣盤中"
       ],
       "fetchedAt": 1795224211233
-    },
-    {
-      "headline": "美股重點新聞摘要2026年11月20日",
-      "link": "https://news.cnyes.com/news/id/6669679",
-      "publishedAt": 1795219204000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1795253896115
-    },
-    {
-      "headline": "營收速報 - 2026年11月21日台股中小型公司10月營收一覽（新增11家）",
-      "link": "https://news.cnyes.com/news/id/6669684",
-      "publishedAt": 1795218915000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1795253896115
-    },
-    {
-      "headline": "營收速報 - 2026年11月21日台股大型公司10月營收一覽（新增7家）",
-      "link": "https://news.cnyes.com/news/id/6669683",
-      "publishedAt": 1795218914000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股營收"
-      ],
-      "fetchedAt": 1795253896115
     }
   ],
   "failedSources": [],
