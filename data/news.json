@@ -1,8 +1,56 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T11:06:08.170Z",
-  "checkedAt": 1795345568170,
+  "generatedAt": "2026-11-22T18:28:13.010Z",
+  "checkedAt": 1795372093010,
   "data": [
+    {
+      "headline": "〈台股風向球〉連環套賣壓需時間換空間 長期投資人心態先穩住",
+      "link": "https://news.cnyes.com/news/id/6669881",
+      "publishedAt": 1795361670000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795372093010
+    },
+    {
+      "headline": "加密貨幣失寵 昔日支持者加速認賠出場",
+      "link": "https://news.cnyes.com/news/id/6669842",
+      "publishedAt": 1795357203000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "幣圈"
+      ],
+      "fetchedAt": 1795372093010
+    },
+    {
+      "headline": "本週操盤筆記：美國10月PCE、Q3 GDP修正值及南韓央行利率決議",
+      "link": "https://news.cnyes.com/news/id/6669829",
+      "publishedAt": 1795356441000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795372093010
+    },
+    {
+      "headline": "股市穩定基金上膛！南韓祭出穩市三箭 嚴打非法放空三個月",
+      "link": "https://news.cnyes.com/news/id/6669859",
+      "publishedAt": 1795350831000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795372093010
+    },
     {
       "headline": "歐盟擬向科技巨頭課徵3%數位稅 2.04兆歐元預算修訂案引發法德分歧",
       "link": "https://news.cnyes.com/news/id/6669853",
@@ -13,7 +61,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1795345568170
+      "fetchedAt": 1795372093010
     },
     {
       "headline": "韓股暴跌 散戶已無現金攤平！26兆韓元融資面臨斷頭風暴",
@@ -25,7 +73,7 @@
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1795345568170
+      "fetchedAt": 1795372093010
     },
     {
       "headline": "馬斯克警告：AI產業2027年將面臨數千億美元資金短缺危機",
@@ -37,7 +85,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795345568170
+      "fetchedAt": 1795372093010
     },
     {
       "headline": "伊朗宣稱擊中巴林美軍雷達 沙烏地攔截一枚飛彈",
@@ -49,7 +97,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795345568170
+      "fetchedAt": 1795372093010
     },
     {
       "headline": "全美融資餘額自1.5兆美元高點回落 那斯達克指數跌入修正區",
@@ -61,7 +109,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795345568170
+      "fetchedAt": 1795372093010
     },
     {
       "headline": "2018年劇本重演？美股暴跌 投資人質疑聯準會緊縮政策",
@@ -73,7 +121,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795345568170
+      "fetchedAt": 1795372093010
     },
     {
       "headline": "美股慘崩 AI產業是泡沫破裂還是價格重估？",
@@ -85,7 +133,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795345568170
+      "fetchedAt": 1795372093010
     },
     {
       "headline": "精準預測黃金跌勢的分析師又發聲了 他警告投資人小心「多頭陷阱」",
@@ -97,7 +145,7 @@
       "categories": [
         "黃金"
       ],
-      "fetchedAt": 1795345568170
+      "fetchedAt": 1795372093010
     },
     {
       "headline": "美股恐慌指數VIX飆升至40 市場究竟在擔心什麼？",
@@ -109,7 +157,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795345568170
+      "fetchedAt": 1795372093010
     },
     {
       "headline": "鉅亨買幣速報 - 比特幣(BTC)24小時成交量超過27.2億美元，BETA(BETA)24小時漲幅達64%",
@@ -133,7 +181,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795345568170
+      "fetchedAt": 1795372093010
     },
     {
       "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
@@ -145,7 +193,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795345568170
+      "fetchedAt": 1795372093010
     },
     {
       "headline": "盤中速報 - DODO大漲18.13%，報0.04美元",
@@ -427,54 +475,6 @@
       "headline": "盤中速報 - Arbitrum大跌11.82%，報0.11美元",
       "link": "https://news.cnyes.com/news/id/6669759",
       "publishedAt": 1795248326000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1795316495947
-    },
-    {
-      "headline": "盤中速報 - 比特幣現金大跌8.23%，報186.3美元",
-      "link": "https://news.cnyes.com/news/id/6669758",
-      "publishedAt": 1795248326000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1795316495947
-    },
-    {
-      "headline": "盤中速報 - 恆星幣大跌8.13%，報0.1232美元",
-      "link": "https://news.cnyes.com/news/id/6669757",
-      "publishedAt": 1795248325000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1795316495947
-    },
-    {
-      "headline": "盤中速報 - FET大跌13.19%，報0.1073美元",
-      "link": "https://news.cnyes.com/news/id/6669756",
-      "publishedAt": 1795248325000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1795316495947
-    },
-    {
-      "headline": "盤中速報 - AAVE大跌8.77%，報94.8美元",
-      "link": "https://news.cnyes.com/news/id/6669755",
-      "publishedAt": 1795248325000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
