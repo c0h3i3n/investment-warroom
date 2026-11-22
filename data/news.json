@@ -1,8 +1,68 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T23:04:04.921Z",
-  "checkedAt": 1795302244921,
+  "generatedAt": "2026-11-22T03:01:35.947Z",
+  "checkedAt": 1795316495947,
   "data": [
+    {
+      "headline": "美股恐慌指數VIX飆升至40 市場究竟在擔心什麼？",
+      "link": "https://news.cnyes.com/news/id/6669833",
+      "publishedAt": 1795315204000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795316495947
+    },
+    {
+      "headline": "鉅亨買幣速報 - 比特幣(BTC)24小時成交量超過27.2億美元，BETA(BETA)24小時漲幅達64%",
+      "link": "https://news.cnyes.com/news/id/6669836",
+      "publishedAt": 1795313717000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1795316495947
+    },
+    {
+      "headline": "AI進入重新定價 法人：聚焦四大止穩訊號 靜待籌碼沉澱後分批布局",
+      "link": "https://news.cnyes.com/news/id/6669803",
+      "publishedAt": 1795311602000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795316495947
+    },
+    {
+      "headline": "車用照明與感測逐步撐腰台LED廠 雷笛克、光鋐出貨結構優化",
+      "link": "https://news.cnyes.com/news/id/6669513",
+      "publishedAt": 1795308003000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795316495947
+    },
+    {
+      "headline": "盤中速報 - DODO大漲18.13%，報0.04美元",
+      "link": "https://news.cnyes.com/news/id/6669830",
+      "publishedAt": 1795306818000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1795316495947
+    },
     {
       "headline": "盤中速報 - 大零幣大漲9.09%，報796美元",
       "link": "https://news.cnyes.com/news/id/6669828",
@@ -13,7 +73,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - UNI大漲8.31%，報4.7美元",
@@ -25,7 +85,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - SuperRare大跌11.43%，報0.015美元",
@@ -37,7 +97,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - DODO大漲13.72%，報0.04美元",
@@ -49,7 +109,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - SuperRare大漲15.41%，報0.015美元",
@@ -61,7 +121,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "第三波救市來了！金管會：23日起全面禁平盤下放空、籲法人停止出借股票",
@@ -73,7 +133,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - DODO大漲25.13%，報0.04美元",
@@ -85,7 +145,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - SuperRare大漲23.6%，報0.015美元",
@@ -97,7 +157,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "SK海力士取得鎧俠14.1%股權成最大間接股東！八年投資獲利逾20兆韓元",
@@ -109,7 +169,7 @@
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "台積電周線重挫15.8%！台股創36年最慘單周紀錄、美收緊AI晶片出口管制添壓",
@@ -121,7 +181,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - 文件幣大跌11.13%，報0.5美元",
@@ -133,7 +193,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "鉅亨買幣速報 - 比特幣(BTC)24小時成交量超過34.72億美元，BETA(BETA)24小時漲幅達64%",
@@ -145,7 +205,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "AI破解「黎曼猜想」！Anthropic數學家宣稱與Claude合作、公開14份Lean程式碼供全球驗證",
@@ -157,7 +217,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - Aptos大跌14.9%，報0.35美元",
@@ -169,7 +229,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - 萊特幣大跌8.03%，報38.69美元",
@@ -181,7 +241,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - 瑞波幣大跌8.84%，報0.8817美元",
@@ -193,7 +253,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - SOL大跌8.27%，報66.79美元",
@@ -205,7 +265,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "超29萬人爆倉！比特幣跌破5.9萬美元、以太坊重挫8% 「數位黃金」失靈？",
@@ -217,7 +277,7 @@
       "categories": [
         "幣圈"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - 數位代幣大跌11.76%，報1.89美元",
@@ -229,7 +289,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - Cyber大跌11.07%，報0.22美元",
@@ -241,19 +301,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
-    },
-    {
-      "headline": "盤中速報 - LayerZero大跌12.15%，報1.11美元",
-      "link": "https://news.cnyes.com/news/id/6669761",
-      "publishedAt": 1795248327000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - 哈希圖大跌8.13%，報0.0496美元",
@@ -265,7 +313,19 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
+    },
+    {
+      "headline": "盤中速報 - LayerZero大跌12.15%，報1.11美元",
+      "link": "https://news.cnyes.com/news/id/6669761",
+      "publishedAt": 1795248327000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - Arbitrum大跌11.82%，報0.11美元",
@@ -277,7 +337,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - 比特幣現金大跌8.23%，報186.3美元",
@@ -289,7 +349,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - 恆星幣大跌8.13%，報0.1232美元",
@@ -301,7 +361,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - FET大跌13.19%，報0.1073美元",
@@ -313,7 +373,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - AAVE大跌8.77%，報94.8美元",
@@ -325,7 +385,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - INJ大跌9.89%，報6.014美元",
@@ -337,7 +397,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - Worldcoin大跌13.56%，報0.22美元",
@@ -349,7 +409,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - 雪崩代幣大跌9.77%，報6.25美元",
@@ -361,19 +421,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
-    },
-    {
-      "headline": "盤中速報 - 艾達幣大跌8.12%，報0.1381美元",
-      "link": "https://news.cnyes.com/news/id/6669751",
-      "publishedAt": 1795248322000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - Ethena大跌11.75%，報0.09美元",
@@ -385,7 +433,19 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
+    },
+    {
+      "headline": "盤中速報 - 艾達幣大跌8.12%，報0.1381美元",
+      "link": "https://news.cnyes.com/news/id/6669751",
+      "publishedAt": 1795248322000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "虛擬貨幣盤中"
+      ],
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - UNI大跌10.56%，報4.36美元",
@@ -397,7 +457,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - Sui大跌12.5%，報0.61美元",
@@ -409,31 +469,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
-    },
-    {
-      "headline": "盤中速報 - 幣安幣大跌8.35%，報523.8美元",
-      "link": "https://news.cnyes.com/news/id/6669745",
-      "publishedAt": 1795248320000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1795302244921
-    },
-    {
-      "headline": "盤中速報 - NEAR大跌12.26%，報2.67美元",
-      "link": "https://news.cnyes.com/news/id/6669746",
-      "publishedAt": 1795248320000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     },
     {
       "headline": "盤中速報 - 狗狗幣大跌8.42%，報0.05273美元",
@@ -445,43 +481,7 @@
       "categories": [
         "虛擬貨幣盤中"
       ],
-      "fetchedAt": 1795302244921
-    },
-    {
-      "headline": "盤中速報 - 大零幣大跌15.32%，報722.7美元",
-      "link": "https://news.cnyes.com/news/id/6669744",
-      "publishedAt": 1795248319000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1795302244921
-    },
-    {
-      "headline": "台股血崩7641點下周守住35000！國安基金急派「定心丸」喊話4大撐盤亮點",
-      "link": "https://news.cnyes.com/news/id/6669743",
-      "publishedAt": 1795247926000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1795302244921
-    },
-    {
-      "headline": "SpaceX 500億美元亞利桑那資料中心遇阻！總檢察長要求暫緩審查",
-      "link": "https://news.cnyes.com/news/id/6669707",
-      "publishedAt": 1795241405000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1795302244921
+      "fetchedAt": 1795316495947
     }
   ],
   "failedSources": [],
