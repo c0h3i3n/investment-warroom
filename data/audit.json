@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-23T21:14:42.322Z",
-  "expiresAt": "2026-11-23T21:59:42.322Z",
+  "checkedAt": "2026-11-23T23:57:54.337Z",
+  "expiresAt": "2026-11-24T00:42:54.337Z",
   "status": "ok",
   "scope": {
     "quotes": [
@@ -169,7 +169,7 @@
     {
       "id": "quote:TSM:time",
       "status": "pass",
-      "message": "TSM 來源時間 2026-11-23T20:59:59.000Z／交易日檢查"
+      "message": "TSM 來源時間 2026-11-23T21:00:02.000Z／交易日檢查"
     },
     {
       "id": "quote:TSM:change",
@@ -269,7 +269,7 @@
     {
       "id": "quote:ANET:time",
       "status": "pass",
-      "message": "ANET 來源時間 2026-11-23T21:00:01.000Z／交易日檢查"
+      "message": "ANET 來源時間 2026-11-23T21:00:03.000Z／交易日檢查"
     },
     {
       "id": "quote:ANET:change",
@@ -279,7 +279,7 @@
     {
       "id": "quote:VRT:time",
       "status": "pass",
-      "message": "VRT 來源時間 2026-11-23T20:59:59.000Z／交易日檢查"
+      "message": "VRT 來源時間 2026-11-23T21:00:02.000Z／交易日檢查"
     },
     {
       "id": "quote:VRT:change",
@@ -299,7 +299,7 @@
     {
       "id": "quote:ORCL:time",
       "status": "pass",
-      "message": "ORCL 來源時間 2026-11-23T21:00:00.000Z／交易日檢查"
+      "message": "ORCL 來源時間 2026-11-23T21:05:19.000Z／交易日檢查"
     },
     {
       "id": "quote:ORCL:change",
@@ -339,7 +339,7 @@
     {
       "id": "quote:^GSPC:time",
       "status": "pass",
-      "message": "^GSPC 來源時間 2026-11-23T21:10:41.000Z／交易日檢查"
+      "message": "^GSPC 來源時間 2026-11-23T21:42:33.000Z／交易日檢查"
     },
     {
       "id": "quote:^GSPC:change",
@@ -349,7 +349,7 @@
     {
       "id": "quote:^IXIC:time",
       "status": "pass",
-      "message": "^IXIC 來源時間 2026-11-23T21:10:49.000Z／交易日檢查"
+      "message": "^IXIC 來源時間 2026-11-23T22:15:59.000Z／交易日檢查"
     },
     {
       "id": "quote:^IXIC:change",
@@ -359,7 +359,7 @@
     {
       "id": "quote:^SOX:time",
       "status": "pass",
-      "message": "^SOX 來源時間 2026-11-23T21:10:52.000Z／交易日檢查"
+      "message": "^SOX 來源時間 2026-11-23T22:15:59.000Z／交易日檢查"
     },
     {
       "id": "quote:^SOX:change",
@@ -459,12 +459,12 @@
     {
       "id": "sessions:TSM:baseline",
       "status": "pass",
-      "message": "TSM 盤後基準應為正常盤 363.427，實際 363.427"
+      "message": "TSM 盤後基準應為正常盤 363.6，實際 363.6"
     },
     {
       "id": "sessions:TSM:compare",
       "status": "pass",
-      "message": "TSM 同來源時間：自選股 363.427／正常盤 363.427"
+      "message": "TSM 同來源時間：自選股 363.6／正常盤 363.6"
     },
     {
       "id": "sessions:TSM:previous-close",
@@ -809,12 +809,12 @@
     {
       "id": "sessions:ANET:baseline",
       "status": "pass",
-      "message": "ANET 盤後基準應為正常盤 178.16，實際 178.16"
+      "message": "ANET 盤後基準應為正常盤 178.31，實際 178.31"
     },
     {
       "id": "sessions:ANET:compare",
       "status": "pass",
-      "message": "ANET 同來源時間：自選股 178.16／正常盤 178.16"
+      "message": "ANET 同來源時間：自選股 178.31／正常盤 178.31"
     },
     {
       "id": "sessions:ANET:previous-close",
@@ -844,12 +844,12 @@
     {
       "id": "sessions:VRT:baseline",
       "status": "pass",
-      "message": "VRT 盤後基準應為正常盤 186.4，實際 186.4"
+      "message": "VRT 盤後基準應為正常盤 186.35，實際 186.35"
     },
     {
       "id": "sessions:VRT:compare",
       "status": "pass",
-      "message": "VRT 同來源時間：自選股 186.4／正常盤 186.4"
+      "message": "VRT 同來源時間：自選股 186.35／正常盤 186.35"
     },
     {
       "id": "sessions:VRT:previous-close",
@@ -914,12 +914,12 @@
     {
       "id": "sessions:ORCL:baseline",
       "status": "pass",
-      "message": "ORCL 盤後基準應為正常盤 113.77，實際 113.77"
+      "message": "ORCL 盤後基準應為正常盤 113.68，實際 113.68"
     },
     {
       "id": "sessions:ORCL:compare",
       "status": "pass",
-      "message": "ORCL 同來源時間：自選股 113.77／正常盤 113.77"
+      "message": "ORCL 同來源時間：自選股 113.68／正常盤 113.68"
     },
     {
       "id": "sessions:ORCL:previous-close",
