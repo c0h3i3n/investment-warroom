@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-23T03:01:45.870Z",
-  "expiresAt": "2026-11-23T03:46:45.870Z",
-  "status": "pending",
+  "checkedAt": "2026-11-23T03:33:57.461Z",
+  "expiresAt": "2026-11-23T04:18:57.461Z",
+  "status": "ok",
   "scope": {
     "quotes": [
       "0050.TW",
@@ -40,9 +40,9 @@
     ]
   },
   "counts": {
-    "pass": 182,
+    "pass": 183,
     "skip": 0,
-    "pending": 1,
+    "pending": 0,
     "warning": 0
   },
   "checks": [
@@ -58,9 +58,8 @@
     },
     {
       "id": "calendar:futures",
-      "status": "pending",
-      "message": "期交所公告查核結果與時間",
-      "occurrences": 1
+      "status": "pass",
+      "message": "期交所公告查核結果與時間"
     },
     {
       "id": "market:response",
@@ -70,7 +69,7 @@
     {
       "id": "quote:0050.TW:time",
       "status": "pass",
-      "message": "0050.TW 來源時間 2026-11-23T03:00:09.000Z／交易日檢查"
+      "message": "0050.TW 來源時間 2026-11-23T03:32:04.000Z／交易日檢查"
     },
     {
       "id": "quote:0050.TW:change",
@@ -80,7 +79,7 @@
     {
       "id": "quote:2330.TW:time",
       "status": "pass",
-      "message": "2330.TW 來源時間 2026-11-23T02:59:20.000Z／交易日檢查"
+      "message": "2330.TW 來源時間 2026-11-23T03:32:10.000Z／交易日檢查"
     },
     {
       "id": "quote:2330.TW:change",
@@ -90,7 +89,7 @@
     {
       "id": "quote:00679B.TW:time",
       "status": "pass",
-      "message": "00679B.TW 來源時間 2026-11-23T02:59:11.000Z／交易日檢查"
+      "message": "00679B.TW 來源時間 2026-11-23T03:31:54.000Z／交易日檢查"
     },
     {
       "id": "quote:00679B.TW:change",
@@ -100,7 +99,7 @@
     {
       "id": "quote:00878.TW:time",
       "status": "pass",
-      "message": "00878.TW 來源時間 2026-11-23T02:59:59.000Z／交易日檢查"
+      "message": "00878.TW 來源時間 2026-11-23T03:30:44.000Z／交易日檢查"
     },
     {
       "id": "quote:00878.TW:change",
@@ -110,7 +109,7 @@
     {
       "id": "quote:00929.TW:time",
       "status": "pass",
-      "message": "00929.TW 來源時間 2026-11-23T02:59:54.000Z／交易日檢查"
+      "message": "00929.TW 來源時間 2026-11-23T03:31:49.000Z／交易日檢查"
     },
     {
       "id": "quote:00929.TW:change",
@@ -120,7 +119,7 @@
     {
       "id": "quote:00933B.TW:time",
       "status": "pass",
-      "message": "00933B.TW 來源時間 2026-11-23T02:59:46.000Z／交易日檢查"
+      "message": "00933B.TW 來源時間 2026-11-23T03:31:06.000Z／交易日檢查"
     },
     {
       "id": "quote:00933B.TW:change",
@@ -130,7 +129,7 @@
     {
       "id": "quote:00937B.TW:time",
       "status": "pass",
-      "message": "00937B.TW 來源時間 2026-11-23T02:59:53.000Z／交易日檢查"
+      "message": "00937B.TW 來源時間 2026-11-23T03:30:24.000Z／交易日檢查"
     },
     {
       "id": "quote:00937B.TW:change",
@@ -140,7 +139,7 @@
     {
       "id": "quote:009800.TW:time",
       "status": "pass",
-      "message": "009800.TW 來源時間 2026-11-23T03:00:09.000Z／交易日檢查"
+      "message": "009800.TW 來源時間 2026-11-23T03:31:24.000Z／交易日檢查"
     },
     {
       "id": "quote:009800.TW:change",
@@ -320,7 +319,7 @@
     {
       "id": "quote:^TWII:time",
       "status": "pass",
-      "message": "^TWII 來源時間 2026-11-23T03:00:05.000Z／交易日檢查"
+      "message": "^TWII 來源時間 2026-11-23T03:32:05.000Z／交易日檢查"
     },
     {
       "id": "quote:^TWII:change",
@@ -330,7 +329,7 @@
     {
       "id": "quote:^TWOII:time",
       "status": "pass",
-      "message": "^TWOII 來源時間 2026-11-23T03:00:00.000Z／交易日檢查"
+      "message": "^TWOII 來源時間 2026-11-23T03:32:05.000Z／交易日檢查"
     },
     {
       "id": "quote:^TWOII:change",
