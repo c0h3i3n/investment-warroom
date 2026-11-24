@@ -1,487 +1,487 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T21:13:33.234Z",
-  "checkedAt": 1795468413234,
+  "generatedAt": "2026-11-24T05:55:24.587Z",
+  "checkedAt": 1795499724587,
   "data": [
     {
-      "headline": "〈台股盤前要聞〉黃仁勳復職、擔保維持率將至120%、永豐金法說",
-      "link": "https://news.cnyes.com/news/id/6670353",
-      "publishedAt": 1795468210000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤勢"
-      ],
-      "fetchedAt": 1795468413234
-    },
-    {
-      "headline": "黃仁勳回歸幕後推手！川普親曝：「我說服了輝達董事會」",
-      "link": "https://news.cnyes.com/news/id/6670389",
-      "publishedAt": 1795467189000,
+      "headline": "川普欽點Fed理事鮑曼遭調查 緘默期出席美銀私人晚宴",
+      "link": "https://news.cnyes.com/news/id/6670400",
+      "publishedAt": 1795498844000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "抱著怕跌 賣了怕漲！輝達暴漲逾30% 揭美股投資人兩難",
-      "link": "https://news.cnyes.com/news/id/6670373",
-      "publishedAt": 1795462203000,
+      "headline": "〈焦點股〉黃仁勳回歸AI供應鏈爆漲 玻纖布廠南亞、台玻聯袂亮燈攻漲停",
+      "link": "https://news.cnyes.com/news/id/6670934",
+      "publishedAt": 1795498839000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795499724587
+    },
+    {
+      "headline": "〈焦點股〉黃仁勳回鍋激勵台股大奇蹟日上演！ 光通訊族群滿血復活超過10檔亮燈衝漲停",
+      "link": "https://news.cnyes.com/news/id/6670891",
+      "publishedAt": 1795497113000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795499724587
+    },
+    {
+      "headline": "馮德萊恩：歐盟擴大對俄制裁",
+      "link": "https://news.cnyes.com/news/id/6670872",
+      "publishedAt": 1795496481000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1795499724587
+    },
+    {
+      "headline": "黃仁勳回鍋帶飛全球風險資產 「它」卻未蹭到AI狂歡熱潮 何時才能獲市場資金青睞？",
+      "link": "https://news.cnyes.com/news/id/6670848",
+      "publishedAt": 1795496417000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "幣圈"
+      ],
+      "fetchedAt": 1795499724587
+    },
+    {
+      "headline": "川普成跛腳鴨總統仍能左右企業決策！強勢介入輝達董事會 助黃仁勳回鍋",
+      "link": "https://news.cnyes.com/news/id/6670762",
+      "publishedAt": 1795496416000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "急跌後抄底多數能賺！歷史數據顯示 標普500暴跌10%後 91%機率會漲回來",
-      "link": "https://news.cnyes.com/news/id/6670341",
-      "publishedAt": 1795460405000,
+      "headline": "第一金提顧看台灣最悲觀情境解除 明年投資主軸聚焦這些題材",
+      "link": "https://news.cnyes.com/news/id/6670881",
+      "publishedAt": 1795496208000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795499724587
+    },
+    {
+      "headline": "〈焦點股〉黃仁勳回鍋CEO 電子五哥同歡三檔高掛紅燈",
+      "link": "https://news.cnyes.com/news/id/6670875",
+      "publishedAt": 1795495850000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795499724587
+    },
+    {
+      "headline": "缺「馬斯克因子」？Anthropic選擇權首秀僅50萬口 量能不及SpaceX",
+      "link": "https://news.cnyes.com/news/id/6670860",
+      "publishedAt": 1795495803000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "創四個月低點！美國11月綜合PMI降至54.6 通膨壓力仍高",
-      "link": "https://news.cnyes.com/news/id/6670301",
-      "publishedAt": 1795458609000,
+      "headline": "川普痛斥：美國史上最令人震驚不公正行為之一 簡直不敢相信",
+      "link": "https://news.cnyes.com/news/id/6670867",
+      "publishedAt": 1795495781000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股"
+        "國際政經"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "鉅亨速報 - Factset 最新調查：惠好(WY-US)EPS預估上修至0.25元，預估目標價為25.00元",
-      "link": "https://news.cnyes.com/news/id/6670374",
-      "publishedAt": 1795457730000,
+      "headline": "台股本益比降至17倍 第一金投顧：下一輪多頭起點啟動",
+      "link": "https://news.cnyes.com/news/id/6670864",
+      "publishedAt": 1795495136000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股預估"
+        "台股新聞"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "黃仁勳一回來就重傷空頭！輝達3倍放空產品暴跌逾91%",
-      "link": "https://news.cnyes.com/news/id/6670370",
-      "publishedAt": 1795456934000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1795468413234
-    },
-    {
-      "headline": "黃仁勳回歸 空頭笑不出來！輝達股價飆33% 單日帳面虧122億美元",
-      "link": "https://news.cnyes.com/news/id/6670369",
-      "publishedAt": 1795453803000,
+      "headline": "回鍋CEO首日股價大比拚！黃仁勳帶動輝達飆31% 遠勝賈伯斯、達過往最高紀錄4倍",
+      "link": "https://news.cnyes.com/news/id/6670408",
+      "publishedAt": 1795494616000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "才說不回聘 轉眼又迎回！輝達為何離不開黃仁勳？",
-      "link": "https://news.cnyes.com/news/id/6670363",
-      "publishedAt": 1795451404000,
+      "headline": "黃仁勳復任輝達執行長 研調：消除估值折價、穩固AI產品路線圖延續性",
+      "link": "https://news.cnyes.com/news/id/6670142",
+      "publishedAt": 1795494362000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795499724587
+    },
+    {
+      "headline": "黃仁勳回鍋引爆全球AI鏈！亞股強彈 韓股漲至熔斷 AI交易下一步怎麼走？",
+      "link": "https://news.cnyes.com/news/id/6670833",
+      "publishedAt": 1795494009000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "外匯速報 - 歐元/加幣(EURCAD) 大跌0.49%，報1.565元",
-      "link": "https://news.cnyes.com/news/id/6670367",
-      "publishedAt": 1795450819000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "外匯盤中"
-      ],
-      "fetchedAt": 1795468413234
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：Bending Spoons S.p.A.(BSP-US)EPS預估上修至1.5元，預估目標價為50.00元",
-      "link": "https://news.cnyes.com/news/id/6670366",
-      "publishedAt": 1795450566000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1795468413234
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：泰瑞達TER-US的目標價調降至420元，幅度約3.45%",
-      "link": "https://news.cnyes.com/news/id/6670365",
-      "publishedAt": 1795450524000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1795468413234
-    },
-    {
-      "headline": "盤中速報 - Quant大漲13.32%，報161.43美元",
-      "link": "https://news.cnyes.com/news/id/6670362",
-      "publishedAt": 1795449920000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1795468413234
-    },
-    {
-      "headline": "盤中速報 - Sui大漲8.05%，報0.71美元",
-      "link": "https://news.cnyes.com/news/id/6670360",
-      "publishedAt": 1795449919000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1795468413234
-    },
-    {
-      "headline": "盤中速報 - INJ大漲8.73%，報6.725美元",
-      "link": "https://news.cnyes.com/news/id/6670361",
-      "publishedAt": 1795449919000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "虛擬貨幣盤中"
-      ],
-      "fetchedAt": 1795468413234
-    },
-    {
-      "headline": "外匯速報 - 美元/挪威克朗(USDNOK) 大漲1.19%，報9.8649元",
-      "link": "https://news.cnyes.com/news/id/6670358",
-      "publishedAt": 1795449621000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "外匯盤中"
-      ],
-      "fetchedAt": 1795468413234
-    },
-    {
-      "headline": "美股回檔何時見底？高盛曝三大潛在訊號喊：標普12個月內衝擊8700點！",
-      "link": "https://news.cnyes.com/news/id/6670165",
-      "publishedAt": 1795449604000,
+      "headline": "黃仁勳重掌輝達AI漲勢能持續嗎？華爾街這麼看",
+      "link": "https://news.cnyes.com/news/id/6670392",
+      "publishedAt": 1795493404000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "盤中速報 - 貝萊德(BLK-US)大漲5.12%，報1158.12美元",
-      "link": "https://news.cnyes.com/news/id/6670357",
-      "publishedAt": 1795449028000,
+      "headline": "彰銀蟬聯金管會公平待客前25%殊榮 反詐守護星行動全面落實金融平權",
+      "link": "https://news.cnyes.com/news/id/6670838",
+      "publishedAt": 1795493064000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股新聞"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "盤中速報 - CDW Corp(CDW-US)大漲5.19%，報170.18美元",
-      "link": "https://news.cnyes.com/news/id/6670356",
-      "publishedAt": 1795448520000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1795468413234
-    },
-    {
-      "headline": "盤中速報 - 美卡多(MELI-US)大漲5.07%，報1423.72美元",
-      "link": "https://news.cnyes.com/news/id/6670355",
-      "publishedAt": 1795448460000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1795468413234
-    },
-    {
-      "headline": "〈分析〉黃仁勳「大到不能開除」？輝達股價狂飆 策略師仍憂兩大風險",
-      "link": "https://news.cnyes.com/news/id/6670305",
-      "publishedAt": 1795448407000,
+      "headline": "王者歸來！川普等事情敲定了 便給黃仁勳打電話",
+      "link": "https://news.cnyes.com/news/id/6670796",
+      "publishedAt": 1795492729000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "盤中速報 - Atlassian Corporation - Class A(TEAM-US)大漲5.09%，報141.51美元",
-      "link": "https://news.cnyes.com/news/id/6670354",
-      "publishedAt": 1795448213000,
+      "headline": "黃仁勳回鍋穩軍心 國泰金李長庚：供應鏈鬆口氣 後續緊盯二大變數",
+      "link": "https://news.cnyes.com/news/id/6670826",
+      "publishedAt": 1795492410000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股新聞"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "盤中速報 - 凌雲邏輯(CRUS-US)大漲5.09%，報116.24美元",
-      "link": "https://news.cnyes.com/news/id/6670352",
-      "publishedAt": 1795447719000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1795468413234
-    },
-    {
-      "headline": "盤中速報 - 道瓊指數大漲3%，報49592.62點",
-      "link": "https://news.cnyes.com/news/id/6670351",
-      "publishedAt": 1795447677000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股盤中"
-      ],
-      "fetchedAt": 1795468413234
-    },
-    {
-      "headline": "黃仁勳回歸幕後！川普：我說服輝達董事會 失去他才是威脅",
-      "link": "https://news.cnyes.com/news/id/6670347",
-      "publishedAt": 1795447225000,
+      "headline": "iPhone Duo開售一個月 在中國價格已較發售價跌掉7,300元",
+      "link": "https://news.cnyes.com/news/id/6670780",
+      "publishedAt": 1795492030000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "外匯速報 - 歐元/美元(EURUSD) 大跌0.54%，報1.0908元",
-      "link": "https://news.cnyes.com/news/id/6670350",
-      "publishedAt": 1795447218000,
+      "headline": "「輝黃」回巢掀台股漲停潮！PIMCO：AI資本支出上看10兆美元 曝2027年配置新局",
+      "link": "https://news.cnyes.com/news/id/6670819",
+      "publishedAt": 1795492017000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "外匯盤中"
+        "台股新聞"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "焦點速報 - 美元指數(DXY) 大漲0.44%，報104.263點",
-      "link": "https://news.cnyes.com/news/id/6670349",
-      "publishedAt": 1795447218000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "外匯盤中"
-      ],
-      "fetchedAt": 1795468413234
-    },
-    {
-      "headline": "黃仁勳王者歸來！交易員加碼押注英國、歐洲央行下月升息",
-      "link": "https://news.cnyes.com/news/id/6670276",
-      "publishedAt": 1795446602000,
+      "headline": "黃仁勳重掌輝達！股價狂飆31% 川普：是我出面說服董事會",
+      "link": "https://news.cnyes.com/news/id/6670664",
+      "publishedAt": 1795491607000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "盤中速報 - Crowdstrike控股(CRWD-US)大跌5.81%，報216.1美元",
-      "link": "https://news.cnyes.com/news/id/6670346",
-      "publishedAt": 1795446454000,
+      "headline": "台股史詩級噴漲3300點 國泰證期提醒風險是降低並非消除",
+      "link": "https://news.cnyes.com/news/id/6670812",
+      "publishedAt": 1795491066000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股新聞"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "盤中速報 - 交易台(TTD-US)大漲5.08%，報14.06美元",
-      "link": "https://news.cnyes.com/news/id/6670345",
-      "publishedAt": 1795446451000,
+      "headline": "Shopify執行長爆料：黃仁勳親審輝達GPU訂單 寧少賺也要給新創公司留活路",
+      "link": "https://news.cnyes.com/news/id/6670776",
+      "publishedAt": 1795491017000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "盤中速報 - DoorDash公司(DASH-US)大漲5.31%，報160.71美元",
-      "link": "https://news.cnyes.com/news/id/6670344",
-      "publishedAt": 1795446447000,
+      "headline": "黃仁勳戲劇性重掌輝達！盤點美企「迴旋鏢CEO」名單：奧特曼、賈伯斯、艾格都曾離職再掌權",
+      "link": "https://news.cnyes.com/news/id/6670745",
+      "publishedAt": 1795490410000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "盤中速報 - 貝克休斯(BKR-US)大漲5.27%，報47.17美元",
-      "link": "https://news.cnyes.com/news/id/6670343",
-      "publishedAt": 1795446443000,
+      "headline": "黃仁勳「熹妃回宮」點火！這5檔ETF最搶手 2檔主動式強勢上榜",
+      "link": "https://news.cnyes.com/news/id/6670808",
+      "publishedAt": 1795489932000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "ETF"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "盤中速報 - 莫德納(MRNA-US)大漲5.64%，報206美元",
-      "link": "https://news.cnyes.com/news/id/6670342",
-      "publishedAt": 1795446415000,
+      "headline": "黃仁勳回鍋案例前所未見！川普直接介入輝達董事會 業界憂創政府干預企業先例",
+      "link": "https://news.cnyes.com/news/id/6670402",
+      "publishedAt": 1795489806000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "盤中速報 - 艾默生電氣(EMR-US)大漲5.25%，報158.86美元",
-      "link": "https://news.cnyes.com/news/id/6670340",
-      "publishedAt": 1795446411000,
+      "headline": "黃仁勳回鍋、輝達飆逾3成 AI泡沫疑慮還卡在兩筆帳",
+      "link": "https://news.cnyes.com/news/id/6670656",
+      "publishedAt": 1795489425000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "盤中速報 - 摩根士丹利(MS-US)大漲5.37%，報174.57美元",
-      "link": "https://news.cnyes.com/news/id/6670339",
-      "publishedAt": 1795446411000,
+      "headline": "長照需求飆10倍達87萬人！卓揆端5年489億元健康台灣深耕計畫 擴大醫療長照量能",
+      "link": "https://news.cnyes.com/news/id/6670782",
+      "publishedAt": 1795488509000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台灣政經"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "盤中速報 - 聯合健康保險(UNH-US)大跌5.18%，報322.25美元",
-      "link": "https://news.cnyes.com/news/id/6670338",
-      "publishedAt": 1795446410000,
+      "headline": "墨石資本旗下大投控股加速布局美國資本市場",
+      "link": "https://news.cnyes.com/news/id/6670784",
+      "publishedAt": 1795488073000,
+      "source": "鉅亨台股",
+      "region": "TW",
+      "feedRegion": "TW",
+      "categories": [
+        "台股"
+      ],
+      "fetchedAt": 1795499724587
+    },
+    {
+      "headline": "「開心爆了！」輝達員工大廳歡迎黃仁勳齊喊「Welcome back」 內部群組嗨到不行",
+      "link": "https://news.cnyes.com/news/id/6670772",
+      "publishedAt": 1795488006000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "盤中速報 - 微軟(MSFT-US)大漲5.01%，報508.8美元",
-      "link": "https://news.cnyes.com/news/id/6670337",
-      "publishedAt": 1795446409000,
+      "headline": "黃仁勳12月3日赴參議院公開作證！舒默放話：民主黨將動用全部權力徹查",
+      "link": "https://news.cnyes.com/news/id/6670663",
+      "publishedAt": 1795488005000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "盤中速報 - Palo Alto Networks Inc(PANW-US)大漲6.95%，報367.19美元",
-      "link": "https://news.cnyes.com/news/id/6670336",
-      "publishedAt": 1795446404000,
+      "headline": "〈焦點股〉漢康新藥臨床試驗暫停慘亮綠燈 董事長加碼持股",
+      "link": "https://news.cnyes.com/news/id/6670777",
+      "publishedAt": 1795487567000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "台股新聞"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "盤中速報 - 萊迪思半導體(LSCC-US)大漲14.75%，報112.81美元",
-      "link": "https://news.cnyes.com/news/id/6670335",
-      "publishedAt": 1795446403000,
+      "headline": "黃仁勳回歸亞洲輝達概念股狂飆！台股多檔個股逼近漲停",
+      "link": "https://news.cnyes.com/news/id/6670758",
+      "publishedAt": 1795487475000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
     },
     {
-      "headline": "盤中速報 - 思佳訊半導體(SWKS-US)大漲6.72%，報78.88美元",
-      "link": "https://news.cnyes.com/news/id/6670334",
-      "publishedAt": 1795446402000,
+      "headline": "川普稱已向輝達保證：黃仁勳不構成國家安全威脅",
+      "link": "https://news.cnyes.com/news/id/6670397",
+      "publishedAt": 1795487438000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "美股盤中"
+        "美股雷達"
       ],
-      "fetchedAt": 1795468413234
+      "fetchedAt": 1795499724587
+    },
+    {
+      "headline": "全球積木需求持續增長 樂高斥資10億歐元在葡萄牙建廠",
+      "link": "https://news.cnyes.com/news/id/6670422",
+      "publishedAt": 1795487409000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "歐亞股"
+      ],
+      "fetchedAt": 1795499724587
+    },
+    {
+      "headline": "空頭一夜血虧122億美元！三倍做空輝達ETF崩92% 淨值幾乎歸零 2019年來最慘",
+      "link": "https://news.cnyes.com/news/id/6670741",
+      "publishedAt": 1795486929000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795499724587
+    },
+    {
+      "headline": "傑佛瑞斯轟黃仁勳復職「站不住腳」！要求NDAA納入嚴格晶片管制 Megaspeed遭美封殺",
+      "link": "https://news.cnyes.com/news/id/6670429",
+      "publishedAt": 1795486929000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795499724587
+    },
+    {
+      "headline": "川普為何力保黃仁勳？《紐約時報》揭兩人關係轉變：輝達「大到不能倒」 AI霸權才是關鍵",
+      "link": "https://news.cnyes.com/news/id/6670650",
+      "publishedAt": 1795486203000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795499724587
+    },
+    {
+      "headline": "市場快訊》黃仁勳回歸，AI科技股迎來轉機？",
+      "link": "https://news.cnyes.com/news/id/6670662",
+      "publishedAt": 1795485957000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "基金"
+      ],
+      "fetchedAt": 1795499724587
+    },
+    {
+      "headline": "黃仁勳復職內幕：川普全程參與 必須保護天才",
+      "link": "https://news.cnyes.com/news/id/6670424",
+      "publishedAt": 1795485617000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795499724587
     }
   ],
   "failedSources": [],
