@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-24T09:38:46.964Z",
-  "expiresAt": "2026-11-24T10:23:46.964Z",
-  "status": "partial",
+  "checkedAt": "2026-11-24T10:07:06.623Z",
+  "expiresAt": "2026-11-24T10:52:06.623Z",
+  "status": "pending",
   "scope": {
     "quotes": [
       "0050.TW",
@@ -40,9 +40,9 @@
     ]
   },
   "counts": {
-    "pass": 98,
+    "pass": 97,
     "skip": 17,
-    "pending": 0,
+    "pending": 1,
     "warning": 0
   },
   "checks": [
@@ -553,8 +553,9 @@
     },
     {
       "id": "sessions:ANET:pre",
-      "status": "pass",
-      "message": "ANET 盤前報價類型、時間與時段邊界"
+      "status": "pending",
+      "message": "ANET 盤前報價類型、時間與時段邊界",
+      "occurrences": 1
     },
     {
       "id": "sessions:ANET:compare",
