@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-24T05:56:13.586Z",
-  "expiresAt": "2026-11-24T06:41:13.586Z",
+  "checkedAt": "2026-11-24T06:48:53.710Z",
+  "expiresAt": "2026-11-24T07:33:53.710Z",
   "status": "ok",
   "scope": {
     "quotes": [
@@ -349,7 +349,7 @@
     {
       "id": "quote:^IXIC:time",
       "status": "pass",
-      "message": "^IXIC 來源時間 2026-11-23T22:15:59.000Z／交易日檢查"
+      "message": "^IXIC 來源時間 2026-11-23T22:16:01.000Z／交易日檢查"
     },
     {
       "id": "quote:^IXIC:change",
