@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-24T17:30:08.729777+00:00",
-  "generatedAt": "2026-11-24T17:30:08.729777+00:00",
+  "timestamp": "2026-11-25T02:16:44.648488+00:00",
+  "generatedAt": "2026-11-25T02:16:44.648488+00:00",
   "calendar": {
     "schemaVersion": 1,
     "date": "2026-11-25",
-    "attemptedAt": 1795541405567,
+    "attemptedAt": 1795573003068,
     "annual": {
       "year": 2026,
       "closed": [
@@ -121,17 +121,17 @@
     "checks": {
       "annual": {
         "ok": true,
-        "checkedAt": 1795541405567,
+        "checkedAt": 1795573003068,
         "error": null
       },
       "notices": {
         "ok": true,
-        "checkedAt": 1795541405567,
+        "checkedAt": 1795573003068,
         "error": null
       },
       "futures": {
         "ok": true,
-        "checkedAt": 1795541405567,
+        "checkedAt": 1795573003068,
         "error": null
       }
     },
@@ -150,10 +150,10 @@
       "name": "加權指數 TAIEX",
       "region": "TW",
       "currency": "NT$",
-      "price": 40122.35,
-      "change": 3310.46,
-      "changePct": 8.99,
-      "asOf": "2026-11-24T05:33:00+00:00",
+      "price": 37055.3,
+      "change": -3067.05,
+      "changePct": -7.64,
+      "asOf": "2026-11-25T02:16:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -163,10 +163,10 @@
       "name": "OTC 櫃買指數",
       "region": "TW",
       "currency": "NT$",
-      "price": 293.23,
-      "change": 22.33,
-      "changePct": 8.24,
-      "asOf": "2026-11-24T05:33:00+00:00",
+      "price": 272.66,
+      "change": -20.57,
+      "changePct": -7.01,
+      "asOf": "2026-11-25T02:16:00+00:00",
       "source": "TWSE MIS",
       "priceType": "trade"
     },
@@ -176,10 +176,10 @@
       "name": "S&P 500",
       "region": "US",
       "currency": "$",
-      "price": 7206.07,
-      "change": -31.1,
-      "changePct": -0.43,
-      "asOf": "2026-11-24T17:30:08+00:00",
+      "price": 7201.09,
+      "change": -36.08,
+      "changePct": -0.5,
+      "asOf": "2026-11-24T21:54:10+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -189,10 +189,10 @@
       "name": "NASDAQ",
       "region": "US",
       "currency": "$",
-      "price": 23761.115,
-      "change": -328.44,
-      "changePct": -1.36,
-      "asOf": "2026-11-24T17:30:07+00:00",
+      "price": 23733.535,
+      "change": -356.02,
+      "changePct": -1.48,
+      "asOf": "2026-11-24T22:15:59+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     },
@@ -202,10 +202,10 @@
       "name": "費城半導體 SOX",
       "region": "US",
       "currency": "$",
-      "price": 8874.27,
-      "change": -713.78,
-      "changePct": -7.44,
-      "asOf": "2026-11-24T17:30:08+00:00",
+      "price": 8832.501,
+      "change": -755.55,
+      "changePct": -7.88,
+      "asOf": "2026-11-24T22:15:59+00:00",
       "source": "Yahoo Finance",
       "priceType": "trade"
     }
