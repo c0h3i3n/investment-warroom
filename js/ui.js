@@ -89,10 +89,10 @@ const UI = (() => {
           <div class="progress-track"><div class="progress-fill ${cls}" style="width:${Math.min(100, Math.abs(changePct || 0) * 15)}%"></div></div>
         </div>
         <div class="idx-spark-wrap" data-index="${idx.id}" title="等待真實市場走勢資料">
-          <div class="idx-spark-meta">CHART PENDING</div>
           <svg class="mini-spark" viewBox="0 0 100 30" preserveAspectRatio="none">
             <line x1="0" y1="15" x2="100" y2="15" stroke="rgba(255,255,255,.12)" stroke-dasharray="3 4"/>
           </svg>
+          <div class="idx-spark-meta">CHART PENDING</div>
         </div>
       </div>`;
     }).join('');
@@ -116,10 +116,10 @@ const UI = (() => {
       if (!geometry) {
         wrap.title = '真實走勢資料暫時不可用';
         wrap.innerHTML = `
-          <div class="idx-spark-meta unavailable">NO CHART</div>
           <svg class="mini-spark" viewBox="0 0 100 30" preserveAspectRatio="none">
             <line x1="0" y1="15" x2="100" y2="15" stroke="rgba(255,255,255,.12)" stroke-dasharray="3 4"/>
-          </svg>`;
+          </svg>
+          <div class="idx-spark-meta unavailable">NO CHART</div>`;
         return;
       }
 
@@ -132,7 +132,6 @@ const UI = (() => {
         : '--';
       wrap.title = `${series.source || 'MARKET DATA'} · ${asOfText} · 線色依較昨收漲跌；線形為盤中走勢`;
       wrap.innerHTML = `
-        <div class="idx-spark-meta">${series.period} · ${series.interval} · 較昨收</div>
         <svg class="mini-spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-label="真實市場走勢">
           ${geometry.baselineY !== null ? `<line x1="0" x2="100" y1="${geometry.baselineY}" y2="${geometry.baselineY}" stroke="#adb5c1" stroke-width=".5" stroke-dasharray="2 2"><title>昨收 ${baseline}</title></line>` : ''}
           <defs><linearGradient id="${gradId}" x1="0" y1="0" x2="0" y2="1">
@@ -142,7 +141,8 @@ const UI = (() => {
           <path fill="url(#${gradId})" d="M0,30 ${geometry.area} 100,30 Z"/>
           <polyline fill="none" stroke="${color}" stroke-width="1.5" opacity=".9" points="${geometry.line}"/>
           <circle cx="100" cy="${geometry.lastY}" r="2" fill="${color}" filter="drop-shadow(0 0 3px ${color})"/>
-        </svg>`;
+        </svg>
+        <div class="idx-spark-meta">${series.period} · ${series.interval} · 較昨收</div>`;
     });
   }
 

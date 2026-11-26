@@ -72,6 +72,18 @@ const App = (() => {
       if (verification.futuresClosure) calendarNote.textContent += ' · 期交所已公告當日日盤及夜盤休市';
       else if (!verification.futuresChecked) calendarNote.textContent += ' · 期交所公告待確認';
     }
+    const calendarAlert = document.getElementById('market-calendar-alert');
+    if (calendarAlert) {
+      const warnings = [];
+      if (verification.status === 'closed-announcement') warnings.push(`台股臨時休市：${verification.reason}`);
+      else if (verification.status === 'unverified') warnings.push('台股開休市待官方確認');
+      else if (!verification.checked) warnings.push('台股官方查核待確認');
+      if (verification.futuresClosure) warnings.push('期交所已公告日盤及夜盤休市');
+      else if (!verification.futuresChecked) warnings.push('期交所公告待確認');
+      const message = warnings.join(' · ');
+      calendarAlert.hidden = !message;
+      if (calendarAlert.textContent !== message) calendarAlert.textContent = message;
+    }
 
     if (verification.status === 'unverified') {
       if (twOrb) twOrb.className = 'status-orb pre';

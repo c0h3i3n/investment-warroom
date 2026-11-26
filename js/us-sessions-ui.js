@@ -2,6 +2,7 @@
 const UsSessionsUI = (() => {
   const S=UsMarketSessions;
   let snapshot=null,selected='',generation=0,loading=false,failed=false,started=false;
+  const expandedSessions = new Set();
   const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const fmt=time=>new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date(time));
   const et=time=>new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(new Date(time));
@@ -33,20 +34,34 @@ const UsSessionsUI = (() => {
     document.getElementById('us-session-phase').textContent=`目前美東時段：${S.names[data.phase]}`;
     document.getElementById('us-session-date').textContent=`美東交易日 ${data.sessionDay}${data.phase==='closed'?' · 最近交易日':''}${data.earlyClose?' · 提早收盤日':''} · 下列時間為台北時間`;
     const labels={upcoming:'尚未開始',unavailable:'尚無有效資料',ended:'時段已結束',delayed:'資料延遲',active:'延遲資料'};
+    const focusedSession = document.activeElement?.dataset?.sessionToggle;
     container.innerHTML=['pre','regular','post'].map(key=>{
       const slot=data.slots[key],quote=slot.quote;
       const pct=slot.changePct,cls=pct>0?'up':pct<0?'down':'flat';
-      const change=pct===null?'漲跌基準暫缺':`${pct>0?'▲':pct<0?'▼':'—'} ${Math.abs(pct).toFixed(2)}%`;
+      const change=pct===null?'基準暫缺':`${pct>0?'▲':pct<0?'▼':'—'} ${Math.abs(pct).toFixed(2)}%`;
       const detail=quote?`${quote.kind==='regular-quote'?'正常盤報價時間':'分時資料時間'} ${fmt(quote.asOf)}`:loading?'正在取得此時段資料…':slot.state==='upcoming'?'此交易日時段尚未開始':'來源尚未提供此交易日的有效報價';
-      return `<article class="us-session-card${data.phase===key?' current':''}">
-        <div class="us-session-card-head"><h3>${S.names[key]}</h3><span>${labels[slot.state]}</span></div>
-        <div class="us-session-hours">美東 ${et(slot.start)}–${et(slot.end)}<br>台北 ${fmt(slot.start)}–${fmt(slot.end)}</div>
-        <div class="us-session-price">${quote?'$'+quote.price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}):'--'}</div>
-        <div class="us-session-change ${cls}">${quote?change:'—'} <small>${key==='post'?'較當日正常盤收盤':'較前一交易日收盤'}</small></div>
-        <div class="us-session-source">${esc(detail)}</div>
-        <div class="us-session-kind">${quote?.kind==='5m-close'?'5分鐘分時參考價，非逐筆成交價':key==='regular'?'正常交易時段報價':'延長交易時段'}</div>
+      const expanded = expandedSessions.has(key);
+      return `<article class="us-session-card${data.phase===key?' current':''}" data-expanded="${expanded}">
+        <div class="us-session-main">
+          <div class="us-session-card-head"><h3>${S.names[key]}</h3><span>${labels[slot.state]}</span></div>
+          <div class="us-session-price">${quote?'$'+quote.price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}):'--'}</div>
+          <div class="us-session-change ${cls}${pct===null?' no-baseline':''}">
+            ${quote?change:'—'}${pct===null?'':`<small class="us-session-brief-reference">${key==='post'?'較當日收盤':'較前收'}</small>`}
+          </div>
+          <button class="us-session-toggle" type="button" data-session-toggle="${key}" aria-expanded="${expanded}"
+            aria-controls="us-session-detail-${key}" aria-label="美股${S.names[key]}報價詳情"></button>
+        </div>
+        <div class="us-session-detail" id="us-session-detail-${key}">
+          <div class="us-session-reference">${key==='post'?'較當日正常盤收盤':'較前一交易日收盤'}</div>
+          <div class="us-session-hours">美東 ${et(slot.start)}–${et(slot.end)}<br>台北 ${fmt(slot.start)}–${fmt(slot.end)}</div>
+          <div class="us-session-source">${esc(detail)}</div>
+          <div class="us-session-kind">${quote?.kind==='5m-close'?'5分鐘分時參考價，非逐筆成交價':key==='regular'?'正常交易時段報價':'延長交易時段'}</div>
+        </div>
       </article>`;
     }).join('');
+    if (['pre','regular','post'].includes(focusedSession)) {
+      container.querySelector(`[data-session-toggle="${focusedSession}"]`)?.focus({preventScroll:true});
+    }
     const output=document.getElementById('us-session-status');
     const warning=failed||snapshot?.warning;
     output.textContent=!selected?'自選股目前沒有美股，新增美股後即可查看。':loading?`正在取得 ${selected} 的美股時段資料…`
@@ -87,8 +102,19 @@ const UsSessionsUI = (() => {
     return true;
   }
   function init() {
-    if(!document.getElementById('us-session-cards')) return;
+    const cards = document.getElementById('us-session-cards');
+    if(!cards) return;
     started=true;
+    cards.addEventListener('click',event=>{
+      const toggle = event.target.closest('[data-session-toggle]');
+      if (!toggle) return;
+      const key = toggle.dataset.sessionToggle;
+      const expanded = !expandedSessions.has(key);
+      if (expanded) expandedSessions.add(key);
+      else expandedSessions.delete(key);
+      toggle.setAttribute('aria-expanded', String(expanded));
+      toggle.closest('.us-session-card').dataset.expanded = String(expanded);
+    });
     document.getElementById('us-session-symbol').addEventListener('change',event=>selectSymbol(event.target.value));
     document.getElementById('watch-us-sessions-link')?.addEventListener('click',event=>{
       if(!selectSymbol(event.currentTarget.dataset.symbol)) event.preventDefault();

@@ -24,11 +24,12 @@ globalThis.DataAudit = (() => {
     document.getElementById('data-audit-status').textContent=v.label;
     document.getElementById('data-audit-time').textContent=v.checked?' · '+new Intl.DateTimeFormat('zh-TW',{
       timeZone:'Asia/Taipei',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false,
-    }).format(new Date(v.checked))+'（台北時間）':'';
+    }).format(new Date(v.checked)):'';
     body.replaceChildren();
     function line(text) {const p=document.createElement('p');p.textContent=text;body.appendChild(p);}
     if(!v.checked) {line('尚未取得可驗證的巡檢結果；不代表資料已通過檢查。');return;}
     line(`範圍：預設 ${report.scope.quotes.length} 檔自選股、${report.scope.indexes.length} 項指數、美股三時段與官方行事曆。瀏覽器自行新增的股票未包含在排程巡檢內。`);
+    line('巡檢時間為台北時間。');
     line(`通過 ${report.counts.pass} 項 · 未比對 ${report.counts.skip} 項 · 待確認 ${report.counts.pending} 項 · 持續異常 ${report.counts.warning} 項。`);
     if(v.state==='stale') line('這是上次巡檢結果，已超過有效時間；目前狀態尚未確認。');
     if(failed) line('最新巡檢報告暫時無法讀取，保留上次結果及原始時間。');

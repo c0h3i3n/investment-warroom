@@ -7,9 +7,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;500&family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css?v=3.9.0">
-<link rel="stylesheet" href="css/readability.css?v=3.25.1">
-<link rel="stylesheet" href="css/us-sessions.css?v=3.25.0">
-<link rel="stylesheet" href="css/data-audit.css?v=3.25.0">
+<link rel="stylesheet" href="css/readability.css?v=3.26.0">
+<link rel="stylesheet" href="css/us-sessions.css?v=3.26.0">
+<link rel="stylesheet" href="css/data-audit.css?v=3.26.0">
 </head>
 <body>
 
@@ -44,7 +44,7 @@
       </div>
       <div class="reactor-text">
         <h1>WARROOM</h1>
-        <div class="sub">INVESTMENT INTELLIGENCE · v3.25.1</div>
+        <div class="sub">INVESTMENT INTELLIGENCE · v3.26.0</div>
       </div>
     </div>
 
@@ -77,25 +77,36 @@
     <div class="data-timing">
       <span class="data-caption">行情來源時間 · 台北時間</span>
       <span class="last-updated" id="last-updated" role="status">UPDATED --:--:--</span>
-      <span class="data-note">美股為延遲行情；休市時保留最近有效收盤。</span>
-      <a class="data-note" id="calendar-verification" href="https://www.twse.com.tw/zh/terms/rss.html" target="_blank" rel="noopener noreferrer">正在查核官方開休市公告…</a>
     </div>
-    <div class="refresh-controls">
     <button class="refresh-btn" id="refresh-btn" onclick="App.refresh()" title="重新取得行情" aria-label="重新取得行情"><span aria-hidden="true">⟳</span> 更新行情</button>
-    <output id="refresh-result" class="refresh-result" aria-live="polite" aria-atomic="true">尚未手動更新；自動行情來源時間見左側。</output>
-    </div>
+    <output id="refresh-result" class="refresh-result" aria-live="polite" aria-atomic="true"></output>
+    <p id="market-calendar-alert" class="market-calendar-alert" role="status" hidden></p>
   </div>
 
-  <details class="data-audit" id="data-audit" data-state="unavailable">
-    <summary><span>資料巡檢：</span><strong id="data-audit-status">正在讀取報告…</strong><span class="data-audit-time" id="data-audit-time"></span><span class="data-audit-hint">查看詳情</span></summary>
-    <div class="data-audit-detail" id="data-audit-detail"></div>
-  </details>
+  <div class="data-disclosures">
+    <details class="market-source-details">
+      <summary>行情與公告</summary>
+      <div class="data-audit-detail">
+        <p>行情來源時間為台北時間。美股為延遲行情，休市時保留最近有效收盤。</p>
+        <a class="data-note" id="calendar-verification" href="https://www.twse.com.tw/zh/terms/rss.html" target="_blank" rel="noopener noreferrer">正在查核官方開休市公告…</a>
+      </div>
+    </details>
+    <details class="data-audit" id="data-audit" data-state="unavailable">
+      <summary><span>資料巡檢</span><strong id="data-audit-status">正在讀取…</strong><span class="data-audit-time" id="data-audit-time"></span></summary>
+      <div class="data-audit-detail" id="data-audit-detail"></div>
+    </details>
+  </div>
 
   <nav class="quick-nav" aria-label="區塊快捷導覽">
     <a href="#index-cards">總覽</a><a href="#night-section">夜盤</a>
     <a href="#us-sessions-section">美股</a>
     <a href="#watch-section">自選股</a><a href="#technical-section">技術</a>
   </nav>
+
+  <!-- ═══ INDEX CARDS ═══ -->
+  <div class="index-row" id="index-cards" tabindex="0" role="region" aria-label="市場指數；手機可左右滑動查看">
+    <div class="idx-card"><div class="loading-indicator">INITIALIZING...</div></div>
+  </div>
 
   <!-- ═══ TICKER ═══ -->
   <div class="ticker-bar">
@@ -107,12 +118,6 @@
       </div>
     </div>
   </div>
-
-  <!-- ═══ INDEX CARDS ═══ -->
-  <div class="index-row" id="index-cards" tabindex="0" role="region" aria-label="市場指數；手機可左右滑動查看">
-    <div class="idx-card"><div class="loading-indicator">INITIALIZING...</div></div>
-  </div>
-
 
   <!-- ═══ FEATURED · 重點關注 ═══ -->
       <div class="hud-panel featured-panel" style="animation-delay:.35s">
@@ -236,7 +241,7 @@
   </div>
 
   <footer>
-    <span>WARROOM · INVESTMENT INTELLIGENCE · v3.25.1</span>
+    <span>WARROOM · INVESTMENT INTELLIGENCE · v3.26.0</span>
     <span id="fdate"></span>
     <span class="latency-badge"><span class="dot live"></span> 台股 MIS 即時</span>
     <span class="latency-badge"><span class="dot delay"></span> 夜盤狀態見頁首</span>
@@ -288,12 +293,12 @@
 <script src="js/indicators.js?v=3.20.0"></script>
 <script src="js/news.js?v=3.24.0"></script>
 <script src="js/night-analysis.js?v=3.15.1"></script>
-<script src="js/ui.js?v=3.23.1"></script>
+<script src="js/ui.js?v=3.26.0"></script>
 <script src="js/watchlist-tools.js?v=3.24.0"></script>
-<script src="js/main.js?v=3.24.2"></script>
-<script src="js/us-sessions-ui.js?v=3.24.1"></script>
+<script src="js/main.js?v=3.26.0"></script>
+<script src="js/us-sessions-ui.js?v=3.26.0"></script>
 <script src="js/interactions.js?v=3.14.0"></script>
-<script src="js/data-audit.js?v=3.25.0"></script>
+<script src="js/data-audit.js?v=3.26.0"></script>
 
 
 </body>
