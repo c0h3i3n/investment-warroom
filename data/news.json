@@ -1,487 +1,487 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T04:56:05.432Z",
-  "checkedAt": 1795668965432,
+  "generatedAt": "2026-11-26T08:37:12.706Z",
+  "checkedAt": 1795682232706,
   "data": [
     {
-      "headline": "盤中速報 - 新復興(4909)股價拉至漲停，漲停價27.4元，成交452張",
-      "link": "https://news.cnyes.com/news/id/6672102",
-      "publishedAt": 1795668539000,
+      "headline": "和泰車史上最大海外布局啟動 東京辦公室開業",
+      "link": "https://news.cnyes.com/news/id/6672940",
+      "publishedAt": 1795682043000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "台股盤中"
+        "台股新聞"
       ],
-      "fetchedAt": 1795668965432
+      "fetchedAt": 1795682232706
     },
     {
-      "headline": "幾十元中國商品「坐飛機」出海 航空貨運生意火爆",
-      "link": "https://news.cnyes.com/news/id/6671904",
-      "publishedAt": 1795668440000,
+      "headline": "避險基金連五週砍倉、ETF空單一週飆19%！高盛：快錢拋售近尾聲 基準情境下12月初止穩",
+      "link": "https://news.cnyes.com/news/id/6672867",
+      "publishedAt": 1795681803000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "大陸政經"
+        "美股雷達"
       ],
-      "fetchedAt": 1795668965432
+      "fetchedAt": 1795682232706
     },
     {
-      "headline": "盤中速報 - 佳邦(6284)股價拉至漲停，漲停價55.8元，成交419張",
-      "link": "https://news.cnyes.com/news/id/6672100",
-      "publishedAt": 1795668183000,
+      "headline": "〈陸股盤後〉美擬對14國課產能過剩關稅 三大指數漲跌互見",
+      "link": "https://news.cnyes.com/news/id/6671900",
+      "publishedAt": 1795681802000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "台股盤中"
+        "A股"
       ],
-      "fetchedAt": 1795668965432
+      "fetchedAt": 1795682232706
     },
     {
-      "headline": "盤中速報 - 台嘉碩(3221)股價拉至漲停，漲停價32.75元，成交913張",
-      "link": "https://news.cnyes.com/news/id/6672098",
-      "publishedAt": 1795668164000,
+      "headline": "鋼鐵50%重稅免驚！龔明鑫重申：談判保住15%不疊加 水五金、車用零組件受惠",
+      "link": "https://news.cnyes.com/news/id/6672933",
+      "publishedAt": 1795681468000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "台股盤中"
+        "台灣政經"
       ],
-      "fetchedAt": 1795668965432
+      "fetchedAt": 1795682232706
     },
     {
-      "headline": "盤中速報 - 弘塑(3131)股價拉至漲停，漲停價1505.0元，成交300張",
-      "link": "https://news.cnyes.com/news/id/6672097",
-      "publishedAt": 1795668065000,
+      "headline": "〈消費趨勢〉餐飲漲價潮來襲 路易莎、麥味登恐跟進",
+      "link": "https://news.cnyes.com/news/id/6672928",
+      "publishedAt": 1795680899000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "台股盤中"
+        "台股新聞"
       ],
-      "fetchedAt": 1795668965432
+      "fetchedAt": 1795682232706
     },
     {
-      "headline": "盤中速報 - 藥華藥(6446)股價拉至漲停，漲停價1180.0元，成交2,025張",
-      "link": "https://news.cnyes.com/news/id/6672096",
-      "publishedAt": 1795668023000,
+      "headline": "〈穎崴法說〉仁武新廠明年Q1完工 自製探針月產能2027年底增逾2倍",
+      "link": "https://news.cnyes.com/news/id/6672851",
+      "publishedAt": 1795680846000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "台股盤中"
+        "台股新聞"
       ],
-      "fetchedAt": 1795668965432
+      "fetchedAt": 1795682232706
     },
     {
-      "headline": "盤中速報 - 新盛力(4931)股價拉至漲停，漲停價141.5元，成交1,479張",
-      "link": "https://news.cnyes.com/news/id/6672095",
-      "publishedAt": 1795668008000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 松上(6156)股價拉至漲停，漲停價20.15元，成交616張",
-      "link": "https://news.cnyes.com/news/id/6672094",
-      "publishedAt": 1795668007000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 楠梓電(2316)股價拉至漲停，漲停價112.0元，成交4,294張",
-      "link": "https://news.cnyes.com/news/id/6672093",
-      "publishedAt": 1795667993000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 日電貿(3090)股價拉至漲停，漲停價109.0元，成交1,969張",
-      "link": "https://news.cnyes.com/news/id/6672091",
-      "publishedAt": 1795667973000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 緯創(3231)股價拉至漲停，漲停價167.0元，成交28,649張",
-      "link": "https://news.cnyes.com/news/id/6672090",
-      "publishedAt": 1795667675000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 南茂(8150)股價拉至漲停，漲停價71.3元，成交10,536張",
-      "link": "https://news.cnyes.com/news/id/6672088",
-      "publishedAt": 1795667494000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 鈺創(5351)股價拉至漲停，漲停價91.3元，成交9,319張",
-      "link": "https://news.cnyes.com/news/id/6672087",
-      "publishedAt": 1795667454000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 致茂(2360)股價拉至漲停，漲停價1110.0元，成交4,637張",
-      "link": "https://news.cnyes.com/news/id/6672086",
-      "publishedAt": 1795667431000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "日銀委員釋加快升息訊號 稱須迅速因應通膨風險",
-      "link": "https://news.cnyes.com/news/id/6672012",
-      "publishedAt": 1795667406000,
+      "headline": "歐洲首富延後退休！阿爾諾將掌舵LVMH至95歲",
+      "link": "https://news.cnyes.com/news/id/6671878",
+      "publishedAt": 1795680007000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1795668965432
+      "fetchedAt": 1795682232706
     },
     {
-      "headline": "盤中速報 - 勤誠(8210)股價拉至漲停，漲停價482.5元，成交649張",
-      "link": "https://news.cnyes.com/news/id/6672085",
-      "publishedAt": 1795667374000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 矽科宏晟(6725)股價拉至漲停，漲停價185.5元，成交347張",
-      "link": "https://news.cnyes.com/news/id/6672084",
-      "publishedAt": 1795667306000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 前鼎(4908)股價拉至漲停，漲停價134.5元，成交768張",
-      "link": "https://news.cnyes.com/news/id/6672083",
-      "publishedAt": 1795667195000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 聯茂(6213)股價拉至漲停，漲停價429.0元，成交17,661張",
-      "link": "https://news.cnyes.com/news/id/6672082",
-      "publishedAt": 1795667175000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 良維(6290)股價拉至漲停，漲停價156.0元，成交1,959張",
-      "link": "https://news.cnyes.com/news/id/6672081",
-      "publishedAt": 1795667154000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "兩大信評機構接連拆台！穆迪展望下修+標普負面觀察 輝達「治理缺陷」90天不補恐遭降評",
-      "link": "https://news.cnyes.com/news/id/6672064",
-      "publishedAt": 1795667115000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 凱美(2375)股價拉至漲停，漲停價81.9元，成交1,837張",
-      "link": "https://news.cnyes.com/news/id/6672080",
-      "publishedAt": 1795667026000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 佳必琪(6197)股價拉至漲停，漲停價206.0元，成交835張",
-      "link": "https://news.cnyes.com/news/id/6672079",
-      "publishedAt": 1795666994000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 昇貿(3305)股價拉至漲停，漲停價97.5元，成交2,093張",
-      "link": "https://news.cnyes.com/news/id/6672078",
-      "publishedAt": 1795666983000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 南亞科(2408)股價拉至漲停，漲停價306.0元，成交34,959張",
-      "link": "https://news.cnyes.com/news/id/6672077",
-      "publishedAt": 1795666949000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "統一超連10年拿TCSA大獎 立超商產業標竿",
-      "link": "https://news.cnyes.com/news/id/6672071",
-      "publishedAt": 1795666935000,
+      "headline": "和泰車啟用楊梅物流中心第三倉 強化零件供應體系",
+      "link": "https://news.cnyes.com/news/id/6672866",
+      "publishedAt": 1795678783000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795668965432
+      "fetchedAt": 1795682232706
     },
     {
-      "headline": "盤中速報 - 帆宣(6196)股價拉至漲停，漲停價342.5元，成交858張",
-      "link": "https://news.cnyes.com/news/id/6672076",
-      "publishedAt": 1795666874000,
+      "headline": "外匯速報 - 美元/台幣(USDTWD) 大跌0.53%，報32.95元",
+      "link": "https://news.cnyes.com/news/id/6672864",
+      "publishedAt": 1795678222000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "台股盤中"
+        "外匯盤中"
       ],
-      "fetchedAt": 1795668965432
+      "fetchedAt": 1795682232706
     },
     {
-      "headline": "盤中速報 - 環球晶(6488)股價拉至漲停，漲停價524.0元，成交5,644張",
-      "link": "https://news.cnyes.com/news/id/6672075",
-      "publishedAt": 1795666850000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 鼎固-KY(2923)股價拉至漲停，漲停價28.1元，成交210張",
-      "link": "https://news.cnyes.com/news/id/6672074",
-      "publishedAt": 1795666843000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 映興(3597)股價拉至漲停，漲停價31.95元，成交472張",
-      "link": "https://news.cnyes.com/news/id/6672073",
-      "publishedAt": 1795666582000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 金居(8358)股價拉至漲停，漲停價268.5元，成交7,935張",
-      "link": "https://news.cnyes.com/news/id/6672070",
-      "publishedAt": 1795666392000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 三集瑞-KY(6862)股價拉至漲停，漲停價101.5元，成交200張",
-      "link": "https://news.cnyes.com/news/id/6672069",
-      "publishedAt": 1795666377000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：儒鴻(1476-TW)EPS預估上修至25.21元，預估目標價為446元",
-      "link": "https://news.cnyes.com/news/id/6672068",
-      "publishedAt": 1795666235000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股預估"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：力旺(3529-TW)目標價調升至3492.5元，幅度約4.88%",
-      "link": "https://news.cnyes.com/news/id/6672067",
-      "publishedAt": 1795666226000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股預估"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "盤中速報 - 達發(6526)股價拉至漲停，漲停價665.0元，成交994張",
-      "link": "https://news.cnyes.com/news/id/6672066",
-      "publishedAt": 1795666214000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795668965432
-    },
-    {
-      "headline": "「有些人不該從菜單移除」 Denny’s 迎黃仁勳回歸 重掛輝達創業紀念牌",
-      "link": "https://news.cnyes.com/news/id/6672046",
-      "publishedAt": 1795666205000,
+      "headline": "AI贏家再洗牌！晶片股遭拋售、軟體股接棒 市場從「算力信仰」轉向「護城河篩選」",
+      "link": "https://news.cnyes.com/news/id/6672841",
+      "publishedAt": 1795678207000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795668965432
+      "fetchedAt": 1795682232706
     },
     {
-      "headline": "美國301調查出爐 工總提三大建言籲落實談判避免產業不確定性",
-      "link": "https://news.cnyes.com/news/id/6672052",
-      "publishedAt": 1795665699000,
+      "headline": "六檔大型ETF會跳舞 00981A本周飆漲18%彈跳力居冠",
+      "link": "https://news.cnyes.com/news/id/6672858",
+      "publishedAt": 1795678206000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795668965432
+      "fetchedAt": 1795682232706
     },
     {
-      "headline": "SpaceX太空資料中心獲批 發射100萬顆衛星 把算力搬上太空",
-      "link": "https://news.cnyes.com/news/id/6671902",
-      "publishedAt": 1795665666000,
+      "headline": "美國擬對中國等經濟體加徵301關稅 中國商務部、外交部回應！",
+      "link": "https://news.cnyes.com/news/id/6672859",
+      "publishedAt": 1795678186000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "A股"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "OpenAI內部模型挑戰57年數學難題 矩陣乘法「速度極限」指向2.25",
+      "link": "https://news.cnyes.com/news/id/6671981",
+      "publishedAt": 1795677564000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795668965432
+      "fetchedAt": 1795682232706
     },
     {
-      "headline": "盤中速報 - 健鼎(3044)股價拉至漲停，漲停價497.0元，成交4,357張",
-      "link": "https://news.cnyes.com/news/id/6672061",
-      "publishedAt": 1795665120000,
+      "headline": "台股收復3萬9關 外資續砍491億、三大法人賣超132.65億元",
+      "link": "https://news.cnyes.com/news/id/6672850",
+      "publishedAt": 1795676536000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "台股強彈956點重返3萬9！關稅真的沒問題?底部到了嗎?",
+      "link": "https://news.cnyes.com/news/id/6672846",
+      "publishedAt": 1795676301000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "專家觀點"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "〈穎崴法說〉董座：客戶需求非常積極 明年營運成長估雙位數以上",
+      "link": "https://news.cnyes.com/news/id/6672843",
+      "publishedAt": 1795675697000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "川普啟動產能過剩關稅：日本抗議、巴西反嗆「不合法、將對等回擊」",
+      "link": "https://news.cnyes.com/news/id/6672124",
+      "publishedAt": 1795674609000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "國際政經"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "富邦006208分割投票27日開跑 估1拆7、入手一張只要3萬元",
+      "link": "https://news.cnyes.com/news/id/6672832",
+      "publishedAt": 1795673714000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "ETF"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "外匯速報 - 美元/印度盧比(USDINR) 大漲0.34%，報92.54元",
+      "link": "https://news.cnyes.com/news/id/6672831",
+      "publishedAt": 1795673420000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "外匯盤中"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "外匯速報 - 美元/台幣(USDTWD) 大跌0.38%，報33元",
+      "link": "https://news.cnyes.com/news/id/6672830",
+      "publishedAt": 1795673420000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "外匯盤中"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "科技股修正後還有機會？野村投信解析2027台股布局方向 「台股基金老字號」以研究實力掌握產業新局",
+      "link": "https://news.cnyes.com/news/id/6671284",
+      "publishedAt": 1795673194000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "基金"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "亞洲首發！施羅德00419A聚焦半導體與AI基建今上市 證交所掛牌衝245檔",
+      "link": "https://news.cnyes.com/news/id/6672692",
+      "publishedAt": 1795673073000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "ETF"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "野村投信最新台股看法--【台股操盤人筆記】 短線雜音仍存，聚焦ASIC供應鏈機會",
+      "link": "https://news.cnyes.com/news/id/6660654",
+      "publishedAt": 1795671959000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "基金"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "盤中速報 - 宏盛(2534)股價拉至漲停，漲停價15.45元，成交291張",
+      "link": "https://news.cnyes.com/news/id/6672126",
+      "publishedAt": 1795671182000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
         "台股盤中"
       ],
-      "fetchedAt": 1795668965432
+      "fetchedAt": 1795682232706
     },
     {
-      "headline": "研調：全球手機出貨量2027年預估再減6% 最快2028年迎來復甦",
-      "link": "https://news.cnyes.com/news/id/6672057",
-      "publishedAt": 1795665009000,
+      "headline": "盤中速報 - 今皓(3011)股價拉至漲停，漲停價7.73元，成交247張",
+      "link": "https://news.cnyes.com/news/id/6672125",
+      "publishedAt": 1795671037000,
       "source": "鉅亨頭條",
       "region": "INTL",
       "feedRegion": "INTL",
       "categories": [
-        "科技"
+        "台股盤中"
       ],
-      "fetchedAt": 1795668965432
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "華爾街罕見出現多空對決 同一家研究機構分析師對Anthropic股價看法分歧",
+      "link": "https://news.cnyes.com/news/id/6671890",
+      "publishedAt": 1795671003000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "〈焦點股〉SpaceX獲准發射百萬顆衛星 激勵穩懋亮燈漲停領7檔題材股齊嗨",
+      "link": "https://news.cnyes.com/news/id/6672121",
+      "publishedAt": 1795670682000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "盤中速報 - 大毅(2478)股價拉至漲停，漲停價83.8元，成交1,429張",
+      "link": "https://news.cnyes.com/news/id/6672120",
+      "publishedAt": 1795670421000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "AI豪賭推升融資成本！軟銀集團信用風險首升破500基點 創四年來新高",
+      "link": "https://news.cnyes.com/news/id/6672062",
+      "publishedAt": 1795670409000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "歐亞股"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "盤中速報 - 大綜(3147)股價拉至漲停，漲停價269.5元，成交981張",
+      "link": "https://news.cnyes.com/news/id/6672117",
+      "publishedAt": 1795670289000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "盤中速報 - 陽程(3498)股價拉至漲停，漲停價141.5元，成交1,699張",
+      "link": "https://news.cnyes.com/news/id/6672111",
+      "publishedAt": 1795669933000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "盤中速報 - 晶呈科技(4768)股價拉至漲停，漲停價240.0元，成交341張",
+      "link": "https://news.cnyes.com/news/id/6672110",
+      "publishedAt": 1795669844000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "盤中速報 - 嘉澤(3533)股價拉至漲停，漲停價1575.0元，成交1,501張",
+      "link": "https://news.cnyes.com/news/id/6672109",
+      "publishedAt": 1795669721000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "盤中速報 - 聯策(6658)股價拉至漲停，漲停價129.5元，成交270張",
+      "link": "https://news.cnyes.com/news/id/6672108",
+      "publishedAt": 1795669636000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "盤中速報 - 金像電(2368)股價拉至漲停，漲停價995.0元，成交13,488張",
+      "link": "https://news.cnyes.com/news/id/6672107",
+      "publishedAt": 1795669591000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "盤中速報 - 鋼鐵股價指數類股表現強勁，漲幅2.09%，總成交額1.66億",
+      "link": "https://news.cnyes.com/news/id/6672106",
+      "publishedAt": 1795669462000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "盤中速報 - 聯友金屬-創(7610)股價拉至漲停，漲停價860.0元，成交202張",
+      "link": "https://news.cnyes.com/news/id/6672105",
+      "publishedAt": 1795669355000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "盤中速報 - 利機(3444)股價拉至漲停，漲停價60.5元，成交209張",
+      "link": "https://news.cnyes.com/news/id/6672104",
+      "publishedAt": 1795669098000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "盤中速報 - 聯合再生(3576)股價拉至漲停，漲停價14.1元，成交11,114張",
+      "link": "https://news.cnyes.com/news/id/6672103",
+      "publishedAt": 1795668835000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股盤中"
+      ],
+      "fetchedAt": 1795682232706
+    },
+    {
+      "headline": "GOGOLOOK獲利爆發有望開始配息 樂觀看資安商機巨大",
+      "link": "https://news.cnyes.com/news/id/6672101",
+      "publishedAt": 1795668826000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795682232706
     }
   ],
   "failedSources": [],
