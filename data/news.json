@@ -1,8 +1,404 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T08:37:12.706Z",
-  "checkedAt": 1795682232706,
+  "generatedAt": "2026-11-26T14:59:43.312Z",
+  "checkedAt": 1795705183312,
   "data": [
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：小鵬汽車(XPEV-US)EPS預估上修至-0.38元，預估目標價為14.84元",
+      "link": "https://news.cnyes.com/news/id/6673285",
+      "publishedAt": 1795702531000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "別指望聯準會出手救市？Fed傳聲筒：AI股暴跌拉高升息門檻 華許陷政策兩難",
+      "link": "https://news.cnyes.com/news/id/6671886",
+      "publishedAt": 1795701606000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "AI吸乾全球記憶體產能 缺貨至少到2028年！馬斯克搶貨也碰壁 晶片貴如「金條」引竊賊覬覦",
+      "link": "https://news.cnyes.com/news/id/6672128",
+      "publishedAt": 1795698005000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "外資連4賣仍大漲7% 南亞受惠高階AI材料攀升、法人持續調高目標價",
+      "link": "https://news.cnyes.com/news/id/6673237",
+      "publishedAt": 1795697734000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "〈華南金法說〉央行不排除年底前升息！蕭玉美看AI與出口支撐動能 台幣震盪偏升",
+      "link": "https://news.cnyes.com/news/id/6673210",
+      "publishedAt": 1795695711000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Hudbay Minerals Inc.(HBM-US)EPS預估上修至1.47元，預估目標價為31.00元",
+      "link": "https://news.cnyes.com/news/id/6673220",
+      "publishedAt": 1795695338000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Oruka Therapeutics, Inc.(ORKA-US)EPS預估上修至-2.46元，預估目標價為151.00元",
+      "link": "https://news.cnyes.com/news/id/6673219",
+      "publishedAt": 1795695336000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Abercrombie & Fitch公司(ANF-US)EPS預估上修至13.9元，預估目標價為190.00元",
+      "link": "https://news.cnyes.com/news/id/6673218",
+      "publishedAt": 1795695335000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：沃達丰電信公司(VOD-US)EPS預估上修至1.08元，預估目標價為15.15元",
+      "link": "https://news.cnyes.com/news/id/6673217",
+      "publishedAt": 1795695332000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：迪爾(DE-US)EPS預估下修至19.58元，預估目標價為702.00元",
+      "link": "https://news.cnyes.com/news/id/6673216",
+      "publishedAt": 1795695328000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：百度BIDU-US的目標價調降至118.77元，幅度約4%",
+      "link": "https://news.cnyes.com/news/id/6673215",
+      "publishedAt": 1795695326000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：錢樹商店DLTR-US的目標價調升至155元，幅度約3.33%",
+      "link": "https://news.cnyes.com/news/id/6673214",
+      "publishedAt": 1795695324000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：迪爾DE-US的目標價調降至702元，幅度約3.7%",
+      "link": "https://news.cnyes.com/news/id/6673213",
+      "publishedAt": 1795695322000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：蒂斯-萊特CW-US的目標價調降至597.5元，幅度約4.4%",
+      "link": "https://news.cnyes.com/news/id/6673212",
+      "publishedAt": 1795695321000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "《巴隆》點名這5檔科技股避開AI風暴 蘋果抗跌、這兩檔飆逾30%",
+      "link": "https://news.cnyes.com/news/id/6671884",
+      "publishedAt": 1795694413000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "AI加速資安攻擊！金管會推14項自評 要求全體金融業年底前提報董事會",
+      "link": "https://news.cnyes.com/news/id/6673120",
+      "publishedAt": 1795693653000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "〈永裕法說〉高質化、高毛利產品推升業績年增2778％ 力拼明年持續獲利增長",
+      "link": "https://news.cnyes.com/news/id/6673139",
+      "publishedAt": 1795693512000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "英柏得預計12月中旬掛牌上市 明年營收可望雙位數成長",
+      "link": "https://news.cnyes.com/news/id/6673130",
+      "publishedAt": 1795693048000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "狂歡變調！00981A驚爆1.03億元鉅額違約交割 創主動式ETF首例",
+      "link": "https://news.cnyes.com/news/id/6673126",
+      "publishedAt": 1795692543000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "萬泰科大啖太空經濟商機明年營收估增25% 衛星通訊業務翻倍",
+      "link": "https://news.cnyes.com/news/id/6673125",
+      "publishedAt": 1795691872000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "策略師樂觀看待美股後市 標普2027年底上攻1萬點",
+      "link": "https://news.cnyes.com/news/id/6671879",
+      "publishedAt": 1795690810000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "〈遠東銀法說〉搶進亞資高雄專區拚明年1月開業 總座示警2027總經變數更多",
+      "link": "https://news.cnyes.com/news/id/6672982",
+      "publishedAt": 1795689937000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "假短劇App遠端盜轉1742萬元波及22家金融機構 金管會：8銀行有報重偶",
+      "link": "https://news.cnyes.com/news/id/6673049",
+      "publishedAt": 1795688784000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "漲價推升舊旗艦殘值 10月二手機回收價逆勢走揚 小米15T Pro漲幅24%居冠",
+      "link": "https://news.cnyes.com/news/id/6673035",
+      "publishedAt": 1795687217000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "滙豐看好2027年：AI震盪反而創造進場甜蜜點",
+      "link": "https://news.cnyes.com/news/id/6671887",
+      "publishedAt": 1795687217000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "立碁台中路燈汰換案訴訟落幕 與台中市府達成調解可望進帳9937萬元",
+      "link": "https://news.cnyes.com/news/id/6672996",
+      "publishedAt": 1795685406000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "王品尾牙席開近千桌 將發千萬摸彩金 明年再招1200名新血",
+      "link": "https://news.cnyes.com/news/id/6672992",
+      "publishedAt": 1795685068000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "亞泥中國暌違12年再啟新窯 黃岡亞東第二條熟料生產線明年Q1量產",
+      "link": "https://news.cnyes.com/news/id/6672988",
+      "publishedAt": 1795684794000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "「AI股神」Q3虧65%！槓桿押注AI股一度瀕臨崩潰 前三季仍賺88.5%",
+      "link": "https://news.cnyes.com/news/id/6672123",
+      "publishedAt": 1795683603000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "〈臺企銀法說〉前3季賺114億年增近17%同期新高 中小企放款8673億稱冠 EPS達1.1元",
+      "link": "https://news.cnyes.com/news/id/6672981",
+      "publishedAt": 1795683578000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "〈遠東銀法說〉保留盈餘進補明年股利看升 先拚升格金控、再談證券二合一",
+      "link": "https://news.cnyes.com/news/id/6672934",
+      "publishedAt": 1795682615000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "鴻海攜北榮打造智慧醫療新場域 AI化療自動化系統亮相",
+      "link": "https://news.cnyes.com/news/id/6672936",
+      "publishedAt": 1795682584000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795705183312
+    },
+    {
+      "headline": "阿拉斯加天然氣生變？卡達長約2031年到期 龔明鑫：擬將部分氣源轉向這裡",
+      "link": "https://news.cnyes.com/news/id/6672941",
+      "publishedAt": 1795682539000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台灣政經"
+      ],
+      "fetchedAt": 1795705183312
+    },
     {
       "headline": "和泰車史上最大海外布局啟動 東京辦公室開業",
       "link": "https://news.cnyes.com/news/id/6672940",
@@ -13,7 +409,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795682232706
+      "fetchedAt": 1795705183312
     },
     {
       "headline": "避險基金連五週砍倉、ETF空單一週飆19%！高盛：快錢拋售近尾聲 基準情境下12月初止穩",
@@ -25,7 +421,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795682232706
+      "fetchedAt": 1795705183312
     },
     {
       "headline": "〈陸股盤後〉美擬對14國課產能過剩關稅 三大指數漲跌互見",
@@ -37,7 +433,7 @@
       "categories": [
         "A股"
       ],
-      "fetchedAt": 1795682232706
+      "fetchedAt": 1795705183312
     },
     {
       "headline": "鋼鐵50%重稅免驚！龔明鑫重申：談判保住15%不疊加 水五金、車用零組件受惠",
@@ -49,7 +445,7 @@
       "categories": [
         "台灣政經"
       ],
-      "fetchedAt": 1795682232706
+      "fetchedAt": 1795705183312
     },
     {
       "headline": "〈消費趨勢〉餐飲漲價潮來襲 路易莎、麥味登恐跟進",
@@ -61,7 +457,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795682232706
+      "fetchedAt": 1795705183312
     },
     {
       "headline": "〈穎崴法說〉仁武新廠明年Q1完工 自製探針月產能2027年底增逾2倍",
@@ -73,7 +469,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795682232706
+      "fetchedAt": 1795705183312
     },
     {
       "headline": "歐洲首富延後退休！阿爾諾將掌舵LVMH至95歲",
@@ -85,403 +481,7 @@
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "和泰車啟用楊梅物流中心第三倉 強化零件供應體系",
-      "link": "https://news.cnyes.com/news/id/6672866",
-      "publishedAt": 1795678783000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "外匯速報 - 美元/台幣(USDTWD) 大跌0.53%，報32.95元",
-      "link": "https://news.cnyes.com/news/id/6672864",
-      "publishedAt": 1795678222000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "外匯盤中"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "AI贏家再洗牌！晶片股遭拋售、軟體股接棒 市場從「算力信仰」轉向「護城河篩選」",
-      "link": "https://news.cnyes.com/news/id/6672841",
-      "publishedAt": 1795678207000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "六檔大型ETF會跳舞 00981A本周飆漲18%彈跳力居冠",
-      "link": "https://news.cnyes.com/news/id/6672858",
-      "publishedAt": 1795678206000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "美國擬對中國等經濟體加徵301關稅 中國商務部、外交部回應！",
-      "link": "https://news.cnyes.com/news/id/6672859",
-      "publishedAt": 1795678186000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "A股"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "OpenAI內部模型挑戰57年數學難題 矩陣乘法「速度極限」指向2.25",
-      "link": "https://news.cnyes.com/news/id/6671981",
-      "publishedAt": 1795677564000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "台股收復3萬9關 外資續砍491億、三大法人賣超132.65億元",
-      "link": "https://news.cnyes.com/news/id/6672850",
-      "publishedAt": 1795676536000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "台股強彈956點重返3萬9！關稅真的沒問題?底部到了嗎?",
-      "link": "https://news.cnyes.com/news/id/6672846",
-      "publishedAt": 1795676301000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "專家觀點"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "〈穎崴法說〉董座：客戶需求非常積極 明年營運成長估雙位數以上",
-      "link": "https://news.cnyes.com/news/id/6672843",
-      "publishedAt": 1795675697000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "川普啟動產能過剩關稅：日本抗議、巴西反嗆「不合法、將對等回擊」",
-      "link": "https://news.cnyes.com/news/id/6672124",
-      "publishedAt": 1795674609000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "富邦006208分割投票27日開跑 估1拆7、入手一張只要3萬元",
-      "link": "https://news.cnyes.com/news/id/6672832",
-      "publishedAt": 1795673714000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "ETF"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "外匯速報 - 美元/印度盧比(USDINR) 大漲0.34%，報92.54元",
-      "link": "https://news.cnyes.com/news/id/6672831",
-      "publishedAt": 1795673420000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "外匯盤中"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "外匯速報 - 美元/台幣(USDTWD) 大跌0.38%，報33元",
-      "link": "https://news.cnyes.com/news/id/6672830",
-      "publishedAt": 1795673420000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "外匯盤中"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "科技股修正後還有機會？野村投信解析2027台股布局方向 「台股基金老字號」以研究實力掌握產業新局",
-      "link": "https://news.cnyes.com/news/id/6671284",
-      "publishedAt": 1795673194000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "基金"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "亞洲首發！施羅德00419A聚焦半導體與AI基建今上市 證交所掛牌衝245檔",
-      "link": "https://news.cnyes.com/news/id/6672692",
-      "publishedAt": 1795673073000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "ETF"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "野村投信最新台股看法--【台股操盤人筆記】 短線雜音仍存，聚焦ASIC供應鏈機會",
-      "link": "https://news.cnyes.com/news/id/6660654",
-      "publishedAt": 1795671959000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "基金"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "盤中速報 - 宏盛(2534)股價拉至漲停，漲停價15.45元，成交291張",
-      "link": "https://news.cnyes.com/news/id/6672126",
-      "publishedAt": 1795671182000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "盤中速報 - 今皓(3011)股價拉至漲停，漲停價7.73元，成交247張",
-      "link": "https://news.cnyes.com/news/id/6672125",
-      "publishedAt": 1795671037000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "華爾街罕見出現多空對決 同一家研究機構分析師對Anthropic股價看法分歧",
-      "link": "https://news.cnyes.com/news/id/6671890",
-      "publishedAt": 1795671003000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "〈焦點股〉SpaceX獲准發射百萬顆衛星 激勵穩懋亮燈漲停領7檔題材股齊嗨",
-      "link": "https://news.cnyes.com/news/id/6672121",
-      "publishedAt": 1795670682000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "盤中速報 - 大毅(2478)股價拉至漲停，漲停價83.8元，成交1,429張",
-      "link": "https://news.cnyes.com/news/id/6672120",
-      "publishedAt": 1795670421000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "AI豪賭推升融資成本！軟銀集團信用風險首升破500基點 創四年來新高",
-      "link": "https://news.cnyes.com/news/id/6672062",
-      "publishedAt": 1795670409000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "歐亞股"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "盤中速報 - 大綜(3147)股價拉至漲停，漲停價269.5元，成交981張",
-      "link": "https://news.cnyes.com/news/id/6672117",
-      "publishedAt": 1795670289000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "盤中速報 - 陽程(3498)股價拉至漲停，漲停價141.5元，成交1,699張",
-      "link": "https://news.cnyes.com/news/id/6672111",
-      "publishedAt": 1795669933000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "盤中速報 - 晶呈科技(4768)股價拉至漲停，漲停價240.0元，成交341張",
-      "link": "https://news.cnyes.com/news/id/6672110",
-      "publishedAt": 1795669844000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "盤中速報 - 嘉澤(3533)股價拉至漲停，漲停價1575.0元，成交1,501張",
-      "link": "https://news.cnyes.com/news/id/6672109",
-      "publishedAt": 1795669721000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "盤中速報 - 聯策(6658)股價拉至漲停，漲停價129.5元，成交270張",
-      "link": "https://news.cnyes.com/news/id/6672108",
-      "publishedAt": 1795669636000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "盤中速報 - 金像電(2368)股價拉至漲停，漲停價995.0元，成交13,488張",
-      "link": "https://news.cnyes.com/news/id/6672107",
-      "publishedAt": 1795669591000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "盤中速報 - 鋼鐵股價指數類股表現強勁，漲幅2.09%，總成交額1.66億",
-      "link": "https://news.cnyes.com/news/id/6672106",
-      "publishedAt": 1795669462000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "盤中速報 - 聯友金屬-創(7610)股價拉至漲停，漲停價860.0元，成交202張",
-      "link": "https://news.cnyes.com/news/id/6672105",
-      "publishedAt": 1795669355000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "盤中速報 - 利機(3444)股價拉至漲停，漲停價60.5元，成交209張",
-      "link": "https://news.cnyes.com/news/id/6672104",
-      "publishedAt": 1795669098000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "盤中速報 - 聯合再生(3576)股價拉至漲停，漲停價14.1元，成交11,114張",
-      "link": "https://news.cnyes.com/news/id/6672103",
-      "publishedAt": 1795668835000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股盤中"
-      ],
-      "fetchedAt": 1795682232706
-    },
-    {
-      "headline": "GOGOLOOK獲利爆發有望開始配息 樂觀看資安商機巨大",
-      "link": "https://news.cnyes.com/news/id/6672101",
-      "publishedAt": 1795668826000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1795682232706
+      "fetchedAt": 1795705183312
     }
   ],
   "failedSources": [],
