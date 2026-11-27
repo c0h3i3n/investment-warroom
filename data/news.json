@@ -1,8 +1,104 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T08:09:52.880Z",
-  "checkedAt": 1795766992880,
+  "generatedAt": "2026-11-27T08:47:45.576Z",
+  "checkedAt": 1795769265576,
   "data": [
+    {
+      "headline": "台積電德國廠主體結構完工 拚2027年底投產 逾20家台廠搶進德勒斯登",
+      "link": "https://news.cnyes.com/news/id/6673840",
+      "publishedAt": 1795768681000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795769265576
+    },
+    {
+      "headline": "〈港股盤後〉國常會重磅穩市！恒指漲2.1% 科指暴漲逾6% 重返3600點",
+      "link": "https://news.cnyes.com/news/id/6673833",
+      "publishedAt": 1795768593000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "港股"
+      ],
+      "fetchedAt": 1795769265576
+    },
+    {
+      "headline": "〈陸股盤後〉國務院釋加大穩市作用訊號 創板指飆逾11% 滬指收復3600點",
+      "link": "https://news.cnyes.com/news/id/6673735",
+      "publishedAt": 1795768203000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "A股"
+      ],
+      "fetchedAt": 1795769265576
+    },
+    {
+      "headline": "〈智邦法說〉領先同業出貨1.6T全液冷交換器 明年灣區設研發中心卡位光通訊與800V商機",
+      "link": "https://news.cnyes.com/news/id/6673825",
+      "publishedAt": 1795767603000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795769265576
+    },
+    {
+      "headline": "〈國泰金法說〉國壽9、10月提前大減碼股票 股市震盪下淨值比仍穩守11.2%以上",
+      "link": "https://news.cnyes.com/news/id/6673788",
+      "publishedAt": 1795767409000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795769265576
+    },
+    {
+      "headline": "〈智邦法說〉明年新加坡、達拉斯新廠齊發 三大策略面對AI資本支出放緩疑慮",
+      "link": "https://news.cnyes.com/news/id/6673820",
+      "publishedAt": 1795767369000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台股新聞"
+      ],
+      "fetchedAt": 1795769265576
+    },
+    {
+      "headline": "〈景氣燈號〉連11紅！10月續亮40分紅燈 國發會點名3大潛在風險",
+      "link": "https://news.cnyes.com/news/id/6673800",
+      "publishedAt": 1795767352000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "台灣政經"
+      ],
+      "fetchedAt": 1795769265576
+    },
+    {
+      "headline": "豐田汽車全球銷量連九月下滑 中國陷泥沼但北美逆勢強勁",
+      "link": "https://news.cnyes.com/news/id/6673724",
+      "publishedAt": 1795767004000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "歐亞股"
+      ],
+      "fetchedAt": 1795769265576
+    },
     {
       "headline": "從「石油美元」到「晶片美元」 全球晶片出口額首度超越油氣",
       "link": "https://news.cnyes.com/news/id/6673730",
@@ -13,7 +109,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "亞股反彈壓抑避險需求 美國公債殖利率隨之攀升",
@@ -25,7 +121,7 @@
       "categories": [
         "債券"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "〈消費趨勢〉新北耶誕城外的隱藏版造景 在這二大購物商場",
@@ -37,7 +133,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "不是賣鏟人是地基！ASML執行長：AI資料中心取決於我司擴產速度 用「代差槓桿」綁住陸半導體",
@@ -49,7 +145,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "新加坡回應輝達晶片轉運疑雲：正與美磋商維護先進半導體供應",
@@ -61,7 +157,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "台股選前量縮 外資續砍296億、三大法人賣超213.04億元",
@@ -73,7 +169,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "2026九合一選舉行情會來嗎？過去三屆選後60日全上漲，這次台股為何不同？",
@@ -85,7 +181,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "從矽谷到深圳：美國新創企業為效率移轉開發重心 但也面臨風險",
@@ -97,7 +193,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "全球黃金「大搬風」！法國率先結束近一世紀託管 全球3.6萬噸儲備版圖重劃",
@@ -109,7 +205,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "從矽谷到矽島！國泰投信攜手大和證券拆解台韓AI地圖，主動投資迎結構性超級循環",
@@ -121,7 +217,7 @@
       "categories": [
         "基金"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "台股修正期ETF怎麼選？看懂「這指標」檢視配息底氣，五檔12月除息ETF實測",
@@ -133,7 +229,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "一張21萬變3萬！006208啟動股票分割案三大優勢與市值型ETF布局攻略！",
@@ -145,7 +241,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "〈台股盤後〉尾盤強拉197點由黑翻紅 收漲156點守3萬9 PCB、光通訊股走弱",
@@ -157,7 +253,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "Neuralink腦機介面獲FDA放行關鍵性臨床試驗 衝刺漸凍症患者上市前驗證",
@@ -169,7 +265,7 @@
       "categories": [
         "科技"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "〈焦點股〉 萊德光電、東典聯袂亮燈衝漲停 低軌衛星題材續噴發",
@@ -181,7 +277,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "集保結算所115年度人才招募開跑 釋出10職類、35名職缺",
@@ -193,7 +289,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "再拋天文數字願景！馬斯克：SpaceX成功將值全球GDP的100萬倍",
@@ -205,7 +301,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "供應鏈洗牌！星展揭台灣企業結算現況：81%已用人民幣、AI成控管利器",
@@ -217,7 +313,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "美國今年聖誕網購2,750億美元 借貸消費佔213億再創新高",
@@ -229,7 +325,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "砍單潮+消費端降規格！NAND需求遭雙殺 2027年首季合約價轉跌0-5% 現貨已跌逾兩成",
@@ -241,7 +337,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "半導體ETF震盪中突圍 00891今年報酬率59%奪ETF績效王",
@@ -253,7 +349,7 @@
       "categories": [
         "ETF"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "誰在拋售黃金？俄羅斯連續10個月減持",
@@ -265,7 +361,7 @@
       "categories": [
         "國際政經"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "〈台股開盤〉台積電扮演撐盤神山 領台股盤中一度漲逾300點收復10日線",
@@ -277,7 +373,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "比特幣黃金先跌、股市慢半拍 策略師揭示這波資金退潮順序",
@@ -289,7 +385,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "美AI晶片禁令升級！惠譽示警亞太AIDC融資趨緊 這類業者壓力最大",
@@ -301,7 +397,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "關稅恐跳至25%！美點名韓光州-全羅半導體聚落 三星、海力士擴產踩雷",
@@ -313,7 +409,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "〈焦點股〉GTA6熱賣帶旺PS5買氣 宏碁遊戲明年拚雙位數成長今盤中亮燈漲停",
@@ -325,7 +421,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "軟銀5年內隱含違約機率升至34.8% AI回報疑慮燒進債市",
@@ -337,7 +433,7 @@
       "categories": [
         "歐亞股"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：玉山金(2884-TW)目標價調升至47元，幅度約3.3%",
@@ -349,7 +445,7 @@
       "categories": [
         "台股預估"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "中國前10月工業企業利潤成長16%",
@@ -361,7 +457,7 @@
       "categories": [
         "大陸政經"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "中韓記憶體廠拚技術！華為新HBM介面寬度達HBM4兩倍 長鑫秀新一代DDR5",
@@ -373,7 +469,7 @@
       "categories": [
         "A股"
       ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     },
     {
       "headline": "聯嘉連5年拿TCSA台灣企業永續獎 更首度獲「性別平等領袖獎」",
@@ -385,103 +481,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795766992880
-    },
-    {
-      "headline": "〈焦點股〉GOGOLOOK有望朝一年賺一股本方向邁進 亮燈漲停",
-      "link": "https://news.cnyes.com/news/id/6673514",
-      "publishedAt": 1795743219000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1795766992880
-    },
-    {
-      "headline": "3.4%→4.3%！川普怒轟GDP數據「蓄意誤導」：為何期中大選前不早說？必須徹查",
-      "link": "https://news.cnyes.com/news/id/6673473",
-      "publishedAt": 1795742813000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1795766992880
-    },
-    {
-      "headline": "川普：已敦促俄羅斯儘快達成協議",
-      "link": "https://news.cnyes.com/news/id/6673419",
-      "publishedAt": 1795741241000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1795766992880
-    },
-    {
-      "headline": "美管制從晶片伸向「雲端後門」！ 輝達暫停向新加坡、馬來西亞、泰國與印尼供應AI伺服器",
-      "link": "https://news.cnyes.com/news/id/6673445",
-      "publishedAt": 1795741167000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1795766992880
-    },
-    {
-      "headline": "俄羅斯發動大規模襲擊 烏克蘭26處遭襲",
-      "link": "https://news.cnyes.com/news/id/6673442",
-      "publishedAt": 1795740719000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "國際政經"
-      ],
-      "fetchedAt": 1795766992880
-    },
-    {
-      "headline": "川普再談推動黃仁勳復職：他沒有問題 我為全世界做了一件大好事",
-      "link": "https://news.cnyes.com/news/id/6673444",
-      "publishedAt": 1795739422000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "美股雷達"
-      ],
-      "fetchedAt": 1795766992880
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：健策(3653-TW)EPS預估下修至65.03元，預估目標價為9025元",
-      "link": "https://news.cnyes.com/news/id/6673443",
-      "publishedAt": 1795738235000,
-      "source": "鉅亨台股",
-      "region": "TW",
-      "feedRegion": "TW",
-      "categories": [
-        "台股預估"
-      ],
-      "fetchedAt": 1795766992880
-    },
-    {
-      "headline": "鉅亨速報 - Factset 最新調查：索菲科技SOFI-US的目標價調降至20元，幅度約9.09%",
-      "link": "https://news.cnyes.com/news/id/6673380",
-      "publishedAt": 1795724121000,
-      "source": "鉅亨美股",
-      "region": "US",
-      "feedRegion": "US",
-      "categories": [
-        "美股預估"
-      ],
-      "fetchedAt": 1795766992880
+      "fetchedAt": 1795769265576
     }
   ],
   "failedSources": [],
