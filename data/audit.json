@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-27T18:51:45.710Z",
-  "expiresAt": "2026-11-27T19:36:45.710Z",
+  "checkedAt": "2026-11-27T23:20:49.277Z",
+  "expiresAt": "2026-11-28T00:05:49.277Z",
   "status": "ok",
   "scope": {
     "quotes": [
@@ -349,7 +349,7 @@
     {
       "id": "quote:^IXIC:time",
       "status": "pass",
-      "message": "^IXIC 來源時間 2026-11-27T18:50:43.000Z／交易日檢查"
+      "message": "^IXIC 來源時間 2026-11-27T19:15:59.000Z／交易日檢查"
     },
     {
       "id": "quote:^IXIC:change",
@@ -359,7 +359,7 @@
     {
       "id": "quote:^SOX:time",
       "status": "pass",
-      "message": "^SOX 來源時間 2026-11-27T18:50:44.000Z／交易日檢查"
+      "message": "^SOX 來源時間 2026-11-27T19:15:59.000Z／交易日檢查"
     },
     {
       "id": "quote:^SOX:change",
