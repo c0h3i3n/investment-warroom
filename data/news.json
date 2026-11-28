@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T18:50:51.866Z",
-  "checkedAt": 1795805451866,
+  "generatedAt": "2026-11-28T01:53:12.937Z",
+  "checkedAt": 1795830792937,
   "data": [
+    {
+      "headline": "〈美股盤後〉AI強勢回血！標普創2025年4月來最佳單周 Sandisk飆16% Anthropic重返IPO價",
+      "link": "https://news.cnyes.com/news/id/6674256",
+      "publishedAt": 1795810802000,
+      "source": "鉅亨頭條",
+      "region": "INTL",
+      "feedRegion": "INTL",
+      "categories": [
+        "美股雷達"
+      ],
+      "fetchedAt": 1795830792937
+    },
+    {
+      "headline": "鉅亨速報 - Factset 最新調查：Madrigal Pharmaceuticals Inc(MDGL-US)EPS預估下修至-2.05元，預估目標價為665.00元",
+      "link": "https://news.cnyes.com/news/id/6674275",
+      "publishedAt": 1795810532000,
+      "source": "鉅亨美股",
+      "region": "US",
+      "feedRegion": "US",
+      "categories": [
+        "美股預估"
+      ],
+      "fetchedAt": 1795830792937
+    },
     {
       "headline": "鉅亨速報 - Factset 最新調查：Regency Centers公司(REG-US)EPS預估下修至2.32元，預估目標價為84.50元",
       "link": "https://news.cnyes.com/news/id/6674249",
@@ -13,7 +37,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：KRC臨時(KIM-US)EPS預估上修至1.03元，預估目標價為26.50元",
@@ -25,7 +49,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：布里克斯摩爾房地產集團(BRX-US)EPS預估上修至1.2元，預估目標價為33.50元",
@@ -37,7 +61,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 和康電訊(MTSI-US)大漲5.29%，報210.52美元",
@@ -49,7 +73,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 科磊(KLAC-US)大漲5.01%，報140.93美元",
@@ -61,7 +85,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 泰瑞達(TER-US)大漲5.36%，報223.53美元",
@@ -73,7 +97,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 芯源系統(MPWR-US)大漲5.18%，報1256.47美元",
@@ -85,7 +109,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 英特爾(INTC-US)大漲5.33%，報57.38美元",
@@ -97,7 +121,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 英特格(ENTG-US)大漲5.09%，報134.9美元",
@@ -109,7 +133,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 萊迪思半導體(LSCC-US)大漲5.02%，報103.16美元",
@@ -121,7 +145,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 安森美半導體(ON-US)大漲5.02%，報65.62美元",
@@ -133,7 +157,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 高通(QCOM-US)大漲5.06%，報177.2美元",
@@ -145,7 +169,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 美光科技(MU-US)大漲5%，報631.33美元",
@@ -157,7 +181,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 特斯拉(TSLA-US)大漲5.01%，報399.18美元",
@@ -169,7 +193,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "〈美股早盤〉AI買盤回流主要指數走揚 標普500拚4月以來最佳單周表現",
@@ -181,7 +205,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 思佳訊半導體(SWKS-US)大漲5.11%，報86.2美元",
@@ -193,7 +217,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 特許通訊(CHTR-US)大漲5.04%，報154.69美元",
@@ -205,7 +229,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - ANSYS公司(ANSS-US)大跌5.13%，報15.26美元",
@@ -217,7 +241,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - Atlassian Corporation - Class A(TEAM-US)大漲5.01%，報151.63美元",
@@ -229,7 +253,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - Applovin Corp - Class A(APP-US)大漲5.15%，報398.45美元",
@@ -241,7 +265,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 安可(AMKR-US)大漲5.15%，報33.67美元",
@@ -253,7 +277,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 連貫(COHR-US)大漲6.89%，報209.71美元",
@@ -265,7 +289,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 邁威爾科技(MRVL-US)大漲5.65%，報138.33美元",
@@ -277,7 +301,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 福泰製藥(VRTX-US)大跌8.53%，報516.01美元",
@@ -289,7 +313,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 美卡多(MELI-US)大漲5.63%，報1549.9美元",
@@ -301,7 +325,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 安謀控股公司(ARM-US)大漲5.68%，報170.69美元",
@@ -313,7 +337,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "盤中速報 - 道瓊指數大漲1%，報50685.1點",
@@ -325,7 +349,7 @@
       "categories": [
         "美股盤中"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：Full Truck Alliance Co Ltd - ADR(YMM-US)EPS預估上修至0.73元，預估目標價為12.50元",
@@ -337,7 +361,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "惡劣天氣夾擊美國感恩節 強風豪雨釀大停電 全美數千航班延誤取消",
@@ -349,7 +373,7 @@
       "categories": [
         "美股雷達"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：箭頭製藥(ARWR-US)EPS預估下修至-6.01元，預估目標價為105.00元",
@@ -361,7 +385,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：理想汽車(LI-US)EPS預估上修至-0.53元，預估目標價為13.87元",
@@ -373,7 +397,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：AST SpaceMobile Inc - Class AASTS-US的目標價調降至48元，幅度約13.82%",
@@ -385,7 +409,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：Nebius Group N.V. Class ANBIS-US的目標價調降至223元，幅度約4.7%",
@@ -397,7 +421,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "鉅亨速報 - Factset 最新調查：高特利集團MO-US的目標價調升至82元，幅度約6.49%",
@@ -409,7 +433,7 @@
       "categories": [
         "美股預估"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "正崴看好明年AI高速線出貨續成長 算力中心需求旺租金有調漲空間",
@@ -421,7 +445,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "〈第一金法說〉築底訊號出現？估房市將逐步止跌回穩 明年房貸穩健成長5%",
@@ -433,7 +457,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "眾達-KY自結10月EPS淨損0.46元 單月虧損3200萬元",
@@ -445,7 +469,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     },
     {
       "headline": "〈第一金法說〉央行年底升息？一銀估台灣按兵不動 惟Fed明年Q1前有望升息2次",
@@ -457,31 +481,7 @@
       "categories": [
         "台股新聞"
       ],
-      "fetchedAt": 1795805451866
-    },
-    {
-      "headline": "友達華亞廠找到新買家 售予矽品處分利益估104億元",
-      "link": "https://news.cnyes.com/news/id/6674033",
-      "publishedAt": 1795778794000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1795805451866
-    },
-    {
-      "headline": "〈第一金法說〉現金股利配發保底6成！一銀喊台股修正是買點 明年SWAP上看127億",
-      "link": "https://news.cnyes.com/news/id/6673984",
-      "publishedAt": 1795776468000,
-      "source": "鉅亨頭條",
-      "region": "INTL",
-      "feedRegion": "INTL",
-      "categories": [
-        "台股新聞"
-      ],
-      "fetchedAt": 1795805451866
+      "fetchedAt": 1795830792937
     }
   ],
   "failedSources": [],
